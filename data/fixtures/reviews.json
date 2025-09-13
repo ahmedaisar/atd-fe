@@ -1,0 +1,19 @@
+[
+  {
+    "hotelId": "htl-reef-001",
+    "overall": 9.2,
+    "categories": { "cleanliness": 9.4, "location": 9.0, "service": 9.3, "value": 8.9 },
+    "reviews": [
+      { "id": "rv-1", "author": "Aisha", "rating": 10, "title": "Dreamy stay", "text": "Amazing water villa.", "travelerType": "Couple", "language": "en", "verified": true },
+      { "id": "rv-2", "author": "Kenji", "rating": 9, "title": "Great service", "text": "Staff very helpful.", "travelerType": "Family", "language": "en", "verified": true }
+    ]
+  },
+  {
+    "hotelId": "htl-bkk-002",
+    "overall": 8.5,
+    "categories": { "cleanliness": 8.6, "location": 8.8, "service": 8.2, "value": 8.5 },
+    "reviews": [
+      { "id": "rv-3", "author": "Min", "rating": 8, "title": "Good location", "text": "Near BTS.", "travelerType": "Solo", "language": "en", "verified": true }
+    ]
+  }
+]

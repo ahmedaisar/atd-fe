@@ -1,0 +1,6 @@
+[
+  { "id": "city-male", "type": "city", "name": "Malé", "country": "Maldives", "popularityScore": 96, "coordinates": { "lat": 4.1755, "lng": 73.5093 }, "image": "/placeholder.jpg" },
+  { "id": "city-bangkok", "type": "city", "name": "Bangkok", "country": "Thailand", "popularityScore": 98, "coordinates": { "lat": 13.7563, "lng": 100.5018 }, "image": "/placeholder.jpg" },
+  { "id": "landmark-marina-bay", "type": "landmark", "name": "Marina Bay Sands", "country": "Singapore", "popularityScore": 90, "coordinates": { "lat": 1.2834, "lng": 103.8607 }, "image": "/placeholder.jpg" },
+  { "id": "airport-hkt", "type": "airport", "name": "Phuket International Airport (HKT)", "country": "Thailand", "popularityScore": 85, "coordinates": { "lat": 8.1132, "lng": 98.3167 }, "image": "/placeholder.jpg" }
+]

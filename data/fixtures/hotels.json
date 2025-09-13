@@ -1,0 +1,67 @@
+[
+  {
+    "id": "htl-reef-001",
+    "name": "Azure Reef Resort",
+    "starRating": 5,
+    "location": { "city": "Malé", "country": "Maldives", "distanceFromCenterKm": 1.2, "coordinates": { "lat": 4.18, "lng": 73.51 } },
+    "review": { "score": 9.2, "count": 2143 },
+    "images": ["/placeholder.jpg"],
+    "amenities": ["WiFi", "Breakfast", "Pool", "Airport Shuttle"],
+    "policies": { "cancellation": "Free cancellation before 3 days", "checkIn": "14:00", "checkOut": "12:00" },
+    "startingPrice": { "original": 450, "current": 320, "currency": "USD", "discountPercentage": 29 },
+    "urgency": { "viewing": 5, "lastRooms": 2 },
+    "destinationId": "city-male"
+  },
+  {
+    "id": "htl-bkk-002",
+    "name": "Sukhumvit Sky Hotel",
+    "starRating": 4,
+    "location": { "city": "Bangkok", "country": "Thailand", "distanceFromCenterKm": 3.4, "coordinates": { "lat": 13.73, "lng": 100.52 } },
+    "review": { "score": 8.5, "count": 5421 },
+    "images": ["/placeholder.jpg"],
+    "amenities": ["WiFi", "Breakfast", "Parking"],
+    "policies": { "cancellation": "Free cancellation before 1 day", "checkIn": "15:00", "checkOut": "11:00" },
+    "startingPrice": { "original": 120, "current": 89, "currency": "USD", "discountPercentage": 26 },
+    "urgency": { "viewing": 12, "lastRooms": 1 },
+    "destinationId": "city-bangkok"
+  },
+  {
+    "id": "htl-mdv-003",
+    "name": "Coral Paradise Resort & Spa",
+    "starRating": 5,
+    "location": { "city": "Malé", "country": "Maldives", "distanceFromCenterKm": 25.5, "coordinates": { "lat": 4.21, "lng": 73.48 } },
+    "review": { "score": 9.4, "count": 1876 },
+    "images": ["/placeholder.jpg"],
+    "amenities": ["WiFi", "All Inclusive", "Pool", "Spa", "Water Sports", "Private Beach", "Seaplane Transfer"],
+    "policies": { "cancellation": "Free cancellation before 7 days", "checkIn": "15:00", "checkOut": "12:00" },
+    "startingPrice": { "original": 1200, "current": 980, "currency": "USD", "discountPercentage": 18 },
+    "urgency": { "viewing": 8, "lastRooms": 1 },
+    "destinationId": "city-male"
+  },
+  {
+    "id": "htl-mdv-004",
+    "name": "Sunset Island Villas",
+    "starRating": 4,
+    "location": { "city": "Malé", "country": "Maldives", "distanceFromCenterKm": 18.2, "coordinates": { "lat": 4.25, "lng": 73.55 } },
+    "review": { "score": 8.9, "count": 3241 },
+    "images": ["/placeholder.jpg"],
+    "amenities": ["WiFi", "Breakfast", "Pool", "Snorkeling", "Diving Center", "Restaurant", "Bar"],
+    "policies": { "cancellation": "Free cancellation before 5 days", "checkIn": "14:00", "checkOut": "11:00" },
+    "startingPrice": { "original": 650, "current": 520, "currency": "USD", "discountPercentage": 20 },
+    "urgency": { "viewing": 15, "lastRooms": 3 },
+    "destinationId": "city-male"
+  },
+  {
+    "id": "htl-mdv-005",
+    "name": "Lagoon Breeze Overwater Bungalows",
+    "starRating": 5,
+    "location": { "city": "Malé", "country": "Maldives", "distanceFromCenterKm": 32.1, "coordinates": { "lat": 4.15, "lng": 73.42 } },
+    "review": { "score": 9.6, "count": 892 },
+    "images": ["/placeholder.jpg"],
+    "amenities": ["WiFi", "All Inclusive", "Pool", "Spa", "Water Sports", "Private Beach", "Overwater Bungalows", "Butler Service"],
+    "policies": { "cancellation": "Free cancellation before 14 days", "checkIn": "15:00", "checkOut": "12:00" },
+    "startingPrice": { "original": 1800, "current": 1440, "currency": "USD", "discountPercentage": 20 },
+    "urgency": { "viewing": 3, "lastRooms": 1 },
+    "destinationId": "city-male"
+  }
+]

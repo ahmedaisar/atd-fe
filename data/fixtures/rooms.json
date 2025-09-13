@@ -1,0 +1,70 @@
+[
+  {
+    "hotelId": "htl-reef-001",
+    "rooms": [
+      {
+        "id": "rm-reef-deluxe",
+        "name": "Deluxe Overwater Villa",
+        "images": ["/placeholder.jpg"],
+        "sizeSqm": 80,
+        "bed": { "type": "King", "count": 1 },
+        "maxOccupancy": { "adults": 2, "children": 1 },
+        "amenities": ["Sea View", "Private Deck", "WiFi"],
+        "rates": [
+          {
+            "id": "rate-bb",
+            "name": "Bed & Breakfast",
+            "inclusions": ["Breakfast"],
+            "cancellation": "Free before 3 days",
+            "pricePerNight": 320,
+            "currency": "USD",
+            "availability": 3
+          },
+          {
+            "id": "rate-hb",
+            "name": "Half Board",
+            "inclusions": ["Breakfast", "Dinner"],
+            "cancellation": "Free before 3 days",
+            "pricePerNight": 380,
+            "currency": "USD",
+            "availability": 2
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "hotelId": "htl-bkk-002",
+    "rooms": [
+      {
+        "id": "rm-bkk-superior",
+        "name": "Superior Room",
+        "images": ["/placeholder.jpg"],
+        "sizeSqm": 28,
+        "bed": { "type": "Queen", "count": 1 },
+        "maxOccupancy": { "adults": 2, "children": 1 },
+        "amenities": ["City View", "WiFi"],
+        "rates": [
+          {
+            "id": "rate-nr",
+            "name": "Non-refundable",
+            "inclusions": ["WiFi"],
+            "cancellation": "Non-refundable",
+            "pricePerNight": 89,
+            "currency": "USD",
+            "availability": 5
+          },
+          {
+            "id": "rate-fc",
+            "name": "Free Cancellation",
+            "inclusions": ["WiFi", "Breakfast"],
+            "cancellation": "Free before 1 day",
+            "pricePerNight": 105,
+            "currency": "USD",
+            "availability": 3
+          }
+        ]
+      }
+    ]
+  }
+]
