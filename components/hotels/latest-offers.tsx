@@ -92,8 +92,8 @@ function CountdownTimer({ targetDate }: { targetDate: Date }) {
 
   return (
     <div className="flex items-center space-x-2 text-sm">
-      <Clock className="w-4 h-4 text-red-500" />
-      <span className="text-red-600 font-medium">
+      <Clock className="w-4 h-4 text-red-500 mb-4" />
+      <span className="text-red-600 font-medium mb-4">
         {timeLeft.days}d {timeLeft.hours}h {timeLeft.minutes}m {timeLeft.seconds}s
       </span>
     </div>
@@ -183,7 +183,7 @@ export function LatestOffers() {
                   </div>
 
                   <Link href={`/hotels/offers/${offer.id}`}>
-                    <Button className="w-full bg-blue-600 hover:bg-blue-700 group">
+                    <Button className="w-full bg-blue-500 hover:bg-blue-700 group ">
                       View Deal
                       <ArrowRight className="w-4 h-4 ml-2 group-hover:translate-x-1 transition-transform" />
                     </Button>

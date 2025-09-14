@@ -13,9 +13,10 @@ export default function HomePage() {
       <main>
         <HeroSection />
         <AtollsCarousel />
-        <PromotionalOffers />
-        <LatestOffers />
+        <LatestOffers />  
+        <PromotionalOffers />      
         <AdditionalServices />
+       
       </main>
       <Footer />
     </div>

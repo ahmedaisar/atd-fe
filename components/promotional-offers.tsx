@@ -98,7 +98,7 @@ export function PromotionalOffers() {
                   </div>
                   <h3 className="font-semibold text-gray-900 mb-1">{offer.title}</h3>
                   <p className="text-sm text-gray-600 mb-4">{offer.subtitle}</p>
-                  <Button size="sm" className="w-full bg-blue-600 hover:bg-blue-700">
+                  <Button size="sm" className="w-full bg-blue-500 hover:bg-blue-700">
                     {offer.buttonText}
                   </Button>
                 </CardContent>

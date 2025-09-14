@@ -172,15 +172,6 @@ export function SearchResultsHeader() {
             <Search className="w-4 h-4 mr-2" />
             Search
           </Button>
-
-          <Button
-            variant="outline"
-            className="lg:hidden bg-transparent"
-            onClick={() => setShowMobileFilters(!showMobileFilters)}
-          >
-            <SlidersHorizontal className="w-4 h-4 mr-2" />
-            Filters
-          </Button>
         </div>
       </div>
     </div>

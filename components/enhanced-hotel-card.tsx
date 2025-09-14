@@ -61,51 +61,58 @@ function getOfferIcon(flagKey: string) {
     hotelId?: string | number;
   }) {
   return (
-  <div className={`relative flex flex-col md:flex-row items-center gap-3 md:gap-4 p-3 md:p-4 rounded-lg border bg-white shadow-sm mb-3 ${isHero ? 'ring-2 ring-blue-500 bg-gradient-to-br from-blue-50 to-white' : ''}`}>
-      <div className="flex items-center gap-3 min-w-0 flex-1 w-full">
-        <div className="w-12 h-8 relative bg-gray-100 rounded flex items-center justify-center flex-shrink-0 border border-gray-200">
-          <Image src={offer.partner_logo} alt={offer.partner_name} width={48} height={32} className="max-w-full max-h-full object-contain rounded" />
+  <div className={`relative p-3 md:p-4 rounded-lg border bg-white shadow-sm mb-3 ${isHero ? 'ring-2 ring-blue-500 bg-gradient-to-br from-blue-50 to-white' : ''}`}>
+      {/* Header: Logo + Partner/Badge on left, Price on right */}
+      <div className="flex items-start justify-between gap-3">
+        <div className="flex items-center gap-3 min-w-0">
+          <div className="w-12 h-8 relative bg-gray-100 rounded flex items-center justify-center flex-shrink-0 border border-gray-200">
+            <Image src={offer.partner_logo} alt={offer.partner_name} width={48} height={32} className="max-w-full max-h-full object-contain rounded" />
+          </div>
+          <div className="min-w-0">
+            <div className="font-bold text-sm md:text-base text-gray-800 line-clamp-1 flex items-center gap-2">
+              {offer.partner_name}
+              {rank <= 3 && (
+                <span className={`ml-1 md:ml-2 px-1.5 md:px-2 py-0.5 rounded text-[10px] md:text-xs flex items-center gap-1 ${rank === 1 ? 'bg-yellow-500 text-white' : rank === 2 ? 'bg-gray-400 text-white' : 'bg-orange-500 text-white'}`}>
+                  <Award className="w-3 h-3" />#{rank} Best Price
+                </span>
+              )}
+            </div>
+            <div className="text-[11px] md:text-xs text-gray-500 line-clamp-2">{offer.room_name}</div>
+          </div>
         </div>
-        <div className="min-w-0 flex-1">
-          <div className="font-bold text-sm md:text-base text-gray-800 truncate flex items-center gap-2">
-            {offer.partner_name}
-            {rank <= 3 && (
-              <span className={`ml-2 px-1.5 md:px-2 py-0.5 rounded text-[10px] md:text-xs flex items-center gap-1 ${rank === 1 ? 'bg-yellow-500 text-white' : rank === 2 ? 'bg-gray-400 text-white' : 'bg-orange-500 text-white'}`}>
-                <Award className="w-3 h-3" />#{rank} Best Price
-              </span>
-            )}
-          </div>
-          <div className="text-[11px] md:text-xs text-gray-500 truncate">{offer.room_name}</div>
-          <div className="flex flex-wrap gap-1.5 md:gap-2 mt-1">
-            {offer.offer_flags_new && Object.entries(offer.offer_flags_new).map(([key, value]) => (
-              <span key={key} className="inline-flex items-center gap-1 text-[10px] md:text-xs text-blue-700 bg-blue-50 rounded px-1.5 md:px-2 py-0.5 whitespace-nowrap">
-                {getOfferIcon(key)}
-                {value}
-              </span>
-            ))}
-          </div>
+        <div className="text-right shrink-0">
+          {savings && savings > 5 && (
+            <div className="bg-green-100 text-green-700 text-[10px] md:text-xs px-2 py-0.5 rounded mb-1 inline-block">{savings}% OFF</div>
+          )}
+          <div className="text-xl md:text-2xl font-bold text-blue-700">${offer.price}</div>
         </div>
       </div>
-  <div className="flex w-full md:w-auto flex-col items-end md:items-end gap-2">
-        {savings && savings > 5 && (
-          <span className="bg-green-100 text-green-700 text-[10px] md:text-xs px-2 py-0.5 rounded mb-1 self-start md:self-auto">{savings}% OFF</span>
+
+      {/* Flags */}
+      <div className="flex flex-wrap gap-1.5 md:gap-2 mt-2">
+        {offer.offer_flags_new && Object.entries(offer.offer_flags_new).map(([key, value]) => (
+          <span key={key} className="inline-flex items-center gap-1 text-[10px] md:text-xs text-blue-700 bg-blue-50 rounded px-1.5 md:px-2 py-0.5 whitespace-nowrap">
+            {getOfferIcon(key)}
+            {value}
+          </span>
+        ))}
+      </div>
+
+      {/* Actions */}
+      <div className="flex gap-2 mt-3">
+        <button
+          onClick={() => onBookClick(offer)}
+          className="bg-blue-600 hover:bg-blue-700 text-white px-4 py-2 rounded text-sm flex items-center gap-1 w-full justify-center"
+        >
+          Book <ExternalLink className="w-4 h-4" />
+        </button>
+        {showDetailsBtn && hotelId && (
+          <a href={`/hotel/${hotelId}`} target="_blank" rel="noopener noreferrer" className="w-full">
+            <button className="bg-gray-100 hover:bg-gray-200 text-blue-700 px-4 py-2 rounded text-sm border border-blue-200 flex items-center gap-1 w-full justify-center">
+              View Details
+            </button>
+          </a>
         )}
-        <div className="text-xl md:text-lg font-bold text-blue-700">${offer.price}</div>
-        <div className="flex gap-2 w-full md:w-auto">
-          <button
-            onClick={() => onBookClick(offer)}
-            className="bg-blue-600 hover:bg-blue-700 text-white px-4 py-1.5 rounded text-sm flex items-center gap-1 w-full md:w-auto justify-center"
-          >
-            Book <ExternalLink className="w-4 h-4" />
-          </button>
-          {showDetailsBtn && hotelId && (
-            <a href={`/hotel/${hotelId}`} target="_blank" rel="noopener noreferrer">
-              <button className="bg-gray-100 hover:bg-gray-200 text-blue-700 px-4 py-1.5 rounded text-sm border border-blue-200 flex items-center gap-1 w-full md:w-auto justify-center mt-0">
-                View Details
-              </button>
-            </a>
-          )}
-        </div>
       </div>
     </div>
   );
@@ -183,10 +190,10 @@ export function EnhancedHotelCard({ hotel, viewMode }: EnhancedHotelCardProps) {
               className="object-cover"
             />
             <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent opacity-0 hover:opacity-100 transition-opacity duration-300"></div>
-            <div className="absolute bottom-0 left-0 right-0 p-2 flex justify-between items-center">
+            <div className="absolute bottom-0 left-0 right-0 p-2 flex justify-between items-center pointer-events-none">
               <button 
                 onClick={prevImage} 
-                className="p-1 bg-white/70 rounded-full hover:bg-white"
+                className="p-1 bg-white/70 rounded-full hover:bg-white pointer-events-auto"
                 aria-label="Previous image"
               >
                 <ChevronDown className="w-4 h-4 rotate-90" />
@@ -196,7 +203,7 @@ export function EnhancedHotelCard({ hotel, viewMode }: EnhancedHotelCardProps) {
               </span>
               <button 
                 onClick={nextImage} 
-                className="p-1 bg-white/70 rounded-full hover:bg-white"
+                className="p-1 bg-white/70 rounded-full hover:bg-white pointer-events-auto"
                 aria-label="Next image"
               >
                 <ChevronDown className="w-4 h-4 -rotate-90" />
@@ -341,9 +348,9 @@ export function EnhancedHotelCard({ hotel, viewMode }: EnhancedHotelCardProps) {
   // List view layout with OfferCard style for offers expansion
   return (
     <Card className="overflow-hidden hover:shadow-lg transition-all duration-300">
-      <div className="flex flex-col md:flex-row">
-        <div className="relative w-full md:w-1/3 lg:w-1/4">
-          <div className="relative h-44 md:h-full overflow-hidden">
+      <div className="flex flex-col md:flex-row items-stretch">
+  <div className="relative w-full md:w-1/3 lg:w-1/4 md:self-stretch md:flex-shrink-0">
+          <div className="relative h-44 md:h-full md:min-h-[280px] overflow-hidden">
             <Image
               src={imageUrls[currentImageIndex] || "/placeholder.svg"}
               alt={hotel.name}

@@ -6,6 +6,7 @@ import { Footer } from "@/components/footer"
 import { AdvancedSearchFilters } from "@/components/advanced-search-filters"
 import { Button } from "@/components/ui/button"
 import { Sheet, SheetContent, SheetHeader, SheetTitle, SheetTrigger } from "@/components/ui/sheet"
+import MobileSort from "@/components/mobile-sort"
 import { SearchResultsSkeleton, FiltersSkeletonSidebar } from "@/components/search-results-skeleton"
 
 // Types for search params and results
@@ -142,22 +143,27 @@ export default async function SearchResultsPage({
         <SearchResultsHeader />
         {/* Mobile filters trigger */}
         <div className="lg:hidden sticky top-0 z-30 bg-gray-50/80 backdrop-blur supports-[backdrop-filter]:bg-gray-50/60 border-b">
-          <div className="max-w-7xl mx-auto px-4 py-3 flex items-center gap-2">
-            <Sheet>
-              <SheetTrigger asChild>
-                <Button variant="outline" className="w-full">Filters</Button>
-              </SheetTrigger>
-              <SheetContent side="left" className="w-full sm:max-w-md p-0">
-                <SheetHeader className="px-4 py-3 border-b">
-                  <SheetTitle>Filters</SheetTitle>
-                </SheetHeader>
-                <div className="h-[calc(100vh-56px)] overflow-auto p-4">
-                  <Suspense fallback={<FiltersSkeletonSidebar />}>
-                    <FiltersSidebar searchParams={typedParams} />
-                  </Suspense>
-                </div>
-              </SheetContent>
-            </Sheet>
+          <div className="max-w-7xl mx-auto px-4 py-3 grid grid-cols-2 gap-2">
+            <div>
+              <MobileSort />
+            </div>
+            <div>
+              <Sheet>
+                <SheetTrigger asChild>
+                  <Button variant="outline" className="w-full">Filters</Button>
+                </SheetTrigger>
+                <SheetContent side="left" className="w-full sm:max-w-md p-0">
+                  <SheetHeader className="px-4 py-3 border-b">
+                    <SheetTitle>Filters</SheetTitle>
+                  </SheetHeader>
+                  <div className="h-[calc(100vh-56px)] overflow-auto p-4">
+                    <Suspense fallback={<FiltersSkeletonSidebar />}>
+                      <FiltersSidebar searchParams={typedParams} />
+                    </Suspense>
+                  </div>
+                </SheetContent>
+              </Sheet>
+            </div>
           </div>
         </div>
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6">
