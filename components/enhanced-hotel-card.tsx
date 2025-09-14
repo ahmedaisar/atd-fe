@@ -61,24 +61,24 @@ function getOfferIcon(flagKey: string) {
     hotelId?: string | number;
   }) {
   return (
-  <div className={`relative flex flex-col md:flex-row items-center gap-4 p-4 rounded-lg border bg-white shadow-sm mb-3 ${isHero ? 'ring-2 ring-blue-500 bg-gradient-to-br from-blue-50 to-white' : ''}`}>
-      <div className="flex items-center gap-3 min-w-0 flex-1">
+  <div className={`relative flex flex-col md:flex-row items-center gap-3 md:gap-4 p-3 md:p-4 rounded-lg border bg-white shadow-sm mb-3 ${isHero ? 'ring-2 ring-blue-500 bg-gradient-to-br from-blue-50 to-white' : ''}`}>
+      <div className="flex items-center gap-3 min-w-0 flex-1 w-full">
         <div className="w-12 h-8 relative bg-gray-100 rounded flex items-center justify-center flex-shrink-0 border border-gray-200">
           <Image src={offer.partner_logo} alt={offer.partner_name} width={48} height={32} className="max-w-full max-h-full object-contain rounded" />
         </div>
         <div className="min-w-0 flex-1">
-          <div className="font-bold text-base text-gray-800 truncate flex items-center gap-2">
+          <div className="font-bold text-sm md:text-base text-gray-800 truncate flex items-center gap-2">
             {offer.partner_name}
             {rank <= 3 && (
-              <span className={`ml-2 px-2 py-0.5 rounded text-xs flex items-center gap-1 ${rank === 1 ? 'bg-yellow-500 text-white' : rank === 2 ? 'bg-gray-400 text-white' : 'bg-orange-500 text-white'}`}>
+              <span className={`ml-2 px-1.5 md:px-2 py-0.5 rounded text-[10px] md:text-xs flex items-center gap-1 ${rank === 1 ? 'bg-yellow-500 text-white' : rank === 2 ? 'bg-gray-400 text-white' : 'bg-orange-500 text-white'}`}>
                 <Award className="w-3 h-3" />#{rank} Best Price
               </span>
             )}
           </div>
-          <div className="text-xs text-gray-500 truncate">{offer.room_name}</div>
-          <div className="flex flex-wrap gap-2 mt-1">
+          <div className="text-[11px] md:text-xs text-gray-500 truncate">{offer.room_name}</div>
+          <div className="flex flex-wrap gap-1.5 md:gap-2 mt-1">
             {offer.offer_flags_new && Object.entries(offer.offer_flags_new).map(([key, value]) => (
-              <span key={key} className="inline-flex items-center gap-1 text-xs text-blue-700 bg-blue-50 rounded px-2 py-0.5">
+              <span key={key} className="inline-flex items-center gap-1 text-[10px] md:text-xs text-blue-700 bg-blue-50 rounded px-1.5 md:px-2 py-0.5 whitespace-nowrap">
                 {getOfferIcon(key)}
                 {value}
               </span>
@@ -86,21 +86,21 @@ function getOfferIcon(flagKey: string) {
           </div>
         </div>
       </div>
-  <div className="flex flex-col items-end gap-2">
+  <div className="flex w-full md:w-auto flex-col items-end md:items-end gap-2">
         {savings && savings > 5 && (
-          <span className="bg-green-100 text-green-700 text-xs px-2 py-0.5 rounded mb-1">{savings}% OFF</span>
+          <span className="bg-green-100 text-green-700 text-[10px] md:text-xs px-2 py-0.5 rounded mb-1 self-start md:self-auto">{savings}% OFF</span>
         )}
-        <div className="text-lg font-bold text-blue-700">${offer.price}</div>
-        <div className="flex gap-2">
+        <div className="text-xl md:text-lg font-bold text-blue-700">${offer.price}</div>
+        <div className="flex gap-2 w-full md:w-auto">
           <button
             onClick={() => onBookClick(offer)}
-            className="bg-blue-600 hover:bg-blue-700 text-white px-4 py-1.5 rounded text-sm flex items-center gap-1"
+            className="bg-blue-600 hover:bg-blue-700 text-white px-4 py-1.5 rounded text-sm flex items-center gap-1 w-full md:w-auto justify-center"
           >
             Book <ExternalLink className="w-4 h-4" />
           </button>
           {showDetailsBtn && hotelId && (
             <a href={`/hotel/${hotelId}`} target="_blank" rel="noopener noreferrer">
-              <button className="bg-gray-100 hover:bg-gray-200 text-blue-700 px-4 py-1.5 rounded text-sm border border-blue-200 flex items-center gap-1">
+              <button className="bg-gray-100 hover:bg-gray-200 text-blue-700 px-4 py-1.5 rounded text-sm border border-blue-200 flex items-center gap-1 w-full md:w-auto justify-center mt-0">
                 View Details
               </button>
             </a>
@@ -220,20 +220,20 @@ export function EnhancedHotelCard({ hotel, viewMode }: EnhancedHotelCardProps) {
             )}
           </div>
         </div>
-        <CardContent className="p-4">
-          <h3 className="font-semibold text-lg line-clamp-2">{hotel.name}</h3>
+        <CardContent className="p-3 md:p-4">
+          <h3 className="font-semibold text-base md:text-lg line-clamp-2">{hotel.name}</h3>
           <div className="flex items-center space-x-2 text-sm text-gray-600 mt-2">
             <MapPin className="w-4 h-4" />
             <span>{hotel.location}</span>
           </div>
-          <div className="flex items-center space-x-2 mt-2">
+          <div className="flex items-center space-x-2 mt-1 md:mt-2">
             <div className="flex items-center space-x-1">
               <Star className="w-4 h-4 fill-yellow-400 text-yellow-400" />
               <span className="font-medium">{hotel.rating}</span>
             </div>
             <span className="text-sm text-gray-600">({hotel.reviewCount} reviews)</span>
           </div>
-          <div className="flex flex-wrap gap-2 mt-3">
+          <div className="flex flex-wrap gap-1.5 md:gap-2 mt-2 md:mt-3">
             {hotel.freeCancellation && (
               <Badge variant="outline" className="text-xs text-green-600 border-green-200">
                 <Shield className="w-3 h-3 mr-1" />
@@ -266,28 +266,28 @@ export function EnhancedHotelCard({ hotel, viewMode }: EnhancedHotelCardProps) {
               })}
             </div>
           )}
-          <div className="flex items-end justify-between mt-4 pt-3 border-t">
+          <div className="flex items-end justify-between mt-3 md:mt-4 pt-3 border-t">
             <div>
               {hotel.originalPrice && (
                 <span className="text-gray-500 line-through text-sm">${hotel.originalPrice}</span>
               )}
               <div className="flex items-baseline space-x-1">
-                <span className="text-2xl font-bold text-blue-600">${hotel.price}</span>
-                <span className="text-sm text-gray-600">/night</span>
+                <span className="text-xl md:text-2xl font-bold text-blue-600">${hotel.price}</span>
+                <span className="text-xs md:text-sm text-gray-600">/night</span>
               </div>
             </div>
           </div>
           {/* Expandable offers section - OfferCard style */}
-          <div className="mt-4">
+          <div className="mt-3 md:mt-4">
             <Collapsible>
               <div className="flex items-center justify-between border-b pb-2">
                 <div className="font-medium text-sm">Best Offer</div>
-                <div className="flex items-center gap-2">
+                <div className="flex items-center gap-1.5 md:gap-2">
                   <Link href={`/hotel/${hotel.id}`}>
-                    <Button variant="outline" size="sm" className="text-xs">Hotel Details</Button>
+                    <Button variant="outline" size="sm" className="text-[11px] md:text-xs px-2 md:px-3">Hotel Details</Button>
                   </Link>
                   <CollapsibleTrigger asChild>
-                    <Button variant="ghost" size="sm" className="text-xs">
+                    <Button variant="ghost" size="sm" className="text-[11px] md:text-xs px-2 md:px-3">
                       View All Offers
                       <ChevronDown className="w-3 h-3 ml-1" />
                     </Button>
@@ -343,7 +343,7 @@ export function EnhancedHotelCard({ hotel, viewMode }: EnhancedHotelCardProps) {
     <Card className="overflow-hidden hover:shadow-lg transition-all duration-300">
       <div className="flex flex-col md:flex-row">
         <div className="relative w-full md:w-1/3 lg:w-1/4">
-          <div className="relative h-48 md:h-full overflow-hidden">
+          <div className="relative h-44 md:h-full overflow-hidden">
             <Image
               src={imageUrls[currentImageIndex] || "/placeholder.svg"}
               alt={hotel.name}
@@ -389,7 +389,7 @@ export function EnhancedHotelCard({ hotel, viewMode }: EnhancedHotelCardProps) {
           </div>
         </div>
 
-        <div className="flex-1 p-4">
+  <div className="flex-1 p-3 md:p-4">
           <div className="flex flex-col md:flex-row md:justify-between">
             <div>
               <h3 className="font-semibold text-lg md:text-xl">{hotel.name}</h3>
@@ -415,7 +415,7 @@ export function EnhancedHotelCard({ hotel, viewMode }: EnhancedHotelCardProps) {
               </div>
             </div>
           </div>
-          <div className="flex flex-wrap gap-2 mt-3">
+          <div className="flex flex-wrap gap-1.5 md:gap-2 mt-2 md:mt-3">
             {hotel.freeCancellation && (
               <Badge variant="outline" className="text-xs text-green-600 border-green-200">
                 <Shield className="w-3 h-3 mr-1" />
@@ -454,17 +454,17 @@ export function EnhancedHotelCard({ hotel, viewMode }: EnhancedHotelCardProps) {
             )}
           </div>
           {/* Expandable offers section - OfferCard style */}
-          <div className="mt-4">
+          <div className="mt-3 md:mt-4">
             <Collapsible>
               <div className="flex items-center justify-between border-b pb-2">
                 <div className="font-medium text-sm">Best Offer</div>
                 
-                <div className="flex items-center gap-2">
+                <div className="flex items-center gap-1.5 md:gap-2">
                   <Link href={`/hotel/${hotel.id}`}>
-                    <Button variant="outline" size="sm" className="text-xs">Hotel Details</Button>
+                    <Button variant="outline" size="sm" className="text-[11px] md:text-xs px-2 md:px-3">Hotel Details</Button>
                   </Link>
                   <CollapsibleTrigger asChild>
-                    <Button variant="ghost" size="sm" className="text-xs">
+                    <Button variant="ghost" size="sm" className="text-[11px] md:text-xs px-2 md:px-3">
                       View All Offers
                       <ChevronDown className="w-3 h-3 ml-1" />
                     </Button>

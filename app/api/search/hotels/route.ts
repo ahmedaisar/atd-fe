@@ -9,17 +9,18 @@ export async function GET(req: NextRequest) {
   const file = await fs.readFile(filePath, 'utf-8');
   const apiRes = JSON.parse(file);
 
-  // Map filters from the sample API response
+  // Map filters, hotels, and meta from the sample API response
   const filters = apiRes.data?.filters || {};
-  // Map hotels from the sample API response
   const hotels = apiRes.data?.records || [];
+  const meta = apiRes.data?.meta || {};
 
-  // Compose the response in the expected format
+  // Compose the response in the expected format, including meta
   const res = {
     _meta: apiRes._meta,
     data: {
       records: hotels,
       filters,
+      meta, // <-- include meta for atoll counts
       query: apiRes.data?.query || {},
     },
   };
