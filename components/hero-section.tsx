@@ -17,18 +17,16 @@ export function HeroSection() {
   ]
 
   return (
-    <section className="relative bg-gradient-to-br from-blue-500 via-blue-600 to-teal-500 text-white">
+    <section className="relative  lg:h-[400px] bg-[url('/mv-header.jpg')] bg-cover text-white">
       <div className="absolute inset-0 bg-black/10"></div>
       <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 lg:py-20">
         <div className="text-center mb-8">
-          <h1 className="text-3xl lg:text-5xl font-bold mb-4">Same Destination, Better Rates</h1>
-          <p className="text-lg lg:text-xl text-blue-100 max-w-2xl mx-auto">
-            Search, Compare & book at the best prices!
-          </p>
+          <h1 className="text-2xl lg:text-4xl font-bold mb-2 text-shadow-lg">Same Destination, Better Rates</h1>
+          <p className="text-1xs lg:text-xl font-bold text-white-100 text-shadow-lg max-w-2xl mx-auto ">Search, compare & book at the best prices!</p>
         </div>
 
         {/* Search Tabs */}
-        <div className="max-w-4xl mx-auto">
+        <div className="max-w-4xl mx-3 lg:mx-auto">
           {/* <div className="flex flex-wrap justify-center mb-6">
             {tabs.map((tab) => {
               const Icon = tab.icon

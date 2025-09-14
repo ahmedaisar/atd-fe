@@ -6,7 +6,9 @@
   .text-balance {
     text-wrap: balance;
   }
+   
 }
+
 
 @layer base {
   :root {
@@ -89,4 +91,6 @@
   body {
     @apply bg-background text-foreground;
   }
+
+
 }
