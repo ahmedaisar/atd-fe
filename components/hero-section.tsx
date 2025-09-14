@@ -11,9 +11,9 @@ export function HeroSection() {
   const [destination, setDestination] = useState("")
 
   const tabs = [
-    { id: "hotels", label: "Hotels", icon: MapPin },
-    { id: "flights", label: "Flights", icon: Plane },
-    { id: "activities", label: "Activities", icon: Activity },
+    { id: "hotels", label: "Hotels", icon: MapPin }
+    // { id: "flights", label: "Flights", icon: Plane },
+    // { id: "activities", label: "Activities", icon: Activity },
   ]
 
   return (
@@ -29,7 +29,7 @@ export function HeroSection() {
 
         {/* Search Tabs */}
         <div className="max-w-4xl mx-auto">
-          <div className="flex flex-wrap justify-center mb-6">
+          {/* <div className="flex flex-wrap justify-center mb-6">
             {tabs.map((tab) => {
               const Icon = tab.icon
               return (
@@ -45,7 +45,7 @@ export function HeroSection() {
                 </button>
               )
             })}
-          </div>
+          </div> */}
 
           <EnhancedSearch />
         </div>
