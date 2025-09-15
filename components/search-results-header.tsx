@@ -6,7 +6,7 @@ import { Button } from "@/components/ui/button"
 import { Input } from "@/components/ui/input"
 import { Popover, PopoverContent, PopoverTrigger } from "@/components/ui/popover"
 import { DayPicker } from "react-day-picker"
-import { Search, CalendarIcon, Users, MapPin, X, TrendingUp, Star } from "lucide-react"
+import { Search, CalendarIcon, Users, MapPin, X, TrendingUp, Pencil, ArrowUpNarrowWide } from "lucide-react"
 import { format, addDays } from "date-fns"
 import { useDebounce } from "@/hooks/use-debounce"
 
@@ -167,10 +167,77 @@ export function SearchResultsHeader() {
     router.push(`/search?${params.toString()}`)
   }
 
+  // Mobile summary state only
+  const [isEditingMobile, setIsEditingMobile] = useState(false)
+  const dateRangeLabel = useMemo(() => {
+    if (!checkIn || !checkOut) return 'Add dates'
+    return `${format(checkIn,'MMM d')} - ${format(checkOut,'MMM d')}`
+  }, [checkIn, checkOut])
+  const guestsLabel = useMemo(() => {
+    const total = adults + children
+    return `${total} traveler${total!==1?'s':''}, ${rooms} room${rooms!==1?'s':''}`
+  }, [adults, children, rooms])
+  const compactDestination = destination || destinationParam || 'Destination'
+  const propertyCountLabel = 'We have found 300+ Hotels in Maldives'
+  // Map chip keys to actual sort param values expected by backend
+  const sortKeyToParam: Record<string,string> = {
+    popular: 'recommended',
+    price: 'price',
+    guestRating: 'rating',
+    amenities: 'amenities',
+    themes: 'themes'
+  }
+  const sortParam = sp.get('sort') || 'recommended'
+  // Reverse map to chip key (default to 'popular' when recommended)
+  const paramToSortKey: Record<string,string> = Object.fromEntries(Object.entries(sortKeyToParam).map(([k,v])=>[v,k]))
+  const derivedActiveSortKey = paramToSortKey[sortParam] || 'popular'
+  const [activeSort, setActiveSort] = useState(derivedActiveSortKey)
+  // Keep activeSort in sync with URL changes (back/forward navigation)
+  useEffect(() => {
+    if (activeSort !== derivedActiveSortKey) setActiveSort(derivedActiveSortKey)
+  }, [derivedActiveSortKey])
+  const [activeFilter, setActiveFilter] = useState('popular')
+  const filterChips = [
+    { key: '$', label: '$', inactive: true },
+    { key: 'popular', label: 'Popular' },
+    { key: 'price', label: 'Price' },
+    { key: 'guestRating', label: 'Guest rating' },
+    { key: 'amenities', label: 'Amenities' },
+    { key: 'themes', label: 'Themes' }
+  ]
+  // Carousel refs/state for mobile chips
+  const chipsScrollRef = useRef<HTMLDivElement | null>(null)
+  const [canScrollLeft, setCanScrollLeft] = useState(false)
+  const [canScrollRight, setCanScrollRight] = useState(false)
+
+  const updateChipScrollState = () => {
+    const el = chipsScrollRef.current
+    if (!el) return
+    setCanScrollLeft(el.scrollLeft > 4)
+    setCanScrollRight(el.scrollLeft + el.clientWidth < el.scrollWidth - 4)
+  }
+
+  useEffect(() => {
+    updateChipScrollState()
+    const el = chipsScrollRef.current
+    if (!el) return
+    const handle = () => updateChipScrollState()
+    el.addEventListener('scroll', handle, { passive: true })
+    window.addEventListener('resize', handle)
+    return () => { el.removeEventListener('scroll', handle); window.removeEventListener('resize', handle) }
+  }, [])
+
+  const scrollChips = (dir: 1 | -1) => {
+    const el = chipsScrollRef.current
+    if (!el) return
+    const amount = Math.round(el.clientWidth * 0.65) * dir
+    el.scrollBy({ left: amount, behavior: 'smooth' })
+  }
+
   return (
     <div className="bg-white border-b shadow-sm">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-3">
-        {/* Desktop */}
+        {/* Desktop (original, unchanged) */}
         <div className="hidden md:flex items-stretch bg-white border-2 border-black-600 rounded-md h-14 relative">
           {/* Destination */}
           <div ref={whereWrapperRef} className="flex-1 flex flex-col justify-center px-4 cursor-text" onClick={() => { setShowDestinationSuggestions(true) }}>
@@ -302,10 +369,62 @@ export function SearchResultsHeader() {
             <Button onClick={handleSearch} className="h-10 px-6 border-black-600 hover:bg-gold-100 text-white text-sm font-medium"> <Search className="w-4 h-4 mr-2" /> Search</Button>
           </div>
         </div>
-        {/* Mobile */}
-        <div className="md:hidden  rounded-md p-3 space-y-3">{/* mobile container */}
-          {/* Destination row */}
-      <div className="relative" ref={mobileDestRef}>
+        {/* Mobile summary card */}
+        <div className="md:hidden">
+          {!isEditingMobile && (
+            <>
+              <div className="inline-flex flex-col gap-2 bg-white border border-gray-300 shadow-sm rounded-xl px-4 pt-3 pb-3 w-full">
+                <div className="flex items-start justify-between">
+                  <h2 className="text-[15px] font-semibold leading-tight tracking-tight text-gray-900 truncate max-w-[80%]">{compactDestination}</h2>
+                  <button aria-label="Edit search" onClick={()=>setIsEditingMobile(true)} className="p-1 text-gray-500 hover:text-gray-800"><Pencil className="w-4 h-4"/></button>
+                </div>
+                <div className="text-[11px] font-medium text-gray-600 flex flex-wrap gap-1">
+                  <span>{dateRangeLabel}</span>
+                  <span className="px-1 text-gray-400">|</span>
+                  <span>{guestsLabel}</span>
+                </div>
+              </div>
+              {/* Mobile sort/filter chips */}
+              <div className="mt-4 px-2 relative">
+                <div className="pointer-events-none absolute inset-y-0 left-0 w-6 from-white to-transparent bg-gradient-to-r" />
+                <div className="pointer-events-none absolute inset-y-0 right-0 w-6 from-white to-transparent bg-gradient-to-l" />
+                <div className="flex items-center gap-2 overflow-x-auto pb-1 -ml-1 pr-2 text-[11px] scroll-smooth snap-x snap-mandatory scrollbar-hide">
+                  <button
+                    aria-label="Open filters"
+                    onClick={() => {
+                      const trigger = document.getElementById('mobile-filters-trigger') as HTMLButtonElement | null
+                      if (trigger) trigger.click()
+                    }}
+                    className="px-3 h-7 flex-shrink-0 inline-flex items-center rounded-full border font-medium bg-gray-900 border-gray-900 text-white transition-colors snap-start"
+                  >
+                    Filters
+                  </button>
+      {['popular','price','guestRating','amenities','themes'].map(key => (
+                    <button
+                      key={key}
+                      aria-label={`Sort by ${key}`}
+                      onClick={() => {
+        if (activeSort === key) return
+        setActiveSort(key)
+        const params = new URLSearchParams(sp.toString())
+        params.set('sort', sortKeyToParam[key] || 'recommended')
+        router.push(`/search?${params.toString()}`)
+                      }}
+                      className={`px-3 h-7 flex-shrink-0 inline-flex items-center rounded-full border font-medium transition-colors snap-start ${activeSort === key ? 'bg-gold-100 border-gold-100 text-white' : 'border-gray-300 text-gray-700 hover:border-gray-400'}`}
+                    >
+            <ArrowUpNarrowWide className="w-3.5 h-3.5 mr-1" />
+            {key === 'guestRating' ? 'Guest rating' : key.charAt(0).toUpperCase() + key.slice(1)}
+                    </button>
+                  ))}
+                </div>
+                <div className="text-[11px] text-gray-500 font-medium mt-1">{propertyCountLabel}</div>
+              </div>
+            </>
+          )}
+          {isEditingMobile && (
+            <div className="rounded-md p-3 space-y-3 border border-gray-200 mt-3">{/* mobile edit container */}
+              {/* Destination row */}
+              <div className="relative" ref={mobileDestRef}>
             <MapPin className="w-4 h-4 text-gray-500 absolute left-3 top-1/2 -translate-y-1/2 pointer-events-none" />
             <Input
               aria-label="Destination"
@@ -404,7 +523,12 @@ export function SearchResultsHeader() {
               </PopoverContent>
             </Popover>
           </div>
-          <Button onClick={handleSearch} className="w-full h-11 bg-black-100 hover:bg-white-100 text-white text-sm font-medium"><Search className="w-4 h-4 mr-2"/>Search</Button>
+          <div className="flex gap-2 pt-1">
+            <Button variant="outline" className="flex-1 h-11" onClick={()=>setIsEditingMobile(false)}>Cancel</Button>
+            <Button onClick={()=>{ handleSearch(); setIsEditingMobile(false) }} className="flex-1 h-11 bg-black-100 hover:bg-white-100 text-white text-sm font-medium"><Search className="w-4 h-4 mr-2"/>Search</Button>
+          </div>
+        </div>
+        )}
         </div>
       </div>
     </div>
