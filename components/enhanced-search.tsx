@@ -1,6 +1,6 @@
 "use client"
 
-import { useState, useEffect, useMemo } from "react"
+import { useState, useEffect, useMemo, useRef } from "react"
 import { useRouter } from "next/navigation"
 import { Button } from "@/components/ui/button"
 import { Input } from "@/components/ui/input"
@@ -36,6 +36,7 @@ interface RecentSearch {
 }
 
 interface PopularDestination {
+  id?: string
   name: string
   country: string
   image: string
@@ -56,11 +57,73 @@ export function EnhancedSearch() {
 
   const [recentSearches, setRecentSearches] = useState<RecentSearch[]>([])
   const [showDestinationSuggestions, setShowDestinationSuggestions] = useState(false)
-  const [showGuestSelector, setShowGuestSelector] = useState(false)
+  // Desktop suggestions (fixed positioned). For mobile we now use a separate state to avoid Popover focus issues.
+  const [showDestinationSuggestionsMobile, setShowDestinationSuggestionsMobile] = useState(false)
+  const [showGuestSelector, setShowGuestSelector] = useState(false) // mobile
+  const [showGuestSelectorDesktop, setShowGuestSelectorDesktop] = useState(false)
   const [destinationInput, setDestinationInput] = useState("")
   const debouncedQuery = useDebounce(destinationInput, 250)
   const [apiSuggestions, setApiSuggestions] = useState<Array<{ id: string; name: string; country: string }>>([])
   const [highlightIndex, setHighlightIndex] = useState<number>(-1)
+  const destinationInputRef = useRef<HTMLInputElement | null>(null)
+  const whereWrapperRef = useRef<HTMLDivElement | null>(null)
+  const mobileWhereRef = useRef<HTMLDivElement | null>(null)
+  const [desktopSuggestPos, setDesktopSuggestPos] = useState<{ left: number; top: number; width: number } | null>(null)
+  const [isDesktop, setIsDesktop] = useState(false)
+
+  // Track desktop breakpoint to avoid rendering mobile popover portal on desktop
+  useEffect(() => {
+    const mq = window.matchMedia('(min-width: 1024px)')
+    const handler = () => setIsDesktop(mq.matches)
+    handler()
+    mq.addEventListener('change', handler)
+    return () => mq.removeEventListener('change', handler)
+  }, [])
+
+  // Close desktop suggestions on outside click
+  useEffect(() => {
+    function handleDocMouseDown(e: MouseEvent) {
+      if (whereWrapperRef.current && !whereWrapperRef.current.contains(e.target as Node)) {
+        setShowDestinationSuggestions(false)
+        setHighlightIndex(-1)
+      }
+    }
+    document.addEventListener('mousedown', handleDocMouseDown)
+    return () => document.removeEventListener('mousedown', handleDocMouseDown)
+  }, [])
+
+  // Close mobile suggestions on outside click
+  useEffect(() => {
+    if (!showDestinationSuggestionsMobile) return
+    function handleClick(e: MouseEvent) {
+      if (mobileWhereRef.current && !mobileWhereRef.current.contains(e.target as Node)) {
+        setShowDestinationSuggestionsMobile(false)
+        setHighlightIndex(-1)
+      }
+    }
+    document.addEventListener('mousedown', handleClick)
+    return () => document.removeEventListener('mousedown', handleClick)
+  }, [showDestinationSuggestionsMobile])
+
+  // Update dropdown position (desktop)
+  const updateDesktopSuggestPos = () => {
+    if (whereWrapperRef.current) {
+      const rect = whereWrapperRef.current.getBoundingClientRect()
+      setDesktopSuggestPos({ left: rect.left + window.scrollX, top: rect.bottom + window.scrollY, width: rect.width })
+    }
+  }
+
+  useEffect(() => {
+    if (showDestinationSuggestions) {
+      updateDesktopSuggestPos()
+      window.addEventListener('scroll', updateDesktopSuggestPos, true)
+      window.addEventListener('resize', updateDesktopSuggestPos)
+      return () => {
+        window.removeEventListener('scroll', updateDesktopSuggestPos, true)
+        window.removeEventListener('resize', updateDesktopSuggestPos)
+      }
+    }
+  }, [showDestinationSuggestions])
 
   // Popular destinations data
   const popularDestinations: PopularDestination[] = [
@@ -214,7 +277,7 @@ export function EnhancedSearch() {
 
   // Guest selector component
   const GuestSelector = () => (
-    <div className="p-4 space-y-4 w-80">
+    <div className="p-4 lg:p-3 space-y-3 w-80 lg:w-72">
       <div className="flex items-center justify-between">
         <div>
           <p className="font-medium">Adults</p>
@@ -357,216 +420,352 @@ export function EnhancedSearch() {
   )
 
   return (
-    <Card className="w-full max-w-6xl mx-auto shadow-lg">
-      <CardContent className="p-6">
-        <div className="grid grid-cols-1 md:grid-cols-5 gap-4">
-          {/* Destination */}
-          <div className="relative">
-            <Label htmlFor="destination" className="text-sm font-medium text-gray-700 mb-2 block">
-              Where are you going?
-            </Label>
-            <Popover open={showDestinationSuggestions} onOpenChange={setShowDestinationSuggestions}>
+    <Card className="w-full rounded-2xl lg:rounded max-w-6xl lg:max-w-3xl mx-auto shadow-lg">
+  <CardContent className="p-3 lg:p-0 lg:w-full">
+        {/* Unified desktop inline bar */}
+  <div className="hidden lg:flex items-stretch w-full bg-white rounded-md  overflow-hidden h-14 relative z-10">
+          {/* Where (desktop custom autocomplete – no Popover) */}
+          <div
+            ref={whereWrapperRef}
+            className="flex-1 flex flex-col justify-center px-4 text-left hover:bg-gray-50 focus-within:bg-gray-50 cursor-text relative"
+            onClick={() => {
+              destinationInputRef.current?.focus()
+              setShowDestinationSuggestions(true)
+            }}
+          >
+            <span className="text-[11px] uppercase tracking-wide text-gray-500 leading-none mb-1">Where</span>
+            <div className="flex items-center text-sm text-gray-700 gap-2 min-w-0">
+              <MapPin className="w-3.5 h-3.5 text-gray-400 shrink-0" />
+              <input
+                ref={destinationInputRef}
+                type="text"
+                className="bg-transparent outline-none flex-1 min-w-0 placeholder:text-gray-400"
+                placeholder="Enter a destination"
+                value={destinationInput}
+                autoComplete="off"
+                autoCorrect="off"
+                onFocus={() => setShowDestinationSuggestions(true)}
+                onChange={(e) => {
+                  setDestinationInput(e.target.value)
+                  setSearchData({ ...searchData, destination: e.target.value })
+                  if (!showDestinationSuggestions) setShowDestinationSuggestions(true)
+                  setHighlightIndex(-1)
+                }}
+                onKeyDown={(e) => {
+                  const list = getDestinationSuggestions(destinationInput)
+                  if (e.key === 'ArrowDown') { e.preventDefault(); setHighlightIndex(i => Math.min(i + 1, list.length - 1)) }
+                  else if (e.key === 'ArrowUp') { e.preventDefault(); setHighlightIndex(i => Math.max(i - 1, 0)) }
+                  else if (e.key === 'Enter') {
+                    if (highlightIndex >= 0) {
+                      const sel = list[highlightIndex]; if (sel) handleDestinationSelect(sel as any)
+                    } else {
+                      setShowDestinationSuggestions(false)
+                    }
+                  } else if (e.key === 'Escape') {
+                    setShowDestinationSuggestions(false); setHighlightIndex(-1)
+                  }
+                }}
+              />
+            </div>
+            {showDestinationSuggestions && desktopSuggestPos && (
+                <div
+                style={{
+                  position: 'fixed',
+                  left: desktopSuggestPos.left,
+                  top: desktopSuggestPos.top + 4,
+                  // Keep at least input width or 250px (whichever is larger)
+                  minWidth: Math.max(250, desktopSuggestPos.width),
+                  // When user has typed something, allow auto width based on content; otherwise lock to field width
+                  width: destinationInput.trim() ? 'auto' : desktopSuggestPos.width,
+                  // Prevent overflowing viewport
+                  maxWidth: 'min(640px, calc(100vw - 40px))',
+                }}
+                className="max-h-96 bg-white shadow-xl border border-gray-200 rounded-lg z-[100] overflow-hidden inline-block"
+                >
+                <div className="p-3 border-b flex items-center space-x-2 sticky top-0 bg-white z-10">
+                  <TrendingUp className="w-4 h-4 text-gray-500" />
+                  <span className="text-sm font-medium text-gray-700">Popular Destinations</span>
+                </div>
+                <div className="p-3 space-y-2">
+                  {getDestinationSuggestions(destinationInput).map((destination, idx) => (
+                    <button
+                      key={destination.id || destination.name}
+                      onClick={() => handleDestinationSelect(destination as any)}
+                      className={`w-full text-left p-3 rounded-md transition-colors ${highlightIndex === idx ? 'bg-gray-100' : 'hover:bg-gray-50'}`}
+                      onMouseEnter={() => setHighlightIndex(idx)}
+                    >
+                      <div className="flex items-center space-x-3">
+                        <img src={destination.image || '/placeholder.svg'} alt={destination.name} className="w-12 h-12 rounded-md object-cover" />
+                        <div className="flex-1">
+                          <div className="flex items-center justify-between">
+                            <span className="font-medium truncate pr-2">{destination.name}</span>
+                          </div>
+                          <p className="text-xs text-gray-500">{destination.country}</p>
+                        </div>
+                      </div>
+                    </button>
+                  ))}
+                  {getDestinationSuggestions(destinationInput).length === 0 && (
+                    <div className="text-sm text-gray-500 py-4 text-center">No matches</div>
+                  )}
+                </div>
+              </div>
+            )}
+          </div>
+
+          <div className="w-px bg-gray-200 my-2" />
+
+          {/* Dates range */}
+            <Popover>
               <PopoverTrigger asChild>
-                <div className="relative">
-                  <MapPin className="absolute left-3 top-1/2 transform -translate-y-1/2 text-gray-400 w-4 h-4" />
-                  <Input
-                    id="destination"
-                    placeholder="City, hotel, landmark..."
-                    value={destinationInput}
-                    onChange={(e) => {
-                      setDestinationInput(e.target.value)
-                      setSearchData({ ...searchData, destination: e.target.value })
-                      setShowDestinationSuggestions(true)
+                <button className="flex-1 flex flex-col justify-center px-4 text-left hover:bg-gray-50 focus:outline-none">
+                  <span className="text-[11px] uppercase tracking-wide text-gray-500 leading-none mb-1">Dates</span>
+                  <span className="flex items-center text-sm text-gray-700 truncate">
+                    <CalendarIcon className="w-3.5 h-3.5 mr-2 text-gray-400" />
+                    {searchData.checkIn && searchData.checkOut
+                      ? `${format(searchData.checkIn, "MMM dd")} - ${format(searchData.checkOut, "MMM dd")}`
+                      : <span className="text-gray-400">Sep 15 - Sep 16</span>}
+                  </span>
+                </button>
+              </PopoverTrigger>
+              <PopoverContent className="w-auto p-0 bg-white shadow-lg border rounded-lg" align="start">
+                <div className="p-3">
+                  <DayPicker
+                    mode="range"
+                    selected={searchData.checkIn && searchData.checkOut ? { from: searchData.checkIn, to: searchData.checkOut } : undefined}
+                    onSelect={(range) => {
+                      if (!range) return
+                      const from = (range as any).from as Date | undefined
+                      const to = (range as any).to as Date | undefined
+                      setSearchData({ ...searchData, checkIn: from, checkOut: to })
                     }}
-                    onKeyDown={(e) => {
-                      const list = getDestinationSuggestions(destinationInput)
-                      if (e.key === "ArrowDown") {
-                        e.preventDefault()
-                        setHighlightIndex((i) => Math.min(i + 1, list.length - 1))
-                      } else if (e.key === "ArrowUp") {
-                        e.preventDefault()
-                        setHighlightIndex((i) => Math.max(i - 1, 0))
-                      } else if (e.key === "Enter" && highlightIndex >= 0) {
-                        e.preventDefault()
-                        const sel = list[highlightIndex]
-                        if (sel) handleDestinationSelect(sel as any)
-                      }
-                    }}
-                    className="pl-10 h-12"
+                    disabled={{ before: new Date() }}
                   />
                 </div>
-              </PopoverTrigger>
-              <PopoverContent className="w-96 p-0" align="start">
-                <div className="max-h-96 overflow-y-auto">
-                  {/* Recent Searches */}
-                  {recentSearches.length > 0 && (
-                    <div className="p-4 border-b">
+              </PopoverContent>
+            </Popover>
+
+          <div className="w-px bg-gray-200 my-2" />
+
+      {/* Guests (desktop) */}
+      <Popover open={showGuestSelectorDesktop} onOpenChange={setShowGuestSelectorDesktop}>
+            <PopoverTrigger asChild>
+              <button
+                type="button"
+        aria-haspopup="dialog"
+        aria-expanded={showGuestSelectorDesktop}
+        onClick={(e) => { e.preventDefault(); setShowGuestSelectorDesktop(v => !v) }}
+        onKeyDown={(e) => { if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); setShowGuestSelectorDesktop(v => !v) } }}
+        className="flex-1 flex flex-col justify-center px-4 text-left hover:bg-gray-50 focus:outline-none cursor-pointer select-none"
+              >
+                <span className="text-[11px] uppercase tracking-wide text-gray-500 leading-none mb-1">Guests</span>
+                <span className="flex items-center text-sm text-gray-700 truncate">
+                  <Users className="w-3.5 h-3.5 mr-2 text-gray-400" />
+                  {searchData.guests.rooms} Room, {searchData.guests.adults + searchData.guests.children} Guests
+                </span>
+              </button>
+            </PopoverTrigger>
+            <PopoverContent className="w-auto p-0 lg:w-80" align="start">
+              <div className="lg:w-80">
+                <GuestSelector />
+              </div>
+            </PopoverContent>
+          </Popover>
+
+          {/* Search icon */}
+          <div className="flex items-center pr-2 pl-2">
+            <Button onClick={handleSearch} size="lg" className="w-10 h-10 p-0 flex items-center justify-center rounded-md bg-blue-600 hover:bg-blue-700">
+              <Search className="h-4 w-4 text-white" />
+            </Button>
+          </div>
+        </div>
+
+        {/* Original (mobile / small) layout */}
+  <div className="grid grid-cols-1 gap-3 lg:hidden text-[13px]">
+          {/* Destination */}
+          <div className="relative">
+            <Label htmlFor="destination" className="sr-only">Where</Label>
+            {!isDesktop && (
+              <div ref={mobileWhereRef} className="relative">
+                <MapPin className="absolute left-3 top-1/2 -translate-y-1/2 text-gray-400 w-4 h-4 pointer-events-none" />
+                <Input
+                  id="destination"
+                  placeholder="Enter a destination"
+                  value={destinationInput}
+                  onFocus={() => setShowDestinationSuggestionsMobile(true)}
+                  onChange={(e) => {
+                    setDestinationInput(e.target.value)
+                    setSearchData({ ...searchData, destination: e.target.value })
+                    if (!showDestinationSuggestionsMobile) setShowDestinationSuggestionsMobile(true)
+                  }}
+                  onKeyDown={(e) => {
+                    const list = getDestinationSuggestions(destinationInput)
+                    if (e.key === 'ArrowDown') { e.preventDefault(); setHighlightIndex(i => Math.min(i + 1, list.length - 1)) }
+                    else if (e.key === 'ArrowUp') { e.preventDefault(); setHighlightIndex(i => Math.max(i - 1, 0)) }
+                    else if (e.key === 'Enter') {
+                      if (highlightIndex >= 0) { const sel = list[highlightIndex]; if (sel) handleDestinationSelect(sel as any) }
+                      else setShowDestinationSuggestionsMobile(false)
+                    } else if (e.key === 'Escape') { setShowDestinationSuggestionsMobile(false); setHighlightIndex(-1) }
+                  }}
+                  className="pl-10 h-11 rounded-md"
+                />
+                {showDestinationSuggestionsMobile && (
+                  <div className="absolute left-0 right-0 mt-2 bg-white border rounded-md shadow-lg z-30 max-h-96 overflow-y-auto">
+                    {recentSearches.length > 0 && (
+                      <div className="p-4 border-b">
+                        <div className="flex items-center space-x-2 mb-3">
+                          <Clock className="w-4 h-4 text-gray-500" />
+                          <span className="text-sm font-medium text-gray-700">Recent Searches</span>
+                        </div>
+                        <div className="space-y-2">
+                          {recentSearches.slice(0, 3).map((search) => (
+                            <button
+                              key={search.id}
+                              onClick={() => { handleRecentSearchSelect(search); setShowDestinationSuggestionsMobile(false) }}
+                              className="w-full text-left p-2 hover:bg-gray-50 rounded-md transition-colors"
+                            >
+                              <div className="flex items-center justify-between">
+                                <span className="font-medium">{search.destination}</span>
+                                <span className="text-xs text-gray-500">{format(search.checkIn, 'MMM dd')} - {format(search.checkOut, 'MMM dd')}</span>
+                              </div>
+                            </button>
+                          ))}
+                        </div>
+                      </div>
+                    )}
+                    <div className="p-4">
                       <div className="flex items-center space-x-2 mb-3">
-                        <Clock className="w-4 h-4 text-gray-500" />
-                        <span className="text-sm font-medium text-gray-700">Recent Searches</span>
+                        <TrendingUp className="w-4 h-4 text-gray-500" />
+                        <span className="text-sm font-medium text-gray-700">Popular Destinations</span>
                       </div>
                       <div className="space-y-2">
-                        {recentSearches.slice(0, 3).map((search) => (
+                        {getDestinationSuggestions(destinationInput).map((destination, idx) => (
                           <button
-                            key={search.id}
-                            onClick={() => handleRecentSearchSelect(search)}
-                            className="w-full text-left p-2 hover:bg-gray-50 rounded-md transition-colors"
+                            key={destination.id || destination.name}
+                            onClick={() => { handleDestinationSelect(destination as any); setShowDestinationSuggestionsMobile(false) }}
+                            className={`w-full text-left p-3 rounded-md transition-colors ${highlightIndex === idx ? 'bg-gray-100' : 'hover:bg-gray-50'}`}
+                            onMouseEnter={() => setHighlightIndex(idx)}
                           >
-                            <div className="flex items-center justify-between">
-                              <span className="font-medium">{search.destination}</span>
-                              <span className="text-xs text-gray-500">
-                                {format(search.checkIn, "MMM dd")} - {format(search.checkOut, "MMM dd")}
-                              </span>
+                            <div className="flex items-center space-x-3">
+                              <img src={destination.image || '/placeholder.svg'} alt={destination.name} className="w-12 h-12 rounded-md object-cover" />
+                              <div className="flex-1">
+                                <div className="flex items-center justify-between">
+                                  <span className="font-medium">{destination.name}</span>
+                                  <div className="flex items-center space-x-1">
+                                    <Star className="w-3 h-3 fill-yellow-400 text-yellow-400" />
+                                    <span className="text-xs">{destination.rating}</span>
+                                  </div>
+                                </div>
+                                <p className="text-sm text-gray-500">{destination.country}</p>
+                                <div className="flex items-center justify-between mt-1">
+                                  <span className="text-xs text-gray-500">{destination.deals} properties</span>
+                                  <span className="text-xs font-medium">From ${destination.priceFrom}</span>
+                                </div>
+                              </div>
                             </div>
                           </button>
                         ))}
+                        {getDestinationSuggestions(destinationInput).length === 0 && (
+                          <div className="text-sm text-gray-500 py-4 text-center">No matches</div>
+                        )}
                       </div>
                     </div>
-                  )}
-
-                  {/* Popular Destinations */}
-                  <div className="p-4">
-                    <div className="flex items-center space-x-2 mb-3">
-                      <TrendingUp className="w-4 h-4 text-gray-500" />
-                      <span className="text-sm font-medium text-gray-700">Popular Destinations</span>
-                    </div>
-                    <div className="space-y-2">
-                      {getDestinationSuggestions(destinationInput).map((destination, idx) => (
-                        <button
-                          key={destination.name}
-                          onClick={() => handleDestinationSelect(destination)}
-                          className={`w-full text-left p-3 rounded-md transition-colors ${
-                            highlightIndex === idx ? "bg-gray-100" : "hover:bg-gray-50"
-                          }`}
-                        >
-                          <div className="flex items-center space-x-3">
-                            <img
-                              src={destination.image || "/placeholder.svg"}
-                              alt={destination.name}
-                              className="w-12 h-12 rounded-md object-cover"
-                            />
-                            <div className="flex-1">
-                              <div className="flex items-center justify-between">
-                                <span className="font-medium">{destination.name}</span>
-                                <div className="flex items-center space-x-1">
-                                  <Star className="w-3 h-3 fill-yellow-400 text-yellow-400" />
-                                  <span className="text-xs">{destination.rating}</span>
-                                </div>
-                              </div>
-                              <p className="text-sm text-gray-500">{destination.country}</p>
-                              <div className="flex items-center justify-between mt-1">
-                                <span className="text-xs text-gray-500">{destination.deals} properties</span>
-                                <span className="text-xs font-medium">From ${destination.priceFrom}</span>
-                              </div>
-                            </div>
-                          </div>
-                        </button>
-                      ))}
-                    </div>
                   </div>
-                </div>
-              </PopoverContent>
-            </Popover>
+                )}
+              </div>
+            )}
           </div>
 
-          {/* Check-in Date */}
+          {/* Dates (combined range) */}
           <div>
-            <Label className="text-sm font-medium text-gray-700 mb-2 block">Check-in</Label>
-            <Popover>
-              <PopoverTrigger asChild>
-                <Button
-                  variant="outline"
-                  className="w-full h-12 justify-start text-left font-normal bg-transparent"
-                >
-                  <CalendarIcon className="m-1 h-2 w-2" />
-                  {searchData.checkIn ? format(searchData.checkIn, "MMM dd, yyyy") : "Select date"}
-                </Button>
-              </PopoverTrigger>
-              <PopoverContent className="w-auto p-3" align="start">
-                <DayPicker
-                  mode="single"
-                  selected={searchData.checkIn}
-                  onSelect={(date) => {
-                    setSearchData((prev) => {
-                      const next = { ...prev, checkIn: date }
-                      // if (date && (!prev.checkOut || date >= prev.checkOut)) {
-                      //   next.checkOut = addDays(date, 1)
-                      // }
-                      return next
-                    })
-                  }}
-                  disabled={{ before: new Date() }}
-                />
-              </PopoverContent>
-            </Popover>
-          </div>
-
-          {/* Check-out Date */}
-          <div>
-            <Label className="text-sm font-medium text-gray-700 mb-2 block">Check-out</Label>
-            <Popover>
-              <PopoverTrigger asChild>
-                <Button
-                  variant="outline"
-                  className="w-full h-12 justify-start text-left font-normal bg-transparent"
-                  disabled={!searchData.checkIn}
-                >
-                  <CalendarIcon className="mr-2 h-4 w-4" />
-                  {searchData.checkOut ? format(searchData.checkOut, "MMM dd, yyyy") : "Select date"}
-                </Button>
-              </PopoverTrigger>
-              <PopoverContent className="w-auto p-0 bg-white shadow-lg border rounded-lg" align="start">
-                <DayPicker
-                  mode="single"
-                  selected={searchData.checkOut}
-                  onSelect={(date) => setSearchData({ ...searchData, checkOut: date })}
-                  disabled={searchData.checkIn ? { before: addDays(searchData.checkIn, 1) } : { before: new Date() }}
-                />
-              </PopoverContent>
-            </Popover>
+            <Label className="sr-only">Dates</Label>
+            <div className="flex gap-2">
+              <Popover>
+                <PopoverTrigger asChild>
+                  <Button variant="outline" className="flex-1 h-11 justify-start text-left font-normal bg-transparent">
+                    <CalendarIcon className="h-4 w-4 mr-2 text-gray-500" />
+                    {searchData.checkIn ? format(searchData.checkIn, "dd MMM") : "Check-in"}
+                  </Button>
+                </PopoverTrigger>
+                <PopoverContent className="w-auto p-0 bg-white shadow-lg border rounded-lg" align="start">
+                  <div className="p-3">
+                    <DayPicker
+                      mode="single"
+                      selected={searchData.checkIn}
+                      onSelect={(day: any) => {
+                        if (!day) return
+                        let out = searchData.checkOut
+                        if (out && day > out) out = undefined
+                        setSearchData({ ...searchData, checkIn: day, checkOut: out })
+                      }}
+                      disabled={{ before: new Date() }}
+                    />
+                  </div>
+                </PopoverContent>
+              </Popover>
+              <Popover>
+                <PopoverTrigger asChild>
+                  <Button variant="outline" className="flex-1 h-11 justify-start text-left font-normal bg-transparent">
+                    <CalendarIcon className="h-4 w-4 mr-2 text-gray-500" />
+                    {searchData.checkOut ? format(searchData.checkOut, "dd MMM") : "Check-out"}
+                  </Button>
+                </PopoverTrigger>
+                <PopoverContent className="w-auto p-0 bg-white shadow-lg border rounded-lg" align="start">
+                  <div className="p-3">
+                    <DayPicker
+                      mode="single"
+                      selected={searchData.checkOut}
+                      onSelect={(day: any) => {
+                        if (!day) return
+                        let cin = searchData.checkIn
+                        if (cin && day < cin) cin = day
+                        setSearchData({ ...searchData, checkOut: day, checkIn: cin })
+                      }}
+                      disabled={{ before: searchData.checkIn || new Date() }}
+                    />
+                  </div>
+                </PopoverContent>
+              </Popover>
+            </div>
           </div>
 
           {/* Guests */}
           <div>
-            <Label className="text-sm font-medium text-gray-700 mb-2 block">Guests & Rooms</Label>
+            <Label className="sr-only">Guests</Label>
             <Popover open={showGuestSelector} onOpenChange={setShowGuestSelector}>
               <PopoverTrigger asChild>
-                <Button variant="outline" className="w-full h-12 justify-start text-left font-normal bg-transparent">
-                  <Users className="mr-2 h-4 w-4" />
-                  {searchData.guests.adults + searchData.guests.children} guests, {searchData.guests.rooms} room
-                  {searchData.guests.rooms > 1 ? "s" : ""}
+                <Button variant="outline" className="w-full h-11 justify-start text-left font-normal bg-transparent">
+                  <Users className="mr-2 h-4 w-4 text-gray-500" />
+                  {searchData.guests.adults + searchData.guests.children} guests, {searchData.guests.rooms} room{searchData.guests.rooms > 1 ? "s" : ""}
                 </Button>
               </PopoverTrigger>
-              <PopoverContent className="w-auto p-0" align="start">
-                <GuestSelector />
+              <PopoverContent className="w-auto p-0 lg:w-80" align="start">
+                <div className="lg:w-80">
+                  <GuestSelector />
+                </div>
               </PopoverContent>
             </Popover>
           </div>
 
           {/* Search Button - Desktop inline, Mobile below */}
-          <div className="flex items-end">
-            <Button onClick={handleSearch} size="lg" className="w-full h-12 bg-blue-600 hover:bg-blue-700">
-              <Search className="mr-2 h-5 w-5" />
-              SEARCH
-            </Button>
+          <div className="flex items-end space-x-2">
+            {/* Mobile: full-width text button */}
+            <div className="flex-1 lg:hidden">
+              <Button onClick={handleSearch} size="sm" className="w-full h-11 bg-blue-600 hover:bg-blue-700 text-[13px] font-medium">
+                <Search className="mr-2 h-4 w-4" />
+                Search
+              </Button>
+            </div>
+
+            {/* Desktop: compact square icon button */}
+            <div className="hidden lg:block">
+              <Button onClick={handleSearch} size="lg" className="w-10 h-10 p-0 flex items-center justify-center rounded-lg bg-blue-600 hover:bg-blue-700">
+                <Search className="h-4 w-4 text-white" />
+              </Button>
+            </div>
           </div>
         </div>
 
-        {/* Quick Filters */}
-        <div className="mt-6 flex flex-wrap gap-2 justify-center">
-          <Badge variant="outline" className="cursor-pointer hover:bg-gray-50">
-            <Building className="w-3 h-3 mr-1" />
-            Hotels
-          </Badge>
-          <Badge variant="outline" className="cursor-pointer hover:bg-gray-50">
-            <Plane className="w-3 h-3 mr-1" />
-            Flights + Hotels
-          </Badge>
-          <Badge variant="outline" className="cursor-pointer hover:bg-gray-50">
-            <Car className="w-3 h-3 mr-1" />
-            Car Rentals
-          </Badge>
-        </div>
       </CardContent>
     </Card>
   )

@@ -116,3 +116,14 @@
     font-size: 16px;
   }
 }
+
+/* Text shadow utilities */
+@layer utilities {
+  .text-shadow-sm { text-shadow: 0 1px 2px rgba(0,0,0,0.5); }
+  .text-shadow { text-shadow: 0 2px 4px rgba(0,0,0,0.55); }
+  .text-shadow-lg { text-shadow: 0 4px 12px rgba(0,0,0,0.4); }
+  .text-shadow-glow { text-shadow: 0 0 6px rgba(255,255,255,0.6), 0 2px 8px rgba(0,0,0,0.5); }
+  .border-black-600 { --tw-border-opacity: 1; border-color: #000; }
+  .bg-black-100 { --tw-bg-opacity: 1; background-color: #000; color:#fff }
+  .bg-gold-100 { --tw-bg-opacity: 1; background-color: #e4ce0a; color:#000 }
+}

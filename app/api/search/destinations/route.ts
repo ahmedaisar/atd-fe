@@ -1,5 +1,6 @@
 import { NextRequest, NextResponse } from 'next/server'
 import destinations from '@/data/fixtures/destinations.json'
+import hotels from '@/data/fixtures/hotels.json'
 
 function normalize(str: string) {
   return str.toLowerCase().normalize('NFKD')
@@ -10,7 +11,19 @@ export async function GET(req: NextRequest) {
   const q = (searchParams.get('q') || '').trim()
   const geoloc = searchParams.get('geoloc') === 'true'
 
-  let results = destinations
+  // Build a unified list including Maldives hotels as individual selectable items (type: hotel)
+  const maldivesHotels = (hotels as any[])
+    .filter(h => h.location?.country === 'Maldives')
+    .map(h => ({
+      id: h.id,
+      type: 'hotel',
+      name: h.name,
+      country: h.location.country,
+      popularityScore: Math.round((h.review?.score || 0) * 10),
+      image: h.images?.[0] || '/placeholder.jpg'
+    }))
+
+  let results: any[] = [...destinations as any[], ...maldivesHotels]
 
   if (q) {
     const nq = normalize(q)
@@ -23,11 +36,24 @@ export async function GET(req: NextRequest) {
           (d.id && normalize(d.id).includes(nq) ? 0.5 : 0),
       }))
       .filter((d: any) => d.score > 0)
-      .sort((a: any, b: any) => b.score - a.score || b.popularityScore - a.popularityScore)
-      .slice(0, 10)
+      .sort((a: any, b: any) => {
+        // Maldives priority first
+        const aM = a.country === 'Maldives' ? 1 : 0
+        const bM = b.country === 'Maldives' ? 1 : 0
+        if (aM !== bM) return bM - aM
+        return b.score - a.score || b.popularityScore - a.popularityScore
+      })
+      .slice(0, 15)
   } else {
-    // Popular suggestions fallback
-    results = results.sort((a: any, b: any) => b.popularityScore - a.popularityScore).slice(0, 10)
+    // Popular suggestions fallback with Maldives first
+    results = results
+      .sort((a: any, b: any) => {
+        const aM = a.country === 'Maldives' ? 1 : 0
+        const bM = b.country === 'Maldives' ? 1 : 0
+        if (aM !== bM) return bM - aM
+        return b.popularityScore - a.popularityScore
+      })
+      .slice(0, 15)
   }
 
   // Geolocation mock: prioritize first result to have nearby flag
