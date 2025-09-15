@@ -142,7 +142,7 @@ export default async function SearchResultsPage({
       <main>
         <SearchResultsHeader />
         {/* Mobile filters trigger */}
-        <div className="lg:hidden sticky top-0 z-30 bg-gray-50/80 backdrop-blur supports-[backdrop-filter]:bg-gray-50/60 border-b">
+        {/* <div className="lg:hidden sticky top-0 z-30 bg-gray-50/80 backdrop-blur supports-[backdrop-filter]:bg-gray-50/60 border-b">
           <div className="max-w-7xl mx-auto px-4 py-3 grid grid-cols-2 gap-2">
             <div>
               <MobileSort />
@@ -150,7 +150,7 @@ export default async function SearchResultsPage({
             <div>
               <Sheet>
                 <SheetTrigger asChild>
-                  <Button variant="outline" className="w-full">Filters</Button>
+                  <Button id="mobile-filters-trigger" variant="outline" className="w-full">Filters</Button>
                 </SheetTrigger>
                 <SheetContent side="left" className="w-full sm:max-w-md p-0">
                   <SheetHeader className="px-4 py-3 border-b">
@@ -165,7 +165,7 @@ export default async function SearchResultsPage({
               </Sheet>
             </div>
           </div>
-        </div>
+        </div> */}
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6">
           <div className="flex flex-col lg:flex-row gap-6">
             <aside className="hidden lg:block lg:w-80 flex-shrink-0">

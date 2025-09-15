@@ -126,4 +126,10 @@
   .border-black-600 { --tw-border-opacity: 1; border-color: #000; }
   .bg-black-100 { --tw-bg-opacity: 1; background-color: #000; color:#fff }
   .bg-gold-100 { --tw-bg-opacity: 1; background-color: #e4ce0a; color:#000 }
+  /* Hide scrollbar but allow scrolling */
+  .scrollbar-hide {
+    scrollbar-width: none; /* Firefox */
+    -ms-overflow-style: none; /* IE/Edge */
+  }
+  .scrollbar-hide::-webkit-scrollbar { display: none; }
 }
