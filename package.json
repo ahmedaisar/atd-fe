@@ -13,7 +13,9 @@
     "test": "vitest run",
     "test:ui": "vitest",
     "e2e": "playwright test",
-    "start": "next start"
+    "start": "next start",
+    "data:fetch-hotels": "ts-node scripts/data/fetch-remote-hotels.ts",
+    "data:fetch-full-hotels": "node scripts/data/fetch-full-hotels.cjs"
   },
   "dependencies": {
     "@hookform/resolvers": "^3.9.1",

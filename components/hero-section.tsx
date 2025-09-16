@@ -17,7 +17,7 @@ export function HeroSection() {
   ]
 
   return (
-    <section className="relative  lg:h-[400px] bg-[url('/mv-header.jpg')] bg-cover text-white">
+    <section className="relative  lg:h-[400px] bg-[url('/mv-header.webp')] bg-cover text-white bg-cover bg-[center_top_-220px]">
       <div className="absolute inset-0 bg-black/10"></div>
       <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 lg:py-20">
         <div className="text-center mb-8">
