@@ -133,7 +133,7 @@ export function TopRatedHotels({ title = 'Top Rated Hotels', hotels }: TopRatedH
             </svg>
           ))}
         </div>
-        <span className="h-5 w-12 rounded bg-black-100 flex items-center justify-center text-xs font-bold text-gray-900 shrink-0">{qualityRating}/100</span>
+        <span className="h-5 w-12 rounded bg-black-100 flex items-center justify-center text-xs font-bold text-white shrink-0">{qualityRating}/100</span>
         <span className="ml-0.5 text-sm font-medium text-gray-700">({Intl.NumberFormat().format(qualityCount)} Reviews)</span>
       </div>
     )
