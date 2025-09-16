@@ -23,8 +23,8 @@ function fetchJson(url) {
       res.on('end', () => {
         try {
           const raw = Buffer.concat(chunks).toString('utf8');
-            const json = JSON.parse(raw);
-            resolve(json);
+          const json = JSON.parse(raw);
+          resolve(json);
         } catch (e) { reject(e); }
       });
     }).on('error', reject);
