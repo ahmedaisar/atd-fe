@@ -180,8 +180,6 @@ export function TopRatedHotels({ title = 'Top Rated Hotels', hotels }: TopRatedH
         {/* Desktop carousel */}
         <div className="hidden md:block relative">
           {/* Gradient edges */}
-          {/* <div className="pointer-events-none absolute inset-y-0 left-0 w-12 bg-gradient-to-r from-white via-white/70 to-transparent z-10" />
-          <div className="pointer-events-none absolute inset-y-0 right-0 w-12 bg-gradient-to-l from-white via-white/70 to-transparent z-10" /> */}
           <div ref={desktopRef} className="flex gap-6 overflow-x-auto scrollbar-hide snap-x snap-mandatory pb-2 select-none cursor-grab active:cursor-grabbing">
             {topHotels.map(h => {
               const isTruncated = h.name.length > 37
