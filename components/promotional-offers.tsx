@@ -1,9 +1,10 @@
 "use client"
 
+import { useState, useCallback } from "react"
 import { Button } from "@/components/ui/button"
 import { Card, CardContent } from "@/components/ui/card"
 import { Badge } from "@/components/ui/badge"
-import { Gift, Star, Plane, Activity, Building, Percent } from "lucide-react"
+import { Star, Plane, Activity, Building, Percent, ChevronLeft, ChevronRight } from "lucide-react"
 
 export function PromotionalOffers() {
   const offers = [
@@ -63,6 +64,11 @@ export function PromotionalOffers() {
     },
   ]
 
+  const [index, setIndex] = useState(0)
+  const total = offers.length
+  const next = useCallback(() => setIndex((i) => (i + 1) % total), [total])
+  const prev = useCallback(() => setIndex((i) => (i - 1 + total) % total), [total])
+
   return (
     <section className="bg-gray-50 py-12">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -82,7 +88,61 @@ export function PromotionalOffers() {
           </Button>
         </div>
 
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-6 gap-4">
+        {/* Mobile single-card carousel */}
+        <div className="md:hidden relative">
+          <div className="flex justify-end mb-3 gap-2">
+            <button
+              aria-label="Previous offer"
+              onClick={prev}
+              className="w-9 h-9 flex items-center justify-center rounded-full border border-gray-200 bg-white shadow disabled:opacity-30"
+              disabled={total <= 1}
+            >
+              <ChevronLeft className="w-5 h-5" />
+            </button>
+            <button
+              aria-label="Next offer"
+              onClick={next}
+              className="w-9 h-9 flex items-center justify-center rounded-full border border-gray-200 bg-white shadow disabled:opacity-30"
+              disabled={total <= 1}
+            >
+              <ChevronRight className="w-5 h-5" />
+            </button>
+          </div>
+          {offers.map((offer, i) => {
+            if (i !== index) return null
+            const Icon = offer.icon
+            return (
+              <Card key={offer.id} className="bg-white hover:shadow-lg transition-shadow">
+                <CardContent className="p-5">
+                  <div className="flex items-start justify-between mb-3">
+                    <div className={`p-2 rounded-lg ${offer.color}`}>
+                      <Icon className="w-5 h-5 text-white" />
+                    </div>
+                    <Badge variant="outline" className="text-xs">
+                      {offer.discount}
+                    </Badge>
+                  </div>
+                  <h3 className="font-semibold text-gray-900 mb-1">{offer.title}</h3>
+                  <p className="text-sm text-gray-600 mb-4">{offer.subtitle}</p>
+                  <Button size="sm" className="w-full bg-blue-500 hover:bg-blue-700">
+                    {offer.buttonText}
+                  </Button>
+                  <div className="mt-4 flex justify-center gap-1" aria-label="Carousel position">
+                    {offers.map((_, dot) => (
+                      <span
+                        key={dot}
+                        className={`h-2 w-2 rounded-full ${dot === index ? "bg-blue-600" : "bg-gray-300"}`}
+                      />
+                    ))}
+                  </div>
+                </CardContent>
+              </Card>
+            )
+          })}
+        </div>
+
+        {/* Desktop grid (unchanged) */}
+        <div className="hidden md:grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-6 gap-4">
           {offers.map((offer) => {
             const Icon = offer.icon
             return (

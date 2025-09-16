@@ -6,8 +6,8 @@ import "./globals.css"
 const inter = Inter({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
-  title: "Agoda Clone - See the world for less",
-  description: "Find and book amazing accommodations, flights, and activities at the best prices",
+  title: "Atoll Discovery Maldive - Same destinations, better rates",
+  description: "Search, compare & book at the best prices!",
     generator: 'v0.app'
 }
 
