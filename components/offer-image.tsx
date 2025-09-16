@@ -22,7 +22,7 @@ export function OfferImage({ aspect = 'aspect-[5/2]', radius = 'rounded-none', a
 			<Image
 				alt={alt}
 				fill
-				onLoadingComplete={() => setLoaded(true)}
+				onLoad={() => setLoaded(true)}
 				className={`object-cover transition-transform duration-500 group-hover:scale-105 ${className} ${loaded ? 'opacity-100' : 'opacity-0'}`}
 				placeholder="blur"
 				blurDataURL={shimmer(700,280)}
