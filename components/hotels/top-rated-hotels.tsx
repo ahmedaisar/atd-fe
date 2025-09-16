@@ -196,7 +196,7 @@ export function TopRatedHotels({ title = 'Top Rated Hotels', hotels }: TopRatedH
                   <h4 className="text-base font-semibold leading-snug text-gray-900 mb-1" title={isTruncated ? h.name : undefined}>{desktopName}</h4>
                   {stars(h.hotelStars, h.qualityReviewRating, h.qualityReviewCount)}
                   <div className="mt-2 text-[12px] text-gray-600 flex items-center flex-wrap gap-1"><span className="truncate">{h.location}</span></div>
-                  <div className="mt-4 border border-black-600 rounded-lg p-4 bg-gray-50 flex items-end justify-between">
+                  <div className="mt-4 border border-gray-300 rounded-lg p-4 bg-gray-50 flex items-end justify-between">
                     <div>
                       <div className="text-[11px] text-gray-500">from</div>
                       <div className="text-xl font-bold text-gray-900">{h.currency || '$'}{h.price}</div>
