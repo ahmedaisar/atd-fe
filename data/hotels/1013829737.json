@@ -1,0 +1,544 @@
+{
+  "_meta": {
+    "status": "SUCCESS",
+    "cached": true,
+    "count": 1,
+    "debug": {
+      "ticket": {
+        "ticket_id": "1013829737_zz_zz_d_publ_en_2_2025-10-08_2025-10-13_1_3",
+        "created_at": 1758065375.3926,
+        "loop": null,
+        "snapped_at": 1758065375.4976,
+        "snapshot_id": "1013829737_zz_zz_d_publ_en_2_2025-10-08_2025-10-13_1_3",
+        "snapshot_ttl": 300,
+        "executions": 2,
+        "progress": 1,
+        "save_errors": []
+      }
+    }
+  },
+  "data": {
+    "meta": [],
+    "geo": {
+      "hs_id": "xkhty9jzdrgo",
+      "region_name": "Fulidhoo",
+      "region_name_long": "Fulidhoo, Maldives",
+      "region_type": "CITY",
+      "region_id": 6336693,
+      "country_iso": "MV",
+      "country": "maldives",
+      "localised_country": "Maldives",
+      "center": [
+        3.68039,
+        73.41585
+      ],
+      "centroid": [
+        3.68051,
+        73.41586
+      ],
+      "polygon": [
+        "3.676442,73.411367",
+        "3.676347,73.421155",
+        "3.684438,73.421328",
+        "3.684409,73.41038",
+        "3.676442,73.411367"
+      ],
+      "radius": 0.75,
+      "zoom": -1,
+      "search_by_polygon": 0,
+      "cluster": 0,
+      "properties": 29,
+      "radius_override": 5,
+      "boundingbox": {
+        "ne": [
+          3.685,
+          73.422
+        ],
+        "sw": [
+          3.676,
+          73.41
+        ]
+      },
+      "airports": [
+        "MLE",
+        "DRV"
+      ],
+      "region_name_en": "Fulidhoo",
+      "region_name_long_en": "Fulidhoo, Maldives",
+      "referrer_city_name_en": "Fulidhoo",
+      "parent_region_id": 6051084,
+      "parent_hs_id": "x5p4hmhw6iot",
+      "parent_region_name": "Maldives (all)",
+      "parent_region_name_long": "Maldives (all)",
+      "dynamic_bbox": {
+        "ne": [
+          3.68,
+          73.414
+        ],
+        "sw": [
+          3.68,
+          73.414
+        ]
+      }
+    },
+    "records": [
+      {
+        "hs_id": 1013829737,
+        "slug": "fulidhoo-hathaa-retreat-fulidhoo-mv-1013829737",
+        "name": "Fulidhoo Hathaa Retreat",
+        "toa": "hotel",
+        "building": {
+          "room_num": 6,
+          "square_meters": 26,
+          "max_children": 1
+        },
+        "location": {
+          "city": "Fulidhoo",
+          "zip": "10100",
+          "country_iso2": "MV",
+          "address": "Hathaa Retreat",
+          "geoid": "xkhty9jzdrgo",
+          "loc": {
+            "type": "Point"
+          },
+          "coordinates": {
+            "lng": 73.41471,
+            "lat": 3.6806
+          }
+        },
+        "opening_time": {
+          "check_in_from": "12:00",
+          "check_in_to": "00:00",
+          "check_out_from": "10:30",
+          "check_out_to": "12:00"
+        },
+        "quality": {
+          "review_count": 91,
+          "review_rating": 92,
+          "stars": 0,
+          "stars_is_estimated": false,
+          "review_source": ""
+        },
+        "covid_safe": true,
+        "amenities": {
+          "sports": [
+            "sub"
+          ],
+          "internet": [
+            "wifi",
+            "wifi_room",
+            "internet"
+          ],
+          "transfer": [
+            "shuttle_service"
+          ],
+          "food_drink": [
+            "restaurant",
+            "room_service"
+          ],
+          "other": [],
+          "room": [
+            "fan",
+            "air_conditioning"
+          ],
+          "reception": [
+            "24h_reception",
+            "laundry_facilities",
+            "laundry_service",
+            "safety_deposit_box"
+          ]
+        },
+        "descriptions": {
+          "general": "Fulidhoo Hathaa Retreat is offering accommodation in Fulidhoo. The accommodation offers a 24-hour front desk, airport transfers, room service and free WiFi throughout the property.",
+          "other": "This property will not accommodate hen, stag or similar parties.",
+          "localized": "Fulidhoo Hathaa Retreat is offering accommodation in Fulidhoo. The accommodation offers a 24-hour front desk, airport transfers, room service and free WiFi throughout the property."
+        },
+        "short_description": "Simple hotel with shuttle service and restaurant",
+        "offers": [
+          {
+            "price": 80.25,
+            "brt": "p2d#",
+            "rf": "p2d#",
+            "brf": 8454208,
+            "rt": 8454208,
+            "vendor": "bkng",
+            "vendor_id_raw": "11287516",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Free cancellation"
+            ],
+            "jc_code": "",
+            "ranking_index": 0.9964112149532711,
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Deluxe room",
+            "rooms": [
+              {
+                "name": "Deluxe room",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "refundable": "Free cancellation"
+            },
+            "partner_name": "Booking.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/bkng/logo.svg?pos=zz"
+          },
+          {
+            "vendor": "agda",
+            "price": 79.53,
+            "vendor_id_raw": "49186187",
+            "mota_code": null,
+            "jc_code": "",
+            "partner_name": "Agoda",
+            "partner_logo": "https://hotelscan.com/apis/vendors/agda/logo.svg?pos=zz",
+            "room_name": "Deluxe room",
+            "brf": 8454208,
+            "brt": "p2d#"
+          }
+        ],
+        "all_offers": [
+          {
+            "price": 79.53,
+            "brt": "p2d#",
+            "rf": "p2d#",
+            "brf": 8454208,
+            "rt": 8454208,
+            "vendor": "agda",
+            "vendor_id_raw": "49186187",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Free cancellation"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Deluxe room",
+            "rooms": [
+              {
+                "name": "Deluxe room",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "refundable": "Free cancellation"
+            },
+            "partner_name": "Agoda",
+            "partner_logo": "https://hotelscan.com/apis/vendors/agda/logo.svg?pos=zz"
+          },
+          {
+            "price": 80.25,
+            "brt": "p2d#",
+            "rf": "p2d#",
+            "brf": 8454208,
+            "rt": 8454208,
+            "vendor": "bkng",
+            "vendor_id_raw": "11287516",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Free cancellation"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Deluxe room",
+            "rooms": [
+              {
+                "name": "Deluxe room",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "refundable": "Free cancellation"
+            },
+            "partner_name": "Booking.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/bkng/logo.svg?pos=zz"
+          },
+          {
+            "price": 92.54,
+            "brt": "p2d#",
+            "rf": "p2d#",
+            "brf": 9470016,
+            "rt": 9470016,
+            "vendor": "agda",
+            "vendor_id_raw": "49186187",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": false,
+            "special": false,
+            "room_name": "Deluxe room",
+            "rooms": [
+              {
+                "name": "Deluxe room",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included"
+            },
+            "partner_name": "Agoda",
+            "partner_logo": "https://hotelscan.com/apis/vendors/agda/logo.svg?pos=zz"
+          },
+          {
+            "price": 93.39,
+            "brt": "p2d#",
+            "rf": "p2d#",
+            "brf": 9470016,
+            "rt": 9470016,
+            "vendor": "bkng",
+            "vendor_id_raw": "11287516",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": false,
+            "special": false,
+            "room_name": "Deluxe room",
+            "rooms": [
+              {
+                "name": "Deluxe room",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included"
+            },
+            "partner_name": "Booking.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/bkng/logo.svg?pos=zz"
+          },
+          {
+            "price": 96.89,
+            "brt": "p2d#",
+            "rf": "p2d#",
+            "brf": 9502784,
+            "rt": 9502784,
+            "vendor": "agda",
+            "vendor_id_raw": "49186187",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included",
+              "Free cancellation"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Deluxe room",
+            "rooms": [
+              {
+                "name": "Deluxe room",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included",
+              "refundable": "Free cancellation"
+            },
+            "partner_name": "Agoda",
+            "partner_logo": "https://hotelscan.com/apis/vendors/agda/logo.svg?pos=zz"
+          },
+          {
+            "price": 97.76,
+            "brt": "p2d#",
+            "rf": "p2d#",
+            "brf": 9502784,
+            "rt": 9502784,
+            "vendor": "bkng",
+            "vendor_id_raw": "11287516",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included",
+              "Free cancellation"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Deluxe room",
+            "rooms": [
+              {
+                "name": "Deluxe room",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included",
+              "refundable": "Free cancellation"
+            },
+            "partner_name": "Booking.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/bkng/logo.svg?pos=zz"
+          }
+        ],
+        "descriptions_language": {
+          "general": {
+            "original_language": true,
+            "text": "Fulidhoo Hathaa Retreat is offering accommodation in Fulidhoo. The accommodation offers a 24-hour front desk, airport transfers, room service and free WiFi throughout the property."
+          },
+          "other": {
+            "original_language": true,
+            "text": "This property will not accommodate hen, stag or similar parties."
+          }
+        },
+        "chain_code": null,
+        "bids": {
+          "agda": "j23",
+          "bkng": "j23"
+        },
+        "worst_offer": null,
+        "best_offer": 79.53,
+        "best_offer_ota": "agda",
+        "best_offer_mota": null,
+        "discount": 0,
+        "offers_count": 6,
+        "coordinates": {
+          "lat": 3.6806,
+          "lng": 73.41471
+        },
+        "distance": 0.13,
+        "neighborhood": null,
+        "badge": null,
+        "distances": [
+          {
+            "from": "center",
+            "distance": 0.13,
+            "time": 181,
+            "means": "foot",
+            "means_type": "foot"
+          }
+        ],
+        "specs": {
+          "bathrooms": 1,
+          "beds": null,
+          "bedrooms": 1,
+          "guests": 2,
+          "square_meters": 26
+        },
+        "toa_label": "hotel",
+        "top_amenities": [
+          "wifi_room",
+          "internet",
+          "restaurant",
+          "room_service",
+          "air_conditioning"
+        ],
+        "transportations": {
+          "airports": [],
+          "trains": []
+        },
+        "images": [
+          {
+            "image_id": "581960573",
+            "label": ""
+          },
+          {
+            "image_id": "581960542",
+            "label": ""
+          },
+          {
+            "image_id": "581960546",
+            "label": ""
+          },
+          {
+            "image_id": "581960576",
+            "label": ""
+          },
+          {
+            "image_id": "581960551",
+            "label": ""
+          },
+          {
+            "image_id": "581960588",
+            "label": ""
+          },
+          {
+            "image_id": "581960586",
+            "label": ""
+          },
+          {
+            "image_id": "581960574",
+            "label": ""
+          },
+          {
+            "image_id": "581960547",
+            "label": ""
+          },
+          {
+            "image_id": "581960584",
+            "label": ""
+          },
+          {
+            "image_id": "581960548",
+            "label": ""
+          },
+          {
+            "image_id": "581960539",
+            "label": ""
+          },
+          {
+            "image_id": "581960577",
+            "label": ""
+          },
+          {
+            "image_id": "581960543",
+            "label": ""
+          },
+          {
+            "image_id": "581960579",
+            "label": ""
+          }
+        ],
+        "hero_offer": {
+          "price": 80.25,
+          "brt": "p2d#",
+          "rf": "p2d#",
+          "brf": 8454208,
+          "rt": 8454208,
+          "vendor": "bkng",
+          "vendor_id_raw": "11287516",
+          "mota_code": null,
+          "direct_offer": false,
+          "offer_flags": {
+            "refundable": "Free cancellation"
+          },
+          "jc_code": "",
+          "ranking_index": 0.9964112149532711,
+          "chain": "",
+          "free_cancellation": true,
+          "special": false,
+          "room_name": "Deluxe room",
+          "rooms": [
+            {
+              "name": "Deluxe room",
+              "flags": []
+            }
+          ],
+          "partner_name": "Booking.com",
+          "partner_logo": "https://hotelscan.com/apis/vendors/bkng/logo.svg?pos=zz"
+        },
+        "rank": 0,
+        "ctrl_srt": "im a ctrl teapot",
+        "test_srt": "im a test teapot"
+      }
+    ],
+    "filters": [],
+    "query": {
+      "pos": "zz"
+    }
+  }
+}

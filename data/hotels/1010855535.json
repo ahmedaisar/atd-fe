@@ -1,0 +1,747 @@
+{
+  "_meta": {
+    "status": "SUCCESS",
+    "cached": true,
+    "count": 1,
+    "debug": {
+      "ticket": {
+        "ticket_id": "1010855535_zz_zz_d_publ_en_2_2025-10-08_2025-10-13_1_3",
+        "created_at": 1758065366.6189,
+        "loop": null,
+        "snapped_at": 1758065366.6962,
+        "snapshot_id": "1010855535_zz_zz_d_publ_en_2_2025-10-08_2025-10-13_1_3",
+        "snapshot_ttl": 300,
+        "executions": 2,
+        "progress": 1,
+        "save_errors": []
+      }
+    }
+  },
+  "data": {
+    "meta": [],
+    "geo": {
+      "hs_id": "xk8lkha1ntyx",
+      "region_name": "Thulusdhoo Island",
+      "region_name_long": "Thulusdhoo Island, Maldives",
+      "region_type": "CITY",
+      "region_id": 6278797,
+      "country_iso": "MV",
+      "country": "maldives",
+      "localised_country": "Maldives",
+      "center": [
+        4.37228,
+        73.65101
+      ],
+      "centroid": [
+        4.37228,
+        73.65101
+      ],
+      "polygon": [
+        "4.380631,73.643003",
+        "4.364183,73.643261",
+        "4.363924,73.659018",
+        "4.38052,73.658721",
+        "4.380631,73.643003"
+      ],
+      "radius": 1.29,
+      "zoom": -1,
+      "search_by_polygon": 1,
+      "cluster": 0,
+      "properties": 82,
+      "radius_override": 5,
+      "boundingbox": {
+        "ne": [
+          4.381,
+          73.66
+        ],
+        "sw": [
+          4.363,
+          73.643
+        ]
+      },
+      "airports": [
+        "MLE",
+        "DRV"
+      ],
+      "region_name_en": "Thulusdhoo Island",
+      "region_name_long_en": "Thulusdhoo Island, Maldives",
+      "referrer_city_name_en": "Thulusdhoo Island",
+      "parent_region_id": 6051084,
+      "parent_hs_id": "x5p4hmhw6iot",
+      "parent_region_name": "Maldives (all)",
+      "parent_region_name_long": "Maldives (all)",
+      "dynamic_bbox": {
+        "ne": [
+          4.373,
+          73.653
+        ],
+        "sw": [
+          4.373,
+          73.653
+        ]
+      }
+    },
+    "records": [
+      {
+        "hs_id": 1010855535,
+        "slug": "dhoadhi-retreat-thulusdhoo-island-mv-1010855535",
+        "name": "Dhoadhi Retreat",
+        "toa": "hotel",
+        "building": {
+          "room_num": 50
+        },
+        "location": {
+          "city": "Thulusdhoo Island",
+          "zip": "20001",
+          "country_iso2": "MV",
+          "address": "Randhaa Magu Ayota",
+          "geoid": "xk8lkha1ntyx",
+          "loc": {
+            "type": "Point"
+          },
+          "coordinates": {
+            "lng": 73.65377,
+            "lat": 4.37394
+          }
+        },
+        "opening_time": {
+          "check_in_from": "14:00",
+          "check_in_to": "22:00",
+          "check_out_from": "10:00",
+          "check_out_to": "11:00"
+        },
+        "quality": {
+          "review_count": 78,
+          "review_rating": 85,
+          "stars": 3,
+          "stars_is_estimated": false,
+          "review_source": ""
+        },
+        "covid_safe": true,
+        "amenities": {
+          "sports": [
+            "bike_rent",
+            "sub",
+            "surf"
+          ],
+          "internet": [
+            "wifi",
+            "wifi_room",
+            "internet"
+          ],
+          "food_drink": [
+            "restaurant",
+            "room_service",
+            "snack_bar"
+          ],
+          "pets": [
+            "pets_allowed"
+          ],
+          "outdoor": [
+            "garden"
+          ],
+          "other": [],
+          "entertainment": [
+            "tv_lobby"
+          ],
+          "transfer": [
+            "shuttle_service"
+          ],
+          "room": [
+            "air_conditioning",
+            "tv"
+          ],
+          "reception": [
+            "24h_reception"
+          ]
+        },
+        "descriptions": {
+          "direction": "Located in Thulusdhoo Island, Dhoadhi Retreat is near the beach. Chickens Break and Sultans Surf Spot are worth checking out if an activity is on the agenda, while those wishing to experience the area's natural beauty can explore Paradise Island Beach and Gili Lankanfushi Beach.",
+          "general": "Dhoadhi Retreat Thulusdhoo provides flawless service and all the necessary facilities for visitors. Remain linked during your visit by utilizing the complimentary internet access available.Prior to your check-in date, you can arrange airport transportation services, guaranteeing a seamless and efficient experience for both arrival and departure. Reception services featuring express check-in or check-out are available to cater to your requirements.Repeatedly enjoy your best-loved attire with the aid of the laundry service available at Dhoadhi Retreat Thulusdhoo. Crafted for coziness, every guestroom provides an array of features, guaranteeing a tranquil night's sleep while maintaining the level of comfort.For a more enjoyable stay, select rooms at hotel are equipped with linen service and air conditioning. In select rooms, the hotel offers visitors access to a coffee or tea maker. Maintain your cleanliness and feel revitalized using toiletries available in select guest restrooms. Begin your day on a delightful note with a scrumptious complimentary breakfast, consistently served at Dhoadhi Retreat Thulusdhoo. During your visit, indulge in a range of delightful culinary choices at hotel to enhance your experience. Concerned about your dining preferences? Fret not! Dhoadhi Retreat Thulusdhoo offers an array of culinary choices, featuring kosher and halal alternatives.During your stay at hotel, an array of engaging activities and amenities guarantees a delightful experience.During your stay, the hotel provides direct access to a beach, ensuring you remain near the sea throughout your visit.",
+          "amenities": true,
+          "localized": "Dhoadhi Retreat Thulusdhoo provides flawless service and all the necessary facilities for visitors. Remain linked during your visit by utilizing the complimentary internet access available.Prior to your check-in date, you can arrange airport transportation services, guaranteeing a seamless and efficient experience for both arrival and departure. Reception services featuring express check-in or check-out are available to cater to your requirements.Repeatedly enjoy your best-loved attire with the aid of the laundry service available at Dhoadhi Retreat Thulusdhoo. Crafted for coziness, every guestroom provides an array of features, guaranteeing a tranquil night's sleep while maintaining the level of comfort.For a more enjoyable stay, select rooms at hotel are equipped with linen service and air conditioning. In select rooms, the hotel offers visitors access to a coffee or tea maker. Maintain your cleanliness and feel revitalized using toiletries available in select guest restrooms. Begin your day on a delightful note with a scrumptious complimentary breakfast, consistently served at Dhoadhi Retreat Thulusdhoo. During your visit, indulge in a range of delightful culinary choices at hotel to enhance your experience. Concerned about your dining preferences? Fret not! Dhoadhi Retreat Thulusdhoo offers an array of culinary choices, featuring kosher and halal alternatives.During your stay at hotel, an array of engaging activities and amenities guarantees a delightful experience.During your stay, the hotel provides direct access to a beach, ensuring you remain near the sea throughout your visit."
+        },
+        "short_description": "Simple hotel with shuttle service, restaurant and bike rent",
+        "chain": "no_chain",
+        "brand": "no_brand",
+        "offers": [
+          {
+            "price": 62.54,
+            "brt": "p2d#t",
+            "rf": "p2d#t",
+            "brf": 9502784,
+            "rt": 9502784,
+            "vendor": "agda",
+            "vendor_id_raw": "35928602",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included",
+              "Free cancellation"
+            ],
+            "jc_code": "",
+            "ranking_index": 0.96,
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Deluxe room - Twin beds",
+            "rooms": [
+              {
+                "name": "Deluxe room - Twin beds",
+                "flags": [
+                  "Twin beds"
+                ]
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included",
+              "refundable": "Free cancellation"
+            },
+            "partner_name": "Agoda",
+            "partner_logo": "https://hotelscan.com/apis/vendors/agda/logo.svg?pos=zz"
+          },
+          {
+            "vendor": "bkng",
+            "price": 87.79,
+            "vendor_id_raw": "8751652",
+            "mota_code": null,
+            "jc_code": "",
+            "partner_name": "Booking.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/bkng/logo.svg?pos=zz",
+            "room_name": "Deluxe room - Choice of single or double beds",
+            "brf": 9502848,
+            "brt": "p2d#b"
+          },
+          {
+            "vendor": "htls",
+            "price": 169.72,
+            "vendor_id_raw": "2675733984",
+            "mota_code": null,
+            "jc_code": "",
+            "partner_name": "Hotels.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/htls/logo.svg?pos=zz",
+            "room_name": "Deluxe room - Choice of single or double beds",
+            "brf": 9470016,
+            "brt": "p2d#b"
+          },
+          {
+            "vendor": "expd",
+            "price": 169.72,
+            "vendor_id_raw": "83585437",
+            "mota_code": null,
+            "jc_code": "EXPEDIA",
+            "partner_name": "Expedia",
+            "partner_logo": "https://hotelscan.com/apis/vendors/expd/logo.svg?pos=zz",
+            "room_name": "Deluxe room - Choice of single or double beds",
+            "brf": 9470016,
+            "brt": "p2d#b"
+          }
+        ],
+        "all_offers": [
+          {
+            "price": 62.54,
+            "brt": "p2d#t",
+            "rf": "p2d#t",
+            "brf": 9502784,
+            "rt": 9502784,
+            "vendor": "agda",
+            "vendor_id_raw": "35928602",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included",
+              "Free cancellation"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Deluxe room - Twin beds",
+            "rooms": [
+              {
+                "name": "Deluxe room - Twin beds",
+                "flags": [
+                  "Twin beds"
+                ]
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included",
+              "refundable": "Free cancellation"
+            },
+            "partner_name": "Agoda",
+            "partner_logo": "https://hotelscan.com/apis/vendors/agda/logo.svg?pos=zz"
+          },
+          {
+            "price": 87.01,
+            "brt": "p2d#b",
+            "rf": "p2d#b",
+            "brf": 9502784,
+            "rt": 9502784,
+            "vendor": "agda",
+            "vendor_id_raw": "35928602",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included",
+              "Free cancellation"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Deluxe room - Choice of single or double beds",
+            "rooms": [
+              {
+                "name": "Deluxe room - Choice of single or double beds",
+                "flags": [
+                  "Choice of single or double beds"
+                ]
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included",
+              "refundable": "Free cancellation"
+            },
+            "partner_name": "Agoda",
+            "partner_logo": "https://hotelscan.com/apis/vendors/agda/logo.svg?pos=zz"
+          },
+          {
+            "price": 87.79,
+            "brt": "p2d#b",
+            "rf": "p2d#b",
+            "brf": 9502848,
+            "rt": 9502848,
+            "vendor": "bkng",
+            "vendor_id_raw": "8751652",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included",
+              "Free cancellation",
+              "Pay at the property"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Deluxe room - Choice of single or double beds",
+            "rooms": [
+              {
+                "name": "Deluxe room - Choice of single or double beds",
+                "flags": [
+                  "Choice of single or double beds"
+                ]
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included",
+              "refundable": "Free cancellation",
+              "pay_at_hotel": "Pay at the property"
+            },
+            "partner_name": "Booking.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/bkng/logo.svg?pos=zz"
+          },
+          {
+            "price": 96.2,
+            "brt": "p2r#b",
+            "rf": "p2r#b",
+            "brf": 9502784,
+            "rt": 9502784,
+            "vendor": "agda",
+            "vendor_id_raw": "35928602",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included",
+              "Free cancellation"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Standard room - Choice of single or double beds",
+            "rooms": [
+              {
+                "name": "Standard room - Choice of single or double beds",
+                "flags": [
+                  "Choice of single or double beds"
+                ]
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included",
+              "refundable": "Free cancellation"
+            },
+            "partner_name": "Agoda",
+            "partner_logo": "https://hotelscan.com/apis/vendors/agda/logo.svg?pos=zz"
+          },
+          {
+            "price": 97.07,
+            "brt": "p2r#b",
+            "rf": "p2r#b",
+            "brf": 9502848,
+            "rt": 9502848,
+            "vendor": "bkng",
+            "vendor_id_raw": "8751652",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included",
+              "Free cancellation",
+              "Pay at the property"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Standard room - Choice of single or double beds",
+            "rooms": [
+              {
+                "name": "Standard room - Choice of single or double beds",
+                "flags": [
+                  "Choice of single or double beds"
+                ]
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included",
+              "refundable": "Free cancellation",
+              "pay_at_hotel": "Pay at the property"
+            },
+            "partner_name": "Booking.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/bkng/logo.svg?pos=zz"
+          },
+          {
+            "price": 97.35,
+            "brt": "p2d#t",
+            "rf": "p2d#t",
+            "brf": 9502784,
+            "rt": 9502784,
+            "vendor": "agda",
+            "vendor_id_raw": "35928602",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included",
+              "Free cancellation"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Deluxe room - Twin beds",
+            "rooms": [
+              {
+                "name": "Deluxe room - Twin beds",
+                "flags": [
+                  "Twin beds"
+                ]
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included",
+              "refundable": "Free cancellation"
+            },
+            "partner_name": "Agoda",
+            "partner_logo": "https://hotelscan.com/apis/vendors/agda/logo.svg?pos=zz"
+          },
+          {
+            "price": 169.72,
+            "brt": "p2d#b",
+            "rf": "p2d#b",
+            "brf": 9470016,
+            "rt": 9470016,
+            "vendor": "htls",
+            "vendor_id_raw": "2675733984",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": false,
+            "special": false,
+            "room_name": "Deluxe room - Choice of single or double beds",
+            "rooms": [
+              {
+                "name": "Deluxe room - Choice of single or double beds",
+                "flags": [
+                  "Choice of single or double beds"
+                ]
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included"
+            },
+            "partner_name": "Hotels.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/htls/logo.svg?pos=zz"
+          },
+          {
+            "price": 169.72,
+            "brt": "p2d#b",
+            "rf": "p2d#b",
+            "brf": 9470016,
+            "rt": 9470016,
+            "vendor": "expd",
+            "vendor_id_raw": "83585437",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included"
+            ],
+            "jc_code": "EXPEDIA",
+            "chain": "",
+            "free_cancellation": false,
+            "special": false,
+            "room_name": "Deluxe room - Choice of single or double beds",
+            "rooms": [
+              {
+                "name": "Deluxe room - Choice of single or double beds",
+                "flags": [
+                  "Choice of single or double beds"
+                ]
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included"
+            },
+            "partner_name": "Expedia",
+            "partner_logo": "https://hotelscan.com/apis/vendors/expd/logo.svg?pos=zz"
+          },
+          {
+            "price": 187.44,
+            "brt": "p2d#b",
+            "rf": "p2d#b",
+            "brf": 9502848,
+            "rt": 9502848,
+            "vendor": "htls",
+            "vendor_id_raw": "2675733984",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included",
+              "Free cancellation",
+              "Pay at the property"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Deluxe room - Choice of single or double beds",
+            "rooms": [
+              {
+                "name": "Deluxe room - Choice of single or double beds",
+                "flags": [
+                  "Choice of single or double beds"
+                ]
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included",
+              "refundable": "Free cancellation",
+              "pay_at_hotel": "Pay at the property"
+            },
+            "partner_name": "Hotels.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/htls/logo.svg?pos=zz"
+          },
+          {
+            "price": 187.44,
+            "brt": "p2d#b",
+            "rf": "p2d#b",
+            "brf": 9502848,
+            "rt": 9502848,
+            "vendor": "expd",
+            "vendor_id_raw": "83585437",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included",
+              "Free cancellation",
+              "Pay at the property"
+            ],
+            "jc_code": "EXPEDIA",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Deluxe room - Choice of single or double beds",
+            "rooms": [
+              {
+                "name": "Deluxe room - Choice of single or double beds",
+                "flags": [
+                  "Choice of single or double beds"
+                ]
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included",
+              "refundable": "Free cancellation",
+              "pay_at_hotel": "Pay at the property"
+            },
+            "partner_name": "Expedia",
+            "partner_logo": "https://hotelscan.com/apis/vendors/expd/logo.svg?pos=zz"
+          }
+        ],
+        "descriptions_language": {
+          "general": {
+            "original_language": true,
+            "text": "Dhoadhi Retreat Thulusdhoo provides flawless service and all the necessary facilities for visitors. Remain linked during your visit by utilizing the complimentary internet access available.Prior to your check-in date, you can arrange airport transportation services, guaranteeing a seamless and efficient experience for both arrival and departure. Reception services featuring express check-in or check-out are available to cater to your requirements.Repeatedly enjoy your best-loved attire with the aid of the laundry service available at Dhoadhi Retreat Thulusdhoo. Crafted for coziness, every guestroom provides an array of features, guaranteeing a tranquil night's sleep while maintaining the level of comfort.For a more enjoyable stay, select rooms at hotel are equipped with linen service and air conditioning. In select rooms, the hotel offers visitors access to a coffee or tea maker. Maintain your cleanliness and feel revitalized using toiletries available in select guest restrooms. Begin your day on a delightful note with a scrumptious complimentary breakfast, consistently served at Dhoadhi Retreat Thulusdhoo. During your visit, indulge in a range of delightful culinary choices at hotel to enhance your experience. Concerned about your dining preferences? Fret not! Dhoadhi Retreat Thulusdhoo offers an array of culinary choices, featuring kosher and halal alternatives.During your stay at hotel, an array of engaging activities and amenities guarantees a delightful experience.During your stay, the hotel provides direct access to a beach, ensuring you remain near the sea throughout your visit."
+          },
+          "direction": {
+            "original_language": true,
+            "text": "Located in Thulusdhoo Island, Dhoadhi Retreat is near the beach. Chickens Break and Sultans Surf Spot are worth checking out if an activity is on the agenda, while those wishing to experience the area's natural beauty can explore Paradise Island Beach and Gili Lankanfushi Beach."
+          }
+        },
+        "chain_code": null,
+        "bids": {
+          "bkng": "j23",
+          "expd": "j23",
+          "agda": "j23",
+          "htls": "j23"
+        },
+        "worst_offer": 169.72,
+        "best_offer": 62.54,
+        "best_offer_ota": "agda",
+        "best_offer_mota": null,
+        "discount": 65,
+        "offers_count": 10,
+        "coordinates": {
+          "lat": 4.37394,
+          "lng": 73.65377
+        },
+        "distance": 0.36,
+        "neighborhood": null,
+        "badge": null,
+        "distances": [
+          {
+            "from": "center",
+            "distance": 0.36,
+            "time": 500,
+            "means": "foot",
+            "means_type": "foot"
+          }
+        ],
+        "specs": {
+          "bathrooms": null,
+          "beds": null,
+          "bedrooms": null,
+          "guests": null,
+          "square_meters": null
+        },
+        "toa_label": "hotel",
+        "top_amenities": [
+          "wifi_room",
+          "internet",
+          "restaurant",
+          "room_service",
+          "pets_allowed"
+        ],
+        "transportations": {
+          "airports": [],
+          "trains": []
+        },
+        "images": [
+          {
+            "image_id": "692695605",
+            "label": ""
+          },
+          {
+            "image_id": "692695613",
+            "label": ""
+          },
+          {
+            "image_id": "692695594",
+            "label": ""
+          },
+          {
+            "image_id": "692695591",
+            "label": ""
+          },
+          {
+            "image_id": "692695607",
+            "label": ""
+          },
+          {
+            "image_id": "692695681",
+            "label": ""
+          },
+          {
+            "image_id": "692695593",
+            "label": ""
+          },
+          {
+            "image_id": "692695679",
+            "label": ""
+          },
+          {
+            "image_id": "692695622",
+            "label": ""
+          },
+          {
+            "image_id": "692695640",
+            "label": ""
+          },
+          {
+            "image_id": "692695627",
+            "label": ""
+          },
+          {
+            "image_id": "692695616",
+            "label": ""
+          },
+          {
+            "image_id": "692695585",
+            "label": ""
+          },
+          {
+            "image_id": "692695649",
+            "label": ""
+          },
+          {
+            "image_id": "692695664",
+            "label": ""
+          }
+        ],
+        "hero_offer": {
+          "price": 62.54,
+          "brt": "p2d#t",
+          "rf": "p2d#t",
+          "brf": 9502784,
+          "rt": 9502784,
+          "vendor": "agda",
+          "vendor_id_raw": "35928602",
+          "mota_code": null,
+          "direct_offer": false,
+          "offer_flags": {
+            "breakfast": "Breakfast included",
+            "refundable": "Free cancellation"
+          },
+          "jc_code": "",
+          "ranking_index": 0.96,
+          "chain": "",
+          "free_cancellation": true,
+          "special": false,
+          "room_name": "Deluxe room - Twin beds",
+          "rooms": [
+            {
+              "name": "Deluxe room - Twin beds",
+              "flags": [
+                "Twin beds"
+              ]
+            }
+          ],
+          "partner_name": "Agoda",
+          "partner_logo": "https://hotelscan.com/apis/vendors/agda/logo.svg?pos=zz"
+        },
+        "rank": 0,
+        "ctrl_srt": "im a ctrl teapot",
+        "test_srt": "im a test teapot"
+      }
+    ],
+    "filters": [],
+    "query": {
+      "pos": "zz"
+    }
+  }
+}

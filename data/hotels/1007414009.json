@@ -1,0 +1,1170 @@
+{
+  "_meta": {
+    "status": "SUCCESS",
+    "cached": true,
+    "count": 1,
+    "debug": {
+      "ticket": {
+        "ticket_id": "1007414009_zz_zz_d_publ_en_2_2025-10-08_2025-10-13_1_3",
+        "created_at": 1758065388.5327,
+        "loop": null,
+        "snapped_at": 1758065388.6225,
+        "snapshot_id": "1007414009_zz_zz_d_publ_en_2_2025-10-08_2025-10-13_1_3",
+        "snapshot_ttl": 300,
+        "executions": 2,
+        "progress": 1,
+        "save_errors": []
+      }
+    }
+  },
+  "data": {
+    "meta": [],
+    "geo": {
+      "hs_id": "x5w0a46ric9t",
+      "region_name": "Bolifushi Island",
+      "region_name_long": "Bolifushi Island, Maldives",
+      "region_type": "CITY",
+      "region_id": 6143082,
+      "country_iso": "MV",
+      "country": "maldives",
+      "localised_country": "Maldives",
+      "center": [
+        4.10302,
+        73.40026
+      ],
+      "centroid": [
+        4.10302,
+        73.40026
+      ],
+      "polygon": [
+        "4.110529,73.392226",
+        "4.093495,73.393232",
+        "4.094512,73.408302",
+        "4.11254,73.407289",
+        "4.110529,73.392226"
+      ],
+      "radius": 1.32,
+      "zoom": -1,
+      "search_by_polygon": 0,
+      "cluster": 0,
+      "properties": 5,
+      "radius_override": 5,
+      "boundingbox": {
+        "ne": [
+          4.113,
+          73.409
+        ],
+        "sw": [
+          4.093,
+          73.392
+        ]
+      },
+      "airports": [
+        "MLE",
+        "DRV"
+      ],
+      "region_name_en": "Bolifushi Island",
+      "region_name_long_en": "Bolifushi Island, Maldives",
+      "referrer_city_name_en": "Bolifushi Island",
+      "parent_region_id": 6051084,
+      "parent_hs_id": "x5p4hmhw6iot",
+      "parent_region_name": "Maldives (all)",
+      "parent_region_name_long": "Maldives (all)",
+      "dynamic_bbox": {
+        "ne": [
+          4.095,
+          73.402
+        ],
+        "sw": [
+          4.095,
+          73.402
+        ]
+      }
+    },
+    "records": [
+      {
+        "hs_id": 1007414009,
+        "slug": "ozen-reserve-bolifushi-luxury-all-inclusive-with-free-transfers-bolifushi-island-mv-1007414009",
+        "name": "Ozen Reserve Bolifushi - Luxury All Inclusive With Free Transfers",
+        "ty_id": "03677154-0804-4a60-a576-2c341d784827",
+        "toa": "resort",
+        "location": {
+          "city": "Bolifushi Island",
+          "zip": "20219",
+          "country_iso2": "MV",
+          "address": "South Male Atoll",
+          "geoid": "x5w0a46ric9t",
+          "loc": {
+            "type": "Point"
+          },
+          "coordinates": {
+            "lng": 73.40209,
+            "lat": 4.09535
+          }
+        },
+        "opening_time": {
+          "check_in_from": "15:00",
+          "check_in_to": null,
+          "check_out_from": null,
+          "check_out_to": "12:00"
+        },
+        "quality": {
+          "review_count": 103,
+          "review_rating": 95,
+          "stars": 5,
+          "stars_is_estimated": false,
+          "review_source": ""
+        },
+        "covid_safe": true,
+        "amenities": {
+          "wellness": [
+            "massage",
+            "solarium",
+            "fitness_center",
+            "hair_salon",
+            "spa",
+            "outdoor_pool"
+          ],
+          "sports": [
+            "billiard",
+            "yoga",
+            "bike_rent",
+            "ping_pong",
+            "sub",
+            "surf"
+          ],
+          "internet": [
+            "wifi",
+            "internet"
+          ],
+          "food_drink": [
+            "restaurant",
+            "room_service",
+            "bar",
+            "snack_bar"
+          ],
+          "disability": [
+            "wheelchair_accessible",
+            "disability_facilities"
+          ],
+          "outdoor": [
+            "garden",
+            "terrace"
+          ],
+          "other": [],
+          "business": [
+            "business_services"
+          ],
+          "children": [
+            "babysitter",
+            "children_playground"
+          ],
+          "entertainment": [
+            "disco"
+          ],
+          "transfer": [
+            "shuttle_service"
+          ],
+          "room": [
+            "air_conditioning",
+            "tv"
+          ],
+          "reception": [
+            "24h_reception",
+            "luggage_storage",
+            "concierge",
+            "laundry_facilities",
+            "laundry_service",
+            "safety_deposit_box"
+          ]
+        },
+        "descriptions": {
+          "general": "OZEN RESERVE BOLIFUSHI is located in a spot of graceful elegance, offering excitement within endless beauty. Hidden beneath lush tropical vegetation, the resort island is surrounded by expansive white beaches and turquoise waters. The property is a 35-minute luxury catamaran or speedboat ride from Velana International Airport. Our All-Inclusive - The RESERVE Plan includes complimentary Return Airport transfers by Luxury Catamaran, specialty Fine Dining experiences, premium brands of spirits, beer, wines, and cocktails, use of snorkeling equipment & non-motorized water sports and mini-bar replenished once daily. Specialty Fine Dining experiences and Spa experiences are applicable for stays 4 nights and above. Dine in Maldivian splendor with sublime views of the Indian Ocean. The resort offers a variety of dining experiences and cuisines, including traditional Indian cuisine, refreshing Middle Eastern dishes by the beach, and gourmet seafood dishes - paired with excellent wines and champagnes. There are several world-class diving sites nearby. Explore these with courses and expeditions arranged by the PADI-certified dove center. Facilities on the island include a spa with 100% organic treatments, an overwater gymnasium, semi-submarine adventures, non-motorized water sports, and complimentary bicycles. The inviting Kid’s Club and Teen Lounge host regular events and activities, including the popular children’s educational Island Treasure Hunt.",
+          "localized": "OZEN RESERVE BOLIFUSHI is located in a spot of graceful elegance, offering excitement within endless beauty. Hidden beneath lush tropical vegetation, the resort island is surrounded by expansive white beaches and turquoise waters. The property is a 35-minute luxury catamaran or speedboat ride from Velana International Airport. Our All-Inclusive - The RESERVE Plan includes complimentary Return Airport transfers by Luxury Catamaran, specialty Fine Dining experiences, premium brands of spirits, beer, wines, and cocktails, use of snorkeling equipment & non-motorized water sports and mini-bar replenished once daily. Specialty Fine Dining experiences and Spa experiences are applicable for stays 4 nights and above. Dine in Maldivian splendor with sublime views of the Indian Ocean. The resort offers a variety of dining experiences and cuisines, including traditional Indian cuisine, refreshing Middle Eastern dishes by the beach, and gourmet seafood dishes - paired with excellent wines and champagnes. There are several world-class diving sites nearby. Explore these with courses and expeditions arranged by the PADI-certified dove center. Facilities on the island include a spa with 100% organic treatments, an overwater gymnasium, semi-submarine adventures, non-motorized water sports, and complimentary bicycles. The inviting Kid’s Club and Teen Lounge host regular events and activities, including the popular children’s educational Island Treasure Hunt."
+        },
+        "short_description": "Excellent hotel. Good for sightseeing and has a beach nearby. Fantastic service.",
+        "chain": "atmosphere_hotels_and_resorts",
+        "offers": [
+          {
+            "price": 1403.94,
+            "brt": "o2r#",
+            "rf": "o2r#",
+            "brf": 11075648,
+            "rt": 11075648,
+            "vendor": "bkng",
+            "vendor_id_raw": "279891",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Free cancellation"
+            ],
+            "jc_code": "",
+            "ranking_index": 0.9953559268914626,
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Villa",
+            "rooms": [
+              {
+                "name": "Villa",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "refundable": "Free cancellation"
+            },
+            "partner_name": "Booking.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/bkng/logo.svg?pos=zz"
+          },
+          {
+            "vendor": "stfl",
+            "price": 1387.64,
+            "vendor_id_raw": "52233",
+            "mota_code": null,
+            "jc_code": "",
+            "partner_name": "Stayforlong",
+            "partner_logo": "https://hotelscan.com/apis/vendors/stfl/logo.svg?pos=zz",
+            "room_name": "Villa - Choice of single or double beds",
+            "brf": 9502784,
+            "brt": "o2r#b"
+          }
+        ],
+        "all_offers": [
+          {
+            "price": 1387.64,
+            "brt": "o2r#b",
+            "rf": "o2r#b",
+            "brf": 9502784,
+            "rt": 9502784,
+            "vendor": "stfl",
+            "vendor_id_raw": "52233",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included",
+              "Free cancellation"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Villa - Choice of single or double beds",
+            "rooms": [
+              {
+                "name": "Villa - Choice of single or double beds",
+                "flags": [
+                  "Choice of single or double beds"
+                ]
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included",
+              "refundable": "Free cancellation"
+            },
+            "partner_name": "Stayforlong",
+            "partner_logo": "https://hotelscan.com/apis/vendors/stfl/logo.svg?pos=zz"
+          },
+          {
+            "price": 1403.94,
+            "brt": "o2r#",
+            "rf": "o2r#",
+            "brf": 11075648,
+            "rt": 11075648,
+            "vendor": "bkng",
+            "vendor_id_raw": "279891",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Free cancellation"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Villa",
+            "rooms": [
+              {
+                "name": "Villa",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "refundable": "Free cancellation"
+            },
+            "partner_name": "Booking.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/bkng/logo.svg?pos=zz"
+          },
+          {
+            "price": 1447.72,
+            "brt": "o2r#",
+            "rf": "o2r#",
+            "brf": 11075648,
+            "rt": 11075648,
+            "vendor": "bkng",
+            "vendor_id_raw": "279891",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Free cancellation"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Villa",
+            "rooms": [
+              {
+                "name": "Villa",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "refundable": "Free cancellation"
+            },
+            "partner_name": "Booking.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/bkng/logo.svg?pos=zz"
+          },
+          {
+            "price": 1482.75,
+            "brt": "e2r#",
+            "rf": "e2r#",
+            "brf": 11075648,
+            "rt": 11075648,
+            "vendor": "bkng",
+            "vendor_id_raw": "279891",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Free cancellation"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Suite",
+            "rooms": [
+              {
+                "name": "Suite",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "refundable": "Free cancellation"
+            },
+            "partner_name": "Booking.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/bkng/logo.svg?pos=zz"
+          },
+          {
+            "price": 1490.41,
+            "brt": "o2r#",
+            "rf": "o2r#",
+            "brf": 11075648,
+            "rt": 11075648,
+            "vendor": "bkng",
+            "vendor_id_raw": "279891",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Free cancellation"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Villa",
+            "rooms": [
+              {
+                "name": "Villa",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "refundable": "Free cancellation"
+            },
+            "partner_name": "Booking.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/bkng/logo.svg?pos=zz"
+          },
+          {
+            "price": 1536.93,
+            "brt": "o2r#",
+            "rf": "o2r#",
+            "brf": 11075648,
+            "rt": 11075648,
+            "vendor": "bkng",
+            "vendor_id_raw": "279891",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Free cancellation"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Villa",
+            "rooms": [
+              {
+                "name": "Villa",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "refundable": "Free cancellation"
+            },
+            "partner_name": "Booking.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/bkng/logo.svg?pos=zz"
+          },
+          {
+            "price": 1574.15,
+            "brt": "e2r#",
+            "rf": "e2r#",
+            "brf": 11075648,
+            "rt": 11075648,
+            "vendor": "bkng",
+            "vendor_id_raw": "279891",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Free cancellation"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Suite",
+            "rooms": [
+              {
+                "name": "Suite",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "refundable": "Free cancellation"
+            },
+            "partner_name": "Booking.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/bkng/logo.svg?pos=zz"
+          },
+          {
+            "price": 1791.31,
+            "brt": "o2r#",
+            "rf": "o2r#",
+            "brf": 11075648,
+            "rt": 11075648,
+            "vendor": "bkng",
+            "vendor_id_raw": "279891",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Free cancellation"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Villa",
+            "rooms": [
+              {
+                "name": "Villa",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "refundable": "Free cancellation"
+            },
+            "partner_name": "Booking.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/bkng/logo.svg?pos=zz"
+          },
+          {
+            "price": 1835.1,
+            "brt": "o2r#",
+            "rf": "o2r#",
+            "brf": 11075648,
+            "rt": 11075648,
+            "vendor": "bkng",
+            "vendor_id_raw": "279891",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Free cancellation"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Villa",
+            "rooms": [
+              {
+                "name": "Villa",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "refundable": "Free cancellation"
+            },
+            "partner_name": "Booking.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/bkng/logo.svg?pos=zz"
+          },
+          {
+            "price": 1870.12,
+            "brt": "e2r#",
+            "rf": "e2r#",
+            "brf": 11075648,
+            "rt": 11075648,
+            "vendor": "bkng",
+            "vendor_id_raw": "279891",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Free cancellation"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Suite",
+            "rooms": [
+              {
+                "name": "Suite",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "refundable": "Free cancellation"
+            },
+            "partner_name": "Booking.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/bkng/logo.svg?pos=zz"
+          },
+          {
+            "price": 1897.92,
+            "brt": "o2r#",
+            "rf": "o2r#",
+            "brf": 11075648,
+            "rt": 11075648,
+            "vendor": "bkng",
+            "vendor_id_raw": "279891",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Free cancellation"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Villa",
+            "rooms": [
+              {
+                "name": "Villa",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "refundable": "Free cancellation"
+            },
+            "partner_name": "Booking.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/bkng/logo.svg?pos=zz"
+          },
+          {
+            "price": 1944.44,
+            "brt": "o2r#",
+            "rf": "o2r#",
+            "brf": 11075648,
+            "rt": 11075648,
+            "vendor": "bkng",
+            "vendor_id_raw": "279891",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Free cancellation"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Villa",
+            "rooms": [
+              {
+                "name": "Villa",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "refundable": "Free cancellation"
+            },
+            "partner_name": "Booking.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/bkng/logo.svg?pos=zz"
+          },
+          {
+            "price": 1981.66,
+            "brt": "e2r#",
+            "rf": "e2r#",
+            "brf": 11075648,
+            "rt": 11075648,
+            "vendor": "bkng",
+            "vendor_id_raw": "279891",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Free cancellation"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Suite",
+            "rooms": [
+              {
+                "name": "Suite",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "refundable": "Free cancellation"
+            },
+            "partner_name": "Booking.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/bkng/logo.svg?pos=zz"
+          },
+          {
+            "price": 2165.76,
+            "brt": "e2r#",
+            "rf": "e2r#",
+            "brf": 11075648,
+            "rt": 11075648,
+            "vendor": "bkng",
+            "vendor_id_raw": "279891",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Free cancellation"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Suite",
+            "rooms": [
+              {
+                "name": "Suite",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "refundable": "Free cancellation"
+            },
+            "partner_name": "Booking.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/bkng/logo.svg?pos=zz"
+          },
+          {
+            "price": 2299.85,
+            "brt": "e2r#",
+            "rf": "e2r#",
+            "brf": 11075648,
+            "rt": 11075648,
+            "vendor": "bkng",
+            "vendor_id_raw": "279891",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Free cancellation"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Suite",
+            "rooms": [
+              {
+                "name": "Suite",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "refundable": "Free cancellation"
+            },
+            "partner_name": "Booking.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/bkng/logo.svg?pos=zz"
+          },
+          {
+            "price": 2367.16,
+            "brt": "z2r#",
+            "rf": "z2r#",
+            "brf": 11075648,
+            "rt": 11075648,
+            "vendor": "bkng",
+            "vendor_id_raw": "279891",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Free cancellation"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Go to the booking site for more details",
+            "rooms": [
+              {
+                "name": "Go to the booking site for more details",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "refundable": "Free cancellation"
+            },
+            "partner_name": "Booking.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/bkng/logo.svg?pos=zz"
+          },
+          {
+            "price": 2513.84,
+            "brt": "z2r#",
+            "rf": "z2r#",
+            "brf": 11075648,
+            "rt": 11075648,
+            "vendor": "bkng",
+            "vendor_id_raw": "279891",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Free cancellation"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Go to the booking site for more details",
+            "rooms": [
+              {
+                "name": "Go to the booking site for more details",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "refundable": "Free cancellation"
+            },
+            "partner_name": "Booking.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/bkng/logo.svg?pos=zz"
+          },
+          {
+            "price": 2553.14,
+            "brt": "e2r#",
+            "rf": "e2r#",
+            "brf": 11075648,
+            "rt": 11075648,
+            "vendor": "bkng",
+            "vendor_id_raw": "279891",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Free cancellation"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Suite",
+            "rooms": [
+              {
+                "name": "Suite",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "refundable": "Free cancellation"
+            },
+            "partner_name": "Booking.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/bkng/logo.svg?pos=zz"
+          },
+          {
+            "price": 2707.36,
+            "brt": "e2r#",
+            "rf": "e2r#",
+            "brf": 11075648,
+            "rt": 11075648,
+            "vendor": "bkng",
+            "vendor_id_raw": "279891",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Free cancellation"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Suite",
+            "rooms": [
+              {
+                "name": "Suite",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "refundable": "Free cancellation"
+            },
+            "partner_name": "Booking.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/bkng/logo.svg?pos=zz"
+          },
+          {
+            "price": 2754.54,
+            "brt": "z2r#",
+            "rf": "z2r#",
+            "brf": 11075648,
+            "rt": 11075648,
+            "vendor": "bkng",
+            "vendor_id_raw": "279891",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Free cancellation"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Go to the booking site for more details",
+            "rooms": [
+              {
+                "name": "Go to the booking site for more details",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "refundable": "Free cancellation"
+            },
+            "partner_name": "Booking.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/bkng/logo.svg?pos=zz"
+          },
+          {
+            "price": 2921.35,
+            "brt": "z2r#",
+            "rf": "z2r#",
+            "brf": 11075648,
+            "rt": 11075648,
+            "vendor": "bkng",
+            "vendor_id_raw": "279891",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Free cancellation"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Go to the booking site for more details",
+            "rooms": [
+              {
+                "name": "Go to the booking site for more details",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "refundable": "Free cancellation"
+            },
+            "partner_name": "Booking.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/bkng/logo.svg?pos=zz"
+          },
+          {
+            "price": 3111.47,
+            "brt": "z2r#",
+            "rf": "z2r#",
+            "brf": 11075648,
+            "rt": 11075648,
+            "vendor": "bkng",
+            "vendor_id_raw": "279891",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Free cancellation"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Go to the booking site for more details",
+            "rooms": [
+              {
+                "name": "Go to the booking site for more details",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "refundable": "Free cancellation"
+            },
+            "partner_name": "Booking.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/bkng/logo.svg?pos=zz"
+          },
+          {
+            "price": 3142.8,
+            "brt": "z2r#",
+            "rf": "z2r#",
+            "brf": 11075648,
+            "rt": 11075648,
+            "vendor": "bkng",
+            "vendor_id_raw": "279891",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Free cancellation"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Go to the booking site for more details",
+            "rooms": [
+              {
+                "name": "Go to the booking site for more details",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "refundable": "Free cancellation"
+            },
+            "partner_name": "Booking.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/bkng/logo.svg?pos=zz"
+          },
+          {
+            "price": 3304.67,
+            "brt": "z2r#",
+            "rf": "z2r#",
+            "brf": 11075648,
+            "rt": 11075648,
+            "vendor": "bkng",
+            "vendor_id_raw": "279891",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Free cancellation"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Go to the booking site for more details",
+            "rooms": [
+              {
+                "name": "Go to the booking site for more details",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "refundable": "Free cancellation"
+            },
+            "partner_name": "Booking.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/bkng/logo.svg?pos=zz"
+          },
+          {
+            "price": 3329.79,
+            "brt": "z2r#",
+            "rf": "z2r#",
+            "brf": 11075648,
+            "rt": 11075648,
+            "vendor": "bkng",
+            "vendor_id_raw": "279891",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Free cancellation"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Go to the booking site for more details",
+            "rooms": [
+              {
+                "name": "Go to the booking site for more details",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "refundable": "Free cancellation"
+            },
+            "partner_name": "Booking.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/bkng/logo.svg?pos=zz"
+          },
+          {
+            "price": 3435.47,
+            "brt": "z2r#",
+            "rf": "z2r#",
+            "brf": 11075648,
+            "rt": 11075648,
+            "vendor": "bkng",
+            "vendor_id_raw": "279891",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Free cancellation"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Go to the booking site for more details",
+            "rooms": [
+              {
+                "name": "Go to the booking site for more details",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "refundable": "Free cancellation"
+            },
+            "partner_name": "Booking.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/bkng/logo.svg?pos=zz"
+          }
+        ],
+        "descriptions_language": {
+          "general": {
+            "original_language": true,
+            "text": "OZEN RESERVE BOLIFUSHI is located in a spot of graceful elegance, offering excitement within endless beauty. Hidden beneath lush tropical vegetation, the resort island is surrounded by expansive white beaches and turquoise waters. The property is a 35-minute luxury catamaran or speedboat ride from Velana International Airport. Our All-Inclusive - The RESERVE Plan includes complimentary Return Airport transfers by Luxury Catamaran, specialty Fine Dining experiences, premium brands of spirits, beer, wines, and cocktails, use of snorkeling equipment & non-motorized water sports and mini-bar replenished once daily. Specialty Fine Dining experiences and Spa experiences are applicable for stays 4 nights and above. Dine in Maldivian splendor with sublime views of the Indian Ocean. The resort offers a variety of dining experiences and cuisines, including traditional Indian cuisine, refreshing Middle Eastern dishes by the beach, and gourmet seafood dishes - paired with excellent wines and champagnes. There are several world-class diving sites nearby. Explore these with courses and expeditions arranged by the PADI-certified dove center. Facilities on the island include a spa with 100% organic treatments, an overwater gymnasium, semi-submarine adventures, non-motorized water sports, and complimentary bicycles. The inviting Kid’s Club and Teen Lounge host regular events and activities, including the popular children’s educational Island Treasure Hunt."
+          }
+        },
+        "chain_code": null,
+        "bids": {
+          "stfl": "j23",
+          "bkng": "j23"
+        },
+        "worst_offer": null,
+        "best_offer": 1387.64,
+        "best_offer_ota": "stfl",
+        "best_offer_mota": null,
+        "discount": 0,
+        "offers_count": 26,
+        "coordinates": {
+          "lat": 4.09535,
+          "lng": 73.40209
+        },
+        "distance": 0.88,
+        "neighborhood": null,
+        "badge": null,
+        "distances": [
+          {
+            "from": "center",
+            "distance": 0.88,
+            "time": 1222,
+            "means": "foot",
+            "means_type": "foot"
+          }
+        ],
+        "specs": {
+          "bathrooms": null,
+          "beds": null,
+          "bedrooms": null,
+          "guests": null,
+          "square_meters": null
+        },
+        "toa_label": "resort",
+        "top_amenities": [
+          "outdoor_pool",
+          "internet",
+          "restaurant",
+          "room_service",
+          "bar"
+        ],
+        "transportations": {
+          "airports": [],
+          "trains": []
+        },
+        "images": [
+          {
+            "image_id": "721267929",
+            "label": ""
+          },
+          {
+            "image_id": "721267923",
+            "label": ""
+          },
+          {
+            "image_id": "721267897",
+            "label": ""
+          },
+          {
+            "image_id": "721267947",
+            "label": ""
+          },
+          {
+            "image_id": "721267934",
+            "label": ""
+          },
+          {
+            "image_id": "721267949",
+            "label": ""
+          },
+          {
+            "image_id": "721267914",
+            "label": ""
+          },
+          {
+            "image_id": "721267936",
+            "label": ""
+          },
+          {
+            "image_id": "721267927",
+            "label": ""
+          },
+          {
+            "image_id": "721267892",
+            "label": ""
+          },
+          {
+            "image_id": "721267940",
+            "label": ""
+          },
+          {
+            "image_id": "721267917",
+            "label": ""
+          },
+          {
+            "image_id": "721267946",
+            "label": ""
+          },
+          {
+            "image_id": "721267928",
+            "label": ""
+          },
+          {
+            "image_id": "721267933",
+            "label": ""
+          }
+        ],
+        "hero_offer": {
+          "price": 1403.94,
+          "brt": "o2r#",
+          "rf": "o2r#",
+          "brf": 11075648,
+          "rt": 11075648,
+          "vendor": "bkng",
+          "vendor_id_raw": "279891",
+          "mota_code": null,
+          "direct_offer": false,
+          "offer_flags": {
+            "refundable": "Free cancellation"
+          },
+          "jc_code": "",
+          "ranking_index": 0.9953559268914626,
+          "chain": "",
+          "free_cancellation": true,
+          "special": false,
+          "room_name": "Villa",
+          "rooms": [
+            {
+              "name": "Villa",
+              "flags": []
+            }
+          ],
+          "partner_name": "Booking.com",
+          "partner_logo": "https://hotelscan.com/apis/vendors/bkng/logo.svg?pos=zz"
+        },
+        "rank": 0,
+        "ctrl_srt": "im a ctrl teapot",
+        "test_srt": "im a test teapot"
+      }
+    ],
+    "filters": [],
+    "query": {
+      "pos": "zz"
+    }
+  }
+}

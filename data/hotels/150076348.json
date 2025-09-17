@@ -1,0 +1,1158 @@
+{
+  "_meta": {
+    "status": "SUCCESS",
+    "cached": true,
+    "count": 1,
+    "debug": {
+      "ticket": {
+        "ticket_id": "150076348_zz_zz_d_publ_en_2_2025-10-08_2025-10-13_1_3",
+        "created_at": 1758065366.1516,
+        "loop": null,
+        "snapped_at": 1758065366.2502,
+        "snapshot_id": "150076348_zz_zz_d_publ_en_2_2025-10-08_2025-10-13_1_3",
+        "snapshot_ttl": 300,
+        "executions": 2,
+        "progress": 1,
+        "save_errors": []
+      }
+    }
+  },
+  "data": {
+    "meta": [],
+    "geo": {
+      "hs_id": "x5v1lp2u0wb7",
+      "region_name": "Madivaru",
+      "region_name_long": "Madivaru, Maldives",
+      "region_type": "CITY",
+      "region_id": 6130902,
+      "country_iso": "MV",
+      "country": "maldives",
+      "localised_country": "Maldives",
+      "center": [
+        4.13111,
+        72.93783
+      ],
+      "centroid": [
+        4.1311,
+        72.93783
+      ],
+      "polygon": [
+        "4.156441,72.909959",
+        "4.156441,72.965691",
+        "4.105768,72.965699",
+        "4.105768,72.909962",
+        "4.156441,72.909959"
+      ],
+      "radius": 4.19,
+      "zoom": -1,
+      "search_by_polygon": 0,
+      "cluster": 0,
+      "properties": 1,
+      "radius_override": 5,
+      "boundingbox": {
+        "ne": [
+          4.157,
+          72.966
+        ],
+        "sw": [
+          4.105,
+          72.909
+        ]
+      },
+      "airports": [
+        "MLE",
+        "DRV"
+      ],
+      "region_name_en": "Madivaru",
+      "region_name_long_en": "Madivaru, Maldives",
+      "referrer_city_name_en": "Madivaru",
+      "parent_region_id": 6051084,
+      "parent_hs_id": "x5p4hmhw6iot",
+      "parent_region_name": "Maldives (all)",
+      "parent_region_name_long": "Maldives (all)",
+      "dynamic_bbox": {
+        "ne": [
+          4.118,
+          72.937
+        ],
+        "sw": [
+          4.118,
+          72.937
+        ]
+      }
+    },
+    "records": [
+      {
+        "hs_id": 150076348,
+        "slug": "ananea-madivaru-maldives-madivaru-mv-150076348",
+        "name": "Ananea Madivaru Maldives",
+        "ty_id": "d7a72a9d-a75e-4618-b61d-943953b49e61",
+        "toa": "resort",
+        "location": {
+          "city": "Madivaru",
+          "zip": "20292",
+          "country_iso2": "MV",
+          "address": "Ethere Maadivaru",
+          "geoid": "x5v1lp2u0wb7",
+          "loc": {
+            "type": "Point"
+          },
+          "coordinates": {
+            "lng": 72.93775,
+            "lat": 4.11864
+          }
+        },
+        "opening_time": {
+          "check_in_from": "14:00",
+          "check_in_to": "18:00",
+          "check_out_from": "06:00",
+          "check_out_to": "12:00"
+        },
+        "quality": {
+          "stars": 0,
+          "stars_is_estimated": false,
+          "review_source": ""
+        },
+        "covid_safe": true,
+        "amenities": {
+          "children": [
+            "babysitter",
+            "children_playground"
+          ],
+          "wellness": [
+            "massage",
+            "fitness_center",
+            "sauna",
+            "spa",
+            "outdoor_pool",
+            "turkish_bath"
+          ],
+          "sports": [
+            "billiard",
+            "yoga",
+            "sub",
+            "surf"
+          ],
+          "internet": [
+            "wifi_room"
+          ],
+          "food_drink": [
+            "room_service",
+            "cafe",
+            "bar",
+            "snack_bar",
+            "restaurant"
+          ],
+          "disability": [
+            "wheelchair_accessible",
+            "disability_facilities"
+          ],
+          "outdoor": [
+            "garden",
+            "terrace"
+          ],
+          "other": [],
+          "entertainment": [
+            "tv_lobby",
+            "disco"
+          ],
+          "transfer": [
+            "shuttle_service"
+          ],
+          "room": [
+            "air_conditioning",
+            "tv",
+            "in_room_safe"
+          ],
+          "reception": [
+            "concierge",
+            "laundry_facilities",
+            "laundry_service",
+            "safety_deposit_box",
+            "24h_reception",
+            "luggage_storage"
+          ]
+        },
+        "descriptions": {
+          "hotel": "Treat yourself to a stay in one of the 111 guestrooms, featuring private pools. Complimentary wireless internet access is available to keep you connected. Conveniences include phones, as well as safes and desks.",
+          "direction": "When you stay at Ananea Madivaru Maldives in Madivaru, you'll be near the airport and steps from Ari Atoll. This beach hotel is within the region of Maaya Thila and Ukulhas Fushi.",
+          "general": "Great care is taken to ensure guests experience comfort through top-notch services and amenities.Stay connected with your associates, as complimentary Wi-Fi is available during your entire visit.To facilitate your arrival and departure, you can pre-book airport transfer services prior to checking in.The resort offers reception assistance, including luggage storage, to ensure guest satisfaction.Whether it's an extended stay or simply needing fresh attire, dry cleaning service and laundry service provided by resort ensures your cherished travel garments stay spotless and accessible.The resort's daily housekeeping ensures an excellent option for your stay.In order to ensure the utmost level of relaxation, the guestrooms feature an inviting design and are equipped with all basic necessities, creating a delightful stay experience. To ensure a pleasant stay, a selection of rooms at resort come furnished with linen service, blackout curtains and air conditioning, all designed with your ease in mind.At ananea Madivaru Maldives, various room configurations are available, featuring separate living room and balcony or terrace in some rooms. In select rooms, visitors can enjoy a touch of amusement with the availability of in-room video streaming and cable TV for their entertainment needs.Within specific rooms, bottled water, a coffee or tea maker and mini bar is conveniently available for your use. Understanding the significance of bathroom facilities in enhancing visitor contentment, resort offers a hair dryer, toiletries, bathrobes and towels within a few chosen chambers. Each day, arise to a delightful complimentary morning meal at ananea Madivaru Maldives.Throughout the day, engage in the entertaining activities available at ananea Madivaru Maldives.Make sure to discover the readily available beach at resort. Unwind and conclude each day delightfully by stopping by massage, steam room, spa and sauna, ensuring a soothing experience.Unwind by the pool at resort and cherish a leisurely moment. Guests who enjoy maintaining their fitness regimen while on holiday can visit the fitness center provided by resort.",
+          "amenities": true,
+          "other": "Featured amenities include dry cleaning/laundry services, a 24-hour front desk, and multilingual staff.",
+          "localized": "Great care is taken to ensure guests experience comfort through top-notch services and amenities.Stay connected with your associates, as complimentary Wi-Fi is available during your entire visit.To facilitate your arrival and departure, you can pre-book airport transfer services prior to checking in.The resort offers reception assistance, including luggage storage, to ensure guest satisfaction.Whether it's an extended stay or simply needing fresh attire, dry cleaning service and laundry service provided by resort ensures your cherished travel garments stay spotless and accessible.The resort's daily housekeeping ensures an excellent option for your stay.In order to ensure the utmost level of relaxation, the guestrooms feature an inviting design and are equipped with all basic necessities, creating a delightful stay experience. To ensure a pleasant stay, a selection of rooms at resort come furnished with linen service, blackout curtains and air conditioning, all designed with your ease in mind.At ananea Madivaru Maldives, various room configurations are available, featuring separate living room and balcony or terrace in some rooms. In select rooms, visitors can enjoy a touch of amusement with the availability of in-room video streaming and cable TV for their entertainment needs.Within specific rooms, bottled water, a coffee or tea maker and mini bar is conveniently available for your use. Understanding the significance of bathroom facilities in enhancing visitor contentment, resort offers a hair dryer, toiletries, bathrobes and towels within a few chosen chambers. Each day, arise to a delightful complimentary morning meal at ananea Madivaru Maldives.Throughout the day, engage in the entertaining activities available at ananea Madivaru Maldives.Make sure to discover the readily available beach at resort. Unwind and conclude each day delightfully by stopping by massage, steam room, spa and sauna, ensuring a soothing experience.Unwind by the pool at resort and cherish a leisurely moment. Guests who enjoy maintaining their fitness regimen while on holiday can visit the fitness center provided by resort."
+        },
+        "short_description": "Excellent hotel. Great rooms in excellent location. Awesome vibe. Great pool. Beautiful beach.",
+        "chain": "no_chain",
+        "brand": "no_brand",
+        "offers": [
+          {
+            "price": 693.91,
+            "brt": "o2q#",
+            "rf": "o2q#",
+            "brf": 9470016,
+            "rt": 9470016,
+            "vendor": "htls",
+            "vendor_id_raw": "3559930016",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included"
+            ],
+            "jc_code": "",
+            "ranking_index": 1,
+            "chain": "",
+            "free_cancellation": false,
+            "special": false,
+            "room_name": "Family villa",
+            "rooms": [
+              {
+                "name": "Family villa",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included"
+            },
+            "partner_name": "Hotels.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/htls/logo.svg?pos=zz"
+          },
+          {
+            "vendor": "bkng",
+            "price": 759.2,
+            "vendor_id_raw": "13414032",
+            "mota_code": null,
+            "jc_code": "",
+            "partner_name": "Booking.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/bkng/logo.svg?pos=zz",
+            "room_name": "Villa",
+            "brf": 12124224,
+            "brt": "o2r#"
+          },
+          {
+            "vendor": "agda",
+            "price": 752.26,
+            "vendor_id_raw": "74519679",
+            "mota_code": null,
+            "jc_code": "",
+            "partner_name": "Agoda",
+            "partner_logo": "https://hotelscan.com/apis/vendors/agda/logo.svg?pos=zz",
+            "room_name": "Villa",
+            "brf": 9502784,
+            "brt": "o2r#"
+          },
+          {
+            "vendor": "expd",
+            "price": 693.91,
+            "vendor_id_raw": "111216563",
+            "mota_code": null,
+            "jc_code": "EXPEDIA",
+            "partner_name": "Expedia",
+            "partner_logo": "https://hotelscan.com/apis/vendors/expd/logo.svg?pos=zz",
+            "room_name": "Family villa",
+            "brf": 9470016,
+            "brt": "o2q#"
+          }
+        ],
+        "all_offers": [
+          {
+            "price": 693.91,
+            "brt": "o2q#",
+            "rf": "o2q#",
+            "brf": 9470016,
+            "rt": 9470016,
+            "vendor": "htls",
+            "vendor_id_raw": "3559930016",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": false,
+            "special": false,
+            "room_name": "Family villa",
+            "rooms": [
+              {
+                "name": "Family villa",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included"
+            },
+            "partner_name": "Hotels.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/htls/logo.svg?pos=zz"
+          },
+          {
+            "price": 693.91,
+            "brt": "o2q#",
+            "rf": "o2q#",
+            "brf": 9470016,
+            "rt": 9470016,
+            "vendor": "expd",
+            "vendor_id_raw": "111216563",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included"
+            ],
+            "jc_code": "EXPEDIA",
+            "chain": "",
+            "free_cancellation": false,
+            "special": false,
+            "room_name": "Family villa",
+            "rooms": [
+              {
+                "name": "Family villa",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included"
+            },
+            "partner_name": "Expedia",
+            "partner_logo": "https://hotelscan.com/apis/vendors/expd/logo.svg?pos=zz"
+          },
+          {
+            "price": 752.26,
+            "brt": "o2r#",
+            "rf": "o2r#",
+            "brf": 9502784,
+            "rt": 9502784,
+            "vendor": "agda",
+            "vendor_id_raw": "74519679",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included",
+              "Free cancellation"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Villa",
+            "rooms": [
+              {
+                "name": "Villa",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included",
+              "refundable": "Free cancellation"
+            },
+            "partner_name": "Agoda",
+            "partner_logo": "https://hotelscan.com/apis/vendors/agda/logo.svg?pos=zz"
+          },
+          {
+            "price": 758.64,
+            "brt": "o2r#",
+            "rf": "o2r#",
+            "brf": 9470016,
+            "rt": 9470016,
+            "vendor": "agda",
+            "vendor_id_raw": "74519679",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": false,
+            "special": false,
+            "room_name": "Villa",
+            "rooms": [
+              {
+                "name": "Villa",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included"
+            },
+            "partner_name": "Agoda",
+            "partner_logo": "https://hotelscan.com/apis/vendors/agda/logo.svg?pos=zz"
+          },
+          {
+            "price": 759.2,
+            "brt": "o2r#",
+            "rf": "o2r#",
+            "brf": 12124224,
+            "rt": 12124224,
+            "vendor": "bkng",
+            "vendor_id_raw": "13414032",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast and dinner",
+              "Free cancellation"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Villa",
+            "rooms": [
+              {
+                "name": "Villa",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "half_board_dinner": "Breakfast and dinner",
+              "refundable": "Free cancellation"
+            },
+            "partner_name": "Booking.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/bkng/logo.svg?pos=zz"
+          },
+          {
+            "price": 768.74,
+            "brt": "o2q#",
+            "rf": "o2q#",
+            "brf": 9502784,
+            "rt": 9502784,
+            "vendor": "htls",
+            "vendor_id_raw": "3559930016",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included",
+              "Free cancellation"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Family villa",
+            "rooms": [
+              {
+                "name": "Family villa",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included",
+              "refundable": "Free cancellation"
+            },
+            "partner_name": "Hotels.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/htls/logo.svg?pos=zz"
+          },
+          {
+            "price": 768.74,
+            "brt": "o2q#",
+            "rf": "o2q#",
+            "brf": 9502784,
+            "rt": 9502784,
+            "vendor": "expd",
+            "vendor_id_raw": "111216563",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included",
+              "Free cancellation"
+            ],
+            "jc_code": "EXPEDIA",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Family villa",
+            "rooms": [
+              {
+                "name": "Family villa",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included",
+              "refundable": "Free cancellation"
+            },
+            "partner_name": "Expedia",
+            "partner_logo": "https://hotelscan.com/apis/vendors/expd/logo.svg?pos=zz"
+          },
+          {
+            "price": 768.75,
+            "brt": "o2q#",
+            "rf": "o2q#",
+            "brf": 9502848,
+            "rt": 9502848,
+            "vendor": "htls",
+            "vendor_id_raw": "3559930016",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included",
+              "Free cancellation",
+              "Pay at the property"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Family villa",
+            "rooms": [
+              {
+                "name": "Family villa",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included",
+              "refundable": "Free cancellation",
+              "pay_at_hotel": "Pay at the property"
+            },
+            "partner_name": "Hotels.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/htls/logo.svg?pos=zz"
+          },
+          {
+            "price": 768.75,
+            "brt": "o2q#",
+            "rf": "o2q#",
+            "brf": 9502848,
+            "rt": 9502848,
+            "vendor": "expd",
+            "vendor_id_raw": "111216563",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included",
+              "Free cancellation",
+              "Pay at the property"
+            ],
+            "jc_code": "EXPEDIA",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Family villa",
+            "rooms": [
+              {
+                "name": "Family villa",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included",
+              "refundable": "Free cancellation",
+              "pay_at_hotel": "Pay at the property"
+            },
+            "partner_name": "Expedia",
+            "partner_logo": "https://hotelscan.com/apis/vendors/expd/logo.svg?pos=zz"
+          },
+          {
+            "price": 997.2,
+            "brt": "o2r#",
+            "rf": "o2r#",
+            "brf": 9470016,
+            "rt": 9470016,
+            "vendor": "agda",
+            "vendor_id_raw": "74519679",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": false,
+            "special": false,
+            "room_name": "Villa",
+            "rooms": [
+              {
+                "name": "Villa",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included"
+            },
+            "partner_name": "Agoda",
+            "partner_logo": "https://hotelscan.com/apis/vendors/agda/logo.svg?pos=zz"
+          },
+          {
+            "price": 1051.92,
+            "brt": "o2r#",
+            "rf": "o2r#",
+            "brf": 9502784,
+            "rt": 9502784,
+            "vendor": "agda",
+            "vendor_id_raw": "74519679",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included",
+              "Free cancellation"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Villa",
+            "rooms": [
+              {
+                "name": "Villa",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included",
+              "refundable": "Free cancellation"
+            },
+            "partner_name": "Agoda",
+            "partner_logo": "https://hotelscan.com/apis/vendors/agda/logo.svg?pos=zz"
+          },
+          {
+            "price": 1061.63,
+            "brt": "o2r#",
+            "rf": "o2r#",
+            "brf": 11075648,
+            "rt": 11075648,
+            "vendor": "bkng",
+            "vendor_id_raw": "13414032",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Free cancellation"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Villa",
+            "rooms": [
+              {
+                "name": "Villa",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "refundable": "Free cancellation"
+            },
+            "partner_name": "Booking.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/bkng/logo.svg?pos=zz"
+          },
+          {
+            "price": 1079.85,
+            "brt": "o2d#",
+            "rf": "o2d#",
+            "brf": 9470016,
+            "rt": 9470016,
+            "vendor": "agda",
+            "vendor_id_raw": "74519679",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": false,
+            "special": false,
+            "room_name": "Deluxe villa",
+            "rooms": [
+              {
+                "name": "Deluxe villa",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included"
+            },
+            "partner_name": "Agoda",
+            "partner_logo": "https://hotelscan.com/apis/vendors/agda/logo.svg?pos=zz"
+          },
+          {
+            "price": 1144.6,
+            "brt": "o2d#",
+            "rf": "o2d#",
+            "brf": 9470016,
+            "rt": 9470016,
+            "vendor": "agda",
+            "vendor_id_raw": "74519679",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": false,
+            "special": false,
+            "room_name": "Deluxe villa",
+            "rooms": [
+              {
+                "name": "Deluxe villa",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included"
+            },
+            "partner_name": "Agoda",
+            "partner_logo": "https://hotelscan.com/apis/vendors/agda/logo.svg?pos=zz"
+          },
+          {
+            "price": 1237.07,
+            "brt": "o2d#",
+            "rf": "o2d#",
+            "brf": 9502784,
+            "rt": 9502784,
+            "vendor": "agda",
+            "vendor_id_raw": "74519679",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included",
+              "Free cancellation"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Deluxe villa",
+            "rooms": [
+              {
+                "name": "Deluxe villa",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included",
+              "refundable": "Free cancellation"
+            },
+            "partner_name": "Agoda",
+            "partner_logo": "https://hotelscan.com/apis/vendors/agda/logo.svg?pos=zz"
+          },
+          {
+            "price": 1248.49,
+            "brt": "o2d#",
+            "rf": "o2d#",
+            "brf": 12124224,
+            "rt": 12124224,
+            "vendor": "bkng",
+            "vendor_id_raw": "13414032",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast and dinner",
+              "Free cancellation"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Deluxe villa",
+            "rooms": [
+              {
+                "name": "Deluxe villa",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "half_board_dinner": "Breakfast and dinner",
+              "refundable": "Free cancellation"
+            },
+            "partner_name": "Booking.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/bkng/logo.svg?pos=zz"
+          },
+          {
+            "price": 1264.36,
+            "brt": "o2d#",
+            "rf": "o2d#",
+            "brf": 9503808,
+            "rt": 9503808,
+            "vendor": "htls",
+            "vendor_id_raw": "3559930016",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included",
+              "Free cancellation",
+              "Sea view"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Deluxe villa",
+            "rooms": [
+              {
+                "name": "Deluxe villa",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included",
+              "refundable": "Free cancellation",
+              "view_sea": "Sea view"
+            },
+            "partner_name": "Hotels.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/htls/logo.svg?pos=zz"
+          },
+          {
+            "price": 1264.36,
+            "brt": "o2d#",
+            "rf": "o2d#",
+            "brf": 9503808,
+            "rt": 9503808,
+            "vendor": "expd",
+            "vendor_id_raw": "111216563",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included",
+              "Free cancellation",
+              "Sea view"
+            ],
+            "jc_code": "EXPEDIA",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Deluxe villa",
+            "rooms": [
+              {
+                "name": "Deluxe villa",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included",
+              "refundable": "Free cancellation",
+              "view_sea": "Sea view"
+            },
+            "partner_name": "Expedia",
+            "partner_logo": "https://hotelscan.com/apis/vendors/expd/logo.svg?pos=zz"
+          },
+          {
+            "price": 1264.37,
+            "brt": "o2d#",
+            "rf": "o2d#",
+            "brf": 9503872,
+            "rt": 9503872,
+            "vendor": "htls",
+            "vendor_id_raw": "3559930016",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included",
+              "Free cancellation",
+              "Sea view",
+              "Pay at the property"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Deluxe villa",
+            "rooms": [
+              {
+                "name": "Deluxe villa",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included",
+              "refundable": "Free cancellation",
+              "view_sea": "Sea view",
+              "pay_at_hotel": "Pay at the property"
+            },
+            "partner_name": "Hotels.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/htls/logo.svg?pos=zz"
+          },
+          {
+            "price": 1264.37,
+            "brt": "o2d#",
+            "rf": "o2d#",
+            "brf": 9503872,
+            "rt": 9503872,
+            "vendor": "expd",
+            "vendor_id_raw": "111216563",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included",
+              "Free cancellation",
+              "Sea view",
+              "Pay at the property"
+            ],
+            "jc_code": "EXPEDIA",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Deluxe villa",
+            "rooms": [
+              {
+                "name": "Deluxe villa",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included",
+              "refundable": "Free cancellation",
+              "view_sea": "Sea view",
+              "pay_at_hotel": "Pay at the property"
+            },
+            "partner_name": "Expedia",
+            "partner_logo": "https://hotelscan.com/apis/vendors/expd/logo.svg?pos=zz"
+          },
+          {
+            "price": 1383.17,
+            "brt": "o2d#",
+            "rf": "o2d#",
+            "brf": 9470016,
+            "rt": 9470016,
+            "vendor": "agda",
+            "vendor_id_raw": "74519679",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": false,
+            "special": false,
+            "room_name": "Deluxe villa",
+            "rooms": [
+              {
+                "name": "Deluxe villa",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included"
+            },
+            "partner_name": "Agoda",
+            "partner_logo": "https://hotelscan.com/apis/vendors/agda/logo.svg?pos=zz"
+          },
+          {
+            "price": 1536.74,
+            "brt": "o2d#",
+            "rf": "o2d#",
+            "brf": 9502784,
+            "rt": 9502784,
+            "vendor": "agda",
+            "vendor_id_raw": "74519679",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included",
+              "Free cancellation"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Deluxe villa",
+            "rooms": [
+              {
+                "name": "Deluxe villa",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included",
+              "refundable": "Free cancellation"
+            },
+            "partner_name": "Agoda",
+            "partner_logo": "https://hotelscan.com/apis/vendors/agda/logo.svg?pos=zz"
+          },
+          {
+            "price": 1550.92,
+            "brt": "o2d#",
+            "rf": "o2d#",
+            "brf": 11075648,
+            "rt": 11075648,
+            "vendor": "bkng",
+            "vendor_id_raw": "13414032",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Free cancellation"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Deluxe villa",
+            "rooms": [
+              {
+                "name": "Deluxe villa",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "refundable": "Free cancellation"
+            },
+            "partner_name": "Booking.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/bkng/logo.svg?pos=zz"
+          }
+        ],
+        "descriptions_language": {
+          "general": {
+            "original_language": true,
+            "text": "Great care is taken to ensure guests experience comfort through top-notch services and amenities.Stay connected with your associates, as complimentary Wi-Fi is available during your entire visit.To facilitate your arrival and departure, you can pre-book airport transfer services prior to checking in.The resort offers reception assistance, including luggage storage, to ensure guest satisfaction.Whether it's an extended stay or simply needing fresh attire, dry cleaning service and laundry service provided by resort ensures your cherished travel garments stay spotless and accessible.The resort's daily housekeeping ensures an excellent option for your stay.In order to ensure the utmost level of relaxation, the guestrooms feature an inviting design and are equipped with all basic necessities, creating a delightful stay experience. To ensure a pleasant stay, a selection of rooms at resort come furnished with linen service, blackout curtains and air conditioning, all designed with your ease in mind.At ananea Madivaru Maldives, various room configurations are available, featuring separate living room and balcony or terrace in some rooms. In select rooms, visitors can enjoy a touch of amusement with the availability of in-room video streaming and cable TV for their entertainment needs.Within specific rooms, bottled water, a coffee or tea maker and mini bar is conveniently available for your use. Understanding the significance of bathroom facilities in enhancing visitor contentment, resort offers a hair dryer, toiletries, bathrobes and towels within a few chosen chambers. Each day, arise to a delightful complimentary morning meal at ananea Madivaru Maldives.Throughout the day, engage in the entertaining activities available at ananea Madivaru Maldives.Make sure to discover the readily available beach at resort. Unwind and conclude each day delightfully by stopping by massage, steam room, spa and sauna, ensuring a soothing experience.Unwind by the pool at resort and cherish a leisurely moment. Guests who enjoy maintaining their fitness regimen while on holiday can visit the fitness center provided by resort."
+          },
+          "direction": {
+            "original_language": true,
+            "text": "When you stay at Ananea Madivaru Maldives in Madivaru, you'll be near the airport and steps from Ari Atoll. This beach hotel is within the region of Maaya Thila and Ukulhas Fushi."
+          },
+          "hotel": {
+            "original_language": true,
+            "text": "Treat yourself to a stay in one of the 111 guestrooms, featuring private pools. Complimentary wireless internet access is available to keep you connected. Conveniences include phones, as well as safes and desks."
+          },
+          "other": {
+            "original_language": true,
+            "text": "Featured amenities include dry cleaning/laundry services, a 24-hour front desk, and multilingual staff."
+          }
+        },
+        "chain_code": null,
+        "bids": {
+          "htls": "j23",
+          "agda": "j23",
+          "bkng": "j23",
+          "expd": "j23"
+        },
+        "worst_offer": 759.2,
+        "best_offer": 693.91,
+        "best_offer_ota": "htls",
+        "best_offer_mota": null,
+        "discount": 10,
+        "offers_count": 23,
+        "coordinates": {
+          "lat": 4.11864,
+          "lng": 72.93775
+        },
+        "distance": 1.39,
+        "neighborhood": null,
+        "badge": null,
+        "distances": [
+          {
+            "from": "center",
+            "distance": 1.39,
+            "time": 1931,
+            "means": "foot",
+            "means_type": "foot"
+          }
+        ],
+        "specs": {
+          "bathrooms": null,
+          "beds": null,
+          "bedrooms": null,
+          "guests": null,
+          "square_meters": null
+        },
+        "toa_label": "resort",
+        "top_amenities": [
+          "outdoor_pool",
+          "wifi_room",
+          "room_service",
+          "bar",
+          "restaurant"
+        ],
+        "transportations": {
+          "airports": [],
+          "trains": []
+        },
+        "images": [
+          {
+            "image_id": "759929978",
+            "label": ""
+          },
+          {
+            "image_id": "759929983",
+            "label": ""
+          },
+          {
+            "image_id": "759929963",
+            "label": ""
+          },
+          {
+            "image_id": "759930027",
+            "label": ""
+          },
+          {
+            "image_id": "759929965",
+            "label": ""
+          },
+          {
+            "image_id": "759930036",
+            "label": ""
+          },
+          {
+            "image_id": "759930019",
+            "label": ""
+          },
+          {
+            "image_id": "759929969",
+            "label": ""
+          },
+          {
+            "image_id": "759930055",
+            "label": ""
+          },
+          {
+            "image_id": "759930014",
+            "label": ""
+          },
+          {
+            "image_id": "759930034",
+            "label": ""
+          },
+          {
+            "image_id": "759929977",
+            "label": ""
+          },
+          {
+            "image_id": "759930072",
+            "label": ""
+          },
+          {
+            "image_id": "759930008",
+            "label": ""
+          },
+          {
+            "image_id": "759930077",
+            "label": ""
+          }
+        ],
+        "hero_offer": {
+          "price": 693.91,
+          "brt": "o2q#",
+          "rf": "o2q#",
+          "brf": 9470016,
+          "rt": 9470016,
+          "vendor": "htls",
+          "vendor_id_raw": "3559930016",
+          "mota_code": null,
+          "direct_offer": false,
+          "offer_flags": {
+            "breakfast": "Breakfast included"
+          },
+          "jc_code": "",
+          "ranking_index": 1,
+          "chain": "",
+          "free_cancellation": false,
+          "special": false,
+          "room_name": "Family villa",
+          "rooms": [
+            {
+              "name": "Family villa",
+              "flags": []
+            }
+          ],
+          "partner_name": "Hotels.com",
+          "partner_logo": "https://hotelscan.com/apis/vendors/htls/logo.svg?pos=zz"
+        },
+        "rank": 0,
+        "ctrl_srt": "im a ctrl teapot",
+        "test_srt": "im a test teapot"
+      }
+    ],
+    "filters": [],
+    "query": {
+      "pos": "zz"
+    }
+  }
+}

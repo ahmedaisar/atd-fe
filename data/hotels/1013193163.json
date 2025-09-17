@@ -1,0 +1,646 @@
+{
+  "_meta": {
+    "status": "SUCCESS",
+    "cached": true,
+    "count": 1,
+    "debug": {
+      "ticket": {
+        "ticket_id": "1013193163_zz_zz_d_publ_en_2_2025-10-08_2025-10-13_1_3",
+        "created_at": 1758065393.5713,
+        "loop": null,
+        "snapped_at": 1758065393.6521,
+        "snapshot_id": "1013193163_zz_zz_d_publ_en_2_2025-10-08_2025-10-13_1_3",
+        "snapshot_ttl": 300,
+        "executions": 2,
+        "progress": 1,
+        "save_errors": []
+      }
+    }
+  },
+  "data": {
+    "meta": [],
+    "geo": {
+      "hs_id": "xk3ucdcbfie4",
+      "region_name": "Dhigurah",
+      "region_name_long": "Dhigurah, Maldives",
+      "region_type": "CITY",
+      "region_id": 6344003,
+      "country_iso": "MV",
+      "country": "maldives",
+      "localised_country": "Maldives",
+      "center": [
+        3.5254,
+        72.92259
+      ],
+      "centroid": [
+        3.5254,
+        72.92258
+      ],
+      "polygon": [
+        "3.539364,72.934791",
+        "3.54174,72.929047",
+        "3.51143,72.910378",
+        "3.509066,72.91436",
+        "3.539364,72.934791"
+      ],
+      "radius": 2.07,
+      "zoom": -1,
+      "search_by_polygon": 0,
+      "cluster": 0,
+      "properties": 44,
+      "radius_override": 5,
+      "boundingbox": {
+        "ne": [
+          3.542,
+          72.935
+        ],
+        "sw": [
+          3.509,
+          72.91
+        ]
+      },
+      "airports": [
+        "MLE",
+        "DRV"
+      ],
+      "region_name_en": "Dhigurah",
+      "region_name_long_en": "Dhigurah, Maldives",
+      "referrer_city_name_en": "Dhigurah",
+      "parent_region_id": 6051084,
+      "parent_hs_id": "x5p4hmhw6iot",
+      "parent_region_name": "Maldives (all)",
+      "parent_region_name_long": "Maldives (all)",
+      "dynamic_bbox": {
+        "ne": [
+          3.537,
+          72.93
+        ],
+        "sw": [
+          3.537,
+          72.93
+        ]
+      }
+    },
+    "records": [
+      {
+        "hs_id": 1013193163,
+        "slug": "seaside-dhigurah-dhigurah-mv-1013193163",
+        "name": "Seaside Dhigurah",
+        "toa": "guest_house",
+        "building": {
+          "room_num": 6,
+          "square_meters": 35,
+          "max_children": 2
+        },
+        "location": {
+          "city": "Dhigurah",
+          "zip": "00070",
+          "country_iso2": "MV",
+          "address": "Nooraanee Magu",
+          "geoid": "xk3ucdcbfie4",
+          "loc": {
+            "type": "Point"
+          },
+          "coordinates": {
+            "lng": 72.93046,
+            "lat": 3.53709
+          }
+        },
+        "opening_time": {
+          "check_in_from": "14:00",
+          "check_in_to": "18:00",
+          "check_out_from": "08:00",
+          "check_out_to": "12:00"
+        },
+        "quality": {
+          "review_count": 261,
+          "review_rating": 96,
+          "stars": 0,
+          "stars_is_estimated": false,
+          "review_source": ""
+        },
+        "covid_safe": true,
+        "amenities": {
+          "children": [
+            "children_playground"
+          ],
+          "wellness": [
+            "solarium"
+          ],
+          "sports": [
+            "bike_rent",
+            "sub"
+          ],
+          "internet": [
+            "wifi",
+            "wifi_room",
+            "internet"
+          ],
+          "food_drink": [
+            "restaurant",
+            "room_service",
+            "bar",
+            "tea_coffee_maker",
+            "snack_bar"
+          ],
+          "disability": [
+            "wheelchair_accessible",
+            "disability_facilities"
+          ],
+          "pets": [
+            "pets_allowed"
+          ],
+          "parking": [
+            "parking"
+          ],
+          "outdoor": [
+            "garden",
+            "terrace"
+          ],
+          "other": [],
+          "entertainment": [
+            "tv_lobby"
+          ],
+          "transfer": [
+            "shuttle_service"
+          ],
+          "room": [
+            "fan",
+            "heating",
+            "air_conditioning",
+            "tv"
+          ],
+          "reception": [
+            "24h_reception",
+            "luggage_storage",
+            "concierge",
+            "laundry_facilities",
+            "laundry_service",
+            "safety_deposit_box"
+          ]
+        },
+        "descriptions": {
+          "hotel": "Make yourself at home in one of the 6 individually furnished guestrooms, featuring minibars and Smart televisions. Complimentary wireless internet access keeps you connected, and digital programming is available for your entertainment. Private bathrooms with showers feature rainfall showerheads and designer toiletries. Conveniences include laptop-compatible safes and desks, and housekeeping is provided daily.",
+          "direction": "When you a stay at Seaside Dhigurah in Dhigurah, you'll be near the beach, within a 5-minute walk of Ari Atoll and Dhigurah Beach. This luxury guesthouse is 0.1 mi (0.1 km) from Bikini Beach and 0.1 mi (0.1 km) from Dhangethi Beach.",
+          "general": "Seaside Dhigurah offers an open-air bath and free private parking, and is within a 2-minute walk of Dhigurah North West Beach. Among the facilities of this property are a restaurant, a 24-hour front desk, and full-day security, along with free Wifi throughout the property. The guest house also offers facilities for disabled guests. Towels and bed linen are offered in the guest house. The accommodation offers an air conditioning, a heating, and a private bathroom. There is a snack bar, and packed lunches are also available. The area is popular for cycling and walking tours, and free use of bicycles is available at the guest house. Seaside Dhigurah has both a sun terrace and garden to relax in after a busy day, along with a private beach area.",
+          "amenities": true,
+          "other": "Featured amenities include dry cleaning/laundry services, a 24-hour front desk, and luggage storage. Free self parking is available onsite.",
+          "localized": "Seaside Dhigurah offers an open-air bath and free private parking, and is within a 2-minute walk of Dhigurah North West Beach. Among the facilities of this property are a restaurant, a 24-hour front desk, and full-day security, along with free Wifi throughout the property. The guest house also offers facilities for disabled guests. Towels and bed linen are offered in the guest house. The accommodation offers an air conditioning, a heating, and a private bathroom. There is a snack bar, and packed lunches are also available. The area is popular for cycling and walking tours, and free use of bicycles is available at the guest house. Seaside Dhigurah has both a sun terrace and garden to relax in after a busy day, along with a private beach area."
+        },
+        "short_description": "Rooms with free wifi in guest house with shuttle service, restaurant and bar",
+        "offers": [
+          {
+            "price": 86.04,
+            "brt": "p2d#b",
+            "rf": "p2d#b",
+            "brf": 9502848,
+            "rt": 9502848,
+            "vendor": "agda",
+            "vendor_id_raw": "50205394",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included",
+              "Free cancellation",
+              "Pay at the property"
+            ],
+            "jc_code": "",
+            "ranking_index": 0.96,
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Deluxe room - Choice of single or double beds",
+            "rooms": [
+              {
+                "name": "Deluxe room - Choice of single or double beds",
+                "flags": [
+                  "Choice of single or double beds"
+                ]
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included",
+              "refundable": "Free cancellation",
+              "pay_at_hotel": "Pay at the property"
+            },
+            "partner_name": "Agoda",
+            "partner_logo": "https://hotelscan.com/apis/vendors/agda/logo.svg?pos=zz"
+          },
+          {
+            "vendor": "bkng",
+            "price": 98.11,
+            "vendor_id_raw": "13702704",
+            "mota_code": null,
+            "jc_code": "",
+            "partner_name": "Booking.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/bkng/logo.svg?pos=zz",
+            "room_name": "Standard room - Choice of single or double beds",
+            "brf": 9470016,
+            "brt": "p2r#b"
+          }
+        ],
+        "all_offers": [
+          {
+            "price": 86.04,
+            "brt": "p2d#b",
+            "rf": "p2d#b",
+            "brf": 9502848,
+            "rt": 9502848,
+            "vendor": "agda",
+            "vendor_id_raw": "50205394",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included",
+              "Free cancellation",
+              "Pay at the property"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Deluxe room - Choice of single or double beds",
+            "rooms": [
+              {
+                "name": "Deluxe room - Choice of single or double beds",
+                "flags": [
+                  "Choice of single or double beds"
+                ]
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included",
+              "refundable": "Free cancellation",
+              "pay_at_hotel": "Pay at the property"
+            },
+            "partner_name": "Agoda",
+            "partner_logo": "https://hotelscan.com/apis/vendors/agda/logo.svg?pos=zz"
+          },
+          {
+            "price": 97.23,
+            "brt": "p2r#b",
+            "rf": "p2r#b",
+            "brf": 9470016,
+            "rt": 9470016,
+            "vendor": "agda",
+            "vendor_id_raw": "67263192",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": false,
+            "special": false,
+            "room_name": "Standard room - Choice of single or double beds",
+            "rooms": [
+              {
+                "name": "Standard room - Choice of single or double beds",
+                "flags": [
+                  "Choice of single or double beds"
+                ]
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included"
+            },
+            "partner_name": "Agoda",
+            "partner_logo": "https://hotelscan.com/apis/vendors/agda/logo.svg?pos=zz"
+          },
+          {
+            "price": 98.11,
+            "brt": "p2r#b",
+            "rf": "p2r#b",
+            "brf": 9470016,
+            "rt": 9470016,
+            "vendor": "bkng",
+            "vendor_id_raw": "13702704",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": false,
+            "special": false,
+            "room_name": "Standard room - Choice of single or double beds",
+            "rooms": [
+              {
+                "name": "Standard room - Choice of single or double beds",
+                "flags": [
+                  "Choice of single or double beds"
+                ]
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included"
+            },
+            "partner_name": "Booking.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/bkng/logo.svg?pos=zz"
+          },
+          {
+            "price": 99.1,
+            "brt": "p2d#b",
+            "rf": "p2d#b",
+            "brf": 9470528,
+            "rt": 9470528,
+            "vendor": "agda",
+            "vendor_id_raw": "67263192",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included",
+              "Garden view"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": false,
+            "special": false,
+            "room_name": "Deluxe room - Choice of single or double beds",
+            "rooms": [
+              {
+                "name": "Deluxe room - Choice of single or double beds",
+                "flags": [
+                  "Choice of single or double beds"
+                ]
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included",
+              "view_garden": "Garden view"
+            },
+            "partner_name": "Agoda",
+            "partner_logo": "https://hotelscan.com/apis/vendors/agda/logo.svg?pos=zz"
+          },
+          {
+            "price": 100,
+            "brt": "p2d#b",
+            "rf": "p2d#b",
+            "brf": 9470528,
+            "rt": 9470528,
+            "vendor": "bkng",
+            "vendor_id_raw": "13702704",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included",
+              "Garden view"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": false,
+            "special": false,
+            "room_name": "Deluxe room - Choice of single or double beds",
+            "rooms": [
+              {
+                "name": "Deluxe room - Choice of single or double beds",
+                "flags": [
+                  "Choice of single or double beds"
+                ]
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included",
+              "view_garden": "Garden view"
+            },
+            "partner_name": "Booking.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/bkng/logo.svg?pos=zz"
+          },
+          {
+            "price": 102.74,
+            "brt": "p2r#b",
+            "rf": "p2r#b",
+            "brf": 9470016,
+            "rt": 9470016,
+            "vendor": "bkng",
+            "vendor_id_raw": "13702704",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": false,
+            "special": false,
+            "room_name": "Standard room - Choice of single or double beds",
+            "rooms": [
+              {
+                "name": "Standard room - Choice of single or double beds",
+                "flags": [
+                  "Choice of single or double beds"
+                ]
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included"
+            },
+            "partner_name": "Booking.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/bkng/logo.svg?pos=zz"
+          },
+          {
+            "price": 104.73,
+            "brt": "p2d#b",
+            "rf": "p2d#b",
+            "brf": 9470528,
+            "rt": 9470528,
+            "vendor": "bkng",
+            "vendor_id_raw": "13702704",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included",
+              "Garden view"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": false,
+            "special": false,
+            "room_name": "Deluxe room - Choice of single or double beds",
+            "rooms": [
+              {
+                "name": "Deluxe room - Choice of single or double beds",
+                "flags": [
+                  "Choice of single or double beds"
+                ]
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included",
+              "view_garden": "Garden view"
+            },
+            "partner_name": "Booking.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/bkng/logo.svg?pos=zz"
+          }
+        ],
+        "descriptions_language": {
+          "general": {
+            "original_language": true,
+            "text": "Seaside Dhigurah offers an open-air bath and free private parking, and is within a 2-minute walk of Dhigurah North West Beach. Among the facilities of this property are a restaurant, a 24-hour front desk, and full-day security, along with free Wifi throughout the property. The guest house also offers facilities for disabled guests. Towels and bed linen are offered in the guest house. The accommodation offers an air conditioning, a heating, and a private bathroom. There is a snack bar, and packed lunches are also available. The area is popular for cycling and walking tours, and free use of bicycles is available at the guest house. Seaside Dhigurah has both a sun terrace and garden to relax in after a busy day, along with a private beach area."
+          },
+          "direction": {
+            "original_language": true,
+            "text": "When you a stay at Seaside Dhigurah in Dhigurah, you'll be near the beach, within a 5-minute walk of Ari Atoll and Dhigurah Beach. This luxury guesthouse is 0.1 mi (0.1 km) from Bikini Beach and 0.1 mi (0.1 km) from Dhangethi Beach."
+          },
+          "hotel": {
+            "original_language": true,
+            "text": "Make yourself at home in one of the 6 individually furnished guestrooms, featuring minibars and Smart televisions. Complimentary wireless internet access keeps you connected, and digital programming is available for your entertainment. Private bathrooms with showers feature rainfall showerheads and designer toiletries. Conveniences include laptop-compatible safes and desks, and housekeeping is provided daily."
+          },
+          "other": {
+            "original_language": true,
+            "text": "Featured amenities include dry cleaning/laundry services, a 24-hour front desk, and luggage storage. Free self parking is available onsite."
+          }
+        },
+        "chain_code": null,
+        "bids": {
+          "bkng": "j23",
+          "agda": "j23"
+        },
+        "worst_offer": 98.11,
+        "best_offer": 86.04,
+        "best_offer_ota": "agda",
+        "best_offer_mota": null,
+        "discount": 10,
+        "offers_count": 7,
+        "coordinates": {
+          "lat": 3.53709,
+          "lng": 72.93046
+        },
+        "distance": 1.57,
+        "neighborhood": null,
+        "badge": null,
+        "distances": [
+          {
+            "from": "center",
+            "distance": 1.57,
+            "time": 188,
+            "means": "car",
+            "means_type": "car"
+          }
+        ],
+        "specs": {
+          "bathrooms": 1,
+          "beds": null,
+          "bedrooms": 1,
+          "guests": 3,
+          "square_meters": 35
+        },
+        "toa_label": "guest house",
+        "top_amenities": [
+          "wifi_room",
+          "internet",
+          "restaurant",
+          "room_service",
+          "bar"
+        ],
+        "transportations": {
+          "airports": [],
+          "trains": []
+        },
+        "images": [
+          {
+            "image_id": "683496123",
+            "label": ""
+          },
+          {
+            "image_id": "683496121",
+            "label": ""
+          },
+          {
+            "image_id": "683496124",
+            "label": ""
+          },
+          {
+            "image_id": "683496161",
+            "label": ""
+          },
+          {
+            "image_id": "683496162",
+            "label": ""
+          },
+          {
+            "image_id": "683496156",
+            "label": ""
+          },
+          {
+            "image_id": "683496159",
+            "label": ""
+          },
+          {
+            "image_id": "683496142",
+            "label": ""
+          },
+          {
+            "image_id": "683496122",
+            "label": ""
+          },
+          {
+            "image_id": "683496143",
+            "label": ""
+          },
+          {
+            "image_id": "683496136",
+            "label": ""
+          },
+          {
+            "image_id": "683496130",
+            "label": ""
+          },
+          {
+            "image_id": "683496120",
+            "label": ""
+          },
+          {
+            "image_id": "683496163",
+            "label": ""
+          },
+          {
+            "image_id": "683496126",
+            "label": ""
+          }
+        ],
+        "hero_offer": {
+          "price": 86.04,
+          "brt": "p2d#b",
+          "rf": "p2d#b",
+          "brf": 9502848,
+          "rt": 9502848,
+          "vendor": "agda",
+          "vendor_id_raw": "50205394",
+          "mota_code": null,
+          "direct_offer": false,
+          "offer_flags": {
+            "breakfast": "Breakfast included",
+            "refundable": "Free cancellation",
+            "pay_at_hotel": "Pay at the property"
+          },
+          "jc_code": "",
+          "ranking_index": 0.96,
+          "chain": "",
+          "free_cancellation": true,
+          "special": false,
+          "room_name": "Deluxe room - Choice of single or double beds",
+          "rooms": [
+            {
+              "name": "Deluxe room - Choice of single or double beds",
+              "flags": [
+                "Choice of single or double beds"
+              ]
+            }
+          ],
+          "partner_name": "Agoda",
+          "partner_logo": "https://hotelscan.com/apis/vendors/agda/logo.svg?pos=zz"
+        },
+        "rank": 0,
+        "ctrl_srt": "im a ctrl teapot",
+        "test_srt": "im a test teapot"
+      }
+    ],
+    "filters": [],
+    "query": {
+      "pos": "zz"
+    }
+  }
+}

@@ -1,0 +1,555 @@
+{
+  "_meta": {
+    "status": "SUCCESS",
+    "cached": true,
+    "count": 1,
+    "debug": {
+      "ticket": {
+        "ticket_id": "1003662414_zz_zz_d_publ_en_2_2025-10-08_2025-10-13_1_3",
+        "created_at": 1758065406.0094,
+        "loop": null,
+        "snapped_at": 1758065407.2769,
+        "snapshot_id": "1003662414_zz_zz_d_publ_en_2_2025-10-08_2025-10-13_1_3",
+        "snapshot_ttl": 300,
+        "executions": 4,
+        "progress": 1,
+        "save_errors": []
+      }
+    }
+  },
+  "data": {
+    "meta": [],
+    "geo": {
+      "hs_id": "x5pvp72e71e9",
+      "region_name": "Meedhupparu",
+      "region_name_long": "Meedhupparu, Maldives",
+      "region_type": "CITY",
+      "region_id": 6050587,
+      "country_iso": "MV",
+      "country": "maldives",
+      "localised_country": "Maldives",
+      "center": [
+        5.45485,
+        72.97866
+      ],
+      "centroid": [
+        5.45458,
+        72.97844
+      ],
+      "polygon": [
+        "5.45918,72.97003",
+        "5.46106,72.98548",
+        "5.45089,72.98728",
+        "5.44863,72.97093",
+        "5.45918,72.97003"
+      ],
+      "radius": 1.07,
+      "zoom": -1,
+      "search_by_polygon": 0,
+      "cluster": 0,
+      "properties": 11,
+      "radius_override": 5,
+      "boundingbox": {
+        "ne": [
+          5.462,
+          72.988
+        ],
+        "sw": [
+          5.448,
+          72.97
+        ]
+      },
+      "airports": [
+        "MLE",
+        "HAQ",
+        "DRV"
+      ],
+      "region_name_en": "Meedhupparu",
+      "region_name_long_en": "Meedhupparu, Maldives",
+      "referrer_city_name_en": "Meedhupparu",
+      "parent_region_id": 6051084,
+      "parent_hs_id": "x5p4hmhw6iot",
+      "parent_region_name": "Maldives (all)",
+      "parent_region_name_long": "Maldives (all)",
+      "dynamic_bbox": {
+        "ne": [
+          5.447,
+          72.94
+        ],
+        "sw": [
+          5.447,
+          72.94
+        ]
+      }
+    },
+    "records": [
+      {
+        "hs_id": 1003662414,
+        "slug": "heritance-aarah-premium-all-inclusive-40-minutes-away-from-male-by-seaplane-meedhupparu-mv-1003662414",
+        "name": "Heritance Aarah - Premium All Inclusive - 40 Minutes Away From Male By Seaplane",
+        "ty_id": "ff64d98a-bc45-46ac-b0de-f59b756507a7",
+        "toa": "resort",
+        "location": {
+          "city": "Meedhupparu",
+          "zip": "05150",
+          "country_iso2": "MV",
+          "address": "Heritance Aarah, Maldives",
+          "geoid": "x5pvp72e71e9",
+          "loc": {
+            "type": "Point"
+          },
+          "coordinates": {
+            "lng": 72.94089,
+            "lat": 5.44734
+          }
+        },
+        "opening_time": {
+          "check_in_from": "14:00",
+          "check_in_to": null,
+          "check_out_from": null,
+          "check_out_to": "12:00"
+        },
+        "quality": {
+          "review_count": 134,
+          "review_rating": 94,
+          "stars": 5,
+          "stars_is_estimated": false,
+          "review_source": ""
+        },
+        "covid_safe": true,
+        "amenities": {
+          "children": [
+            "babysitter",
+            "children_playground"
+          ],
+          "wellness": [
+            "indoor_pool",
+            "massage",
+            "solarium",
+            "fitness_center",
+            "sauna",
+            "spa",
+            "outdoor_pool"
+          ],
+          "sports": [
+            "billiard",
+            "ski",
+            "badminton",
+            "yoga",
+            "bike_rent",
+            "ping_pong",
+            "tennis",
+            "sub",
+            "surf"
+          ],
+          "internet": [
+            "wifi",
+            "internet"
+          ],
+          "transfer": [
+            "shuttle_service"
+          ],
+          "food_drink": [
+            "restaurant",
+            "room_service",
+            "poolside_bar",
+            "cafe",
+            "bar",
+            "tea_coffee_maker"
+          ],
+          "outdoor": [
+            "garden",
+            "terrace"
+          ],
+          "other": [],
+          "room": [
+            "air_conditioning",
+            "tv"
+          ],
+          "reception": [
+            "24h_reception",
+            "concierge",
+            "laundry_service",
+            "safety_deposit_box"
+          ]
+        },
+        "descriptions": {
+          "general": "\"\"\"Experience World-class Service at Heritance Aarah - Premium All Inclusive. This 5-star resort offers a 24-hour front desk and a shared lounge. The property has a garden",
+          "amenities": true,
+          "localized": "\"\"\"Experience World-class Service at Heritance Aarah - Premium All Inclusive. This 5-star resort offers a 24-hour front desk and a shared lounge. The property has a garden"
+        },
+        "short_description": "Excellent hotel. Close to the beach . Great rooms and fantastic service. Awesome vibe. Great pool.",
+        "chain": "aitken_spence_hotels",
+        "offers": [
+          {
+            "price": 1037.46,
+            "brt": "o2r#",
+            "rf": "o2r#",
+            "brf": 9470016,
+            "rt": 9470016,
+            "vendor": "ctrp",
+            "vendor_id_raw": "25014825",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included"
+            ],
+            "jc_code": "TRIPCOM",
+            "ranking_index": 0.9167890810248105,
+            "chain": "",
+            "free_cancellation": false,
+            "special": false,
+            "room_name": "Villa",
+            "rooms": [
+              {
+                "name": "Villa",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included"
+            },
+            "partner_name": "Trip.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/ctrp/logo.svg?pos=zz"
+          },
+          {
+            "vendor": "ostr",
+            "price": 892.85,
+            "vendor_id_raw": "8904329",
+            "mota_code": null,
+            "jc_code": "",
+            "partner_name": "Zenhotels",
+            "partner_logo": "https://hotelscan.com/apis/vendors/ostr/logo.svg?pos=zz",
+            "room_name": "Villa - Double bed",
+            "brf": 10027072,
+            "brt": "o2r#d"
+          },
+          {
+            "vendor": "last",
+            "price": 821.64,
+            "vendor_id_raw": "6287637",
+            "mota_code": null,
+            "jc_code": "LASTMINUTE",
+            "partner_name": "lastminute.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/last/logo.svg?pos=zz",
+            "room_name": "Villa",
+            "brf": 11075648,
+            "brt": "o2r#"
+          }
+        ],
+        "all_offers": [
+          {
+            "price": 821.64,
+            "brt": "o2r#",
+            "rf": "o2r#",
+            "brf": 11075648,
+            "rt": 11075648,
+            "vendor": "last",
+            "vendor_id_raw": "6287637",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Free cancellation"
+            ],
+            "jc_code": "LASTMINUTE",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Villa",
+            "rooms": [
+              {
+                "name": "Villa",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "refundable": "Free cancellation"
+            },
+            "partner_name": "lastminute.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/last/logo.svg?pos=zz"
+          },
+          {
+            "price": 892.85,
+            "brt": "o2r#d",
+            "rf": "o2r#d",
+            "brf": 10027072,
+            "rt": 10027072,
+            "vendor": "ostr",
+            "vendor_id_raw": "8904329",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Full board",
+              "Free cancellation"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Villa - Double bed",
+            "rooms": [
+              {
+                "name": "Villa - Double bed",
+                "flags": [
+                  "Double bed"
+                ]
+              }
+            ],
+            "offer_flags_new": {
+              "full_board": "Full board",
+              "refundable": "Free cancellation"
+            },
+            "partner_name": "Zenhotels",
+            "partner_logo": "https://hotelscan.com/apis/vendors/ostr/logo.svg?pos=zz"
+          },
+          {
+            "price": 962.85,
+            "brt": "o2r#d",
+            "rf": "o2r#d",
+            "brf": 10027072,
+            "rt": 10027072,
+            "vendor": "ostr",
+            "vendor_id_raw": "8904329",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Full board",
+              "Free cancellation"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Villa - Double bed",
+            "rooms": [
+              {
+                "name": "Villa - Double bed",
+                "flags": [
+                  "Double bed"
+                ]
+              }
+            ],
+            "offer_flags_new": {
+              "full_board": "Full board",
+              "refundable": "Free cancellation"
+            },
+            "partner_name": "Zenhotels",
+            "partner_logo": "https://hotelscan.com/apis/vendors/ostr/logo.svg?pos=zz"
+          },
+          {
+            "price": 1037.46,
+            "brt": "o2r#",
+            "rf": "o2r#",
+            "brf": 9470016,
+            "rt": 9470016,
+            "vendor": "ctrp",
+            "vendor_id_raw": "25014825",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included"
+            ],
+            "jc_code": "TRIPCOM",
+            "chain": "",
+            "free_cancellation": false,
+            "special": false,
+            "room_name": "Villa",
+            "rooms": [
+              {
+                "name": "Villa",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included"
+            },
+            "partner_name": "Trip.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/ctrp/logo.svg?pos=zz"
+          },
+          {
+            "price": 1591.45,
+            "brt": "e2r#",
+            "rf": "e2r#",
+            "brf": 10027072,
+            "rt": 10027072,
+            "vendor": "ostr",
+            "vendor_id_raw": "8904329",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Full board",
+              "Free cancellation"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Suite",
+            "rooms": [
+              {
+                "name": "Suite",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "full_board": "Full board",
+              "refundable": "Free cancellation"
+            },
+            "partner_name": "Zenhotels",
+            "partner_logo": "https://hotelscan.com/apis/vendors/ostr/logo.svg?pos=zz"
+          }
+        ],
+        "descriptions_language": {
+          "general": {
+            "original_language": true,
+            "text": "\"\"\"Experience World-class Service at Heritance Aarah - Premium All Inclusive. This 5-star resort offers a 24-hour front desk and a shared lounge. The property has a garden"
+          }
+        },
+        "chain_code": null,
+        "bids": {
+          "ctrp": "j23",
+          "ostr": "j23",
+          "last": "j23"
+        },
+        "worst_offer": null,
+        "best_offer": 821.64,
+        "best_offer_ota": "last",
+        "best_offer_mota": null,
+        "discount": 0,
+        "offers_count": 5,
+        "coordinates": {
+          "lat": 5.44734,
+          "lng": 72.94089
+        },
+        "distance": 4.26,
+        "neighborhood": null,
+        "badge": null,
+        "distances": [
+          {
+            "from": "center",
+            "distance": 4.26,
+            "time": 511,
+            "means": "car",
+            "means_type": "car"
+          }
+        ],
+        "specs": {
+          "bathrooms": null,
+          "beds": null,
+          "bedrooms": null,
+          "guests": null,
+          "square_meters": null
+        },
+        "toa_label": "resort",
+        "top_amenities": [
+          "indoor_pool",
+          "outdoor_pool",
+          "internet",
+          "restaurant",
+          "room_service"
+        ],
+        "transportations": {
+          "airports": [],
+          "trains": []
+        },
+        "images": [
+          {
+            "image_id": "699485820",
+            "label": ""
+          },
+          {
+            "image_id": "699485791",
+            "label": ""
+          },
+          {
+            "image_id": "699485881",
+            "label": ""
+          },
+          {
+            "image_id": "699485847",
+            "label": ""
+          },
+          {
+            "image_id": "699485850",
+            "label": ""
+          },
+          {
+            "image_id": "699485804",
+            "label": ""
+          },
+          {
+            "image_id": "699485841",
+            "label": ""
+          },
+          {
+            "image_id": "699485880",
+            "label": ""
+          },
+          {
+            "image_id": "699485848",
+            "label": ""
+          },
+          {
+            "image_id": "699485801",
+            "label": ""
+          },
+          {
+            "image_id": "699485883",
+            "label": ""
+          },
+          {
+            "image_id": "699485842",
+            "label": ""
+          },
+          {
+            "image_id": "699485856",
+            "label": ""
+          },
+          {
+            "image_id": "699485853",
+            "label": ""
+          },
+          {
+            "image_id": "699485869",
+            "label": ""
+          }
+        ],
+        "hero_offer": {
+          "price": 1037.46,
+          "brt": "o2r#",
+          "rf": "o2r#",
+          "brf": 9470016,
+          "rt": 9470016,
+          "vendor": "ctrp",
+          "vendor_id_raw": "25014825",
+          "mota_code": null,
+          "direct_offer": false,
+          "offer_flags": {
+            "breakfast": "Breakfast included"
+          },
+          "jc_code": "TRIPCOM",
+          "ranking_index": 0.9167890810248105,
+          "chain": "",
+          "free_cancellation": false,
+          "special": false,
+          "room_name": "Villa",
+          "rooms": [
+            {
+              "name": "Villa",
+              "flags": []
+            }
+          ],
+          "partner_name": "Trip.com",
+          "partner_logo": "https://hotelscan.com/apis/vendors/ctrp/logo.svg?pos=zz"
+        },
+        "rank": 0,
+        "ctrl_srt": "im a ctrl teapot",
+        "test_srt": "im a test teapot"
+      }
+    ],
+    "filters": [],
+    "query": {
+      "pos": "zz"
+    }
+  }
+}

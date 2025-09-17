@@ -1,0 +1,855 @@
+{
+  "_meta": {
+    "status": "SUCCESS",
+    "cached": true,
+    "count": 1,
+    "debug": {
+      "ticket": {
+        "ticket_id": "1016083264_zz_zz_d_publ_en_2_2025-10-08_2025-10-13_1_3",
+        "created_at": 1758065404.4278,
+        "loop": null,
+        "snapped_at": 1758065404.5093,
+        "snapshot_id": "1016083264_zz_zz_d_publ_en_2_2025-10-08_2025-10-13_1_3",
+        "snapshot_ttl": 300,
+        "executions": 2,
+        "progress": 1,
+        "save_errors": []
+      }
+    }
+  },
+  "data": {
+    "meta": [],
+    "geo": {
+      "hs_id": "ph2n2qvkliubucbb7t",
+      "region_name": "Hithadhoo",
+      "region_name_long": "Hithadhoo, Maldives",
+      "region_type": "CITY",
+      "region_id": 553248625331852100,
+      "country_iso": "MV",
+      "country": "maldives",
+      "localised_country": "Maldives",
+      "center": [
+        -0.60826,
+        73.09381
+      ],
+      "centroid": [
+        -0.60999,
+        73.09224
+      ],
+      "polygon": [
+        "-0.585183,73.067352",
+        "-0.642172,73.095505",
+        "-0.634791,73.117134",
+        "-0.606468,73.109749",
+        "-0.575228,73.092583",
+        "-0.585183,73.067352"
+      ],
+      "radius": 3.91,
+      "zoom": -1,
+      "search_by_polygon": 0,
+      "cluster": 0,
+      "properties": 20,
+      "radius_override": 5,
+      "boundingbox": {
+        "ne": [
+          -0.576,
+          73.118
+        ],
+        "sw": [
+          -0.642,
+          73.067
+        ]
+      },
+      "airports": [
+        "GAN"
+      ],
+      "region_name_en": "Hithadhoo",
+      "region_name_long_en": "Hithadhoo, Maldives",
+      "referrer_city_name_en": "Hithadhoo",
+      "parent_region_id": 109,
+      "parent_hs_id": "xmmmamtksdxx",
+      "parent_region_name": "Maldives",
+      "parent_region_name_long": "Maldives",
+      "dynamic_bbox": {
+        "ne": [
+          -0.601,
+          73.086
+        ],
+        "sw": [
+          -0.601,
+          73.086
+        ]
+      }
+    },
+    "records": [
+      {
+        "hs_id": 1016083264,
+        "slug": "lagoon-lodge-hithadhoo-mv-1016083264",
+        "name": "Lagoon Lodge",
+        "toa": "hotel",
+        "building": {
+          "room_num": 12
+        },
+        "location": {
+          "city": "Hithadhoo",
+          "zip": "19020",
+          "country_iso2": "MV",
+          "address": "Link Road",
+          "geoid": "ph2n2qvkliubucbb7t",
+          "loc": {
+            "type": "Point"
+          },
+          "coordinates": {
+            "lng": 73.08681,
+            "lat": -0.60017
+          }
+        },
+        "opening_time": {
+          "check_in_from": "15:00",
+          "check_in_to": "18:00",
+          "check_out_from": "08:00",
+          "check_out_to": "12:00"
+        },
+        "quality": {
+          "review_count": 2,
+          "review_rating": 100,
+          "stars": 0,
+          "stars_is_estimated": false,
+          "review_source": ""
+        },
+        "covid_safe": false,
+        "amenities": {
+          "internet": [
+            "wifi",
+            "wifi_room",
+            "internet"
+          ],
+          "transfer": [
+            "shuttle_service"
+          ],
+          "parking": [
+            "parking"
+          ],
+          "outdoor": [
+            "terrace"
+          ],
+          "room": [
+            "air_conditioning"
+          ],
+          "reception": [
+            "safety_deposit_box"
+          ]
+        },
+        "descriptions": {
+          "hotel": "Make yourself at home in one of the 12 guestrooms featuring minibars. Rooms have private balconies. Complimentary wireless internet access keeps you connected, and cable programming is available for your entertainment. Private bathrooms with showers feature rainfall showerheads and hair dryers.",
+          "direction": "When you stay at Lagoon Lodge in Hithadhoo, you'll be near the beach and within a 5-minute drive of Addu Nature Park. This guesthouse is 7.9 mi (12.7 km) from Gan Beach.",
+          "general": "Great care is taken to ensure guests experience comfort through top-notch services and amenities.Remain linked during your visit by utilizing the complimentary internet access available.Prior to your check-in date, you can arrange airport transportation services, guaranteeing a seamless and efficient experience for both arrival and departure. Parking is accessible, supplied by the hotel for guests who arrive by car. Need some relaxation? Your room features daily housekeeping to make your stay even more comfortable and enjoyable. Crafted for coziness, every guestroom provides an array of features, guaranteeing a tranquil night's sleep while maintaining the level of comfort.For an elevated experience at hotel, select rooms are equipped with air conditioning to improve your stay.",
+          "amenities": true,
+          "other": "Take in the views from a rooftop terrace and make use of amenities such as complimentary wireless internet access and tour/ticket assistance.",
+          "localized": "Great care is taken to ensure guests experience comfort through top-notch services and amenities.Remain linked during your visit by utilizing the complimentary internet access available.Prior to your check-in date, you can arrange airport transportation services, guaranteeing a seamless and efficient experience for both arrival and departure. Parking is accessible, supplied by the hotel for guests who arrive by car. Need some relaxation? Your room features daily housekeeping to make your stay even more comfortable and enjoyable. Crafted for coziness, every guestroom provides an array of features, guaranteeing a tranquil night's sleep while maintaining the level of comfort.For an elevated experience at hotel, select rooms are equipped with air conditioning to improve your stay."
+        },
+        "short_description": "Simple hotel with shuttle service and parking",
+        "chain": "no_chain",
+        "brand": "no_brand",
+        "offers": [
+          {
+            "price": 45.81,
+            "brt": "p2d#b",
+            "rf": "p2d#b",
+            "brf": 8454208,
+            "rt": 8454208,
+            "vendor": "agda",
+            "vendor_id_raw": "65820707",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Free cancellation"
+            ],
+            "jc_code": "",
+            "ranking_index": 0.96,
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Deluxe room - Choice of single or double beds",
+            "rooms": [
+              {
+                "name": "Deluxe room - Choice of single or double beds",
+                "flags": [
+                  "Choice of single or double beds"
+                ]
+              }
+            ],
+            "offer_flags_new": {
+              "refundable": "Free cancellation"
+            },
+            "partner_name": "Agoda",
+            "partner_logo": "https://hotelscan.com/apis/vendors/agda/logo.svg?pos=zz"
+          },
+          {
+            "vendor": "htls",
+            "price": 60.41,
+            "vendor_id_raw": "3696819552",
+            "mota_code": null,
+            "jc_code": "",
+            "partner_name": "Hotels.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/htls/logo.svg?pos=zz",
+            "room_name": "Deluxe room - Twin beds",
+            "brf": 8422480,
+            "brt": "p2d#t"
+          },
+          {
+            "vendor": "expd",
+            "price": 58.44,
+            "vendor_id_raw": "115494361",
+            "mota_code": null,
+            "jc_code": "EXPEDIA",
+            "partner_name": "Expedia",
+            "partner_logo": "https://hotelscan.com/apis/vendors/expd/logo.svg?pos=zz",
+            "room_name": "Deluxe room - Twin beds",
+            "brf": 8422480,
+            "brt": "p2d#t"
+          }
+        ],
+        "all_offers": [
+          {
+            "price": 45.81,
+            "brt": "p2d#b",
+            "rf": "p2d#b",
+            "brf": 8454208,
+            "rt": 8454208,
+            "vendor": "agda",
+            "vendor_id_raw": "65820707",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Free cancellation"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Deluxe room - Choice of single or double beds",
+            "rooms": [
+              {
+                "name": "Deluxe room - Choice of single or double beds",
+                "flags": [
+                  "Choice of single or double beds"
+                ]
+              }
+            ],
+            "offer_flags_new": {
+              "refundable": "Free cancellation"
+            },
+            "partner_name": "Agoda",
+            "partner_logo": "https://hotelscan.com/apis/vendors/agda/logo.svg?pos=zz"
+          },
+          {
+            "price": 58.44,
+            "brt": "p2d#t",
+            "rf": "p2d#t",
+            "brf": 8422480,
+            "rt": 8422480,
+            "vendor": "expd",
+            "vendor_id_raw": "115494361",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Sea view",
+              "Balcony"
+            ],
+            "jc_code": "EXPEDIA",
+            "chain": "",
+            "free_cancellation": false,
+            "special": false,
+            "room_name": "Deluxe room - Twin beds",
+            "rooms": [
+              {
+                "name": "Deluxe room - Twin beds",
+                "flags": [
+                  "Twin beds"
+                ]
+              }
+            ],
+            "offer_flags_new": {
+              "view_sea": "Sea view",
+              "balcony": "Balcony"
+            },
+            "partner_name": "Expedia",
+            "partner_logo": "https://hotelscan.com/apis/vendors/expd/logo.svg?pos=zz"
+          },
+          {
+            "price": 59.47,
+            "brt": "p2d#b",
+            "rf": "p2d#b",
+            "brf": 9502784,
+            "rt": 9502784,
+            "vendor": "agda",
+            "vendor_id_raw": "65820707",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included",
+              "Free cancellation"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Deluxe room - Choice of single or double beds",
+            "rooms": [
+              {
+                "name": "Deluxe room - Choice of single or double beds",
+                "flags": [
+                  "Choice of single or double beds"
+                ]
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included",
+              "refundable": "Free cancellation"
+            },
+            "partner_name": "Agoda",
+            "partner_logo": "https://hotelscan.com/apis/vendors/agda/logo.svg?pos=zz"
+          },
+          {
+            "price": 60.41,
+            "brt": "p2d#t",
+            "rf": "p2d#t",
+            "brf": 8422480,
+            "rt": 8422480,
+            "vendor": "htls",
+            "vendor_id_raw": "3696819552",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Sea view",
+              "Balcony"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": false,
+            "special": false,
+            "room_name": "Deluxe room - Twin beds",
+            "rooms": [
+              {
+                "name": "Deluxe room - Twin beds",
+                "flags": [
+                  "Twin beds"
+                ]
+              }
+            ],
+            "offer_flags_new": {
+              "view_sea": "Sea view",
+              "balcony": "Balcony"
+            },
+            "partner_name": "Hotels.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/htls/logo.svg?pos=zz"
+          },
+          {
+            "price": 63.59,
+            "brt": "p2d#t",
+            "rf": "p2d#t",
+            "brf": 8455248,
+            "rt": 8455248,
+            "vendor": "expd",
+            "vendor_id_raw": "115494361",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Free cancellation",
+              "Sea view",
+              "Balcony"
+            ],
+            "jc_code": "EXPEDIA",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Deluxe room - Twin beds",
+            "rooms": [
+              {
+                "name": "Deluxe room - Twin beds",
+                "flags": [
+                  "Twin beds"
+                ]
+              }
+            ],
+            "offer_flags_new": {
+              "refundable": "Free cancellation",
+              "view_sea": "Sea view",
+              "balcony": "Balcony"
+            },
+            "partner_name": "Expedia",
+            "partner_logo": "https://hotelscan.com/apis/vendors/expd/logo.svg?pos=zz"
+          },
+          {
+            "price": 66,
+            "brt": "p2d#t",
+            "rf": "p2d#t",
+            "brf": 8455312,
+            "rt": 8455312,
+            "vendor": "htls",
+            "vendor_id_raw": "3696819552",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Free cancellation",
+              "Sea view",
+              "Pay at the property",
+              "Balcony"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Deluxe room - Twin beds",
+            "rooms": [
+              {
+                "name": "Deluxe room - Twin beds",
+                "flags": [
+                  "Twin beds"
+                ]
+              }
+            ],
+            "offer_flags_new": {
+              "refundable": "Free cancellation",
+              "view_sea": "Sea view",
+              "pay_at_hotel": "Pay at the property",
+              "balcony": "Balcony"
+            },
+            "partner_name": "Hotels.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/htls/logo.svg?pos=zz"
+          },
+          {
+            "price": 66,
+            "brt": "p2d#t",
+            "rf": "p2d#t",
+            "brf": 8455312,
+            "rt": 8455312,
+            "vendor": "expd",
+            "vendor_id_raw": "115494361",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Free cancellation",
+              "Sea view",
+              "Pay at the property",
+              "Balcony"
+            ],
+            "jc_code": "EXPEDIA",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Deluxe room - Twin beds",
+            "rooms": [
+              {
+                "name": "Deluxe room - Twin beds",
+                "flags": [
+                  "Twin beds"
+                ]
+              }
+            ],
+            "offer_flags_new": {
+              "refundable": "Free cancellation",
+              "view_sea": "Sea view",
+              "pay_at_hotel": "Pay at the property",
+              "balcony": "Balcony"
+            },
+            "partner_name": "Expedia",
+            "partner_logo": "https://hotelscan.com/apis/vendors/expd/logo.svg?pos=zz"
+          },
+          {
+            "price": 66.18,
+            "brt": "p2d#t",
+            "rf": "p2d#t",
+            "brf": 9471056,
+            "rt": 9471056,
+            "vendor": "expd",
+            "vendor_id_raw": "115494361",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included",
+              "Sea view",
+              "Balcony"
+            ],
+            "jc_code": "EXPEDIA",
+            "chain": "",
+            "free_cancellation": false,
+            "special": false,
+            "room_name": "Deluxe room - Twin beds",
+            "rooms": [
+              {
+                "name": "Deluxe room - Twin beds",
+                "flags": [
+                  "Twin beds"
+                ]
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included",
+              "view_sea": "Sea view",
+              "balcony": "Balcony"
+            },
+            "partner_name": "Expedia",
+            "partner_logo": "https://hotelscan.com/apis/vendors/expd/logo.svg?pos=zz"
+          },
+          {
+            "price": 68.54,
+            "brt": "p2d#t",
+            "rf": "p2d#t",
+            "brf": 9471056,
+            "rt": 9471056,
+            "vendor": "htls",
+            "vendor_id_raw": "3696819552",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included",
+              "Sea view",
+              "Balcony"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": false,
+            "special": false,
+            "room_name": "Deluxe room - Twin beds",
+            "rooms": [
+              {
+                "name": "Deluxe room - Twin beds",
+                "flags": [
+                  "Twin beds"
+                ]
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included",
+              "view_sea": "Sea view",
+              "balcony": "Balcony"
+            },
+            "partner_name": "Hotels.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/htls/logo.svg?pos=zz"
+          },
+          {
+            "price": 72.6,
+            "brt": "p2d#t",
+            "rf": "p2d#t",
+            "brf": 9503824,
+            "rt": 9503824,
+            "vendor": "expd",
+            "vendor_id_raw": "115494361",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included",
+              "Free cancellation",
+              "Sea view",
+              "Balcony"
+            ],
+            "jc_code": "EXPEDIA",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Deluxe room - Twin beds",
+            "rooms": [
+              {
+                "name": "Deluxe room - Twin beds",
+                "flags": [
+                  "Twin beds"
+                ]
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included",
+              "refundable": "Free cancellation",
+              "view_sea": "Sea view",
+              "balcony": "Balcony"
+            },
+            "partner_name": "Expedia",
+            "partner_logo": "https://hotelscan.com/apis/vendors/expd/logo.svg?pos=zz"
+          },
+          {
+            "price": 75.02,
+            "brt": "p2d#t",
+            "rf": "p2d#t",
+            "brf": 9503824,
+            "rt": 9503824,
+            "vendor": "htls",
+            "vendor_id_raw": "3696819552",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included",
+              "Free cancellation",
+              "Sea view",
+              "Balcony"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Deluxe room - Twin beds",
+            "rooms": [
+              {
+                "name": "Deluxe room - Twin beds",
+                "flags": [
+                  "Twin beds"
+                ]
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included",
+              "refundable": "Free cancellation",
+              "view_sea": "Sea view",
+              "balcony": "Balcony"
+            },
+            "partner_name": "Hotels.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/htls/logo.svg?pos=zz"
+          },
+          {
+            "price": 75.03,
+            "brt": "p2d#t",
+            "rf": "p2d#t",
+            "brf": 9503888,
+            "rt": 9503888,
+            "vendor": "htls",
+            "vendor_id_raw": "3696819552",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included",
+              "Free cancellation",
+              "Sea view",
+              "Pay at the property",
+              "Balcony"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Deluxe room - Twin beds",
+            "rooms": [
+              {
+                "name": "Deluxe room - Twin beds",
+                "flags": [
+                  "Twin beds"
+                ]
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included",
+              "refundable": "Free cancellation",
+              "view_sea": "Sea view",
+              "pay_at_hotel": "Pay at the property",
+              "balcony": "Balcony"
+            },
+            "partner_name": "Hotels.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/htls/logo.svg?pos=zz"
+          },
+          {
+            "price": 75.03,
+            "brt": "p2d#t",
+            "rf": "p2d#t",
+            "brf": 9503888,
+            "rt": 9503888,
+            "vendor": "expd",
+            "vendor_id_raw": "115494361",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included",
+              "Free cancellation",
+              "Sea view",
+              "Pay at the property",
+              "Balcony"
+            ],
+            "jc_code": "EXPEDIA",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Deluxe room - Twin beds",
+            "rooms": [
+              {
+                "name": "Deluxe room - Twin beds",
+                "flags": [
+                  "Twin beds"
+                ]
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included",
+              "refundable": "Free cancellation",
+              "view_sea": "Sea view",
+              "pay_at_hotel": "Pay at the property",
+              "balcony": "Balcony"
+            },
+            "partner_name": "Expedia",
+            "partner_logo": "https://hotelscan.com/apis/vendors/expd/logo.svg?pos=zz"
+          }
+        ],
+        "descriptions_language": {
+          "general": {
+            "original_language": true,
+            "text": "Great care is taken to ensure guests experience comfort through top-notch services and amenities.Remain linked during your visit by utilizing the complimentary internet access available.Prior to your check-in date, you can arrange airport transportation services, guaranteeing a seamless and efficient experience for both arrival and departure. Parking is accessible, supplied by the hotel for guests who arrive by car. Need some relaxation? Your room features daily housekeeping to make your stay even more comfortable and enjoyable. Crafted for coziness, every guestroom provides an array of features, guaranteeing a tranquil night's sleep while maintaining the level of comfort.For an elevated experience at hotel, select rooms are equipped with air conditioning to improve your stay."
+          },
+          "direction": {
+            "original_language": true,
+            "text": "When you stay at Lagoon Lodge in Hithadhoo, you'll be near the beach and within a 5-minute drive of Addu Nature Park. This guesthouse is 7.9 mi (12.7 km) from Gan Beach."
+          },
+          "hotel": {
+            "original_language": true,
+            "text": "Make yourself at home in one of the 12 guestrooms featuring minibars. Rooms have private balconies. Complimentary wireless internet access keeps you connected, and cable programming is available for your entertainment. Private bathrooms with showers feature rainfall showerheads and hair dryers."
+          },
+          "other": {
+            "original_language": true,
+            "text": "Take in the views from a rooftop terrace and make use of amenities such as complimentary wireless internet access and tour/ticket assistance."
+          }
+        },
+        "chain_code": null,
+        "bids": {
+          "expd": "j23",
+          "agda": "j23",
+          "htls": "j23"
+        },
+        "worst_offer": 60.41,
+        "best_offer": 45.81,
+        "best_offer_ota": "agda",
+        "best_offer_mota": null,
+        "discount": 25,
+        "offers_count": 13,
+        "coordinates": {
+          "lat": -0.60017,
+          "lng": 73.08681
+        },
+        "distance": 1.19,
+        "neighborhood": null,
+        "badge": null,
+        "distances": [
+          {
+            "from": "center",
+            "distance": 1.19,
+            "time": 1653,
+            "means": "foot",
+            "means_type": "foot"
+          }
+        ],
+        "specs": {
+          "bathrooms": null,
+          "beds": null,
+          "bedrooms": null,
+          "guests": null,
+          "square_meters": null
+        },
+        "toa_label": "hotel",
+        "top_amenities": [
+          "wifi_room",
+          "internet",
+          "parking",
+          "air_conditioning"
+        ],
+        "transportations": {
+          "airports": [],
+          "trains": []
+        },
+        "images": [
+          {
+            "image_id": "746763419",
+            "label": ""
+          },
+          {
+            "image_id": "746763440",
+            "label": ""
+          },
+          {
+            "image_id": "746763436",
+            "label": ""
+          },
+          {
+            "image_id": "746763455",
+            "label": ""
+          },
+          {
+            "image_id": "746763448",
+            "label": ""
+          },
+          {
+            "image_id": "746763452",
+            "label": ""
+          },
+          {
+            "image_id": "746763415",
+            "label": ""
+          },
+          {
+            "image_id": "746763456",
+            "label": ""
+          },
+          {
+            "image_id": "746763421",
+            "label": ""
+          },
+          {
+            "image_id": "746763423",
+            "label": ""
+          },
+          {
+            "image_id": "746763449",
+            "label": ""
+          },
+          {
+            "image_id": "746763434",
+            "label": ""
+          },
+          {
+            "image_id": "746763437",
+            "label": ""
+          },
+          {
+            "image_id": "746763417",
+            "label": ""
+          },
+          {
+            "image_id": "746763442",
+            "label": ""
+          }
+        ],
+        "hero_offer": {
+          "price": 45.81,
+          "brt": "p2d#b",
+          "rf": "p2d#b",
+          "brf": 8454208,
+          "rt": 8454208,
+          "vendor": "agda",
+          "vendor_id_raw": "65820707",
+          "mota_code": null,
+          "direct_offer": false,
+          "offer_flags": {
+            "refundable": "Free cancellation"
+          },
+          "jc_code": "",
+          "ranking_index": 0.96,
+          "chain": "",
+          "free_cancellation": true,
+          "special": false,
+          "room_name": "Deluxe room - Choice of single or double beds",
+          "rooms": [
+            {
+              "name": "Deluxe room - Choice of single or double beds",
+              "flags": [
+                "Choice of single or double beds"
+              ]
+            }
+          ],
+          "partner_name": "Agoda",
+          "partner_logo": "https://hotelscan.com/apis/vendors/agda/logo.svg?pos=zz"
+        },
+        "rank": 0,
+        "ctrl_srt": "im a ctrl teapot",
+        "test_srt": "im a test teapot"
+      }
+    ],
+    "filters": [],
+    "query": {
+      "pos": "zz"
+    }
+  }
+}

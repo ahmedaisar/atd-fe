@@ -1,0 +1,273 @@
+{
+  "_meta": {
+    "status": "SUCCESS",
+    "cached": true,
+    "count": 1,
+    "debug": {
+      "ticket": {
+        "ticket_id": "1011527533_zz_zz_d_publ_en_2_2025-10-08_2025-10-13_1_3",
+        "created_at": 1758065393.2463,
+        "loop": null,
+        "snapped_at": 1758065393.3305,
+        "snapshot_id": "1011527533_zz_zz_d_publ_en_2_2025-10-08_2025-10-13_1_3",
+        "snapshot_ttl": 300,
+        "executions": 2,
+        "progress": 1,
+        "save_errors": []
+      }
+    }
+  },
+  "data": {
+    "meta": [],
+    "geo": {
+      "hs_id": "x54dycop8la4",
+      "region_name": "Hulhumale",
+      "region_name_long": "Hulhumale, Maldives",
+      "region_type": "CITY",
+      "region_id": 6146552,
+      "country_iso": "MV",
+      "country": "maldives",
+      "localised_country": "Maldives",
+      "center": [
+        4.21046,
+        73.54275
+      ],
+      "centroid": [
+        4.21202,
+        73.54161
+      ],
+      "polygon": [
+        "4.227074,73.53137",
+        "4.211848,73.52809",
+        "4.193837,73.5426",
+        "4.221066,73.557409",
+        "4.227074,73.53137"
+      ],
+      "radius": 2.03,
+      "zoom": -1,
+      "search_by_polygon": 1,
+      "cluster": 0,
+      "properties": 194,
+      "radius_override": 5,
+      "boundingbox": {
+        "ne": [
+          4.228,
+          73.558
+        ],
+        "sw": [
+          4.193,
+          73.528
+        ]
+      },
+      "airports": [
+        "MLE",
+        "DRV"
+      ],
+      "region_name_en": "Hulhumale",
+      "region_name_long_en": "Hulhumale, Maldives",
+      "referrer_city_name_en": "Hulhumale",
+      "parent_region_id": 6051084,
+      "parent_hs_id": "x5p4hmhw6iot",
+      "parent_region_name": "Maldives (all)",
+      "parent_region_name_long": "Maldives (all)",
+      "dynamic_bbox": {
+        "ne": [
+          4.222,
+          73.546
+        ],
+        "sw": [
+          4.222,
+          73.546
+        ]
+      }
+    },
+    "records": [
+      {
+        "hs_id": 1011527533,
+        "slug": "nala-host-2br-apartment-seaside-bliss-hulhumale-mv-1011527533",
+        "name": "Nala Host - 2br Apartment Seaside Bliss",
+        "toa": "apartment",
+        "building": {
+          "room_num": 1,
+          "max_children": 5
+        },
+        "location": {
+          "city": "Hulhumale",
+          "zip": "23000",
+          "country_iso2": "MV",
+          "address": "20016 Nikagas Magu Lot20018 6th Floor, Phase 2 Hulhumale, Beachfront",
+          "geoid": "x54dycop8la4",
+          "loc": {
+            "type": "Point"
+          },
+          "coordinates": {
+            "lng": 73.54685,
+            "lat": 4.22226
+          }
+        },
+        "opening_time": {
+          "check_in_from": "14:00",
+          "check_in_to": "00:00",
+          "check_out_from": "12:00",
+          "check_out_to": "12:00"
+        },
+        "quality": {
+          "review_count": 7,
+          "review_rating": 97,
+          "stars": 0,
+          "stars_is_estimated": false,
+          "review_source": ""
+        },
+        "covid_safe": false,
+        "amenities": {
+          "internet": [
+            "wifi_lobby",
+            "wifi_room",
+            "internet"
+          ],
+          "food_drink": [
+            "restaurant"
+          ],
+          "parking": [
+            "parking"
+          ],
+          "room": [
+            "air_conditioning",
+            "tv",
+            "washing_machine"
+          ],
+          "outdoor": [
+            "terrace"
+          ]
+        },
+        "descriptions": {
+          "general": "At Nala Host - 2BR Apartment the Seaside Bliss, exceptional service and top-notch amenities create a memorable experience for guests. For the health and well-being of all guests and staff, smoking is restricted exclusively to assigned zones.Accommodations come equipped with all the conveniences required for a restful night's slumber. A selection of rooms at Nala Host - 2BR Apartment the Seaside Bliss come furnished with air conditioning to cater to your needs and comfort.",
+          "localized": "At Nala Host - 2BR Apartment the Seaside Bliss, exceptional service and top-notch amenities create a memorable experience for guests. For the health and well-being of all guests and staff, smoking is restricted exclusively to assigned zones.Accommodations come equipped with all the conveniences required for a restful night's slumber. A selection of rooms at Nala Host - 2BR Apartment the Seaside Bliss come furnished with air conditioning to cater to your needs and comfort."
+        },
+        "short_description": "Rooms with free wifi in apartment with parking and restaurant",
+        "chain": "no_chain",
+        "brand": "no_brand",
+        "offers": [],
+        "all_offers": [],
+        "descriptions_language": {
+          "general": {
+            "original_language": true,
+            "text": "At Nala Host - 2BR Apartment the Seaside Bliss, exceptional service and top-notch amenities create a memorable experience for guests. For the health and well-being of all guests and staff, smoking is restricted exclusively to assigned zones.Accommodations come equipped with all the conveniences required for a restful night's slumber. A selection of rooms at Nala Host - 2BR Apartment the Seaside Bliss come furnished with air conditioning to cater to your needs and comfort."
+          }
+        },
+        "chain_code": null,
+        "bids": [],
+        "coordinates": {
+          "lat": 4.22226,
+          "lng": 73.54685
+        },
+        "distance": 1.39,
+        "neighborhood": null,
+        "badge": null,
+        "distances": [
+          {
+            "from": "center",
+            "distance": 1.39,
+            "time": 1931,
+            "means": "foot",
+            "means_type": "foot"
+          }
+        ],
+        "specs": {
+          "bathrooms": 2,
+          "beds": null,
+          "bedrooms": 2,
+          "guests": 6,
+          "square_meters": null
+        },
+        "toa_label": "apartment",
+        "top_amenities": [
+          "wifi_room",
+          "parking",
+          "air_conditioning",
+          "tv",
+          "washing_machine"
+        ],
+        "transportations": {
+          "airports": [],
+          "trains": []
+        },
+        "images": [
+          {
+            "image_id": "764758426",
+            "label": ""
+          },
+          {
+            "image_id": "764758449",
+            "label": ""
+          },
+          {
+            "image_id": "764758464",
+            "label": ""
+          },
+          {
+            "image_id": "764758440",
+            "label": ""
+          },
+          {
+            "image_id": "764758448",
+            "label": ""
+          },
+          {
+            "image_id": "764758468",
+            "label": ""
+          },
+          {
+            "image_id": "764758461",
+            "label": ""
+          },
+          {
+            "image_id": "764758457",
+            "label": ""
+          },
+          {
+            "image_id": "764758447",
+            "label": ""
+          },
+          {
+            "image_id": "764758456",
+            "label": ""
+          },
+          {
+            "image_id": "764758437",
+            "label": ""
+          },
+          {
+            "image_id": "764758428",
+            "label": ""
+          },
+          {
+            "image_id": "764758429",
+            "label": ""
+          },
+          {
+            "image_id": "764758431",
+            "label": ""
+          },
+          {
+            "image_id": "764758451",
+            "label": ""
+          }
+        ],
+        "best_offer": null,
+        "discount": null,
+        "offers_count": 0,
+        "worst_offer": null,
+        "rank": 0,
+        "ctrl_srt": "im a ctrl teapot",
+        "test_srt": "im a test teapot",
+        "best_offer_ota": null,
+        "best_offer_mota": null
+      }
+    ],
+    "filters": [],
+    "query": {
+      "pos": "zz"
+    }
+  }
+}

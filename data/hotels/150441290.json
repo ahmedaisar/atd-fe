@@ -1,0 +1,1771 @@
+{
+  "_meta": {
+    "status": "SUCCESS",
+    "cached": true,
+    "count": 1,
+    "debug": {
+      "ticket": {
+        "ticket_id": "150441290_zz_zz_d_publ_en_2_2025-10-08_2025-10-13_1_3",
+        "created_at": 1758065389.1541,
+        "loop": null,
+        "snapped_at": 1758065389.2447,
+        "snapshot_id": "150441290_zz_zz_d_publ_en_2_2025-10-08_2025-10-13_1_3",
+        "snapshot_ttl": 300,
+        "executions": 2,
+        "progress": 1,
+        "save_errors": []
+      }
+    }
+  },
+  "data": {
+    "meta": [],
+    "geo": {
+      "hs_id": "xxuh67xtuxox",
+      "region_name": "Kanuhura",
+      "region_name_long": "Kanuhura, Maldives",
+      "region_type": "CITY",
+      "region_id": 602389,
+      "country_iso": "MV",
+      "country": "maldives",
+      "localised_country": "Maldives",
+      "center": [
+        5.53184,
+        73.50765
+      ],
+      "centroid": [
+        5.53184,
+        73.50765
+      ],
+      "polygon": [
+        "5.5373,73.502165",
+        "5.526376,73.50216",
+        "5.526376,73.513135",
+        "5.5373,73.513132",
+        "5.5373,73.502165"
+      ],
+      "radius": 0.86,
+      "zoom": -1,
+      "search_by_polygon": 0,
+      "cluster": 0,
+      "properties": 6,
+      "radius_override": 5,
+      "boundingbox": {
+        "ne": [
+          5.538,
+          73.514
+        ],
+        "sw": [
+          5.526,
+          73.502
+        ]
+      },
+      "airports": [
+        "MLE",
+        "HAQ",
+        "DRV"
+      ],
+      "region_name_en": "Kanuhura",
+      "region_name_long_en": "Kanuhura, Maldives",
+      "referrer_city_name_en": "Kanuhura",
+      "parent_region_id": 6051084,
+      "parent_hs_id": "x5p4hmhw6iot",
+      "parent_region_name": "Maldives (all)",
+      "parent_region_name_long": "Maldives (all)",
+      "dynamic_bbox": {
+        "ne": [
+          5.533,
+          73.506
+        ],
+        "sw": [
+          5.533,
+          73.506
+        ]
+      }
+    },
+    "records": [
+      {
+        "hs_id": 150441290,
+        "slug": "six-senses-kanuhura-kanuhura-mv-150441290",
+        "name": "Six Senses Kanuhura",
+        "toa": "resort",
+        "location": {
+          "city": "Kanuhura",
+          "zip": "07060",
+          "country_iso2": "MV",
+          "address": "Six Senses Kanuhura",
+          "geoid": "xxuh67xtuxox",
+          "loc": {
+            "type": "Point"
+          },
+          "coordinates": {
+            "lng": 73.506035,
+            "lat": 5.533728
+          }
+        },
+        "opening_time": {
+          "check_in_from": "14:00",
+          "check_in_to": "12:00",
+          "check_out_from": null,
+          "check_out_to": "12:00"
+        },
+        "quality": {
+          "review_count": 38,
+          "review_rating": 96,
+          "stars": 5,
+          "stars_is_estimated": false,
+          "review_source": ""
+        },
+        "covid_safe": false,
+        "amenities": {
+          "wellness": [
+            "indoor_pool",
+            "massage",
+            "fitness_center",
+            "sauna",
+            "spa",
+            "outdoor_pool",
+            "turkish_bath"
+          ],
+          "sports": [
+            "golf",
+            "sailing",
+            "billiard",
+            "yoga",
+            "bike_rent",
+            "ping_pong",
+            "tennis",
+            "volley_beach_volley",
+            "sub",
+            "boat_rent",
+            "squash",
+            "surf"
+          ],
+          "internet": [
+            "wifi_lobby",
+            "wifi_room",
+            "internet"
+          ],
+          "transfer": [
+            "shuttle_service"
+          ],
+          "food_drink": [
+            "room_service",
+            "poolside_bar",
+            "cafe",
+            "bar",
+            "beach_bar",
+            "restaurant"
+          ],
+          "disability": [
+            "disability_facilities"
+          ],
+          "parking": [
+            "parking"
+          ],
+          "outdoor": [
+            "garden",
+            "terrace"
+          ],
+          "business": [
+            "business_services"
+          ],
+          "children": [
+            "babysitter",
+            "cribs_small_beds",
+            "children_playground"
+          ],
+          "room": [
+            "fan",
+            "air_conditioning",
+            "tv",
+            "in_room_safe"
+          ],
+          "reception": [
+            "concierge",
+            "laundry_facilities",
+            "laundry_service",
+            "safety_deposit_box",
+            "reception",
+            "24h_reception",
+            "luggage_storage"
+          ]
+        },
+        "descriptions": {
+          "direction": "Located in Kanuhura, Six Senses Kanuhura is on the beach. The area's natural beauty can be seen at Hurawalhi Beach and Kanuhura Beach. With scuba diving, windsurfing, and swimming nearby, you'll find plenty of adventures in the water.",
+          "general": "At Six Senses Kanuhura, exceptional service and top-notch amenities create a memorable experience for guests. Complimentary internet access is available in the resort to ensure you stay connected during your visit.Arrange your trips to and from the airport using the resort's convenient transportation services booking. Continuously receive the support you require through front desk amenities such as concierge service, express check-in or check-out and safety deposit boxes.At the resort, their tours can even assist you in booking tickets and securing reservations for leisure activities and adventures.At the resort, utilize the convenient laundry service to maintain your preferred travel attire fresh, allowing you to pack lighter. Craving relaxation? In-room amenities such as 24-hour room service, room service and daily housekeeping allow you to maximize your time spent inside the room. For the health and well-being of all guests and staff, smoking is restricted exclusively to assigned zones.Accommodations come equipped with all the conveniences required for a restful night's slumber.A selection of rooms at Six Senses Kanuhura come furnished with air conditioning to cater to your needs and comfort. At Six Senses Kanuhura, each day commences with a scrumptious breakfast offered at no additional cost. All adore a delightful cup of coffee! An on-site coffee shop ensures you can relish a cup of authentic, freshly-brewed coffee every morning -- or whenever you desire it.Allow your journey to be free from the pangs of hunger! On-site eateries offer delicious and accessible meal choices. At Six Senses Kanuhura, catering to your unique requirements is our priority. Guests with particular dietary preferences can choose from an assortment of dishes, featuring kosher and halal choices among other options. An evening spent at resort's bar can offer as much enjoyment as venturing out with your fellow travelers.At Six Senses Kanuhura, guests can take pleasure in the delightful recreational amenities provided for their entertainment. At the resort, a wide range of enjoyable activities ensures that there's never a dull moment during your visit. Don't miss out on the easily reachable beach in the vicinity.Conclude your days in complete tranquility by paying a visit to massage and spa for ultimate relaxation.At Six Senses Kanuhura, a wide array of amenities guarantees a fulfilling experience throughout your visit. Make your holiday truly memorable by taking a rejuvenating plunge into the pool. At Six Senses Kanuhura, the poolside bar provides an excellent incentive to enjoy extended hours in your swimwear.At the resort fitness center, you have the option to engage in your daily exercise routine or simply alleviate your jet lag by breaking a sweat.",
+          "amenities": true,
+          "localized": "At Six Senses Kanuhura, exceptional service and top-notch amenities create a memorable experience for guests. Complimentary internet access is available in the resort to ensure you stay connected during your visit.Arrange your trips to and from the airport using the resort's convenient transportation services booking. Continuously receive the support you require through front desk amenities such as concierge service, express check-in or check-out and safety deposit boxes.At the resort, their tours can even assist you in booking tickets and securing reservations for leisure activities and adventures.At the resort, utilize the convenient laundry service to maintain your preferred travel attire fresh, allowing you to pack lighter. Craving relaxation? In-room amenities such as 24-hour room service, room service and daily housekeeping allow you to maximize your time spent inside the room. For the health and well-being of all guests and staff, smoking is restricted exclusively to assigned zones.Accommodations come equipped with all the conveniences required for a restful night's slumber.A selection of rooms at Six Senses Kanuhura come furnished with air conditioning to cater to your needs and comfort. At Six Senses Kanuhura, each day commences with a scrumptious breakfast offered at no additional cost. All adore a delightful cup of coffee! An on-site coffee shop ensures you can relish a cup of authentic, freshly-brewed coffee every morning -- or whenever you desire it.Allow your journey to be free from the pangs of hunger! On-site eateries offer delicious and accessible meal choices. At Six Senses Kanuhura, catering to your unique requirements is our priority. Guests with particular dietary preferences can choose from an assortment of dishes, featuring kosher and halal choices among other options. An evening spent at resort's bar can offer as much enjoyment as venturing out with your fellow travelers.At Six Senses Kanuhura, guests can take pleasure in the delightful recreational amenities provided for their entertainment. At the resort, a wide range of enjoyable activities ensures that there's never a dull moment during your visit. Don't miss out on the easily reachable beach in the vicinity.Conclude your days in complete tranquility by paying a visit to massage and spa for ultimate relaxation.At Six Senses Kanuhura, a wide array of amenities guarantees a fulfilling experience throughout your visit. Make your holiday truly memorable by taking a rejuvenating plunge into the pool. At Six Senses Kanuhura, the poolside bar provides an excellent incentive to enjoy extended hours in your swimwear.At the resort fitness center, you have the option to engage in your daily exercise routine or simply alleviate your jet lag by breaking a sweat."
+        },
+        "short_description": "Chic resort with indoor pool, outdoor pool and restaurant",
+        "chain": "ihg",
+        "brand": "six_senses",
+        "offers": [
+          {
+            "price": 1102.06,
+            "brt": "o2r#",
+            "rf": "o2r#",
+            "brf": 9470016,
+            "rt": 9470016,
+            "vendor": "agda",
+            "vendor_id_raw": "46063435",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included"
+            ],
+            "jc_code": "",
+            "ranking_index": 1,
+            "chain": "",
+            "free_cancellation": false,
+            "special": false,
+            "room_name": "Villa",
+            "rooms": [
+              {
+                "name": "Villa",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included"
+            },
+            "partner_name": "Agoda",
+            "partner_logo": "https://hotelscan.com/apis/vendors/agda/logo.svg?pos=zz"
+          },
+          {
+            "vendor": "expd",
+            "price": 1111.42,
+            "vendor_id_raw": "795238",
+            "mota_code": null,
+            "jc_code": "EXPEDIA",
+            "partner_name": "Expedia",
+            "partner_logo": "https://hotelscan.com/apis/vendors/expd/logo.svg?pos=zz",
+            "room_name": "Villa",
+            "brf": 9502848,
+            "brt": "o2r#"
+          }
+        ],
+        "all_offers": [
+          {
+            "price": 1102.06,
+            "brt": "o2r#",
+            "rf": "o2r#",
+            "brf": 9470016,
+            "rt": 9470016,
+            "vendor": "agda",
+            "vendor_id_raw": "46063435",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": false,
+            "special": false,
+            "room_name": "Villa",
+            "rooms": [
+              {
+                "name": "Villa",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included"
+            },
+            "partner_name": "Agoda",
+            "partner_logo": "https://hotelscan.com/apis/vendors/agda/logo.svg?pos=zz"
+          },
+          {
+            "price": 1111.42,
+            "brt": "o2r#",
+            "rf": "o2r#",
+            "brf": 9502848,
+            "rt": 9502848,
+            "vendor": "expd",
+            "vendor_id_raw": "795238",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included",
+              "Free cancellation",
+              "Pay at the property"
+            ],
+            "jc_code": "EXPEDIA",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Villa",
+            "rooms": [
+              {
+                "name": "Villa",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included",
+              "refundable": "Free cancellation",
+              "pay_at_hotel": "Pay at the property"
+            },
+            "partner_name": "Expedia",
+            "partner_logo": "https://hotelscan.com/apis/vendors/expd/logo.svg?pos=zz"
+          },
+          {
+            "price": 1111.44,
+            "brt": "o2r#",
+            "rf": "o2r#",
+            "brf": 9502784,
+            "rt": 9502784,
+            "vendor": "expd",
+            "vendor_id_raw": "795238",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included",
+              "Free cancellation"
+            ],
+            "jc_code": "EXPEDIA",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Villa",
+            "rooms": [
+              {
+                "name": "Villa",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included",
+              "refundable": "Free cancellation"
+            },
+            "partner_name": "Expedia",
+            "partner_logo": "https://hotelscan.com/apis/vendors/expd/logo.svg?pos=zz"
+          },
+          {
+            "price": 1262.14,
+            "brt": "o2d#",
+            "rf": "o2d#",
+            "brf": 9470016,
+            "rt": 9470016,
+            "vendor": "agda",
+            "vendor_id_raw": "46063435",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": false,
+            "special": false,
+            "room_name": "Deluxe villa",
+            "rooms": [
+              {
+                "name": "Deluxe villa",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included"
+            },
+            "partner_name": "Agoda",
+            "partner_logo": "https://hotelscan.com/apis/vendors/agda/logo.svg?pos=zz"
+          },
+          {
+            "price": 1272.91,
+            "brt": "o2d#",
+            "rf": "o2d#",
+            "brf": 9502848,
+            "rt": 9502848,
+            "vendor": "expd",
+            "vendor_id_raw": "795238",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included",
+              "Free cancellation",
+              "Pay at the property"
+            ],
+            "jc_code": "EXPEDIA",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Deluxe villa",
+            "rooms": [
+              {
+                "name": "Deluxe villa",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included",
+              "refundable": "Free cancellation",
+              "pay_at_hotel": "Pay at the property"
+            },
+            "partner_name": "Expedia",
+            "partner_logo": "https://hotelscan.com/apis/vendors/expd/logo.svg?pos=zz"
+          },
+          {
+            "price": 1394.89,
+            "brt": "o2r#",
+            "rf": "o2r#",
+            "brf": 9470016,
+            "rt": 9470016,
+            "vendor": "agda",
+            "vendor_id_raw": "46063435",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": false,
+            "special": false,
+            "room_name": "Villa",
+            "rooms": [
+              {
+                "name": "Villa",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included"
+            },
+            "partner_name": "Agoda",
+            "partner_logo": "https://hotelscan.com/apis/vendors/agda/logo.svg?pos=zz"
+          },
+          {
+            "price": 1406.82,
+            "brt": "o2r#",
+            "rf": "o2r#",
+            "brf": 9502848,
+            "rt": 9502848,
+            "vendor": "expd",
+            "vendor_id_raw": "795238",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included",
+              "Free cancellation",
+              "Pay at the property"
+            ],
+            "jc_code": "EXPEDIA",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Villa",
+            "rooms": [
+              {
+                "name": "Villa",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included",
+              "refundable": "Free cancellation",
+              "pay_at_hotel": "Pay at the property"
+            },
+            "partner_name": "Expedia",
+            "partner_logo": "https://hotelscan.com/apis/vendors/expd/logo.svg?pos=zz"
+          },
+          {
+            "price": 1406.83,
+            "brt": "o2r#",
+            "rf": "o2r#",
+            "brf": 9502784,
+            "rt": 9502784,
+            "vendor": "expd",
+            "vendor_id_raw": "795238",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included",
+              "Free cancellation"
+            ],
+            "jc_code": "EXPEDIA",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Villa",
+            "rooms": [
+              {
+                "name": "Villa",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included",
+              "refundable": "Free cancellation"
+            },
+            "partner_name": "Expedia",
+            "partner_logo": "https://hotelscan.com/apis/vendors/expd/logo.svg?pos=zz"
+          },
+          {
+            "price": 1442.27,
+            "brt": "o2d#",
+            "rf": "o2d#",
+            "brf": 9502848,
+            "rt": 9502848,
+            "vendor": "expd",
+            "vendor_id_raw": "795238",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included",
+              "Free cancellation",
+              "Pay at the property"
+            ],
+            "jc_code": "EXPEDIA",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Deluxe villa",
+            "rooms": [
+              {
+                "name": "Deluxe villa",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included",
+              "refundable": "Free cancellation",
+              "pay_at_hotel": "Pay at the property"
+            },
+            "partner_name": "Expedia",
+            "partner_logo": "https://hotelscan.com/apis/vendors/expd/logo.svg?pos=zz"
+          },
+          {
+            "price": 1442.28,
+            "brt": "o2d#",
+            "rf": "o2d#",
+            "brf": 9502784,
+            "rt": 9502784,
+            "vendor": "expd",
+            "vendor_id_raw": "795238",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included",
+              "Free cancellation"
+            ],
+            "jc_code": "EXPEDIA",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Deluxe villa",
+            "rooms": [
+              {
+                "name": "Deluxe villa",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included",
+              "refundable": "Free cancellation"
+            },
+            "partner_name": "Expedia",
+            "partner_logo": "https://hotelscan.com/apis/vendors/expd/logo.svg?pos=zz"
+          },
+          {
+            "price": 1458.01,
+            "brt": "e2d#",
+            "rf": "e2d#",
+            "brf": 9470016,
+            "rt": 9470016,
+            "vendor": "agda",
+            "vendor_id_raw": "46063435",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": false,
+            "special": false,
+            "room_name": "Deluxe suite",
+            "rooms": [
+              {
+                "name": "Deluxe suite",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included"
+            },
+            "partner_name": "Agoda",
+            "partner_logo": "https://hotelscan.com/apis/vendors/agda/logo.svg?pos=zz"
+          },
+          {
+            "price": 1465.17,
+            "brt": "o2r#",
+            "rf": "o2r#",
+            "brf": 9470016,
+            "rt": 9470016,
+            "vendor": "agda",
+            "vendor_id_raw": "46063435",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": false,
+            "special": false,
+            "room_name": "Villa",
+            "rooms": [
+              {
+                "name": "Villa",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included"
+            },
+            "partner_name": "Agoda",
+            "partner_logo": "https://hotelscan.com/apis/vendors/agda/logo.svg?pos=zz"
+          },
+          {
+            "price": 1470.5,
+            "brt": "e2d#",
+            "rf": "e2d#",
+            "brf": 9502848,
+            "rt": 9502848,
+            "vendor": "expd",
+            "vendor_id_raw": "795238",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included",
+              "Free cancellation",
+              "Pay at the property"
+            ],
+            "jc_code": "EXPEDIA",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Deluxe suite",
+            "rooms": [
+              {
+                "name": "Deluxe suite",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included",
+              "refundable": "Free cancellation",
+              "pay_at_hotel": "Pay at the property"
+            },
+            "partner_name": "Expedia",
+            "partner_logo": "https://hotelscan.com/apis/vendors/expd/logo.svg?pos=zz"
+          },
+          {
+            "price": 1597.85,
+            "brt": "o2q#",
+            "rf": "o2q#",
+            "brf": 9502784,
+            "rt": 9502784,
+            "vendor": "expd",
+            "vendor_id_raw": "795238",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included",
+              "Free cancellation"
+            ],
+            "jc_code": "EXPEDIA",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Family villa",
+            "rooms": [
+              {
+                "name": "Family villa",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included",
+              "refundable": "Free cancellation"
+            },
+            "partner_name": "Expedia",
+            "partner_logo": "https://hotelscan.com/apis/vendors/expd/logo.svg?pos=zz"
+          },
+          {
+            "price": 1597.86,
+            "brt": "o2q#",
+            "rf": "o2q#",
+            "brf": 9502848,
+            "rt": 9502848,
+            "vendor": "expd",
+            "vendor_id_raw": "795238",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included",
+              "Free cancellation",
+              "Pay at the property"
+            ],
+            "jc_code": "EXPEDIA",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Family villa",
+            "rooms": [
+              {
+                "name": "Family villa",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included",
+              "refundable": "Free cancellation",
+              "pay_at_hotel": "Pay at the property"
+            },
+            "partner_name": "Expedia",
+            "partner_logo": "https://hotelscan.com/apis/vendors/expd/logo.svg?pos=zz"
+          },
+          {
+            "price": 1598.5,
+            "brt": "o2r#",
+            "rf": "o2r#",
+            "brf": 9502784,
+            "rt": 9502784,
+            "vendor": "expd",
+            "vendor_id_raw": "795238",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included",
+              "Free cancellation"
+            ],
+            "jc_code": "EXPEDIA",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Villa",
+            "rooms": [
+              {
+                "name": "Villa",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included",
+              "refundable": "Free cancellation"
+            },
+            "partner_name": "Expedia",
+            "partner_logo": "https://hotelscan.com/apis/vendors/expd/logo.svg?pos=zz"
+          },
+          {
+            "price": 1598.51,
+            "brt": "o2r#",
+            "rf": "o2r#",
+            "brf": 9502848,
+            "rt": 9502848,
+            "vendor": "expd",
+            "vendor_id_raw": "795238",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included",
+              "Free cancellation",
+              "Pay at the property"
+            ],
+            "jc_code": "EXPEDIA",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Villa",
+            "rooms": [
+              {
+                "name": "Villa",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included",
+              "refundable": "Free cancellation",
+              "pay_at_hotel": "Pay at the property"
+            },
+            "partner_name": "Expedia",
+            "partner_logo": "https://hotelscan.com/apis/vendors/expd/logo.svg?pos=zz"
+          },
+          {
+            "price": 1601.3,
+            "brt": "o2q#",
+            "rf": "o2q#",
+            "brf": 9470016,
+            "rt": 9470016,
+            "vendor": "agda",
+            "vendor_id_raw": "46063435",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": false,
+            "special": false,
+            "room_name": "Family villa",
+            "rooms": [
+              {
+                "name": "Family villa",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included"
+            },
+            "partner_name": "Agoda",
+            "partner_logo": "https://hotelscan.com/apis/vendors/agda/logo.svg?pos=zz"
+          },
+          {
+            "price": 1672.79,
+            "brt": "e2d#",
+            "rf": "e2d#",
+            "brf": 9502848,
+            "rt": 9502848,
+            "vendor": "expd",
+            "vendor_id_raw": "795238",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included",
+              "Free cancellation",
+              "Pay at the property"
+            ],
+            "jc_code": "EXPEDIA",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Deluxe suite",
+            "rooms": [
+              {
+                "name": "Deluxe suite",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included",
+              "refundable": "Free cancellation",
+              "pay_at_hotel": "Pay at the property"
+            },
+            "partner_name": "Expedia",
+            "partner_logo": "https://hotelscan.com/apis/vendors/expd/logo.svg?pos=zz"
+          },
+          {
+            "price": 1821.37,
+            "brt": "o2q#",
+            "rf": "o2q#",
+            "brf": 9502848,
+            "rt": 9502848,
+            "vendor": "expd",
+            "vendor_id_raw": "795238",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included",
+              "Free cancellation",
+              "Pay at the property"
+            ],
+            "jc_code": "EXPEDIA",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Family villa",
+            "rooms": [
+              {
+                "name": "Family villa",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included",
+              "refundable": "Free cancellation",
+              "pay_at_hotel": "Pay at the property"
+            },
+            "partner_name": "Expedia",
+            "partner_logo": "https://hotelscan.com/apis/vendors/expd/logo.svg?pos=zz"
+          },
+          {
+            "price": 1933.7,
+            "brt": "o2d#",
+            "rf": "o2d#",
+            "brf": 9470016,
+            "rt": 9470016,
+            "vendor": "agda",
+            "vendor_id_raw": "46063435",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": false,
+            "special": false,
+            "room_name": "Deluxe villa",
+            "rooms": [
+              {
+                "name": "Deluxe villa",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included"
+            },
+            "partner_name": "Agoda",
+            "partner_logo": "https://hotelscan.com/apis/vendors/agda/logo.svg?pos=zz"
+          },
+          {
+            "price": 2154.95,
+            "brt": "o2r#",
+            "rf": "o2r#",
+            "brf": 9470016,
+            "rt": 9470016,
+            "vendor": "agda",
+            "vendor_id_raw": "46063435",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": false,
+            "special": false,
+            "room_name": "Villa",
+            "rooms": [
+              {
+                "name": "Villa",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included"
+            },
+            "partner_name": "Agoda",
+            "partner_logo": "https://hotelscan.com/apis/vendors/agda/logo.svg?pos=zz"
+          },
+          {
+            "price": 2260.15,
+            "brt": "e2d#",
+            "rf": "e2d#",
+            "brf": 9470016,
+            "rt": 9470016,
+            "vendor": "agda",
+            "vendor_id_raw": "46063435",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": false,
+            "special": false,
+            "room_name": "Deluxe suite",
+            "rooms": [
+              {
+                "name": "Deluxe suite",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included"
+            },
+            "partner_name": "Agoda",
+            "partner_logo": "https://hotelscan.com/apis/vendors/agda/logo.svg?pos=zz"
+          },
+          {
+            "price": 2295.63,
+            "brt": "z2r#",
+            "rf": "z2r#",
+            "brf": 9470016,
+            "rt": 9470016,
+            "vendor": "agda",
+            "vendor_id_raw": "46063435",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": false,
+            "special": false,
+            "room_name": "Go to the booking site for more details",
+            "rooms": [
+              {
+                "name": "Go to the booking site for more details",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included"
+            },
+            "partner_name": "Agoda",
+            "partner_logo": "https://hotelscan.com/apis/vendors/agda/logo.svg?pos=zz"
+          },
+          {
+            "price": 2298.28,
+            "brt": "z2r#",
+            "rf": "z2r#",
+            "brf": 9502848,
+            "rt": 9502848,
+            "vendor": "expd",
+            "vendor_id_raw": "795238",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included",
+              "Free cancellation",
+              "Pay at the property"
+            ],
+            "jc_code": "EXPEDIA",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Go to the booking site for more details",
+            "rooms": [
+              {
+                "name": "Go to the booking site for more details",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included",
+              "refundable": "Free cancellation",
+              "pay_at_hotel": "Pay at the property"
+            },
+            "partner_name": "Expedia",
+            "partner_logo": "https://hotelscan.com/apis/vendors/expd/logo.svg?pos=zz"
+          },
+          {
+            "price": 2298.29,
+            "brt": "z2r#",
+            "rf": "z2r#",
+            "brf": 9502784,
+            "rt": 9502784,
+            "vendor": "expd",
+            "vendor_id_raw": "795238",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included",
+              "Free cancellation"
+            ],
+            "jc_code": "EXPEDIA",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Go to the booking site for more details",
+            "rooms": [
+              {
+                "name": "Go to the booking site for more details",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included",
+              "refundable": "Free cancellation"
+            },
+            "partner_name": "Expedia",
+            "partner_logo": "https://hotelscan.com/apis/vendors/expd/logo.svg?pos=zz"
+          },
+          {
+            "price": 2356.05,
+            "brt": "o2r#",
+            "rf": "o2r#",
+            "brf": 9502848,
+            "rt": 9502848,
+            "vendor": "expd",
+            "vendor_id_raw": "795238",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included",
+              "Free cancellation",
+              "Pay at the property"
+            ],
+            "jc_code": "EXPEDIA",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Villa",
+            "rooms": [
+              {
+                "name": "Villa",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included",
+              "refundable": "Free cancellation",
+              "pay_at_hotel": "Pay at the property"
+            },
+            "partner_name": "Expedia",
+            "partner_logo": "https://hotelscan.com/apis/vendors/expd/logo.svg?pos=zz"
+          },
+          {
+            "price": 2356.06,
+            "brt": "o2r#",
+            "rf": "o2r#",
+            "brf": 9502784,
+            "rt": 9502784,
+            "vendor": "expd",
+            "vendor_id_raw": "795238",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included",
+              "Free cancellation"
+            ],
+            "jc_code": "EXPEDIA",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Villa",
+            "rooms": [
+              {
+                "name": "Villa",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included",
+              "refundable": "Free cancellation"
+            },
+            "partner_name": "Expedia",
+            "partner_logo": "https://hotelscan.com/apis/vendors/expd/logo.svg?pos=zz"
+          },
+          {
+            "price": 2524.75,
+            "brt": "p2q#",
+            "rf": "p2q#",
+            "brf": 9502848,
+            "rt": 9502848,
+            "vendor": "expd",
+            "vendor_id_raw": "795238",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included",
+              "Free cancellation",
+              "Pay at the property"
+            ],
+            "jc_code": "EXPEDIA",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Family room",
+            "rooms": [
+              {
+                "name": "Family room",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included",
+              "refundable": "Free cancellation",
+              "pay_at_hotel": "Pay at the property"
+            },
+            "partner_name": "Expedia",
+            "partner_logo": "https://hotelscan.com/apis/vendors/expd/logo.svg?pos=zz"
+          },
+          {
+            "price": 2524.77,
+            "brt": "p2q#",
+            "rf": "p2q#",
+            "brf": 9502784,
+            "rt": 9502784,
+            "vendor": "expd",
+            "vendor_id_raw": "795238",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included",
+              "Free cancellation"
+            ],
+            "jc_code": "EXPEDIA",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Family room",
+            "rooms": [
+              {
+                "name": "Family room",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included",
+              "refundable": "Free cancellation"
+            },
+            "partner_name": "Expedia",
+            "partner_logo": "https://hotelscan.com/apis/vendors/expd/logo.svg?pos=zz"
+          },
+          {
+            "price": 2638.54,
+            "brt": "z2r#",
+            "rf": "z2r#",
+            "brf": 9502848,
+            "rt": 9502848,
+            "vendor": "expd",
+            "vendor_id_raw": "795238",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included",
+              "Free cancellation",
+              "Pay at the property"
+            ],
+            "jc_code": "EXPEDIA",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Go to the booking site for more details",
+            "rooms": [
+              {
+                "name": "Go to the booking site for more details",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included",
+              "refundable": "Free cancellation",
+              "pay_at_hotel": "Pay at the property"
+            },
+            "partner_name": "Expedia",
+            "partner_logo": "https://hotelscan.com/apis/vendors/expd/logo.svg?pos=zz"
+          },
+          {
+            "price": 2705.93,
+            "brt": "o2r#",
+            "rf": "o2r#",
+            "brf": 9502784,
+            "rt": 9502784,
+            "vendor": "expd",
+            "vendor_id_raw": "795238",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included",
+              "Free cancellation"
+            ],
+            "jc_code": "EXPEDIA",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Villa",
+            "rooms": [
+              {
+                "name": "Villa",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included",
+              "refundable": "Free cancellation"
+            },
+            "partner_name": "Expedia",
+            "partner_logo": "https://hotelscan.com/apis/vendors/expd/logo.svg?pos=zz"
+          },
+          {
+            "price": 2705.94,
+            "brt": "o2r#",
+            "rf": "o2r#",
+            "brf": 9502848,
+            "rt": 9502848,
+            "vendor": "expd",
+            "vendor_id_raw": "795238",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included",
+              "Free cancellation",
+              "Pay at the property"
+            ],
+            "jc_code": "EXPEDIA",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Villa",
+            "rooms": [
+              {
+                "name": "Villa",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included",
+              "refundable": "Free cancellation",
+              "pay_at_hotel": "Pay at the property"
+            },
+            "partner_name": "Expedia",
+            "partner_logo": "https://hotelscan.com/apis/vendors/expd/logo.svg?pos=zz"
+          },
+          {
+            "price": 2715.78,
+            "brt": "e2r#",
+            "rf": "e2r#",
+            "brf": 9502848,
+            "rt": 9502848,
+            "vendor": "expd",
+            "vendor_id_raw": "795238",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included",
+              "Free cancellation",
+              "Pay at the property"
+            ],
+            "jc_code": "EXPEDIA",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Suite",
+            "rooms": [
+              {
+                "name": "Suite",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included",
+              "refundable": "Free cancellation",
+              "pay_at_hotel": "Pay at the property"
+            },
+            "partner_name": "Expedia",
+            "partner_logo": "https://hotelscan.com/apis/vendors/expd/logo.svg?pos=zz"
+          },
+          {
+            "price": 2902.76,
+            "brt": "p2q#",
+            "rf": "p2q#",
+            "brf": 9502848,
+            "rt": 9502848,
+            "vendor": "expd",
+            "vendor_id_raw": "795238",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included",
+              "Free cancellation",
+              "Pay at the property"
+            ],
+            "jc_code": "EXPEDIA",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Family room",
+            "rooms": [
+              {
+                "name": "Family room",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included",
+              "refundable": "Free cancellation",
+              "pay_at_hotel": "Pay at the property"
+            },
+            "partner_name": "Expedia",
+            "partner_logo": "https://hotelscan.com/apis/vendors/expd/logo.svg?pos=zz"
+          },
+          {
+            "price": 3125.62,
+            "brt": "e2r#",
+            "rf": "e2r#",
+            "brf": 9502848,
+            "rt": 9502848,
+            "vendor": "expd",
+            "vendor_id_raw": "795238",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included",
+              "Free cancellation",
+              "Pay at the property"
+            ],
+            "jc_code": "EXPEDIA",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Suite",
+            "rooms": [
+              {
+                "name": "Suite",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included",
+              "refundable": "Free cancellation",
+              "pay_at_hotel": "Pay at the property"
+            },
+            "partner_name": "Expedia",
+            "partner_logo": "https://hotelscan.com/apis/vendors/expd/logo.svg?pos=zz"
+          },
+          {
+            "price": 4620.79,
+            "brt": "z2r#",
+            "rf": "z2r#",
+            "brf": 9502848,
+            "rt": 9502848,
+            "vendor": "expd",
+            "vendor_id_raw": "795238",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included",
+              "Free cancellation",
+              "Pay at the property"
+            ],
+            "jc_code": "EXPEDIA",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Go to the booking site for more details",
+            "rooms": [
+              {
+                "name": "Go to the booking site for more details",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included",
+              "refundable": "Free cancellation",
+              "pay_at_hotel": "Pay at the property"
+            },
+            "partner_name": "Expedia",
+            "partner_logo": "https://hotelscan.com/apis/vendors/expd/logo.svg?pos=zz"
+          },
+          {
+            "price": 5348.13,
+            "brt": "z2r#",
+            "rf": "z2r#",
+            "brf": 9502848,
+            "rt": 9502848,
+            "vendor": "expd",
+            "vendor_id_raw": "795238",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included",
+              "Free cancellation",
+              "Pay at the property"
+            ],
+            "jc_code": "EXPEDIA",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Go to the booking site for more details",
+            "rooms": [
+              {
+                "name": "Go to the booking site for more details",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included",
+              "refundable": "Free cancellation",
+              "pay_at_hotel": "Pay at the property"
+            },
+            "partner_name": "Expedia",
+            "partner_logo": "https://hotelscan.com/apis/vendors/expd/logo.svg?pos=zz"
+          },
+          {
+            "price": 5348.14,
+            "brt": "z2r#",
+            "rf": "z2r#",
+            "brf": 9502784,
+            "rt": 9502784,
+            "vendor": "expd",
+            "vendor_id_raw": "795238",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included",
+              "Free cancellation"
+            ],
+            "jc_code": "EXPEDIA",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Go to the booking site for more details",
+            "rooms": [
+              {
+                "name": "Go to the booking site for more details",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included",
+              "refundable": "Free cancellation"
+            },
+            "partner_name": "Expedia",
+            "partner_logo": "https://hotelscan.com/apis/vendors/expd/logo.svg?pos=zz"
+          },
+          {
+            "price": 6984,
+            "brt": "z2r#",
+            "rf": "z2r#",
+            "brf": 9502848,
+            "rt": 9502848,
+            "vendor": "expd",
+            "vendor_id_raw": "795238",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included",
+              "Free cancellation",
+              "Pay at the property"
+            ],
+            "jc_code": "EXPEDIA",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Go to the booking site for more details",
+            "rooms": [
+              {
+                "name": "Go to the booking site for more details",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included",
+              "refundable": "Free cancellation",
+              "pay_at_hotel": "Pay at the property"
+            },
+            "partner_name": "Expedia",
+            "partner_logo": "https://hotelscan.com/apis/vendors/expd/logo.svg?pos=zz"
+          },
+          {
+            "price": 8105.21,
+            "brt": "z2r#",
+            "rf": "z2r#",
+            "brf": 9502848,
+            "rt": 9502848,
+            "vendor": "expd",
+            "vendor_id_raw": "795238",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included",
+              "Free cancellation",
+              "Pay at the property"
+            ],
+            "jc_code": "EXPEDIA",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Go to the booking site for more details",
+            "rooms": [
+              {
+                "name": "Go to the booking site for more details",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included",
+              "refundable": "Free cancellation",
+              "pay_at_hotel": "Pay at the property"
+            },
+            "partner_name": "Expedia",
+            "partner_logo": "https://hotelscan.com/apis/vendors/expd/logo.svg?pos=zz"
+          },
+          {
+            "price": 8105.22,
+            "brt": "z2r#",
+            "rf": "z2r#",
+            "brf": 9502784,
+            "rt": 9502784,
+            "vendor": "expd",
+            "vendor_id_raw": "795238",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included",
+              "Free cancellation"
+            ],
+            "jc_code": "EXPEDIA",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Go to the booking site for more details",
+            "rooms": [
+              {
+                "name": "Go to the booking site for more details",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included",
+              "refundable": "Free cancellation"
+            },
+            "partner_name": "Expedia",
+            "partner_logo": "https://hotelscan.com/apis/vendors/expd/logo.svg?pos=zz"
+          }
+        ],
+        "descriptions_language": {
+          "general": {
+            "original_language": true,
+            "text": "At Six Senses Kanuhura, exceptional service and top-notch amenities create a memorable experience for guests. Complimentary internet access is available in the resort to ensure you stay connected during your visit.Arrange your trips to and from the airport using the resort's convenient transportation services booking. Continuously receive the support you require through front desk amenities such as concierge service, express check-in or check-out and safety deposit boxes.At the resort, their tours can even assist you in booking tickets and securing reservations for leisure activities and adventures.At the resort, utilize the convenient laundry service to maintain your preferred travel attire fresh, allowing you to pack lighter. Craving relaxation? In-room amenities such as 24-hour room service, room service and daily housekeeping allow you to maximize your time spent inside the room. For the health and well-being of all guests and staff, smoking is restricted exclusively to assigned zones.Accommodations come equipped with all the conveniences required for a restful night's slumber.A selection of rooms at Six Senses Kanuhura come furnished with air conditioning to cater to your needs and comfort. At Six Senses Kanuhura, each day commences with a scrumptious breakfast offered at no additional cost. All adore a delightful cup of coffee! An on-site coffee shop ensures you can relish a cup of authentic, freshly-brewed coffee every morning -- or whenever you desire it.Allow your journey to be free from the pangs of hunger! On-site eateries offer delicious and accessible meal choices. At Six Senses Kanuhura, catering to your unique requirements is our priority. Guests with particular dietary preferences can choose from an assortment of dishes, featuring kosher and halal choices among other options. An evening spent at resort's bar can offer as much enjoyment as venturing out with your fellow travelers.At Six Senses Kanuhura, guests can take pleasure in the delightful recreational amenities provided for their entertainment. At the resort, a wide range of enjoyable activities ensures that there's never a dull moment during your visit. Don't miss out on the easily reachable beach in the vicinity.Conclude your days in complete tranquility by paying a visit to massage and spa for ultimate relaxation.At Six Senses Kanuhura, a wide array of amenities guarantees a fulfilling experience throughout your visit. Make your holiday truly memorable by taking a rejuvenating plunge into the pool. At Six Senses Kanuhura, the poolside bar provides an excellent incentive to enjoy extended hours in your swimwear.At the resort fitness center, you have the option to engage in your daily exercise routine or simply alleviate your jet lag by breaking a sweat."
+          },
+          "direction": {
+            "original_language": true,
+            "text": "Located in Kanuhura, Six Senses Kanuhura is on the beach. The area's natural beauty can be seen at Hurawalhi Beach and Kanuhura Beach. With scuba diving, windsurfing, and swimming nearby, you'll find plenty of adventures in the water."
+          }
+        },
+        "chain_code": null,
+        "bids": {
+          "agda": "j23",
+          "expd": "j23"
+        },
+        "worst_offer": null,
+        "best_offer": 1102.06,
+        "best_offer_ota": "agda",
+        "best_offer_mota": null,
+        "discount": 0,
+        "offers_count": 42,
+        "coordinates": {
+          "lat": 5.533728,
+          "lng": 73.506035
+        },
+        "distance": 0.28,
+        "neighborhood": null,
+        "badge": null,
+        "distances": [
+          {
+            "from": "center",
+            "distance": 0.28,
+            "time": 389,
+            "means": "foot",
+            "means_type": "foot"
+          }
+        ],
+        "specs": {
+          "bathrooms": null,
+          "beds": null,
+          "bedrooms": null,
+          "guests": null,
+          "square_meters": null
+        },
+        "toa_label": "resort",
+        "top_amenities": [
+          "indoor_pool",
+          "outdoor_pool",
+          "wifi_room",
+          "internet",
+          "room_service"
+        ],
+        "transportations": {
+          "airports": [],
+          "trains": []
+        },
+        "images": [
+          {
+            "image_id": "680746063",
+            "label": ""
+          },
+          {
+            "image_id": "680746071",
+            "label": ""
+          },
+          {
+            "image_id": "680746070",
+            "label": ""
+          },
+          {
+            "image_id": "680746086",
+            "label": ""
+          },
+          {
+            "image_id": "680746099",
+            "label": ""
+          },
+          {
+            "image_id": "680746082",
+            "label": ""
+          },
+          {
+            "image_id": "680746078",
+            "label": ""
+          },
+          {
+            "image_id": "680746074",
+            "label": ""
+          },
+          {
+            "image_id": "680746077",
+            "label": ""
+          },
+          {
+            "image_id": "680746094",
+            "label": ""
+          },
+          {
+            "image_id": "680746101",
+            "label": ""
+          },
+          {
+            "image_id": "680746067",
+            "label": ""
+          },
+          {
+            "image_id": "680746080",
+            "label": ""
+          },
+          {
+            "image_id": "680746079",
+            "label": ""
+          },
+          {
+            "image_id": "680746073",
+            "label": ""
+          }
+        ],
+        "hero_offer": {
+          "price": 1102.06,
+          "brt": "o2r#",
+          "rf": "o2r#",
+          "brf": 9470016,
+          "rt": 9470016,
+          "vendor": "agda",
+          "vendor_id_raw": "46063435",
+          "mota_code": null,
+          "direct_offer": false,
+          "offer_flags": {
+            "breakfast": "Breakfast included"
+          },
+          "jc_code": "",
+          "ranking_index": 1,
+          "chain": "",
+          "free_cancellation": false,
+          "special": false,
+          "room_name": "Villa",
+          "rooms": [
+            {
+              "name": "Villa",
+              "flags": []
+            }
+          ],
+          "partner_name": "Agoda",
+          "partner_logo": "https://hotelscan.com/apis/vendors/agda/logo.svg?pos=zz"
+        },
+        "rank": 0,
+        "ctrl_srt": "im a ctrl teapot",
+        "test_srt": "im a test teapot"
+      }
+    ],
+    "filters": [],
+    "query": {
+      "pos": "zz"
+    }
+  }
+}

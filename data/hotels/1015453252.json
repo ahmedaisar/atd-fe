@@ -1,0 +1,937 @@
+{
+  "_meta": {
+    "status": "SUCCESS",
+    "cached": true,
+    "count": 1,
+    "debug": {
+      "ticket": {
+        "ticket_id": "1015453252_zz_zz_d_publ_en_2_2025-10-08_2025-10-13_1_3",
+        "created_at": 1758065394.9737,
+        "loop": null,
+        "snapped_at": 1758065395.0808,
+        "snapshot_id": "1015453252_zz_zz_d_publ_en_2_2025-10-08_2025-10-13_1_3",
+        "snapshot_ttl": 300,
+        "executions": 2,
+        "progress": 1,
+        "save_errors": []
+      }
+    }
+  },
+  "data": {
+    "meta": [],
+    "geo": {
+      "hs_id": "x50h049l077k",
+      "region_name": "Hanimaadhoo",
+      "region_name_long": "Hanimaadhoo, Maldives",
+      "region_type": "CITY",
+      "region_id": 6168041,
+      "country_iso": "MV",
+      "country": "maldives",
+      "localised_country": "Maldives",
+      "center": [
+        6.75274,
+        73.17329
+      ],
+      "centroid": [
+        6.75274,
+        73.17329
+      ],
+      "polygon": [
+        "6.78709,73.14114",
+        "6.78709,73.20543",
+        "6.71839,73.20543",
+        "6.71839,73.14114",
+        "6.78709,73.14114"
+      ],
+      "radius": 5.22,
+      "zoom": -1,
+      "search_by_polygon": 0,
+      "cluster": 0,
+      "properties": 16,
+      "radius_override": 5.22,
+      "boundingbox": {
+        "ne": [
+          6.788,
+          73.206
+        ],
+        "sw": [
+          6.718,
+          73.141
+        ]
+      },
+      "airports": [
+        "HAQ"
+      ],
+      "region_name_en": "Hanimaadhoo",
+      "region_name_long_en": "Hanimaadhoo, Maldives",
+      "referrer_city_name_en": "Hanimaadhoo",
+      "parent_region_id": 6051084,
+      "parent_hs_id": "x5p4hmhw6iot",
+      "parent_region_name": "Maldives (all)",
+      "parent_region_name_long": "Maldives (all)",
+      "dynamic_bbox": {
+        "ne": [
+          6.768,
+          73.176
+        ],
+        "sw": [
+          6.768,
+          73.176
+        ]
+      }
+    },
+    "records": [
+      {
+        "hs_id": 1015453252,
+        "slug": "himeyn-beach-inn-ocho-homes-by-eight-continents-hanimaadhoo-mv-1015453252",
+        "name": "Himeyn Beach Inn - Ocho Homes By Eight Continents",
+        "toa": "hotel",
+        "building": {
+          "room_num": 5,
+          "square_meters": 300,
+          "max_children": 1
+        },
+        "location": {
+          "city": "Hanimaadhoo",
+          "zip": "02020",
+          "country_iso2": "MV",
+          "address": "Q59g+7cx, Sosun Magu, Maldives",
+          "geoid": "x50h049l077k",
+          "loc": {
+            "type": "Point"
+          },
+          "coordinates": {
+            "lng": 73.17611,
+            "lat": 6.76824
+          }
+        },
+        "opening_time": {
+          "check_in_from": "13:00",
+          "check_in_to": "23:00",
+          "check_out_from": "10:00",
+          "check_out_to": "11:00"
+        },
+        "quality": {
+          "review_count": 5,
+          "review_rating": 80,
+          "stars": 3,
+          "stars_is_estimated": false,
+          "review_source": ""
+        },
+        "covid_safe": true,
+        "amenities": {
+          "sports": [
+            "bike_rent",
+            "sub"
+          ],
+          "internet": [
+            "wifi",
+            "internet"
+          ],
+          "transfer": [
+            "shuttle_service"
+          ],
+          "food_drink": [
+            "restaurant",
+            "room_service",
+            "bar",
+            "tea_coffee_maker",
+            "snack_bar"
+          ],
+          "parking": [
+            "parking"
+          ],
+          "outdoor": [
+            "garden"
+          ],
+          "other": [],
+          "room": [
+            "fan",
+            "air_conditioning",
+            "tv"
+          ],
+          "reception": [
+            "24h_reception",
+            "luggage_storage",
+            "concierge",
+            "laundry_facilities",
+            "laundry_service",
+            "safety_deposit_box"
+          ]
+        },
+        "descriptions": {
+          "direction": "Located in Hanimaadhoo, Himeyn Beach Inn Ocho Homes is on the beach. Local points of interest include Maldives Climate Observatory, Baarah Dock, and Utheemu Palace. Take an opportunity to explore the area for water adventures such as fishing.",
+          "general": "Facilities and services include air conditioning, babysitting services (extra charge), bar (extra charge), business services (extra charge), café (extra charge), car parking (extra charge), children's play area (extra charge), children's pool (extra charge), concierge facilities, conference facilities (extra charge), currency exchange (extra charge), elevators, garden, gym/fitness facilities, ironing facilities (extra charge), laundry facilities (extra charge), lounge, Multilingual staff, Pets allowed on request (extra charge), pool bar (extra charge), restaurant (extra charge), safety deposit box, sauna (extra charge), shuttle services (extra charge), spa facilities (extra charge), swimming pool (extra charge), wheelchair access (extra charge), and Wi-Fi access (extra charge).",
+          "amenities": true,
+          "localized": "Facilities and services include air conditioning, babysitting services (extra charge), bar (extra charge), business services (extra charge), café (extra charge), car parking (extra charge), children's play area (extra charge), children's pool (extra charge), concierge facilities, conference facilities (extra charge), currency exchange (extra charge), elevators, garden, gym/fitness facilities, ironing facilities (extra charge), laundry facilities (extra charge), lounge, Multilingual staff, Pets allowed on request (extra charge), pool bar (extra charge), restaurant (extra charge), safety deposit box, sauna (extra charge), shuttle services (extra charge), spa facilities (extra charge), swimming pool (extra charge), wheelchair access (extra charge), and Wi-Fi access (extra charge)."
+        },
+        "short_description": "Casual hotel with parking, restaurant and bar",
+        "offers": [
+          {
+            "price": 59.43,
+            "brt": "p2d#",
+            "rf": "p2d#",
+            "brf": 9502784,
+            "rt": 9502784,
+            "vendor": "htls",
+            "vendor_id_raw": "3512413312",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included",
+              "Free cancellation"
+            ],
+            "jc_code": "",
+            "ranking_index": 1,
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Deluxe room",
+            "rooms": [
+              {
+                "name": "Deluxe room",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included",
+              "refundable": "Free cancellation"
+            },
+            "partner_name": "Hotels.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/htls/logo.svg?pos=zz"
+          },
+          {
+            "vendor": "bkng",
+            "price": 93.37,
+            "vendor_id_raw": "12534602",
+            "mota_code": null,
+            "jc_code": "",
+            "partner_name": "Booking.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/bkng/logo.svg?pos=zz",
+            "room_name": "Deluxe room",
+            "brf": 12124288,
+            "brt": "p2d#"
+          },
+          {
+            "vendor": "agda",
+            "price": 92.52,
+            "vendor_id_raw": "59855439",
+            "mota_code": null,
+            "jc_code": "",
+            "partner_name": "Agoda",
+            "partner_logo": "https://hotelscan.com/apis/vendors/agda/logo.svg?pos=zz",
+            "room_name": "Deluxe room",
+            "brf": 9502848,
+            "brt": "p2d#"
+          },
+          {
+            "vendor": "expd",
+            "price": 59.43,
+            "vendor_id_raw": "109731666",
+            "mota_code": null,
+            "jc_code": "EXPEDIA",
+            "partner_name": "Expedia",
+            "partner_logo": "https://hotelscan.com/apis/vendors/expd/logo.svg?pos=zz",
+            "room_name": "Deluxe room",
+            "brf": 9502784,
+            "brt": "p2d#"
+          }
+        ],
+        "all_offers": [
+          {
+            "price": 59.43,
+            "brt": "p2d#",
+            "rf": "p2d#",
+            "brf": 9502784,
+            "rt": 9502784,
+            "vendor": "htls",
+            "vendor_id_raw": "3512413312",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included",
+              "Free cancellation"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Deluxe room",
+            "rooms": [
+              {
+                "name": "Deluxe room",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included",
+              "refundable": "Free cancellation"
+            },
+            "partner_name": "Hotels.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/htls/logo.svg?pos=zz"
+          },
+          {
+            "price": 59.43,
+            "brt": "p2d#",
+            "rf": "p2d#",
+            "brf": 9502784,
+            "rt": 9502784,
+            "vendor": "expd",
+            "vendor_id_raw": "109731666",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included",
+              "Free cancellation"
+            ],
+            "jc_code": "EXPEDIA",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Deluxe room",
+            "rooms": [
+              {
+                "name": "Deluxe room",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included",
+              "refundable": "Free cancellation"
+            },
+            "partner_name": "Expedia",
+            "partner_logo": "https://hotelscan.com/apis/vendors/expd/logo.svg?pos=zz"
+          },
+          {
+            "price": 59.44,
+            "brt": "p2d#",
+            "rf": "p2d#",
+            "brf": 9502848,
+            "rt": 9502848,
+            "vendor": "htls",
+            "vendor_id_raw": "3512413312",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included",
+              "Free cancellation",
+              "Pay at the property"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Deluxe room",
+            "rooms": [
+              {
+                "name": "Deluxe room",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included",
+              "refundable": "Free cancellation",
+              "pay_at_hotel": "Pay at the property"
+            },
+            "partner_name": "Hotels.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/htls/logo.svg?pos=zz"
+          },
+          {
+            "price": 59.44,
+            "brt": "p2d#",
+            "rf": "p2d#",
+            "brf": 9502848,
+            "rt": 9502848,
+            "vendor": "expd",
+            "vendor_id_raw": "109731666",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included",
+              "Free cancellation",
+              "Pay at the property"
+            ],
+            "jc_code": "EXPEDIA",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Deluxe room",
+            "rooms": [
+              {
+                "name": "Deluxe room",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included",
+              "refundable": "Free cancellation",
+              "pay_at_hotel": "Pay at the property"
+            },
+            "partner_name": "Expedia",
+            "partner_logo": "https://hotelscan.com/apis/vendors/expd/logo.svg?pos=zz"
+          },
+          {
+            "price": 79.13,
+            "brt": "p2d#",
+            "rf": "p2d#",
+            "brf": 9502848,
+            "rt": 9502848,
+            "vendor": "htls",
+            "vendor_id_raw": "3512413312",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included",
+              "Free cancellation",
+              "Pay at the property"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Deluxe room",
+            "rooms": [
+              {
+                "name": "Deluxe room",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included",
+              "refundable": "Free cancellation",
+              "pay_at_hotel": "Pay at the property"
+            },
+            "partner_name": "Hotels.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/htls/logo.svg?pos=zz"
+          },
+          {
+            "price": 79.13,
+            "brt": "p2d#",
+            "rf": "p2d#",
+            "brf": 9502848,
+            "rt": 9502848,
+            "vendor": "expd",
+            "vendor_id_raw": "109731666",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included",
+              "Free cancellation",
+              "Pay at the property"
+            ],
+            "jc_code": "EXPEDIA",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Deluxe room",
+            "rooms": [
+              {
+                "name": "Deluxe room",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included",
+              "refundable": "Free cancellation",
+              "pay_at_hotel": "Pay at the property"
+            },
+            "partner_name": "Expedia",
+            "partner_logo": "https://hotelscan.com/apis/vendors/expd/logo.svg?pos=zz"
+          },
+          {
+            "price": 92.52,
+            "brt": "p2d#",
+            "rf": "p2d#",
+            "brf": 9502848,
+            "rt": 9502848,
+            "vendor": "agda",
+            "vendor_id_raw": "59855439",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included",
+              "Free cancellation",
+              "Pay at the property"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Deluxe room",
+            "rooms": [
+              {
+                "name": "Deluxe room",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included",
+              "refundable": "Free cancellation",
+              "pay_at_hotel": "Pay at the property"
+            },
+            "partner_name": "Agoda",
+            "partner_logo": "https://hotelscan.com/apis/vendors/agda/logo.svg?pos=zz"
+          },
+          {
+            "price": 93.37,
+            "brt": "p2d#",
+            "rf": "p2d#",
+            "brf": 12124288,
+            "rt": 12124288,
+            "vendor": "bkng",
+            "vendor_id_raw": "12534602",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast and dinner",
+              "Free cancellation",
+              "Pay at the property"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Deluxe room",
+            "rooms": [
+              {
+                "name": "Deluxe room",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "half_board_dinner": "Breakfast and dinner",
+              "refundable": "Free cancellation",
+              "pay_at_hotel": "Pay at the property"
+            },
+            "partner_name": "Booking.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/bkng/logo.svg?pos=zz"
+          },
+          {
+            "price": 93.9,
+            "brt": "p2d#",
+            "rf": "p2d#",
+            "brf": 9502848,
+            "rt": 9502848,
+            "vendor": "htls",
+            "vendor_id_raw": "3512413312",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included",
+              "Free cancellation",
+              "Pay at the property"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Deluxe room",
+            "rooms": [
+              {
+                "name": "Deluxe room",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included",
+              "refundable": "Free cancellation",
+              "pay_at_hotel": "Pay at the property"
+            },
+            "partner_name": "Hotels.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/htls/logo.svg?pos=zz"
+          },
+          {
+            "price": 93.9,
+            "brt": "p2d#",
+            "rf": "p2d#",
+            "brf": 9502848,
+            "rt": 9502848,
+            "vendor": "expd",
+            "vendor_id_raw": "109731666",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included",
+              "Free cancellation",
+              "Pay at the property"
+            ],
+            "jc_code": "EXPEDIA",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Deluxe room",
+            "rooms": [
+              {
+                "name": "Deluxe room",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included",
+              "refundable": "Free cancellation",
+              "pay_at_hotel": "Pay at the property"
+            },
+            "partner_name": "Expedia",
+            "partner_logo": "https://hotelscan.com/apis/vendors/expd/logo.svg?pos=zz"
+          },
+          {
+            "price": 93.91,
+            "brt": "p2d#",
+            "rf": "p2d#",
+            "brf": 9502784,
+            "rt": 9502784,
+            "vendor": "htls",
+            "vendor_id_raw": "3512413312",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included",
+              "Free cancellation"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Deluxe room",
+            "rooms": [
+              {
+                "name": "Deluxe room",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included",
+              "refundable": "Free cancellation"
+            },
+            "partner_name": "Hotels.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/htls/logo.svg?pos=zz"
+          },
+          {
+            "price": 93.91,
+            "brt": "p2d#",
+            "rf": "p2d#",
+            "brf": 9502784,
+            "rt": 9502784,
+            "vendor": "expd",
+            "vendor_id_raw": "109731666",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included",
+              "Free cancellation"
+            ],
+            "jc_code": "EXPEDIA",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Deluxe room",
+            "rooms": [
+              {
+                "name": "Deluxe room",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included",
+              "refundable": "Free cancellation"
+            },
+            "partner_name": "Expedia",
+            "partner_logo": "https://hotelscan.com/apis/vendors/expd/logo.svg?pos=zz"
+          },
+          {
+            "price": 110.19,
+            "brt": "p2d#",
+            "rf": "p2d#",
+            "brf": 9502848,
+            "rt": 9502848,
+            "vendor": "agda",
+            "vendor_id_raw": "59855439",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included",
+              "Free cancellation",
+              "Pay at the property"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Deluxe room",
+            "rooms": [
+              {
+                "name": "Deluxe room",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included",
+              "refundable": "Free cancellation",
+              "pay_at_hotel": "Pay at the property"
+            },
+            "partner_name": "Agoda",
+            "partner_logo": "https://hotelscan.com/apis/vendors/agda/logo.svg?pos=zz"
+          },
+          {
+            "price": 111.19,
+            "brt": "p2d#",
+            "rf": "p2d#",
+            "brf": 10027136,
+            "rt": 10027136,
+            "vendor": "bkng",
+            "vendor_id_raw": "12534602",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Full board",
+              "Free cancellation",
+              "Pay at the property"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Deluxe room",
+            "rooms": [
+              {
+                "name": "Deluxe room",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "full_board": "Full board",
+              "refundable": "Free cancellation",
+              "pay_at_hotel": "Pay at the property"
+            },
+            "partner_name": "Booking.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/bkng/logo.svg?pos=zz"
+          },
+          {
+            "price": 111.19,
+            "brt": "p2d#",
+            "rf": "p2d#",
+            "brf": 12124288,
+            "rt": 12124288,
+            "vendor": "bkng",
+            "vendor_id_raw": "12534602",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast and dinner",
+              "Free cancellation",
+              "Pay at the property"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Deluxe room",
+            "rooms": [
+              {
+                "name": "Deluxe room",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "half_board_dinner": "Breakfast and dinner",
+              "refundable": "Free cancellation",
+              "pay_at_hotel": "Pay at the property"
+            },
+            "partner_name": "Booking.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/bkng/logo.svg?pos=zz"
+          },
+          {
+            "price": 134.95,
+            "brt": "p2d#",
+            "rf": "p2d#",
+            "brf": 10027136,
+            "rt": 10027136,
+            "vendor": "bkng",
+            "vendor_id_raw": "12534602",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Full board",
+              "Free cancellation",
+              "Pay at the property"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Deluxe room",
+            "rooms": [
+              {
+                "name": "Deluxe room",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "full_board": "Full board",
+              "refundable": "Free cancellation",
+              "pay_at_hotel": "Pay at the property"
+            },
+            "partner_name": "Booking.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/bkng/logo.svg?pos=zz"
+          }
+        ],
+        "descriptions_language": {
+          "general": {
+            "original_language": true,
+            "text": "Facilities and services include air conditioning, babysitting services (extra charge), bar (extra charge), business services (extra charge), café (extra charge), car parking (extra charge), children's play area (extra charge), children's pool (extra charge), concierge facilities, conference facilities (extra charge), currency exchange (extra charge), elevators, garden, gym/fitness facilities, ironing facilities (extra charge), laundry facilities (extra charge), lounge, Multilingual staff, Pets allowed on request (extra charge), pool bar (extra charge), restaurant (extra charge), safety deposit box, sauna (extra charge), shuttle services (extra charge), spa facilities (extra charge), swimming pool (extra charge), wheelchair access (extra charge), and Wi-Fi access (extra charge)."
+          },
+          "direction": {
+            "original_language": true,
+            "text": "Located in Hanimaadhoo, Himeyn Beach Inn Ocho Homes is on the beach. Local points of interest include Maldives Climate Observatory, Baarah Dock, and Utheemu Palace. Take an opportunity to explore the area for water adventures such as fishing."
+          }
+        },
+        "chain_code": null,
+        "bids": {
+          "expd": "j23",
+          "htls": "j23",
+          "bkng": "j23",
+          "agda": "j23"
+        },
+        "worst_offer": 93.37,
+        "best_offer": 59.43,
+        "best_offer_ota": "htls",
+        "best_offer_mota": null,
+        "discount": 35,
+        "offers_count": 16,
+        "coordinates": {
+          "lat": 6.76824,
+          "lng": 73.17611
+        },
+        "distance": 1.75,
+        "neighborhood": null,
+        "badge": null,
+        "distances": [
+          {
+            "from": "center",
+            "distance": 1.75,
+            "time": 210,
+            "means": "car",
+            "means_type": "car"
+          }
+        ],
+        "specs": {
+          "bathrooms": 1,
+          "beds": null,
+          "bedrooms": 1,
+          "guests": 3,
+          "square_meters": 300
+        },
+        "toa_label": "hotel",
+        "top_amenities": [
+          "internet",
+          "restaurant",
+          "room_service",
+          "bar",
+          "tea_coffee_maker"
+        ],
+        "transportations": {
+          "airports": [],
+          "trains": []
+        },
+        "images": [
+          {
+            "image_id": "671269949",
+            "label": ""
+          },
+          {
+            "image_id": "671269958",
+            "label": ""
+          },
+          {
+            "image_id": "671269955",
+            "label": ""
+          },
+          {
+            "image_id": "671269959",
+            "label": ""
+          },
+          {
+            "image_id": "671269953",
+            "label": ""
+          },
+          {
+            "image_id": "671269977",
+            "label": ""
+          },
+          {
+            "image_id": "671269945",
+            "label": ""
+          },
+          {
+            "image_id": "671269946",
+            "label": ""
+          },
+          {
+            "image_id": "671269954",
+            "label": ""
+          },
+          {
+            "image_id": "671269947",
+            "label": ""
+          },
+          {
+            "image_id": "671269956",
+            "label": ""
+          },
+          {
+            "image_id": "671269950",
+            "label": ""
+          },
+          {
+            "image_id": "671269969",
+            "label": ""
+          },
+          {
+            "image_id": "671269957",
+            "label": ""
+          },
+          {
+            "image_id": "671269944",
+            "label": ""
+          }
+        ],
+        "hero_offer": {
+          "price": 59.43,
+          "brt": "p2d#",
+          "rf": "p2d#",
+          "brf": 9502784,
+          "rt": 9502784,
+          "vendor": "htls",
+          "vendor_id_raw": "3512413312",
+          "mota_code": null,
+          "direct_offer": false,
+          "offer_flags": {
+            "breakfast": "Breakfast included",
+            "refundable": "Free cancellation"
+          },
+          "jc_code": "",
+          "ranking_index": 1,
+          "chain": "",
+          "free_cancellation": true,
+          "special": false,
+          "room_name": "Deluxe room",
+          "rooms": [
+            {
+              "name": "Deluxe room",
+              "flags": []
+            }
+          ],
+          "partner_name": "Hotels.com",
+          "partner_logo": "https://hotelscan.com/apis/vendors/htls/logo.svg?pos=zz"
+        },
+        "rank": 0,
+        "ctrl_srt": "im a ctrl teapot",
+        "test_srt": "im a test teapot"
+      }
+    ],
+    "filters": [],
+    "query": {
+      "pos": "zz"
+    }
+  }
+}

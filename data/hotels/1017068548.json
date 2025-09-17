@@ -1,0 +1,542 @@
+{
+  "_meta": {
+    "status": "SUCCESS",
+    "cached": true,
+    "count": 1,
+    "debug": {
+      "ticket": {
+        "ticket_id": "1017068548_zz_zz_d_publ_en_2_2025-10-08_2025-10-13_1_3",
+        "created_at": 1758065398.6422,
+        "loop": null,
+        "snapped_at": 1758065398.7109,
+        "snapshot_id": "1017068548_zz_zz_d_publ_en_2_2025-10-08_2025-10-13_1_3",
+        "snapshot_ttl": 300,
+        "executions": 2,
+        "progress": 1,
+        "save_errors": []
+      }
+    }
+  },
+  "data": {
+    "meta": [],
+    "geo": {
+      "hs_id": "ph2n2qvkliubucbb7t",
+      "region_name": "Hithadhoo",
+      "region_name_long": "Hithadhoo, Maldives",
+      "region_type": "CITY",
+      "region_id": 553248625331852100,
+      "country_iso": "MV",
+      "country": "maldives",
+      "localised_country": "Maldives",
+      "center": [
+        -0.60826,
+        73.09381
+      ],
+      "centroid": [
+        -0.60999,
+        73.09224
+      ],
+      "polygon": [
+        "-0.585183,73.067352",
+        "-0.642172,73.095505",
+        "-0.634791,73.117134",
+        "-0.606468,73.109749",
+        "-0.575228,73.092583",
+        "-0.585183,73.067352"
+      ],
+      "radius": 3.91,
+      "zoom": -1,
+      "search_by_polygon": 0,
+      "cluster": 0,
+      "properties": 20,
+      "radius_override": 5,
+      "boundingbox": {
+        "ne": [
+          -0.576,
+          73.118
+        ],
+        "sw": [
+          -0.642,
+          73.067
+        ]
+      },
+      "airports": [
+        "GAN"
+      ],
+      "region_name_en": "Hithadhoo",
+      "region_name_long_en": "Hithadhoo, Maldives",
+      "referrer_city_name_en": "Hithadhoo",
+      "parent_region_id": 109,
+      "parent_hs_id": "xmmmamtksdxx",
+      "parent_region_name": "Maldives",
+      "parent_region_name_long": "Maldives",
+      "dynamic_bbox": {
+        "ne": [
+          -0.593,
+          73.078
+        ],
+        "sw": [
+          -0.593,
+          73.078
+        ]
+      }
+    },
+    "records": [
+      {
+        "hs_id": 1017068548,
+        "slug": "dhooni-hithadhoo-mv-1017068548",
+        "name": "Dhooni",
+        "toa": "apartment",
+        "location": {
+          "city": "Hithadhoo",
+          "zip": "19020",
+          "country_iso2": "MV",
+          "address": "Dhooni Homes",
+          "geoid": "ph2n2qvkliubucbb7t",
+          "loc": {
+            "type": "Point"
+          },
+          "coordinates": {
+            "lng": 73.07862,
+            "lat": -0.59285
+          }
+        },
+        "opening_time": {
+          "check_in_from": "14:00",
+          "check_in_to": "18:00",
+          "check_out_from": "12:00",
+          "check_out_to": "12:00"
+        },
+        "quality": {
+          "review_count": 1,
+          "review_rating": 90,
+          "stars": 0,
+          "stars_is_estimated": false,
+          "review_source": ""
+        },
+        "covid_safe": false,
+        "amenities": {
+          "transfer": [
+            "shuttle_service"
+          ],
+          "outdoor": [
+            "garden"
+          ],
+          "room": [
+            "air_conditioning",
+            "tv"
+          ],
+          "reception": [
+            "laundry_service"
+          ]
+        },
+        "descriptions": {
+          "general": "Located in Hithadhoo, Dhooni features accommodation with air conditioning and access to a garden. There is a private entrance at the apartment for the convenience of those who stay. The accommodation provides airport transfers, while a car rental service is also available.",
+          "other": "This property will not accommodate hen, stag or similar parties.",
+          "localized": "Located in Hithadhoo, Dhooni features accommodation with air conditioning and access to a garden. There is a private entrance at the apartment for the convenience of those who stay. The accommodation provides airport transfers, while a car rental service is also available."
+        },
+        "short_description": "Apartment with shuttle service",
+        "offers": [
+          {
+            "price": 48.2,
+            "brt": "m2c#",
+            "rf": "m2c#",
+            "brf": 8454272,
+            "rt": 8454272,
+            "vendor": "bkng",
+            "vendor_id_raw": "13823363",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Free cancellation",
+              "Pay at the property"
+            ],
+            "jc_code": "",
+            "ranking_index": 0.9963485477178423,
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Superior studio",
+            "rooms": [
+              {
+                "name": "Superior studio",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "refundable": "Free cancellation",
+              "pay_at_hotel": "Pay at the property"
+            },
+            "partner_name": "Booking.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/bkng/logo.svg?pos=zz"
+          },
+          {
+            "vendor": "agda",
+            "price": 47.76,
+            "vendor_id_raw": "68415542",
+            "mota_code": null,
+            "jc_code": "",
+            "partner_name": "Agoda",
+            "partner_logo": "https://hotelscan.com/apis/vendors/agda/logo.svg?pos=zz",
+            "room_name": "Superior studio",
+            "brf": 8454208,
+            "brt": "m2c#"
+          }
+        ],
+        "all_offers": [
+          {
+            "price": 47.76,
+            "brt": "m2c#",
+            "rf": "m2c#",
+            "brf": 8454208,
+            "rt": 8454208,
+            "vendor": "agda",
+            "vendor_id_raw": "68415542",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Free cancellation"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Superior studio",
+            "rooms": [
+              {
+                "name": "Superior studio",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "refundable": "Free cancellation"
+            },
+            "partner_name": "Agoda",
+            "partner_logo": "https://hotelscan.com/apis/vendors/agda/logo.svg?pos=zz"
+          },
+          {
+            "price": 48.16,
+            "brt": "m2c#",
+            "rf": "m2c#",
+            "brf": 9470016,
+            "rt": 9470016,
+            "vendor": "agda",
+            "vendor_id_raw": "68415542",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": false,
+            "special": false,
+            "room_name": "Superior studio",
+            "rooms": [
+              {
+                "name": "Superior studio",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included"
+            },
+            "partner_name": "Agoda",
+            "partner_logo": "https://hotelscan.com/apis/vendors/agda/logo.svg?pos=zz"
+          },
+          {
+            "price": 48.2,
+            "brt": "m2c#",
+            "rf": "m2c#",
+            "brf": 8454272,
+            "rt": 8454272,
+            "vendor": "bkng",
+            "vendor_id_raw": "13823363",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Free cancellation",
+              "Pay at the property"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Superior studio",
+            "rooms": [
+              {
+                "name": "Superior studio",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "refundable": "Free cancellation",
+              "pay_at_hotel": "Pay at the property"
+            },
+            "partner_name": "Booking.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/bkng/logo.svg?pos=zz"
+          },
+          {
+            "price": 48.61,
+            "brt": "m2c#",
+            "rf": "m2c#",
+            "brf": 9470016,
+            "rt": 9470016,
+            "vendor": "bkng",
+            "vendor_id_raw": "13823363",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": false,
+            "special": false,
+            "room_name": "Superior studio",
+            "rooms": [
+              {
+                "name": "Superior studio",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included"
+            },
+            "partner_name": "Booking.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/bkng/logo.svg?pos=zz"
+          },
+          {
+            "price": 53.5,
+            "brt": "m2c#",
+            "rf": "m2c#",
+            "brf": 9502784,
+            "rt": 9502784,
+            "vendor": "agda",
+            "vendor_id_raw": "68415542",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included",
+              "Free cancellation"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Superior studio",
+            "rooms": [
+              {
+                "name": "Superior studio",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included",
+              "refundable": "Free cancellation"
+            },
+            "partner_name": "Agoda",
+            "partner_logo": "https://hotelscan.com/apis/vendors/agda/logo.svg?pos=zz"
+          },
+          {
+            "price": 54.01,
+            "brt": "m2c#",
+            "rf": "m2c#",
+            "brf": 9502784,
+            "rt": 9502784,
+            "vendor": "bkng",
+            "vendor_id_raw": "13823363",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included",
+              "Free cancellation"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Superior studio",
+            "rooms": [
+              {
+                "name": "Superior studio",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included",
+              "refundable": "Free cancellation"
+            },
+            "partner_name": "Booking.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/bkng/logo.svg?pos=zz"
+          },
+          {
+            "price": 108.01,
+            "brt": "f2r#",
+            "rf": "f2r#",
+            "brf": 8454208,
+            "rt": 8454208,
+            "vendor": "bkng",
+            "vendor_id_raw": "14176489",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Free cancellation"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Standard apartment",
+            "rooms": [
+              {
+                "name": "Standard apartment",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "refundable": "Free cancellation"
+            },
+            "partner_name": "Booking.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/bkng/logo.svg?pos=zz"
+          }
+        ],
+        "descriptions_language": {
+          "general": {
+            "original_language": true,
+            "text": "Located in Hithadhoo, Dhooni features accommodation with air conditioning and access to a garden. There is a private entrance at the apartment for the convenience of those who stay. The accommodation provides airport transfers, while a car rental service is also available."
+          },
+          "other": {
+            "original_language": true,
+            "text": "This property will not accommodate hen, stag or similar parties."
+          }
+        },
+        "chain_code": null,
+        "bids": {
+          "bkng": "j23",
+          "agda": "j23"
+        },
+        "worst_offer": null,
+        "best_offer": 47.76,
+        "best_offer_ota": "agda",
+        "best_offer_mota": null,
+        "discount": 0,
+        "offers_count": 7,
+        "coordinates": {
+          "lat": -0.59285,
+          "lng": 73.07862
+        },
+        "distance": 2.41,
+        "neighborhood": null,
+        "badge": null,
+        "distances": [
+          {
+            "from": "center",
+            "distance": 2.41,
+            "time": 289,
+            "means": "car",
+            "means_type": "car"
+          }
+        ],
+        "specs": {
+          "bathrooms": null,
+          "beds": null,
+          "bedrooms": null,
+          "guests": null,
+          "square_meters": null
+        },
+        "toa_label": "apartment",
+        "top_amenities": [
+          "air_conditioning",
+          "tv"
+        ],
+        "transportations": {
+          "airports": [],
+          "trains": []
+        },
+        "images": [
+          {
+            "image_id": "765251662",
+            "label": ""
+          },
+          {
+            "image_id": "765251670",
+            "label": ""
+          },
+          {
+            "image_id": "765251665",
+            "label": ""
+          },
+          {
+            "image_id": "765251667",
+            "label": ""
+          },
+          {
+            "image_id": "765251668",
+            "label": ""
+          },
+          {
+            "image_id": "765251666",
+            "label": ""
+          },
+          {
+            "image_id": "765251663",
+            "label": ""
+          },
+          {
+            "image_id": "765251669",
+            "label": ""
+          },
+          {
+            "image_id": "765251664",
+            "label": ""
+          },
+          {
+            "image_id": "765251673",
+            "label": ""
+          },
+          {
+            "image_id": "765251672",
+            "label": ""
+          }
+        ],
+        "hero_offer": {
+          "price": 48.2,
+          "brt": "m2c#",
+          "rf": "m2c#",
+          "brf": 8454272,
+          "rt": 8454272,
+          "vendor": "bkng",
+          "vendor_id_raw": "13823363",
+          "mota_code": null,
+          "direct_offer": false,
+          "offer_flags": {
+            "refundable": "Free cancellation",
+            "pay_at_hotel": "Pay at the property"
+          },
+          "jc_code": "",
+          "ranking_index": 0.9963485477178423,
+          "chain": "",
+          "free_cancellation": true,
+          "special": false,
+          "room_name": "Superior studio",
+          "rooms": [
+            {
+              "name": "Superior studio",
+              "flags": []
+            }
+          ],
+          "partner_name": "Booking.com",
+          "partner_logo": "https://hotelscan.com/apis/vendors/bkng/logo.svg?pos=zz"
+        },
+        "rank": 0,
+        "ctrl_srt": "im a ctrl teapot",
+        "test_srt": "im a test teapot"
+      }
+    ],
+    "filters": [],
+    "query": {
+      "pos": "zz"
+    }
+  }
+}

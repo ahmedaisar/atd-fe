@@ -1,0 +1,925 @@
+{
+  "_meta": {
+    "status": "SUCCESS",
+    "cached": true,
+    "count": 1,
+    "debug": {
+      "ticket": {
+        "ticket_id": "1007814133_zz_zz_d_publ_en_2_2025-10-08_2025-10-13_1_3",
+        "created_at": 1758065378.3914,
+        "loop": null,
+        "snapped_at": 1758065378.4829,
+        "snapshot_id": "1007814133_zz_zz_d_publ_en_2_2025-10-08_2025-10-13_1_3",
+        "snapshot_ttl": 300,
+        "executions": 2,
+        "progress": 1,
+        "save_errors": []
+      }
+    }
+  },
+  "data": {
+    "meta": [],
+    "geo": {
+      "hs_id": "xk930t488z57",
+      "region_name": "Furaveri",
+      "region_name_long": "Furaveri, Maldives",
+      "region_type": "CITY",
+      "region_id": 6351132,
+      "country_iso": "MV",
+      "country": "maldives",
+      "localised_country": "Maldives",
+      "center": [
+        5.43988,
+        72.90791
+      ],
+      "centroid": [
+        5.43998,
+        72.90787
+      ],
+      "polygon": [
+        "5.444467,72.90106",
+        "5.435288,72.901196",
+        "5.435614,72.914754",
+        "5.44444,72.914208",
+        "5.444467,72.90106"
+      ],
+      "radius": 0.91,
+      "zoom": -1,
+      "search_by_polygon": 0,
+      "cluster": 0,
+      "properties": 4,
+      "radius_override": 5,
+      "boundingbox": {
+        "ne": [
+          5.445,
+          72.915
+        ],
+        "sw": [
+          5.435,
+          72.901
+        ]
+      },
+      "airports": [
+        "MLE",
+        "HAQ",
+        "DRV"
+      ],
+      "region_name_en": "Furaveri",
+      "region_name_long_en": "Furaveri, Maldives",
+      "referrer_city_name_en": "Furaveri",
+      "parent_region_id": 6051084,
+      "parent_hs_id": "x5p4hmhw6iot",
+      "parent_region_name": "Maldives (all)",
+      "parent_region_name_long": "Maldives (all)",
+      "dynamic_bbox": {
+        "ne": [
+          5.439,
+          72.908
+        ],
+        "sw": [
+          5.439,
+          72.908
+        ]
+      }
+    },
+    "records": [
+      {
+        "hs_id": 1007814133,
+        "slug": "furaveri-maldives-complimentary-round-trip-seaplane-transfer-for-two-for-a-minimum-of-5-nights-or-more-from-may-1st-to-october-31st-2025-furaveri-mv-1007814133",
+        "name": "Furaveri Maldives - Complimentary Round-trip Seaplane Transfer For Two For A Minimum Of 5 Nights Or More From May 1st To October 31st, 2025",
+        "ty_id": "21261f69-2bfd-483d-8bad-20d6c0b267a6",
+        "toa": "resort",
+        "location": {
+          "city": "Furaveri",
+          "zip": "20012",
+          "country_iso2": "MV",
+          "address": "Furaveri Island Resort & Spa",
+          "geoid": "xk930t488z57",
+          "loc": {
+            "type": "Point"
+          },
+          "coordinates": {
+            "lng": 72.90865,
+            "lat": 5.43978
+          }
+        },
+        "opening_time": {
+          "check_in_from": "14:00",
+          "check_in_to": "00:00",
+          "check_out_from": "05:00",
+          "check_out_to": "12:00"
+        },
+        "quality": {
+          "review_count": 1223,
+          "review_rating": 93,
+          "stars": 5,
+          "stars_is_estimated": false,
+          "review_source": ""
+        },
+        "covid_safe": true,
+        "amenities": {
+          "wellness": [
+            "indoor_pool",
+            "massage",
+            "solarium",
+            "jacuzzi",
+            "fitness_center",
+            "hair_salon",
+            "sauna",
+            "spa",
+            "outdoor_pool",
+            "turkish_bath"
+          ],
+          "sports": [
+            "billiard",
+            "badminton",
+            "yoga",
+            "bike_rent",
+            "ping_pong",
+            "tennis",
+            "sub",
+            "surf"
+          ],
+          "internet": [
+            "wifi",
+            "internet"
+          ],
+          "food_drink": [
+            "restaurant",
+            "room_service",
+            "poolside_bar",
+            "cafe",
+            "bar",
+            "tea_coffee_maker",
+            "snack_bar"
+          ],
+          "outdoor": [
+            "garden",
+            "terrace"
+          ],
+          "other": [],
+          "business": [
+            "meeting_room",
+            "business_services"
+          ],
+          "children": [
+            "babysitter",
+            "children_playground"
+          ],
+          "entertainment": [
+            "tv_lobby",
+            "disco"
+          ],
+          "transfer": [
+            "shuttle_service"
+          ],
+          "room": [
+            "air_conditioning",
+            "tv"
+          ],
+          "reception": [
+            "24h_reception",
+            "luggage_storage",
+            "concierge",
+            "laundry_facilities",
+            "laundry_service",
+            "safety_deposit_box"
+          ]
+        },
+        "themes": [
+          "spa_relax",
+          "family",
+          "other"
+        ],
+        "descriptions": {
+          "general": "At Furaveri Maldives - FREE RETURN TRANSFER for 2 for stays of min 5 nights from 01 May to 31 Oct 2025, exceptional service and top-notch amenities create a memorable experience for guests.Complimentary internet access is available in the resort to ensure you stay connected during your visit.Arrange your trips to and from the airport using the resort's convenient transportation services booking.Amenities at shuttle offered by Furaveri Maldives - FREE RETURN TRANSFER for 2 for stays of min 5 nights from 01 May to 31 Oct 2025 simplify the organization of your excursions, tourist activities, and other adventures in Maldive Islands. Continuously receive the support you require through front desk amenities such as concierge service, express check-in or check-out, luggage storage and safety deposit boxes.At the resort, their tours can even assist you in booking tickets and securing reservations for leisure activities and adventures.Chilly nights become more delightful than balmy ones, as you snuggle near the resort's inviting hearth.Always look your best in your preferred attire with the laundromat and laundry service provided at Furaveri Maldives - FREE RETURN TRANSFER for 2 for stays of min 5 nights from 01 May to 31 Oct 2025. Craving relaxation? In-room amenities such as room service and daily housekeeping allow you to maximize your time spent inside the room. For the health and well-being of all guests and staff, smoking is restricted exclusively to assigned zones. Accommodations come equipped with all the conveniences required for a restful night's slumber. A selection of rooms feature linen service, blackout curtains and air conditioning to ensure your comfort and convenience. A few accommodations at Furaveri Maldives - FREE RETURN TRANSFER for 2 for stays of min 5 nights from 01 May to 31 Oct 2025 also include unique design elements like a balcony or terrace. A few chosen rooms are equipped with daily newspaper, television and cable TV to ensure guest amusement. In certain rooms, the resort offers visitors access to a refrigerator, a coffee or tea maker, bottled water, instant coffee, instant tea and mini bar.Furaveri Maldives - FREE RETURN TRANSFER for 2 for stays of min 5 nights from 01 May to 31 Oct 2025 offers a hair dryer, toiletries and bathrobes in the restrooms of specific accommodations. At Furaveri Maldives - FREE RETURN TRANSFER for 2 for stays of min 5 nights from 01 May to 31 Oct 2025, each day commences with a scrumptious breakfast offered at no additional cost.All adore a delightful cup of coffee! An on-site coffee shop ensures you can relish a cup of authentic, freshly-brewed coffee every morning -- or whenever you desire it.Allow your journey to be free from the pangs of hunger! On-site eateries offer delicious and accessible meal choices. At Furaveri Maldives - FREE RETURN TRANSFER for 2 for stays of min 5 nights from 01 May to 31 Oct 2025, guests with diverse dietary needs are accommodated by offering options like halal among the different types of cuisine. An evening spent within the resort's karaoke rooms and bar may prove to be just as entertaining as venturing out with your fellow adventurers. Are you inclined to prepare your own dishes? You will surely appreciate having the on-site BBQ facilities available.At Furaveri Maldives - FREE RETURN TRANSFER for 2 for stays of min 5 nights from 01 May to 31 Oct 2025, guests can take pleasure in the delightful recreational amenities provided for their entertainment. At the resort, a wide range of enjoyable activities ensures that there's never a dull moment during your visit. Don't miss out on the easily reachable beach in the vicinity. Conclude your days in complete tranquility by paying a visit to massage, hot tub, steam room, spa and sauna for ultimate relaxation.At Furaveri Maldives - FREE RETURN TRANSFER for 2 for stays of min 5 nights from 01 May to 31 Oct 2025, a wide array of amenities guarantees a fulfilling experience throughout your visit. Make you...",
+          "localized": "At Furaveri Maldives - FREE RETURN TRANSFER for 2 for stays of min 5 nights from 01 May to 31 Oct 2025, exceptional service and top-notch amenities create a memorable experience for guests.Complimentary internet access is available in the resort to ensure you stay connected during your visit.Arrange your trips to and from the airport using the resort's convenient transportation services booking.Amenities at shuttle offered by Furaveri Maldives - FREE RETURN TRANSFER for 2 for stays of min 5 nights from 01 May to 31 Oct 2025 simplify the organization of your excursions, tourist activities, and other adventures in Maldive Islands. Continuously receive the support you require through front desk amenities such as concierge service, express check-in or check-out, luggage storage and safety deposit boxes.At the resort, their tours can even assist you in booking tickets and securing reservations for leisure activities and adventures.Chilly nights become more delightful than balmy ones, as you snuggle near the resort's inviting hearth.Always look your best in your preferred attire with the laundromat and laundry service provided at Furaveri Maldives - FREE RETURN TRANSFER for 2 for stays of min 5 nights from 01 May to 31 Oct 2025. Craving relaxation? In-room amenities such as room service and daily housekeeping allow you to maximize your time spent inside the room. For the health and well-being of all guests and staff, smoking is restricted exclusively to assigned zones. Accommodations come equipped with all the conveniences required for a restful night's slumber. A selection of rooms feature linen service, blackout curtains and air conditioning to ensure your comfort and convenience. A few accommodations at Furaveri Maldives - FREE RETURN TRANSFER for 2 for stays of min 5 nights from 01 May to 31 Oct 2025 also include unique design elements like a balcony or terrace. A few chosen rooms are equipped with daily newspaper, television and cable TV to ensure guest amusement. In certain rooms, the resort offers visitors access to a refrigerator, a coffee or tea maker, bottled water, instant coffee, instant tea and mini bar.Furaveri Maldives - FREE RETURN TRANSFER for 2 for stays of min 5 nights from 01 May to 31 Oct 2025 offers a hair dryer, toiletries and bathrobes in the restrooms of specific accommodations. At Furaveri Maldives - FREE RETURN TRANSFER for 2 for stays of min 5 nights from 01 May to 31 Oct 2025, each day commences with a scrumptious breakfast offered at no additional cost.All adore a delightful cup of coffee! An on-site coffee shop ensures you can relish a cup of authentic, freshly-brewed coffee every morning -- or whenever you desire it.Allow your journey to be free from the pangs of hunger! On-site eateries offer delicious and accessible meal choices. At Furaveri Maldives - FREE RETURN TRANSFER for 2 for stays of min 5 nights from 01 May to 31 Oct 2025, guests with diverse dietary needs are accommodated by offering options like halal among the different types of cuisine. An evening spent within the resort's karaoke rooms and bar may prove to be just as entertaining as venturing out with your fellow adventurers. Are you inclined to prepare your own dishes? You will surely appreciate having the on-site BBQ facilities available.At Furaveri Maldives - FREE RETURN TRANSFER for 2 for stays of min 5 nights from 01 May to 31 Oct 2025, guests can take pleasure in the delightful recreational amenities provided for their entertainment. At the resort, a wide range of enjoyable activities ensures that there's never a dull moment during your visit. Don't miss out on the easily reachable beach in the vicinity. Conclude your days in complete tranquility by paying a visit to massage, hot tub, steam room, spa and sauna for ultimate relaxation.At Furaveri Maldives - FREE RETURN TRANSFER for 2 for stays of min 5 nights from 01 May to 31 Oct 2025, a wide array of amenities guarantees a fulfilling experience throughout your visit. Make you..."
+        },
+        "short_description": "Excellent family hotel. Close to the beach .",
+        "offers": [
+          {
+            "price": 606.8,
+            "brt": "o2r#",
+            "rf": "o2r#",
+            "brf": 11042880,
+            "rt": 11042880,
+            "vendor": "bkng",
+            "vendor_id_raw": "1540094",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [],
+            "jc_code": "",
+            "ranking_index": 1,
+            "chain": "",
+            "free_cancellation": false,
+            "special": false,
+            "room_name": "Villa",
+            "rooms": [
+              {
+                "name": "Villa",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": [],
+            "partner_name": "Booking.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/bkng/logo.svg?pos=zz"
+          }
+        ],
+        "all_offers": [
+          {
+            "price": 606.8,
+            "brt": "o2r#",
+            "rf": "o2r#",
+            "brf": 11042880,
+            "rt": 11042880,
+            "vendor": "bkng",
+            "vendor_id_raw": "1540094",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": false,
+            "special": false,
+            "room_name": "Villa",
+            "rooms": [
+              {
+                "name": "Villa",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": [],
+            "partner_name": "Booking.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/bkng/logo.svg?pos=zz"
+          },
+          {
+            "price": 653.24,
+            "brt": "o2r#",
+            "rf": "o2r#",
+            "brf": 11042880,
+            "rt": 11042880,
+            "vendor": "bkng",
+            "vendor_id_raw": "1540094",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": false,
+            "special": false,
+            "room_name": "Villa",
+            "rooms": [
+              {
+                "name": "Villa",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": [],
+            "partner_name": "Booking.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/bkng/logo.svg?pos=zz"
+          },
+          {
+            "price": 794.1,
+            "brt": "o2r#",
+            "rf": "o2r#",
+            "brf": 11042880,
+            "rt": 11042880,
+            "vendor": "bkng",
+            "vendor_id_raw": "1540094",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": false,
+            "special": false,
+            "room_name": "Villa",
+            "rooms": [
+              {
+                "name": "Villa",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": [],
+            "partner_name": "Booking.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/bkng/logo.svg?pos=zz"
+          },
+          {
+            "price": 840.54,
+            "brt": "o2r#",
+            "rf": "o2r#",
+            "brf": 11042880,
+            "rt": 11042880,
+            "vendor": "bkng",
+            "vendor_id_raw": "1540094",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": false,
+            "special": false,
+            "room_name": "Villa",
+            "rooms": [
+              {
+                "name": "Villa",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": [],
+            "partner_name": "Booking.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/bkng/logo.svg?pos=zz"
+          },
+          {
+            "price": 856.87,
+            "brt": "o2r#",
+            "rf": "o2r#",
+            "brf": 11042880,
+            "rt": 11042880,
+            "vendor": "bkng",
+            "vendor_id_raw": "1540094",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": false,
+            "special": false,
+            "room_name": "Villa",
+            "rooms": [
+              {
+                "name": "Villa",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": [],
+            "partner_name": "Booking.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/bkng/logo.svg?pos=zz"
+          },
+          {
+            "price": 907.4,
+            "brt": "o2r#",
+            "rf": "o2r#",
+            "brf": 11042880,
+            "rt": 11042880,
+            "vendor": "bkng",
+            "vendor_id_raw": "1540094",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": false,
+            "special": false,
+            "room_name": "Villa",
+            "rooms": [
+              {
+                "name": "Villa",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": [],
+            "partner_name": "Booking.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/bkng/logo.svg?pos=zz"
+          },
+          {
+            "price": 910.68,
+            "brt": "o2r#",
+            "rf": "o2r#",
+            "brf": 11042880,
+            "rt": 11042880,
+            "vendor": "bkng",
+            "vendor_id_raw": "1540094",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": false,
+            "special": false,
+            "room_name": "Villa",
+            "rooms": [
+              {
+                "name": "Villa",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": [],
+            "partner_name": "Booking.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/bkng/logo.svg?pos=zz"
+          },
+          {
+            "price": 1114.32,
+            "brt": "o2r#",
+            "rf": "o2r#",
+            "brf": 11042880,
+            "rt": 11042880,
+            "vendor": "bkng",
+            "vendor_id_raw": "1540094",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": false,
+            "special": false,
+            "room_name": "Villa",
+            "rooms": [
+              {
+                "name": "Villa",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": [],
+            "partner_name": "Booking.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/bkng/logo.svg?pos=zz"
+          },
+          {
+            "price": 1164.84,
+            "brt": "o2r#",
+            "rf": "o2r#",
+            "brf": 11042880,
+            "rt": 11042880,
+            "vendor": "bkng",
+            "vendor_id_raw": "1540094",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": false,
+            "special": false,
+            "room_name": "Villa",
+            "rooms": [
+              {
+                "name": "Villa",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": [],
+            "partner_name": "Booking.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/bkng/logo.svg?pos=zz"
+          },
+          {
+            "price": 1837.77,
+            "brt": "p2h#",
+            "rf": "p2h#",
+            "brf": 11042880,
+            "rt": 11042880,
+            "vendor": "bkng",
+            "vendor_id_raw": "1540094",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": false,
+            "special": false,
+            "room_name": "Luxury room",
+            "rooms": [
+              {
+                "name": "Luxury room",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": [],
+            "partner_name": "Booking.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/bkng/logo.svg?pos=zz"
+          },
+          {
+            "price": 1991.39,
+            "brt": "p2h#",
+            "rf": "p2h#",
+            "brf": 11042880,
+            "rt": 11042880,
+            "vendor": "bkng",
+            "vendor_id_raw": "1540094",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": false,
+            "special": false,
+            "room_name": "Luxury room",
+            "rooms": [
+              {
+                "name": "Luxury room",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": [],
+            "partner_name": "Booking.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/bkng/logo.svg?pos=zz"
+          },
+          {
+            "price": 2248.84,
+            "brt": "p2h#",
+            "rf": "p2h#",
+            "brf": 11042880,
+            "rt": 11042880,
+            "vendor": "bkng",
+            "vendor_id_raw": "1540094",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": false,
+            "special": false,
+            "room_name": "Luxury room",
+            "rooms": [
+              {
+                "name": "Luxury room",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": [],
+            "partner_name": "Booking.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/bkng/logo.svg?pos=zz"
+          },
+          {
+            "price": 2506.28,
+            "brt": "p2h#",
+            "rf": "p2h#",
+            "brf": 11042880,
+            "rt": 11042880,
+            "vendor": "bkng",
+            "vendor_id_raw": "1540094",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": false,
+            "special": false,
+            "room_name": "Luxury room",
+            "rooms": [
+              {
+                "name": "Luxury room",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": [],
+            "partner_name": "Booking.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/bkng/logo.svg?pos=zz"
+          },
+          {
+            "price": 2571.16,
+            "brt": "p2h#",
+            "rf": "p2h#",
+            "brf": 11042880,
+            "rt": 11042880,
+            "vendor": "bkng",
+            "vendor_id_raw": "1540094",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": false,
+            "special": false,
+            "room_name": "Luxury room",
+            "rooms": [
+              {
+                "name": "Luxury room",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": [],
+            "partner_name": "Booking.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/bkng/logo.svg?pos=zz"
+          },
+          {
+            "price": 2788.57,
+            "brt": "p2h#",
+            "rf": "p2h#",
+            "brf": 11042880,
+            "rt": 11042880,
+            "vendor": "bkng",
+            "vendor_id_raw": "1540094",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": false,
+            "special": false,
+            "room_name": "Luxury room",
+            "rooms": [
+              {
+                "name": "Luxury room",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": [],
+            "partner_name": "Booking.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/bkng/logo.svg?pos=zz"
+          },
+          {
+            "price": 2881.14,
+            "brt": "p2h#",
+            "rf": "p2h#",
+            "brf": 11042880,
+            "rt": 11042880,
+            "vendor": "bkng",
+            "vendor_id_raw": "1540094",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": false,
+            "special": false,
+            "room_name": "Luxury room",
+            "rooms": [
+              {
+                "name": "Luxury room",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": [],
+            "partner_name": "Booking.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/bkng/logo.svg?pos=zz"
+          },
+          {
+            "price": 3098.55,
+            "brt": "p2h#",
+            "rf": "p2h#",
+            "brf": 11042880,
+            "rt": 11042880,
+            "vendor": "bkng",
+            "vendor_id_raw": "1540094",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": false,
+            "special": false,
+            "room_name": "Luxury room",
+            "rooms": [
+              {
+                "name": "Luxury room",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": [],
+            "partner_name": "Booking.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/bkng/logo.svg?pos=zz"
+          },
+          {
+            "price": 3191.78,
+            "brt": "p2h#",
+            "rf": "p2h#",
+            "brf": 11042880,
+            "rt": 11042880,
+            "vendor": "bkng",
+            "vendor_id_raw": "1540094",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": false,
+            "special": false,
+            "room_name": "Luxury room",
+            "rooms": [
+              {
+                "name": "Luxury room",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": [],
+            "partner_name": "Booking.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/bkng/logo.svg?pos=zz"
+          },
+          {
+            "price": 3409.19,
+            "brt": "p2h#",
+            "rf": "p2h#",
+            "brf": 11042880,
+            "rt": 11042880,
+            "vendor": "bkng",
+            "vendor_id_raw": "1540094",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": false,
+            "special": false,
+            "room_name": "Luxury room",
+            "rooms": [
+              {
+                "name": "Luxury room",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": [],
+            "partner_name": "Booking.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/bkng/logo.svg?pos=zz"
+          },
+          {
+            "price": 10415.79,
+            "brt": "p2h#",
+            "rf": "p2h#",
+            "brf": 11042880,
+            "rt": 11042880,
+            "vendor": "bkng",
+            "vendor_id_raw": "1540094",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": false,
+            "special": false,
+            "room_name": "Luxury room",
+            "rooms": [
+              {
+                "name": "Luxury room",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": [],
+            "partner_name": "Booking.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/bkng/logo.svg?pos=zz"
+          },
+          {
+            "price": 19011.97,
+            "brt": "p2h#",
+            "rf": "p2h#",
+            "brf": 11042880,
+            "rt": 11042880,
+            "vendor": "bkng",
+            "vendor_id_raw": "1540094",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": false,
+            "special": false,
+            "room_name": "Luxury room",
+            "rooms": [
+              {
+                "name": "Luxury room",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": [],
+            "partner_name": "Booking.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/bkng/logo.svg?pos=zz"
+          }
+        ],
+        "descriptions_language": {
+          "general": {
+            "original_language": true,
+            "text": "At Furaveri Maldives - FREE RETURN TRANSFER for 2 for stays of min 5 nights from 01 May to 31 Oct 2025, exceptional service and top-notch amenities create a memorable experience for guests.Complimentary internet access is available in the resort to ensure you stay connected during your visit.Arrange your trips to and from the airport using the resort's convenient transportation services booking.Amenities at shuttle offered by Furaveri Maldives - FREE RETURN TRANSFER for 2 for stays of min 5 nights from 01 May to 31 Oct 2025 simplify the organization of your excursions, tourist activities, and other adventures in Maldive Islands. Continuously receive the support you require through front desk amenities such as concierge service, express check-in or check-out, luggage storage and safety deposit boxes.At the resort, their tours can even assist you in booking tickets and securing reservations for leisure activities and adventures.Chilly nights become more delightful than balmy ones, as you snuggle near the resort's inviting hearth.Always look your best in your preferred attire with the laundromat and laundry service provided at Furaveri Maldives - FREE RETURN TRANSFER for 2 for stays of min 5 nights from 01 May to 31 Oct 2025. Craving relaxation? In-room amenities such as room service and daily housekeeping allow you to maximize your time spent inside the room. For the health and well-being of all guests and staff, smoking is restricted exclusively to assigned zones. Accommodations come equipped with all the conveniences required for a restful night's slumber. A selection of rooms feature linen service, blackout curtains and air conditioning to ensure your comfort and convenience. A few accommodations at Furaveri Maldives - FREE RETURN TRANSFER for 2 for stays of min 5 nights from 01 May to 31 Oct 2025 also include unique design elements like a balcony or terrace. A few chosen rooms are equipped with daily newspaper, television and cable TV to ensure guest amusement. In certain rooms, the resort offers visitors access to a refrigerator, a coffee or tea maker, bottled water, instant coffee, instant tea and mini bar.Furaveri Maldives - FREE RETURN TRANSFER for 2 for stays of min 5 nights from 01 May to 31 Oct 2025 offers a hair dryer, toiletries and bathrobes in the restrooms of specific accommodations. At Furaveri Maldives - FREE RETURN TRANSFER for 2 for stays of min 5 nights from 01 May to 31 Oct 2025, each day commences with a scrumptious breakfast offered at no additional cost.All adore a delightful cup of coffee! An on-site coffee shop ensures you can relish a cup of authentic, freshly-brewed coffee every morning -- or whenever you desire it.Allow your journey to be free from the pangs of hunger! On-site eateries offer delicious and accessible meal choices. At Furaveri Maldives - FREE RETURN TRANSFER for 2 for stays of min 5 nights from 01 May to 31 Oct 2025, guests with diverse dietary needs are accommodated by offering options like halal among the different types of cuisine. An evening spent within the resort's karaoke rooms and bar may prove to be just as entertaining as venturing out with your fellow adventurers. Are you inclined to prepare your own dishes? You will surely appreciate having the on-site BBQ facilities available.At Furaveri Maldives - FREE RETURN TRANSFER for 2 for stays of min 5 nights from 01 May to 31 Oct 2025, guests can take pleasure in the delightful recreational amenities provided for their entertainment. At the resort, a wide range of enjoyable activities ensures that there's never a dull moment during your visit. Don't miss out on the easily reachable beach in the vicinity. Conclude your days in complete tranquility by paying a visit to massage, hot tub, steam room, spa and sauna for ultimate relaxation.At Furaveri Maldives - FREE RETURN TRANSFER for 2 for stays of min 5 nights from 01 May to 31 Oct 2025, a wide array of amenities guarantees a fulfilling experience throughout your visit. Make you..."
+          }
+        },
+        "chain_code": null,
+        "bids": {
+          "bkng": "j23"
+        },
+        "worst_offer": null,
+        "best_offer": 606.8,
+        "best_offer_ota": "bkng",
+        "best_offer_mota": null,
+        "discount": 0,
+        "offers_count": 21,
+        "coordinates": {
+          "lat": 5.43978,
+          "lng": 72.90865
+        },
+        "distance": 0.08,
+        "neighborhood": null,
+        "badge": "spa relax",
+        "distances": [
+          {
+            "from": "center",
+            "distance": 0.08,
+            "time": 111,
+            "means": "foot",
+            "means_type": "foot"
+          }
+        ],
+        "specs": {
+          "bathrooms": null,
+          "beds": null,
+          "bedrooms": null,
+          "guests": null,
+          "square_meters": null
+        },
+        "toa_label": "resort",
+        "top_amenities": [
+          "indoor_pool",
+          "outdoor_pool",
+          "internet",
+          "restaurant",
+          "room_service"
+        ],
+        "transportations": {
+          "airports": [],
+          "trains": []
+        },
+        "images": [
+          {
+            "image_id": "665523806",
+            "label": ""
+          },
+          {
+            "image_id": "665523779",
+            "label": ""
+          },
+          {
+            "image_id": "665523780",
+            "label": ""
+          },
+          {
+            "image_id": "665523772",
+            "label": ""
+          },
+          {
+            "image_id": "665523817",
+            "label": ""
+          },
+          {
+            "image_id": "665523796",
+            "label": ""
+          },
+          {
+            "image_id": "665523776",
+            "label": ""
+          },
+          {
+            "image_id": "665523770",
+            "label": ""
+          },
+          {
+            "image_id": "665523774",
+            "label": ""
+          },
+          {
+            "image_id": "665523788",
+            "label": ""
+          },
+          {
+            "image_id": "665523775",
+            "label": ""
+          },
+          {
+            "image_id": "665523812",
+            "label": ""
+          },
+          {
+            "image_id": "665523778",
+            "label": ""
+          },
+          {
+            "image_id": "665523814",
+            "label": ""
+          },
+          {
+            "image_id": "665523798",
+            "label": ""
+          }
+        ],
+        "hero_offer": {
+          "price": 606.8,
+          "brt": "o2r#",
+          "rf": "o2r#",
+          "brf": 11042880,
+          "rt": 11042880,
+          "vendor": "bkng",
+          "vendor_id_raw": "1540094",
+          "mota_code": null,
+          "direct_offer": false,
+          "offer_flags": [],
+          "jc_code": "",
+          "ranking_index": 1,
+          "chain": "",
+          "free_cancellation": false,
+          "special": false,
+          "room_name": "Villa",
+          "rooms": [
+            {
+              "name": "Villa",
+              "flags": []
+            }
+          ],
+          "partner_name": "Booking.com",
+          "partner_logo": "https://hotelscan.com/apis/vendors/bkng/logo.svg?pos=zz"
+        },
+        "rank": 0,
+        "ctrl_srt": "im a ctrl teapot",
+        "test_srt": "im a test teapot"
+      }
+    ],
+    "filters": [],
+    "query": {
+      "pos": "zz"
+    }
+  }
+}

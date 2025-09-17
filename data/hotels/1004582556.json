@@ -1,0 +1,953 @@
+{
+  "_meta": {
+    "status": "SUCCESS",
+    "cached": true,
+    "count": 1,
+    "debug": {
+      "ticket": {
+        "ticket_id": "1004582556_zz_zz_d_publ_en_2_2025-10-08_2025-10-13_1_3",
+        "created_at": 1758065382.4012,
+        "loop": null,
+        "snapped_at": 1758065382.4855,
+        "snapshot_id": "1004582556_zz_zz_d_publ_en_2_2025-10-08_2025-10-13_1_3",
+        "snapshot_ttl": 300,
+        "executions": 2,
+        "progress": 1,
+        "save_errors": []
+      }
+    }
+  },
+  "data": {
+    "meta": [],
+    "geo": {
+      "hs_id": "xk3vqw4zyns9",
+      "region_name": "Maalhos",
+      "region_name_long": "Maalhos, Maldives",
+      "region_type": "CITY",
+      "region_id": 6344995,
+      "country_iso": "MV",
+      "country": "maldives",
+      "localised_country": "Maldives",
+      "center": [
+        5.13505,
+        73.10762
+      ],
+      "centroid": [
+        5.13446,
+        73.10762
+      ],
+      "polygon": [
+        "5.132638,73.104636",
+        "5.13106,73.108709",
+        "5.131871,73.111741",
+        "5.136559,73.110655",
+        "5.139038,73.106265",
+        "5.137055,73.103505",
+        "5.132638,73.104636"
+      ],
+      "radius": 0.54,
+      "zoom": -1,
+      "search_by_polygon": 0,
+      "cluster": 0,
+      "properties": 43,
+      "radius_override": 5,
+      "boundingbox": {
+        "ne": [
+          5.14,
+          73.112
+        ],
+        "sw": [
+          5.131,
+          73.103
+        ]
+      },
+      "airports": [
+        "MLE",
+        "HAQ",
+        "DRV"
+      ],
+      "region_name_en": "Maalhos",
+      "region_name_long_en": "Maalhos, Maldives",
+      "referrer_city_name_en": "Maalhos",
+      "parent_region_id": 6051084,
+      "parent_hs_id": "x5p4hmhw6iot",
+      "parent_region_name": "Maldives (all)",
+      "parent_region_name_long": "Maldives (all)",
+      "dynamic_bbox": {
+        "ne": [
+          5.136,
+          73.108
+        ],
+        "sw": [
+          5.136,
+          73.108
+        ]
+      }
+    },
+    "records": [
+      {
+        "hs_id": 1004582556,
+        "slug": "dhonfulhafi-beach-view-maalhos-mv-1004582556",
+        "name": "Dhonfulhafi Beach View",
+        "toa": "guest_house",
+        "building": {
+          "room_num": 14
+        },
+        "location": {
+          "city": "Maalhos",
+          "zip": "06070",
+          "country_iso2": "MV",
+          "address": "Heenaagoalhi B Maalhos. Maldives",
+          "geoid": "xk3vqw4zyns9",
+          "loc": {
+            "type": "Point"
+          },
+          "coordinates": {
+            "lng": 73.10834,
+            "lat": 5.13674
+          }
+        },
+        "opening_time": {
+          "check_in_from": "11:00",
+          "check_in_to": "14:00",
+          "check_out_from": "13:00",
+          "check_out_to": "14:00"
+        },
+        "quality": {
+          "review_count": 7,
+          "review_rating": 86,
+          "stars": 0,
+          "stars_is_estimated": false,
+          "review_source": ""
+        },
+        "covid_safe": true,
+        "amenities": {
+          "children": [
+            "children_playground"
+          ],
+          "wellness": [
+            "solarium",
+            "jacuzzi",
+            "fitness_center",
+            "outdoor_pool"
+          ],
+          "sports": [
+            "sub"
+          ],
+          "internet": [
+            "wifi",
+            "internet"
+          ],
+          "food_drink": [
+            "restaurant",
+            "snack_vending_machine",
+            "cafe"
+          ],
+          "outdoor": [
+            "terrace"
+          ],
+          "other": [],
+          "entertainment": [
+            "tv_lobby"
+          ],
+          "transfer": [
+            "shuttle_service"
+          ],
+          "room": [
+            "air_conditioning"
+          ],
+          "reception": [
+            "24h_reception",
+            "luggage_storage",
+            "laundry_service",
+            "safety_deposit_box"
+          ]
+        },
+        "descriptions": {
+          "direction": "Located in Maalhos, Dhonfulhafi Beach View & Spa is near a private beach. While the natural beauty of Hibalhidoo and Nelivaru Finolhu can be enjoyed by anyone, those looking for an activity can check out Kihaadhuffaru Island Pier. Spend some time exploring the area's activities, including whale-watching.",
+          "general": "Dhonfulhafi Beach View is a recently renovated guest house in Maalhos where guests can make the most of its private beach area and barbecue facilities. There's a private entrance at the guest house for the convenience of those who stay. The guest house provides sea views, a sun terrace, a 24-hour front desk, and free Wifi is available throughout the property. At the guest house, each unit has a wardrobe. All rooms include a private bathroom with a bidet and a hair dryer, while some rooms will provide you with a balcony. At the guest house, all units include air conditioning and a safety deposit box. Buffet and continental breakfast options with warm dishes, local specialities, and fresh pastries are available daily. Guests can eat at the on-site traditional restaurant, which is open for dinner, lunch, brunch, and cocktails. Activities such as snorkeling, canoeing, and walking tours can be enjoyed in the area, and guests can relax along the beachfront. Outdoor play equipment is also available for guests at the guest house. Bikini Beach is a few steps from Dhonfulhafi Beach View. Dharavandhoo Airport is 2.5 miles away.",
+          "amenities": true,
+          "localized": "Dhonfulhafi Beach View is a recently renovated guest house in Maalhos where guests can make the most of its private beach area and barbecue facilities. There's a private entrance at the guest house for the convenience of those who stay. The guest house provides sea views, a sun terrace, a 24-hour front desk, and free Wifi is available throughout the property. At the guest house, each unit has a wardrobe. All rooms include a private bathroom with a bidet and a hair dryer, while some rooms will provide you with a balcony. At the guest house, all units include air conditioning and a safety deposit box. Buffet and continental breakfast options with warm dishes, local specialities, and fresh pastries are available daily. Guests can eat at the on-site traditional restaurant, which is open for dinner, lunch, brunch, and cocktails. Activities such as snorkeling, canoeing, and walking tours can be enjoyed in the area, and guests can relax along the beachfront. Outdoor play equipment is also available for guests at the guest house. Bikini Beach is a few steps from Dhonfulhafi Beach View. Dharavandhoo Airport is 2.5 miles away."
+        },
+        "short_description": "Simple guest house with jacuzzi, shuttle service and restaurant",
+        "offers": [
+          {
+            "price": 117.13,
+            "brt": "p2d#",
+            "rf": "p2d#",
+            "brf": 8454272,
+            "rt": 8454272,
+            "vendor": "bkng",
+            "vendor_id_raw": "9518856",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Free cancellation",
+              "Pay at the property"
+            ],
+            "jc_code": "",
+            "ranking_index": 0.9518825236916247,
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Deluxe room",
+            "rooms": [
+              {
+                "name": "Deluxe room",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "refundable": "Free cancellation",
+              "pay_at_hotel": "Pay at the property"
+            },
+            "partner_name": "Booking.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/bkng/logo.svg?pos=zz"
+          },
+          {
+            "vendor": "htls",
+            "price": 134.74,
+            "vendor_id_raw": "2908188544",
+            "mota_code": null,
+            "jc_code": "",
+            "partner_name": "Hotels.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/htls/logo.svg?pos=zz",
+            "room_name": "Deluxe room",
+            "brf": 9470016,
+            "brt": "p2d#"
+          },
+          {
+            "vendor": "ctrp",
+            "price": 103.04,
+            "vendor_id_raw": "50254363",
+            "mota_code": null,
+            "jc_code": "TRIPCOM",
+            "partner_name": "Trip.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/ctrp/logo.svg?pos=zz",
+            "room_name": "Deluxe room",
+            "brf": 9470080,
+            "brt": "p2d#"
+          },
+          {
+            "vendor": "expd",
+            "price": 133,
+            "vendor_id_raw": "90849642",
+            "mota_code": null,
+            "jc_code": "EXPEDIA",
+            "partner_name": "Expedia",
+            "partner_logo": "https://hotelscan.com/apis/vendors/expd/logo.svg?pos=zz",
+            "room_name": "Deluxe room",
+            "brf": 9470016,
+            "brt": "p2d#"
+          }
+        ],
+        "all_offers": [
+          {
+            "price": 103.04,
+            "brt": "p2d#",
+            "rf": "p2d#",
+            "brf": 9470080,
+            "rt": 9470080,
+            "vendor": "ctrp",
+            "vendor_id_raw": "50254363",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included",
+              "Pay at the property"
+            ],
+            "jc_code": "TRIPCOM",
+            "chain": "",
+            "free_cancellation": false,
+            "special": false,
+            "room_name": "Deluxe room",
+            "rooms": [
+              {
+                "name": "Deluxe room",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included",
+              "pay_at_hotel": "Pay at the property"
+            },
+            "partner_name": "Trip.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/ctrp/logo.svg?pos=zz"
+          },
+          {
+            "price": 108.46,
+            "brt": "p2d#",
+            "rf": "p2d#",
+            "brf": 9502848,
+            "rt": 9502848,
+            "vendor": "ctrp",
+            "vendor_id_raw": "50254363",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included",
+              "Free cancellation",
+              "Pay at the property"
+            ],
+            "jc_code": "TRIPCOM",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Deluxe room",
+            "rooms": [
+              {
+                "name": "Deluxe room",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included",
+              "refundable": "Free cancellation",
+              "pay_at_hotel": "Pay at the property"
+            },
+            "partner_name": "Trip.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/ctrp/logo.svg?pos=zz"
+          },
+          {
+            "price": 117.13,
+            "brt": "p2d#",
+            "rf": "p2d#",
+            "brf": 8454272,
+            "rt": 8454272,
+            "vendor": "bkng",
+            "vendor_id_raw": "9518856",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Free cancellation",
+              "Pay at the property"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Deluxe room",
+            "rooms": [
+              {
+                "name": "Deluxe room",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "refundable": "Free cancellation",
+              "pay_at_hotel": "Pay at the property"
+            },
+            "partner_name": "Booking.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/bkng/logo.svg?pos=zz"
+          },
+          {
+            "price": 129.01,
+            "brt": "p2d#",
+            "rf": "p2d#",
+            "brf": 9502848,
+            "rt": 9502848,
+            "vendor": "bkng",
+            "vendor_id_raw": "9518856",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included",
+              "Free cancellation",
+              "Pay at the property"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Deluxe room",
+            "rooms": [
+              {
+                "name": "Deluxe room",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included",
+              "refundable": "Free cancellation",
+              "pay_at_hotel": "Pay at the property"
+            },
+            "partner_name": "Booking.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/bkng/logo.svg?pos=zz"
+          },
+          {
+            "price": 133,
+            "brt": "p2d#",
+            "rf": "p2d#",
+            "brf": 9470016,
+            "rt": 9470016,
+            "vendor": "expd",
+            "vendor_id_raw": "90849642",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included"
+            ],
+            "jc_code": "EXPEDIA",
+            "chain": "",
+            "free_cancellation": false,
+            "special": false,
+            "room_name": "Deluxe room",
+            "rooms": [
+              {
+                "name": "Deluxe room",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included"
+            },
+            "partner_name": "Expedia",
+            "partner_logo": "https://hotelscan.com/apis/vendors/expd/logo.svg?pos=zz"
+          },
+          {
+            "price": 134.08,
+            "brt": "p2d#",
+            "rf": "p2d#",
+            "brf": 9470016,
+            "rt": 9470016,
+            "vendor": "ctrp",
+            "vendor_id_raw": "50254363",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included"
+            ],
+            "jc_code": "TRIPCOM",
+            "chain": "",
+            "free_cancellation": false,
+            "special": false,
+            "room_name": "Deluxe room",
+            "rooms": [
+              {
+                "name": "Deluxe room",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included"
+            },
+            "partner_name": "Trip.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/ctrp/logo.svg?pos=zz"
+          },
+          {
+            "price": 134.74,
+            "brt": "p2d#",
+            "rf": "p2d#",
+            "brf": 9470016,
+            "rt": 9470016,
+            "vendor": "htls",
+            "vendor_id_raw": "2908188544",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": false,
+            "special": false,
+            "room_name": "Deluxe room",
+            "rooms": [
+              {
+                "name": "Deluxe room",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included"
+            },
+            "partner_name": "Hotels.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/htls/logo.svg?pos=zz"
+          },
+          {
+            "price": 138.16,
+            "brt": "p2d#",
+            "rf": "p2d#",
+            "brf": 9502784,
+            "rt": 9502784,
+            "vendor": "expd",
+            "vendor_id_raw": "90849642",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included",
+              "Free cancellation"
+            ],
+            "jc_code": "EXPEDIA",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Deluxe room",
+            "rooms": [
+              {
+                "name": "Deluxe room",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included",
+              "refundable": "Free cancellation"
+            },
+            "partner_name": "Expedia",
+            "partner_logo": "https://hotelscan.com/apis/vendors/expd/logo.svg?pos=zz"
+          },
+          {
+            "price": 140.07,
+            "brt": "p2d#",
+            "rf": "p2d#",
+            "brf": 9502784,
+            "rt": 9502784,
+            "vendor": "ctrp",
+            "vendor_id_raw": "50254363",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included",
+              "Free cancellation"
+            ],
+            "jc_code": "TRIPCOM",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Deluxe room",
+            "rooms": [
+              {
+                "name": "Deluxe room",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included",
+              "refundable": "Free cancellation"
+            },
+            "partner_name": "Trip.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/ctrp/logo.svg?pos=zz"
+          },
+          {
+            "price": 140.75,
+            "brt": "p2d#",
+            "rf": "p2d#",
+            "brf": 9502848,
+            "rt": 9502848,
+            "vendor": "htls",
+            "vendor_id_raw": "2908188544",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included",
+              "Free cancellation",
+              "Pay at the property"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Deluxe room",
+            "rooms": [
+              {
+                "name": "Deluxe room",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included",
+              "refundable": "Free cancellation",
+              "pay_at_hotel": "Pay at the property"
+            },
+            "partner_name": "Hotels.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/htls/logo.svg?pos=zz"
+          },
+          {
+            "price": 140.75,
+            "brt": "p2d#",
+            "rf": "p2d#",
+            "brf": 9502848,
+            "rt": 9502848,
+            "vendor": "expd",
+            "vendor_id_raw": "90849642",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included",
+              "Free cancellation",
+              "Pay at the property"
+            ],
+            "jc_code": "EXPEDIA",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Deluxe room",
+            "rooms": [
+              {
+                "name": "Deluxe room",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included",
+              "refundable": "Free cancellation",
+              "pay_at_hotel": "Pay at the property"
+            },
+            "partner_name": "Expedia",
+            "partner_logo": "https://hotelscan.com/apis/vendors/expd/logo.svg?pos=zz"
+          },
+          {
+            "price": 152.31,
+            "brt": "p4q#",
+            "rf": "p4q#",
+            "brf": 9470016,
+            "rt": 9470016,
+            "vendor": "expd",
+            "vendor_id_raw": "90849642",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included"
+            ],
+            "jc_code": "EXPEDIA",
+            "chain": "",
+            "free_cancellation": false,
+            "special": false,
+            "room_name": "Family Room",
+            "rooms": [
+              {
+                "name": "Family Room",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included"
+            },
+            "partner_name": "Expedia",
+            "partner_logo": "https://hotelscan.com/apis/vendors/expd/logo.svg?pos=zz"
+          },
+          {
+            "price": 155.53,
+            "brt": "p4q#",
+            "rf": "p4q#",
+            "brf": 9470016,
+            "rt": 9470016,
+            "vendor": "htls",
+            "vendor_id_raw": "2908188544",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": false,
+            "special": false,
+            "room_name": "Family Room",
+            "rooms": [
+              {
+                "name": "Family Room",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included"
+            },
+            "partner_name": "Hotels.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/htls/logo.svg?pos=zz"
+          },
+          {
+            "price": 160.04,
+            "brt": "p4q#",
+            "rf": "p4q#",
+            "brf": 9502784,
+            "rt": 9502784,
+            "vendor": "expd",
+            "vendor_id_raw": "90849642",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included",
+              "Free cancellation"
+            ],
+            "jc_code": "EXPEDIA",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Family Room",
+            "rooms": [
+              {
+                "name": "Family Room",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included",
+              "refundable": "Free cancellation"
+            },
+            "partner_name": "Expedia",
+            "partner_logo": "https://hotelscan.com/apis/vendors/expd/logo.svg?pos=zz"
+          },
+          {
+            "price": 162.63,
+            "brt": "p4q#",
+            "rf": "p4q#",
+            "brf": 9502848,
+            "rt": 9502848,
+            "vendor": "htls",
+            "vendor_id_raw": "2908188544",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included",
+              "Free cancellation",
+              "Pay at the property"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Family Room",
+            "rooms": [
+              {
+                "name": "Family Room",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included",
+              "refundable": "Free cancellation",
+              "pay_at_hotel": "Pay at the property"
+            },
+            "partner_name": "Hotels.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/htls/logo.svg?pos=zz"
+          },
+          {
+            "price": 162.63,
+            "brt": "p4q#",
+            "rf": "p4q#",
+            "brf": 9502848,
+            "rt": 9502848,
+            "vendor": "expd",
+            "vendor_id_raw": "90849642",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included",
+              "Free cancellation",
+              "Pay at the property"
+            ],
+            "jc_code": "EXPEDIA",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Family Room",
+            "rooms": [
+              {
+                "name": "Family Room",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included",
+              "refundable": "Free cancellation",
+              "pay_at_hotel": "Pay at the property"
+            },
+            "partner_name": "Expedia",
+            "partner_logo": "https://hotelscan.com/apis/vendors/expd/logo.svg?pos=zz"
+          },
+          {
+            "price": 204.62,
+            "brt": "p2q#",
+            "rf": "p2q#",
+            "brf": 9502848,
+            "rt": 9502848,
+            "vendor": "bkng",
+            "vendor_id_raw": "9518856",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included",
+              "Free cancellation",
+              "Pay at the property"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Family room",
+            "rooms": [
+              {
+                "name": "Family room",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included",
+              "refundable": "Free cancellation",
+              "pay_at_hotel": "Pay at the property"
+            },
+            "partner_name": "Booking.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/bkng/logo.svg?pos=zz"
+          }
+        ],
+        "descriptions_language": {
+          "general": {
+            "original_language": true,
+            "text": "Dhonfulhafi Beach View is a recently renovated guest house in Maalhos where guests can make the most of its private beach area and barbecue facilities. There's a private entrance at the guest house for the convenience of those who stay. The guest house provides sea views, a sun terrace, a 24-hour front desk, and free Wifi is available throughout the property. At the guest house, each unit has a wardrobe. All rooms include a private bathroom with a bidet and a hair dryer, while some rooms will provide you with a balcony. At the guest house, all units include air conditioning and a safety deposit box. Buffet and continental breakfast options with warm dishes, local specialities, and fresh pastries are available daily. Guests can eat at the on-site traditional restaurant, which is open for dinner, lunch, brunch, and cocktails. Activities such as snorkeling, canoeing, and walking tours can be enjoyed in the area, and guests can relax along the beachfront. Outdoor play equipment is also available for guests at the guest house. Bikini Beach is a few steps from Dhonfulhafi Beach View. Dharavandhoo Airport is 2.5 miles away."
+          },
+          "direction": {
+            "original_language": true,
+            "text": "Located in Maalhos, Dhonfulhafi Beach View & Spa is near a private beach. While the natural beauty of Hibalhidoo and Nelivaru Finolhu can be enjoyed by anyone, those looking for an activity can check out Kihaadhuffaru Island Pier. Spend some time exploring the area's activities, including whale-watching."
+          }
+        },
+        "chain_code": null,
+        "bids": {
+          "bkng": "j23",
+          "expd": "j23",
+          "htls": "j23",
+          "ctrp": "j23"
+        },
+        "worst_offer": 134.74,
+        "best_offer": 103.04,
+        "best_offer_ota": "ctrp",
+        "best_offer_mota": null,
+        "discount": 15,
+        "offers_count": 17,
+        "coordinates": {
+          "lat": 5.13674,
+          "lng": 73.10834
+        },
+        "distance": 0.2,
+        "neighborhood": null,
+        "badge": null,
+        "distances": [
+          {
+            "from": "center",
+            "distance": 0.2,
+            "time": 278,
+            "means": "foot",
+            "means_type": "foot"
+          }
+        ],
+        "specs": {
+          "bathrooms": null,
+          "beds": null,
+          "bedrooms": null,
+          "guests": null,
+          "square_meters": null
+        },
+        "toa_label": "guest house",
+        "top_amenities": [
+          "outdoor_pool",
+          "internet",
+          "restaurant",
+          "air_conditioning",
+          "24h_reception"
+        ],
+        "transportations": {
+          "airports": [],
+          "trains": []
+        },
+        "images": [
+          {
+            "image_id": "636813366",
+            "label": ""
+          },
+          {
+            "image_id": "636813401",
+            "label": ""
+          },
+          {
+            "image_id": "636813364",
+            "label": ""
+          },
+          {
+            "image_id": "636813409",
+            "label": ""
+          },
+          {
+            "image_id": "636813408",
+            "label": ""
+          },
+          {
+            "image_id": "636813418",
+            "label": ""
+          },
+          {
+            "image_id": "636813373",
+            "label": ""
+          },
+          {
+            "image_id": "636813380",
+            "label": ""
+          },
+          {
+            "image_id": "636813376",
+            "label": ""
+          },
+          {
+            "image_id": "636813423",
+            "label": ""
+          },
+          {
+            "image_id": "636813387",
+            "label": ""
+          },
+          {
+            "image_id": "636813374",
+            "label": ""
+          },
+          {
+            "image_id": "636813422",
+            "label": ""
+          },
+          {
+            "image_id": "636813415",
+            "label": ""
+          },
+          {
+            "image_id": "636813402",
+            "label": ""
+          }
+        ],
+        "hero_offer": {
+          "price": 117.13,
+          "brt": "p2d#",
+          "rf": "p2d#",
+          "brf": 8454272,
+          "rt": 8454272,
+          "vendor": "bkng",
+          "vendor_id_raw": "9518856",
+          "mota_code": null,
+          "direct_offer": false,
+          "offer_flags": {
+            "refundable": "Free cancellation",
+            "pay_at_hotel": "Pay at the property"
+          },
+          "jc_code": "",
+          "ranking_index": 0.9518825236916247,
+          "chain": "",
+          "free_cancellation": true,
+          "special": false,
+          "room_name": "Deluxe room",
+          "rooms": [
+            {
+              "name": "Deluxe room",
+              "flags": []
+            }
+          ],
+          "partner_name": "Booking.com",
+          "partner_logo": "https://hotelscan.com/apis/vendors/bkng/logo.svg?pos=zz"
+        },
+        "rank": 0,
+        "ctrl_srt": "im a ctrl teapot",
+        "test_srt": "im a test teapot"
+      }
+    ],
+    "filters": [],
+    "query": {
+      "pos": "zz"
+    }
+  }
+}

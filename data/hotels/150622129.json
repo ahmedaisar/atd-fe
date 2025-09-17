@@ -1,0 +1,2346 @@
+{
+  "_meta": {
+    "status": "SUCCESS",
+    "cached": true,
+    "count": 1,
+    "debug": {
+      "ticket": {
+        "ticket_id": "150622129_zz_zz_d_publ_en_2_2025-10-08_2025-10-13_1_3",
+        "created_at": 1758065346.7757,
+        "loop": null,
+        "snapped_at": 1758065346.8811,
+        "snapshot_id": "150622129_zz_zz_d_publ_en_2_2025-10-08_2025-10-13_1_3",
+        "snapshot_ttl": 300,
+        "executions": 2,
+        "progress": 1,
+        "save_errors": []
+      }
+    }
+  },
+  "data": {
+    "meta": [],
+    "geo": {
+      "hs_id": "x5pn8e8gnsw2",
+      "region_name": "Landaa Giraavaru",
+      "region_name_long": "Landaa Giraavaru, Maldives",
+      "region_type": "CITY",
+      "region_id": 6047942,
+      "country_iso": "MV",
+      "country": "maldives",
+      "localised_country": "Maldives",
+      "center": [
+        5.28505,
+        73.11339
+      ],
+      "centroid": [
+        5.28505,
+        73.11339
+      ],
+      "polygon": [
+        "5.290966,73.107914",
+        "5.279135,73.10791",
+        "5.279135,73.118869",
+        "5.290966,73.118874",
+        "5.290966,73.107914"
+      ],
+      "radius": 0.9,
+      "zoom": -1,
+      "search_by_polygon": 0,
+      "cluster": 0,
+      "properties": 22,
+      "radius_override": 5,
+      "boundingbox": {
+        "ne": [
+          5.291,
+          73.119
+        ],
+        "sw": [
+          5.279,
+          73.107
+        ]
+      },
+      "airports": [
+        "MLE",
+        "HAQ",
+        "DRV"
+      ],
+      "region_name_en": "Landaa Giraavaru",
+      "region_name_long_en": "Landaa Giraavaru, Maldives",
+      "referrer_city_name_en": "Landaa Giraavaru",
+      "parent_region_id": 6051084,
+      "parent_hs_id": "x5p4hmhw6iot",
+      "parent_region_name": "Maldives (all)",
+      "parent_region_name_long": "Maldives (all)",
+      "dynamic_bbox": {
+        "ne": [
+          5.286,
+          73.111
+        ],
+        "sw": [
+          5.286,
+          73.111
+        ]
+      }
+    },
+    "records": [
+      {
+        "hs_id": 150622129,
+        "slug": "four-seasons-resort-maldives-at-landaa-giraavaru-landaa-giraavaru-mv-150622129",
+        "name": "Four Seasons Resort Maldives At Landaa Giraavaru",
+        "ty_id": "8bc0c749-bbad-40e5-8582-36404ddecfea",
+        "toa": "resort",
+        "location": {
+          "city": "Landaa Giraavaru",
+          "zip": "20026",
+          "country_iso2": "MV",
+          "address": "Baa Atoll",
+          "geoid": "x5pn8e8gnsw2",
+          "loc": {
+            "type": "Point"
+          },
+          "coordinates": {
+            "lng": 73.111944,
+            "lat": 5.286111
+          }
+        },
+        "opening_time": {
+          "check_in_from": "14:00",
+          "check_in_to": null,
+          "check_out_from": null,
+          "check_out_to": "12:00"
+        },
+        "quality": {
+          "review_count": 46,
+          "review_rating": 93,
+          "stars": 5,
+          "stars_is_estimated": false,
+          "review_source": ""
+        },
+        "covid_safe": true,
+        "amenities": {
+          "wellness": [
+            "massage",
+            "solarium",
+            "fitness_center",
+            "hair_salon",
+            "sauna",
+            "spa",
+            "outdoor_pool",
+            "turkish_bath"
+          ],
+          "sports": [
+            "sailing",
+            "billiard",
+            "badminton",
+            "yoga",
+            "bike_rent",
+            "ping_pong",
+            "tennis",
+            "sub",
+            "surf"
+          ],
+          "internet": [
+            "wifi",
+            "internet"
+          ],
+          "food_drink": [
+            "restaurant",
+            "room_service",
+            "poolside_bar",
+            "bar",
+            "snack_bar"
+          ],
+          "disability": [
+            "wheelchair_accessible"
+          ],
+          "parking": [
+            "parking"
+          ],
+          "outdoor": [
+            "garden",
+            "terrace"
+          ],
+          "other": [],
+          "business": [
+            "meeting_room",
+            "business_services"
+          ],
+          "children": [
+            "babysitter",
+            "children_playground"
+          ],
+          "entertainment": [
+            "tv_lobby"
+          ],
+          "transfer": [
+            "shuttle_service"
+          ],
+          "room": [
+            "air_conditioning",
+            "tv"
+          ],
+          "reception": [
+            "24h_reception",
+            "luggage_storage",
+            "concierge",
+            "laundry_facilities",
+            "laundry_service",
+            "safety_deposit_box"
+          ]
+        },
+        "themes": [
+          "family",
+          "beach"
+        ],
+        "descriptions": {
+          "direction": "Located in Landaa Giraavaru, Four Seasons Maldives at Landaa Giraavaru is on the beach. Kihaadhuffaru Island Pier and Meedhoo Harbor are worth checking out if an activity is on the agenda, while those wishing to experience the area's natural beauty can explore Gemendhoo and Kihaadhuffaru Island Beach. Looking to get your feet wet? Snorkeling and windsurfing adventures can be found near the property.",
+          "general": "Property Location With a stay at Four Seasons Maldives at Landaa Giraavaru in Landaa Giraavaru, you'll be on the beach, and 7 mi (11.2 km) from Gemendhoo and 9.7 mi (15.6 km) from Kihaadhuffaru Island Beach. This beach resort is 9.9 mi (15.9 km) from Kihaadhuffaru Island Pier and 10.5 mi (16.9 km) from Hanifaru Bay.Rooms Treat yourself to a stay in one of the 103 guestrooms, featuring private pools and plasma televisions. Rooms have private patios. Wired and wireless internet access is complimentary, while iPod docking stations and satellite programming provide entertainment. Conveniences include phones, as well as safes and desks.Dining Enjoy Italian cuisine at Blu, one of the resort's 4 restaurants, or stay in and take advantage of the 24-hour room service. Relax with a refreshing drink from the poolside bar or one of the 3 bars/lounges. Full breakfasts are available daily from 7 AM to 10:30 AM for a fee.Rec, Spa, Premium Amenities Relax at the full-service spa, where you can enjoy massages, body treatments, and facials. You're sure to appreciate the recreational amenities, which include 4 outdoor swimming pools, an outdoor tennis court, and a sauna. Additional amenities at this resort include concierge services, babysitting (surcharge), and an arcade/game room.Business, Other Amenities Featured amenities include complimentary wired internet access, a 24-hour business center, and complimentary newspapers in the lobby. heck-out time ends at12:00|Check-in time starts at14:00|Minimum check-in age is18|Special check-in instructions Guests must transfer via floatplane to the property. Guests must contact the property at least 72 hours before travel, using the contact information on the confirmation received after booking. Front desk staff will greet guests on arrival at the property. For any questions, please contact the property using the information on the booking confirmation. Please note: Rates include breakfast for 1-2 guests. Breakfast fees apply for additional guests ages 6 and older. Guests must arrange transfers (surcharge) from Male International Airport to the property, which is 35 minutes away via seaplane. To guarantee transfers, guests must contact the property with their flight details at least 3 days before their expected arrival.Luggage in excess of 20 kg/person may incur a fee. Daily transfer service is only available until 4 PM. Guests arriving after 4 PM are required to spend a night at Four Seasons Resort Maldives at Kuda Huraa prior to transferring to Landaa Giraavaru.Know Before You Go Reservations are required for massage services and spa treatments. Reservations can be made by contacting the resort prior to arrival, using the contact information on the booking confirmation. Children 12 years old and younger stay free when occupying the parent or guardian's room, using existing bedding. Contactless check-out is available. Fees Fee for full breakfast: approximately USD 55.44 for adults and USD 28.34 for children The above list may not be comprehensive. Fees and deposits may not include tax and are subject to change. Mandatory Fees and Taxes |No elevators|Service animals exempt from fees/restrictions|Only service animals are allowed|Pets not allowed",
+          "amenities": true,
+          "localized": "Property Location With a stay at Four Seasons Maldives at Landaa Giraavaru in Landaa Giraavaru, you'll be on the beach, and 7 mi (11.2 km) from Gemendhoo and 9.7 mi (15.6 km) from Kihaadhuffaru Island Beach. This beach resort is 9.9 mi (15.9 km) from Kihaadhuffaru Island Pier and 10.5 mi (16.9 km) from Hanifaru Bay.Rooms Treat yourself to a stay in one of the 103 guestrooms, featuring private pools and plasma televisions. Rooms have private patios. Wired and wireless internet access is complimentary, while iPod docking stations and satellite programming provide entertainment. Conveniences include phones, as well as safes and desks.Dining Enjoy Italian cuisine at Blu, one of the resort's 4 restaurants, or stay in and take advantage of the 24-hour room service. Relax with a refreshing drink from the poolside bar or one of the 3 bars/lounges. Full breakfasts are available daily from 7 AM to 10:30 AM for a fee.Rec, Spa, Premium Amenities Relax at the full-service spa, where you can enjoy massages, body treatments, and facials. You're sure to appreciate the recreational amenities, which include 4 outdoor swimming pools, an outdoor tennis court, and a sauna. Additional amenities at this resort include concierge services, babysitting (surcharge), and an arcade/game room.Business, Other Amenities Featured amenities include complimentary wired internet access, a 24-hour business center, and complimentary newspapers in the lobby. heck-out time ends at12:00|Check-in time starts at14:00|Minimum check-in age is18|Special check-in instructions Guests must transfer via floatplane to the property. Guests must contact the property at least 72 hours before travel, using the contact information on the confirmation received after booking. Front desk staff will greet guests on arrival at the property. For any questions, please contact the property using the information on the booking confirmation. Please note: Rates include breakfast for 1-2 guests. Breakfast fees apply for additional guests ages 6 and older. Guests must arrange transfers (surcharge) from Male International Airport to the property, which is 35 minutes away via seaplane. To guarantee transfers, guests must contact the property with their flight details at least 3 days before their expected arrival.Luggage in excess of 20 kg/person may incur a fee. Daily transfer service is only available until 4 PM. Guests arriving after 4 PM are required to spend a night at Four Seasons Resort Maldives at Kuda Huraa prior to transferring to Landaa Giraavaru.Know Before You Go Reservations are required for massage services and spa treatments. Reservations can be made by contacting the resort prior to arrival, using the contact information on the booking confirmation. Children 12 years old and younger stay free when occupying the parent or guardian's room, using existing bedding. Contactless check-out is available. Fees Fee for full breakfast: approximately USD 55.44 for adults and USD 28.34 for children The above list may not be comprehensive. Fees and deposits may not include tax and are subject to change. Mandatory Fees and Taxes |No elevators|Service animals exempt from fees/restrictions|Only service animals are allowed|Pets not allowed"
+        },
+        "short_description": "Excellent beach hotel. Awesome vibe. Great location. Fantastic service. Beautiful beach.",
+        "chain": "fourseasons",
+        "brand": "fs",
+        "offers": [
+          {
+            "price": 1881.66,
+            "brt": "o2r#k",
+            "rf": "o2r#k",
+            "brf": 9503808,
+            "rt": 9503808,
+            "vendor": "drbs",
+            "vendor_id_raw": "FOURSEASONS-64981",
+            "mota_code": null,
+            "direct_offer": true,
+            "offer_flags": [
+              "Breakfast included",
+              "Free cancellation",
+              "Sea view"
+            ],
+            "jc_code": "",
+            "ranking_index": 0.9966072510442906,
+            "chain": "fshr",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Villa - King bed",
+            "rooms": [
+              {
+                "name": "Villa - King bed",
+                "flags": [
+                  "King bed"
+                ]
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included",
+              "refundable": "Free cancellation",
+              "view_sea": "Sea view"
+            },
+            "partner_name": "Four Seasons Hotels and Resorts",
+            "partner_logo": "https://hotelscan.com/apis/vendors/drbs/logo.svg?pos=zz&chains=fshr"
+          },
+          {
+            "vendor": "htls",
+            "price": 1882.08,
+            "vendor_id_raw": "45563008",
+            "mota_code": null,
+            "jc_code": "",
+            "partner_name": "Hotels.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/htls/logo.svg?pos=zz&chains=fshr",
+            "room_name": "Villa",
+            "brf": 9470016,
+            "brt": "o2r#"
+          },
+          {
+            "vendor": "bkng",
+            "price": 1882.92,
+            "vendor_id_raw": "718811",
+            "mota_code": null,
+            "jc_code": "",
+            "partner_name": "Booking.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/bkng/logo.svg?pos=zz&chains=fshr",
+            "room_name": "Villa",
+            "brf": 9471104,
+            "brt": "o2r#"
+          },
+          {
+            "vendor": "agda",
+            "price": 1865.7,
+            "vendor_id_raw": "5436115",
+            "mota_code": null,
+            "jc_code": "",
+            "partner_name": "Agoda",
+            "partner_logo": "https://hotelscan.com/apis/vendors/agda/logo.svg?pos=zz&chains=fshr",
+            "room_name": "Villa",
+            "brf": 9471104,
+            "brt": "o2r#"
+          },
+          {
+            "vendor": "ctrp",
+            "price": 1865.7,
+            "vendor_id_raw": "2954247",
+            "mota_code": null,
+            "jc_code": "TRIPCOM",
+            "partner_name": "Trip.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/ctrp/logo.svg?pos=zz&chains=fshr",
+            "room_name": "Villa",
+            "brf": 9471040,
+            "brt": "o2r#"
+          },
+          {
+            "vendor": "expd",
+            "price": 1882.08,
+            "vendor_id_raw": "1392594",
+            "mota_code": null,
+            "jc_code": "EXPEDIA",
+            "partner_name": "Expedia",
+            "partner_logo": "https://hotelscan.com/apis/vendors/expd/logo.svg?pos=zz&chains=fshr",
+            "room_name": "Villa",
+            "brf": 9470016,
+            "brt": "o2r#"
+          },
+          {
+            "vendor": "ostr",
+            "price": 1865.7,
+            "vendor_id_raw": "8469912",
+            "mota_code": null,
+            "jc_code": "",
+            "partner_name": "Zenhotels",
+            "partner_logo": "https://hotelscan.com/apis/vendors/ostr/logo.svg?pos=zz&chains=fshr",
+            "room_name": "Villa",
+            "brf": 9470016,
+            "brt": "o2r#"
+          }
+        ],
+        "all_offers": [
+          {
+            "price": 1865.7,
+            "brt": "o2r#",
+            "rf": "o2r#",
+            "brf": 9471104,
+            "rt": 9471104,
+            "vendor": "agda",
+            "vendor_id_raw": "5436115",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included",
+              "Sea view",
+              "Pay at the property"
+            ],
+            "jc_code": "",
+            "chain": "fshr",
+            "free_cancellation": false,
+            "special": false,
+            "room_name": "Villa",
+            "rooms": [
+              {
+                "name": "Villa",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included",
+              "view_sea": "Sea view",
+              "pay_at_hotel": "Pay at the property"
+            },
+            "partner_name": "Agoda",
+            "partner_logo": "https://hotelscan.com/apis/vendors/agda/logo.svg?pos=zz&chains=fshr"
+          },
+          {
+            "price": 1865.7,
+            "brt": "o2r#",
+            "rf": "o2r#",
+            "brf": 9471040,
+            "rt": 9471040,
+            "vendor": "ctrp",
+            "vendor_id_raw": "2954247",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included",
+              "Sea view"
+            ],
+            "jc_code": "TRIPCOM",
+            "chain": "fshr",
+            "free_cancellation": false,
+            "special": false,
+            "room_name": "Villa",
+            "rooms": [
+              {
+                "name": "Villa",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included",
+              "view_sea": "Sea view"
+            },
+            "partner_name": "Trip.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/ctrp/logo.svg?pos=zz&chains=fshr"
+          },
+          {
+            "price": 1865.7,
+            "brt": "o2r#",
+            "rf": "o2r#",
+            "brf": 9470016,
+            "rt": 9470016,
+            "vendor": "ostr",
+            "vendor_id_raw": "8469912",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included"
+            ],
+            "jc_code": "",
+            "chain": "fshr",
+            "free_cancellation": false,
+            "special": false,
+            "room_name": "Villa",
+            "rooms": [
+              {
+                "name": "Villa",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included"
+            },
+            "partner_name": "Zenhotels",
+            "partner_logo": "https://hotelscan.com/apis/vendors/ostr/logo.svg?pos=zz&chains=fshr"
+          },
+          {
+            "price": 1881.66,
+            "brt": "o2r#k",
+            "rf": "o2r#k",
+            "brf": 9503808,
+            "rt": 9503808,
+            "vendor": "drbs",
+            "vendor_id_raw": "FOURSEASONS-64981",
+            "mota_code": null,
+            "direct_offer": true,
+            "offer_flags": [
+              "Breakfast included",
+              "Free cancellation",
+              "Sea view"
+            ],
+            "jc_code": "",
+            "chain": "fshr",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Villa - King bed",
+            "rooms": [
+              {
+                "name": "Villa - King bed",
+                "flags": [
+                  "King bed"
+                ]
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included",
+              "refundable": "Free cancellation",
+              "view_sea": "Sea view"
+            },
+            "partner_name": "Four Seasons Hotels and Resorts",
+            "partner_logo": "https://hotelscan.com/apis/vendors/drbs/logo.svg?pos=zz&chains=fshr"
+          },
+          {
+            "price": 1882.08,
+            "brt": "o2r#",
+            "rf": "o2r#",
+            "brf": 9470016,
+            "rt": 9470016,
+            "vendor": "htls",
+            "vendor_id_raw": "45563008",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included"
+            ],
+            "jc_code": "",
+            "chain": "fshr",
+            "free_cancellation": false,
+            "special": false,
+            "room_name": "Villa",
+            "rooms": [
+              {
+                "name": "Villa",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included"
+            },
+            "partner_name": "Hotels.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/htls/logo.svg?pos=zz&chains=fshr"
+          },
+          {
+            "price": 1882.08,
+            "brt": "o2r#",
+            "rf": "o2r#",
+            "brf": 9470016,
+            "rt": 9470016,
+            "vendor": "expd",
+            "vendor_id_raw": "1392594",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included"
+            ],
+            "jc_code": "EXPEDIA",
+            "chain": "fshr",
+            "free_cancellation": false,
+            "special": false,
+            "room_name": "Villa",
+            "rooms": [
+              {
+                "name": "Villa",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included"
+            },
+            "partner_name": "Expedia",
+            "partner_logo": "https://hotelscan.com/apis/vendors/expd/logo.svg?pos=zz&chains=fshr"
+          },
+          {
+            "price": 1882.92,
+            "brt": "o2r#",
+            "rf": "o2r#",
+            "brf": 9471104,
+            "rt": 9471104,
+            "vendor": "bkng",
+            "vendor_id_raw": "718811",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included",
+              "Sea view",
+              "Pay at the property"
+            ],
+            "jc_code": "",
+            "chain": "fshr",
+            "free_cancellation": false,
+            "special": false,
+            "room_name": "Villa",
+            "rooms": [
+              {
+                "name": "Villa",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included",
+              "view_sea": "Sea view",
+              "pay_at_hotel": "Pay at the property"
+            },
+            "partner_name": "Booking.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/bkng/logo.svg?pos=zz&chains=fshr"
+          },
+          {
+            "price": 1890.86,
+            "brt": "g2l#k",
+            "rf": "g2l#k",
+            "brf": 9470080,
+            "rt": 9470080,
+            "vendor": "agda",
+            "vendor_id_raw": "5436115",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included",
+              "Pay at the property"
+            ],
+            "jc_code": "",
+            "chain": "fshr",
+            "free_cancellation": false,
+            "special": false,
+            "room_name": "Premier bungalow - King bed",
+            "rooms": [
+              {
+                "name": "Premier bungalow - King bed",
+                "flags": [
+                  "King bed"
+                ]
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included",
+              "pay_at_hotel": "Pay at the property"
+            },
+            "partner_name": "Agoda",
+            "partner_logo": "https://hotelscan.com/apis/vendors/agda/logo.svg?pos=zz&chains=fshr"
+          },
+          {
+            "price": 1907.04,
+            "brt": "g2l#k",
+            "rf": "g2l#k",
+            "brf": 9502784,
+            "rt": 9502784,
+            "vendor": "drbs",
+            "vendor_id_raw": "FOURSEASONS-64981",
+            "mota_code": null,
+            "direct_offer": true,
+            "offer_flags": [
+              "Breakfast included",
+              "Free cancellation"
+            ],
+            "jc_code": "",
+            "chain": "fshr",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Premier bungalow - King bed",
+            "rooms": [
+              {
+                "name": "Premier bungalow - King bed",
+                "flags": [
+                  "King bed"
+                ]
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included",
+              "refundable": "Free cancellation"
+            },
+            "partner_name": "Four Seasons Hotels and Resorts",
+            "partner_logo": "https://hotelscan.com/apis/vendors/drbs/logo.svg?pos=zz&chains=fshr"
+          },
+          {
+            "price": 1907.46,
+            "brt": "g2l#k",
+            "rf": "g2l#k",
+            "brf": 9470016,
+            "rt": 9470016,
+            "vendor": "htls",
+            "vendor_id_raw": "45563008",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included"
+            ],
+            "jc_code": "",
+            "chain": "fshr",
+            "free_cancellation": false,
+            "special": false,
+            "room_name": "Premier bungalow - King bed",
+            "rooms": [
+              {
+                "name": "Premier bungalow - King bed",
+                "flags": [
+                  "King bed"
+                ]
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included"
+            },
+            "partner_name": "Hotels.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/htls/logo.svg?pos=zz&chains=fshr"
+          },
+          {
+            "price": 1907.46,
+            "brt": "g2l#k",
+            "rf": "g2l#k",
+            "brf": 9470016,
+            "rt": 9470016,
+            "vendor": "expd",
+            "vendor_id_raw": "1392594",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included"
+            ],
+            "jc_code": "EXPEDIA",
+            "chain": "fshr",
+            "free_cancellation": false,
+            "special": false,
+            "room_name": "Premier bungalow - King bed",
+            "rooms": [
+              {
+                "name": "Premier bungalow - King bed",
+                "flags": [
+                  "King bed"
+                ]
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included"
+            },
+            "partner_name": "Expedia",
+            "partner_logo": "https://hotelscan.com/apis/vendors/expd/logo.svg?pos=zz&chains=fshr"
+          },
+          {
+            "price": 1908.32,
+            "brt": "g2l#k",
+            "rf": "g2l#k",
+            "brf": 9470080,
+            "rt": 9470080,
+            "vendor": "bkng",
+            "vendor_id_raw": "718811",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included",
+              "Pay at the property"
+            ],
+            "jc_code": "",
+            "chain": "fshr",
+            "free_cancellation": false,
+            "special": false,
+            "room_name": "Premier bungalow - King bed",
+            "rooms": [
+              {
+                "name": "Premier bungalow - King bed",
+                "flags": [
+                  "King bed"
+                ]
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included",
+              "pay_at_hotel": "Pay at the property"
+            },
+            "partner_name": "Booking.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/bkng/logo.svg?pos=zz&chains=fshr"
+          },
+          {
+            "price": 2039.23,
+            "brt": "o2r#",
+            "rf": "o2r#",
+            "brf": 9470080,
+            "rt": 9470080,
+            "vendor": "agda",
+            "vendor_id_raw": "5436115",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included",
+              "Pay at the property"
+            ],
+            "jc_code": "",
+            "chain": "fshr",
+            "free_cancellation": false,
+            "special": false,
+            "room_name": "Villa",
+            "rooms": [
+              {
+                "name": "Villa",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included",
+              "pay_at_hotel": "Pay at the property"
+            },
+            "partner_name": "Agoda",
+            "partner_logo": "https://hotelscan.com/apis/vendors/agda/logo.svg?pos=zz&chains=fshr"
+          },
+          {
+            "price": 2039.24,
+            "brt": "o2r#k",
+            "rf": "o2r#k",
+            "brf": 9470016,
+            "rt": 9470016,
+            "vendor": "ostr",
+            "vendor_id_raw": "8469912",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included"
+            ],
+            "jc_code": "",
+            "chain": "fshr",
+            "free_cancellation": false,
+            "special": false,
+            "room_name": "Villa - King bed",
+            "rooms": [
+              {
+                "name": "Villa - King bed",
+                "flags": [
+                  "King bed"
+                ]
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included"
+            },
+            "partner_name": "Zenhotels",
+            "partner_logo": "https://hotelscan.com/apis/vendors/ostr/logo.svg?pos=zz&chains=fshr"
+          },
+          {
+            "price": 2056.67,
+            "brt": "o2r#k",
+            "rf": "o2r#k",
+            "brf": 9502784,
+            "rt": 9502784,
+            "vendor": "drbs",
+            "vendor_id_raw": "FOURSEASONS-64981",
+            "mota_code": null,
+            "direct_offer": true,
+            "offer_flags": [
+              "Breakfast included",
+              "Free cancellation"
+            ],
+            "jc_code": "",
+            "chain": "fshr",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Villa - King bed",
+            "rooms": [
+              {
+                "name": "Villa - King bed",
+                "flags": [
+                  "King bed"
+                ]
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included",
+              "refundable": "Free cancellation"
+            },
+            "partner_name": "Four Seasons Hotels and Resorts",
+            "partner_logo": "https://hotelscan.com/apis/vendors/drbs/logo.svg?pos=zz&chains=fshr"
+          },
+          {
+            "price": 2057.14,
+            "brt": "o2r#k",
+            "rf": "o2r#k",
+            "brf": 9470016,
+            "rt": 9470016,
+            "vendor": "htls",
+            "vendor_id_raw": "45563008",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included"
+            ],
+            "jc_code": "",
+            "chain": "fshr",
+            "free_cancellation": false,
+            "special": false,
+            "room_name": "Villa - King bed",
+            "rooms": [
+              {
+                "name": "Villa - King bed",
+                "flags": [
+                  "King bed"
+                ]
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included"
+            },
+            "partner_name": "Hotels.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/htls/logo.svg?pos=zz&chains=fshr"
+          },
+          {
+            "price": 2057.14,
+            "brt": "o2r#k",
+            "rf": "o2r#k",
+            "brf": 9470016,
+            "rt": 9470016,
+            "vendor": "expd",
+            "vendor_id_raw": "1392594",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included"
+            ],
+            "jc_code": "EXPEDIA",
+            "chain": "fshr",
+            "free_cancellation": false,
+            "special": false,
+            "room_name": "Villa - King bed",
+            "rooms": [
+              {
+                "name": "Villa - King bed",
+                "flags": [
+                  "King bed"
+                ]
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included"
+            },
+            "partner_name": "Expedia",
+            "partner_logo": "https://hotelscan.com/apis/vendors/expd/logo.svg?pos=zz&chains=fshr"
+          },
+          {
+            "price": 2058.06,
+            "brt": "o2r#",
+            "rf": "o2r#",
+            "brf": 9470080,
+            "rt": 9470080,
+            "vendor": "bkng",
+            "vendor_id_raw": "718811",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included",
+              "Pay at the property"
+            ],
+            "jc_code": "",
+            "chain": "fshr",
+            "free_cancellation": false,
+            "special": false,
+            "room_name": "Villa",
+            "rooms": [
+              {
+                "name": "Villa",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included",
+              "pay_at_hotel": "Pay at the property"
+            },
+            "partner_name": "Booking.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/bkng/logo.svg?pos=zz&chains=fshr"
+          },
+          {
+            "price": 2346.97,
+            "brt": "o2r#k",
+            "rf": "o2r#k",
+            "brf": 9503808,
+            "rt": 9503808,
+            "vendor": "drbs",
+            "vendor_id_raw": "FOURSEASONS-64981",
+            "mota_code": null,
+            "direct_offer": true,
+            "offer_flags": [
+              "Breakfast included",
+              "Free cancellation",
+              "Sea view"
+            ],
+            "jc_code": "",
+            "chain": "fshr",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Villa - King bed",
+            "rooms": [
+              {
+                "name": "Villa - King bed",
+                "flags": [
+                  "King bed"
+                ]
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included",
+              "refundable": "Free cancellation",
+              "view_sea": "Sea view"
+            },
+            "partner_name": "Four Seasons Hotels and Resorts",
+            "partner_logo": "https://hotelscan.com/apis/vendors/drbs/logo.svg?pos=zz&chains=fshr"
+          },
+          {
+            "price": 2378.7,
+            "brt": "g2l#k",
+            "rf": "g2l#k",
+            "brf": 9502784,
+            "rt": 9502784,
+            "vendor": "drbs",
+            "vendor_id_raw": "FOURSEASONS-64981",
+            "mota_code": null,
+            "direct_offer": true,
+            "offer_flags": [
+              "Breakfast included",
+              "Free cancellation"
+            ],
+            "jc_code": "",
+            "chain": "fshr",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Premier bungalow - King bed",
+            "rooms": [
+              {
+                "name": "Premier bungalow - King bed",
+                "flags": [
+                  "King bed"
+                ]
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included",
+              "refundable": "Free cancellation"
+            },
+            "partner_name": "Four Seasons Hotels and Resorts",
+            "partner_logo": "https://hotelscan.com/apis/vendors/drbs/logo.svg?pos=zz&chains=fshr"
+          },
+          {
+            "price": 2379.24,
+            "brt": "g2l#k",
+            "rf": "g2l#k",
+            "brf": 9470016,
+            "rt": 9470016,
+            "vendor": "htls",
+            "vendor_id_raw": "45563008",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included"
+            ],
+            "jc_code": "",
+            "chain": "fshr",
+            "free_cancellation": false,
+            "special": false,
+            "room_name": "Premier bungalow - King bed",
+            "rooms": [
+              {
+                "name": "Premier bungalow - King bed",
+                "flags": [
+                  "King bed"
+                ]
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included"
+            },
+            "partner_name": "Hotels.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/htls/logo.svg?pos=zz&chains=fshr"
+          },
+          {
+            "price": 2379.24,
+            "brt": "g2l#k",
+            "rf": "g2l#k",
+            "brf": 9470016,
+            "rt": 9470016,
+            "vendor": "expd",
+            "vendor_id_raw": "1392594",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included"
+            ],
+            "jc_code": "EXPEDIA",
+            "chain": "fshr",
+            "free_cancellation": false,
+            "special": false,
+            "room_name": "Premier bungalow - King bed",
+            "rooms": [
+              {
+                "name": "Premier bungalow - King bed",
+                "flags": [
+                  "King bed"
+                ]
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included"
+            },
+            "partner_name": "Expedia",
+            "partner_logo": "https://hotelscan.com/apis/vendors/expd/logo.svg?pos=zz&chains=fshr"
+          },
+          {
+            "price": 2466.98,
+            "brt": "o2r#t",
+            "rf": "o2r#t",
+            "brf": 9470080,
+            "rt": 9470080,
+            "vendor": "agda",
+            "vendor_id_raw": "5436115",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included",
+              "Pay at the property"
+            ],
+            "jc_code": "",
+            "chain": "fshr",
+            "free_cancellation": false,
+            "special": false,
+            "room_name": "Villa - Twin beds",
+            "rooms": [
+              {
+                "name": "Villa - Twin beds",
+                "flags": [
+                  "Twin beds"
+                ]
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included",
+              "pay_at_hotel": "Pay at the property"
+            },
+            "partner_name": "Agoda",
+            "partner_logo": "https://hotelscan.com/apis/vendors/agda/logo.svg?pos=zz&chains=fshr"
+          },
+          {
+            "price": 2488.08,
+            "brt": "o2r#k",
+            "rf": "o2r#k",
+            "brf": 9502784,
+            "rt": 9502784,
+            "vendor": "drbs",
+            "vendor_id_raw": "FOURSEASONS-64981",
+            "mota_code": null,
+            "direct_offer": true,
+            "offer_flags": [
+              "Breakfast included",
+              "Free cancellation"
+            ],
+            "jc_code": "",
+            "chain": "fshr",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Villa - King bed",
+            "rooms": [
+              {
+                "name": "Villa - King bed",
+                "flags": [
+                  "King bed"
+                ]
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included",
+              "refundable": "Free cancellation"
+            },
+            "partner_name": "Four Seasons Hotels and Resorts",
+            "partner_logo": "https://hotelscan.com/apis/vendors/drbs/logo.svg?pos=zz&chains=fshr"
+          },
+          {
+            "price": 2488.64,
+            "brt": "o2r#t",
+            "rf": "o2r#t",
+            "brf": 9470016,
+            "rt": 9470016,
+            "vendor": "htls",
+            "vendor_id_raw": "45563008",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included"
+            ],
+            "jc_code": "",
+            "chain": "fshr",
+            "free_cancellation": false,
+            "special": false,
+            "room_name": "Villa - Twin beds",
+            "rooms": [
+              {
+                "name": "Villa - Twin beds",
+                "flags": [
+                  "Twin beds"
+                ]
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included"
+            },
+            "partner_name": "Hotels.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/htls/logo.svg?pos=zz&chains=fshr"
+          },
+          {
+            "price": 2488.64,
+            "brt": "o2r#t",
+            "rf": "o2r#t",
+            "brf": 9470016,
+            "rt": 9470016,
+            "vendor": "expd",
+            "vendor_id_raw": "1392594",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included"
+            ],
+            "jc_code": "EXPEDIA",
+            "chain": "fshr",
+            "free_cancellation": false,
+            "special": false,
+            "room_name": "Villa - Twin beds",
+            "rooms": [
+              {
+                "name": "Villa - Twin beds",
+                "flags": [
+                  "Twin beds"
+                ]
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included"
+            },
+            "partner_name": "Expedia",
+            "partner_logo": "https://hotelscan.com/apis/vendors/expd/logo.svg?pos=zz&chains=fshr"
+          },
+          {
+            "price": 2489.76,
+            "brt": "o2r#",
+            "rf": "o2r#",
+            "brf": 9470080,
+            "rt": 9470080,
+            "vendor": "bkng",
+            "vendor_id_raw": "718811",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included",
+              "Pay at the property"
+            ],
+            "jc_code": "",
+            "chain": "fshr",
+            "free_cancellation": false,
+            "special": false,
+            "room_name": "Villa",
+            "rooms": [
+              {
+                "name": "Villa",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included",
+              "pay_at_hotel": "Pay at the property"
+            },
+            "partner_name": "Booking.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/bkng/logo.svg?pos=zz&chains=fshr"
+          },
+          {
+            "price": 2543.98,
+            "brt": "o2r#k",
+            "rf": "o2r#k",
+            "brf": 8421440,
+            "rt": 8421440,
+            "vendor": "ostr",
+            "vendor_id_raw": "8469912",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [],
+            "jc_code": "",
+            "chain": "fshr",
+            "free_cancellation": false,
+            "special": false,
+            "room_name": "Villa - King bed",
+            "rooms": [
+              {
+                "name": "Villa - King bed",
+                "flags": [
+                  "King bed"
+                ]
+              }
+            ],
+            "offer_flags_new": [],
+            "partner_name": "Zenhotels",
+            "partner_logo": "https://hotelscan.com/apis/vendors/ostr/logo.svg?pos=zz&chains=fshr"
+          },
+          {
+            "price": 2555.47,
+            "brt": "o2r#",
+            "rf": "o2r#",
+            "brf": 9470080,
+            "rt": 9470080,
+            "vendor": "agda",
+            "vendor_id_raw": "5436115",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included",
+              "Pay at the property"
+            ],
+            "jc_code": "",
+            "chain": "fshr",
+            "free_cancellation": false,
+            "special": false,
+            "room_name": "Villa",
+            "rooms": [
+              {
+                "name": "Villa",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included",
+              "pay_at_hotel": "Pay at the property"
+            },
+            "partner_name": "Agoda",
+            "partner_logo": "https://hotelscan.com/apis/vendors/agda/logo.svg?pos=zz&chains=fshr"
+          },
+          {
+            "price": 2566.31,
+            "brt": "o2r#k",
+            "rf": "o2r#k",
+            "brf": 9470016,
+            "rt": 9470016,
+            "vendor": "htls",
+            "vendor_id_raw": "45563008",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included"
+            ],
+            "jc_code": "",
+            "chain": "fshr",
+            "free_cancellation": false,
+            "special": false,
+            "room_name": "Villa - King bed",
+            "rooms": [
+              {
+                "name": "Villa - King bed",
+                "flags": [
+                  "King bed"
+                ]
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included"
+            },
+            "partner_name": "Hotels.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/htls/logo.svg?pos=zz&chains=fshr"
+          },
+          {
+            "price": 2566.31,
+            "brt": "o2r#k",
+            "rf": "o2r#k",
+            "brf": 9470016,
+            "rt": 9470016,
+            "vendor": "expd",
+            "vendor_id_raw": "1392594",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included"
+            ],
+            "jc_code": "EXPEDIA",
+            "chain": "fshr",
+            "free_cancellation": false,
+            "special": false,
+            "room_name": "Villa - King bed",
+            "rooms": [
+              {
+                "name": "Villa - King bed",
+                "flags": [
+                  "King bed"
+                ]
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included"
+            },
+            "partner_name": "Expedia",
+            "partner_logo": "https://hotelscan.com/apis/vendors/expd/logo.svg?pos=zz&chains=fshr"
+          },
+          {
+            "price": 2577.92,
+            "brt": "o2r#k",
+            "rf": "o2r#k",
+            "brf": 9470016,
+            "rt": 9470016,
+            "vendor": "htls",
+            "vendor_id_raw": "45563008",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included"
+            ],
+            "jc_code": "",
+            "chain": "fshr",
+            "free_cancellation": false,
+            "special": false,
+            "room_name": "Villa - King bed",
+            "rooms": [
+              {
+                "name": "Villa - King bed",
+                "flags": [
+                  "King bed"
+                ]
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included"
+            },
+            "partner_name": "Hotels.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/htls/logo.svg?pos=zz&chains=fshr"
+          },
+          {
+            "price": 2577.92,
+            "brt": "o2r#k",
+            "rf": "o2r#k",
+            "brf": 9470016,
+            "rt": 9470016,
+            "vendor": "expd",
+            "vendor_id_raw": "1392594",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included"
+            ],
+            "jc_code": "EXPEDIA",
+            "chain": "fshr",
+            "free_cancellation": false,
+            "special": false,
+            "room_name": "Villa - King bed",
+            "rooms": [
+              {
+                "name": "Villa - King bed",
+                "flags": [
+                  "King bed"
+                ]
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included"
+            },
+            "partner_name": "Expedia",
+            "partner_logo": "https://hotelscan.com/apis/vendors/expd/logo.svg?pos=zz&chains=fshr"
+          },
+          {
+            "price": 2579.07,
+            "brt": "o2r#",
+            "rf": "o2r#",
+            "brf": 9470080,
+            "rt": 9470080,
+            "vendor": "bkng",
+            "vendor_id_raw": "718811",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included",
+              "Pay at the property"
+            ],
+            "jc_code": "",
+            "chain": "fshr",
+            "free_cancellation": false,
+            "special": false,
+            "room_name": "Villa",
+            "rooms": [
+              {
+                "name": "Villa",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included",
+              "pay_at_hotel": "Pay at the property"
+            },
+            "partner_name": "Booking.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/bkng/logo.svg?pos=zz&chains=fshr"
+          },
+          {
+            "price": 2579.77,
+            "brt": "g2q#k",
+            "rf": "g2q#k",
+            "brf": 9470080,
+            "rt": 9470080,
+            "vendor": "agda",
+            "vendor_id_raw": "5436115",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included",
+              "Pay at the property"
+            ],
+            "jc_code": "",
+            "chain": "fshr",
+            "free_cancellation": false,
+            "special": false,
+            "room_name": "Family bungalow - King bed",
+            "rooms": [
+              {
+                "name": "Family bungalow - King bed",
+                "flags": [
+                  "King bed"
+                ]
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included",
+              "pay_at_hotel": "Pay at the property"
+            },
+            "partner_name": "Agoda",
+            "partner_logo": "https://hotelscan.com/apis/vendors/agda/logo.svg?pos=zz&chains=fshr"
+          },
+          {
+            "price": 2579.77,
+            "brt": "g2q#",
+            "rf": "g2q#",
+            "brf": 9470016,
+            "rt": 9470016,
+            "vendor": "ostr",
+            "vendor_id_raw": "8469912",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included"
+            ],
+            "jc_code": "",
+            "chain": "fshr",
+            "free_cancellation": false,
+            "special": false,
+            "room_name": "Family bungalow",
+            "rooms": [
+              {
+                "name": "Family bungalow",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included"
+            },
+            "partner_name": "Zenhotels",
+            "partner_logo": "https://hotelscan.com/apis/vendors/ostr/logo.svg?pos=zz&chains=fshr"
+          },
+          {
+            "price": 2602.43,
+            "brt": "g2q#k",
+            "rf": "g2q#k",
+            "brf": 9470016,
+            "rt": 9470016,
+            "vendor": "htls",
+            "vendor_id_raw": "45563008",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included"
+            ],
+            "jc_code": "",
+            "chain": "fshr",
+            "free_cancellation": false,
+            "special": false,
+            "room_name": "Family bungalow - King bed",
+            "rooms": [
+              {
+                "name": "Family bungalow - King bed",
+                "flags": [
+                  "King bed"
+                ]
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included"
+            },
+            "partner_name": "Hotels.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/htls/logo.svg?pos=zz&chains=fshr"
+          },
+          {
+            "price": 2602.43,
+            "brt": "g2q#k",
+            "rf": "g2q#k",
+            "brf": 9470016,
+            "rt": 9470016,
+            "vendor": "expd",
+            "vendor_id_raw": "1392594",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included"
+            ],
+            "jc_code": "EXPEDIA",
+            "chain": "fshr",
+            "free_cancellation": false,
+            "special": false,
+            "room_name": "Family bungalow - King bed",
+            "rooms": [
+              {
+                "name": "Family bungalow - King bed",
+                "flags": [
+                  "King bed"
+                ]
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included"
+            },
+            "partner_name": "Expedia",
+            "partner_logo": "https://hotelscan.com/apis/vendors/expd/logo.svg?pos=zz&chains=fshr"
+          },
+          {
+            "price": 2603.59,
+            "brt": "g2q#k",
+            "rf": "g2q#k",
+            "brf": 9470080,
+            "rt": 9470080,
+            "vendor": "bkng",
+            "vendor_id_raw": "718811",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included",
+              "Pay at the property"
+            ],
+            "jc_code": "",
+            "chain": "fshr",
+            "free_cancellation": false,
+            "special": false,
+            "room_name": "Family bungalow - King bed",
+            "rooms": [
+              {
+                "name": "Family bungalow - King bed",
+                "flags": [
+                  "King bed"
+                ]
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included",
+              "pay_at_hotel": "Pay at the property"
+            },
+            "partner_name": "Booking.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/bkng/logo.svg?pos=zz&chains=fshr"
+          },
+          {
+            "price": 2646.58,
+            "brt": "o2q#",
+            "rf": "o2q#",
+            "brf": 9470080,
+            "rt": 9470080,
+            "vendor": "agda",
+            "vendor_id_raw": "5436115",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included",
+              "Pay at the property"
+            ],
+            "jc_code": "",
+            "chain": "fshr",
+            "free_cancellation": false,
+            "special": false,
+            "room_name": "Family villa",
+            "rooms": [
+              {
+                "name": "Family villa",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included",
+              "pay_at_hotel": "Pay at the property"
+            },
+            "partner_name": "Agoda",
+            "partner_logo": "https://hotelscan.com/apis/vendors/agda/logo.svg?pos=zz&chains=fshr"
+          },
+          {
+            "price": 2669.82,
+            "brt": "o2q#k",
+            "rf": "o2q#k",
+            "brf": 9470016,
+            "rt": 9470016,
+            "vendor": "htls",
+            "vendor_id_raw": "45563008",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included"
+            ],
+            "jc_code": "",
+            "chain": "fshr",
+            "free_cancellation": false,
+            "special": false,
+            "room_name": "Family villa - King bed",
+            "rooms": [
+              {
+                "name": "Family villa - King bed",
+                "flags": [
+                  "King bed"
+                ]
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included"
+            },
+            "partner_name": "Hotels.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/htls/logo.svg?pos=zz&chains=fshr"
+          },
+          {
+            "price": 2669.82,
+            "brt": "o2q#k",
+            "rf": "o2q#k",
+            "brf": 9470016,
+            "rt": 9470016,
+            "vendor": "expd",
+            "vendor_id_raw": "1392594",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included"
+            ],
+            "jc_code": "EXPEDIA",
+            "chain": "fshr",
+            "free_cancellation": false,
+            "special": false,
+            "room_name": "Family villa - King bed",
+            "rooms": [
+              {
+                "name": "Family villa - King bed",
+                "flags": [
+                  "King bed"
+                ]
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included"
+            },
+            "partner_name": "Expedia",
+            "partner_logo": "https://hotelscan.com/apis/vendors/expd/logo.svg?pos=zz&chains=fshr"
+          },
+          {
+            "price": 2671.02,
+            "brt": "o2q#",
+            "rf": "o2q#",
+            "brf": 9470080,
+            "rt": 9470080,
+            "vendor": "bkng",
+            "vendor_id_raw": "718811",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included",
+              "Pay at the property"
+            ],
+            "jc_code": "",
+            "chain": "fshr",
+            "free_cancellation": false,
+            "special": false,
+            "room_name": "Family villa",
+            "rooms": [
+              {
+                "name": "Family villa",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included",
+              "pay_at_hotel": "Pay at the property"
+            },
+            "partner_name": "Booking.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/bkng/logo.svg?pos=zz&chains=fshr"
+          },
+          {
+            "price": 3076.06,
+            "brt": "o2q#",
+            "rf": "o2q#",
+            "brf": 9470080,
+            "rt": 9470080,
+            "vendor": "agda",
+            "vendor_id_raw": "5436115",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included",
+              "Pay at the property"
+            ],
+            "jc_code": "",
+            "chain": "fshr",
+            "free_cancellation": false,
+            "special": false,
+            "room_name": "Family villa",
+            "rooms": [
+              {
+                "name": "Family villa",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included",
+              "pay_at_hotel": "Pay at the property"
+            },
+            "partner_name": "Agoda",
+            "partner_logo": "https://hotelscan.com/apis/vendors/agda/logo.svg?pos=zz&chains=fshr"
+          },
+          {
+            "price": 3103.08,
+            "brt": "o2q#k",
+            "rf": "o2q#k",
+            "brf": 9470016,
+            "rt": 9470016,
+            "vendor": "htls",
+            "vendor_id_raw": "45563008",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included"
+            ],
+            "jc_code": "",
+            "chain": "fshr",
+            "free_cancellation": false,
+            "special": false,
+            "room_name": "Family villa - King bed",
+            "rooms": [
+              {
+                "name": "Family villa - King bed",
+                "flags": [
+                  "King bed"
+                ]
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included"
+            },
+            "partner_name": "Hotels.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/htls/logo.svg?pos=zz&chains=fshr"
+          },
+          {
+            "price": 3103.08,
+            "brt": "o2q#k",
+            "rf": "o2q#k",
+            "brf": 9470016,
+            "rt": 9470016,
+            "vendor": "expd",
+            "vendor_id_raw": "1392594",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included"
+            ],
+            "jc_code": "EXPEDIA",
+            "chain": "fshr",
+            "free_cancellation": false,
+            "special": false,
+            "room_name": "Family villa - King bed",
+            "rooms": [
+              {
+                "name": "Family villa - King bed",
+                "flags": [
+                  "King bed"
+                ]
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included"
+            },
+            "partner_name": "Expedia",
+            "partner_logo": "https://hotelscan.com/apis/vendors/expd/logo.svg?pos=zz&chains=fshr"
+          },
+          {
+            "price": 3104.47,
+            "brt": "o2q#",
+            "rf": "o2q#",
+            "brf": 9470080,
+            "rt": 9470080,
+            "vendor": "bkng",
+            "vendor_id_raw": "718811",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included",
+              "Pay at the property"
+            ],
+            "jc_code": "",
+            "chain": "fshr",
+            "free_cancellation": false,
+            "special": false,
+            "room_name": "Family villa",
+            "rooms": [
+              {
+                "name": "Family villa",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included",
+              "pay_at_hotel": "Pay at the property"
+            },
+            "partner_name": "Booking.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/bkng/logo.svg?pos=zz&chains=fshr"
+          },
+          {
+            "price": 3105.69,
+            "brt": "o2r#k",
+            "rf": "o2r#k",
+            "brf": 9470016,
+            "rt": 9470016,
+            "vendor": "htls",
+            "vendor_id_raw": "45563008",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included"
+            ],
+            "jc_code": "",
+            "chain": "fshr",
+            "free_cancellation": false,
+            "special": false,
+            "room_name": "Villa - King bed",
+            "rooms": [
+              {
+                "name": "Villa - King bed",
+                "flags": [
+                  "King bed"
+                ]
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included"
+            },
+            "partner_name": "Hotels.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/htls/logo.svg?pos=zz&chains=fshr"
+          },
+          {
+            "price": 3105.69,
+            "brt": "o2r#k",
+            "rf": "o2r#k",
+            "brf": 9470016,
+            "rt": 9470016,
+            "vendor": "expd",
+            "vendor_id_raw": "1392594",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included"
+            ],
+            "jc_code": "EXPEDIA",
+            "chain": "fshr",
+            "free_cancellation": false,
+            "special": false,
+            "room_name": "Villa - King bed",
+            "rooms": [
+              {
+                "name": "Villa - King bed",
+                "flags": [
+                  "King bed"
+                ]
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included"
+            },
+            "partner_name": "Expedia",
+            "partner_logo": "https://hotelscan.com/apis/vendors/expd/logo.svg?pos=zz&chains=fshr"
+          },
+          {
+            "price": 3127.57,
+            "brt": "o2q#",
+            "rf": "o2q#",
+            "brf": 9470016,
+            "rt": 9470016,
+            "vendor": "htls",
+            "vendor_id_raw": "45563008",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included"
+            ],
+            "jc_code": "",
+            "chain": "fshr",
+            "free_cancellation": false,
+            "special": false,
+            "room_name": "Family villa",
+            "rooms": [
+              {
+                "name": "Family villa",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included"
+            },
+            "partner_name": "Hotels.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/htls/logo.svg?pos=zz&chains=fshr"
+          },
+          {
+            "price": 3127.57,
+            "brt": "o2q#",
+            "rf": "o2q#",
+            "brf": 9470016,
+            "rt": 9470016,
+            "vendor": "expd",
+            "vendor_id_raw": "1392594",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included"
+            ],
+            "jc_code": "EXPEDIA",
+            "chain": "fshr",
+            "free_cancellation": false,
+            "special": false,
+            "room_name": "Family villa",
+            "rooms": [
+              {
+                "name": "Family villa",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included"
+            },
+            "partner_name": "Expedia",
+            "partner_logo": "https://hotelscan.com/apis/vendors/expd/logo.svg?pos=zz&chains=fshr"
+          },
+          {
+            "price": 3128.99,
+            "brt": "o2q#",
+            "rf": "o2q#",
+            "brf": 9470080,
+            "rt": 9470080,
+            "vendor": "bkng",
+            "vendor_id_raw": "718811",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included",
+              "Pay at the property"
+            ],
+            "jc_code": "",
+            "chain": "fshr",
+            "free_cancellation": false,
+            "special": false,
+            "room_name": "Family villa",
+            "rooms": [
+              {
+                "name": "Family villa",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included",
+              "pay_at_hotel": "Pay at the property"
+            },
+            "partner_name": "Booking.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/bkng/logo.svg?pos=zz&chains=fshr"
+          },
+          {
+            "price": 3217.29,
+            "brt": "o2r#k",
+            "rf": "o2r#k",
+            "brf": 9470016,
+            "rt": 9470016,
+            "vendor": "htls",
+            "vendor_id_raw": "45563008",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included"
+            ],
+            "jc_code": "",
+            "chain": "fshr",
+            "free_cancellation": false,
+            "special": false,
+            "room_name": "Villa - King bed",
+            "rooms": [
+              {
+                "name": "Villa - King bed",
+                "flags": [
+                  "King bed"
+                ]
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included"
+            },
+            "partner_name": "Hotels.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/htls/logo.svg?pos=zz&chains=fshr"
+          },
+          {
+            "price": 3217.29,
+            "brt": "o2r#k",
+            "rf": "o2r#k",
+            "brf": 9470016,
+            "rt": 9470016,
+            "vendor": "expd",
+            "vendor_id_raw": "1392594",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included"
+            ],
+            "jc_code": "EXPEDIA",
+            "chain": "fshr",
+            "free_cancellation": false,
+            "special": false,
+            "room_name": "Villa - King bed",
+            "rooms": [
+              {
+                "name": "Villa - King bed",
+                "flags": [
+                  "King bed"
+                ]
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included"
+            },
+            "partner_name": "Expedia",
+            "partner_logo": "https://hotelscan.com/apis/vendors/expd/logo.svg?pos=zz&chains=fshr"
+          },
+          {
+            "price": 7829.02,
+            "brt": "e2r#",
+            "rf": "e2r#",
+            "brf": 9470016,
+            "rt": 9470016,
+            "vendor": "ostr",
+            "vendor_id_raw": "8469912",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included"
+            ],
+            "jc_code": "",
+            "chain": "fshr",
+            "free_cancellation": false,
+            "special": false,
+            "room_name": "Suite",
+            "rooms": [
+              {
+                "name": "Suite",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included"
+            },
+            "partner_name": "Zenhotels",
+            "partner_logo": "https://hotelscan.com/apis/vendors/ostr/logo.svg?pos=zz&chains=fshr"
+          },
+          {
+            "price": 7897.77,
+            "brt": "e2r#",
+            "rf": "e2r#",
+            "brf": 9470016,
+            "rt": 9470016,
+            "vendor": "htls",
+            "vendor_id_raw": "45563008",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included"
+            ],
+            "jc_code": "",
+            "chain": "fshr",
+            "free_cancellation": false,
+            "special": false,
+            "room_name": "Suite",
+            "rooms": [
+              {
+                "name": "Suite",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included"
+            },
+            "partner_name": "Hotels.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/htls/logo.svg?pos=zz&chains=fshr"
+          },
+          {
+            "price": 7897.77,
+            "brt": "e2r#",
+            "rf": "e2r#",
+            "brf": 9470016,
+            "rt": 9470016,
+            "vendor": "expd",
+            "vendor_id_raw": "1392594",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included"
+            ],
+            "jc_code": "EXPEDIA",
+            "chain": "fshr",
+            "free_cancellation": false,
+            "special": false,
+            "room_name": "Suite",
+            "rooms": [
+              {
+                "name": "Suite",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included"
+            },
+            "partner_name": "Expedia",
+            "partner_logo": "https://hotelscan.com/apis/vendors/expd/logo.svg?pos=zz&chains=fshr"
+          },
+          {
+            "price": 7901.33,
+            "brt": "e2r#",
+            "rf": "e2r#",
+            "brf": 9470080,
+            "rt": 9470080,
+            "vendor": "bkng",
+            "vendor_id_raw": "718811",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included",
+              "Pay at the property"
+            ],
+            "jc_code": "",
+            "chain": "fshr",
+            "free_cancellation": false,
+            "special": false,
+            "room_name": "Suite",
+            "rooms": [
+              {
+                "name": "Suite",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included",
+              "pay_at_hotel": "Pay at the property"
+            },
+            "partner_name": "Booking.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/bkng/logo.svg?pos=zz&chains=fshr"
+          }
+        ],
+        "descriptions_language": {
+          "general": {
+            "original_language": true,
+            "text": "Property Location With a stay at Four Seasons Maldives at Landaa Giraavaru in Landaa Giraavaru, you'll be on the beach, and 7 mi (11.2 km) from Gemendhoo and 9.7 mi (15.6 km) from Kihaadhuffaru Island Beach. This beach resort is 9.9 mi (15.9 km) from Kihaadhuffaru Island Pier and 10.5 mi (16.9 km) from Hanifaru Bay.Rooms Treat yourself to a stay in one of the 103 guestrooms, featuring private pools and plasma televisions. Rooms have private patios. Wired and wireless internet access is complimentary, while iPod docking stations and satellite programming provide entertainment. Conveniences include phones, as well as safes and desks.Dining Enjoy Italian cuisine at Blu, one of the resort's 4 restaurants, or stay in and take advantage of the 24-hour room service. Relax with a refreshing drink from the poolside bar or one of the 3 bars/lounges. Full breakfasts are available daily from 7 AM to 10:30 AM for a fee.Rec, Spa, Premium Amenities Relax at the full-service spa, where you can enjoy massages, body treatments, and facials. You're sure to appreciate the recreational amenities, which include 4 outdoor swimming pools, an outdoor tennis court, and a sauna. Additional amenities at this resort include concierge services, babysitting (surcharge), and an arcade/game room.Business, Other Amenities Featured amenities include complimentary wired internet access, a 24-hour business center, and complimentary newspapers in the lobby. heck-out time ends at12:00|Check-in time starts at14:00|Minimum check-in age is18|Special check-in instructions Guests must transfer via floatplane to the property. Guests must contact the property at least 72 hours before travel, using the contact information on the confirmation received after booking. Front desk staff will greet guests on arrival at the property. For any questions, please contact the property using the information on the booking confirmation. Please note: Rates include breakfast for 1-2 guests. Breakfast fees apply for additional guests ages 6 and older. Guests must arrange transfers (surcharge) from Male International Airport to the property, which is 35 minutes away via seaplane. To guarantee transfers, guests must contact the property with their flight details at least 3 days before their expected arrival.Luggage in excess of 20 kg/person may incur a fee. Daily transfer service is only available until 4 PM. Guests arriving after 4 PM are required to spend a night at Four Seasons Resort Maldives at Kuda Huraa prior to transferring to Landaa Giraavaru.Know Before You Go Reservations are required for massage services and spa treatments. Reservations can be made by contacting the resort prior to arrival, using the contact information on the booking confirmation. Children 12 years old and younger stay free when occupying the parent or guardian's room, using existing bedding. Contactless check-out is available. Fees Fee for full breakfast: approximately USD 55.44 for adults and USD 28.34 for children The above list may not be comprehensive. Fees and deposits may not include tax and are subject to change. Mandatory Fees and Taxes |No elevators|Service animals exempt from fees/restrictions|Only service animals are allowed|Pets not allowed"
+          },
+          "direction": {
+            "original_language": true,
+            "text": "Located in Landaa Giraavaru, Four Seasons Maldives at Landaa Giraavaru is on the beach. Kihaadhuffaru Island Pier and Meedhoo Harbor are worth checking out if an activity is on the agenda, while those wishing to experience the area's natural beauty can explore Gemendhoo and Kihaadhuffaru Island Beach. Looking to get your feet wet? Snorkeling and windsurfing adventures can be found near the property."
+          }
+        },
+        "chain_code": null,
+        "bids": {
+          "agda": "j23",
+          "htls": "j23",
+          "drbs": "j23",
+          "bkng": "j23",
+          "expd": "j23",
+          "ostr": "j23",
+          "ctrp": "j23"
+        },
+        "worst_offer": null,
+        "best_offer": 1865.7,
+        "best_offer_ota": "agda",
+        "best_offer_mota": null,
+        "discount": 0,
+        "offers_count": 58,
+        "coordinates": {
+          "lat": 5.286111,
+          "lng": 73.111944
+        },
+        "distance": 0.2,
+        "neighborhood": null,
+        "badge": "family",
+        "distances": [
+          {
+            "from": "center",
+            "distance": 0.2,
+            "time": 278,
+            "means": "foot",
+            "means_type": "foot"
+          }
+        ],
+        "specs": {
+          "bathrooms": null,
+          "beds": null,
+          "bedrooms": null,
+          "guests": null,
+          "square_meters": null
+        },
+        "toa_label": "resort",
+        "top_amenities": [
+          "outdoor_pool",
+          "internet",
+          "restaurant",
+          "room_service",
+          "bar"
+        ],
+        "transportations": {
+          "airports": [],
+          "trains": []
+        },
+        "images": [
+          {
+            "image_id": "722307668",
+            "label": ""
+          },
+          {
+            "image_id": "722307679",
+            "label": ""
+          },
+          {
+            "image_id": "722307681",
+            "label": ""
+          },
+          {
+            "image_id": "722307670",
+            "label": ""
+          },
+          {
+            "image_id": "722307666",
+            "label": ""
+          },
+          {
+            "image_id": "722307689",
+            "label": ""
+          },
+          {
+            "image_id": "722307709",
+            "label": ""
+          },
+          {
+            "image_id": "722307718",
+            "label": ""
+          },
+          {
+            "image_id": "722307704",
+            "label": ""
+          },
+          {
+            "image_id": "722307691",
+            "label": ""
+          },
+          {
+            "image_id": "722307669",
+            "label": ""
+          },
+          {
+            "image_id": "722307735",
+            "label": ""
+          },
+          {
+            "image_id": "722307714",
+            "label": ""
+          },
+          {
+            "image_id": "722307716",
+            "label": ""
+          },
+          {
+            "image_id": "722307711",
+            "label": ""
+          }
+        ],
+        "hero_offer": {
+          "price": 1881.66,
+          "brt": "o2r#k",
+          "rf": "o2r#k",
+          "brf": 9503808,
+          "rt": 9503808,
+          "vendor": "drbs",
+          "vendor_id_raw": "FOURSEASONS-64981",
+          "mota_code": null,
+          "direct_offer": true,
+          "offer_flags": {
+            "breakfast": "Breakfast included",
+            "refundable": "Free cancellation",
+            "view_sea": "Sea view"
+          },
+          "jc_code": "",
+          "ranking_index": 0.9966072510442906,
+          "chain": "fshr",
+          "free_cancellation": true,
+          "special": false,
+          "room_name": "Villa - King bed",
+          "rooms": [
+            {
+              "name": "Villa - King bed",
+              "flags": [
+                "King bed"
+              ]
+            }
+          ],
+          "partner_name": "Four Seasons Hotels and Resorts",
+          "partner_logo": "https://hotelscan.com/apis/vendors/drbs/logo.svg?pos=zz&chains=fshr"
+        },
+        "rank": 0,
+        "ctrl_srt": "im a ctrl teapot",
+        "test_srt": "im a test teapot"
+      }
+    ],
+    "filters": [],
+    "query": {
+      "pos": "zz"
+    }
+  }
+}

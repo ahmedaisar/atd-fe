@@ -1,0 +1,1840 @@
+{
+  "_meta": {
+    "status": "SUCCESS",
+    "cached": true,
+    "count": 1,
+    "debug": {
+      "ticket": {
+        "ticket_id": "1000439215_zz_zz_d_publ_en_2_2025-10-08_2025-10-13_1_3",
+        "created_at": 1758065349.3559,
+        "loop": null,
+        "snapped_at": 1758065349.4445,
+        "snapshot_id": "1000439215_zz_zz_d_publ_en_2_2025-10-08_2025-10-13_1_3",
+        "snapshot_ttl": 300,
+        "executions": 2,
+        "progress": 1,
+        "save_errors": []
+      }
+    }
+  },
+  "data": {
+    "meta": [],
+    "geo": {
+      "hs_id": "xka6wwmeemb7",
+      "region_name": "Vommuli",
+      "region_name_long": "Vommuli, Maldives",
+      "region_type": "CITY",
+      "region_id": 6360699,
+      "country_iso": "MV",
+      "country": "maldives",
+      "localised_country": "Maldives",
+      "center": [
+        2.91352,
+        72.86525
+      ],
+      "centroid": [
+        2.9145,
+        72.86519
+      ],
+      "polygon": [
+        "2.919654,72.859927",
+        "2.90738,72.865392",
+        "2.909353,72.870446",
+        "2.909584,72.870574",
+        "2.919654,72.859927"
+      ],
+      "radius": 0.82,
+      "zoom": -1,
+      "search_by_polygon": 0,
+      "cluster": 0,
+      "properties": 3,
+      "radius_override": 5,
+      "boundingbox": {
+        "ne": [
+          2.92,
+          72.871
+        ],
+        "sw": [
+          2.907,
+          72.859
+        ]
+      },
+      "airports": [
+        "MLE"
+      ],
+      "region_name_en": "Vommuli",
+      "region_name_long_en": "Vommuli, Maldives",
+      "referrer_city_name_en": "Vommuli",
+      "parent_region_id": 6051084,
+      "parent_hs_id": "x5p4hmhw6iot",
+      "parent_region_name": "Maldives (all)",
+      "parent_region_name_long": "Maldives (all)",
+      "dynamic_bbox": {
+        "ne": [
+          2.911,
+          72.864
+        ],
+        "sw": [
+          2.911,
+          72.864
+        ]
+      }
+    },
+    "records": [
+      {
+        "hs_id": 1000439215,
+        "slug": "the-st-regis-maldives-vommuli-resort-vommuli-mv-1000439215",
+        "name": "The St. Regis Maldives Vommuli Resort",
+        "ty_id": "ce17a779-02bc-41b1-ba39-09ec0026ae8a",
+        "toa": "resort",
+        "location": {
+          "city": "Vommuli",
+          "zip": "13080",
+          "country_iso2": "MV",
+          "address": "Vommuli Island",
+          "geoid": "xka6wwmeemb7",
+          "loc": {
+            "type": "Point"
+          },
+          "coordinates": {
+            "lng": 72.86448,
+            "lat": 2.91129
+          }
+        },
+        "opening_time": {
+          "check_in_from": "15:00",
+          "check_in_to": "15:30",
+          "check_out_from": "08:00",
+          "check_out_to": "12:00"
+        },
+        "quality": {
+          "review_count": 23,
+          "review_rating": 94,
+          "stars": 5,
+          "stars_is_estimated": false,
+          "review_source": ""
+        },
+        "covid_safe": true,
+        "amenities": {
+          "wellness": [
+            "massage",
+            "solarium",
+            "jacuzzi",
+            "fitness_center",
+            "hair_salon",
+            "sauna",
+            "spa",
+            "outdoor_pool",
+            "turkish_bath"
+          ],
+          "sports": [
+            "billiard",
+            "yoga",
+            "bike_rent",
+            "ping_pong",
+            "tennis",
+            "sub",
+            "surf"
+          ],
+          "internet": [
+            "wifi",
+            "wifi_room",
+            "internet"
+          ],
+          "entertainment": [
+            "tv_lobby"
+          ],
+          "food_drink": [
+            "restaurant",
+            "room_service",
+            "bar",
+            "tea_coffee_maker",
+            "snack_bar"
+          ],
+          "disability": [
+            "disability_facilities"
+          ],
+          "outdoor": [
+            "garden",
+            "terrace"
+          ],
+          "other": [],
+          "business": [
+            "meeting_room",
+            "business_services"
+          ],
+          "children": [
+            "babysitter",
+            "children_playground"
+          ],
+          "room": [
+            "fan",
+            "heating",
+            "air_conditioning",
+            "tv",
+            "in_room_safe"
+          ],
+          "reception": [
+            "24h_reception",
+            "luggage_storage",
+            "concierge",
+            "laundry_service",
+            "safety_deposit_box"
+          ]
+        },
+        "themes": [
+          "spa_relax",
+          "family",
+          "beach"
+        ],
+        "descriptions": {
+          "hotel": "Treat yourself to a stay in one of the 77 individually decorated guestrooms, featuring private pools and LCD televisions. Your pillowtop bed comes with down comforters and Egyptian cotton sheets. Rooms have private furnished balconies or patios. Cable programming and iPod docking stations are provided for your entertainment, while complimentary wireless internet access keeps you connected. Private bathrooms with separate bathtubs and showers feature deep soaking bathtubs and rainfall showerheads.",
+          "direction": "With a stay at The St. Regis Maldives Vommuli Resort in Vommuli, you'll be on the beach and minutes from Vommuli Pier. This beach resort is within the region of Meedhuffushi Island Pier and Meedhuffushi Island Beach.",
+          "general": "At The St. Regis Maldives Vommuli Resort, exceptional service and top-notch amenities create a memorable experience for guests. Complimentary internet access is available in the resort to ensure you stay connected during your visit.Continuously receive the support you require through front desk amenities such as concierge service and safety deposit boxes. Always look your best in your preferred attire with the dry cleaning service and laundry service provided at The St. Regis Maldives Vommuli Resort.Craving relaxation? In-room amenities such as 24-hour room service, room service and daily housekeeping allow you to maximize your time spent inside the room.Additionally, you can obtain minor travel essentials and miscellaneous items at the convenience stores without departing from the The St. Regis Maldives Vommuli Resort.Accommodations come equipped with all the conveniences required for a restful night's slumber. A selection of rooms at The St. Regis Maldives Vommuli Resort come furnished with air conditioning to cater to your needs and comfort. A few accommodations at The St. Regis Maldives Vommuli Resort also include unique design elements like a balcony or terrace.A few chosen rooms are equipped with television and cable TV to ensure guest amusement. In certain rooms, the resort offers visitors access to bottled water, instant tea and mini bar. In the resort, certain guest bathrooms come equipped with essential bathroom amenities, such as a hair dryer, toiletries and bathrobes, ensuring a comfortable stay for guests. A delightful breakfast is the perfect way to begin your day, and at The St. Regis Maldives Vommuli Resort, you can always indulge in a scrumptious meal on-site.At The St. Regis Maldives Vommuli Resort, catering to your unique requirements is our priority. Guests with particular dietary preferences can choose from an assortment of dishes, featuring kosher and halal choices among other options. An evening spent at resort's bar can offer as much enjoyment as venturing out with your fellow travelers.At The St. Regis Maldives Vommuli Resort, guests can take pleasure in the delightful recreational amenities provided for their entertainment.Conclude your days in complete tranquility by visiting the salon situated precisely at the resort.",
+          "amenities": true,
+          "other": "Pamper yourself with a visit to the spa, which offers massages, body treatments, and facials. You're sure to appreciate the recreational amenities, which include 2 outdoor swimming pools, an outdoor tennis court, and a sauna. Additional amenities at this resort include complimentary wireless internet access, concierge services, and babysitting (surcharge).",
+          "localized": "At The St. Regis Maldives Vommuli Resort, exceptional service and top-notch amenities create a memorable experience for guests. Complimentary internet access is available in the resort to ensure you stay connected during your visit.Continuously receive the support you require through front desk amenities such as concierge service and safety deposit boxes. Always look your best in your preferred attire with the dry cleaning service and laundry service provided at The St. Regis Maldives Vommuli Resort.Craving relaxation? In-room amenities such as 24-hour room service, room service and daily housekeeping allow you to maximize your time spent inside the room.Additionally, you can obtain minor travel essentials and miscellaneous items at the convenience stores without departing from the The St. Regis Maldives Vommuli Resort.Accommodations come equipped with all the conveniences required for a restful night's slumber. A selection of rooms at The St. Regis Maldives Vommuli Resort come furnished with air conditioning to cater to your needs and comfort. A few accommodations at The St. Regis Maldives Vommuli Resort also include unique design elements like a balcony or terrace.A few chosen rooms are equipped with television and cable TV to ensure guest amusement. In certain rooms, the resort offers visitors access to bottled water, instant tea and mini bar. In the resort, certain guest bathrooms come equipped with essential bathroom amenities, such as a hair dryer, toiletries and bathrobes, ensuring a comfortable stay for guests. A delightful breakfast is the perfect way to begin your day, and at The St. Regis Maldives Vommuli Resort, you can always indulge in a scrumptious meal on-site.At The St. Regis Maldives Vommuli Resort, catering to your unique requirements is our priority. Guests with particular dietary preferences can choose from an assortment of dishes, featuring kosher and halal choices among other options. An evening spent at resort's bar can offer as much enjoyment as venturing out with your fellow travelers.At The St. Regis Maldives Vommuli Resort, guests can take pleasure in the delightful recreational amenities provided for their entertainment.Conclude your days in complete tranquility by visiting the salon situated precisely at the resort."
+        },
+        "short_description": "Excellent family hotel. Great rooms and fantastic service. Awesome vibe. Beautiful beach.",
+        "chain": "st_regis",
+        "offers": [
+          {
+            "price": 2252.76,
+            "brt": "o2r#",
+            "rf": "o2r#",
+            "brf": 8429632,
+            "rt": 8429632,
+            "vendor": "htls",
+            "vendor_id_raw": "508469664",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [],
+            "jc_code": "",
+            "ranking_index": 0.9675615689199026,
+            "chain": "",
+            "free_cancellation": false,
+            "special": false,
+            "room_name": "Villa",
+            "rooms": [
+              {
+                "name": "Villa",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": [],
+            "partner_name": "Hotels.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/htls/logo.svg?pos=zz"
+          },
+          {
+            "vendor": "bkng",
+            "price": 2347.66,
+            "vendor_id_raw": "1873214",
+            "mota_code": null,
+            "jc_code": "",
+            "partner_name": "Booking.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/bkng/logo.svg?pos=zz",
+            "room_name": "Villa - King bed",
+            "brf": 9470016,
+            "brt": "o2r#k"
+          },
+          {
+            "vendor": "agda",
+            "price": 2233.15,
+            "vendor_id_raw": "1267405",
+            "mota_code": null,
+            "jc_code": "",
+            "partner_name": "Agoda",
+            "partner_logo": "https://hotelscan.com/apis/vendors/agda/logo.svg?pos=zz",
+            "room_name": "Villa - King bed",
+            "brf": 8421440,
+            "brt": "o2r#k"
+          },
+          {
+            "vendor": "ctrp",
+            "price": 2233.15,
+            "vendor_id_raw": "6177592",
+            "mota_code": null,
+            "jc_code": "TRIPCOM",
+            "partner_name": "Trip.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/ctrp/logo.svg?pos=zz",
+            "room_name": "Villa - King bed",
+            "brf": 9470016,
+            "brt": "o2r#k"
+          },
+          {
+            "vendor": "expd",
+            "price": 2252.76,
+            "vendor_id_raw": "15858427",
+            "mota_code": null,
+            "jc_code": "EXPEDIA",
+            "partner_name": "Expedia",
+            "partner_logo": "https://hotelscan.com/apis/vendors/expd/logo.svg?pos=zz",
+            "room_name": "Villa",
+            "brf": 8429632,
+            "brt": "o2r#"
+          },
+          {
+            "vendor": "stfl",
+            "price": 2070.07,
+            "vendor_id_raw": "215615",
+            "mota_code": null,
+            "jc_code": "",
+            "partner_name": "Stayforlong",
+            "partner_logo": "https://hotelscan.com/apis/vendors/stfl/logo.svg?pos=zz",
+            "room_name": "Villa - Choice of single or double beds",
+            "brf": 9470016,
+            "brt": "o2r#b"
+          },
+          {
+            "vendor": "ostr",
+            "price": 2233.15,
+            "vendor_id_raw": "8440929",
+            "mota_code": null,
+            "jc_code": "",
+            "partner_name": "Zenhotels",
+            "partner_logo": "https://hotelscan.com/apis/vendors/ostr/logo.svg?pos=zz",
+            "room_name": "Villa",
+            "brf": 8421440,
+            "brt": "o2r#"
+          }
+        ],
+        "all_offers": [
+          {
+            "price": 2070.07,
+            "brt": "o2r#b",
+            "rf": "o2r#b",
+            "brf": 9470016,
+            "rt": 9470016,
+            "vendor": "stfl",
+            "vendor_id_raw": "215615",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": false,
+            "special": false,
+            "room_name": "Villa - Choice of single or double beds",
+            "rooms": [
+              {
+                "name": "Villa - Choice of single or double beds",
+                "flags": [
+                  "Choice of single or double beds"
+                ]
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included"
+            },
+            "partner_name": "Stayforlong",
+            "partner_logo": "https://hotelscan.com/apis/vendors/stfl/logo.svg?pos=zz"
+          },
+          {
+            "price": 2233.15,
+            "brt": "o2r#k",
+            "rf": "o2r#k",
+            "brf": 8421440,
+            "rt": 8421440,
+            "vendor": "agda",
+            "vendor_id_raw": "1267405",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": false,
+            "special": false,
+            "room_name": "Villa - King bed",
+            "rooms": [
+              {
+                "name": "Villa - King bed",
+                "flags": [
+                  "King bed"
+                ]
+              }
+            ],
+            "offer_flags_new": [],
+            "partner_name": "Agoda",
+            "partner_logo": "https://hotelscan.com/apis/vendors/agda/logo.svg?pos=zz"
+          },
+          {
+            "price": 2233.15,
+            "brt": "o2r#k",
+            "rf": "o2r#k",
+            "brf": 9470016,
+            "rt": 9470016,
+            "vendor": "ctrp",
+            "vendor_id_raw": "6177592",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included"
+            ],
+            "jc_code": "TRIPCOM",
+            "chain": "",
+            "free_cancellation": false,
+            "special": false,
+            "room_name": "Villa - King bed",
+            "rooms": [
+              {
+                "name": "Villa - King bed",
+                "flags": [
+                  "King bed"
+                ]
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included"
+            },
+            "partner_name": "Trip.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/ctrp/logo.svg?pos=zz"
+          },
+          {
+            "price": 2233.15,
+            "brt": "o2r#",
+            "rf": "o2r#",
+            "brf": 8421440,
+            "rt": 8421440,
+            "vendor": "ostr",
+            "vendor_id_raw": "8440929",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": false,
+            "special": false,
+            "room_name": "Villa",
+            "rooms": [
+              {
+                "name": "Villa",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": [],
+            "partner_name": "Zenhotels",
+            "partner_logo": "https://hotelscan.com/apis/vendors/ostr/logo.svg?pos=zz"
+          },
+          {
+            "price": 2252.76,
+            "brt": "o2r#",
+            "rf": "o2r#",
+            "brf": 8429632,
+            "rt": 8429632,
+            "vendor": "htls",
+            "vendor_id_raw": "508469664",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": false,
+            "special": false,
+            "room_name": "Villa",
+            "rooms": [
+              {
+                "name": "Villa",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": [],
+            "partner_name": "Hotels.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/htls/logo.svg?pos=zz"
+          },
+          {
+            "price": 2252.76,
+            "brt": "o2r#",
+            "rf": "o2r#",
+            "brf": 8429632,
+            "rt": 8429632,
+            "vendor": "expd",
+            "vendor_id_raw": "15858427",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [],
+            "jc_code": "EXPEDIA",
+            "chain": "",
+            "free_cancellation": false,
+            "special": false,
+            "room_name": "Villa",
+            "rooms": [
+              {
+                "name": "Villa",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": [],
+            "partner_name": "Expedia",
+            "partner_logo": "https://hotelscan.com/apis/vendors/expd/logo.svg?pos=zz"
+          },
+          {
+            "price": 2276.53,
+            "brt": "o2r#k",
+            "rf": "o2r#k",
+            "brf": 8421440,
+            "rt": 8421440,
+            "vendor": "agda",
+            "vendor_id_raw": "1267405",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": false,
+            "special": false,
+            "room_name": "Villa - King bed",
+            "rooms": [
+              {
+                "name": "Villa - King bed",
+                "flags": [
+                  "King bed"
+                ]
+              }
+            ],
+            "offer_flags_new": [],
+            "partner_name": "Agoda",
+            "partner_logo": "https://hotelscan.com/apis/vendors/agda/logo.svg?pos=zz"
+          },
+          {
+            "price": 2296.52,
+            "brt": "o2r#",
+            "rf": "o2r#",
+            "brf": 8429632,
+            "rt": 8429632,
+            "vendor": "htls",
+            "vendor_id_raw": "508469664",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": false,
+            "special": false,
+            "room_name": "Villa",
+            "rooms": [
+              {
+                "name": "Villa",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": [],
+            "partner_name": "Hotels.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/htls/logo.svg?pos=zz"
+          },
+          {
+            "price": 2296.52,
+            "brt": "o2r#",
+            "rf": "o2r#",
+            "brf": 8429632,
+            "rt": 8429632,
+            "vendor": "expd",
+            "vendor_id_raw": "15858427",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [],
+            "jc_code": "EXPEDIA",
+            "chain": "",
+            "free_cancellation": false,
+            "special": false,
+            "room_name": "Villa",
+            "rooms": [
+              {
+                "name": "Villa",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": [],
+            "partner_name": "Expedia",
+            "partner_logo": "https://hotelscan.com/apis/vendors/expd/logo.svg?pos=zz"
+          },
+          {
+            "price": 2319.91,
+            "brt": "o2r#k",
+            "rf": "o2r#k",
+            "brf": 8421440,
+            "rt": 8421440,
+            "vendor": "agda",
+            "vendor_id_raw": "1267405",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": false,
+            "special": false,
+            "room_name": "Villa - King bed",
+            "rooms": [
+              {
+                "name": "Villa - King bed",
+                "flags": [
+                  "King bed"
+                ]
+              }
+            ],
+            "offer_flags_new": [],
+            "partner_name": "Agoda",
+            "partner_logo": "https://hotelscan.com/apis/vendors/agda/logo.svg?pos=zz"
+          },
+          {
+            "price": 2326.38,
+            "brt": "o2r#k",
+            "rf": "o2r#k",
+            "brf": 9470016,
+            "rt": 9470016,
+            "vendor": "agda",
+            "vendor_id_raw": "1267405",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": false,
+            "special": false,
+            "room_name": "Villa - King bed",
+            "rooms": [
+              {
+                "name": "Villa - King bed",
+                "flags": [
+                  "King bed"
+                ]
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included"
+            },
+            "partner_name": "Agoda",
+            "partner_logo": "https://hotelscan.com/apis/vendors/agda/logo.svg?pos=zz"
+          },
+          {
+            "price": 2340.29,
+            "brt": "o2r#",
+            "rf": "o2r#",
+            "brf": 8429632,
+            "rt": 8429632,
+            "vendor": "htls",
+            "vendor_id_raw": "508469664",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": false,
+            "special": false,
+            "room_name": "Villa",
+            "rooms": [
+              {
+                "name": "Villa",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": [],
+            "partner_name": "Hotels.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/htls/logo.svg?pos=zz"
+          },
+          {
+            "price": 2340.29,
+            "brt": "o2r#",
+            "rf": "o2r#",
+            "brf": 8429632,
+            "rt": 8429632,
+            "vendor": "expd",
+            "vendor_id_raw": "15858427",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [],
+            "jc_code": "EXPEDIA",
+            "chain": "",
+            "free_cancellation": false,
+            "special": false,
+            "room_name": "Villa",
+            "rooms": [
+              {
+                "name": "Villa",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": [],
+            "partner_name": "Expedia",
+            "partner_logo": "https://hotelscan.com/apis/vendors/expd/logo.svg?pos=zz"
+          },
+          {
+            "price": 2347.66,
+            "brt": "o2r#k",
+            "rf": "o2r#k",
+            "brf": 9470016,
+            "rt": 9470016,
+            "vendor": "bkng",
+            "vendor_id_raw": "1873214",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": false,
+            "special": false,
+            "room_name": "Villa - King bed",
+            "rooms": [
+              {
+                "name": "Villa - King bed",
+                "flags": [
+                  "King bed"
+                ]
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included"
+            },
+            "partner_name": "Booking.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/bkng/logo.svg?pos=zz"
+          },
+          {
+            "price": 2351.82,
+            "brt": "o2r#",
+            "rf": "o2r#",
+            "brf": 10518592,
+            "rt": 10518592,
+            "vendor": "ostr",
+            "vendor_id_raw": "8440929",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Half board"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": false,
+            "special": false,
+            "room_name": "Villa",
+            "rooms": [
+              {
+                "name": "Villa",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "half_board": "Half board"
+            },
+            "partner_name": "Zenhotels",
+            "partner_logo": "https://hotelscan.com/apis/vendors/ostr/logo.svg?pos=zz"
+          },
+          {
+            "price": 2369.76,
+            "brt": "o2r#k",
+            "rf": "o2r#k",
+            "brf": 9470016,
+            "rt": 9470016,
+            "vendor": "agda",
+            "vendor_id_raw": "1267405",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": false,
+            "special": false,
+            "room_name": "Villa - King bed",
+            "rooms": [
+              {
+                "name": "Villa - King bed",
+                "flags": [
+                  "King bed"
+                ]
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included"
+            },
+            "partner_name": "Agoda",
+            "partner_logo": "https://hotelscan.com/apis/vendors/agda/logo.svg?pos=zz"
+          },
+          {
+            "price": 2391.44,
+            "brt": "o2r#k",
+            "rf": "o2r#k",
+            "brf": 9470016,
+            "rt": 9470016,
+            "vendor": "bkng",
+            "vendor_id_raw": "1873214",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": false,
+            "special": false,
+            "room_name": "Villa - King bed",
+            "rooms": [
+              {
+                "name": "Villa - King bed",
+                "flags": [
+                  "King bed"
+                ]
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included"
+            },
+            "partner_name": "Booking.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/bkng/logo.svg?pos=zz"
+          },
+          {
+            "price": 2392.42,
+            "brt": "o2r#",
+            "rf": "o2r#",
+            "brf": 10518592,
+            "rt": 10518592,
+            "vendor": "ostr",
+            "vendor_id_raw": "8440929",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Half board"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": false,
+            "special": false,
+            "room_name": "Villa",
+            "rooms": [
+              {
+                "name": "Villa",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "half_board": "Half board"
+            },
+            "partner_name": "Zenhotels",
+            "partner_logo": "https://hotelscan.com/apis/vendors/ostr/logo.svg?pos=zz"
+          },
+          {
+            "price": 2471.75,
+            "brt": "o2r#k",
+            "rf": "o2r#k",
+            "brf": 8421440,
+            "rt": 8421440,
+            "vendor": "agda",
+            "vendor_id_raw": "1267405",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": false,
+            "special": false,
+            "room_name": "Villa - King bed",
+            "rooms": [
+              {
+                "name": "Villa - King bed",
+                "flags": [
+                  "King bed"
+                ]
+              }
+            ],
+            "offer_flags_new": [],
+            "partner_name": "Agoda",
+            "partner_logo": "https://hotelscan.com/apis/vendors/agda/logo.svg?pos=zz"
+          },
+          {
+            "price": 2493.46,
+            "brt": "o2r#",
+            "rf": "o2r#",
+            "brf": 8429632,
+            "rt": 8429632,
+            "vendor": "htls",
+            "vendor_id_raw": "508469664",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": false,
+            "special": false,
+            "room_name": "Villa",
+            "rooms": [
+              {
+                "name": "Villa",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": [],
+            "partner_name": "Hotels.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/htls/logo.svg?pos=zz"
+          },
+          {
+            "price": 2493.46,
+            "brt": "o2r#",
+            "rf": "o2r#",
+            "brf": 8429632,
+            "rt": 8429632,
+            "vendor": "expd",
+            "vendor_id_raw": "15858427",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [],
+            "jc_code": "EXPEDIA",
+            "chain": "",
+            "free_cancellation": false,
+            "special": false,
+            "room_name": "Villa",
+            "rooms": [
+              {
+                "name": "Villa",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": [],
+            "partner_name": "Expedia",
+            "partner_logo": "https://hotelscan.com/apis/vendors/expd/logo.svg?pos=zz"
+          },
+          {
+            "price": 2521.6,
+            "brt": "o2r#k",
+            "rf": "o2r#k",
+            "brf": 9470016,
+            "rt": 9470016,
+            "vendor": "agda",
+            "vendor_id_raw": "1267405",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": false,
+            "special": false,
+            "room_name": "Villa - King bed",
+            "rooms": [
+              {
+                "name": "Villa - King bed",
+                "flags": [
+                  "King bed"
+                ]
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included"
+            },
+            "partner_name": "Agoda",
+            "partner_logo": "https://hotelscan.com/apis/vendors/agda/logo.svg?pos=zz"
+          },
+          {
+            "price": 2523.82,
+            "brt": "o2r#",
+            "rf": "o2r#",
+            "brf": 9994304,
+            "rt": 9994304,
+            "vendor": "ostr",
+            "vendor_id_raw": "8440929",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Full board"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": false,
+            "special": false,
+            "room_name": "Villa",
+            "rooms": [
+              {
+                "name": "Villa",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "full_board": "Full board"
+            },
+            "partner_name": "Zenhotels",
+            "partner_logo": "https://hotelscan.com/apis/vendors/ostr/logo.svg?pos=zz"
+          },
+          {
+            "price": 2544.68,
+            "brt": "o2r#k",
+            "rf": "o2r#k",
+            "brf": 9470016,
+            "rt": 9470016,
+            "vendor": "bkng",
+            "vendor_id_raw": "1873214",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": false,
+            "special": false,
+            "room_name": "Villa - King bed",
+            "rooms": [
+              {
+                "name": "Villa - King bed",
+                "flags": [
+                  "King bed"
+                ]
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included"
+            },
+            "partner_name": "Booking.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/bkng/logo.svg?pos=zz"
+          },
+          {
+            "price": 2550.22,
+            "brt": "o2r#",
+            "rf": "o2r#",
+            "brf": 10518592,
+            "rt": 10518592,
+            "vendor": "ostr",
+            "vendor_id_raw": "8440929",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Half board"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": false,
+            "special": false,
+            "room_name": "Villa",
+            "rooms": [
+              {
+                "name": "Villa",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "half_board": "Half board"
+            },
+            "partner_name": "Zenhotels",
+            "partner_logo": "https://hotelscan.com/apis/vendors/ostr/logo.svg?pos=zz"
+          },
+          {
+            "price": 2553.09,
+            "brt": "e2r#k",
+            "rf": "e2r#k",
+            "brf": 8421440,
+            "rt": 8421440,
+            "vendor": "agda",
+            "vendor_id_raw": "1267405",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": false,
+            "special": false,
+            "room_name": "Suite - King bed",
+            "rooms": [
+              {
+                "name": "Suite - King bed",
+                "flags": [
+                  "King bed"
+                ]
+              }
+            ],
+            "offer_flags_new": [],
+            "partner_name": "Agoda",
+            "partner_logo": "https://hotelscan.com/apis/vendors/agda/logo.svg?pos=zz"
+          },
+          {
+            "price": 2558.51,
+            "brt": "o2r#k",
+            "rf": "o2r#k",
+            "brf": 8421440,
+            "rt": 8421440,
+            "vendor": "ctrp",
+            "vendor_id_raw": "6177592",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [],
+            "jc_code": "TRIPCOM",
+            "chain": "",
+            "free_cancellation": false,
+            "special": false,
+            "room_name": "Villa - King bed",
+            "rooms": [
+              {
+                "name": "Villa - King bed",
+                "flags": [
+                  "King bed"
+                ]
+              }
+            ],
+            "offer_flags_new": [],
+            "partner_name": "Trip.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/ctrp/logo.svg?pos=zz"
+          },
+          {
+            "price": 2564.42,
+            "brt": "o2r#",
+            "rf": "o2r#",
+            "brf": 9994304,
+            "rt": 9994304,
+            "vendor": "ostr",
+            "vendor_id_raw": "8440929",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Full board"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": false,
+            "special": false,
+            "room_name": "Villa",
+            "rooms": [
+              {
+                "name": "Villa",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "full_board": "Full board"
+            },
+            "partner_name": "Zenhotels",
+            "partner_logo": "https://hotelscan.com/apis/vendors/ostr/logo.svg?pos=zz"
+          },
+          {
+            "price": 2575.53,
+            "brt": "e2r#",
+            "rf": "e2r#",
+            "brf": 8429632,
+            "rt": 8429632,
+            "vendor": "htls",
+            "vendor_id_raw": "508469664",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": false,
+            "special": false,
+            "room_name": "Suite",
+            "rooms": [
+              {
+                "name": "Suite",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": [],
+            "partner_name": "Hotels.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/htls/logo.svg?pos=zz"
+          },
+          {
+            "price": 2575.53,
+            "brt": "e2r#",
+            "rf": "e2r#",
+            "brf": 8429632,
+            "rt": 8429632,
+            "vendor": "expd",
+            "vendor_id_raw": "15858427",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [],
+            "jc_code": "EXPEDIA",
+            "chain": "",
+            "free_cancellation": false,
+            "special": false,
+            "room_name": "Suite",
+            "rooms": [
+              {
+                "name": "Suite",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": [],
+            "partner_name": "Expedia",
+            "partner_logo": "https://hotelscan.com/apis/vendors/expd/logo.svg?pos=zz"
+          },
+          {
+            "price": 2580.99,
+            "brt": "o2r#",
+            "rf": "o2r#",
+            "brf": 8429632,
+            "rt": 8429632,
+            "vendor": "htls",
+            "vendor_id_raw": "508469664",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": false,
+            "special": false,
+            "room_name": "Villa",
+            "rooms": [
+              {
+                "name": "Villa",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": [],
+            "partner_name": "Hotels.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/htls/logo.svg?pos=zz"
+          },
+          {
+            "price": 2580.99,
+            "brt": "o2r#",
+            "rf": "o2r#",
+            "brf": 8429632,
+            "rt": 8429632,
+            "vendor": "expd",
+            "vendor_id_raw": "15858427",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [],
+            "jc_code": "EXPEDIA",
+            "chain": "",
+            "free_cancellation": false,
+            "special": false,
+            "room_name": "Villa",
+            "rooms": [
+              {
+                "name": "Villa",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": [],
+            "partner_name": "Expedia",
+            "partner_logo": "https://hotelscan.com/apis/vendors/expd/logo.svg?pos=zz"
+          },
+          {
+            "price": 2602.94,
+            "brt": "e2r#k",
+            "rf": "e2r#k",
+            "brf": 9470016,
+            "rt": 9470016,
+            "vendor": "agda",
+            "vendor_id_raw": "1267405",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": false,
+            "special": false,
+            "room_name": "Suite - King bed",
+            "rooms": [
+              {
+                "name": "Suite - King bed",
+                "flags": [
+                  "King bed"
+                ]
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included"
+            },
+            "partner_name": "Agoda",
+            "partner_logo": "https://hotelscan.com/apis/vendors/agda/logo.svg?pos=zz"
+          },
+          {
+            "price": 2624.75,
+            "brt": "o2r#",
+            "rf": "o2r#",
+            "brf": 8429632,
+            "rt": 8429632,
+            "vendor": "htls",
+            "vendor_id_raw": "508469664",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": false,
+            "special": false,
+            "room_name": "Villa",
+            "rooms": [
+              {
+                "name": "Villa",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": [],
+            "partner_name": "Hotels.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/htls/logo.svg?pos=zz"
+          },
+          {
+            "price": 2624.75,
+            "brt": "o2r#",
+            "rf": "o2r#",
+            "brf": 8429632,
+            "rt": 8429632,
+            "vendor": "expd",
+            "vendor_id_raw": "15858427",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [],
+            "jc_code": "EXPEDIA",
+            "chain": "",
+            "free_cancellation": false,
+            "special": false,
+            "room_name": "Villa",
+            "rooms": [
+              {
+                "name": "Villa",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": [],
+            "partner_name": "Expedia",
+            "partner_logo": "https://hotelscan.com/apis/vendors/expd/logo.svg?pos=zz"
+          },
+          {
+            "price": 2626.78,
+            "brt": "e2r#k",
+            "rf": "e2r#k",
+            "brf": 9470016,
+            "rt": 9470016,
+            "vendor": "bkng",
+            "vendor_id_raw": "1873214",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": false,
+            "special": false,
+            "room_name": "Suite - King bed",
+            "rooms": [
+              {
+                "name": "Suite - King bed",
+                "flags": [
+                  "King bed"
+                ]
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included"
+            },
+            "partner_name": "Booking.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/bkng/logo.svg?pos=zz"
+          },
+          {
+            "price": 2666.97,
+            "brt": "o2r#k",
+            "rf": "o2r#k",
+            "brf": 8421440,
+            "rt": 8421440,
+            "vendor": "agda",
+            "vendor_id_raw": "1267405",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": false,
+            "special": false,
+            "room_name": "Villa - King bed",
+            "rooms": [
+              {
+                "name": "Villa - King bed",
+                "flags": [
+                  "King bed"
+                ]
+              }
+            ],
+            "offer_flags_new": [],
+            "partner_name": "Agoda",
+            "partner_logo": "https://hotelscan.com/apis/vendors/agda/logo.svg?pos=zz"
+          },
+          {
+            "price": 2668.51,
+            "brt": "o2r#",
+            "rf": "o2r#",
+            "brf": 8429632,
+            "rt": 8429632,
+            "vendor": "htls",
+            "vendor_id_raw": "508469664",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": false,
+            "special": false,
+            "room_name": "Villa",
+            "rooms": [
+              {
+                "name": "Villa",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": [],
+            "partner_name": "Hotels.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/htls/logo.svg?pos=zz"
+          },
+          {
+            "price": 2668.51,
+            "brt": "o2r#",
+            "rf": "o2r#",
+            "brf": 8429632,
+            "rt": 8429632,
+            "vendor": "expd",
+            "vendor_id_raw": "15858427",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [],
+            "jc_code": "EXPEDIA",
+            "chain": "",
+            "free_cancellation": false,
+            "special": false,
+            "room_name": "Villa",
+            "rooms": [
+              {
+                "name": "Villa",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": [],
+            "partner_name": "Expedia",
+            "partner_logo": "https://hotelscan.com/apis/vendors/expd/logo.svg?pos=zz"
+          },
+          {
+            "price": 2676.03,
+            "brt": "o2r#k",
+            "rf": "o2r#k",
+            "brf": 9470016,
+            "rt": 9470016,
+            "vendor": "bkng",
+            "vendor_id_raw": "1873214",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": false,
+            "special": false,
+            "room_name": "Villa - King bed",
+            "rooms": [
+              {
+                "name": "Villa - King bed",
+                "flags": [
+                  "King bed"
+                ]
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included"
+            },
+            "partner_name": "Booking.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/bkng/logo.svg?pos=zz"
+          },
+          {
+            "price": 2719.81,
+            "brt": "o2r#k",
+            "rf": "o2r#k",
+            "brf": 9470016,
+            "rt": 9470016,
+            "vendor": "bkng",
+            "vendor_id_raw": "1873214",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": false,
+            "special": false,
+            "room_name": "Villa - King bed",
+            "rooms": [
+              {
+                "name": "Villa - King bed",
+                "flags": [
+                  "King bed"
+                ]
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included"
+            },
+            "partner_name": "Booking.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/bkng/logo.svg?pos=zz"
+          },
+          {
+            "price": 2722.22,
+            "brt": "o2r#",
+            "rf": "o2r#",
+            "brf": 9994304,
+            "rt": 9994304,
+            "vendor": "ostr",
+            "vendor_id_raw": "8440929",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Full board"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": false,
+            "special": false,
+            "room_name": "Villa",
+            "rooms": [
+              {
+                "name": "Villa",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "full_board": "Full board"
+            },
+            "partner_name": "Zenhotels",
+            "partner_logo": "https://hotelscan.com/apis/vendors/ostr/logo.svg?pos=zz"
+          },
+          {
+            "price": 2821.68,
+            "brt": "o2r#",
+            "rf": "o2r#",
+            "brf": 8429632,
+            "rt": 8429632,
+            "vendor": "htls",
+            "vendor_id_raw": "508469664",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": false,
+            "special": false,
+            "room_name": "Villa",
+            "rooms": [
+              {
+                "name": "Villa",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": [],
+            "partner_name": "Hotels.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/htls/logo.svg?pos=zz"
+          },
+          {
+            "price": 2821.68,
+            "brt": "o2r#",
+            "rf": "o2r#",
+            "brf": 8429632,
+            "rt": 8429632,
+            "vendor": "expd",
+            "vendor_id_raw": "15858427",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [],
+            "jc_code": "EXPEDIA",
+            "chain": "",
+            "free_cancellation": false,
+            "special": false,
+            "room_name": "Villa",
+            "rooms": [
+              {
+                "name": "Villa",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": [],
+            "partner_name": "Expedia",
+            "partner_logo": "https://hotelscan.com/apis/vendors/expd/logo.svg?pos=zz"
+          },
+          {
+            "price": 2873.06,
+            "brt": "o2r#k",
+            "rf": "o2r#k",
+            "brf": 9470016,
+            "rt": 9470016,
+            "vendor": "bkng",
+            "vendor_id_raw": "1873214",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": false,
+            "special": false,
+            "room_name": "Villa - King bed",
+            "rooms": [
+              {
+                "name": "Villa - King bed",
+                "flags": [
+                  "King bed"
+                ]
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included"
+            },
+            "partner_name": "Booking.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/bkng/logo.svg?pos=zz"
+          },
+          {
+            "price": 2903.75,
+            "brt": "e2r#",
+            "rf": "e2r#",
+            "brf": 8429632,
+            "rt": 8429632,
+            "vendor": "htls",
+            "vendor_id_raw": "508469664",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": false,
+            "special": false,
+            "room_name": "Suite",
+            "rooms": [
+              {
+                "name": "Suite",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": [],
+            "partner_name": "Hotels.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/htls/logo.svg?pos=zz"
+          },
+          {
+            "price": 2903.75,
+            "brt": "e2r#",
+            "rf": "e2r#",
+            "brf": 8429632,
+            "rt": 8429632,
+            "vendor": "expd",
+            "vendor_id_raw": "15858427",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [],
+            "jc_code": "EXPEDIA",
+            "chain": "",
+            "free_cancellation": false,
+            "special": false,
+            "room_name": "Suite",
+            "rooms": [
+              {
+                "name": "Suite",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": [],
+            "partner_name": "Expedia",
+            "partner_logo": "https://hotelscan.com/apis/vendors/expd/logo.svg?pos=zz"
+          },
+          {
+            "price": 2955.15,
+            "brt": "e2r#k",
+            "rf": "e2r#k",
+            "brf": 9470016,
+            "rt": 9470016,
+            "vendor": "bkng",
+            "vendor_id_raw": "1873214",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": false,
+            "special": false,
+            "room_name": "Suite - King bed",
+            "rooms": [
+              {
+                "name": "Suite - King bed",
+                "flags": [
+                  "King bed"
+                ]
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included"
+            },
+            "partner_name": "Booking.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/bkng/logo.svg?pos=zz"
+          }
+        ],
+        "descriptions_language": {
+          "general": {
+            "original_language": true,
+            "text": "At The St. Regis Maldives Vommuli Resort, exceptional service and top-notch amenities create a memorable experience for guests. Complimentary internet access is available in the resort to ensure you stay connected during your visit.Continuously receive the support you require through front desk amenities such as concierge service and safety deposit boxes. Always look your best in your preferred attire with the dry cleaning service and laundry service provided at The St. Regis Maldives Vommuli Resort.Craving relaxation? In-room amenities such as 24-hour room service, room service and daily housekeeping allow you to maximize your time spent inside the room.Additionally, you can obtain minor travel essentials and miscellaneous items at the convenience stores without departing from the The St. Regis Maldives Vommuli Resort.Accommodations come equipped with all the conveniences required for a restful night's slumber. A selection of rooms at The St. Regis Maldives Vommuli Resort come furnished with air conditioning to cater to your needs and comfort. A few accommodations at The St. Regis Maldives Vommuli Resort also include unique design elements like a balcony or terrace.A few chosen rooms are equipped with television and cable TV to ensure guest amusement. In certain rooms, the resort offers visitors access to bottled water, instant tea and mini bar. In the resort, certain guest bathrooms come equipped with essential bathroom amenities, such as a hair dryer, toiletries and bathrobes, ensuring a comfortable stay for guests. A delightful breakfast is the perfect way to begin your day, and at The St. Regis Maldives Vommuli Resort, you can always indulge in a scrumptious meal on-site.At The St. Regis Maldives Vommuli Resort, catering to your unique requirements is our priority. Guests with particular dietary preferences can choose from an assortment of dishes, featuring kosher and halal choices among other options. An evening spent at resort's bar can offer as much enjoyment as venturing out with your fellow travelers.At The St. Regis Maldives Vommuli Resort, guests can take pleasure in the delightful recreational amenities provided for their entertainment.Conclude your days in complete tranquility by visiting the salon situated precisely at the resort."
+          },
+          "direction": {
+            "original_language": true,
+            "text": "With a stay at The St. Regis Maldives Vommuli Resort in Vommuli, you'll be on the beach and minutes from Vommuli Pier. This beach resort is within the region of Meedhuffushi Island Pier and Meedhuffushi Island Beach."
+          },
+          "hotel": {
+            "original_language": true,
+            "text": "Treat yourself to a stay in one of the 77 individually decorated guestrooms, featuring private pools and LCD televisions. Your pillowtop bed comes with down comforters and Egyptian cotton sheets. Rooms have private furnished balconies or patios. Cable programming and iPod docking stations are provided for your entertainment, while complimentary wireless internet access keeps you connected. Private bathrooms with separate bathtubs and showers feature deep soaking bathtubs and rainfall showerheads."
+          },
+          "other": {
+            "original_language": true,
+            "text": "Pamper yourself with a visit to the spa, which offers massages, body treatments, and facials. You're sure to appreciate the recreational amenities, which include 2 outdoor swimming pools, an outdoor tennis court, and a sauna. Additional amenities at this resort include complimentary wireless internet access, concierge services, and babysitting (surcharge)."
+          }
+        },
+        "chain_code": null,
+        "bids": {
+          "stfl": "j23",
+          "bkng": "j23",
+          "agda": "j23",
+          "htls": "j23",
+          "expd": "j23",
+          "ctrp": "j23",
+          "ostr": "j23"
+        },
+        "worst_offer": null,
+        "best_offer": 2070.07,
+        "best_offer_ota": "stfl",
+        "best_offer_mota": null,
+        "discount": 0,
+        "offers_count": 48,
+        "coordinates": {
+          "lat": 2.91129,
+          "lng": 72.86448
+        },
+        "distance": 0.26,
+        "neighborhood": null,
+        "badge": "spa relax",
+        "distances": [
+          {
+            "from": "center",
+            "distance": 0.26,
+            "time": 361,
+            "means": "foot",
+            "means_type": "foot"
+          }
+        ],
+        "specs": {
+          "bathrooms": null,
+          "beds": null,
+          "bedrooms": null,
+          "guests": null,
+          "square_meters": null
+        },
+        "toa_label": "resort",
+        "top_amenities": [
+          "outdoor_pool",
+          "wifi_room",
+          "internet",
+          "restaurant",
+          "room_service"
+        ],
+        "transportations": {
+          "airports": [],
+          "trains": []
+        },
+        "images": [
+          {
+            "image_id": "722865575",
+            "label": ""
+          },
+          {
+            "image_id": "722865599",
+            "label": ""
+          },
+          {
+            "image_id": "722865480",
+            "label": ""
+          },
+          {
+            "image_id": "722865414",
+            "label": ""
+          },
+          {
+            "image_id": "722865604",
+            "label": ""
+          },
+          {
+            "image_id": "722865481",
+            "label": ""
+          },
+          {
+            "image_id": "722865561",
+            "label": ""
+          },
+          {
+            "image_id": "722865628",
+            "label": ""
+          },
+          {
+            "image_id": "722865440",
+            "label": ""
+          },
+          {
+            "image_id": "722865549",
+            "label": ""
+          },
+          {
+            "image_id": "722865556",
+            "label": ""
+          },
+          {
+            "image_id": "722865429",
+            "label": ""
+          },
+          {
+            "image_id": "722865464",
+            "label": ""
+          },
+          {
+            "image_id": "722865403",
+            "label": ""
+          },
+          {
+            "image_id": "722865487",
+            "label": ""
+          }
+        ],
+        "hero_offer": {
+          "price": 2252.76,
+          "brt": "o2r#",
+          "rf": "o2r#",
+          "brf": 8429632,
+          "rt": 8429632,
+          "vendor": "htls",
+          "vendor_id_raw": "508469664",
+          "mota_code": null,
+          "direct_offer": false,
+          "offer_flags": [],
+          "jc_code": "",
+          "ranking_index": 0.9675615689199026,
+          "chain": "",
+          "free_cancellation": false,
+          "special": false,
+          "room_name": "Villa",
+          "rooms": [
+            {
+              "name": "Villa",
+              "flags": []
+            }
+          ],
+          "partner_name": "Hotels.com",
+          "partner_logo": "https://hotelscan.com/apis/vendors/htls/logo.svg?pos=zz"
+        },
+        "rank": 0,
+        "ctrl_srt": "im a ctrl teapot",
+        "test_srt": "im a test teapot"
+      }
+    ],
+    "filters": [],
+    "query": {
+      "pos": "zz"
+    }
+  }
+}

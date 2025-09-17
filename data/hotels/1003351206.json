@@ -1,0 +1,499 @@
+{
+  "_meta": {
+    "status": "SUCCESS",
+    "cached": true,
+    "count": 1,
+    "debug": {
+      "ticket": {
+        "ticket_id": "1003351206_zz_zz_d_publ_en_2_2025-10-08_2025-10-13_1_3",
+        "created_at": 1758065373.8751,
+        "loop": null,
+        "snapped_at": 1758065374.0114,
+        "snapshot_id": "1003351206_zz_zz_d_publ_en_2_2025-10-08_2025-10-13_1_3",
+        "snapshot_ttl": 300,
+        "executions": 2,
+        "progress": 1,
+        "save_errors": []
+      }
+    }
+  },
+  "data": {
+    "meta": [],
+    "geo": {
+      "hs_id": "xk8lkha1ntyx",
+      "region_name": "Thulusdhoo Island",
+      "region_name_long": "Thulusdhoo Island, Maldives",
+      "region_type": "CITY",
+      "region_id": 6278797,
+      "country_iso": "MV",
+      "country": "maldives",
+      "localised_country": "Maldives",
+      "center": [
+        4.37228,
+        73.65101
+      ],
+      "centroid": [
+        4.37228,
+        73.65101
+      ],
+      "polygon": [
+        "4.380631,73.643003",
+        "4.364183,73.643261",
+        "4.363924,73.659018",
+        "4.38052,73.658721",
+        "4.380631,73.643003"
+      ],
+      "radius": 1.29,
+      "zoom": -1,
+      "search_by_polygon": 1,
+      "cluster": 0,
+      "properties": 82,
+      "radius_override": 5,
+      "boundingbox": {
+        "ne": [
+          4.381,
+          73.66
+        ],
+        "sw": [
+          4.363,
+          73.643
+        ]
+      },
+      "airports": [
+        "MLE",
+        "DRV"
+      ],
+      "region_name_en": "Thulusdhoo Island",
+      "region_name_long_en": "Thulusdhoo Island, Maldives",
+      "referrer_city_name_en": "Thulusdhoo Island",
+      "parent_region_id": 6051084,
+      "parent_hs_id": "x5p4hmhw6iot",
+      "parent_region_name": "Maldives (all)",
+      "parent_region_name_long": "Maldives (all)",
+      "dynamic_bbox": {
+        "ne": [
+          4.372,
+          73.651
+        ],
+        "sw": [
+          4.372,
+          73.651
+        ]
+      }
+    },
+    "records": [
+      {
+        "hs_id": 1003351206,
+        "slug": "eden-blue-thulusdhoo-island-mv-1003351206",
+        "name": "Eden Blue",
+        "ty_id": "41e73cb2-9d0d-4736-a23b-9a12b23dedaa",
+        "toa": "guest_house",
+        "location": {
+          "city": "Thulusdhoo Island",
+          "zip": "08040",
+          "country_iso2": "MV",
+          "address": "Kibigus Magu",
+          "geoid": "xk8lkha1ntyx",
+          "loc": {
+            "type": "Point"
+          },
+          "coordinates": {
+            "lng": 73.65148,
+            "lat": 4.37241
+          }
+        },
+        "opening_time": {
+          "check_in_from": "14:00",
+          "check_in_to": null,
+          "check_out_from": null,
+          "check_out_to": "11:00"
+        },
+        "quality": {
+          "review_count": 266,
+          "review_rating": 95,
+          "stars": 0,
+          "stars_is_estimated": false,
+          "review_source": ""
+        },
+        "covid_safe": true,
+        "amenities": {
+          "wellness": [
+            "solarium"
+          ],
+          "sports": [
+            "badminton",
+            "bike_rent",
+            "sub"
+          ],
+          "internet": [
+            "wifi_lobby",
+            "wifi_room",
+            "internet"
+          ],
+          "parking": [
+            "parking"
+          ],
+          "outdoor": [
+            "garden",
+            "terrace"
+          ],
+          "other": [],
+          "entertainment": [
+            "tv_lobby"
+          ],
+          "transfer": [
+            "shuttle_service"
+          ],
+          "room": [
+            "heating",
+            "air_conditioning",
+            "in_room_safe"
+          ],
+          "reception": [
+            "laundry_service",
+            "safety_deposit_box"
+          ]
+        },
+        "descriptions": {
+          "hotel": "Situated just 400 metres from Bikini Beach, Eden Blue provides accommodation in Thulusdhoo with access to free bikes, a garden, as well as a housekeeping service. Boasting a shared kitchen, this property also provides guests with a sun terrace.",
+          "localized": "Situated just 400 metres from Bikini Beach, Eden Blue provides accommodation in Thulusdhoo with access to free bikes, a garden, as well as a housekeeping service. Boasting a shared kitchen, this property also provides guests with a sun terrace."
+        },
+        "short_description": "Excellent accommodation. Good for sightseeing and has a beach nearby.",
+        "offers": [
+          {
+            "price": 80.63,
+            "brt": "p2r#",
+            "rf": "p2r#",
+            "brf": 9502848,
+            "rt": 9502848,
+            "vendor": "bkng",
+            "vendor_id_raw": "3366035",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included",
+              "Free cancellation",
+              "Pay at the property"
+            ],
+            "jc_code": "",
+            "ranking_index": 0.996328909835049,
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Standard room",
+            "rooms": [
+              {
+                "name": "Standard room",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included",
+              "refundable": "Free cancellation",
+              "pay_at_hotel": "Pay at the property"
+            },
+            "partner_name": "Booking.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/bkng/logo.svg?pos=zz"
+          },
+          {
+            "vendor": "agda",
+            "price": 79.89,
+            "vendor_id_raw": "7916894",
+            "mota_code": null,
+            "jc_code": "",
+            "partner_name": "Agoda",
+            "partner_logo": "https://hotelscan.com/apis/vendors/agda/logo.svg?pos=zz",
+            "room_name": "Deluxe room",
+            "brf": 9502784,
+            "brt": "p2d#"
+          }
+        ],
+        "all_offers": [
+          {
+            "price": 79.89,
+            "brt": "p2r#",
+            "rf": "p2r#",
+            "brf": 9502784,
+            "rt": 9502784,
+            "vendor": "agda",
+            "vendor_id_raw": "7916894",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included",
+              "Free cancellation"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Standard room",
+            "rooms": [
+              {
+                "name": "Standard room",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included",
+              "refundable": "Free cancellation"
+            },
+            "partner_name": "Agoda",
+            "partner_logo": "https://hotelscan.com/apis/vendors/agda/logo.svg?pos=zz"
+          },
+          {
+            "price": 79.89,
+            "brt": "p2d#",
+            "rf": "p2d#",
+            "brf": 9502784,
+            "rt": 9502784,
+            "vendor": "agda",
+            "vendor_id_raw": "7916894",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included",
+              "Free cancellation"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Deluxe room",
+            "rooms": [
+              {
+                "name": "Deluxe room",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included",
+              "refundable": "Free cancellation"
+            },
+            "partner_name": "Agoda",
+            "partner_logo": "https://hotelscan.com/apis/vendors/agda/logo.svg?pos=zz"
+          },
+          {
+            "price": 80.63,
+            "brt": "p2d#",
+            "rf": "p2d#",
+            "brf": 9502848,
+            "rt": 9502848,
+            "vendor": "bkng",
+            "vendor_id_raw": "3366035",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included",
+              "Free cancellation",
+              "Pay at the property"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Deluxe room",
+            "rooms": [
+              {
+                "name": "Deluxe room",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included",
+              "refundable": "Free cancellation",
+              "pay_at_hotel": "Pay at the property"
+            },
+            "partner_name": "Booking.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/bkng/logo.svg?pos=zz"
+          },
+          {
+            "price": 80.63,
+            "brt": "p2r#",
+            "rf": "p2r#",
+            "brf": 9502848,
+            "rt": 9502848,
+            "vendor": "bkng",
+            "vendor_id_raw": "3366035",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included",
+              "Free cancellation",
+              "Pay at the property"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Standard room",
+            "rooms": [
+              {
+                "name": "Standard room",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included",
+              "refundable": "Free cancellation",
+              "pay_at_hotel": "Pay at the property"
+            },
+            "partner_name": "Booking.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/bkng/logo.svg?pos=zz"
+          }
+        ],
+        "descriptions_language": {
+          "general": {
+            "original_language": true,
+            "text": "Situated just 400 metres from Bikini Beach, Eden Blue provides accommodation in Thulusdhoo with access to free bikes, a garden, as well as a housekeeping service. Boasting a shared kitchen, this property also provides guests with a sun terrace."
+          }
+        },
+        "chain_code": null,
+        "bids": {
+          "bkng": "j23",
+          "agda": "j23"
+        },
+        "worst_offer": null,
+        "best_offer": 79.89,
+        "best_offer_ota": "agda",
+        "best_offer_mota": null,
+        "discount": 0,
+        "offers_count": 4,
+        "coordinates": {
+          "lat": 4.37241,
+          "lng": 73.65148
+        },
+        "distance": 0.05,
+        "neighborhood": null,
+        "badge": null,
+        "distances": [
+          {
+            "from": "center",
+            "distance": 0.05,
+            "time": 69,
+            "means": "foot",
+            "means_type": "foot"
+          }
+        ],
+        "specs": {
+          "bathrooms": null,
+          "beds": null,
+          "bedrooms": null,
+          "guests": null,
+          "square_meters": null
+        },
+        "toa_label": "guest house",
+        "top_amenities": [
+          "wifi_room",
+          "internet",
+          "parking",
+          "heating",
+          "air_conditioning"
+        ],
+        "transportations": {
+          "airports": [],
+          "trains": []
+        },
+        "images": [
+          {
+            "image_id": "767605852",
+            "label": ""
+          },
+          {
+            "image_id": "767605847",
+            "label": ""
+          },
+          {
+            "image_id": "767605865",
+            "label": ""
+          },
+          {
+            "image_id": "767605846",
+            "label": ""
+          },
+          {
+            "image_id": "767605863",
+            "label": ""
+          },
+          {
+            "image_id": "767605856",
+            "label": ""
+          },
+          {
+            "image_id": "767605849",
+            "label": ""
+          },
+          {
+            "image_id": "767605861",
+            "label": ""
+          },
+          {
+            "image_id": "767605864",
+            "label": ""
+          },
+          {
+            "image_id": "767605851",
+            "label": ""
+          },
+          {
+            "image_id": "767605850",
+            "label": ""
+          },
+          {
+            "image_id": "767605854",
+            "label": ""
+          },
+          {
+            "image_id": "767605845",
+            "label": ""
+          },
+          {
+            "image_id": "767605855",
+            "label": ""
+          },
+          {
+            "image_id": "767605848",
+            "label": ""
+          }
+        ],
+        "hero_offer": {
+          "price": 80.63,
+          "brt": "p2r#",
+          "rf": "p2r#",
+          "brf": 9502848,
+          "rt": 9502848,
+          "vendor": "bkng",
+          "vendor_id_raw": "3366035",
+          "mota_code": null,
+          "direct_offer": false,
+          "offer_flags": {
+            "breakfast": "Breakfast included",
+            "refundable": "Free cancellation",
+            "pay_at_hotel": "Pay at the property"
+          },
+          "jc_code": "",
+          "ranking_index": 0.996328909835049,
+          "chain": "",
+          "free_cancellation": true,
+          "special": false,
+          "room_name": "Standard room",
+          "rooms": [
+            {
+              "name": "Standard room",
+              "flags": []
+            }
+          ],
+          "partner_name": "Booking.com",
+          "partner_logo": "https://hotelscan.com/apis/vendors/bkng/logo.svg?pos=zz"
+        },
+        "rank": 0,
+        "ctrl_srt": "im a ctrl teapot",
+        "test_srt": "im a test teapot"
+      }
+    ],
+    "filters": [],
+    "query": {
+      "pos": "zz"
+    }
+  }
+}

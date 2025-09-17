@@ -1,0 +1,436 @@
+{
+  "_meta": {
+    "status": "SUCCESS",
+    "cached": true,
+    "count": 1,
+    "debug": {
+      "ticket": {
+        "ticket_id": "690645480_zz_zz_d_publ_en_2_2025-10-08_2025-10-13_1_3",
+        "created_at": 1758065391.483,
+        "loop": null,
+        "snapped_at": 1758065391.5963,
+        "snapshot_id": "690645480_zz_zz_d_publ_en_2_2025-10-08_2025-10-13_1_3",
+        "snapshot_ttl": 300,
+        "executions": 2,
+        "progress": 1,
+        "save_errors": []
+      }
+    }
+  },
+  "data": {
+    "meta": [],
+    "geo": {
+      "hs_id": "xkx8jeq4hbuy",
+      "region_name": "Rasdhoo",
+      "region_name_long": "Rasdhoo, Maldives",
+      "region_type": "CITY",
+      "region_id": 6227584,
+      "country_iso": "MV",
+      "country": "maldives",
+      "localised_country": "Maldives",
+      "center": [
+        4.26655,
+        72.99018
+      ],
+      "centroid": [
+        4.2669,
+        72.99018
+      ],
+      "polygon": [
+        "4.254605,72.99124",
+        "4.263035,72.987716",
+        "4.268655,72.976446",
+        "4.27849,72.994054",
+        "4.265142,73.003917",
+        "4.254605,72.99124"
+      ],
+      "radius": 1.54,
+      "zoom": -1,
+      "search_by_polygon": 1,
+      "cluster": 0,
+      "properties": 54,
+      "radius_override": 5,
+      "boundingbox": {
+        "ne": [
+          4.279,
+          73.004
+        ],
+        "sw": [
+          4.254,
+          72.976
+        ]
+      },
+      "airports": [
+        "MLE",
+        "DRV"
+      ],
+      "region_name_en": "Rasdhoo",
+      "region_name_long_en": "Rasdhoo, Maldives",
+      "referrer_city_name_en": "Rasdhoo",
+      "parent_region_id": 109,
+      "parent_hs_id": "xmmmamtksdxx",
+      "parent_region_name": "Maldives",
+      "parent_region_name_long": "Maldives",
+      "dynamic_bbox": {
+        "ne": [
+          4.261,
+          72.993
+        ],
+        "sw": [
+          4.261,
+          72.993
+        ]
+      }
+    },
+    "records": [
+      {
+        "hs_id": 690645480,
+        "slug": "summer-vibes-beach-front-maldives-rasdhoo-mv-690645480",
+        "name": "Summer Vibes Beach Front Maldives",
+        "ty_id": "70967811-f666-462c-9b6c-ed188f82eae9",
+        "toa": "hotel",
+        "location": {
+          "city": "Rasdhoo",
+          "zip": "09020",
+          "country_iso2": "MV",
+          "address": "Huraagandu Magu",
+          "geoid": "xkx8jeq4hbuy",
+          "loc": {
+            "type": "Point"
+          },
+          "coordinates": {
+            "lng": 72.993705,
+            "lat": 4.261903
+          }
+        },
+        "quality": {
+          "review_count": 10,
+          "review_rating": 90,
+          "stars": 2,
+          "stars_is_estimated": false,
+          "review_source": ""
+        },
+        "covid_safe": false,
+        "amenities": {
+          "business": [
+            "business_services"
+          ],
+          "sports": [
+            "sub",
+            "surf"
+          ],
+          "internet": [
+            "wifi_lobby",
+            "wifi_room",
+            "internet"
+          ],
+          "food_drink": [
+            "restaurant",
+            "room_service",
+            "cafe",
+            "bar"
+          ],
+          "outdoor": [
+            "garden"
+          ],
+          "entertainment": [
+            "tv_lobby"
+          ],
+          "transfer": [
+            "shuttle_service"
+          ],
+          "room": [
+            "air_conditioning"
+          ],
+          "reception": [
+            "24h_reception",
+            "luggage_storage",
+            "concierge",
+            "laundry_service",
+            "safety_deposit_box"
+          ]
+        },
+        "descriptions": {
+          "general": "Summer Vibes Beach Front Maldives offers top-notch services and amenities, ensuring guests experience utmost comfort. Share your photos and respond to emails at your convenience, thanks to the free Wi-Fi internet access offered by hotel.Should you require transportation to or from the airport, hotel is able to organize it prior to your arrival date. The accommodating team at the reception will aid you with amenities such as luggage storage.Traveling with minimal baggage is achievable at Summer Vibes Beach Front Maldives, as the hotel's dry cleaning service and laundry service ensures your garments stay fresh.Room amenities like room service and daily housekeeping contribute to making a perfect selection for your stay. Each accommodation at Summer Vibes Beach Front Maldives is thoughtfully created and adorned to provide visitors with a comfortable, home-like atmosphere.In certain rooms, the hotel offers linen service and air conditioning for guest convenience and satisfaction. In select rooms, guests at the hotel can enjoy top-notch in-room entertainment with television and cable TV available for their convenience.Rest assured, in a few chosen rooms, you will find the convenience of a coffee or tea maker, instant coffee, instant tea and mini bar at your disposal. Summer Vibes Beach Front Maldives offers a hair dryer and toiletries in the restrooms of specific accommodations. Embark on your holiday experience in the most ideal manner. Commence each morning of your visit with an on-site breakfast. Experience the delight of a fresh morning by savoring excellent coffee at the cafe situated within hotel.Should you prefer not to venture out for a meal, the enticing culinary choices at hotel are always available for your satisfaction.No matter your specific dietary needs, rest assured that Summer Vibes Beach Front Maldives provides an array of halal choices to ensure your dining experience is nothing short of delightful.Experience an unforgettable evening with your fellow travelers just a short distance away, at hotel's bar. Should you be particularly discerning in your dining choices, you will surely appreciate having access to the on-site BBQ facilities provided at this location. Summer Vibes Beach Front Maldives provides a superb assortment of leisure amenities for guests to enjoy.Make certain to allocate time for discovering the shoreline, easily reachable right from the hotel.",
+          "localized": "Summer Vibes Beach Front Maldives offers top-notch services and amenities, ensuring guests experience utmost comfort. Share your photos and respond to emails at your convenience, thanks to the free Wi-Fi internet access offered by hotel.Should you require transportation to or from the airport, hotel is able to organize it prior to your arrival date. The accommodating team at the reception will aid you with amenities such as luggage storage.Traveling with minimal baggage is achievable at Summer Vibes Beach Front Maldives, as the hotel's dry cleaning service and laundry service ensures your garments stay fresh.Room amenities like room service and daily housekeeping contribute to making a perfect selection for your stay. Each accommodation at Summer Vibes Beach Front Maldives is thoughtfully created and adorned to provide visitors with a comfortable, home-like atmosphere.In certain rooms, the hotel offers linen service and air conditioning for guest convenience and satisfaction. In select rooms, guests at the hotel can enjoy top-notch in-room entertainment with television and cable TV available for their convenience.Rest assured, in a few chosen rooms, you will find the convenience of a coffee or tea maker, instant coffee, instant tea and mini bar at your disposal. Summer Vibes Beach Front Maldives offers a hair dryer and toiletries in the restrooms of specific accommodations. Embark on your holiday experience in the most ideal manner. Commence each morning of your visit with an on-site breakfast. Experience the delight of a fresh morning by savoring excellent coffee at the cafe situated within hotel.Should you prefer not to venture out for a meal, the enticing culinary choices at hotel are always available for your satisfaction.No matter your specific dietary needs, rest assured that Summer Vibes Beach Front Maldives provides an array of halal choices to ensure your dining experience is nothing short of delightful.Experience an unforgettable evening with your fellow travelers just a short distance away, at hotel's bar. Should you be particularly discerning in your dining choices, you will surely appreciate having access to the on-site BBQ facilities provided at this location. Summer Vibes Beach Front Maldives provides a superb assortment of leisure amenities for guests to enjoy.Make certain to allocate time for discovering the shoreline, easily reachable right from the hotel."
+        },
+        "short_description": "Basic hotel with shuttle service, restaurant and bar",
+        "chain": "no_chain",
+        "brand": "no_brand",
+        "offers": [
+          {
+            "price": 85.05,
+            "brt": "p2d#",
+            "rf": "p2d#",
+            "brf": 9470016,
+            "rt": 9470016,
+            "vendor": "agda",
+            "vendor_id_raw": "28891853",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included"
+            ],
+            "jc_code": "",
+            "ranking_index": 1,
+            "chain": "",
+            "free_cancellation": false,
+            "special": false,
+            "room_name": "Deluxe room",
+            "rooms": [
+              {
+                "name": "Deluxe room",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included"
+            },
+            "partner_name": "Agoda",
+            "partner_logo": "https://hotelscan.com/apis/vendors/agda/logo.svg?pos=zz"
+          }
+        ],
+        "all_offers": [
+          {
+            "price": 85.05,
+            "brt": "p2d#",
+            "rf": "p2d#",
+            "brf": 9470016,
+            "rt": 9470016,
+            "vendor": "agda",
+            "vendor_id_raw": "28891853",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": false,
+            "special": false,
+            "room_name": "Deluxe room",
+            "rooms": [
+              {
+                "name": "Deluxe room",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included"
+            },
+            "partner_name": "Agoda",
+            "partner_logo": "https://hotelscan.com/apis/vendors/agda/logo.svg?pos=zz"
+          },
+          {
+            "price": 114.55,
+            "brt": "p3d#",
+            "rf": "p3d#",
+            "brf": 9470016,
+            "rt": 9470016,
+            "vendor": "agda",
+            "vendor_id_raw": "28891853",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": false,
+            "special": false,
+            "room_name": "Deluxe Triple Room",
+            "rooms": [
+              {
+                "name": "Deluxe Triple Room",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included"
+            },
+            "partner_name": "Agoda",
+            "partner_logo": "https://hotelscan.com/apis/vendors/agda/logo.svg?pos=zz"
+          },
+          {
+            "price": 123.11,
+            "brt": "p2q#",
+            "rf": "p2q#",
+            "brf": 9470016,
+            "rt": 9470016,
+            "vendor": "agda",
+            "vendor_id_raw": "28891853",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": false,
+            "special": false,
+            "room_name": "Family room",
+            "rooms": [
+              {
+                "name": "Family room",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included"
+            },
+            "partner_name": "Agoda",
+            "partner_logo": "https://hotelscan.com/apis/vendors/agda/logo.svg?pos=zz"
+          }
+        ],
+        "descriptions_language": {
+          "general": {
+            "original_language": true,
+            "text": "Summer Vibes Beach Front Maldives offers top-notch services and amenities, ensuring guests experience utmost comfort. Share your photos and respond to emails at your convenience, thanks to the free Wi-Fi internet access offered by hotel.Should you require transportation to or from the airport, hotel is able to organize it prior to your arrival date. The accommodating team at the reception will aid you with amenities such as luggage storage.Traveling with minimal baggage is achievable at Summer Vibes Beach Front Maldives, as the hotel's dry cleaning service and laundry service ensures your garments stay fresh.Room amenities like room service and daily housekeeping contribute to making a perfect selection for your stay. Each accommodation at Summer Vibes Beach Front Maldives is thoughtfully created and adorned to provide visitors with a comfortable, home-like atmosphere.In certain rooms, the hotel offers linen service and air conditioning for guest convenience and satisfaction. In select rooms, guests at the hotel can enjoy top-notch in-room entertainment with television and cable TV available for their convenience.Rest assured, in a few chosen rooms, you will find the convenience of a coffee or tea maker, instant coffee, instant tea and mini bar at your disposal. Summer Vibes Beach Front Maldives offers a hair dryer and toiletries in the restrooms of specific accommodations. Embark on your holiday experience in the most ideal manner. Commence each morning of your visit with an on-site breakfast. Experience the delight of a fresh morning by savoring excellent coffee at the cafe situated within hotel.Should you prefer not to venture out for a meal, the enticing culinary choices at hotel are always available for your satisfaction.No matter your specific dietary needs, rest assured that Summer Vibes Beach Front Maldives provides an array of halal choices to ensure your dining experience is nothing short of delightful.Experience an unforgettable evening with your fellow travelers just a short distance away, at hotel's bar. Should you be particularly discerning in your dining choices, you will surely appreciate having access to the on-site BBQ facilities provided at this location. Summer Vibes Beach Front Maldives provides a superb assortment of leisure amenities for guests to enjoy.Make certain to allocate time for discovering the shoreline, easily reachable right from the hotel."
+          }
+        },
+        "chain_code": null,
+        "bids": {
+          "agda": "j23"
+        },
+        "worst_offer": null,
+        "best_offer": 85.05,
+        "best_offer_ota": "agda",
+        "best_offer_mota": null,
+        "discount": 0,
+        "offers_count": 3,
+        "coordinates": {
+          "lat": 4.261903,
+          "lng": 72.993705
+        },
+        "distance": 0.65,
+        "neighborhood": null,
+        "badge": null,
+        "distances": [
+          {
+            "from": "center",
+            "distance": 0.65,
+            "time": 903,
+            "means": "foot",
+            "means_type": "foot"
+          }
+        ],
+        "specs": {
+          "bathrooms": null,
+          "beds": null,
+          "bedrooms": null,
+          "guests": null,
+          "square_meters": null
+        },
+        "toa_label": "hotel",
+        "top_amenities": [
+          "wifi_room",
+          "internet",
+          "restaurant",
+          "room_service",
+          "bar"
+        ],
+        "transportations": {
+          "airports": [],
+          "trains": []
+        },
+        "images": [
+          {
+            "image_id": "687076984",
+            "label": ""
+          },
+          {
+            "image_id": "687076975",
+            "label": ""
+          },
+          {
+            "image_id": "687077013",
+            "label": ""
+          },
+          {
+            "image_id": "687077022",
+            "label": ""
+          },
+          {
+            "image_id": "687077006",
+            "label": ""
+          },
+          {
+            "image_id": "687076988",
+            "label": ""
+          },
+          {
+            "image_id": "687077010",
+            "label": ""
+          },
+          {
+            "image_id": "687076985",
+            "label": ""
+          },
+          {
+            "image_id": "687076996",
+            "label": ""
+          },
+          {
+            "image_id": "687077015",
+            "label": ""
+          },
+          {
+            "image_id": "687077018",
+            "label": ""
+          },
+          {
+            "image_id": "687076981",
+            "label": ""
+          },
+          {
+            "image_id": "687076991",
+            "label": ""
+          },
+          {
+            "image_id": "687077016",
+            "label": ""
+          },
+          {
+            "image_id": "687077011",
+            "label": ""
+          }
+        ],
+        "hero_offer": {
+          "price": 85.05,
+          "brt": "p2d#",
+          "rf": "p2d#",
+          "brf": 9470016,
+          "rt": 9470016,
+          "vendor": "agda",
+          "vendor_id_raw": "28891853",
+          "mota_code": null,
+          "direct_offer": false,
+          "offer_flags": {
+            "breakfast": "Breakfast included"
+          },
+          "jc_code": "",
+          "ranking_index": 1,
+          "chain": "",
+          "free_cancellation": false,
+          "special": false,
+          "room_name": "Deluxe room",
+          "rooms": [
+            {
+              "name": "Deluxe room",
+              "flags": []
+            }
+          ],
+          "partner_name": "Agoda",
+          "partner_logo": "https://hotelscan.com/apis/vendors/agda/logo.svg?pos=zz"
+        },
+        "rank": 0,
+        "ctrl_srt": "im a ctrl teapot",
+        "test_srt": "im a test teapot"
+      }
+    ],
+    "filters": [],
+    "query": {
+      "pos": "zz"
+    }
+  }
+}

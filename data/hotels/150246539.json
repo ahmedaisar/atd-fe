@@ -1,0 +1,1413 @@
+{
+  "_meta": {
+    "status": "SUCCESS",
+    "cached": true,
+    "count": 1,
+    "debug": {
+      "ticket": {
+        "ticket_id": "150246539_zz_zz_d_publ_en_2_2025-10-08_2025-10-13_1_3",
+        "created_at": 1758065349.8849,
+        "loop": null,
+        "snapped_at": 1758065351.1592,
+        "snapshot_id": "150246539_zz_zz_d_publ_en_2_2025-10-08_2025-10-13_1_3",
+        "snapshot_ttl": 300,
+        "executions": 4,
+        "progress": 1,
+        "save_errors": []
+      }
+    }
+  },
+  "data": {
+    "meta": [],
+    "geo": {
+      "hs_id": "x5p1f7sj44do",
+      "region_name": "Kuredu Island",
+      "region_name_long": "Kuredu Island, Maldives",
+      "region_type": "CITY",
+      "region_id": 6049827,
+      "country_iso": "MV",
+      "country": "maldives",
+      "localised_country": "Maldives",
+      "center": [
+        5.5496,
+        73.46775
+      ],
+      "centroid": [
+        5.5496,
+        73.46775
+      ],
+      "polygon": [
+        "5.556425,73.459975",
+        "5.541872,73.459973",
+        "5.541872,73.475519",
+        "5.557332,73.475517",
+        "5.556425,73.459975"
+      ],
+      "radius": 1.22,
+      "zoom": -1,
+      "search_by_polygon": 0,
+      "cluster": 0,
+      "properties": 7,
+      "radius_override": 5,
+      "boundingbox": {
+        "ne": [
+          5.558,
+          73.476
+        ],
+        "sw": [
+          5.541,
+          73.459
+        ]
+      },
+      "airports": [
+        "MLE",
+        "HAQ",
+        "DRV"
+      ],
+      "region_name_en": "Kuredu Island",
+      "region_name_long_en": "Kuredu Island, Maldives",
+      "referrer_city_name_en": "Kuredu Island",
+      "parent_region_id": 6051084,
+      "parent_hs_id": "x5p4hmhw6iot",
+      "parent_region_name": "Maldives (all)",
+      "parent_region_name_long": "Maldives (all)",
+      "dynamic_bbox": {
+        "ne": [
+          5.549,
+          73.465
+        ],
+        "sw": [
+          5.549,
+          73.465
+        ]
+      }
+    },
+    "records": [
+      {
+        "hs_id": 150246539,
+        "slug": "kuredu-island-resort-spa-kuredu-island-mv-150246539",
+        "name": "Kuredu Island Resort & Spa",
+        "toa": "resort",
+        "location": {
+          "city": "Kuredu Island",
+          "zip": "20187",
+          "country_iso2": "MV",
+          "address": "Kuredu Island Resort & Spa",
+          "geoid": "x5p1f7sj44do",
+          "loc": {
+            "type": "Point"
+          },
+          "coordinates": {
+            "lng": 73.46504,
+            "lat": 5.54918
+          }
+        },
+        "opening_time": {
+          "check_in_from": "14:00",
+          "check_in_to": "16:00",
+          "check_out_from": null,
+          "check_out_to": "12:00"
+        },
+        "quality": {
+          "review_count": 496,
+          "review_rating": 91,
+          "stars": 4,
+          "stars_is_estimated": false,
+          "review_source": ""
+        },
+        "covid_safe": true,
+        "amenities": {
+          "wellness": [
+            "indoor_pool",
+            "massage",
+            "solarium",
+            "fitness_center",
+            "hair_salon",
+            "sauna",
+            "spa",
+            "outdoor_pool"
+          ],
+          "sports": [
+            "golf",
+            "billiard",
+            "minigolf",
+            "badminton",
+            "yoga",
+            "bike_rent",
+            "ping_pong",
+            "tennis",
+            "sub",
+            "surf"
+          ],
+          "internet": [
+            "wifi",
+            "internet"
+          ],
+          "food_drink": [
+            "restaurant",
+            "room_service",
+            "poolside_bar",
+            "cafe",
+            "bar",
+            "snack_bar"
+          ],
+          "disability": [
+            "wheelchair_accessible",
+            "disability_facilities"
+          ],
+          "outdoor": [
+            "garden",
+            "terrace"
+          ],
+          "other": [
+            "lift"
+          ],
+          "business": [
+            "business_services"
+          ],
+          "children": [
+            "babysitter",
+            "children_playground"
+          ],
+          "entertainment": [
+            "tv_lobby",
+            "disco"
+          ],
+          "transfer": [
+            "shuttle_service"
+          ],
+          "room": [
+            "air_conditioning",
+            "tv"
+          ],
+          "reception": [
+            "24h_reception",
+            "luggage_storage",
+            "concierge",
+            "laundry_service",
+            "safety_deposit_box"
+          ]
+        },
+        "descriptions": {
+          "direction": "Located in Kuredu Island, Kuredu Island Resort is in a rural area and on the beach. The area's natural beauty can be seen at Hurawalhi Beach and Kuredu Beach. With snorkeling and windsurfing nearby, you'll find plenty of adventures in the water.",
+          "general": "Offering a private beach area and water sports facilities, Kuredu Island Resort & Spa is a beachfront property situated in Kuredu in the Lhaviyani Atoll Region. The resort has an outdoor pool, a spa center, and a fitness center which is complimentary for the guests. A 24-hour front desk and tour desk service are provided. Guests can also enjoy a drink at the bar and on-site restaurant. All rooms include a minibar. Certain units have a seating area to relax in after a busy day. Views of the sea, pool, or garden are featured in certain rooms. Every room comes with a private bathroom. Superior rooms include a spa bath or a hot tub. Free toiletries are provided in all rooms. You will find a hairdresser at the property. Bike hire is available at this resort. Guests can also engage in golfing, snorkeling, canoeing, and fishing. Wedding Anniversary benefits: Complimentary 2x Cupcakes, 1x Jar Macaroons, Sparkling Wine with our compliments card, Sparkling Wine with our compliments card, Bed Decoration with wording (Happy anniversary “If possible to be presented on the anniversary day)",
+          "amenities": true,
+          "localized": "Offering a private beach area and water sports facilities, Kuredu Island Resort & Spa is a beachfront property situated in Kuredu in the Lhaviyani Atoll Region. The resort has an outdoor pool, a spa center, and a fitness center which is complimentary for the guests. A 24-hour front desk and tour desk service are provided. Guests can also enjoy a drink at the bar and on-site restaurant. All rooms include a minibar. Certain units have a seating area to relax in after a busy day. Views of the sea, pool, or garden are featured in certain rooms. Every room comes with a private bathroom. Superior rooms include a spa bath or a hot tub. Free toiletries are provided in all rooms. You will find a hairdresser at the property. Bike hire is available at this resort. Guests can also engage in golfing, snorkeling, canoeing, and fishing. Wedding Anniversary benefits: Complimentary 2x Cupcakes, 1x Jar Macaroons, Sparkling Wine with our compliments card, Sparkling Wine with our compliments card, Bed Decoration with wording (Happy anniversary “If possible to be presented on the anniversary day)"
+        },
+        "short_description": "Original resort with spa, bike rent and restaurant",
+        "chain": "crown_and_champa_resorts",
+        "offers": [
+          {
+            "price": 628.43,
+            "brt": "o2r#",
+            "rf": "o2r#",
+            "brf": 9502784,
+            "rt": 9502784,
+            "vendor": "agda",
+            "vendor_id_raw": "41480",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included",
+              "Free cancellation"
+            ],
+            "jc_code": "",
+            "ranking_index": 0.9046640039463425,
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Villa",
+            "rooms": [
+              {
+                "name": "Villa",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included",
+              "refundable": "Free cancellation"
+            },
+            "partner_name": "Agoda",
+            "partner_logo": "https://hotelscan.com/apis/vendors/agda/logo.svg?pos=zz"
+          },
+          {
+            "vendor": "ostr",
+            "price": 521.82,
+            "vendor_id_raw": "8465137",
+            "mota_code": null,
+            "jc_code": "",
+            "partner_name": "Zenhotels",
+            "partner_logo": "https://hotelscan.com/apis/vendors/ostr/logo.svg?pos=zz",
+            "room_name": "Villa - Double bed",
+            "brf": 10027072,
+            "brt": "o2r#d"
+          },
+          {
+            "vendor": "stfl",
+            "price": 523.97,
+            "vendor_id_raw": "52172",
+            "mota_code": null,
+            "jc_code": "",
+            "partner_name": "Stayforlong",
+            "partner_logo": "https://hotelscan.com/apis/vendors/stfl/logo.svg?pos=zz",
+            "room_name": "Villa",
+            "brf": 9470016,
+            "brt": "o2r#"
+          },
+          {
+            "vendor": "last",
+            "price": 478.65,
+            "vendor_id_raw": "982168",
+            "mota_code": null,
+            "jc_code": "LASTMINUTE",
+            "partner_name": "lastminute.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/last/logo.svg?pos=zz",
+            "room_name": "Villa",
+            "brf": 10027072,
+            "brt": "o2r#"
+          }
+        ],
+        "all_offers": [
+          {
+            "price": 478.65,
+            "brt": "o2r#",
+            "rf": "o2r#",
+            "brf": 10027072,
+            "rt": 10027072,
+            "vendor": "last",
+            "vendor_id_raw": "982168",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Full board",
+              "Free cancellation"
+            ],
+            "jc_code": "LASTMINUTE",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Villa",
+            "rooms": [
+              {
+                "name": "Villa",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "full_board": "Full board",
+              "refundable": "Free cancellation"
+            },
+            "partner_name": "lastminute.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/last/logo.svg?pos=zz"
+          },
+          {
+            "price": 521.82,
+            "brt": "o2r#d",
+            "rf": "o2r#d",
+            "brf": 10027072,
+            "rt": 10027072,
+            "vendor": "ostr",
+            "vendor_id_raw": "8465137",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Full board",
+              "Free cancellation"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Villa - Double bed",
+            "rooms": [
+              {
+                "name": "Villa - Double bed",
+                "flags": [
+                  "Double bed"
+                ]
+              }
+            ],
+            "offer_flags_new": {
+              "full_board": "Full board",
+              "refundable": "Free cancellation"
+            },
+            "partner_name": "Zenhotels",
+            "partner_logo": "https://hotelscan.com/apis/vendors/ostr/logo.svg?pos=zz"
+          },
+          {
+            "price": 523.97,
+            "brt": "o2r#",
+            "rf": "o2r#",
+            "brf": 9470016,
+            "rt": 9470016,
+            "vendor": "stfl",
+            "vendor_id_raw": "52172",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": false,
+            "special": false,
+            "room_name": "Villa",
+            "rooms": [
+              {
+                "name": "Villa",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included"
+            },
+            "partner_name": "Stayforlong",
+            "partner_logo": "https://hotelscan.com/apis/vendors/stfl/logo.svg?pos=zz"
+          },
+          {
+            "price": 564.22,
+            "brt": "o2r#d",
+            "rf": "o2r#d",
+            "brf": 10027072,
+            "rt": 10027072,
+            "vendor": "ostr",
+            "vendor_id_raw": "8465137",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Full board",
+              "Free cancellation"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Villa - Double bed",
+            "rooms": [
+              {
+                "name": "Villa - Double bed",
+                "flags": [
+                  "Double bed"
+                ]
+              }
+            ],
+            "offer_flags_new": {
+              "full_board": "Full board",
+              "refundable": "Free cancellation"
+            },
+            "partner_name": "Zenhotels",
+            "partner_logo": "https://hotelscan.com/apis/vendors/ostr/logo.svg?pos=zz"
+          },
+          {
+            "price": 579.79,
+            "brt": "o2r#",
+            "rf": "o2r#",
+            "brf": 11075648,
+            "rt": 11075648,
+            "vendor": "last",
+            "vendor_id_raw": "982168",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Free cancellation"
+            ],
+            "jc_code": "LASTMINUTE",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Villa",
+            "rooms": [
+              {
+                "name": "Villa",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "refundable": "Free cancellation"
+            },
+            "partner_name": "lastminute.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/last/logo.svg?pos=zz"
+          },
+          {
+            "price": 601.42,
+            "brt": "o2r#d",
+            "rf": "o2r#d",
+            "brf": 10027072,
+            "rt": 10027072,
+            "vendor": "ostr",
+            "vendor_id_raw": "8465137",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Full board",
+              "Free cancellation"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Villa - Double bed",
+            "rooms": [
+              {
+                "name": "Villa - Double bed",
+                "flags": [
+                  "Double bed"
+                ]
+              }
+            ],
+            "offer_flags_new": {
+              "full_board": "Full board",
+              "refundable": "Free cancellation"
+            },
+            "partner_name": "Zenhotels",
+            "partner_logo": "https://hotelscan.com/apis/vendors/ostr/logo.svg?pos=zz"
+          },
+          {
+            "price": 623.62,
+            "brt": "o2r#a",
+            "rf": "o2r#a",
+            "brf": 10027072,
+            "rt": 10027072,
+            "vendor": "ostr",
+            "vendor_id_raw": "8465137",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Full board",
+              "Free cancellation"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Villa - Bed type subject to availability",
+            "rooms": [
+              {
+                "name": "Villa - Bed type subject to availability",
+                "flags": [
+                  "Bed type subject to availability"
+                ]
+              }
+            ],
+            "offer_flags_new": {
+              "full_board": "Full board",
+              "refundable": "Free cancellation"
+            },
+            "partner_name": "Zenhotels",
+            "partner_logo": "https://hotelscan.com/apis/vendors/ostr/logo.svg?pos=zz"
+          },
+          {
+            "price": 628.43,
+            "brt": "o2r#",
+            "rf": "o2r#",
+            "brf": 9502784,
+            "rt": 9502784,
+            "vendor": "agda",
+            "vendor_id_raw": "41480",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included",
+              "Free cancellation"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Villa",
+            "rooms": [
+              {
+                "name": "Villa",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included",
+              "refundable": "Free cancellation"
+            },
+            "partner_name": "Agoda",
+            "partner_logo": "https://hotelscan.com/apis/vendors/agda/logo.svg?pos=zz"
+          },
+          {
+            "price": 641.82,
+            "brt": "o2r#d",
+            "rf": "o2r#d",
+            "brf": 11075648,
+            "rt": 11075648,
+            "vendor": "ostr",
+            "vendor_id_raw": "8465137",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Free cancellation"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Villa - Double bed",
+            "rooms": [
+              {
+                "name": "Villa - Double bed",
+                "flags": [
+                  "Double bed"
+                ]
+              }
+            ],
+            "offer_flags_new": {
+              "refundable": "Free cancellation"
+            },
+            "partner_name": "Zenhotels",
+            "partner_logo": "https://hotelscan.com/apis/vendors/ostr/logo.svg?pos=zz"
+          },
+          {
+            "price": 643.82,
+            "brt": "o2r#d",
+            "rf": "o2r#d",
+            "brf": 10027072,
+            "rt": 10027072,
+            "vendor": "ostr",
+            "vendor_id_raw": "8465137",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Full board",
+              "Free cancellation"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Villa - Double bed",
+            "rooms": [
+              {
+                "name": "Villa - Double bed",
+                "flags": [
+                  "Double bed"
+                ]
+              }
+            ],
+            "offer_flags_new": {
+              "full_board": "Full board",
+              "refundable": "Free cancellation"
+            },
+            "partner_name": "Zenhotels",
+            "partner_logo": "https://hotelscan.com/apis/vendors/ostr/logo.svg?pos=zz"
+          },
+          {
+            "price": 665.66,
+            "brt": "o2r#d",
+            "rf": "o2r#d",
+            "brf": 10027072,
+            "rt": 10027072,
+            "vendor": "ostr",
+            "vendor_id_raw": "8465137",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Full board",
+              "Free cancellation"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Villa - Double bed",
+            "rooms": [
+              {
+                "name": "Villa - Double bed",
+                "flags": [
+                  "Double bed"
+                ]
+              }
+            ],
+            "offer_flags_new": {
+              "full_board": "Full board",
+              "refundable": "Free cancellation"
+            },
+            "partner_name": "Zenhotels",
+            "partner_logo": "https://hotelscan.com/apis/vendors/ostr/logo.svg?pos=zz"
+          },
+          {
+            "price": 684.22,
+            "brt": "o2r#d",
+            "rf": "o2r#d",
+            "brf": 11075648,
+            "rt": 11075648,
+            "vendor": "ostr",
+            "vendor_id_raw": "8465137",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Free cancellation"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Villa - Double bed",
+            "rooms": [
+              {
+                "name": "Villa - Double bed",
+                "flags": [
+                  "Double bed"
+                ]
+              }
+            ],
+            "offer_flags_new": {
+              "refundable": "Free cancellation"
+            },
+            "partner_name": "Zenhotels",
+            "partner_logo": "https://hotelscan.com/apis/vendors/ostr/logo.svg?pos=zz"
+          },
+          {
+            "price": 688.66,
+            "brt": "o2r#d",
+            "rf": "o2r#d",
+            "brf": 10027072,
+            "rt": 10027072,
+            "vendor": "ostr",
+            "vendor_id_raw": "8465137",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Full board",
+              "Free cancellation"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Villa - Double bed",
+            "rooms": [
+              {
+                "name": "Villa - Double bed",
+                "flags": [
+                  "Double bed"
+                ]
+              }
+            ],
+            "offer_flags_new": {
+              "full_board": "Full board",
+              "refundable": "Free cancellation"
+            },
+            "partner_name": "Zenhotels",
+            "partner_logo": "https://hotelscan.com/apis/vendors/ostr/logo.svg?pos=zz"
+          },
+          {
+            "price": 750.54,
+            "brt": "o2r#",
+            "rf": "o2r#",
+            "brf": 8454208,
+            "rt": 8454208,
+            "vendor": "agda",
+            "vendor_id_raw": "41480",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Free cancellation"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Villa",
+            "rooms": [
+              {
+                "name": "Villa",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "refundable": "Free cancellation"
+            },
+            "partner_name": "Agoda",
+            "partner_logo": "https://hotelscan.com/apis/vendors/agda/logo.svg?pos=zz"
+          },
+          {
+            "price": 773.02,
+            "brt": "o2r#d",
+            "rf": "o2r#d",
+            "brf": 11075648,
+            "rt": 11075648,
+            "vendor": "ostr",
+            "vendor_id_raw": "8465137",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Free cancellation"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Villa - Double bed",
+            "rooms": [
+              {
+                "name": "Villa - Double bed",
+                "flags": [
+                  "Double bed"
+                ]
+              }
+            ],
+            "offer_flags_new": {
+              "refundable": "Free cancellation"
+            },
+            "partner_name": "Zenhotels",
+            "partner_logo": "https://hotelscan.com/apis/vendors/ostr/logo.svg?pos=zz"
+          },
+          {
+            "price": 775.46,
+            "brt": "o2r#d",
+            "rf": "o2r#d",
+            "brf": 10027072,
+            "rt": 10027072,
+            "vendor": "ostr",
+            "vendor_id_raw": "8465137",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Full board",
+              "Free cancellation"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Villa - Double bed",
+            "rooms": [
+              {
+                "name": "Villa - Double bed",
+                "flags": [
+                  "Double bed"
+                ]
+              }
+            ],
+            "offer_flags_new": {
+              "full_board": "Full board",
+              "refundable": "Free cancellation"
+            },
+            "partner_name": "Zenhotels",
+            "partner_logo": "https://hotelscan.com/apis/vendors/ostr/logo.svg?pos=zz"
+          },
+          {
+            "price": 791.06,
+            "brt": "o2r#d",
+            "rf": "o2r#d",
+            "brf": 11075648,
+            "rt": 11075648,
+            "vendor": "ostr",
+            "vendor_id_raw": "8465137",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Free cancellation"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Villa - Double bed",
+            "rooms": [
+              {
+                "name": "Villa - Double bed",
+                "flags": [
+                  "Double bed"
+                ]
+              }
+            ],
+            "offer_flags_new": {
+              "refundable": "Free cancellation"
+            },
+            "partner_name": "Zenhotels",
+            "partner_logo": "https://hotelscan.com/apis/vendors/ostr/logo.svg?pos=zz"
+          },
+          {
+            "price": 793.22,
+            "brt": "o2r#d",
+            "rf": "o2r#d",
+            "brf": 10027072,
+            "rt": 10027072,
+            "vendor": "ostr",
+            "vendor_id_raw": "8465137",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Full board",
+              "Free cancellation"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Villa - Double bed",
+            "rooms": [
+              {
+                "name": "Villa - Double bed",
+                "flags": [
+                  "Double bed"
+                ]
+              }
+            ],
+            "offer_flags_new": {
+              "full_board": "Full board",
+              "refundable": "Free cancellation"
+            },
+            "partner_name": "Zenhotels",
+            "partner_logo": "https://hotelscan.com/apis/vendors/ostr/logo.svg?pos=zz"
+          },
+          {
+            "price": 815.42,
+            "brt": "o2r#d",
+            "rf": "o2r#d",
+            "brf": 11075648,
+            "rt": 11075648,
+            "vendor": "ostr",
+            "vendor_id_raw": "8465137",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Free cancellation"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Villa - Double bed",
+            "rooms": [
+              {
+                "name": "Villa - Double bed",
+                "flags": [
+                  "Double bed"
+                ]
+              }
+            ],
+            "offer_flags_new": {
+              "refundable": "Free cancellation"
+            },
+            "partner_name": "Zenhotels",
+            "partner_logo": "https://hotelscan.com/apis/vendors/ostr/logo.svg?pos=zz"
+          },
+          {
+            "price": 816.46,
+            "brt": "o2r#d",
+            "rf": "o2r#d",
+            "brf": 11075648,
+            "rt": 11075648,
+            "vendor": "ostr",
+            "vendor_id_raw": "8465137",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Free cancellation"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Villa - Double bed",
+            "rooms": [
+              {
+                "name": "Villa - Double bed",
+                "flags": [
+                  "Double bed"
+                ]
+              }
+            ],
+            "offer_flags_new": {
+              "refundable": "Free cancellation"
+            },
+            "partner_name": "Zenhotels",
+            "partner_logo": "https://hotelscan.com/apis/vendors/ostr/logo.svg?pos=zz"
+          },
+          {
+            "price": 822.62,
+            "brt": "o2r#a",
+            "rf": "o2r#a",
+            "brf": 10027072,
+            "rt": 10027072,
+            "vendor": "ostr",
+            "vendor_id_raw": "8465137",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Full board",
+              "Free cancellation"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Villa - Bed type subject to availability",
+            "rooms": [
+              {
+                "name": "Villa - Bed type subject to availability",
+                "flags": [
+                  "Bed type subject to availability"
+                ]
+              }
+            ],
+            "offer_flags_new": {
+              "full_board": "Full board",
+              "refundable": "Free cancellation"
+            },
+            "partner_name": "Zenhotels",
+            "partner_logo": "https://hotelscan.com/apis/vendors/ostr/logo.svg?pos=zz"
+          },
+          {
+            "price": 835.62,
+            "brt": "o2r#d",
+            "rf": "o2r#d",
+            "brf": 10027072,
+            "rt": 10027072,
+            "vendor": "ostr",
+            "vendor_id_raw": "8465137",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Full board",
+              "Free cancellation"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Villa - Double bed",
+            "rooms": [
+              {
+                "name": "Villa - Double bed",
+                "flags": [
+                  "Double bed"
+                ]
+              }
+            ],
+            "offer_flags_new": {
+              "full_board": "Full board",
+              "refundable": "Free cancellation"
+            },
+            "partner_name": "Zenhotels",
+            "partner_logo": "https://hotelscan.com/apis/vendors/ostr/logo.svg?pos=zz"
+          },
+          {
+            "price": 940.26,
+            "brt": "o2r#d",
+            "rf": "o2r#d",
+            "brf": 10027072,
+            "rt": 10027072,
+            "vendor": "ostr",
+            "vendor_id_raw": "8465137",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Full board",
+              "Free cancellation"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Villa - Double bed",
+            "rooms": [
+              {
+                "name": "Villa - Double bed",
+                "flags": [
+                  "Double bed"
+                ]
+              }
+            ],
+            "offer_flags_new": {
+              "full_board": "Full board",
+              "refundable": "Free cancellation"
+            },
+            "partner_name": "Zenhotels",
+            "partner_logo": "https://hotelscan.com/apis/vendors/ostr/logo.svg?pos=zz"
+          },
+          {
+            "price": 946.06,
+            "brt": "o2r#d",
+            "rf": "o2r#d",
+            "brf": 11075648,
+            "rt": 11075648,
+            "vendor": "ostr",
+            "vendor_id_raw": "8465137",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Free cancellation"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Villa - Double bed",
+            "rooms": [
+              {
+                "name": "Villa - Double bed",
+                "flags": [
+                  "Double bed"
+                ]
+              }
+            ],
+            "offer_flags_new": {
+              "refundable": "Free cancellation"
+            },
+            "partner_name": "Zenhotels",
+            "partner_logo": "https://hotelscan.com/apis/vendors/ostr/logo.svg?pos=zz"
+          },
+          {
+            "price": 964.82,
+            "brt": "o2r#d",
+            "rf": "o2r#d",
+            "brf": 11075648,
+            "rt": 11075648,
+            "vendor": "ostr",
+            "vendor_id_raw": "8465137",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Free cancellation"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Villa - Double bed",
+            "rooms": [
+              {
+                "name": "Villa - Double bed",
+                "flags": [
+                  "Double bed"
+                ]
+              }
+            ],
+            "offer_flags_new": {
+              "refundable": "Free cancellation"
+            },
+            "partner_name": "Zenhotels",
+            "partner_logo": "https://hotelscan.com/apis/vendors/ostr/logo.svg?pos=zz"
+          },
+          {
+            "price": 977.66,
+            "brt": "o2r#d",
+            "rf": "o2r#d",
+            "brf": 10027072,
+            "rt": 10027072,
+            "vendor": "ostr",
+            "vendor_id_raw": "8465137",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Full board",
+              "Free cancellation"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Villa - Double bed",
+            "rooms": [
+              {
+                "name": "Villa - Double bed",
+                "flags": [
+                  "Double bed"
+                ]
+              }
+            ],
+            "offer_flags_new": {
+              "full_board": "Full board",
+              "refundable": "Free cancellation"
+            },
+            "partner_name": "Zenhotels",
+            "partner_logo": "https://hotelscan.com/apis/vendors/ostr/logo.svg?pos=zz"
+          },
+          {
+            "price": 1007.22,
+            "brt": "o2r#d",
+            "rf": "o2r#d",
+            "brf": 11075648,
+            "rt": 11075648,
+            "vendor": "ostr",
+            "vendor_id_raw": "8465137",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Free cancellation"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Villa - Double bed",
+            "rooms": [
+              {
+                "name": "Villa - Double bed",
+                "flags": [
+                  "Double bed"
+                ]
+              }
+            ],
+            "offer_flags_new": {
+              "refundable": "Free cancellation"
+            },
+            "partner_name": "Zenhotels",
+            "partner_logo": "https://hotelscan.com/apis/vendors/ostr/logo.svg?pos=zz"
+          },
+          {
+            "price": 1119.26,
+            "brt": "o2r#d",
+            "rf": "o2r#d",
+            "brf": 11075648,
+            "rt": 11075648,
+            "vendor": "ostr",
+            "vendor_id_raw": "8465137",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Free cancellation"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Villa - Double bed",
+            "rooms": [
+              {
+                "name": "Villa - Double bed",
+                "flags": [
+                  "Double bed"
+                ]
+              }
+            ],
+            "offer_flags_new": {
+              "refundable": "Free cancellation"
+            },
+            "partner_name": "Zenhotels",
+            "partner_logo": "https://hotelscan.com/apis/vendors/ostr/logo.svg?pos=zz"
+          },
+          {
+            "price": 1160.26,
+            "brt": "o2r#d",
+            "rf": "o2r#d",
+            "brf": 11075648,
+            "rt": 11075648,
+            "vendor": "ostr",
+            "vendor_id_raw": "8465137",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Free cancellation"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Villa - Double bed",
+            "rooms": [
+              {
+                "name": "Villa - Double bed",
+                "flags": [
+                  "Double bed"
+                ]
+              }
+            ],
+            "offer_flags_new": {
+              "refundable": "Free cancellation"
+            },
+            "partner_name": "Zenhotels",
+            "partner_logo": "https://hotelscan.com/apis/vendors/ostr/logo.svg?pos=zz"
+          },
+          {
+            "price": 3733.46,
+            "brt": "g2j#d",
+            "rf": "g2j#d",
+            "brf": 10027072,
+            "rt": 10027072,
+            "vendor": "ostr",
+            "vendor_id_raw": "8465137",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Full board",
+              "Free cancellation"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Premium bungalow - Double bed",
+            "rooms": [
+              {
+                "name": "Premium bungalow - Double bed",
+                "flags": [
+                  "Double bed"
+                ]
+              }
+            ],
+            "offer_flags_new": {
+              "full_board": "Full board",
+              "refundable": "Free cancellation"
+            },
+            "partner_name": "Zenhotels",
+            "partner_logo": "https://hotelscan.com/apis/vendors/ostr/logo.svg?pos=zz"
+          }
+        ],
+        "descriptions_language": {
+          "general": {
+            "original_language": true,
+            "text": "Offering a private beach area and water sports facilities, Kuredu Island Resort & Spa is a beachfront property situated in Kuredu in the Lhaviyani Atoll Region. The resort has an outdoor pool, a spa center, and a fitness center which is complimentary for the guests. A 24-hour front desk and tour desk service are provided. Guests can also enjoy a drink at the bar and on-site restaurant. All rooms include a minibar. Certain units have a seating area to relax in after a busy day. Views of the sea, pool, or garden are featured in certain rooms. Every room comes with a private bathroom. Superior rooms include a spa bath or a hot tub. Free toiletries are provided in all rooms. You will find a hairdresser at the property. Bike hire is available at this resort. Guests can also engage in golfing, snorkeling, canoeing, and fishing. Wedding Anniversary benefits: Complimentary 2x Cupcakes, 1x Jar Macaroons, Sparkling Wine with our compliments card, Sparkling Wine with our compliments card, Bed Decoration with wording (Happy anniversary “If possible to be presented on the anniversary day)"
+          },
+          "direction": {
+            "original_language": true,
+            "text": "Located in Kuredu Island, Kuredu Island Resort is in a rural area and on the beach. The area's natural beauty can be seen at Hurawalhi Beach and Kuredu Beach. With snorkeling and windsurfing nearby, you'll find plenty of adventures in the water."
+          }
+        },
+        "chain_code": null,
+        "bids": {
+          "last": "j23",
+          "agda": "j23",
+          "stfl": "j23",
+          "ostr": "j23"
+        },
+        "worst_offer": null,
+        "best_offer": 478.65,
+        "best_offer_ota": "last",
+        "best_offer_mota": null,
+        "discount": 0,
+        "offers_count": 30,
+        "coordinates": {
+          "lat": 5.54918,
+          "lng": 73.46504
+        },
+        "distance": 0.3,
+        "neighborhood": null,
+        "badge": null,
+        "distances": [
+          {
+            "from": "center",
+            "distance": 0.3,
+            "time": 417,
+            "means": "foot",
+            "means_type": "foot"
+          }
+        ],
+        "specs": {
+          "bathrooms": null,
+          "beds": null,
+          "bedrooms": null,
+          "guests": null,
+          "square_meters": null
+        },
+        "toa_label": "resort",
+        "top_amenities": [
+          "indoor_pool",
+          "outdoor_pool",
+          "internet",
+          "restaurant",
+          "room_service"
+        ],
+        "transportations": {
+          "airports": [],
+          "trains": []
+        },
+        "images": [
+          {
+            "image_id": "685780550",
+            "label": ""
+          },
+          {
+            "image_id": "685780592",
+            "label": ""
+          },
+          {
+            "image_id": "685780598",
+            "label": ""
+          },
+          {
+            "image_id": "685780588",
+            "label": ""
+          },
+          {
+            "image_id": "685780601",
+            "label": ""
+          },
+          {
+            "image_id": "685780562",
+            "label": ""
+          },
+          {
+            "image_id": "685780579",
+            "label": ""
+          },
+          {
+            "image_id": "685780570",
+            "label": ""
+          },
+          {
+            "image_id": "685780574",
+            "label": ""
+          },
+          {
+            "image_id": "685780564",
+            "label": ""
+          },
+          {
+            "image_id": "685780593",
+            "label": ""
+          },
+          {
+            "image_id": "685780571",
+            "label": ""
+          },
+          {
+            "image_id": "685780608",
+            "label": ""
+          },
+          {
+            "image_id": "685780596",
+            "label": ""
+          },
+          {
+            "image_id": "685780558",
+            "label": ""
+          }
+        ],
+        "hero_offer": {
+          "price": 628.43,
+          "brt": "o2r#",
+          "rf": "o2r#",
+          "brf": 9502784,
+          "rt": 9502784,
+          "vendor": "agda",
+          "vendor_id_raw": "41480",
+          "mota_code": null,
+          "direct_offer": false,
+          "offer_flags": {
+            "breakfast": "Breakfast included",
+            "refundable": "Free cancellation"
+          },
+          "jc_code": "",
+          "ranking_index": 0.9046640039463425,
+          "chain": "",
+          "free_cancellation": true,
+          "special": false,
+          "room_name": "Villa",
+          "rooms": [
+            {
+              "name": "Villa",
+              "flags": []
+            }
+          ],
+          "partner_name": "Agoda",
+          "partner_logo": "https://hotelscan.com/apis/vendors/agda/logo.svg?pos=zz"
+        },
+        "rank": 0,
+        "ctrl_srt": "im a ctrl teapot",
+        "test_srt": "im a test teapot"
+      }
+    ],
+    "filters": [],
+    "query": {
+      "pos": "zz"
+    }
+  }
+}

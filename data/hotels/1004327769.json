@@ -1,0 +1,1425 @@
+{
+  "_meta": {
+    "status": "SUCCESS",
+    "cached": true,
+    "count": 1,
+    "debug": {
+      "ticket": {
+        "ticket_id": "1004327769_zz_zz_d_publ_en_2_2025-10-08_2025-10-13_1_3",
+        "created_at": 1758065362.4325,
+        "loop": null,
+        "snapped_at": 1758065362.5318,
+        "snapshot_id": "1004327769_zz_zz_d_publ_en_2_2025-10-08_2025-10-13_1_3",
+        "snapshot_ttl": 300,
+        "executions": 2,
+        "progress": 1,
+        "save_errors": []
+      }
+    }
+  },
+  "data": {
+    "meta": [],
+    "geo": {
+      "hs_id": "xk9ou1sgal4x",
+      "region_name": "Dhiffushi",
+      "region_name_long": "Dhiffushi (Kaafu Atoll), Maldives",
+      "region_type": "CITY",
+      "region_id": 6350221,
+      "country_iso": "MV",
+      "country": "maldives",
+      "localised_country": "Maldives",
+      "center": [
+        4.44246,
+        73.71368
+      ],
+      "centroid": [
+        4.44244,
+        73.71368
+      ],
+      "polygon": [
+        "4.438113,73.707662",
+        "4.435686,73.713634",
+        "4.446766,73.719691",
+        "4.449226,73.711356",
+        "4.438113,73.707662"
+      ],
+      "radius": 0.83,
+      "zoom": -1,
+      "search_by_polygon": 1,
+      "cluster": 0,
+      "properties": 54,
+      "radius_override": 5,
+      "boundingbox": {
+        "ne": [
+          4.45,
+          73.72
+        ],
+        "sw": [
+          4.435,
+          73.707
+        ]
+      },
+      "airports": [
+        "MLE",
+        "DRV"
+      ],
+      "region_name_en": "Dhiffushi",
+      "region_name_long_en": "Dhiffushi (Kaafu Atoll), Maldives",
+      "referrer_city_name_en": "Dhiffushi",
+      "parent_region_id": 6051084,
+      "parent_hs_id": "x5p4hmhw6iot",
+      "parent_region_name": "Maldives (all)",
+      "parent_region_name_long": "Maldives (all)",
+      "dynamic_bbox": {
+        "ne": [
+          4.439,
+          73.712
+        ],
+        "sw": [
+          4.439,
+          73.712
+        ]
+      }
+    },
+    "records": [
+      {
+        "hs_id": 1004327769,
+        "slug": "dhiffushi-inn-dhiffushi-mv-1004327769",
+        "name": "Dhiffushi Inn",
+        "ty_id": "bda25e8a-9d21-441d-b2bc-a98550093970",
+        "toa": "guest_house",
+        "building": {
+          "room_num": 10
+        },
+        "location": {
+          "city": "Dhiffushi",
+          "zip": "08030",
+          "country_iso2": "MV",
+          "address": "Wintergreenhigun",
+          "geoid": "xk9ou1sgal4x",
+          "loc": {
+            "type": "Point"
+          },
+          "coordinates": {
+            "lng": 73.71274,
+            "lat": 4.43992
+          }
+        },
+        "opening_time": {
+          "check_in_from": "14:00",
+          "check_in_to": "23:30",
+          "check_out_from": "00:00",
+          "check_out_to": "12:00"
+        },
+        "quality": {
+          "review_count": 285,
+          "review_rating": 89,
+          "stars": 4,
+          "stars_is_estimated": false,
+          "review_source": ""
+        },
+        "covid_safe": true,
+        "amenities": {
+          "children": [
+            "children_playground"
+          ],
+          "sports": [
+            "badminton",
+            "bike_rent",
+            "ping_pong",
+            "tennis",
+            "sub",
+            "surf"
+          ],
+          "internet": [
+            "wifi",
+            "wifi_room",
+            "internet"
+          ],
+          "food_drink": [
+            "restaurant",
+            "room_service",
+            "cafe",
+            "bar",
+            "snack_bar"
+          ],
+          "disability": [
+            "wheelchair_accessible",
+            "disability_facilities"
+          ],
+          "pets": [
+            "pets_allowed"
+          ],
+          "parking": [
+            "parking"
+          ],
+          "outdoor": [
+            "garden"
+          ],
+          "other": [],
+          "entertainment": [
+            "tv_lobby"
+          ],
+          "transfer": [
+            "shuttle_service"
+          ],
+          "room": [
+            "heating",
+            "air_conditioning",
+            "tv",
+            "in_room_safe"
+          ],
+          "reception": [
+            "24h_reception",
+            "luggage_storage",
+            "laundry_service",
+            "safety_deposit_box"
+          ]
+        },
+        "descriptions": {
+          "hotel": "Make yourself at home in one of the 6 guestrooms. Complimentary wireless internet access is available to keep you connected. Conveniences include safes and complimentary weekday newspapers, and housekeeping is provided daily.",
+          "direction": "With a stay at Alsha Inn Dhiffushi in Dhiffushi, you'll be a 4-minute walk from Dhiffushi South Beach and 8 minutes by foot from Dhiffushi East Kite Beach. This guesthouse is within close proximity of Meeru Beach and Meeru House Reef.",
+          "general": "Dhiffushi Inn offers top-notch services and amenities, ensuring guests experience utmost comfort. Maintain seamless communication using the complimentary Wi-Fi at hotel. Effortlessly arrange transportation to and from the airport using the hotel's airport transfer services. Guests can avail parking facilities at the hotel. For extended visits or whenever required, the laundry service ensures your preferred travel garments remain fresh and accessible. During leisurely days and evenings, on-site amenities such as daily housekeeping enable you to fully enjoy your accommodation.At Dhiffushi Inn, every guestroom is provided with convenient amenities and fittings to ensure a comfortable stay. Enhance your experience at hotel with the knowledge that certain rooms are equipped with linen service, blackout curtains and air conditioning for your convenience. A few accommodations within Dhiffushi Inn offer unique design elements such as a balcony or terrace. Certain rooms offer in-room amusement features such as the television for your enjoyment. In select rooms within the hotel, a coffee or tea maker, bottled water and instant tea is available to cater to your requirements when desired.In the hotel, certain guest bathrooms come equipped with essential bathroom amenities, such as a hair dryer and toiletries, ensuring a comfortable stay for guests.",
+          "amenities": true,
+          "other": "This guesthouse offers designated smoking areas.",
+          "localized": "Dhiffushi Inn offers top-notch services and amenities, ensuring guests experience utmost comfort. Maintain seamless communication using the complimentary Wi-Fi at hotel. Effortlessly arrange transportation to and from the airport using the hotel's airport transfer services. Guests can avail parking facilities at the hotel. For extended visits or whenever required, the laundry service ensures your preferred travel garments remain fresh and accessible. During leisurely days and evenings, on-site amenities such as daily housekeeping enable you to fully enjoy your accommodation.At Dhiffushi Inn, every guestroom is provided with convenient amenities and fittings to ensure a comfortable stay. Enhance your experience at hotel with the knowledge that certain rooms are equipped with linen service, blackout curtains and air conditioning for your convenience. A few accommodations within Dhiffushi Inn offer unique design elements such as a balcony or terrace. Certain rooms offer in-room amusement features such as the television for your enjoyment. In select rooms within the hotel, a coffee or tea maker, bottled water and instant tea is available to cater to your requirements when desired.In the hotel, certain guest bathrooms come equipped with essential bathroom amenities, such as a hair dryer and toiletries, ensuring a comfortable stay for guests."
+        },
+        "short_description": "Excellent accommodation. Close to the beach . Beautiful beach.",
+        "offers": [
+          {
+            "price": 78.21,
+            "brt": "p2r#",
+            "rf": "p2r#",
+            "brf": 9502800,
+            "rt": 9502800,
+            "vendor": "htls",
+            "vendor_id_raw": "3799402848",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included",
+              "Free cancellation",
+              "Balcony"
+            ],
+            "jc_code": "",
+            "ranking_index": 1,
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Standard room",
+            "rooms": [
+              {
+                "name": "Standard room",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included",
+              "refundable": "Free cancellation",
+              "balcony": "Balcony"
+            },
+            "partner_name": "Hotels.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/htls/logo.svg?pos=zz"
+          },
+          {
+            "vendor": "bkng",
+            "price": 89.75,
+            "vendor_id_raw": "4379614",
+            "mota_code": null,
+            "jc_code": "",
+            "partner_name": "Booking.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/bkng/logo.svg?pos=zz",
+            "room_name": "Standard room",
+            "brf": 8454208,
+            "brt": "p2r#"
+          },
+          {
+            "vendor": "agda",
+            "price": 96.62,
+            "vendor_id_raw": "73193025",
+            "mota_code": null,
+            "jc_code": "",
+            "partner_name": "Agoda",
+            "partner_logo": "https://hotelscan.com/apis/vendors/agda/logo.svg?pos=zz",
+            "room_name": "Standard room",
+            "brf": 9502848,
+            "brt": "p2r#"
+          },
+          {
+            "vendor": "expd",
+            "price": 78.21,
+            "vendor_id_raw": "118700089",
+            "mota_code": null,
+            "jc_code": "EXPEDIA",
+            "partner_name": "Expedia",
+            "partner_logo": "https://hotelscan.com/apis/vendors/expd/logo.svg?pos=zz",
+            "room_name": "Standard room",
+            "brf": 9502800,
+            "brt": "p2r#"
+          }
+        ],
+        "all_offers": [
+          {
+            "price": 78.21,
+            "brt": "p2r#",
+            "rf": "p2r#",
+            "brf": 9502800,
+            "rt": 9502800,
+            "vendor": "htls",
+            "vendor_id_raw": "3799402848",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included",
+              "Free cancellation",
+              "Balcony"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Standard room",
+            "rooms": [
+              {
+                "name": "Standard room",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included",
+              "refundable": "Free cancellation",
+              "balcony": "Balcony"
+            },
+            "partner_name": "Hotels.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/htls/logo.svg?pos=zz"
+          },
+          {
+            "price": 78.21,
+            "brt": "p2r#",
+            "rf": "p2r#",
+            "brf": 9502800,
+            "rt": 9502800,
+            "vendor": "expd",
+            "vendor_id_raw": "118700089",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included",
+              "Free cancellation",
+              "Balcony"
+            ],
+            "jc_code": "EXPEDIA",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Standard room",
+            "rooms": [
+              {
+                "name": "Standard room",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included",
+              "refundable": "Free cancellation",
+              "balcony": "Balcony"
+            },
+            "partner_name": "Expedia",
+            "partner_logo": "https://hotelscan.com/apis/vendors/expd/logo.svg?pos=zz"
+          },
+          {
+            "price": 89.75,
+            "brt": "p2r#",
+            "rf": "p2r#",
+            "brf": 8454208,
+            "rt": 8454208,
+            "vendor": "bkng",
+            "vendor_id_raw": "4379614",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Free cancellation"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Standard room",
+            "rooms": [
+              {
+                "name": "Standard room",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "refundable": "Free cancellation"
+            },
+            "partner_name": "Booking.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/bkng/logo.svg?pos=zz"
+          },
+          {
+            "price": 93.93,
+            "brt": "p2d#",
+            "rf": "p2d#",
+            "brf": 8455248,
+            "rt": 8455248,
+            "vendor": "bkng",
+            "vendor_id_raw": "4379614",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Free cancellation",
+              "Sea view",
+              "Balcony"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Deluxe room",
+            "rooms": [
+              {
+                "name": "Deluxe room",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "refundable": "Free cancellation",
+              "view_sea": "Sea view",
+              "balcony": "Balcony"
+            },
+            "partner_name": "Booking.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/bkng/logo.svg?pos=zz"
+          },
+          {
+            "price": 93.93,
+            "brt": "p2qd",
+            "rf": "p2qd",
+            "brf": 8454208,
+            "rt": 8454208,
+            "vendor": "bkng",
+            "vendor_id_raw": "4379614",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Free cancellation"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Deluxe Family Room",
+            "rooms": [
+              {
+                "name": "Deluxe Family Room",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "refundable": "Free cancellation"
+            },
+            "partner_name": "Booking.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/bkng/logo.svg?pos=zz"
+          },
+          {
+            "price": 96.62,
+            "brt": "p2r#",
+            "rf": "p2r#",
+            "brf": 9502848,
+            "rt": 9502848,
+            "vendor": "agda",
+            "vendor_id_raw": "73193025",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included",
+              "Free cancellation",
+              "Pay at the property"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Standard room",
+            "rooms": [
+              {
+                "name": "Standard room",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included",
+              "refundable": "Free cancellation",
+              "pay_at_hotel": "Pay at the property"
+            },
+            "partner_name": "Agoda",
+            "partner_logo": "https://hotelscan.com/apis/vendors/agda/logo.svg?pos=zz"
+          },
+          {
+            "price": 97.52,
+            "brt": "p2r#",
+            "rf": "p2r#",
+            "brf": 9502848,
+            "rt": 9502848,
+            "vendor": "bkng",
+            "vendor_id_raw": "14092927",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included",
+              "Free cancellation",
+              "Pay at the property"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Standard room",
+            "rooms": [
+              {
+                "name": "Standard room",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included",
+              "refundable": "Free cancellation",
+              "pay_at_hotel": "Pay at the property"
+            },
+            "partner_name": "Booking.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/bkng/logo.svg?pos=zz"
+          },
+          {
+            "price": 104.82,
+            "brt": "p2d#",
+            "rf": "p2d#",
+            "brf": 9503824,
+            "rt": 9503824,
+            "vendor": "bkng",
+            "vendor_id_raw": "4379614",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included",
+              "Free cancellation",
+              "Sea view",
+              "Balcony"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Deluxe room",
+            "rooms": [
+              {
+                "name": "Deluxe room",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included",
+              "refundable": "Free cancellation",
+              "view_sea": "Sea view",
+              "balcony": "Balcony"
+            },
+            "partner_name": "Booking.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/bkng/logo.svg?pos=zz"
+          },
+          {
+            "price": 106.48,
+            "brt": "p2d#",
+            "rf": "p2d#",
+            "brf": 9502864,
+            "rt": 9502864,
+            "vendor": "agda",
+            "vendor_id_raw": "73193025",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included",
+              "Free cancellation",
+              "Pay at the property",
+              "Balcony"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Deluxe room",
+            "rooms": [
+              {
+                "name": "Deluxe room",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included",
+              "refundable": "Free cancellation",
+              "pay_at_hotel": "Pay at the property",
+              "balcony": "Balcony"
+            },
+            "partner_name": "Agoda",
+            "partner_logo": "https://hotelscan.com/apis/vendors/agda/logo.svg?pos=zz"
+          },
+          {
+            "price": 106.48,
+            "brt": "p2r#",
+            "rf": "p2r#",
+            "brf": 9502864,
+            "rt": 9502864,
+            "vendor": "agda",
+            "vendor_id_raw": "73193025",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included",
+              "Free cancellation",
+              "Pay at the property",
+              "Balcony"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Standard room",
+            "rooms": [
+              {
+                "name": "Standard room",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included",
+              "refundable": "Free cancellation",
+              "pay_at_hotel": "Pay at the property",
+              "balcony": "Balcony"
+            },
+            "partner_name": "Agoda",
+            "partner_logo": "https://hotelscan.com/apis/vendors/agda/logo.svg?pos=zz"
+          },
+          {
+            "price": 107.47,
+            "brt": "p2d#",
+            "rf": "p2d#",
+            "brf": 9502864,
+            "rt": 9502864,
+            "vendor": "bkng",
+            "vendor_id_raw": "14092927",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included",
+              "Free cancellation",
+              "Pay at the property",
+              "Balcony"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Deluxe room",
+            "rooms": [
+              {
+                "name": "Deluxe room",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included",
+              "refundable": "Free cancellation",
+              "pay_at_hotel": "Pay at the property",
+              "balcony": "Balcony"
+            },
+            "partner_name": "Booking.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/bkng/logo.svg?pos=zz"
+          },
+          {
+            "price": 107.47,
+            "brt": "p2r#",
+            "rf": "p2r#",
+            "brf": 9502864,
+            "rt": 9502864,
+            "vendor": "bkng",
+            "vendor_id_raw": "14092927",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included",
+              "Free cancellation",
+              "Pay at the property",
+              "Balcony"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Standard room",
+            "rooms": [
+              {
+                "name": "Standard room",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included",
+              "refundable": "Free cancellation",
+              "pay_at_hotel": "Pay at the property",
+              "balcony": "Balcony"
+            },
+            "partner_name": "Booking.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/bkng/logo.svg?pos=zz"
+          },
+          {
+            "price": 109.38,
+            "brt": "p2q#",
+            "rf": "p2q#",
+            "brf": 8454224,
+            "rt": 8454224,
+            "vendor": "agda",
+            "vendor_id_raw": "33016636",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Free cancellation",
+              "Balcony"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Family room",
+            "rooms": [
+              {
+                "name": "Family room",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "refundable": "Free cancellation",
+              "balcony": "Balcony"
+            },
+            "partner_name": "Agoda",
+            "partner_logo": "https://hotelscan.com/apis/vendors/agda/logo.svg?pos=zz"
+          },
+          {
+            "price": 109.38,
+            "brt": "p2d#",
+            "rf": "p2d#",
+            "brf": 8454208,
+            "rt": 8454208,
+            "vendor": "agda",
+            "vendor_id_raw": "33016636",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Free cancellation"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Deluxe room",
+            "rooms": [
+              {
+                "name": "Deluxe room",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "refundable": "Free cancellation"
+            },
+            "partner_name": "Agoda",
+            "partner_logo": "https://hotelscan.com/apis/vendors/agda/logo.svg?pos=zz"
+          },
+          {
+            "price": 110.68,
+            "brt": "p2qd",
+            "rf": "p2qd",
+            "brf": 9502784,
+            "rt": 9502784,
+            "vendor": "bkng",
+            "vendor_id_raw": "4379614",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included",
+              "Free cancellation"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Deluxe Family Room",
+            "rooms": [
+              {
+                "name": "Deluxe Family Room",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included",
+              "refundable": "Free cancellation"
+            },
+            "partner_name": "Booking.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/bkng/logo.svg?pos=zz"
+          },
+          {
+            "price": 114.87,
+            "brt": "p2r#",
+            "rf": "p2r#",
+            "brf": 8454208,
+            "rt": 8454208,
+            "vendor": "bkng",
+            "vendor_id_raw": "4379614",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Free cancellation"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Standard room",
+            "rooms": [
+              {
+                "name": "Standard room",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "refundable": "Free cancellation"
+            },
+            "partner_name": "Booking.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/bkng/logo.svg?pos=zz"
+          },
+          {
+            "price": 119.05,
+            "brt": "p2qd",
+            "rf": "p2qd",
+            "brf": 8454208,
+            "rt": 8454208,
+            "vendor": "bkng",
+            "vendor_id_raw": "4379614",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Free cancellation"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Deluxe Family Room",
+            "rooms": [
+              {
+                "name": "Deluxe Family Room",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "refundable": "Free cancellation"
+            },
+            "partner_name": "Booking.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/bkng/logo.svg?pos=zz"
+          },
+          {
+            "price": 122,
+            "brt": "p2d#",
+            "rf": "p2d#",
+            "brf": 9502784,
+            "rt": 9502784,
+            "vendor": "agda",
+            "vendor_id_raw": "33016636",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included",
+              "Free cancellation"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Deluxe room",
+            "rooms": [
+              {
+                "name": "Deluxe room",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included",
+              "refundable": "Free cancellation"
+            },
+            "partner_name": "Agoda",
+            "partner_logo": "https://hotelscan.com/apis/vendors/agda/logo.svg?pos=zz"
+          },
+          {
+            "price": 129.1,
+            "brt": "p2d#",
+            "rf": "p2d#",
+            "brf": 12125264,
+            "rt": 12125264,
+            "vendor": "bkng",
+            "vendor_id_raw": "4379614",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast and dinner",
+              "Free cancellation",
+              "Sea view",
+              "Balcony"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Deluxe room",
+            "rooms": [
+              {
+                "name": "Deluxe room",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "half_board_dinner": "Breakfast and dinner",
+              "refundable": "Free cancellation",
+              "view_sea": "Sea view",
+              "balcony": "Balcony"
+            },
+            "partner_name": "Booking.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/bkng/logo.svg?pos=zz"
+          },
+          {
+            "price": 129.1,
+            "brt": "p2q#",
+            "rf": "p2q#",
+            "brf": 9502800,
+            "rt": 9502800,
+            "vendor": "agda",
+            "vendor_id_raw": "33016636",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included",
+              "Free cancellation",
+              "Balcony"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Family room",
+            "rooms": [
+              {
+                "name": "Family room",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included",
+              "refundable": "Free cancellation",
+              "balcony": "Balcony"
+            },
+            "partner_name": "Agoda",
+            "partner_logo": "https://hotelscan.com/apis/vendors/agda/logo.svg?pos=zz"
+          },
+          {
+            "price": 131.61,
+            "brt": "p2qd",
+            "rf": "p2qd",
+            "brf": 12124224,
+            "rt": 12124224,
+            "vendor": "bkng",
+            "vendor_id_raw": "4379614",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast and dinner",
+              "Free cancellation"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Deluxe Family Room",
+            "rooms": [
+              {
+                "name": "Deluxe Family Room",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "half_board_dinner": "Breakfast and dinner",
+              "refundable": "Free cancellation"
+            },
+            "partner_name": "Booking.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/bkng/logo.svg?pos=zz"
+          },
+          {
+            "price": 135.8,
+            "brt": "p2qd",
+            "rf": "p2qd",
+            "brf": 9502784,
+            "rt": 9502784,
+            "vendor": "bkng",
+            "vendor_id_raw": "4379614",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included",
+              "Free cancellation"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Deluxe Family Room",
+            "rooms": [
+              {
+                "name": "Deluxe Family Room",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included",
+              "refundable": "Free cancellation"
+            },
+            "partner_name": "Booking.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/bkng/logo.svg?pos=zz"
+          },
+          {
+            "price": 150.87,
+            "brt": "p2d#",
+            "rf": "p2d#",
+            "brf": 10028112,
+            "rt": 10028112,
+            "vendor": "bkng",
+            "vendor_id_raw": "4379614",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Full board",
+              "Free cancellation",
+              "Sea view",
+              "Balcony"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Deluxe room",
+            "rooms": [
+              {
+                "name": "Deluxe room",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "full_board": "Full board",
+              "refundable": "Free cancellation",
+              "view_sea": "Sea view",
+              "balcony": "Balcony"
+            },
+            "partner_name": "Booking.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/bkng/logo.svg?pos=zz"
+          },
+          {
+            "price": 151.99,
+            "brt": "p2d#",
+            "rf": "p2d#",
+            "brf": 9502784,
+            "rt": 9502784,
+            "vendor": "agda",
+            "vendor_id_raw": "33016636",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included",
+              "Free cancellation"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Deluxe room",
+            "rooms": [
+              {
+                "name": "Deluxe room",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included",
+              "refundable": "Free cancellation"
+            },
+            "partner_name": "Agoda",
+            "partner_logo": "https://hotelscan.com/apis/vendors/agda/logo.svg?pos=zz"
+          },
+          {
+            "price": 152.55,
+            "brt": "p2qd",
+            "rf": "p2qd",
+            "brf": 10027072,
+            "rt": 10027072,
+            "vendor": "bkng",
+            "vendor_id_raw": "4379614",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Full board",
+              "Free cancellation"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Deluxe Family Room",
+            "rooms": [
+              {
+                "name": "Deluxe Family Room",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "full_board": "Full board",
+              "refundable": "Free cancellation"
+            },
+            "partner_name": "Booking.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/bkng/logo.svg?pos=zz"
+          },
+          {
+            "price": 155.14,
+            "brt": "p2q#",
+            "rf": "p2q#",
+            "brf": 9502800,
+            "rt": 9502800,
+            "vendor": "agda",
+            "vendor_id_raw": "33016636",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included",
+              "Free cancellation",
+              "Balcony"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Family room",
+            "rooms": [
+              {
+                "name": "Family room",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included",
+              "refundable": "Free cancellation",
+              "balcony": "Balcony"
+            },
+            "partner_name": "Agoda",
+            "partner_logo": "https://hotelscan.com/apis/vendors/agda/logo.svg?pos=zz"
+          },
+          {
+            "price": 156.74,
+            "brt": "p2qd",
+            "rf": "p2qd",
+            "brf": 12124224,
+            "rt": 12124224,
+            "vendor": "bkng",
+            "vendor_id_raw": "4379614",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast and dinner",
+              "Free cancellation"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Deluxe Family Room",
+            "rooms": [
+              {
+                "name": "Deluxe Family Room",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "half_board_dinner": "Breakfast and dinner",
+              "refundable": "Free cancellation"
+            },
+            "partner_name": "Booking.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/bkng/logo.svg?pos=zz"
+          },
+          {
+            "price": 177.67,
+            "brt": "p2qd",
+            "rf": "p2qd",
+            "brf": 10027072,
+            "rt": 10027072,
+            "vendor": "bkng",
+            "vendor_id_raw": "4379614",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Full board",
+              "Free cancellation"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Deluxe Family Room",
+            "rooms": [
+              {
+                "name": "Deluxe Family Room",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "full_board": "Full board",
+              "refundable": "Free cancellation"
+            },
+            "partner_name": "Booking.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/bkng/logo.svg?pos=zz"
+          },
+          {
+            "price": 178.02,
+            "brt": "p2d#",
+            "rf": "p2d#",
+            "brf": 9502784,
+            "rt": 9502784,
+            "vendor": "agda",
+            "vendor_id_raw": "33016636",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included",
+              "Free cancellation"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Deluxe room",
+            "rooms": [
+              {
+                "name": "Deluxe room",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included",
+              "refundable": "Free cancellation"
+            },
+            "partner_name": "Agoda",
+            "partner_logo": "https://hotelscan.com/apis/vendors/agda/logo.svg?pos=zz"
+          },
+          {
+            "price": 180.39,
+            "brt": "p2q#",
+            "rf": "p2q#",
+            "brf": 9502800,
+            "rt": 9502800,
+            "vendor": "agda",
+            "vendor_id_raw": "33016636",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included",
+              "Free cancellation",
+              "Balcony"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Family room",
+            "rooms": [
+              {
+                "name": "Family room",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included",
+              "refundable": "Free cancellation",
+              "balcony": "Balcony"
+            },
+            "partner_name": "Agoda",
+            "partner_logo": "https://hotelscan.com/apis/vendors/agda/logo.svg?pos=zz"
+          }
+        ],
+        "descriptions_language": {
+          "general": {
+            "original_language": true,
+            "text": "Dhiffushi Inn offers top-notch services and amenities, ensuring guests experience utmost comfort. Maintain seamless communication using the complimentary Wi-Fi at hotel. Effortlessly arrange transportation to and from the airport using the hotel's airport transfer services. Guests can avail parking facilities at the hotel. For extended visits or whenever required, the laundry service ensures your preferred travel garments remain fresh and accessible. During leisurely days and evenings, on-site amenities such as daily housekeeping enable you to fully enjoy your accommodation.At Dhiffushi Inn, every guestroom is provided with convenient amenities and fittings to ensure a comfortable stay. Enhance your experience at hotel with the knowledge that certain rooms are equipped with linen service, blackout curtains and air conditioning for your convenience. A few accommodations within Dhiffushi Inn offer unique design elements such as a balcony or terrace. Certain rooms offer in-room amusement features such as the television for your enjoyment. In select rooms within the hotel, a coffee or tea maker, bottled water and instant tea is available to cater to your requirements when desired.In the hotel, certain guest bathrooms come equipped with essential bathroom amenities, such as a hair dryer and toiletries, ensuring a comfortable stay for guests."
+          },
+          "direction": {
+            "original_language": true,
+            "text": "With a stay at Alsha Inn Dhiffushi in Dhiffushi, you'll be a 4-minute walk from Dhiffushi South Beach and 8 minutes by foot from Dhiffushi East Kite Beach. This guesthouse is within close proximity of Meeru Beach and Meeru House Reef."
+          },
+          "hotel": {
+            "original_language": true,
+            "text": "Make yourself at home in one of the 6 guestrooms. Complimentary wireless internet access is available to keep you connected. Conveniences include safes and complimentary weekday newspapers, and housekeeping is provided daily."
+          },
+          "other": {
+            "original_language": true,
+            "text": "This guesthouse offers designated smoking areas."
+          }
+        },
+        "chain_code": null,
+        "bids": {
+          "expd": "j23",
+          "bkng": "j23",
+          "agda": "j23",
+          "htls": "j23"
+        },
+        "worst_offer": 96.62,
+        "best_offer": 78.21,
+        "best_offer_ota": "htls",
+        "best_offer_mota": null,
+        "discount": 20,
+        "offers_count": 30,
+        "coordinates": {
+          "lat": 4.43992,
+          "lng": 73.71274
+        },
+        "distance": 0.3,
+        "neighborhood": null,
+        "badge": null,
+        "distances": [
+          {
+            "from": "center",
+            "distance": 0.3,
+            "time": 417,
+            "means": "foot",
+            "means_type": "foot"
+          }
+        ],
+        "specs": {
+          "bathrooms": null,
+          "beds": null,
+          "bedrooms": null,
+          "guests": null,
+          "square_meters": null
+        },
+        "toa_label": "guest house",
+        "top_amenities": [
+          "wifi_room",
+          "internet",
+          "restaurant",
+          "room_service",
+          "bar"
+        ],
+        "transportations": {
+          "airports": [],
+          "trains": []
+        },
+        "images": [
+          {
+            "image_id": "710862470",
+            "label": ""
+          },
+          {
+            "image_id": "710862420",
+            "label": ""
+          },
+          {
+            "image_id": "710862431",
+            "label": ""
+          },
+          {
+            "image_id": "710862475",
+            "label": ""
+          },
+          {
+            "image_id": "710862418",
+            "label": ""
+          },
+          {
+            "image_id": "710862417",
+            "label": ""
+          },
+          {
+            "image_id": "710862440",
+            "label": ""
+          },
+          {
+            "image_id": "710862429",
+            "label": ""
+          },
+          {
+            "image_id": "710862464",
+            "label": ""
+          },
+          {
+            "image_id": "710862410",
+            "label": ""
+          },
+          {
+            "image_id": "710862480",
+            "label": ""
+          },
+          {
+            "image_id": "710862449",
+            "label": ""
+          },
+          {
+            "image_id": "710862454",
+            "label": ""
+          },
+          {
+            "image_id": "710862408",
+            "label": ""
+          },
+          {
+            "image_id": "710862407",
+            "label": ""
+          }
+        ],
+        "hero_offer": {
+          "price": 78.21,
+          "brt": "p2r#",
+          "rf": "p2r#",
+          "brf": 9502800,
+          "rt": 9502800,
+          "vendor": "htls",
+          "vendor_id_raw": "3799402848",
+          "mota_code": null,
+          "direct_offer": false,
+          "offer_flags": {
+            "breakfast": "Breakfast included",
+            "refundable": "Free cancellation",
+            "balcony": "Balcony"
+          },
+          "jc_code": "",
+          "ranking_index": 1,
+          "chain": "",
+          "free_cancellation": true,
+          "special": false,
+          "room_name": "Standard room",
+          "rooms": [
+            {
+              "name": "Standard room",
+              "flags": []
+            }
+          ],
+          "partner_name": "Hotels.com",
+          "partner_logo": "https://hotelscan.com/apis/vendors/htls/logo.svg?pos=zz"
+        },
+        "rank": 0,
+        "ctrl_srt": "im a ctrl teapot",
+        "test_srt": "im a test teapot"
+      }
+    ],
+    "filters": [],
+    "query": {
+      "pos": "zz"
+    }
+  }
+}

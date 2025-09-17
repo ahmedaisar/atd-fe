@@ -1,0 +1,749 @@
+{
+  "_meta": {
+    "status": "SUCCESS",
+    "cached": true,
+    "count": 1,
+    "debug": {
+      "ticket": {
+        "ticket_id": "1016128611_zz_zz_d_publ_en_2_2025-10-08_2025-10-13_1_3",
+        "created_at": 1758065390.9059,
+        "loop": null,
+        "snapped_at": 1758065391.0299,
+        "snapshot_id": "1016128611_zz_zz_d_publ_en_2_2025-10-08_2025-10-13_1_3",
+        "snapshot_ttl": 300,
+        "executions": 2,
+        "progress": 1,
+        "save_errors": []
+      }
+    }
+  },
+  "data": {
+    "meta": [],
+    "geo": {
+      "hs_id": "x5jetk285452",
+      "region_name": "Gan Island",
+      "region_name_long": "Gan Island, Maldives",
+      "region_type": "CITY",
+      "region_id": 6195983,
+      "country_iso": "MV",
+      "country": "maldives",
+      "localised_country": "Maldives",
+      "center": [
+        1.90851,
+        73.5384
+      ],
+      "centroid": [
+        1.90851,
+        73.54535
+      ],
+      "polygon": [
+        "1.876269,73.516855",
+        "1.865079,73.537556",
+        "1.915388,73.559946",
+        "1.951936,73.553136",
+        "1.946548,73.528047",
+        "1.876269,73.516855"
+      ],
+      "radius": 4.91,
+      "zoom": -1,
+      "search_by_polygon": 0,
+      "cluster": 0,
+      "properties": 17,
+      "radius_override": 5,
+      "boundingbox": {
+        "ne": [
+          1.952,
+          73.56
+        ],
+        "sw": [
+          1.865,
+          73.516
+        ]
+      },
+      "airports": [],
+      "region_name_en": "Gan Island",
+      "region_name_long_en": "Gan Island, Maldives",
+      "referrer_city_name_en": "Gan Island",
+      "parent_region_id": 6051084,
+      "parent_hs_id": "x5p4hmhw6iot",
+      "parent_region_name": "Maldives (all)",
+      "parent_region_name_long": "Maldives (all)",
+      "dynamic_bbox": {
+        "ne": [
+          1.895,
+          73.534
+        ],
+        "sw": [
+          1.895,
+          73.534
+        ]
+      }
+    },
+    "records": [
+      {
+        "hs_id": 1016128611,
+        "slug": "entire-home-calm-beach-inn-gan-island-mv-1016128611",
+        "name": "Entire Home - Calm Beach Inn",
+        "toa": "guest_house",
+        "building": {
+          "room_num": 1,
+          "square_meters": 185,
+          "max_children": 9
+        },
+        "location": {
+          "city": "Gan Island",
+          "zip": "15063",
+          "country_iso2": "MV",
+          "address": "Mayga, Mukurimagu, Laamu",
+          "geoid": "x5jetk285452",
+          "loc": {
+            "type": "Point"
+          },
+          "coordinates": {
+            "lng": 73.53482,
+            "lat": 1.89513
+          }
+        },
+        "opening_time": {
+          "check_in_from": "14:00",
+          "check_in_to": "22:00",
+          "check_out_from": "08:00",
+          "check_out_to": "12:00"
+        },
+        "quality": {
+          "stars": 0,
+          "stars_is_estimated": false,
+          "review_source": ""
+        },
+        "covid_safe": true,
+        "amenities": {
+          "business": [
+            "business_services"
+          ],
+          "wellness": [
+            "fitness_center"
+          ],
+          "sports": [
+            "badminton",
+            "bike_rent",
+            "sub"
+          ],
+          "internet": [
+            "wifi",
+            "wifi_room",
+            "internet"
+          ],
+          "food_drink": [
+            "room_service",
+            "tea_coffee_maker"
+          ],
+          "pets": [
+            "pets_allowed"
+          ],
+          "parking": [
+            "parking"
+          ],
+          "outdoor": [
+            "garden",
+            "yard"
+          ],
+          "other": [],
+          "entertainment": [
+            "tv_lobby"
+          ],
+          "transfer": [
+            "shuttle_service"
+          ],
+          "room": [
+            "fan",
+            "air_conditioning",
+            "tv",
+            "tea_coffe_maker_room",
+            "washing_machine",
+            "tv_room"
+          ],
+          "reception": [
+            "luggage_storage",
+            "laundry_facilities",
+            "laundry_service",
+            "safety_deposit_box"
+          ]
+        },
+        "descriptions": {
+          "hotel": "Make yourself at home in one of the 5 individually decorated guestrooms, featuring minibars and espresso makers. 18-inch Smart televisions with digital programming provide entertainment, while complimentary wireless internet access keeps you connected. Bathrooms feature showers, bidets, and hair dryers. Conveniences include safes and desks, and housekeeping is provided on request.",
+          "direction": "When you stay at Calm Beach Inn in Gan, you'll be near the beach, within a 5-minute drive of Masjudhul Zikraa and Paree Fengandu. This beach bed & breakfast is 2 mi (3.2 km) from Gan Regional Hospital and 5.2 mi (8.4 km) from Siraajudheen Mosque.",
+          "amenities": true,
+          "other": "Take in the views from a garden and make use of amenities such as complimentary wireless internet access and a communal living room. Additional features at this bed & breakfast include a picnic area and charcoal grills.",
+          "localized": "When you stay at Calm Beach Inn in Gan, you'll be near the beach, within a 5-minute drive of Masjudhul Zikraa and Paree Fengandu. This beach bed & breakfast is 2 mi (3.2 km) from Gan Regional Hospital and 5.2 mi (8.4 km) from Siraajudheen Mosque."
+        },
+        "short_description": "Simple guest house with shuttle service, parking and bike rent",
+        "offers": [
+          {
+            "price": 74.75,
+            "brt": "p2r#b",
+            "rf": "p2r#b",
+            "brf": 9502784,
+            "rt": 9502784,
+            "vendor": "bkng",
+            "vendor_id_raw": "11163819",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included",
+              "Free cancellation"
+            ],
+            "jc_code": "",
+            "ranking_index": 1,
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Standard room - Choice of single or double beds",
+            "rooms": [
+              {
+                "name": "Standard room - Choice of single or double beds",
+                "flags": [
+                  "Choice of single or double beds"
+                ]
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included",
+              "refundable": "Free cancellation"
+            },
+            "partner_name": "Booking.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/bkng/logo.svg?pos=zz"
+          },
+          {
+            "vendor": "htls",
+            "price": 99.97,
+            "vendor_id_raw": "3613666880",
+            "mota_code": null,
+            "jc_code": "",
+            "partner_name": "Hotels.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/htls/logo.svg?pos=zz",
+            "room_name": "Standard room",
+            "brf": 9502784,
+            "brt": "p2r#"
+          },
+          {
+            "vendor": "expd",
+            "price": 99.97,
+            "vendor_id_raw": "112895840",
+            "mota_code": null,
+            "jc_code": "EXPEDIA",
+            "partner_name": "Expedia",
+            "partner_logo": "https://hotelscan.com/apis/vendors/expd/logo.svg?pos=zz",
+            "room_name": "Standard room",
+            "brf": 9502784,
+            "brt": "p2r#"
+          }
+        ],
+        "all_offers": [
+          {
+            "price": 74.75,
+            "brt": "p2r#b",
+            "rf": "p2r#b",
+            "brf": 9502784,
+            "rt": 9502784,
+            "vendor": "bkng",
+            "vendor_id_raw": "11163819",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included",
+              "Free cancellation"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Standard room - Choice of single or double beds",
+            "rooms": [
+              {
+                "name": "Standard room - Choice of single or double beds",
+                "flags": [
+                  "Choice of single or double beds"
+                ]
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included",
+              "refundable": "Free cancellation"
+            },
+            "partner_name": "Booking.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/bkng/logo.svg?pos=zz"
+          },
+          {
+            "price": 99.97,
+            "brt": "p2r#",
+            "rf": "p2r#",
+            "brf": 9502784,
+            "rt": 9502784,
+            "vendor": "htls",
+            "vendor_id_raw": "3613666880",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included",
+              "Free cancellation"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Standard room",
+            "rooms": [
+              {
+                "name": "Standard room",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included",
+              "refundable": "Free cancellation"
+            },
+            "partner_name": "Hotels.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/htls/logo.svg?pos=zz"
+          },
+          {
+            "price": 99.97,
+            "brt": "p2r#",
+            "rf": "p2r#",
+            "brf": 9502784,
+            "rt": 9502784,
+            "vendor": "expd",
+            "vendor_id_raw": "112895840",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included",
+              "Free cancellation"
+            ],
+            "jc_code": "EXPEDIA",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Standard room",
+            "rooms": [
+              {
+                "name": "Standard room",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included",
+              "refundable": "Free cancellation"
+            },
+            "partner_name": "Expedia",
+            "partner_logo": "https://hotelscan.com/apis/vendors/expd/logo.svg?pos=zz"
+          },
+          {
+            "price": 139.76,
+            "brt": "p2b#",
+            "rf": "p2b#",
+            "brf": 9502784,
+            "rt": 9502784,
+            "vendor": "htls",
+            "vendor_id_raw": "3613666880",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included",
+              "Free cancellation"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Classic room",
+            "rooms": [
+              {
+                "name": "Classic room",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included",
+              "refundable": "Free cancellation"
+            },
+            "partner_name": "Hotels.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/htls/logo.svg?pos=zz"
+          },
+          {
+            "price": 139.76,
+            "brt": "p2b#",
+            "rf": "p2b#",
+            "brf": 9502784,
+            "rt": 9502784,
+            "vendor": "expd",
+            "vendor_id_raw": "112895840",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included",
+              "Free cancellation"
+            ],
+            "jc_code": "EXPEDIA",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Classic room",
+            "rooms": [
+              {
+                "name": "Classic room",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included",
+              "refundable": "Free cancellation"
+            },
+            "partner_name": "Expedia",
+            "partner_logo": "https://hotelscan.com/apis/vendors/expd/logo.svg?pos=zz"
+          },
+          {
+            "price": 334.59,
+            "brt": "f2r#",
+            "rf": "f2r#",
+            "brf": 11075648,
+            "rt": 11075648,
+            "vendor": "bkng",
+            "vendor_id_raw": "11994468",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Free cancellation"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Standard apartment",
+            "rooms": [
+              {
+                "name": "Standard apartment",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "refundable": "Free cancellation"
+            },
+            "partner_name": "Booking.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/bkng/logo.svg?pos=zz"
+          },
+          {
+            "price": 374.39,
+            "brt": "f2r#",
+            "rf": "f2r#",
+            "brf": 11075648,
+            "rt": 11075648,
+            "vendor": "bkng",
+            "vendor_id_raw": "11994468",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Free cancellation"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Standard apartment",
+            "rooms": [
+              {
+                "name": "Standard apartment",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "refundable": "Free cancellation"
+            },
+            "partner_name": "Booking.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/bkng/logo.svg?pos=zz"
+          },
+          {
+            "price": 414.2,
+            "brt": "f2r#",
+            "rf": "f2r#",
+            "brf": 11075648,
+            "rt": 11075648,
+            "vendor": "bkng",
+            "vendor_id_raw": "11994468",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Free cancellation"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Standard apartment",
+            "rooms": [
+              {
+                "name": "Standard apartment",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "refundable": "Free cancellation"
+            },
+            "partner_name": "Booking.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/bkng/logo.svg?pos=zz"
+          },
+          {
+            "price": 454,
+            "brt": "f2r#",
+            "rf": "f2r#",
+            "brf": 11075648,
+            "rt": 11075648,
+            "vendor": "bkng",
+            "vendor_id_raw": "11994468",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Free cancellation"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Standard apartment",
+            "rooms": [
+              {
+                "name": "Standard apartment",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "refundable": "Free cancellation"
+            },
+            "partner_name": "Booking.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/bkng/logo.svg?pos=zz"
+          },
+          {
+            "price": 493.8,
+            "brt": "f2r#",
+            "rf": "f2r#",
+            "brf": 11075648,
+            "rt": 11075648,
+            "vendor": "bkng",
+            "vendor_id_raw": "11994468",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Free cancellation"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Standard apartment",
+            "rooms": [
+              {
+                "name": "Standard apartment",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "refundable": "Free cancellation"
+            },
+            "partner_name": "Booking.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/bkng/logo.svg?pos=zz"
+          },
+          {
+            "price": 533.61,
+            "brt": "f2r#",
+            "rf": "f2r#",
+            "brf": 11075648,
+            "rt": 11075648,
+            "vendor": "bkng",
+            "vendor_id_raw": "11994468",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Free cancellation"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Standard apartment",
+            "rooms": [
+              {
+                "name": "Standard apartment",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "refundable": "Free cancellation"
+            },
+            "partner_name": "Booking.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/bkng/logo.svg?pos=zz"
+          }
+        ],
+        "descriptions_language": {
+          "general": {
+            "original_language": true,
+            "text": "When you stay at Calm Beach Inn in Gan, you'll be near the beach, within a 5-minute drive of Masjudhul Zikraa and Paree Fengandu. This beach bed & breakfast is 2 mi (3.2 km) from Gan Regional Hospital and 5.2 mi (8.4 km) from Siraajudheen Mosque."
+          },
+          "hotel": {
+            "original_language": true,
+            "text": "Make yourself at home in one of the 5 individually decorated guestrooms, featuring minibars and espresso makers. 18-inch Smart televisions with digital programming provide entertainment, while complimentary wireless internet access keeps you connected. Bathrooms feature showers, bidets, and hair dryers. Conveniences include safes and desks, and housekeeping is provided on request."
+          },
+          "other": {
+            "original_language": true,
+            "text": "Take in the views from a garden and make use of amenities such as complimentary wireless internet access and a communal living room. Additional features at this bed & breakfast include a picnic area and charcoal grills."
+          }
+        },
+        "chain_code": null,
+        "bids": {
+          "htls": "j23",
+          "bkng": "j23",
+          "expd": "j23"
+        },
+        "worst_offer": 99.97,
+        "best_offer": 74.75,
+        "best_offer_ota": "bkng",
+        "best_offer_mota": null,
+        "discount": 25,
+        "offers_count": 11,
+        "coordinates": {
+          "lat": 1.89513,
+          "lng": 73.53482
+        },
+        "distance": 1.54,
+        "neighborhood": null,
+        "badge": null,
+        "distances": [
+          {
+            "from": "center",
+            "distance": 1.54,
+            "time": 185,
+            "means": "car",
+            "means_type": "car"
+          }
+        ],
+        "specs": {
+          "bathrooms": 5,
+          "beds": null,
+          "bedrooms": 5,
+          "guests": 10,
+          "square_meters": 185
+        },
+        "toa_label": "guest house",
+        "top_amenities": [
+          "wifi_room",
+          "internet",
+          "room_service",
+          "tea_coffee_maker",
+          "pets_allowed"
+        ],
+        "transportations": {
+          "airports": [],
+          "trains": []
+        },
+        "images": [
+          {
+            "image_id": "720174543",
+            "label": ""
+          },
+          {
+            "image_id": "720174523",
+            "label": ""
+          },
+          {
+            "image_id": "720174532",
+            "label": ""
+          },
+          {
+            "image_id": "720174540",
+            "label": ""
+          },
+          {
+            "image_id": "720174522",
+            "label": ""
+          },
+          {
+            "image_id": "720174537",
+            "label": ""
+          },
+          {
+            "image_id": "720174536",
+            "label": ""
+          },
+          {
+            "image_id": "720174544",
+            "label": ""
+          },
+          {
+            "image_id": "720174542",
+            "label": ""
+          },
+          {
+            "image_id": "720174530",
+            "label": ""
+          },
+          {
+            "image_id": "720174539",
+            "label": ""
+          },
+          {
+            "image_id": "720174527",
+            "label": ""
+          },
+          {
+            "image_id": "720174521",
+            "label": ""
+          },
+          {
+            "image_id": "720174529",
+            "label": ""
+          },
+          {
+            "image_id": "720174526",
+            "label": ""
+          }
+        ],
+        "hero_offer": {
+          "price": 74.75,
+          "brt": "p2r#b",
+          "rf": "p2r#b",
+          "brf": 9502784,
+          "rt": 9502784,
+          "vendor": "bkng",
+          "vendor_id_raw": "11163819",
+          "mota_code": null,
+          "direct_offer": false,
+          "offer_flags": {
+            "breakfast": "Breakfast included",
+            "refundable": "Free cancellation"
+          },
+          "jc_code": "",
+          "ranking_index": 1,
+          "chain": "",
+          "free_cancellation": true,
+          "special": false,
+          "room_name": "Standard room - Choice of single or double beds",
+          "rooms": [
+            {
+              "name": "Standard room - Choice of single or double beds",
+              "flags": [
+                "Choice of single or double beds"
+              ]
+            }
+          ],
+          "partner_name": "Booking.com",
+          "partner_logo": "https://hotelscan.com/apis/vendors/bkng/logo.svg?pos=zz"
+        },
+        "rank": 0,
+        "ctrl_srt": "im a ctrl teapot",
+        "test_srt": "im a test teapot"
+      }
+    ],
+    "filters": [],
+    "query": {
+      "pos": "zz"
+    }
+  }
+}

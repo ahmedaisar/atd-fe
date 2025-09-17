@@ -8,35 +8,66 @@ import { Footer } from "@/components/footer"
 import { PropertyTypesCarousel } from "@/components/property-types-carousel"
 import { OfferImage } from "@/components/offer-image"
 import TopRatedHotels, { TopRatedHotel } from "@/components/hotels/top-rated-hotels"
-import hotelsData from '@/data/hotels-fetched.json'
+// no headers needed; build API base from env or localhost
 
 
 
-// Build top rated hotels: only 5-star resorts with quality.review_rating >= 90
-const sampleTopRated: TopRatedHotel[] = (hotelsData?.hotels || [])
-  .filter(h => h.toa === 'resort' && h.stars === 5 && (h.quality?.review_rating ?? 0) >= 90 && h.best_offer)
-  .sort((a,b) => ((b.quality?.review_rating ?? 0) - (a.quality?.review_rating ?? 0)) || ((b.quality?.review_count ?? 0) - (a.quality?.review_count ?? 0)))
-  .slice(0, 15)
-  .map(h => {
-    const firstImgId = h.images?.[0]?.image_id
-    const heroImage = firstImgId ? `//img1.hotelscan.com/640_440/1/${firstImgId}.jpg` : '/images/hotels/placeholder.jpg'
-    const mapped: TopRatedHotel = {
-      id: String(h.hs_id),
-      name: h.name,
-      slug: h.slug,
-      heroImage,
-      hotelStars: h.stars || 0,
-      qualityReviewRating: h.quality?.review_rating ?? h.review_rating ?? 0,
-      qualityReviewCount: h.quality?.review_count ?? h.review_count ?? 0,
-      location: h.location?.address || h.location?.city || 'Maldives',
-      price: Number(h.best_offer) || 0,
-      currency: '$',
-      badge: h.stars >= 5 ? 'Luxury' : h.stars >= 4 ? 'Popular' : undefined
-    }
+async function getTopRatedFromApi(): Promise<TopRatedHotel[]> {
+  const base = process.env.NEXT_PUBLIC_SITE_URL || 'http://localhost:3000'
+  const url = `${base}/api/merged-hotels?toa=resort&stars=5&minQuality=90&maxQuality=99&limit=15`
+  try {
+    const res = await fetch(url, { cache: 'no-store' })
+    if (!res.ok) return []
+    const data = await res.json() as { items?: any[] }
+    const items = Array.isArray(data?.items) ? data.items : []
+    // Keep only hotels that have a discount >= 1
+    const filtered = items.filter((it: any) => {
+      const b = it?.base || {}
+      const d = it?.details || {}
+      const primary = d?.data?.records?.[0]?.discount
+      let n = Number.parseFloat(String(primary))
+      if (Number.isNaN(n)) {
+        const fallback = d?.discount ?? b?.discount ?? d?.hero_offer?.discount ?? b?.hero_offer?.discount
+        n = Number.parseFloat(String(fallback))
+      }
+      return !Number.isNaN(n) && n >= 1
+    })
+
+    const mapped: TopRatedHotel[] = filtered.map((it: any) => {
+      const b = it?.base || {}
+      const d = it?.details || {}
+      const id = String(b.hs_id ?? it?.id ?? d.hs_id ?? '')
+      const name = b.name ?? d.name ?? 'Unnamed Hotel'
+      const slug = b.slug ?? d.slug ?? id
+      const imgId = b.images?.[0]?.image_id ?? d.images?.[0]?.image_id
+      const heroImage = imgId ? `//img1.hotelscan.com/640_440/1/${imgId}.jpg` : '/images/hotels/placeholder.jpg'
+      const hotelStars = b.stars ?? d.stars ?? 0
+      const qualityReviewRating = b.quality?.review_rating ?? d.quality?.review_rating ?? b.review_rating ?? d.review_rating ?? 0
+      const qualityReviewCount = b.quality?.review_count ?? d.quality?.review_count ?? b.review_count ?? d.review_count ?? 0
+      const location = b.location?.address || b.location?.city || d.location?.address || d.location?.city || 'Maldives'
+      const price = Number(d.best_offer ?? b.best_offer ?? d.hero_offer?.price ?? 0) || 0
+      const currency = '$'
+      const badge = hotelStars >= 5 ? 'Luxury' : hotelStars >= 4 ? 'Popular' : undefined
+  const hero_offer = d.hero_offer ?? b.hero_offer
+  // Choose discount prioritizing details.data.records[0].discount
+  const primaryDisc = d?.data?.records?.[0]?.discount
+  let discountNum = Number.parseFloat(String(primaryDisc))
+  if (Number.isNaN(discountNum)) {
+    const fb = d?.discount ?? b?.discount ?? d?.hero_offer?.discount ?? b?.hero_offer?.discount
+    discountNum = Number.parseFloat(String(fb))
+  }
+  const discount = Number.isNaN(discountNum) ? 0 : discountNum
+      const short_description = d.short_description ?? b.short_description
+      return { id, name, slug, heroImage, hotelStars, qualityReviewRating, qualityReviewCount, location, price, currency, badge, hero_offer, discount, short_description }
+    })
     return mapped
-  })
+  } catch {
+    return []
+  }
+}
 
-export default function HomePage() {
+export default async function HomePage() {
+  const sampleTopRated = await getTopRatedFromApi()
   return (
     <div className="min-h-screen bg-white">
       <Header />
@@ -46,17 +77,18 @@ export default function HomePage() {
         {/* Membership Sign-in Full Width Card */}
         <section className="px-4 sm:px-6 lg:px-8 mt-10">
           <div className="max-w-7xl mx-auto">
-            <div className="bg-black-gradient rounded-xl flex flex-col md:flex-row items-start md:items-center gap-4 md:gap-6 px-5 sm:px-8 py-5 md:py-6 shadow-sm">
+            <div className="bg-black-100 rounded-xl flex flex-col md:flex-row items-start md:items-center gap-4 md:gap-6 px-5 sm:px-8 py-5 md:py-6 shadow-sm">
               <div className="flex items-center gap-4 md:gap-5 w-full md:w-auto">
-                <div className="h-12 w-12 rounded-lg bg-white flex items-center justify-center text-xl font-bold text-gold-900 shrink-0">★</div>
+                <div className="h-8 w-8 sm:h-12 sm:w-12 md:h-11 md:w-11 rounded-lg flex items-center justify-center text-xl font-bold bg-gold-100-sm sm:bg-gold-100 hover:bg-gold-100-hover text-white-100 shrink-0">★</div>
+
                 <div className="flex-1">
-                  <h3 className="text-[12px] uppercase sm:text-base md:text-[17px] font-bold tracking-tight text-white-900 leading-snug">Sign in to access Atoll Direct Member Prices</h3>
-                  <p className="text-xs sm:text-sm text-white-800 mt-1 leading-snug hidden sm:block">Exclusive savings on selected hotels in the Maldives.</p>
+                  <h3 className="text-[15px] capitalize sm:text-base md:text-[18px] font-bold tracking-tight text-gold-900 leading-snug">Sign in to access Atoll Direct Member Prices</h3>
+                  <p className="text-xs sm:text-sm text-white-800 mt-1 font-bold leading-snug hidden sm:block">Exclusive savings on selected hotels in the Maldives!</p>
                 </div>
               </div>
-              <div className="w-full md:w-auto flex md:justify-end">
-                <button className="inline-flex w-full md:w-auto items-center justify-center rounded-full bg-blue-600 hover:bg-blue-700 text-white text-xs sm:text-sm font-medium h-9 sm:h-10 px-5 sm:px-6 shadow focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 focus-visible:ring-blue-500 transition-colors">Sign in</button>
-              </div>
+                <div className="w-full md:w-auto flex md:justify-end md:ml-auto">
+                <button className="inline-flex w-full md:w-auto items-center justify-center rounded-lg bg-gold-100-sm sm:bg-gold-100 hover:bg-gold-100-hover text-white text-xs sm:text-sm font-medium h-9 sm:h-10 px-5 sm:px-6 shadow focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 focus-visible:ring-blue-500 transition-colors">Sign in</button>
+                </div>
             </div>
           </div>
         </section>

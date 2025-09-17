@@ -36,7 +36,7 @@ export function AdditionalServices() {
   ]
 
   return (
-    <section className="bg-blue-900 py-8">
+    <section className="bg-blue-900 py-8 mt-10">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex flex-wrap justify-center gap-4">
           {services.map((service) => {

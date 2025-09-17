@@ -1,0 +1,708 @@
+{
+  "_meta": {
+    "status": "SUCCESS",
+    "cached": true,
+    "count": 1,
+    "debug": {
+      "ticket": {
+        "ticket_id": "690317484_zz_zz_d_publ_en_2_2025-10-08_2025-10-13_1_3",
+        "created_at": 1758065378.482,
+        "loop": null,
+        "snapped_at": 1758065378.6113,
+        "snapshot_id": "690317484_zz_zz_d_publ_en_2_2025-10-08_2025-10-13_1_3",
+        "snapshot_ttl": 300,
+        "executions": 2,
+        "progress": 1,
+        "save_errors": []
+      }
+    }
+  },
+  "data": {
+    "meta": [],
+    "geo": {
+      "hs_id": "xkmcbzm72aw2",
+      "region_name": "Ukulhas",
+      "region_name_long": "Ukulhas, Maldives",
+      "region_type": "CITY",
+      "region_id": 6221930,
+      "country_iso": "MV",
+      "country": "maldives",
+      "localised_country": "Maldives",
+      "center": [
+        4.2152,
+        72.86405
+      ],
+      "centroid": [
+        4.21533,
+        72.86405
+      ],
+      "polygon": [
+        "4.208669,72.865099",
+        "4.212336,72.870321",
+        "4.221738,72.863589",
+        "4.218314,72.857769",
+        "4.208669,72.865099"
+      ],
+      "radius": 0.78,
+      "zoom": -1,
+      "search_by_polygon": 0,
+      "cluster": 0,
+      "properties": 45,
+      "radius_override": 5,
+      "boundingbox": {
+        "ne": [
+          4.222,
+          72.871
+        ],
+        "sw": [
+          4.208,
+          72.857
+        ]
+      },
+      "airports": [
+        "MLE",
+        "DRV"
+      ],
+      "region_name_en": "Ukulhas",
+      "region_name_long_en": "Ukulhas, Maldives",
+      "referrer_city_name_en": "Ukulhas",
+      "parent_region_id": 6051084,
+      "parent_hs_id": "x5p4hmhw6iot",
+      "parent_region_name": "Maldives (all)",
+      "parent_region_name_long": "Maldives (all)",
+      "dynamic_bbox": {
+        "ne": [
+          4.214,
+          72.863
+        ],
+        "sw": [
+          4.214,
+          72.863
+        ]
+      }
+    },
+    "records": [
+      {
+        "hs_id": 690317484,
+        "slug": "ukulhas-view-ukulhas-mv-690317484",
+        "name": "Ukulhas View",
+        "ty_id": "11294a4c-52ea-4f04-8824-263fc45e73cf",
+        "toa": "guest_house",
+        "building": {
+          "room_num": 6
+        },
+        "location": {
+          "city": "Ukulhas",
+          "zip": "09030",
+          "country_iso2": "MV",
+          "address": "Vasha Magu",
+          "geoid": "xkmcbzm72aw2",
+          "loc": {
+            "type": "Point"
+          },
+          "coordinates": {
+            "lng": 72.86386,
+            "lat": 4.21441
+          }
+        },
+        "opening_time": {
+          "check_in_from": "14:00",
+          "check_in_to": null,
+          "check_out_from": null,
+          "check_out_to": "12:00"
+        },
+        "quality": {
+          "review_count": 69,
+          "review_rating": 93,
+          "stars": 3,
+          "stars_is_estimated": true,
+          "review_source": ""
+        },
+        "covid_safe": false,
+        "amenities": {
+          "sports": [
+            "bike_rent",
+            "sub"
+          ],
+          "internet": [
+            "wifi",
+            "internet"
+          ],
+          "transfer": [
+            "shuttle_service"
+          ],
+          "parking": [
+            "parking"
+          ],
+          "room": [
+            "air_conditioning",
+            "tv"
+          ],
+          "outdoor": [
+            "garden"
+          ]
+        },
+        "descriptions": {
+          "general": "Situated in Ukulhas, Ukulhas View offers beachfront accommodation 90 metres from Ukulhas Beach and features various facilities, such as a private beach area and a garden. The property features garden views. The guest house has family rooms.",
+          "other": "This property will not accommodate hen, stag or similar parties.",
+          "localized": "Situated in Ukulhas, Ukulhas View offers beachfront accommodation 90 metres from Ukulhas Beach and features various facilities, such as a private beach area and a garden. The property features garden views. The guest house has family rooms."
+        },
+        "short_description": "Excellent accommodation. Awesome rooms and service in a great location. Beautiful beach.",
+        "offers": [
+          {
+            "price": 74.23,
+            "brt": "p2r#",
+            "rf": "p2r#",
+            "brf": 9502848,
+            "rt": 9502848,
+            "vendor": "bkng",
+            "vendor_id_raw": "9367655",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included",
+              "Free cancellation",
+              "Pay at the property"
+            ],
+            "jc_code": "",
+            "ranking_index": 1,
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Standard room",
+            "rooms": [
+              {
+                "name": "Standard room",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included",
+              "refundable": "Free cancellation",
+              "pay_at_hotel": "Pay at the property"
+            },
+            "partner_name": "Booking.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/bkng/logo.svg?pos=zz"
+          },
+          {
+            "vendor": "ostr",
+            "price": 454.05,
+            "vendor_id_raw": "8796217",
+            "mota_code": null,
+            "jc_code": "",
+            "partner_name": "Zenhotels",
+            "partner_logo": "https://hotelscan.com/apis/vendors/ostr/logo.svg?pos=zz",
+            "room_name": "Family apartment",
+            "brf": 9502784,
+            "brt": "f2q#"
+          }
+        ],
+        "all_offers": [
+          {
+            "price": 74.23,
+            "brt": "p2r#",
+            "rf": "p2r#",
+            "brf": 9502848,
+            "rt": 9502848,
+            "vendor": "bkng",
+            "vendor_id_raw": "9367655",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included",
+              "Free cancellation",
+              "Pay at the property"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Standard room",
+            "rooms": [
+              {
+                "name": "Standard room",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included",
+              "refundable": "Free cancellation",
+              "pay_at_hotel": "Pay at the property"
+            },
+            "partner_name": "Booking.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/bkng/logo.svg?pos=zz"
+          },
+          {
+            "price": 79.16,
+            "brt": "p2d#b",
+            "rf": "p2d#b",
+            "brf": 9502848,
+            "rt": 9502848,
+            "vendor": "bkng",
+            "vendor_id_raw": "9367655",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included",
+              "Free cancellation",
+              "Pay at the property"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Deluxe room - Choice of single or double beds",
+            "rooms": [
+              {
+                "name": "Deluxe room - Choice of single or double beds",
+                "flags": [
+                  "Choice of single or double beds"
+                ]
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included",
+              "refundable": "Free cancellation",
+              "pay_at_hotel": "Pay at the property"
+            },
+            "partner_name": "Booking.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/bkng/logo.svg?pos=zz"
+          },
+          {
+            "price": 98.86,
+            "brt": "p2d#b",
+            "rf": "p2d#b",
+            "brf": 9502848,
+            "rt": 9502848,
+            "vendor": "bkng",
+            "vendor_id_raw": "9367655",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included",
+              "Free cancellation",
+              "Pay at the property"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Deluxe room - Choice of single or double beds",
+            "rooms": [
+              {
+                "name": "Deluxe room - Choice of single or double beds",
+                "flags": [
+                  "Choice of single or double beds"
+                ]
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included",
+              "refundable": "Free cancellation",
+              "pay_at_hotel": "Pay at the property"
+            },
+            "partner_name": "Booking.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/bkng/logo.svg?pos=zz"
+          },
+          {
+            "price": 113.64,
+            "brt": "p2r#",
+            "rf": "p2r#",
+            "brf": 12124288,
+            "rt": 12124288,
+            "vendor": "bkng",
+            "vendor_id_raw": "9367655",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast and dinner",
+              "Free cancellation",
+              "Pay at the property"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Standard room",
+            "rooms": [
+              {
+                "name": "Standard room",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "half_board_dinner": "Breakfast and dinner",
+              "refundable": "Free cancellation",
+              "pay_at_hotel": "Pay at the property"
+            },
+            "partner_name": "Booking.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/bkng/logo.svg?pos=zz"
+          },
+          {
+            "price": 118.56,
+            "brt": "p2d#b",
+            "rf": "p2d#b",
+            "brf": 12124288,
+            "rt": 12124288,
+            "vendor": "bkng",
+            "vendor_id_raw": "9367655",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast and dinner",
+              "Free cancellation",
+              "Pay at the property"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Deluxe room - Choice of single or double beds",
+            "rooms": [
+              {
+                "name": "Deluxe room - Choice of single or double beds",
+                "flags": [
+                  "Choice of single or double beds"
+                ]
+              }
+            ],
+            "offer_flags_new": {
+              "half_board_dinner": "Breakfast and dinner",
+              "refundable": "Free cancellation",
+              "pay_at_hotel": "Pay at the property"
+            },
+            "partner_name": "Booking.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/bkng/logo.svg?pos=zz"
+          },
+          {
+            "price": 153.04,
+            "brt": "p2d#b",
+            "rf": "p2d#b",
+            "brf": 12124288,
+            "rt": 12124288,
+            "vendor": "bkng",
+            "vendor_id_raw": "9367655",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast and dinner",
+              "Free cancellation",
+              "Pay at the property"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Deluxe room - Choice of single or double beds",
+            "rooms": [
+              {
+                "name": "Deluxe room - Choice of single or double beds",
+                "flags": [
+                  "Choice of single or double beds"
+                ]
+              }
+            ],
+            "offer_flags_new": {
+              "half_board_dinner": "Breakfast and dinner",
+              "refundable": "Free cancellation",
+              "pay_at_hotel": "Pay at the property"
+            },
+            "partner_name": "Booking.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/bkng/logo.svg?pos=zz"
+          },
+          {
+            "price": 162.89,
+            "brt": "p2r#",
+            "rf": "p2r#",
+            "brf": 10027136,
+            "rt": 10027136,
+            "vendor": "bkng",
+            "vendor_id_raw": "9367655",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Full board",
+              "Free cancellation",
+              "Pay at the property"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Standard room",
+            "rooms": [
+              {
+                "name": "Standard room",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "full_board": "Full board",
+              "refundable": "Free cancellation",
+              "pay_at_hotel": "Pay at the property"
+            },
+            "partner_name": "Booking.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/bkng/logo.svg?pos=zz"
+          },
+          {
+            "price": 167.82,
+            "brt": "p2d#b",
+            "rf": "p2d#b",
+            "brf": 10027136,
+            "rt": 10027136,
+            "vendor": "bkng",
+            "vendor_id_raw": "9367655",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Full board",
+              "Free cancellation",
+              "Pay at the property"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Deluxe room - Choice of single or double beds",
+            "rooms": [
+              {
+                "name": "Deluxe room - Choice of single or double beds",
+                "flags": [
+                  "Choice of single or double beds"
+                ]
+              }
+            ],
+            "offer_flags_new": {
+              "full_board": "Full board",
+              "refundable": "Free cancellation",
+              "pay_at_hotel": "Pay at the property"
+            },
+            "partner_name": "Booking.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/bkng/logo.svg?pos=zz"
+          },
+          {
+            "price": 217.07,
+            "brt": "p2d#b",
+            "rf": "p2d#b",
+            "brf": 10027136,
+            "rt": 10027136,
+            "vendor": "bkng",
+            "vendor_id_raw": "9367655",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Full board",
+              "Free cancellation",
+              "Pay at the property"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Deluxe room - Choice of single or double beds",
+            "rooms": [
+              {
+                "name": "Deluxe room - Choice of single or double beds",
+                "flags": [
+                  "Choice of single or double beds"
+                ]
+              }
+            ],
+            "offer_flags_new": {
+              "full_board": "Full board",
+              "refundable": "Free cancellation",
+              "pay_at_hotel": "Pay at the property"
+            },
+            "partner_name": "Booking.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/bkng/logo.svg?pos=zz"
+          },
+          {
+            "price": 454.05,
+            "brt": "f2q#",
+            "rf": "f2q#",
+            "brf": 9502784,
+            "rt": 9502784,
+            "vendor": "ostr",
+            "vendor_id_raw": "8796217",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included",
+              "Free cancellation"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Family apartment",
+            "rooms": [
+              {
+                "name": "Family apartment",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included",
+              "refundable": "Free cancellation"
+            },
+            "partner_name": "Zenhotels",
+            "partner_logo": "https://hotelscan.com/apis/vendors/ostr/logo.svg?pos=zz"
+          }
+        ],
+        "descriptions_language": {
+          "general": {
+            "original_language": true,
+            "text": "Situated in Ukulhas, Ukulhas View offers beachfront accommodation 90 metres from Ukulhas Beach and features various facilities, such as a private beach area and a garden. The property features garden views. The guest house has family rooms."
+          },
+          "other": {
+            "original_language": true,
+            "text": "This property will not accommodate hen, stag or similar parties."
+          }
+        },
+        "chain_code": null,
+        "bids": {
+          "bkng": "j23",
+          "ostr": "j23"
+        },
+        "worst_offer": 454.05,
+        "best_offer": 74.23,
+        "best_offer_ota": "bkng",
+        "best_offer_mota": null,
+        "discount": 85,
+        "offers_count": 10,
+        "coordinates": {
+          "lat": 4.21441,
+          "lng": 72.86386
+        },
+        "distance": 0.09,
+        "neighborhood": null,
+        "badge": null,
+        "distances": [
+          {
+            "from": "center",
+            "distance": 0.09,
+            "time": 125,
+            "means": "foot",
+            "means_type": "foot"
+          }
+        ],
+        "specs": {
+          "bathrooms": null,
+          "beds": null,
+          "bedrooms": null,
+          "guests": null,
+          "square_meters": null
+        },
+        "toa_label": "guest house",
+        "top_amenities": [
+          "internet",
+          "parking",
+          "air_conditioning"
+        ],
+        "transportations": {
+          "airports": [],
+          "trains": []
+        },
+        "images": [
+          {
+            "image_id": "762238681",
+            "label": ""
+          },
+          {
+            "image_id": "762238685",
+            "label": ""
+          },
+          {
+            "image_id": "762238678",
+            "label": ""
+          },
+          {
+            "image_id": "762238671",
+            "label": ""
+          },
+          {
+            "image_id": "762238668",
+            "label": ""
+          },
+          {
+            "image_id": "762238669",
+            "label": ""
+          },
+          {
+            "image_id": "762238672",
+            "label": ""
+          },
+          {
+            "image_id": "762238677",
+            "label": ""
+          },
+          {
+            "image_id": "762238682",
+            "label": ""
+          },
+          {
+            "image_id": "762238673",
+            "label": ""
+          },
+          {
+            "image_id": "762238679",
+            "label": ""
+          },
+          {
+            "image_id": "762238676",
+            "label": ""
+          },
+          {
+            "image_id": "762238684",
+            "label": ""
+          },
+          {
+            "image_id": "762238667",
+            "label": ""
+          },
+          {
+            "image_id": "762238670",
+            "label": ""
+          }
+        ],
+        "hero_offer": {
+          "price": 74.23,
+          "brt": "p2r#",
+          "rf": "p2r#",
+          "brf": 9502848,
+          "rt": 9502848,
+          "vendor": "bkng",
+          "vendor_id_raw": "9367655",
+          "mota_code": null,
+          "direct_offer": false,
+          "offer_flags": {
+            "breakfast": "Breakfast included",
+            "refundable": "Free cancellation",
+            "pay_at_hotel": "Pay at the property"
+          },
+          "jc_code": "",
+          "ranking_index": 1,
+          "chain": "",
+          "free_cancellation": true,
+          "special": false,
+          "room_name": "Standard room",
+          "rooms": [
+            {
+              "name": "Standard room",
+              "flags": []
+            }
+          ],
+          "partner_name": "Booking.com",
+          "partner_logo": "https://hotelscan.com/apis/vendors/bkng/logo.svg?pos=zz"
+        },
+        "rank": 0,
+        "ctrl_srt": "im a ctrl teapot",
+        "test_srt": "im a test teapot"
+      }
+    ],
+    "filters": [],
+    "query": {
+      "pos": "zz"
+    }
+  }
+}

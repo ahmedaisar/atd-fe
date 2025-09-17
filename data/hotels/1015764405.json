@@ -1,0 +1,739 @@
+{
+  "_meta": {
+    "status": "SUCCESS",
+    "cached": true,
+    "count": 1,
+    "debug": {
+      "ticket": {
+        "ticket_id": "1015764405_zz_zz_d_publ_en_2_2025-10-08_2025-10-13_1_3",
+        "created_at": 1758065372.7233,
+        "loop": null,
+        "snapped_at": 1758065372.8013,
+        "snapshot_id": "1015764405_zz_zz_d_publ_en_2_2025-10-08_2025-10-13_1_3",
+        "snapshot_ttl": 300,
+        "executions": 2,
+        "progress": 1,
+        "save_errors": []
+      }
+    }
+  },
+  "data": {
+    "meta": [],
+    "geo": {
+      "hs_id": "xka64pz3nodo",
+      "region_name": "Bodufolhudhoo",
+      "region_name_long": "Bodufolhudhoo, Maldives",
+      "region_type": "CITY",
+      "region_id": 6360705,
+      "country_iso": "MV",
+      "country": "maldives",
+      "localised_country": "Maldives",
+      "center": [
+        4.18596,
+        72.7735
+      ],
+      "centroid": [
+        4.18596,
+        72.7735
+      ],
+      "polygon": [
+        "4.182836,72.770876",
+        "4.182537,72.776975",
+        "4.189198,72.776816",
+        "4.189373,72.770015",
+        "4.182836,72.770876"
+      ],
+      "radius": 0.55,
+      "zoom": -1,
+      "search_by_polygon": 0,
+      "cluster": 0,
+      "properties": 47,
+      "radius_override": 5,
+      "boundingbox": {
+        "ne": [
+          4.19,
+          72.777
+        ],
+        "sw": [
+          4.182,
+          72.77
+        ]
+      },
+      "airports": [
+        "MLE",
+        "DRV"
+      ],
+      "region_name_en": "Bodufolhudhoo",
+      "region_name_long_en": "Bodufolhudhoo, Maldives",
+      "referrer_city_name_en": "Bodufolhudhoo",
+      "parent_region_id": 6051084,
+      "parent_hs_id": "x5p4hmhw6iot",
+      "parent_region_name": "Maldives (all)",
+      "parent_region_name_long": "Maldives (all)",
+      "dynamic_bbox": {
+        "ne": [
+          4.186,
+          72.772
+        ],
+        "sw": [
+          4.186,
+          72.772
+        ]
+      }
+    },
+    "records": [
+      {
+        "hs_id": 1015764405,
+        "slug": "garden-rooms-by-lagoon-view-bodufolhudhoo-mv-1015764405",
+        "name": "Garden Rooms By Lagoon View",
+        "toa": "apartment",
+        "location": {
+          "city": "Bodufolhudhoo",
+          "zip": "09050",
+          "country_iso2": "MV",
+          "address": "Abadhahfehi Magu Lagoon View Maldives",
+          "geoid": "xka64pz3nodo",
+          "loc": {
+            "type": "Point"
+          },
+          "coordinates": {
+            "lng": 72.77219,
+            "lat": 4.18626
+          }
+        },
+        "opening_time": {
+          "check_in_from": "14:00",
+          "check_in_to": "22:00",
+          "check_out_from": "10:00",
+          "check_out_to": "12:00"
+        },
+        "quality": {
+          "review_count": 8,
+          "review_rating": 98,
+          "stars": 0,
+          "stars_is_estimated": false,
+          "review_source": ""
+        },
+        "covid_safe": true,
+        "amenities": {
+          "wellness": [
+            "massage",
+            "solarium",
+            "fitness_center",
+            "spa"
+          ],
+          "sports": [
+            "billiard",
+            "badminton",
+            "yoga",
+            "bike_rent",
+            "ping_pong",
+            "sub",
+            "surf"
+          ],
+          "internet": [
+            "wifi",
+            "internet"
+          ],
+          "food_drink": [
+            "restaurant",
+            "room_service",
+            "cafe",
+            "bar",
+            "snack_bar"
+          ],
+          "parking": [
+            "parking"
+          ],
+          "outdoor": [
+            "garden",
+            "terrace"
+          ],
+          "other": [],
+          "business": [
+            "meeting_room",
+            "business_services"
+          ],
+          "children": [
+            "babysitter",
+            "children_playground"
+          ],
+          "entertainment": [
+            "tv_lobby"
+          ],
+          "transfer": [
+            "shuttle_service"
+          ],
+          "room": [
+            "air_conditioning",
+            "tv"
+          ],
+          "reception": [
+            "24h_reception",
+            "luggage_storage",
+            "laundry_facilities",
+            "laundry_service",
+            "safety_deposit_box"
+          ]
+        },
+        "descriptions": {
+          "general": "Set in Bodufolhudhoo, just a few steps from Bodufolhudhoo Island Beach, Garden Rooms by Lagoon View offers beachfront accommodation with a private beach area, a fitness centre, a garden and free WiFi. Boasting a 24-hour front desk, this property also provides guests with a picnic area. Guests can make use of the sun terrace or the children's playground, or enjoy views of the garden and inner courtyard.",
+          "other": "Please share your flight details with the property at least 4 days before your arrival to secure your seat(s) for the transfer.",
+          "localized": "Set in Bodufolhudhoo, just a few steps from Bodufolhudhoo Island Beach, Garden Rooms by Lagoon View offers beachfront accommodation with a private beach area, a fitness centre, a garden and free WiFi. Boasting a 24-hour front desk, this property also provides guests with a picnic area. Guests can make use of the sun terrace or the children's playground, or enjoy views of the garden and inner courtyard."
+        },
+        "short_description": "Apartment with spa, parking, restaurant and meeting room",
+        "offers": [
+          {
+            "price": 91.21,
+            "brt": "p2r#",
+            "rf": "p2r#",
+            "brf": 9503360,
+            "rt": 9503360,
+            "vendor": "bkng",
+            "vendor_id_raw": "5998453",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included",
+              "Free cancellation",
+              "Garden view",
+              "Pay at the property"
+            ],
+            "jc_code": "",
+            "ranking_index": 0.9964039030808026,
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Standard room",
+            "rooms": [
+              {
+                "name": "Standard room",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included",
+              "refundable": "Free cancellation",
+              "view_garden": "Garden view",
+              "pay_at_hotel": "Pay at the property"
+            },
+            "partner_name": "Booking.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/bkng/logo.svg?pos=zz"
+          },
+          {
+            "vendor": "agda",
+            "price": 90.39,
+            "vendor_id_raw": "12441641",
+            "mota_code": null,
+            "jc_code": "",
+            "partner_name": "Agoda",
+            "partner_logo": "https://hotelscan.com/apis/vendors/agda/logo.svg?pos=zz",
+            "room_name": "Standard room",
+            "brf": 9503360,
+            "brt": "p2r#"
+          }
+        ],
+        "all_offers": [
+          {
+            "price": 90.39,
+            "brt": "p2r#",
+            "rf": "p2r#",
+            "brf": 9503360,
+            "rt": 9503360,
+            "vendor": "agda",
+            "vendor_id_raw": "12441641",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included",
+              "Free cancellation",
+              "Garden view",
+              "Pay at the property"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Standard room",
+            "rooms": [
+              {
+                "name": "Standard room",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included",
+              "refundable": "Free cancellation",
+              "view_garden": "Garden view",
+              "pay_at_hotel": "Pay at the property"
+            },
+            "partner_name": "Agoda",
+            "partner_logo": "https://hotelscan.com/apis/vendors/agda/logo.svg?pos=zz"
+          },
+          {
+            "price": 91.21,
+            "brt": "p2r#",
+            "rf": "p2r#",
+            "brf": 9503360,
+            "rt": 9503360,
+            "vendor": "bkng",
+            "vendor_id_raw": "5998453",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included",
+              "Free cancellation",
+              "Garden view",
+              "Pay at the property"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Standard room",
+            "rooms": [
+              {
+                "name": "Standard room",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included",
+              "refundable": "Free cancellation",
+              "view_garden": "Garden view",
+              "pay_at_hotel": "Pay at the property"
+            },
+            "partner_name": "Booking.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/bkng/logo.svg?pos=zz"
+          },
+          {
+            "price": 181.36,
+            "brt": "p2r#",
+            "rf": "p2r#",
+            "brf": 9503360,
+            "rt": 9503360,
+            "vendor": "agda",
+            "vendor_id_raw": "12441641",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included",
+              "Free cancellation",
+              "Garden view",
+              "Pay at the property"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Standard room",
+            "rooms": [
+              {
+                "name": "Standard room",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included",
+              "refundable": "Free cancellation",
+              "view_garden": "Garden view",
+              "pay_at_hotel": "Pay at the property"
+            },
+            "partner_name": "Agoda",
+            "partner_logo": "https://hotelscan.com/apis/vendors/agda/logo.svg?pos=zz"
+          },
+          {
+            "price": 183.02,
+            "brt": "p2r#",
+            "rf": "p2r#",
+            "brf": 10027648,
+            "rt": 10027648,
+            "vendor": "bkng",
+            "vendor_id_raw": "5998453",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Full board",
+              "Free cancellation",
+              "Garden view",
+              "Pay at the property"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Standard room",
+            "rooms": [
+              {
+                "name": "Standard room",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "full_board": "Full board",
+              "refundable": "Free cancellation",
+              "view_garden": "Garden view",
+              "pay_at_hotel": "Pay at the property"
+            },
+            "partner_name": "Booking.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/bkng/logo.svg?pos=zz"
+          },
+          {
+            "price": 224.17,
+            "brt": "g2r#",
+            "rf": "g2r#",
+            "brf": 9502848,
+            "rt": 9502848,
+            "vendor": "agda",
+            "vendor_id_raw": "12441641",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included",
+              "Free cancellation",
+              "Pay at the property"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Bungalow",
+            "rooms": [
+              {
+                "name": "Bungalow",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included",
+              "refundable": "Free cancellation",
+              "pay_at_hotel": "Pay at the property"
+            },
+            "partner_name": "Agoda",
+            "partner_logo": "https://hotelscan.com/apis/vendors/agda/logo.svg?pos=zz"
+          },
+          {
+            "price": 226.22,
+            "brt": "g2r#",
+            "rf": "g2r#",
+            "brf": 9502848,
+            "rt": 9502848,
+            "vendor": "bkng",
+            "vendor_id_raw": "5998453",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included",
+              "Free cancellation",
+              "Pay at the property"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Bungalow",
+            "rooms": [
+              {
+                "name": "Bungalow",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included",
+              "refundable": "Free cancellation",
+              "pay_at_hotel": "Pay at the property"
+            },
+            "partner_name": "Booking.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/bkng/logo.svg?pos=zz"
+          },
+          {
+            "price": 260.55,
+            "brt": "p2r#",
+            "rf": "p2r#",
+            "brf": 9470528,
+            "rt": 9470528,
+            "vendor": "agda",
+            "vendor_id_raw": "12441641",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included",
+              "Garden view"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": false,
+            "special": false,
+            "room_name": "Standard room",
+            "rooms": [
+              {
+                "name": "Standard room",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included",
+              "view_garden": "Garden view"
+            },
+            "partner_name": "Agoda",
+            "partner_logo": "https://hotelscan.com/apis/vendors/agda/logo.svg?pos=zz"
+          },
+          {
+            "price": 262.95,
+            "brt": "p2r#",
+            "rf": "p2r#",
+            "brf": 12091968,
+            "rt": 12091968,
+            "vendor": "bkng",
+            "vendor_id_raw": "5998453",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast and dinner",
+              "Garden view"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": false,
+            "special": false,
+            "room_name": "Standard room",
+            "rooms": [
+              {
+                "name": "Standard room",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "half_board_dinner": "Breakfast and dinner",
+              "view_garden": "Garden view"
+            },
+            "partner_name": "Booking.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/bkng/logo.svg?pos=zz"
+          },
+          {
+            "price": 438.21,
+            "brt": "g2q#",
+            "rf": "g2q#",
+            "brf": 9502848,
+            "rt": 9502848,
+            "vendor": "agda",
+            "vendor_id_raw": "12441641",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included",
+              "Free cancellation",
+              "Pay at the property"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Family bungalow",
+            "rooms": [
+              {
+                "name": "Family bungalow",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included",
+              "refundable": "Free cancellation",
+              "pay_at_hotel": "Pay at the property"
+            },
+            "partner_name": "Agoda",
+            "partner_logo": "https://hotelscan.com/apis/vendors/agda/logo.svg?pos=zz"
+          },
+          {
+            "price": 442.24,
+            "brt": "g2q#",
+            "rf": "g2q#",
+            "brf": 9502848,
+            "rt": 9502848,
+            "vendor": "bkng",
+            "vendor_id_raw": "5998453",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included",
+              "Free cancellation",
+              "Pay at the property"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Family bungalow",
+            "rooms": [
+              {
+                "name": "Family bungalow",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included",
+              "refundable": "Free cancellation",
+              "pay_at_hotel": "Pay at the property"
+            },
+            "partner_name": "Booking.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/bkng/logo.svg?pos=zz"
+          }
+        ],
+        "descriptions_language": {
+          "general": {
+            "original_language": true,
+            "text": "Set in Bodufolhudhoo, just a few steps from Bodufolhudhoo Island Beach, Garden Rooms by Lagoon View offers beachfront accommodation with a private beach area, a fitness centre, a garden and free WiFi. Boasting a 24-hour front desk, this property also provides guests with a picnic area. Guests can make use of the sun terrace or the children's playground, or enjoy views of the garden and inner courtyard."
+          },
+          "other": {
+            "original_language": true,
+            "text": "Please share your flight details with the property at least 4 days before your arrival to secure your seat(s) for the transfer."
+          }
+        },
+        "chain_code": null,
+        "bids": {
+          "bkng": "j23",
+          "agda": "j23"
+        },
+        "worst_offer": null,
+        "best_offer": 90.39,
+        "best_offer_ota": "agda",
+        "best_offer_mota": null,
+        "discount": 0,
+        "offers_count": 10,
+        "coordinates": {
+          "lat": 4.18626,
+          "lng": 72.77219
+        },
+        "distance": 0.15,
+        "neighborhood": null,
+        "badge": null,
+        "distances": [
+          {
+            "from": "center",
+            "distance": 0.15,
+            "time": 208,
+            "means": "foot",
+            "means_type": "foot"
+          }
+        ],
+        "specs": {
+          "bathrooms": null,
+          "beds": null,
+          "bedrooms": null,
+          "guests": null,
+          "square_meters": null
+        },
+        "toa_label": "apartment",
+        "top_amenities": [
+          "parking",
+          "air_conditioning",
+          "tv"
+        ],
+        "transportations": {
+          "airports": [],
+          "trains": []
+        },
+        "images": [
+          {
+            "image_id": "691249860",
+            "label": ""
+          },
+          {
+            "image_id": "691249859",
+            "label": ""
+          },
+          {
+            "image_id": "691249850",
+            "label": ""
+          },
+          {
+            "image_id": "691249851",
+            "label": ""
+          },
+          {
+            "image_id": "691249868",
+            "label": ""
+          },
+          {
+            "image_id": "691249864",
+            "label": ""
+          },
+          {
+            "image_id": "691249858",
+            "label": ""
+          },
+          {
+            "image_id": "691249852",
+            "label": ""
+          },
+          {
+            "image_id": "691249856",
+            "label": ""
+          },
+          {
+            "image_id": "691249861",
+            "label": ""
+          },
+          {
+            "image_id": "691249862",
+            "label": ""
+          },
+          {
+            "image_id": "691249866",
+            "label": ""
+          },
+          {
+            "image_id": "691249855",
+            "label": ""
+          },
+          {
+            "image_id": "691249849",
+            "label": ""
+          },
+          {
+            "image_id": "691249863",
+            "label": ""
+          }
+        ],
+        "hero_offer": {
+          "price": 91.21,
+          "brt": "p2r#",
+          "rf": "p2r#",
+          "brf": 9503360,
+          "rt": 9503360,
+          "vendor": "bkng",
+          "vendor_id_raw": "5998453",
+          "mota_code": null,
+          "direct_offer": false,
+          "offer_flags": {
+            "breakfast": "Breakfast included",
+            "refundable": "Free cancellation",
+            "view_garden": "Garden view",
+            "pay_at_hotel": "Pay at the property"
+          },
+          "jc_code": "",
+          "ranking_index": 0.9964039030808026,
+          "chain": "",
+          "free_cancellation": true,
+          "special": false,
+          "room_name": "Standard room",
+          "rooms": [
+            {
+              "name": "Standard room",
+              "flags": []
+            }
+          ],
+          "partner_name": "Booking.com",
+          "partner_logo": "https://hotelscan.com/apis/vendors/bkng/logo.svg?pos=zz"
+        },
+        "rank": 0,
+        "ctrl_srt": "im a ctrl teapot",
+        "test_srt": "im a test teapot"
+      }
+    ],
+    "filters": [],
+    "query": {
+      "pos": "zz"
+    }
+  }
+}

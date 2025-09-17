@@ -1,0 +1,273 @@
+{
+  "_meta": {
+    "status": "SUCCESS",
+    "cached": true,
+    "count": 1,
+    "debug": {
+      "ticket": {
+        "ticket_id": "690467142_zz_zz_d_publ_en_2_2025-10-08_2025-10-13_1_3",
+        "created_at": 1758065378.1986,
+        "loop": null,
+        "snapped_at": 1758065378.3118,
+        "snapshot_id": "690467142_zz_zz_d_publ_en_2_2025-10-08_2025-10-13_1_3",
+        "snapshot_ttl": 300,
+        "executions": 2,
+        "progress": 1,
+        "save_errors": []
+      }
+    }
+  },
+  "data": {
+    "meta": [],
+    "geo": {
+      "hs_id": "x54h121bvwb7",
+      "region_name": "Maafushi",
+      "region_name_long": "Maafushi, Maldives",
+      "region_type": "CITY",
+      "region_id": 6147669,
+      "country_iso": "MV",
+      "country": "maldives",
+      "localised_country": "Maldives",
+      "center": [
+        3.94171,
+        73.49239
+      ],
+      "centroid": [
+        3.94171,
+        73.49239
+      ],
+      "polygon": [
+        "3.95425,73.48239",
+        "3.95425,73.50239",
+        "3.92916,73.50239",
+        "3.92916,73.48239",
+        "3.95425,73.48239"
+      ],
+      "radius": 1.79,
+      "zoom": -1,
+      "search_by_polygon": 1,
+      "cluster": 0,
+      "properties": 92,
+      "radius_override": 5,
+      "boundingbox": {
+        "ne": [
+          3.955,
+          73.503
+        ],
+        "sw": [
+          3.929,
+          73.482
+        ]
+      },
+      "airports": [
+        "MLE",
+        "DRV"
+      ],
+      "region_name_en": "Maafushi",
+      "region_name_long_en": "Maafushi, Maldives",
+      "referrer_city_name_en": "Maafushi",
+      "parent_region_id": 6051084,
+      "parent_hs_id": "x5p4hmhw6iot",
+      "parent_region_name": "Maldives (all)",
+      "parent_region_name_long": "Maldives (all)",
+      "dynamic_bbox": {
+        "ne": [
+          3.942,
+          73.491
+        ],
+        "sw": [
+          3.942,
+          73.491
+        ]
+      }
+    },
+    "records": [
+      {
+        "hs_id": 690467142,
+        "slug": "sun-shine-view-maafushi-mv-690467142",
+        "name": "Sun Shine View",
+        "ty_id": "77f9436c-92db-4cae-8fe7-1d105a482786",
+        "toa": "guest_house",
+        "location": {
+          "city": "Maafushi",
+          "zip": "08090",
+          "country_iso2": "MV",
+          "address": "Vilares",
+          "geoid": "x54h121bvwb7",
+          "loc": {
+            "type": "Point"
+          },
+          "coordinates": {
+            "lng": 73.4919,
+            "lat": 3.94263
+          }
+        },
+        "opening_time": {
+          "check_in_from": "12:00",
+          "check_in_to": "20:00",
+          "check_out_from": "06:00",
+          "check_out_to": "12:00"
+        },
+        "quality": {
+          "review_count": 233,
+          "review_rating": 92,
+          "stars": 3,
+          "stars_is_estimated": false,
+          "review_source": ""
+        },
+        "covid_safe": true,
+        "amenities": {
+          "sports": [
+            "bike_rent",
+            "sub"
+          ],
+          "internet": [
+            "wifi_lobby",
+            "wifi_room",
+            "internet"
+          ],
+          "transfer": [
+            "shuttle_service"
+          ],
+          "food_drink": [
+            "restaurant"
+          ],
+          "other": [],
+          "room": [
+            "air_conditioning"
+          ],
+          "reception": [
+            "24h_reception",
+            "laundry_service",
+            "safety_deposit_box"
+          ]
+        },
+        "descriptions": {
+          "hotel": "Featuring city views, Sun Shine View offers accommodation with free bikes, around 400 metres from Bikini Beach. This 3-star guest house offers a 24-hour front desk and a housekeeping service.",
+          "localized": "Featuring city views, Sun Shine View offers accommodation with free bikes, around 400 metres from Bikini Beach. This 3-star guest house offers a 24-hour front desk and a housekeeping service."
+        },
+        "short_description": "Excellent accommodation. Awesome rooms and service in a great location. Awesome vibe.",
+        "offers": [],
+        "all_offers": [],
+        "descriptions_language": {
+          "general": {
+            "original_language": true,
+            "text": "Featuring city views, Sun Shine View offers accommodation with free bikes, around 400 metres from Bikini Beach. This 3-star guest house offers a 24-hour front desk and a housekeeping service."
+          }
+        },
+        "chain_code": null,
+        "bids": [],
+        "coordinates": {
+          "lat": 3.94263,
+          "lng": 73.4919
+        },
+        "distance": 0.12,
+        "neighborhood": null,
+        "badge": null,
+        "distances": [
+          {
+            "from": "center",
+            "distance": 0.12,
+            "time": 167,
+            "means": "foot",
+            "means_type": "foot"
+          }
+        ],
+        "specs": {
+          "bathrooms": null,
+          "beds": null,
+          "bedrooms": null,
+          "guests": null,
+          "square_meters": null
+        },
+        "toa_label": "guest house",
+        "top_amenities": [
+          "wifi_room",
+          "internet",
+          "restaurant",
+          "air_conditioning",
+          "24h_reception"
+        ],
+        "transportations": {
+          "airports": [],
+          "trains": []
+        },
+        "images": [
+          {
+            "image_id": "744056915",
+            "label": ""
+          },
+          {
+            "image_id": "744056880",
+            "label": ""
+          },
+          {
+            "image_id": "744056888",
+            "label": ""
+          },
+          {
+            "image_id": "744056897",
+            "label": ""
+          },
+          {
+            "image_id": "744056911",
+            "label": ""
+          },
+          {
+            "image_id": "744056914",
+            "label": ""
+          },
+          {
+            "image_id": "744056887",
+            "label": ""
+          },
+          {
+            "image_id": "744056900",
+            "label": ""
+          },
+          {
+            "image_id": "744056899",
+            "label": ""
+          },
+          {
+            "image_id": "744056912",
+            "label": ""
+          },
+          {
+            "image_id": "744056884",
+            "label": ""
+          },
+          {
+            "image_id": "744056896",
+            "label": ""
+          },
+          {
+            "image_id": "744056901",
+            "label": ""
+          },
+          {
+            "image_id": "744056916",
+            "label": ""
+          },
+          {
+            "image_id": "744056903",
+            "label": ""
+          }
+        ],
+        "best_offer": null,
+        "discount": null,
+        "offers_count": 0,
+        "worst_offer": null,
+        "rank": 0,
+        "ctrl_srt": "im a ctrl teapot",
+        "test_srt": "im a test teapot",
+        "best_offer_ota": null,
+        "best_offer_mota": null
+      }
+    ],
+    "filters": [],
+    "query": {
+      "pos": "zz"
+    }
+  }
+}

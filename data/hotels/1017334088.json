@@ -1,0 +1,1202 @@
+{
+  "_meta": {
+    "status": "SUCCESS",
+    "cached": true,
+    "count": 1,
+    "debug": {
+      "ticket": {
+        "ticket_id": "1017334088_zz_zz_d_publ_en_2_2025-10-08_2025-10-13_1_3",
+        "created_at": 1758065387.1949,
+        "loop": null,
+        "snapped_at": 1758065387.3235,
+        "snapshot_id": "1017334088_zz_zz_d_publ_en_2_2025-10-08_2025-10-13_1_3",
+        "snapshot_ttl": 300,
+        "executions": 2,
+        "progress": 1,
+        "save_errors": []
+      }
+    }
+  },
+  "data": {
+    "meta": [],
+    "geo": {
+      "hs_id": "xkhryl35ftb2",
+      "region_name": "Thoddoo",
+      "region_name_long": "Thoddoo, Maldives",
+      "region_type": "CITY",
+      "region_id": 6337256,
+      "country_iso": "MV",
+      "country": "maldives",
+      "localised_country": "Maldives",
+      "center": [
+        4.43729,
+        72.95954
+      ],
+      "centroid": [
+        4.43729,
+        72.96036
+      ],
+      "polygon": [
+        "4.425651,72.959838",
+        "4.430975,72.968935",
+        "4.431131,72.968938",
+        "4.441786,72.967547",
+        "4.448931,72.960879",
+        "4.445211,72.952565",
+        "4.438801,72.950145",
+        "4.425651,72.959838"
+      ],
+      "radius": 1.3,
+      "zoom": -1,
+      "search_by_polygon": 1,
+      "cluster": 0,
+      "properties": 85,
+      "radius_override": 5,
+      "boundingbox": {
+        "ne": [
+          4.449,
+          72.969
+        ],
+        "sw": [
+          4.425,
+          72.95
+        ]
+      },
+      "airports": [
+        "MLE",
+        "DRV"
+      ],
+      "region_name_en": "Thoddoo",
+      "region_name_long_en": "Thoddoo, Maldives",
+      "referrer_city_name_en": "Thoddoo",
+      "parent_region_id": 6051084,
+      "parent_hs_id": "x5p4hmhw6iot",
+      "parent_region_name": "Maldives (all)",
+      "parent_region_name_long": "Maldives (all)",
+      "dynamic_bbox": {
+        "ne": [
+          4.439,
+          72.96
+        ],
+        "sw": [
+          4.439,
+          72.96
+        ]
+      }
+    },
+    "records": [
+      {
+        "hs_id": 1017334088,
+        "slug": "dacha-thoddoo-white-sand-thoddoo-mv-1017334088",
+        "name": "Dacha Thoddoo White Sand",
+        "toa": "hotel",
+        "building": {
+          "room_num": 6
+        },
+        "location": {
+          "city": "Thoddoo",
+          "zip": "09010",
+          "country_iso2": "MV",
+          "address": "Kedimagu Thoddoo, Thoddoo 09010",
+          "geoid": "xkhryl35ftb2",
+          "loc": {
+            "type": "Point"
+          },
+          "coordinates": {
+            "lng": 72.960184,
+            "lat": 4.439561
+          }
+        },
+        "opening_time": {
+          "check_in_from": "06:00",
+          "check_in_to": null,
+          "check_out_from": null,
+          "check_out_to": "12:00"
+        },
+        "quality": {
+          "stars": 0,
+          "stars_is_estimated": false,
+          "review_source": ""
+        },
+        "covid_safe": false,
+        "amenities": {
+          "internet": [
+            "wifi_lobby",
+            "wifi_room",
+            "internet"
+          ],
+          "transfer": [
+            "shuttle_service"
+          ],
+          "food_drink": [
+            "room_service",
+            "cafe"
+          ],
+          "disability": [
+            "wheelchair_accessible",
+            "disability_facilities"
+          ],
+          "parking": [
+            "parking"
+          ],
+          "outdoor": [
+            "garden",
+            "terrace"
+          ],
+          "room": [
+            "heating",
+            "air_conditioning",
+            "tv",
+            "in_room_safe"
+          ],
+          "reception": [
+            "24h_reception",
+            "luggage_storage",
+            "laundry_facilities",
+            "laundry_service",
+            "safety_deposit_box"
+          ]
+        },
+        "descriptions": {
+          "direction": "Thoddoo is home to Dacha Thoddoo White Sand. North Channel Dive Site and Big Blue Dive Site are worth checking out if an activity is on the agenda, while those wishing to experience the area's natural beauty can explore Thoddoo Beach and Miyaru Faru Dive Site. Take an opportunity to explore the area for water adventures such as fishing.",
+          "general": "Location Want to save money while travelling? It’s easy: hotel «Thoddoo White Sand Inn» is located in Thoddoo Atoll. This hotel is located in the city center. Before going to bed, you can take a walk and enjoy the main landmarks of the city.At the hotel Want to be always on-line? Wi-Fi is available. If you travel by car, there’s a parking zone. Get ready for a fun and exciting vacation! Here’s what you will find on the premises: a barbeque area. The staff of the hotel will order a transfer for you. Additional services that the hotel offers to its guests: a laundry, dry cleaning and a safe-deposit box.Room amenities Guests will find the following in the room: a shower, a TV and a mini-bar. The room equipment depends on its category.",
+          "amenities": true,
+          "localized": "Location Want to save money while travelling? It’s easy: hotel «Thoddoo White Sand Inn» is located in Thoddoo Atoll. This hotel is located in the city center. Before going to bed, you can take a walk and enjoy the main landmarks of the city.At the hotel Want to be always on-line? Wi-Fi is available. If you travel by car, there’s a parking zone. Get ready for a fun and exciting vacation! Here’s what you will find on the premises: a barbeque area. The staff of the hotel will order a transfer for you. Additional services that the hotel offers to its guests: a laundry, dry cleaning and a safe-deposit box.Room amenities Guests will find the following in the room: a shower, a TV and a mini-bar. The room equipment depends on its category."
+        },
+        "short_description": "Simple hotel with 6 rooms, parking and shuttle service",
+        "offers": [
+          {
+            "price": 79.14,
+            "brt": "p2d#",
+            "rf": "p2d#",
+            "brf": 8421952,
+            "rt": 8421952,
+            "vendor": "htls",
+            "vendor_id_raw": "3758151584",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Garden view"
+            ],
+            "jc_code": "",
+            "ranking_index": 1,
+            "chain": "",
+            "free_cancellation": false,
+            "special": false,
+            "room_name": "Deluxe room",
+            "rooms": [
+              {
+                "name": "Deluxe room",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "view_garden": "Garden view"
+            },
+            "partner_name": "Hotels.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/htls/logo.svg?pos=zz"
+          },
+          {
+            "vendor": "expd",
+            "price": 79.14,
+            "vendor_id_raw": "117410987",
+            "mota_code": null,
+            "jc_code": "EXPEDIA",
+            "partner_name": "Expedia",
+            "partner_logo": "https://hotelscan.com/apis/vendors/expd/logo.svg?pos=zz",
+            "room_name": "Deluxe room",
+            "brf": 8421952,
+            "brt": "p2d#"
+          }
+        ],
+        "all_offers": [
+          {
+            "price": 79.14,
+            "brt": "p2d#",
+            "rf": "p2d#",
+            "brf": 8421952,
+            "rt": 8421952,
+            "vendor": "htls",
+            "vendor_id_raw": "3758151584",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Garden view"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": false,
+            "special": false,
+            "room_name": "Deluxe room",
+            "rooms": [
+              {
+                "name": "Deluxe room",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "view_garden": "Garden view"
+            },
+            "partner_name": "Hotels.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/htls/logo.svg?pos=zz"
+          },
+          {
+            "price": 79.14,
+            "brt": "p2d#",
+            "rf": "p2d#",
+            "brf": 8421952,
+            "rt": 8421952,
+            "vendor": "expd",
+            "vendor_id_raw": "117410987",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Garden view"
+            ],
+            "jc_code": "EXPEDIA",
+            "chain": "",
+            "free_cancellation": false,
+            "special": false,
+            "room_name": "Deluxe room",
+            "rooms": [
+              {
+                "name": "Deluxe room",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "view_garden": "Garden view"
+            },
+            "partner_name": "Expedia",
+            "partner_logo": "https://hotelscan.com/apis/vendors/expd/logo.svg?pos=zz"
+          },
+          {
+            "price": 84.05,
+            "brt": "p2d#",
+            "rf": "p2d#",
+            "brf": 9470528,
+            "rt": 9470528,
+            "vendor": "htls",
+            "vendor_id_raw": "3758151584",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included",
+              "Garden view"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": false,
+            "special": false,
+            "room_name": "Deluxe room",
+            "rooms": [
+              {
+                "name": "Deluxe room",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included",
+              "view_garden": "Garden view"
+            },
+            "partner_name": "Hotels.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/htls/logo.svg?pos=zz"
+          },
+          {
+            "price": 84.05,
+            "brt": "p2d#",
+            "rf": "p2d#",
+            "brf": 8422992,
+            "rt": 8422992,
+            "vendor": "htls",
+            "vendor_id_raw": "3758151584",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "City view",
+              "Balcony"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": false,
+            "special": false,
+            "room_name": "Deluxe room",
+            "rooms": [
+              {
+                "name": "Deluxe room",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "view_city": "City view",
+              "balcony": "Balcony"
+            },
+            "partner_name": "Hotels.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/htls/logo.svg?pos=zz"
+          },
+          {
+            "price": 84.05,
+            "brt": "p2d#",
+            "rf": "p2d#",
+            "brf": 9470528,
+            "rt": 9470528,
+            "vendor": "expd",
+            "vendor_id_raw": "117410987",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included",
+              "Garden view"
+            ],
+            "jc_code": "EXPEDIA",
+            "chain": "",
+            "free_cancellation": false,
+            "special": false,
+            "room_name": "Deluxe room",
+            "rooms": [
+              {
+                "name": "Deluxe room",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included",
+              "view_garden": "Garden view"
+            },
+            "partner_name": "Expedia",
+            "partner_logo": "https://hotelscan.com/apis/vendors/expd/logo.svg?pos=zz"
+          },
+          {
+            "price": 84.05,
+            "brt": "p2d#",
+            "rf": "p2d#",
+            "brf": 8422992,
+            "rt": 8422992,
+            "vendor": "expd",
+            "vendor_id_raw": "117410987",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "City view",
+              "Balcony"
+            ],
+            "jc_code": "EXPEDIA",
+            "chain": "",
+            "free_cancellation": false,
+            "special": false,
+            "room_name": "Deluxe room",
+            "rooms": [
+              {
+                "name": "Deluxe room",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "view_city": "City view",
+              "balcony": "Balcony"
+            },
+            "partner_name": "Expedia",
+            "partner_logo": "https://hotelscan.com/apis/vendors/expd/logo.svg?pos=zz"
+          },
+          {
+            "price": 86.79,
+            "brt": "p2d#",
+            "rf": "p2d#",
+            "brf": 8454784,
+            "rt": 8454784,
+            "vendor": "htls",
+            "vendor_id_raw": "3758151584",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Free cancellation",
+              "Garden view",
+              "Pay at the property"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Deluxe room",
+            "rooms": [
+              {
+                "name": "Deluxe room",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "refundable": "Free cancellation",
+              "view_garden": "Garden view",
+              "pay_at_hotel": "Pay at the property"
+            },
+            "partner_name": "Hotels.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/htls/logo.svg?pos=zz"
+          },
+          {
+            "price": 86.79,
+            "brt": "p2d#",
+            "rf": "p2d#",
+            "brf": 8454784,
+            "rt": 8454784,
+            "vendor": "expd",
+            "vendor_id_raw": "117410987",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Free cancellation",
+              "Garden view",
+              "Pay at the property"
+            ],
+            "jc_code": "EXPEDIA",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Deluxe room",
+            "rooms": [
+              {
+                "name": "Deluxe room",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "refundable": "Free cancellation",
+              "view_garden": "Garden view",
+              "pay_at_hotel": "Pay at the property"
+            },
+            "partner_name": "Expedia",
+            "partner_logo": "https://hotelscan.com/apis/vendors/expd/logo.svg?pos=zz"
+          },
+          {
+            "price": 92.26,
+            "brt": "p2d#",
+            "rf": "p2d#",
+            "brf": 9503360,
+            "rt": 9503360,
+            "vendor": "htls",
+            "vendor_id_raw": "3758151584",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included",
+              "Free cancellation",
+              "Garden view",
+              "Pay at the property"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Deluxe room",
+            "rooms": [
+              {
+                "name": "Deluxe room",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included",
+              "refundable": "Free cancellation",
+              "view_garden": "Garden view",
+              "pay_at_hotel": "Pay at the property"
+            },
+            "partner_name": "Hotels.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/htls/logo.svg?pos=zz"
+          },
+          {
+            "price": 92.26,
+            "brt": "p2d#",
+            "rf": "p2d#",
+            "brf": 8455824,
+            "rt": 8455824,
+            "vendor": "htls",
+            "vendor_id_raw": "3758151584",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Free cancellation",
+              "City view",
+              "Pay at the property",
+              "Balcony"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Deluxe room",
+            "rooms": [
+              {
+                "name": "Deluxe room",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "refundable": "Free cancellation",
+              "view_city": "City view",
+              "pay_at_hotel": "Pay at the property",
+              "balcony": "Balcony"
+            },
+            "partner_name": "Hotels.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/htls/logo.svg?pos=zz"
+          },
+          {
+            "price": 92.26,
+            "brt": "p2d#",
+            "rf": "p2d#",
+            "brf": 9503296,
+            "rt": 9503296,
+            "vendor": "htls",
+            "vendor_id_raw": "3758151584",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included",
+              "Free cancellation",
+              "Garden view"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Deluxe room",
+            "rooms": [
+              {
+                "name": "Deluxe room",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included",
+              "refundable": "Free cancellation",
+              "view_garden": "Garden view"
+            },
+            "partner_name": "Hotels.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/htls/logo.svg?pos=zz"
+          },
+          {
+            "price": 92.26,
+            "brt": "p2d#",
+            "rf": "p2d#",
+            "brf": 9503360,
+            "rt": 9503360,
+            "vendor": "expd",
+            "vendor_id_raw": "117410987",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included",
+              "Free cancellation",
+              "Garden view",
+              "Pay at the property"
+            ],
+            "jc_code": "EXPEDIA",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Deluxe room",
+            "rooms": [
+              {
+                "name": "Deluxe room",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included",
+              "refundable": "Free cancellation",
+              "view_garden": "Garden view",
+              "pay_at_hotel": "Pay at the property"
+            },
+            "partner_name": "Expedia",
+            "partner_logo": "https://hotelscan.com/apis/vendors/expd/logo.svg?pos=zz"
+          },
+          {
+            "price": 92.26,
+            "brt": "p2d#",
+            "rf": "p2d#",
+            "brf": 8455824,
+            "rt": 8455824,
+            "vendor": "expd",
+            "vendor_id_raw": "117410987",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Free cancellation",
+              "City view",
+              "Pay at the property",
+              "Balcony"
+            ],
+            "jc_code": "EXPEDIA",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Deluxe room",
+            "rooms": [
+              {
+                "name": "Deluxe room",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "refundable": "Free cancellation",
+              "view_city": "City view",
+              "pay_at_hotel": "Pay at the property",
+              "balcony": "Balcony"
+            },
+            "partner_name": "Expedia",
+            "partner_logo": "https://hotelscan.com/apis/vendors/expd/logo.svg?pos=zz"
+          },
+          {
+            "price": 92.26,
+            "brt": "p2d#",
+            "rf": "p2d#",
+            "brf": 9503296,
+            "rt": 9503296,
+            "vendor": "expd",
+            "vendor_id_raw": "117410987",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included",
+              "Free cancellation",
+              "Garden view"
+            ],
+            "jc_code": "EXPEDIA",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Deluxe room",
+            "rooms": [
+              {
+                "name": "Deluxe room",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included",
+              "refundable": "Free cancellation",
+              "view_garden": "Garden view"
+            },
+            "partner_name": "Expedia",
+            "partner_logo": "https://hotelscan.com/apis/vendors/expd/logo.svg?pos=zz"
+          },
+          {
+            "price": 93.9,
+            "brt": "p2d#",
+            "rf": "p2d#",
+            "brf": 9471568,
+            "rt": 9471568,
+            "vendor": "htls",
+            "vendor_id_raw": "3758151584",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included",
+              "City view",
+              "Balcony"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": false,
+            "special": false,
+            "room_name": "Deluxe room",
+            "rooms": [
+              {
+                "name": "Deluxe room",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included",
+              "view_city": "City view",
+              "balcony": "Balcony"
+            },
+            "partner_name": "Hotels.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/htls/logo.svg?pos=zz"
+          },
+          {
+            "price": 93.9,
+            "brt": "p2d#",
+            "rf": "p2d#",
+            "brf": 9471568,
+            "rt": 9471568,
+            "vendor": "expd",
+            "vendor_id_raw": "117410987",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included",
+              "City view",
+              "Balcony"
+            ],
+            "jc_code": "EXPEDIA",
+            "chain": "",
+            "free_cancellation": false,
+            "special": false,
+            "room_name": "Deluxe room",
+            "rooms": [
+              {
+                "name": "Deluxe room",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included",
+              "view_city": "City view",
+              "balcony": "Balcony"
+            },
+            "partner_name": "Expedia",
+            "partner_logo": "https://hotelscan.com/apis/vendors/expd/logo.svg?pos=zz"
+          },
+          {
+            "price": 103.2,
+            "brt": "p2d#",
+            "rf": "p2d#",
+            "brf": 9504400,
+            "rt": 9504400,
+            "vendor": "htls",
+            "vendor_id_raw": "3758151584",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included",
+              "Free cancellation",
+              "City view",
+              "Pay at the property",
+              "Balcony"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Deluxe room",
+            "rooms": [
+              {
+                "name": "Deluxe room",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included",
+              "refundable": "Free cancellation",
+              "view_city": "City view",
+              "pay_at_hotel": "Pay at the property",
+              "balcony": "Balcony"
+            },
+            "partner_name": "Hotels.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/htls/logo.svg?pos=zz"
+          },
+          {
+            "price": 103.2,
+            "brt": "p2d#",
+            "rf": "p2d#",
+            "brf": 9504400,
+            "rt": 9504400,
+            "vendor": "expd",
+            "vendor_id_raw": "117410987",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included",
+              "Free cancellation",
+              "City view",
+              "Pay at the property",
+              "Balcony"
+            ],
+            "jc_code": "EXPEDIA",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Deluxe room",
+            "rooms": [
+              {
+                "name": "Deluxe room",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included",
+              "refundable": "Free cancellation",
+              "view_city": "City view",
+              "pay_at_hotel": "Pay at the property",
+              "balcony": "Balcony"
+            },
+            "partner_name": "Expedia",
+            "partner_logo": "https://hotelscan.com/apis/vendors/expd/logo.svg?pos=zz"
+          },
+          {
+            "price": 130.55,
+            "brt": "p2d#",
+            "rf": "p2d#",
+            "brf": 8455824,
+            "rt": 8455824,
+            "vendor": "htls",
+            "vendor_id_raw": "3758151584",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Free cancellation",
+              "City view",
+              "Pay at the property",
+              "Balcony"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Deluxe room",
+            "rooms": [
+              {
+                "name": "Deluxe room",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "refundable": "Free cancellation",
+              "view_city": "City view",
+              "pay_at_hotel": "Pay at the property",
+              "balcony": "Balcony"
+            },
+            "partner_name": "Hotels.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/htls/logo.svg?pos=zz"
+          },
+          {
+            "price": 130.55,
+            "brt": "p2d#",
+            "rf": "p2d#",
+            "brf": 8455824,
+            "rt": 8455824,
+            "vendor": "expd",
+            "vendor_id_raw": "117410987",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Free cancellation",
+              "City view",
+              "Pay at the property",
+              "Balcony"
+            ],
+            "jc_code": "EXPEDIA",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Deluxe room",
+            "rooms": [
+              {
+                "name": "Deluxe room",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "refundable": "Free cancellation",
+              "view_city": "City view",
+              "pay_at_hotel": "Pay at the property",
+              "balcony": "Balcony"
+            },
+            "partner_name": "Expedia",
+            "partner_logo": "https://hotelscan.com/apis/vendors/expd/logo.svg?pos=zz"
+          },
+          {
+            "price": 141.48,
+            "brt": "p2d#",
+            "rf": "p2d#",
+            "brf": 9504336,
+            "rt": 9504336,
+            "vendor": "htls",
+            "vendor_id_raw": "3758151584",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included",
+              "Free cancellation",
+              "City view",
+              "Balcony"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Deluxe room",
+            "rooms": [
+              {
+                "name": "Deluxe room",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included",
+              "refundable": "Free cancellation",
+              "view_city": "City view",
+              "balcony": "Balcony"
+            },
+            "partner_name": "Hotels.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/htls/logo.svg?pos=zz"
+          },
+          {
+            "price": 141.48,
+            "brt": "p2d#",
+            "rf": "p2d#",
+            "brf": 9504336,
+            "rt": 9504336,
+            "vendor": "expd",
+            "vendor_id_raw": "117410987",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included",
+              "Free cancellation",
+              "City view",
+              "Balcony"
+            ],
+            "jc_code": "EXPEDIA",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Deluxe room",
+            "rooms": [
+              {
+                "name": "Deluxe room",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included",
+              "refundable": "Free cancellation",
+              "view_city": "City view",
+              "balcony": "Balcony"
+            },
+            "partner_name": "Expedia",
+            "partner_logo": "https://hotelscan.com/apis/vendors/expd/logo.svg?pos=zz"
+          },
+          {
+            "price": 141.49,
+            "brt": "p2d#",
+            "rf": "p2d#",
+            "brf": 9504400,
+            "rt": 9504400,
+            "vendor": "htls",
+            "vendor_id_raw": "3758151584",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included",
+              "Free cancellation",
+              "City view",
+              "Pay at the property",
+              "Balcony"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Deluxe room",
+            "rooms": [
+              {
+                "name": "Deluxe room",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included",
+              "refundable": "Free cancellation",
+              "view_city": "City view",
+              "pay_at_hotel": "Pay at the property",
+              "balcony": "Balcony"
+            },
+            "partner_name": "Hotels.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/htls/logo.svg?pos=zz"
+          },
+          {
+            "price": 141.49,
+            "brt": "p2d#",
+            "rf": "p2d#",
+            "brf": 9504400,
+            "rt": 9504400,
+            "vendor": "expd",
+            "vendor_id_raw": "117410987",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included",
+              "Free cancellation",
+              "City view",
+              "Pay at the property",
+              "Balcony"
+            ],
+            "jc_code": "EXPEDIA",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Deluxe room",
+            "rooms": [
+              {
+                "name": "Deluxe room",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included",
+              "refundable": "Free cancellation",
+              "view_city": "City view",
+              "pay_at_hotel": "Pay at the property",
+              "balcony": "Balcony"
+            },
+            "partner_name": "Expedia",
+            "partner_logo": "https://hotelscan.com/apis/vendors/expd/logo.svg?pos=zz"
+          }
+        ],
+        "descriptions_language": {
+          "general": {
+            "original_language": true,
+            "text": "Location Want to save money while travelling? It’s easy: hotel «Thoddoo White Sand Inn» is located in Thoddoo Atoll. This hotel is located in the city center. Before going to bed, you can take a walk and enjoy the main landmarks of the city.At the hotel Want to be always on-line? Wi-Fi is available. If you travel by car, there’s a parking zone. Get ready for a fun and exciting vacation! Here’s what you will find on the premises: a barbeque area. The staff of the hotel will order a transfer for you. Additional services that the hotel offers to its guests: a laundry, dry cleaning and a safe-deposit box.Room amenities Guests will find the following in the room: a shower, a TV and a mini-bar. The room equipment depends on its category."
+          },
+          "direction": {
+            "original_language": true,
+            "text": "Thoddoo is home to Dacha Thoddoo White Sand. North Channel Dive Site and Big Blue Dive Site are worth checking out if an activity is on the agenda, while those wishing to experience the area's natural beauty can explore Thoddoo Beach and Miyaru Faru Dive Site. Take an opportunity to explore the area for water adventures such as fishing."
+          }
+        },
+        "chain_code": null,
+        "bids": {
+          "expd": "j23",
+          "htls": "j23"
+        },
+        "worst_offer": null,
+        "best_offer": 79.14,
+        "best_offer_ota": "htls",
+        "best_offer_mota": null,
+        "discount": 0,
+        "offers_count": 24,
+        "coordinates": {
+          "lat": 4.439561,
+          "lng": 72.960184
+        },
+        "distance": 0.26,
+        "neighborhood": null,
+        "badge": null,
+        "distances": [
+          {
+            "from": "center",
+            "distance": 0.26,
+            "time": 361,
+            "means": "foot",
+            "means_type": "foot"
+          }
+        ],
+        "specs": {
+          "bathrooms": null,
+          "beds": null,
+          "bedrooms": null,
+          "guests": null,
+          "square_meters": null
+        },
+        "toa_label": "hotel",
+        "top_amenities": [
+          "wifi_room",
+          "internet",
+          "room_service",
+          "parking",
+          "heating"
+        ],
+        "transportations": {
+          "airports": [],
+          "trains": []
+        },
+        "images": [
+          {
+            "image_id": "758703028",
+            "label": ""
+          },
+          {
+            "image_id": "758703027",
+            "label": ""
+          },
+          {
+            "image_id": "758703040",
+            "label": ""
+          },
+          {
+            "image_id": "758703041",
+            "label": ""
+          },
+          {
+            "image_id": "758703042",
+            "label": ""
+          },
+          {
+            "image_id": "758703030",
+            "label": ""
+          },
+          {
+            "image_id": "758703043",
+            "label": ""
+          },
+          {
+            "image_id": "758703031",
+            "label": ""
+          },
+          {
+            "image_id": "758703037",
+            "label": ""
+          },
+          {
+            "image_id": "758703038",
+            "label": ""
+          },
+          {
+            "image_id": "758703034",
+            "label": ""
+          },
+          {
+            "image_id": "758703029",
+            "label": ""
+          },
+          {
+            "image_id": "758703039",
+            "label": ""
+          },
+          {
+            "image_id": "758703033",
+            "label": ""
+          },
+          {
+            "image_id": "758703035",
+            "label": ""
+          }
+        ],
+        "hero_offer": {
+          "price": 79.14,
+          "brt": "p2d#",
+          "rf": "p2d#",
+          "brf": 8421952,
+          "rt": 8421952,
+          "vendor": "htls",
+          "vendor_id_raw": "3758151584",
+          "mota_code": null,
+          "direct_offer": false,
+          "offer_flags": {
+            "view_garden": "Garden view"
+          },
+          "jc_code": "",
+          "ranking_index": 1,
+          "chain": "",
+          "free_cancellation": false,
+          "special": false,
+          "room_name": "Deluxe room",
+          "rooms": [
+            {
+              "name": "Deluxe room",
+              "flags": []
+            }
+          ],
+          "partner_name": "Hotels.com",
+          "partner_logo": "https://hotelscan.com/apis/vendors/htls/logo.svg?pos=zz"
+        },
+        "rank": 0,
+        "ctrl_srt": "im a ctrl teapot",
+        "test_srt": "im a test teapot"
+      }
+    ],
+    "filters": [],
+    "query": {
+      "pos": "zz"
+    }
+  }
+}

@@ -1,0 +1,712 @@
+{
+  "_meta": {
+    "status": "SUCCESS",
+    "cached": true,
+    "count": 1,
+    "debug": {
+      "ticket": {
+        "ticket_id": "1009515004_zz_zz_d_publ_en_2_2025-10-08_2025-10-13_1_3",
+        "created_at": 1758065369.3774,
+        "loop": null,
+        "snapped_at": 1758065369.471,
+        "snapshot_id": "1009515004_zz_zz_d_publ_en_2_2025-10-08_2025-10-13_1_3",
+        "snapshot_ttl": 300,
+        "executions": 2,
+        "progress": 1,
+        "save_errors": []
+      }
+    }
+  },
+  "data": {
+    "meta": [],
+    "geo": {
+      "hs_id": "x5rjsqvb6iot",
+      "region_name": "Fuvahmulah",
+      "region_name_long": "Fuvahmulah, Maldives",
+      "region_type": "CITY",
+      "region_id": 6215109,
+      "country_iso": "MV",
+      "country": "maldives",
+      "localised_country": "Maldives",
+      "center": [
+        -0.29485,
+        73.4232
+      ],
+      "centroid": [
+        -0.29485,
+        73.4232
+      ],
+      "polygon": [
+        "-0.26591,73.39425",
+        "-0.26591,73.45214",
+        "-0.32379,73.45214",
+        "-0.32379,73.39425",
+        "-0.26591,73.39425"
+      ],
+      "radius": 4.56,
+      "zoom": -1,
+      "search_by_polygon": 1,
+      "cluster": 0,
+      "properties": 60,
+      "radius_override": 5,
+      "boundingbox": {
+        "ne": [
+          -0.266,
+          73.453
+        ],
+        "sw": [
+          -0.323,
+          73.394
+        ]
+      },
+      "airports": [
+        "GAN"
+      ],
+      "region_name_en": "Fuvahmulah",
+      "region_name_long_en": "Fuvahmulah, Maldives",
+      "referrer_city_name_en": "Fuvahmulah",
+      "parent_region_id": 6051084,
+      "parent_hs_id": "x5p4hmhw6iot",
+      "parent_region_name": "Maldives (all)",
+      "parent_region_name_long": "Maldives (all)",
+      "dynamic_bbox": {
+        "ne": [
+          -0.303,
+          73.435
+        ],
+        "sw": [
+          -0.303,
+          73.435
+        ]
+      }
+    },
+    "records": [
+      {
+        "hs_id": 1009515004,
+        "slug": "equator-inn-fuvahmulah-mv-1009515004",
+        "name": "Equator Inn",
+        "toa": "guest_house",
+        "location": {
+          "city": "Fuvahmulah",
+          "zip": "18011",
+          "country_iso2": "MV",
+          "address": "Bahaaru Magu Vaadheege",
+          "geoid": "x5rjsqvb6iot",
+          "loc": {
+            "type": "Point"
+          },
+          "coordinates": {
+            "lng": 73.435868,
+            "lat": -0.30243
+          }
+        },
+        "opening_time": {
+          "check_in_from": "06:00",
+          "check_in_to": null,
+          "check_out_from": null,
+          "check_out_to": "12:00"
+        },
+        "quality": {
+          "stars": 3,
+          "stars_is_estimated": false,
+          "review_source": ""
+        },
+        "covid_safe": false,
+        "amenities": {
+          "internet": [
+            "wifi_room"
+          ],
+          "transfer": [
+            "shuttle_service"
+          ],
+          "parking": [
+            "parking"
+          ],
+          "room": [
+            "fan",
+            "air_conditioning",
+            "tv"
+          ],
+          "reception": [
+            "24h_reception",
+            "luggage_storage",
+            "concierge",
+            "laundry_facilities",
+            "laundry_service",
+            "safety_deposit_box"
+          ]
+        },
+        "descriptions": {
+          "hotel": "Make yourself at home in one of the 10 air-conditioned rooms featuring minibars. Your memory foam bed comes with premium bedding. Prepare your meals in the shared/communal kitchen. Complimentary wireless internet access keeps you connected, and digital programming is available for your entertainment. Bathrooms have showers and hair dryers.",
+          "direction": "With a stay at Equator Retreat in Fuvahmulah, you'll be within a 5-minute drive of Fuvahmulah Harbor and Bandaara Lake. This hotel is 1.9 mi (3 km) from Fuvahmulah Nature Park and 2.3 mi (3.6 km) from Fuvahmulah Beach.",
+          "general": "Equator Inn provides flawless service and all the necessary facilities for visitors.Remain linked during your visit by utilizing the complimentary internet access available. Prior to your check-in date, you can arrange airport transportation services, guaranteeing a seamless and efficient experience for both arrival and departure. Parking is accessible, supplied by the inn for guests who arrive by car. Repeatedly enjoy your best-loved attire with the aid of the laundry service available at Equator Inn .Crafted for coziness, every guestroom provides an array of features, guaranteeing a tranquil night's sleep while maintaining the level of comfort. For a more enjoyable stay, select rooms at inn are equipped with linen service and air conditioning. At Equator Inn , a selection of rooms can be found that showcase unique design elements such as a balcony or terrace. Rest assured that your hydration needs will be met, as some guestrooms are equipped with a refrigerator and a coffee or tea maker.Maintain your cleanliness and feel revitalized using toiletries available in select guest restrooms. Begin your day on a delightful note with a scrumptious complimentary breakfast, consistently served at Equator Inn . Do you possess exceptional culinary skills? Prepare your meals personally within the inn at its shared kitchen.",
+          "amenities": true,
+          "other": "Make use of convenient amenities, which include concierge services and a television in a common area.",
+          "localized": "Equator Inn provides flawless service and all the necessary facilities for visitors.Remain linked during your visit by utilizing the complimentary internet access available. Prior to your check-in date, you can arrange airport transportation services, guaranteeing a seamless and efficient experience for both arrival and departure. Parking is accessible, supplied by the inn for guests who arrive by car. Repeatedly enjoy your best-loved attire with the aid of the laundry service available at Equator Inn .Crafted for coziness, every guestroom provides an array of features, guaranteeing a tranquil night's sleep while maintaining the level of comfort. For a more enjoyable stay, select rooms at inn are equipped with linen service and air conditioning. At Equator Inn , a selection of rooms can be found that showcase unique design elements such as a balcony or terrace. Rest assured that your hydration needs will be met, as some guestrooms are equipped with a refrigerator and a coffee or tea maker.Maintain your cleanliness and feel revitalized using toiletries available in select guest restrooms. Begin your day on a delightful note with a scrumptious complimentary breakfast, consistently served at Equator Inn . Do you possess exceptional culinary skills? Prepare your meals personally within the inn at its shared kitchen."
+        },
+        "short_description": "Simple guest house with parking and shuttle service",
+        "chain": "no_chain",
+        "brand": "no_brand",
+        "offers": [
+          {
+            "price": 49.98,
+            "brt": "p2d#d",
+            "rf": "p2d#d",
+            "brf": 9471056,
+            "rt": 9471056,
+            "vendor": "htls",
+            "vendor_id_raw": "3052328256",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included",
+              "Sea view",
+              "Balcony"
+            ],
+            "jc_code": "",
+            "ranking_index": 0.9956782713085235,
+            "chain": "",
+            "free_cancellation": false,
+            "special": false,
+            "room_name": "Deluxe room - Double bed",
+            "rooms": [
+              {
+                "name": "Deluxe room - Double bed",
+                "flags": [
+                  "Double bed"
+                ]
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included",
+              "view_sea": "Sea view",
+              "balcony": "Balcony"
+            },
+            "partner_name": "Hotels.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/htls/logo.svg?pos=zz"
+          },
+          {
+            "vendor": "expd",
+            "price": 49.44,
+            "vendor_id_raw": "95354008",
+            "mota_code": null,
+            "jc_code": "EXPEDIA",
+            "partner_name": "Expedia",
+            "partner_logo": "https://hotelscan.com/apis/vendors/expd/logo.svg?pos=zz",
+            "room_name": "Deluxe room - Double bed",
+            "brf": 9471056,
+            "brt": "p2d#d"
+          }
+        ],
+        "all_offers": [
+          {
+            "price": 49.44,
+            "brt": "p2d#d",
+            "rf": "p2d#d",
+            "brf": 9471056,
+            "rt": 9471056,
+            "vendor": "expd",
+            "vendor_id_raw": "95354008",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included",
+              "Sea view",
+              "Balcony"
+            ],
+            "jc_code": "EXPEDIA",
+            "chain": "",
+            "free_cancellation": false,
+            "special": false,
+            "room_name": "Deluxe room - Double bed",
+            "rooms": [
+              {
+                "name": "Deluxe room - Double bed",
+                "flags": [
+                  "Double bed"
+                ]
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included",
+              "view_sea": "Sea view",
+              "balcony": "Balcony"
+            },
+            "partner_name": "Expedia",
+            "partner_logo": "https://hotelscan.com/apis/vendors/expd/logo.svg?pos=zz"
+          },
+          {
+            "price": 49.98,
+            "brt": "p2d#d",
+            "rf": "p2d#d",
+            "brf": 9471056,
+            "rt": 9471056,
+            "vendor": "htls",
+            "vendor_id_raw": "3052328256",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included",
+              "Sea view",
+              "Balcony"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": false,
+            "special": false,
+            "room_name": "Deluxe room - Double bed",
+            "rooms": [
+              {
+                "name": "Deluxe room - Double bed",
+                "flags": [
+                  "Double bed"
+                ]
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included",
+              "view_sea": "Sea view",
+              "balcony": "Balcony"
+            },
+            "partner_name": "Hotels.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/htls/logo.svg?pos=zz"
+          },
+          {
+            "price": 98.26,
+            "brt": "p2d#",
+            "rf": "p2d#",
+            "brf": 9470528,
+            "rt": 9470528,
+            "vendor": "htls",
+            "vendor_id_raw": "2423361504",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included",
+              "Garden view"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": false,
+            "special": false,
+            "room_name": "Deluxe room",
+            "rooms": [
+              {
+                "name": "Deluxe room",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included",
+              "view_garden": "Garden view"
+            },
+            "partner_name": "Hotels.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/htls/logo.svg?pos=zz"
+          },
+          {
+            "price": 98.35,
+            "brt": "p2d#",
+            "rf": "p2d#",
+            "brf": 9470528,
+            "rt": 9470528,
+            "vendor": "expd",
+            "vendor_id_raw": "75698797",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included",
+              "Garden view"
+            ],
+            "jc_code": "EXPEDIA",
+            "chain": "",
+            "free_cancellation": false,
+            "special": false,
+            "room_name": "Deluxe room",
+            "rooms": [
+              {
+                "name": "Deluxe room",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included",
+              "view_garden": "Garden view"
+            },
+            "partner_name": "Expedia",
+            "partner_logo": "https://hotelscan.com/apis/vendors/expd/logo.svg?pos=zz"
+          },
+          {
+            "price": 102.21,
+            "brt": "p2d#",
+            "rf": "p2d#",
+            "brf": 9503296,
+            "rt": 9503296,
+            "vendor": "expd",
+            "vendor_id_raw": "75698797",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included",
+              "Free cancellation",
+              "Garden view"
+            ],
+            "jc_code": "EXPEDIA",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Deluxe room",
+            "rooms": [
+              {
+                "name": "Deluxe room",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included",
+              "refundable": "Free cancellation",
+              "view_garden": "Garden view"
+            },
+            "partner_name": "Expedia",
+            "partner_logo": "https://hotelscan.com/apis/vendors/expd/logo.svg?pos=zz"
+          },
+          {
+            "price": 103.2,
+            "brt": "p2d#",
+            "rf": "p2d#",
+            "brf": 9503360,
+            "rt": 9503360,
+            "vendor": "htls",
+            "vendor_id_raw": "2423361504",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included",
+              "Free cancellation",
+              "Garden view",
+              "Pay at the property"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Deluxe room",
+            "rooms": [
+              {
+                "name": "Deluxe room",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included",
+              "refundable": "Free cancellation",
+              "view_garden": "Garden view",
+              "pay_at_hotel": "Pay at the property"
+            },
+            "partner_name": "Hotels.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/htls/logo.svg?pos=zz"
+          },
+          {
+            "price": 103.2,
+            "brt": "p2d#",
+            "rf": "p2d#",
+            "brf": 9503360,
+            "rt": 9503360,
+            "vendor": "expd",
+            "vendor_id_raw": "75698797",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included",
+              "Free cancellation",
+              "Garden view",
+              "Pay at the property"
+            ],
+            "jc_code": "EXPEDIA",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Deluxe room",
+            "rooms": [
+              {
+                "name": "Deluxe room",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included",
+              "refundable": "Free cancellation",
+              "view_garden": "Garden view",
+              "pay_at_hotel": "Pay at the property"
+            },
+            "partner_name": "Expedia",
+            "partner_logo": "https://hotelscan.com/apis/vendors/expd/logo.svg?pos=zz"
+          },
+          {
+            "price": 154.97,
+            "brt": "p2d#",
+            "rf": "p2d#",
+            "brf": 9502784,
+            "rt": 9502784,
+            "vendor": "expd",
+            "vendor_id_raw": "75698797",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included",
+              "Free cancellation"
+            ],
+            "jc_code": "EXPEDIA",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Deluxe room",
+            "rooms": [
+              {
+                "name": "Deluxe room",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included",
+              "refundable": "Free cancellation"
+            },
+            "partner_name": "Expedia",
+            "partner_logo": "https://hotelscan.com/apis/vendors/expd/logo.svg?pos=zz"
+          },
+          {
+            "price": 157.91,
+            "brt": "p2d#",
+            "rf": "p2d#",
+            "brf": 9502848,
+            "rt": 9502848,
+            "vendor": "htls",
+            "vendor_id_raw": "2423361504",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included",
+              "Free cancellation",
+              "Pay at the property"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Deluxe room",
+            "rooms": [
+              {
+                "name": "Deluxe room",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included",
+              "refundable": "Free cancellation",
+              "pay_at_hotel": "Pay at the property"
+            },
+            "partner_name": "Hotels.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/htls/logo.svg?pos=zz"
+          },
+          {
+            "price": 157.91,
+            "brt": "p2d#",
+            "rf": "p2d#",
+            "brf": 9502848,
+            "rt": 9502848,
+            "vendor": "expd",
+            "vendor_id_raw": "75698797",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included",
+              "Free cancellation",
+              "Pay at the property"
+            ],
+            "jc_code": "EXPEDIA",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Deluxe room",
+            "rooms": [
+              {
+                "name": "Deluxe room",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included",
+              "refundable": "Free cancellation",
+              "pay_at_hotel": "Pay at the property"
+            },
+            "partner_name": "Expedia",
+            "partner_logo": "https://hotelscan.com/apis/vendors/expd/logo.svg?pos=zz"
+          }
+        ],
+        "descriptions_language": {
+          "general": {
+            "original_language": true,
+            "text": "Equator Inn provides flawless service and all the necessary facilities for visitors.Remain linked during your visit by utilizing the complimentary internet access available. Prior to your check-in date, you can arrange airport transportation services, guaranteeing a seamless and efficient experience for both arrival and departure. Parking is accessible, supplied by the inn for guests who arrive by car. Repeatedly enjoy your best-loved attire with the aid of the laundry service available at Equator Inn .Crafted for coziness, every guestroom provides an array of features, guaranteeing a tranquil night's sleep while maintaining the level of comfort. For a more enjoyable stay, select rooms at inn are equipped with linen service and air conditioning. At Equator Inn , a selection of rooms can be found that showcase unique design elements such as a balcony or terrace. Rest assured that your hydration needs will be met, as some guestrooms are equipped with a refrigerator and a coffee or tea maker.Maintain your cleanliness and feel revitalized using toiletries available in select guest restrooms. Begin your day on a delightful note with a scrumptious complimentary breakfast, consistently served at Equator Inn . Do you possess exceptional culinary skills? Prepare your meals personally within the inn at its shared kitchen."
+          },
+          "direction": {
+            "original_language": true,
+            "text": "With a stay at Equator Retreat in Fuvahmulah, you'll be within a 5-minute drive of Fuvahmulah Harbor and Bandaara Lake. This hotel is 1.9 mi (3 km) from Fuvahmulah Nature Park and 2.3 mi (3.6 km) from Fuvahmulah Beach."
+          },
+          "hotel": {
+            "original_language": true,
+            "text": "Make yourself at home in one of the 10 air-conditioned rooms featuring minibars. Your memory foam bed comes with premium bedding. Prepare your meals in the shared/communal kitchen. Complimentary wireless internet access keeps you connected, and digital programming is available for your entertainment. Bathrooms have showers and hair dryers."
+          },
+          "other": {
+            "original_language": true,
+            "text": "Make use of convenient amenities, which include concierge services and a television in a common area."
+          }
+        },
+        "chain_code": null,
+        "bids": {
+          "htls": "j23",
+          "expd": "j23"
+        },
+        "worst_offer": null,
+        "best_offer": 49.44,
+        "best_offer_ota": "expd",
+        "best_offer_mota": null,
+        "discount": 0,
+        "offers_count": 10,
+        "coordinates": {
+          "lat": -0.30243,
+          "lng": 73.435868
+        },
+        "distance": 1.64,
+        "neighborhood": null,
+        "badge": null,
+        "distances": [
+          {
+            "from": "center",
+            "distance": 1.64,
+            "time": 197,
+            "means": "car",
+            "means_type": "car"
+          }
+        ],
+        "specs": {
+          "bathrooms": null,
+          "beds": null,
+          "bedrooms": null,
+          "guests": null,
+          "square_meters": null
+        },
+        "toa_label": "guest house",
+        "top_amenities": [
+          "wifi_room",
+          "parking",
+          "air_conditioning",
+          "24h_reception"
+        ],
+        "transportations": {
+          "airports": [],
+          "trains": []
+        },
+        "images": [
+          {
+            "image_id": "738434019",
+            "label": ""
+          },
+          {
+            "image_id": "738434011",
+            "label": ""
+          },
+          {
+            "image_id": "738434013",
+            "label": ""
+          },
+          {
+            "image_id": "738433999",
+            "label": ""
+          },
+          {
+            "image_id": "738434020",
+            "label": ""
+          },
+          {
+            "image_id": "738434004",
+            "label": ""
+          },
+          {
+            "image_id": "738434016",
+            "label": ""
+          },
+          {
+            "image_id": "738434008",
+            "label": ""
+          },
+          {
+            "image_id": "738433990",
+            "label": ""
+          },
+          {
+            "image_id": "738433994",
+            "label": ""
+          },
+          {
+            "image_id": "738434014",
+            "label": ""
+          },
+          {
+            "image_id": "738434003",
+            "label": ""
+          },
+          {
+            "image_id": "738433993",
+            "label": ""
+          },
+          {
+            "image_id": "738433998",
+            "label": ""
+          },
+          {
+            "image_id": "738433996",
+            "label": ""
+          }
+        ],
+        "hero_offer": {
+          "price": 49.98,
+          "brt": "p2d#d",
+          "rf": "p2d#d",
+          "brf": 9471056,
+          "rt": 9471056,
+          "vendor": "htls",
+          "vendor_id_raw": "3052328256",
+          "mota_code": null,
+          "direct_offer": false,
+          "offer_flags": {
+            "breakfast": "Breakfast included",
+            "view_sea": "Sea view",
+            "balcony": "Balcony"
+          },
+          "jc_code": "",
+          "ranking_index": 0.9956782713085235,
+          "chain": "",
+          "free_cancellation": false,
+          "special": false,
+          "room_name": "Deluxe room - Double bed",
+          "rooms": [
+            {
+              "name": "Deluxe room - Double bed",
+              "flags": [
+                "Double bed"
+              ]
+            }
+          ],
+          "partner_name": "Hotels.com",
+          "partner_logo": "https://hotelscan.com/apis/vendors/htls/logo.svg?pos=zz"
+        },
+        "rank": 0,
+        "ctrl_srt": "im a ctrl teapot",
+        "test_srt": "im a test teapot"
+      }
+    ],
+    "filters": [],
+    "query": {
+      "pos": "zz"
+    }
+  }
+}

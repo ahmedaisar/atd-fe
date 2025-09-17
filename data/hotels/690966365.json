@@ -1,0 +1,478 @@
+{
+  "_meta": {
+    "status": "SUCCESS",
+    "cached": true,
+    "count": 1,
+    "debug": {
+      "ticket": {
+        "ticket_id": "690966365_zz_zz_d_publ_en_2_2025-10-08_2025-10-13_1_3",
+        "created_at": 1758065381.1436,
+        "loop": null,
+        "snapped_at": 1758065381.2301,
+        "snapshot_id": "690966365_zz_zz_d_publ_en_2_2025-10-08_2025-10-13_1_3",
+        "snapshot_ttl": 300,
+        "executions": 2,
+        "progress": 1,
+        "save_errors": []
+      }
+    }
+  },
+  "data": {
+    "meta": [],
+    "geo": {
+      "hs_id": "x5fa2305ia69",
+      "region_name": "Guraidhoo",
+      "region_name_long": "Guraidhoo, Maldives",
+      "region_type": "CITY",
+      "region_id": 6158524,
+      "country_iso": "MV",
+      "country": "maldives",
+      "localised_country": "Maldives",
+      "center": [
+        3.90042,
+        73.46827
+      ],
+      "centroid": [
+        3.90002,
+        73.4684
+      ],
+      "polygon": [
+        "3.90191,73.465366",
+        "3.896186,73.465753",
+        "3.896274,73.471173",
+        "3.903793,73.470641",
+        "3.904655,73.468789",
+        "3.90191,73.465366"
+      ],
+      "radius": 0.52,
+      "zoom": -1,
+      "search_by_polygon": 0,
+      "cluster": 0,
+      "properties": 57,
+      "radius_override": 5,
+      "boundingbox": {
+        "ne": [
+          3.905,
+          73.472
+        ],
+        "sw": [
+          3.896,
+          73.465
+        ]
+      },
+      "airports": [
+        "MLE",
+        "DRV"
+      ],
+      "region_name_en": "Guraidhoo",
+      "region_name_long_en": "Guraidhoo, Maldives",
+      "referrer_city_name_en": "Guraidhoo",
+      "parent_region_id": 6051084,
+      "parent_hs_id": "x5p4hmhw6iot",
+      "parent_region_name": "Maldives (all)",
+      "parent_region_name_long": "Maldives (all)",
+      "dynamic_bbox": {
+        "ne": [
+          3.9,
+          73.466
+        ],
+        "sw": [
+          3.9,
+          73.466
+        ]
+      }
+    },
+    "records": [
+      {
+        "hs_id": 690966365,
+        "slug": "coco-cottage-local-style-guraidhoo-mv-690966365",
+        "name": "Coco Cottage Local Style",
+        "ty_id": "9c948acd-e566-4c4b-9180-d7a5641e98ea",
+        "toa": "guest_house",
+        "location": {
+          "city": "Guraidhoo",
+          "zip": "08080",
+          "country_iso2": "MV",
+          "address": "Starling",
+          "geoid": "x5fa2305ia69",
+          "loc": {
+            "type": "Point"
+          },
+          "coordinates": {
+            "lng": 73.46649,
+            "lat": 3.9006
+          }
+        },
+        "opening_time": {
+          "check_in_from": "06:00",
+          "check_in_to": "23:00",
+          "check_out_from": "06:00",
+          "check_out_to": "23:00"
+        },
+        "quality": {
+          "review_count": 79,
+          "review_rating": 90,
+          "stars": 0,
+          "stars_is_estimated": false,
+          "review_source": ""
+        },
+        "covid_safe": true,
+        "amenities": {
+          "wellness": [
+            "solarium",
+            "fitness_center",
+            "hair_salon"
+          ],
+          "sports": [
+            "sub",
+            "surf"
+          ],
+          "internet": [
+            "wifi",
+            "internet"
+          ],
+          "food_drink": [
+            "restaurant",
+            "room_service",
+            "cafe",
+            "bar"
+          ],
+          "disability": [
+            "disability_facilities"
+          ],
+          "parking": [
+            "parking"
+          ],
+          "outdoor": [
+            "garden",
+            "terrace"
+          ],
+          "other": [],
+          "business": [
+            "meeting_room"
+          ],
+          "children": [
+            "babysitter",
+            "children_playground"
+          ],
+          "entertainment": [
+            "tv_lobby",
+            "disco"
+          ],
+          "transfer": [
+            "shuttle_service"
+          ],
+          "room": [
+            "air_conditioning",
+            "tv"
+          ],
+          "reception": [
+            "24h_reception",
+            "luggage_storage",
+            "concierge",
+            "laundry_facilities",
+            "laundry_service",
+            "safety_deposit_box"
+          ]
+        },
+        "descriptions": {
+          "general": "Coco Cottage Local Style provides beachfront accommodations in Guraidhoo. Providing a family-friendly restaurant, the property also has a private beach area and a garden. The accommodation provides a 24-hour front desk, a shared kitchen, and currency exchange for guests. At the guest house, all units are fitted with a desk. All rooms are fitted with a private bathroom, a safety deposit box, and free Wifi, while selected rooms include a terrace and some have garden views. At the guest house, all units are allergy-free and soundproof. À la carte and continental breakfast options with warm dishes, local specialities, and fresh pastries are available daily. There is a coffee shop, and packed lunches are also available. For guests with children, the guest house features kids pool, an indoor play area, and outdoor play equipment. A baby safety gate is also available for guests at Coco Cottage Local Style. Guraidhoo Beach is a few steps from the accommodation.",
+          "localized": "Coco Cottage Local Style provides beachfront accommodations in Guraidhoo. Providing a family-friendly restaurant, the property also has a private beach area and a garden. The accommodation provides a 24-hour front desk, a shared kitchen, and currency exchange for guests. At the guest house, all units are fitted with a desk. All rooms are fitted with a private bathroom, a safety deposit box, and free Wifi, while selected rooms include a terrace and some have garden views. At the guest house, all units are allergy-free and soundproof. À la carte and continental breakfast options with warm dishes, local specialities, and fresh pastries are available daily. There is a coffee shop, and packed lunches are also available. For guests with children, the guest house features kids pool, an indoor play area, and outdoor play equipment. A baby safety gate is also available for guests at Coco Cottage Local Style. Guraidhoo Beach is a few steps from the accommodation."
+        },
+        "short_description": "Excellent accommodation. Great rooms in excellent location.",
+        "offers": [
+          {
+            "price": 55.57,
+            "brt": "p2p#t",
+            "rf": "p2p#t",
+            "brf": 8454272,
+            "rt": 8454272,
+            "vendor": "bkng",
+            "vendor_id_raw": "1607659",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Free cancellation",
+              "Pay at the property"
+            ],
+            "jc_code": "",
+            "ranking_index": 1,
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Budget room - Twin beds",
+            "rooms": [
+              {
+                "name": "Budget room - Twin beds",
+                "flags": [
+                  "Twin beds"
+                ]
+              }
+            ],
+            "offer_flags_new": {
+              "refundable": "Free cancellation",
+              "pay_at_hotel": "Pay at the property"
+            },
+            "partner_name": "Booking.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/bkng/logo.svg?pos=zz"
+          }
+        ],
+        "all_offers": [
+          {
+            "price": 55.57,
+            "brt": "p2d#",
+            "rf": "p2d#",
+            "brf": 8454272,
+            "rt": 8454272,
+            "vendor": "bkng",
+            "vendor_id_raw": "1607659",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Free cancellation",
+              "Pay at the property"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Deluxe room",
+            "rooms": [
+              {
+                "name": "Deluxe room",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "refundable": "Free cancellation",
+              "pay_at_hotel": "Pay at the property"
+            },
+            "partner_name": "Booking.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/bkng/logo.svg?pos=zz"
+          },
+          {
+            "price": 55.57,
+            "brt": "p2p#t",
+            "rf": "p2p#t",
+            "brf": 8454272,
+            "rt": 8454272,
+            "vendor": "bkng",
+            "vendor_id_raw": "1607659",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Free cancellation",
+              "Pay at the property"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Budget room - Twin beds",
+            "rooms": [
+              {
+                "name": "Budget room - Twin beds",
+                "flags": [
+                  "Twin beds"
+                ]
+              }
+            ],
+            "offer_flags_new": {
+              "refundable": "Free cancellation",
+              "pay_at_hotel": "Pay at the property"
+            },
+            "partner_name": "Booking.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/bkng/logo.svg?pos=zz"
+          },
+          {
+            "price": 67.39,
+            "brt": "p2d#t",
+            "rf": "p2d#t",
+            "brf": 9502848,
+            "rt": 9502848,
+            "vendor": "bkng",
+            "vendor_id_raw": "1607659",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included",
+              "Free cancellation",
+              "Pay at the property"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Deluxe room - Twin beds",
+            "rooms": [
+              {
+                "name": "Deluxe room - Twin beds",
+                "flags": [
+                  "Twin beds"
+                ]
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included",
+              "refundable": "Free cancellation",
+              "pay_at_hotel": "Pay at the property"
+            },
+            "partner_name": "Booking.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/bkng/logo.svg?pos=zz"
+          }
+        ],
+        "descriptions_language": {
+          "general": {
+            "original_language": true,
+            "text": "Coco Cottage Local Style provides beachfront accommodations in Guraidhoo. Providing a family-friendly restaurant, the property also has a private beach area and a garden. The accommodation provides a 24-hour front desk, a shared kitchen, and currency exchange for guests. At the guest house, all units are fitted with a desk. All rooms are fitted with a private bathroom, a safety deposit box, and free Wifi, while selected rooms include a terrace and some have garden views. At the guest house, all units are allergy-free and soundproof. À la carte and continental breakfast options with warm dishes, local specialities, and fresh pastries are available daily. There is a coffee shop, and packed lunches are also available. For guests with children, the guest house features kids pool, an indoor play area, and outdoor play equipment. A baby safety gate is also available for guests at Coco Cottage Local Style. Guraidhoo Beach is a few steps from the accommodation."
+          }
+        },
+        "chain_code": null,
+        "bids": {
+          "bkng": "j23"
+        },
+        "worst_offer": null,
+        "best_offer": 55.57,
+        "best_offer_ota": "bkng",
+        "best_offer_mota": null,
+        "discount": 0,
+        "offers_count": 3,
+        "coordinates": {
+          "lat": 3.9006,
+          "lng": 73.46649
+        },
+        "distance": 0.2,
+        "neighborhood": null,
+        "badge": null,
+        "distances": [
+          {
+            "from": "center",
+            "distance": 0.2,
+            "time": 278,
+            "means": "foot",
+            "means_type": "foot"
+          }
+        ],
+        "specs": {
+          "bathrooms": null,
+          "beds": null,
+          "bedrooms": null,
+          "guests": null,
+          "square_meters": null
+        },
+        "toa_label": "guest house",
+        "top_amenities": [
+          "internet",
+          "restaurant",
+          "room_service",
+          "bar",
+          "parking"
+        ],
+        "transportations": {
+          "airports": [],
+          "trains": []
+        },
+        "images": [
+          {
+            "image_id": "657310219",
+            "label": ""
+          },
+          {
+            "image_id": "657310207",
+            "label": ""
+          },
+          {
+            "image_id": "657310215",
+            "label": ""
+          },
+          {
+            "image_id": "657310226",
+            "label": ""
+          },
+          {
+            "image_id": "657310224",
+            "label": ""
+          },
+          {
+            "image_id": "657310242",
+            "label": ""
+          },
+          {
+            "image_id": "657310245",
+            "label": ""
+          },
+          {
+            "image_id": "657310225",
+            "label": ""
+          },
+          {
+            "image_id": "657310204",
+            "label": ""
+          },
+          {
+            "image_id": "657310232",
+            "label": ""
+          },
+          {
+            "image_id": "657310223",
+            "label": ""
+          },
+          {
+            "image_id": "657310222",
+            "label": ""
+          },
+          {
+            "image_id": "657310221",
+            "label": ""
+          },
+          {
+            "image_id": "657310220",
+            "label": ""
+          },
+          {
+            "image_id": "657310214",
+            "label": ""
+          }
+        ],
+        "hero_offer": {
+          "price": 55.57,
+          "brt": "p2p#t",
+          "rf": "p2p#t",
+          "brf": 8454272,
+          "rt": 8454272,
+          "vendor": "bkng",
+          "vendor_id_raw": "1607659",
+          "mota_code": null,
+          "direct_offer": false,
+          "offer_flags": {
+            "refundable": "Free cancellation",
+            "pay_at_hotel": "Pay at the property"
+          },
+          "jc_code": "",
+          "ranking_index": 1,
+          "chain": "",
+          "free_cancellation": true,
+          "special": false,
+          "room_name": "Budget room - Twin beds",
+          "rooms": [
+            {
+              "name": "Budget room - Twin beds",
+              "flags": [
+                "Twin beds"
+              ]
+            }
+          ],
+          "partner_name": "Booking.com",
+          "partner_logo": "https://hotelscan.com/apis/vendors/bkng/logo.svg?pos=zz"
+        },
+        "rank": 0,
+        "ctrl_srt": "im a ctrl teapot",
+        "test_srt": "im a test teapot"
+      }
+    ],
+    "filters": [],
+    "query": {
+      "pos": "zz"
+    }
+  }
+}

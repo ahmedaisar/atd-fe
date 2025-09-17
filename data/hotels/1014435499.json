@@ -1,0 +1,592 @@
+{
+  "_meta": {
+    "status": "SUCCESS",
+    "cached": true,
+    "count": 1,
+    "debug": {
+      "ticket": {
+        "ticket_id": "1014435499_zz_zz_d_publ_en_2_2025-10-08_2025-10-13_1_3",
+        "created_at": 1758065379.1103,
+        "loop": null,
+        "snapped_at": 1758065379.1812,
+        "snapshot_id": "1014435499_zz_zz_d_publ_en_2_2025-10-08_2025-10-13_1_3",
+        "snapshot_ttl": 300,
+        "executions": 2,
+        "progress": 1,
+        "save_errors": []
+      }
+    }
+  },
+  "data": {
+    "meta": [],
+    "geo": {
+      "hs_id": "xk37cluc5gl2",
+      "region_name": "Himmafushi",
+      "region_name_long": "Himmafushi, Maldives",
+      "region_type": "CITY",
+      "region_id": 6343439,
+      "country_iso": "MV",
+      "country": "maldives",
+      "localised_country": "Maldives",
+      "center": [
+        4.30882,
+        73.57184
+      ],
+      "centroid": [
+        4.30757,
+        73.57184
+      ],
+      "polygon": [
+        "4.304066,73.571207",
+        "4.30697,73.579713",
+        "4.311818,73.574284",
+        "4.313569,73.567522",
+        "4.308162,73.563966",
+        "4.304315,73.566281",
+        "4.304066,73.571207"
+      ],
+      "radius": 0.88,
+      "zoom": -1,
+      "search_by_polygon": 0,
+      "cluster": 0,
+      "properties": 69,
+      "radius_override": 5,
+      "boundingbox": {
+        "ne": [
+          4.314,
+          73.58
+        ],
+        "sw": [
+          4.304,
+          73.563
+        ]
+      },
+      "airports": [
+        "MLE",
+        "DRV"
+      ],
+      "region_name_en": "Himmafushi",
+      "region_name_long_en": "Himmafushi, Maldives",
+      "referrer_city_name_en": "Himmafushi",
+      "parent_region_id": 6051084,
+      "parent_hs_id": "x5p4hmhw6iot",
+      "parent_region_name": "Maldives (all)",
+      "parent_region_name_long": "Maldives (all)",
+      "dynamic_bbox": {
+        "ne": [
+          4.308,
+          73.569
+        ],
+        "sw": [
+          4.308,
+          73.569
+        ]
+      }
+    },
+    "records": [
+      {
+        "hs_id": 1014435499,
+        "slug": "keveli-guesthouse-himmafushi-mv-1014435499",
+        "name": "Keveli Guesthouse",
+        "toa": "guest_house",
+        "location": {
+          "city": "Himmafushi",
+          "zip": "08060",
+          "country_iso2": "MV",
+          "address": "Keveli Guesthouse, Janavaree Magu",
+          "geoid": "xk37cluc5gl2",
+          "loc": {
+            "type": "Point"
+          },
+          "coordinates": {
+            "lng": 73.56957,
+            "lat": 4.30896
+          }
+        },
+        "opening_time": {
+          "check_in_from": "14:00",
+          "check_in_to": "18:00",
+          "check_out_from": "08:00",
+          "check_out_to": "12:00"
+        },
+        "quality": {
+          "review_count": 17,
+          "review_rating": 98,
+          "stars": 0,
+          "stars_is_estimated": false,
+          "review_source": ""
+        },
+        "covid_safe": true,
+        "amenities": {
+          "sports": [
+            "sub"
+          ],
+          "internet": [
+            "wifi",
+            "wifi_room",
+            "internet"
+          ],
+          "entertainment": [
+            "tv_lobby"
+          ],
+          "outdoor": [
+            "terrace"
+          ],
+          "other": [],
+          "room": [
+            "air_conditioning",
+            "tv"
+          ],
+          "reception": [
+            "laundry_service",
+            "safety_deposit_box"
+          ]
+        },
+        "descriptions": {
+          "general": "Located just 400 metres from Himmafushi Beach, Keveli Guesthouse provides accommodation in Himmafushi with access to a terrace, a shared lounge, as well as a shared kitchen.",
+          "other": "This property will not accommodate hen, stag or similar parties.",
+          "localized": "Located just 400 metres from Himmafushi Beach, Keveli Guesthouse provides accommodation in Himmafushi with access to a terrace, a shared lounge, as well as a shared kitchen."
+        },
+        "offers": [
+          {
+            "price": 74.78,
+            "brt": "p2r#",
+            "rf": "p2r#",
+            "brf": 9502784,
+            "rt": 9502784,
+            "vendor": "bkng",
+            "vendor_id_raw": "11699320",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included",
+              "Free cancellation"
+            ],
+            "jc_code": "",
+            "ranking_index": 0.9964161540518855,
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Standard room",
+            "rooms": [
+              {
+                "name": "Standard room",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included",
+              "refundable": "Free cancellation"
+            },
+            "partner_name": "Booking.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/bkng/logo.svg?pos=zz"
+          },
+          {
+            "vendor": "agda",
+            "price": 74.11,
+            "vendor_id_raw": "52076052",
+            "mota_code": null,
+            "jc_code": "",
+            "partner_name": "Agoda",
+            "partner_logo": "https://hotelscan.com/apis/vendors/agda/logo.svg?pos=zz",
+            "room_name": "Standard room",
+            "brf": 9502784,
+            "brt": "p2r#"
+          }
+        ],
+        "all_offers": [
+          {
+            "price": 74.11,
+            "brt": "p2r#",
+            "rf": "p2r#",
+            "brf": 9502784,
+            "rt": 9502784,
+            "vendor": "agda",
+            "vendor_id_raw": "52076052",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included",
+              "Free cancellation"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Standard room",
+            "rooms": [
+              {
+                "name": "Standard room",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included",
+              "refundable": "Free cancellation"
+            },
+            "partner_name": "Agoda",
+            "partner_logo": "https://hotelscan.com/apis/vendors/agda/logo.svg?pos=zz"
+          },
+          {
+            "price": 74.78,
+            "brt": "p2r#",
+            "rf": "p2r#",
+            "brf": 9502784,
+            "rt": 9502784,
+            "vendor": "bkng",
+            "vendor_id_raw": "11699320",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included",
+              "Free cancellation"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Standard room",
+            "rooms": [
+              {
+                "name": "Standard room",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included",
+              "refundable": "Free cancellation"
+            },
+            "partner_name": "Booking.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/bkng/logo.svg?pos=zz"
+          },
+          {
+            "price": 79.53,
+            "brt": "p2r#t",
+            "rf": "p2r#t",
+            "brf": 9502800,
+            "rt": 9502800,
+            "vendor": "agda",
+            "vendor_id_raw": "52076052",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included",
+              "Free cancellation",
+              "Balcony"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Standard room - Twin beds",
+            "rooms": [
+              {
+                "name": "Standard room - Twin beds",
+                "flags": [
+                  "Twin beds"
+                ]
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included",
+              "refundable": "Free cancellation",
+              "balcony": "Balcony"
+            },
+            "partner_name": "Agoda",
+            "partner_logo": "https://hotelscan.com/apis/vendors/agda/logo.svg?pos=zz"
+          },
+          {
+            "price": 80.25,
+            "brt": "p2r#t",
+            "rf": "p2r#t",
+            "brf": 9502800,
+            "rt": 9502800,
+            "vendor": "bkng",
+            "vendor_id_raw": "11699320",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included",
+              "Free cancellation",
+              "Balcony"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Standard room - Twin beds",
+            "rooms": [
+              {
+                "name": "Standard room - Twin beds",
+                "flags": [
+                  "Twin beds"
+                ]
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included",
+              "refundable": "Free cancellation",
+              "balcony": "Balcony"
+            },
+            "partner_name": "Booking.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/bkng/logo.svg?pos=zz"
+          },
+          {
+            "price": 84.95,
+            "brt": "p2d#t",
+            "rf": "p2d#t",
+            "brf": 9502784,
+            "rt": 9502784,
+            "vendor": "agda",
+            "vendor_id_raw": "52076052",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included",
+              "Free cancellation"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Deluxe room - Twin beds",
+            "rooms": [
+              {
+                "name": "Deluxe room - Twin beds",
+                "flags": [
+                  "Twin beds"
+                ]
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included",
+              "refundable": "Free cancellation"
+            },
+            "partner_name": "Agoda",
+            "partner_logo": "https://hotelscan.com/apis/vendors/agda/logo.svg?pos=zz"
+          },
+          {
+            "price": 85.72,
+            "brt": "p2d#t",
+            "rf": "p2d#t",
+            "brf": 9502784,
+            "rt": 9502784,
+            "vendor": "bkng",
+            "vendor_id_raw": "11699320",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included",
+              "Free cancellation"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Deluxe room - Twin beds",
+            "rooms": [
+              {
+                "name": "Deluxe room - Twin beds",
+                "flags": [
+                  "Twin beds"
+                ]
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included",
+              "refundable": "Free cancellation"
+            },
+            "partner_name": "Booking.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/bkng/logo.svg?pos=zz"
+          },
+          {
+            "price": 97.05,
+            "brt": "p2d#t",
+            "rf": "p2d#t",
+            "brf": 9502784,
+            "rt": 9502784,
+            "vendor": "bkng",
+            "vendor_id_raw": "11699320",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included",
+              "Free cancellation"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Deluxe room - Twin beds",
+            "rooms": [
+              {
+                "name": "Deluxe room - Twin beds",
+                "flags": [
+                  "Twin beds"
+                ]
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included",
+              "refundable": "Free cancellation"
+            },
+            "partner_name": "Booking.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/bkng/logo.svg?pos=zz"
+          }
+        ],
+        "descriptions_language": {
+          "general": {
+            "original_language": true,
+            "text": "Located just 400 metres from Himmafushi Beach, Keveli Guesthouse provides accommodation in Himmafushi with access to a terrace, a shared lounge, as well as a shared kitchen."
+          },
+          "other": {
+            "original_language": true,
+            "text": "This property will not accommodate hen, stag or similar parties."
+          }
+        },
+        "chain_code": null,
+        "bids": {
+          "bkng": "j23",
+          "agda": "j23"
+        },
+        "worst_offer": null,
+        "best_offer": 74.11,
+        "best_offer_ota": "agda",
+        "best_offer_mota": null,
+        "discount": 0,
+        "offers_count": 7,
+        "coordinates": {
+          "lat": 4.30896,
+          "lng": 73.56957
+        },
+        "distance": 0.25,
+        "neighborhood": null,
+        "badge": null,
+        "distances": [
+          {
+            "from": "center",
+            "distance": 0.25,
+            "time": 347,
+            "means": "foot",
+            "means_type": "foot"
+          }
+        ],
+        "specs": {
+          "bathrooms": null,
+          "beds": null,
+          "bedrooms": null,
+          "guests": null,
+          "square_meters": null
+        },
+        "toa_label": "guest house",
+        "top_amenities": [
+          "wifi_room",
+          "internet",
+          "air_conditioning"
+        ],
+        "transportations": {
+          "airports": [],
+          "trains": []
+        },
+        "images": [
+          {
+            "image_id": "749192322",
+            "label": ""
+          },
+          {
+            "image_id": "749192329",
+            "label": ""
+          },
+          {
+            "image_id": "749192320",
+            "label": ""
+          },
+          {
+            "image_id": "749192325",
+            "label": ""
+          },
+          {
+            "image_id": "749192326",
+            "label": ""
+          },
+          {
+            "image_id": "749192315",
+            "label": ""
+          },
+          {
+            "image_id": "749192310",
+            "label": ""
+          },
+          {
+            "image_id": "749192309",
+            "label": ""
+          },
+          {
+            "image_id": "749192316",
+            "label": ""
+          },
+          {
+            "image_id": "749192314",
+            "label": ""
+          },
+          {
+            "image_id": "749192318",
+            "label": ""
+          },
+          {
+            "image_id": "749192311",
+            "label": ""
+          },
+          {
+            "image_id": "749192319",
+            "label": ""
+          },
+          {
+            "image_id": "749192308",
+            "label": ""
+          },
+          {
+            "image_id": "749192328",
+            "label": ""
+          }
+        ],
+        "hero_offer": {
+          "price": 74.78,
+          "brt": "p2r#",
+          "rf": "p2r#",
+          "brf": 9502784,
+          "rt": 9502784,
+          "vendor": "bkng",
+          "vendor_id_raw": "11699320",
+          "mota_code": null,
+          "direct_offer": false,
+          "offer_flags": {
+            "breakfast": "Breakfast included",
+            "refundable": "Free cancellation"
+          },
+          "jc_code": "",
+          "ranking_index": 0.9964161540518855,
+          "chain": "",
+          "free_cancellation": true,
+          "special": false,
+          "room_name": "Standard room",
+          "rooms": [
+            {
+              "name": "Standard room",
+              "flags": []
+            }
+          ],
+          "partner_name": "Booking.com",
+          "partner_logo": "https://hotelscan.com/apis/vendors/bkng/logo.svg?pos=zz"
+        },
+        "rank": 0,
+        "ctrl_srt": "im a ctrl teapot",
+        "test_srt": "im a test teapot"
+      }
+    ],
+    "filters": [],
+    "query": {
+      "pos": "zz"
+    }
+  }
+}

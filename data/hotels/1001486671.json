@@ -1,0 +1,294 @@
+{
+  "_meta": {
+    "status": "SUCCESS",
+    "cached": true,
+    "count": 1,
+    "debug": {
+      "ticket": {
+        "ticket_id": "1001486671_zz_zz_d_publ_en_2_2025-10-08_2025-10-13_1_3",
+        "created_at": 1758065374.1023,
+        "loop": null,
+        "snapped_at": 1758065374.1836,
+        "snapshot_id": "1001486671_zz_zz_d_publ_en_2_2025-10-08_2025-10-13_1_3",
+        "snapshot_ttl": 300,
+        "executions": 2,
+        "progress": 1,
+        "save_errors": []
+      }
+    }
+  },
+  "data": {
+    "meta": [],
+    "geo": {
+      "hs_id": "xk8lkha1ntyx",
+      "region_name": "Thulusdhoo Island",
+      "region_name_long": "Thulusdhoo Island, Maldives",
+      "region_type": "CITY",
+      "region_id": 6278797,
+      "country_iso": "MV",
+      "country": "maldives",
+      "localised_country": "Maldives",
+      "center": [
+        4.37228,
+        73.65101
+      ],
+      "centroid": [
+        4.37228,
+        73.65101
+      ],
+      "polygon": [
+        "4.380631,73.643003",
+        "4.364183,73.643261",
+        "4.363924,73.659018",
+        "4.38052,73.658721",
+        "4.380631,73.643003"
+      ],
+      "radius": 1.29,
+      "zoom": -1,
+      "search_by_polygon": 1,
+      "cluster": 0,
+      "properties": 82,
+      "radius_override": 5,
+      "boundingbox": {
+        "ne": [
+          4.381,
+          73.66
+        ],
+        "sw": [
+          4.363,
+          73.643
+        ]
+      },
+      "airports": [
+        "MLE",
+        "DRV"
+      ],
+      "region_name_en": "Thulusdhoo Island",
+      "region_name_long_en": "Thulusdhoo Island, Maldives",
+      "referrer_city_name_en": "Thulusdhoo Island",
+      "parent_region_id": 6051084,
+      "parent_hs_id": "x5p4hmhw6iot",
+      "parent_region_name": "Maldives (all)",
+      "parent_region_name_long": "Maldives (all)",
+      "dynamic_bbox": {
+        "ne": [
+          4.373,
+          73.652
+        ],
+        "sw": [
+          4.373,
+          73.652
+        ]
+      }
+    },
+    "records": [
+      {
+        "hs_id": 1001486671,
+        "slug": "villa-kudi-maldives-guest-house-thulusdhoo-thulusdhoo-island-mv-1001486671",
+        "name": "Villa Kudì Maldives Guest House Thulusdhoo",
+        "ty_id": "04b136c1-f356-4e44-a7b1-4d219c47587f",
+        "toa": "guest_house",
+        "location": {
+          "city": "Thulusdhoo Island",
+          "zip": "08040",
+          "country_iso2": "MV",
+          "address": "Iurish, Rehendhi Hingun",
+          "geoid": "xk8lkha1ntyx",
+          "loc": {
+            "type": "Point"
+          },
+          "coordinates": {
+            "lng": 73.65257,
+            "lat": 4.37357
+          }
+        },
+        "opening_time": {
+          "check_in_from": "14:00",
+          "check_in_to": null,
+          "check_out_from": null,
+          "check_out_to": "11:00"
+        },
+        "quality": {
+          "review_count": 112,
+          "review_rating": 94,
+          "stars": 0,
+          "stars_is_estimated": false,
+          "review_source": ""
+        },
+        "covid_safe": true,
+        "amenities": {
+          "wellness": [
+            "fitness_center",
+            "hair_salon"
+          ],
+          "sports": [
+            "bike_rent",
+            "ping_pong",
+            "trekking",
+            "sub"
+          ],
+          "internet": [
+            "wifi",
+            "wifi_room",
+            "internet"
+          ],
+          "food_drink": [
+            "restaurant",
+            "snack_vending_machine",
+            "cafe",
+            "bar"
+          ],
+          "outdoor": [
+            "garden"
+          ],
+          "other": [],
+          "entertainment": [
+            "tv_lobby"
+          ],
+          "transfer": [
+            "shuttle_service"
+          ],
+          "room": [
+            "air_conditioning",
+            "tv"
+          ],
+          "reception": [
+            "luggage_storage",
+            "laundry_service",
+            "safety_deposit_box"
+          ]
+        },
+        "descriptions": {
+          "general": "Boasting water sports facilities and views of garden, Villa Kudì Maldives Guest House Thulusdhoo is a recently renovated guest house situated in Thulusdhoo, 200 metres from Bikini Beach. The air-conditioned accommodation is 2.8 km from Gasfinolhu Beach. The accommodation features airport transfers, while a bicycle rental service is also available.",
+          "other": "Managed by a private host",
+          "localized": "Boasting water sports facilities and views of garden, Villa Kudì Maldives Guest House Thulusdhoo is a recently renovated guest house situated in Thulusdhoo, 200 metres from Bikini Beach. The air-conditioned accommodation is 2.8 km from Gasfinolhu Beach. The accommodation features airport transfers, while a bicycle rental service is also available."
+        },
+        "short_description": "Excellent accommodation. Great location.",
+        "offers": [],
+        "all_offers": [],
+        "descriptions_language": {
+          "general": {
+            "original_language": true,
+            "text": "Boasting water sports facilities and views of garden, Villa Kudì Maldives Guest House Thulusdhoo is a recently renovated guest house situated in Thulusdhoo, 200 metres from Bikini Beach. The air-conditioned accommodation is 2.8 km from Gasfinolhu Beach. The accommodation features airport transfers, while a bicycle rental service is also available."
+          },
+          "other": {
+            "original_language": true,
+            "text": "Managed by a private host"
+          }
+        },
+        "chain_code": null,
+        "bids": [],
+        "coordinates": {
+          "lat": 4.37357,
+          "lng": 73.65257
+        },
+        "distance": 0.22,
+        "neighborhood": null,
+        "badge": null,
+        "distances": [
+          {
+            "from": "center",
+            "distance": 0.22,
+            "time": 306,
+            "means": "foot",
+            "means_type": "foot"
+          }
+        ],
+        "specs": {
+          "bathrooms": null,
+          "beds": null,
+          "bedrooms": null,
+          "guests": null,
+          "square_meters": null
+        },
+        "toa_label": "guest house",
+        "top_amenities": [
+          "wifi_room",
+          "internet",
+          "restaurant",
+          "bar",
+          "air_conditioning"
+        ],
+        "transportations": {
+          "airports": [],
+          "trains": []
+        },
+        "images": [
+          {
+            "image_id": "726901880",
+            "label": ""
+          },
+          {
+            "image_id": "726901900",
+            "label": ""
+          },
+          {
+            "image_id": "726901895",
+            "label": ""
+          },
+          {
+            "image_id": "726901893",
+            "label": ""
+          },
+          {
+            "image_id": "726901886",
+            "label": ""
+          },
+          {
+            "image_id": "726901885",
+            "label": ""
+          },
+          {
+            "image_id": "726901890",
+            "label": ""
+          },
+          {
+            "image_id": "726901894",
+            "label": ""
+          },
+          {
+            "image_id": "726901884",
+            "label": ""
+          },
+          {
+            "image_id": "726901887",
+            "label": ""
+          },
+          {
+            "image_id": "726901901",
+            "label": ""
+          },
+          {
+            "image_id": "726901889",
+            "label": ""
+          },
+          {
+            "image_id": "726901899",
+            "label": ""
+          },
+          {
+            "image_id": "726901896",
+            "label": ""
+          },
+          {
+            "image_id": "726901892",
+            "label": ""
+          }
+        ],
+        "best_offer": null,
+        "discount": null,
+        "offers_count": 0,
+        "worst_offer": null,
+        "rank": 0,
+        "ctrl_srt": "im a ctrl teapot",
+        "test_srt": "im a test teapot",
+        "best_offer_ota": null,
+        "best_offer_mota": null
+      }
+    ],
+    "filters": [],
+    "query": {
+      "pos": "zz"
+    }
+  }
+}

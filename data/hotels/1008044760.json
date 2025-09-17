@@ -1,0 +1,598 @@
+{
+  "_meta": {
+    "status": "SUCCESS",
+    "cached": true,
+    "count": 1,
+    "debug": {
+      "ticket": {
+        "ticket_id": "1008044760_zz_zz_d_publ_en_2_2025-10-08_2025-10-13_1_3",
+        "created_at": 1758065396.1888,
+        "loop": null,
+        "snapped_at": 1758065396.2813,
+        "snapshot_id": "1008044760_zz_zz_d_publ_en_2_2025-10-08_2025-10-13_1_3",
+        "snapshot_ttl": 300,
+        "executions": 2,
+        "progress": 1,
+        "save_errors": []
+      }
+    }
+  },
+  "data": {
+    "meta": [],
+    "geo": {
+      "hs_id": "83t39mee9jxb2",
+      "region_name": "Himandhoo",
+      "region_name_long": "Himandhoo, Maldives",
+      "region_type": "CITY",
+      "region_id": 3000003539,
+      "country_iso": "MV",
+      "country": "maldives",
+      "localised_country": "Maldives",
+      "center": [
+        3.92151,
+        72.74649
+      ],
+      "centroid": [
+        3.92358,
+        72.748
+      ],
+      "polygon": [
+        "3.92865,72.734818",
+        "3.91769,72.735161",
+        "3.911182,72.745804",
+        "3.919745,72.761597",
+        "3.93002,72.751984",
+        "3.92865,72.734818"
+      ],
+      "radius": 1.57,
+      "zoom": -1,
+      "search_by_polygon": 0,
+      "cluster": 0,
+      "properties": 16,
+      "radius_override": 5,
+      "boundingbox": {
+        "ne": [
+          3.931,
+          72.762
+        ],
+        "sw": [
+          3.911,
+          72.734
+        ]
+      },
+      "airports": [
+        "MLE",
+        "DRV"
+      ],
+      "region_name_en": "Himandhoo",
+      "region_name_long_en": "Himandhoo, Maldives",
+      "referrer_city_name_en": "Himandhoo",
+      "parent_region_id": 6051084,
+      "parent_hs_id": "x5p4hmhw6iot",
+      "parent_region_name": "Maldives (all)",
+      "parent_region_name_long": "Maldives (all)",
+      "dynamic_bbox": {
+        "ne": [
+          3.921,
+          72.742
+        ],
+        "sw": [
+          3.921,
+          72.742
+        ]
+      }
+    },
+    "records": [
+      {
+        "hs_id": 1008044760,
+        "slug": "origami-inn-himandhoo-himandhoo-mv-1008044760",
+        "name": "Origami Inn Himandhoo",
+        "toa": "bed_and_breakfast",
+        "location": {
+          "city": "Himandhoo",
+          "zip": "09080",
+          "country_iso2": "MV",
+          "address": "Nooraanee Magu",
+          "geoid": "83t39mee9jxb2",
+          "loc": {
+            "type": "Point"
+          },
+          "coordinates": {
+            "lng": 72.74209,
+            "lat": 3.92125
+          }
+        },
+        "opening_time": {
+          "check_in_from": "13:00",
+          "check_in_to": "15:00",
+          "check_out_from": "11:00",
+          "check_out_to": "12:00"
+        },
+        "quality": {
+          "review_count": 51,
+          "review_rating": 96,
+          "stars": 0,
+          "stars_is_estimated": false,
+          "review_source": ""
+        },
+        "covid_safe": true,
+        "amenities": {
+          "wellness": [
+            "solarium",
+            "fitness_center"
+          ],
+          "sports": [
+            "bike_rent",
+            "sub"
+          ],
+          "internet": [
+            "wifi",
+            "internet"
+          ],
+          "food_drink": [
+            "restaurant",
+            "room_service"
+          ],
+          "outdoor": [
+            "garden",
+            "terrace"
+          ],
+          "other": [],
+          "room": [
+            "air_conditioning"
+          ],
+          "reception": [
+            "laundry_service",
+            "safety_deposit_box"
+          ]
+        },
+        "descriptions": {
+          "general": "Great care is taken to ensure guests experience comfort through top-notch services and amenities. Remain linked during your visit by utilizing the complimentary internet access available.Prior to your check-in date, you can arrange airport transportation services, guaranteeing a seamless and efficient experience for both arrival and departure.Repeatedly enjoy your best-loved attire with the aid of the laundry service available at Origami Inn Himandhoo .During leisurely days and evenings, in-room amenities such as room service and daily housekeeping enable you to maximize your stay in the room. The hotel is completely smoke-free.Crafted for coziness, every guestroom provides an array of features, guaranteeing a tranquil night's sleep while maintaining the level of comfort. For an elevated experience at hotel, select rooms are equipped with air conditioning to improve your stay.At Origami Inn Himandhoo , a selection of rooms can be found that showcase unique design elements such as a balcony or terrace. Expand your in-room entertainment choices with various amenities, such as television offered in certain accommodations. Rest assured that your hydration needs will be met, as some guestrooms are equipped with a coffee or tea maker, bottled water, instant coffee, instant tea and mini bar. Maintain your cleanliness and comfort using a hair dryer and toiletries available in select guest restrooms. Begin your day on a delightful note with a scrumptious complimentary breakfast, consistently served at Origami Inn Himandhoo .During your visit, indulge in a range of delightful culinary choices at hotel to enhance your experience. Do you possess exceptional culinary skills? Prepare your meals personally within the hotel at its BBQ facilities.",
+          "localized": "Great care is taken to ensure guests experience comfort through top-notch services and amenities. Remain linked during your visit by utilizing the complimentary internet access available.Prior to your check-in date, you can arrange airport transportation services, guaranteeing a seamless and efficient experience for both arrival and departure.Repeatedly enjoy your best-loved attire with the aid of the laundry service available at Origami Inn Himandhoo .During leisurely days and evenings, in-room amenities such as room service and daily housekeeping enable you to maximize your stay in the room. The hotel is completely smoke-free.Crafted for coziness, every guestroom provides an array of features, guaranteeing a tranquil night's sleep while maintaining the level of comfort. For an elevated experience at hotel, select rooms are equipped with air conditioning to improve your stay.At Origami Inn Himandhoo , a selection of rooms can be found that showcase unique design elements such as a balcony or terrace. Expand your in-room entertainment choices with various amenities, such as television offered in certain accommodations. Rest assured that your hydration needs will be met, as some guestrooms are equipped with a coffee or tea maker, bottled water, instant coffee, instant tea and mini bar. Maintain your cleanliness and comfort using a hair dryer and toiletries available in select guest restrooms. Begin your day on a delightful note with a scrumptious complimentary breakfast, consistently served at Origami Inn Himandhoo .During your visit, indulge in a range of delightful culinary choices at hotel to enhance your experience. Do you possess exceptional culinary skills? Prepare your meals personally within the hotel at its BBQ facilities."
+        },
+        "short_description": "Basic bed and breakfast with 11 rooms, restaurant and bike rent",
+        "chain": "no_chain",
+        "brand": "no_brand",
+        "offers": [
+          {
+            "price": 88.51,
+            "brt": "p2d#",
+            "rf": "p2d#",
+            "brf": 9470032,
+            "rt": 9470032,
+            "vendor": "ctrp",
+            "vendor_id_raw": "91505186",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included",
+              "Balcony"
+            ],
+            "jc_code": "TRIPCOM",
+            "ranking_index": 0.88,
+            "chain": "",
+            "free_cancellation": false,
+            "special": false,
+            "room_name": "Deluxe room",
+            "rooms": [
+              {
+                "name": "Deluxe room",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included",
+              "balcony": "Balcony"
+            },
+            "partner_name": "Trip.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/ctrp/logo.svg?pos=zz"
+          },
+          {
+            "vendor": "bkng",
+            "price": 133.34,
+            "vendor_id_raw": "7758040",
+            "mota_code": null,
+            "jc_code": "",
+            "partner_name": "Booking.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/bkng/logo.svg?pos=zz",
+            "room_name": "Standard room",
+            "brf": 9470096,
+            "brt": "p2r#"
+          },
+          {
+            "vendor": "agda",
+            "price": 132.12,
+            "vendor_id_raw": "35420322",
+            "mota_code": null,
+            "jc_code": "",
+            "partner_name": "Agoda",
+            "partner_logo": "https://hotelscan.com/apis/vendors/agda/logo.svg?pos=zz",
+            "room_name": "Standard room",
+            "brf": 9470096,
+            "brt": "p2r#"
+          }
+        ],
+        "all_offers": [
+          {
+            "price": 88.51,
+            "brt": "p2d#",
+            "rf": "p2d#",
+            "brf": 9470032,
+            "rt": 9470032,
+            "vendor": "ctrp",
+            "vendor_id_raw": "91505186",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included",
+              "Balcony"
+            ],
+            "jc_code": "TRIPCOM",
+            "chain": "",
+            "free_cancellation": false,
+            "special": false,
+            "room_name": "Deluxe room",
+            "rooms": [
+              {
+                "name": "Deluxe room",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included",
+              "balcony": "Balcony"
+            },
+            "partner_name": "Trip.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/ctrp/logo.svg?pos=zz"
+          },
+          {
+            "price": 132.12,
+            "brt": "p2r#",
+            "rf": "p2r#",
+            "brf": 9470096,
+            "rt": 9470096,
+            "vendor": "agda",
+            "vendor_id_raw": "35420322",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included",
+              "Pay at the property",
+              "Balcony"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": false,
+            "special": false,
+            "room_name": "Standard room",
+            "rooms": [
+              {
+                "name": "Standard room",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included",
+              "pay_at_hotel": "Pay at the property",
+              "balcony": "Balcony"
+            },
+            "partner_name": "Agoda",
+            "partner_logo": "https://hotelscan.com/apis/vendors/agda/logo.svg?pos=zz"
+          },
+          {
+            "price": 133.34,
+            "brt": "p2r#",
+            "rf": "p2r#",
+            "brf": 9470096,
+            "rt": 9470096,
+            "vendor": "bkng",
+            "vendor_id_raw": "7758040",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included",
+              "Pay at the property",
+              "Balcony"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": false,
+            "special": false,
+            "room_name": "Standard room",
+            "rooms": [
+              {
+                "name": "Standard room",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included",
+              "pay_at_hotel": "Pay at the property",
+              "balcony": "Balcony"
+            },
+            "partner_name": "Booking.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/bkng/logo.svg?pos=zz"
+          },
+          {
+            "price": 159.89,
+            "brt": "p2dl",
+            "rf": "p2dl",
+            "brf": 9502784,
+            "rt": 9502784,
+            "vendor": "agda",
+            "vendor_id_raw": "35420322",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included",
+              "Free cancellation"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Premier deluxe room",
+            "rooms": [
+              {
+                "name": "Premier deluxe room",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included",
+              "refundable": "Free cancellation"
+            },
+            "partner_name": "Agoda",
+            "partner_logo": "https://hotelscan.com/apis/vendors/agda/logo.svg?pos=zz"
+          },
+          {
+            "price": 254.13,
+            "brt": "p4q#",
+            "rf": "p4q#",
+            "brf": 9470080,
+            "rt": 9470080,
+            "vendor": "agda",
+            "vendor_id_raw": "35420322",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included",
+              "Pay at the property"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": false,
+            "special": false,
+            "room_name": "Family Room",
+            "rooms": [
+              {
+                "name": "Family Room",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included",
+              "pay_at_hotel": "Pay at the property"
+            },
+            "partner_name": "Agoda",
+            "partner_logo": "https://hotelscan.com/apis/vendors/agda/logo.svg?pos=zz"
+          },
+          {
+            "price": 256.48,
+            "brt": "p2qd",
+            "rf": "p2qd",
+            "brf": 9470080,
+            "rt": 9470080,
+            "vendor": "bkng",
+            "vendor_id_raw": "7758040",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included",
+              "Pay at the property"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": false,
+            "special": false,
+            "room_name": "Deluxe Family Room",
+            "rooms": [
+              {
+                "name": "Deluxe Family Room",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included",
+              "pay_at_hotel": "Pay at the property"
+            },
+            "partner_name": "Booking.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/bkng/logo.svg?pos=zz"
+          },
+          {
+            "price": 312.19,
+            "brt": "p4q#",
+            "rf": "p4q#",
+            "brf": 9502784,
+            "rt": 9502784,
+            "vendor": "agda",
+            "vendor_id_raw": "35420322",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included",
+              "Free cancellation"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Family Room",
+            "rooms": [
+              {
+                "name": "Family Room",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included",
+              "refundable": "Free cancellation"
+            },
+            "partner_name": "Agoda",
+            "partner_logo": "https://hotelscan.com/apis/vendors/agda/logo.svg?pos=zz"
+          }
+        ],
+        "descriptions_language": {
+          "general": {
+            "original_language": true,
+            "text": "Great care is taken to ensure guests experience comfort through top-notch services and amenities. Remain linked during your visit by utilizing the complimentary internet access available.Prior to your check-in date, you can arrange airport transportation services, guaranteeing a seamless and efficient experience for both arrival and departure.Repeatedly enjoy your best-loved attire with the aid of the laundry service available at Origami Inn Himandhoo .During leisurely days and evenings, in-room amenities such as room service and daily housekeeping enable you to maximize your stay in the room. The hotel is completely smoke-free.Crafted for coziness, every guestroom provides an array of features, guaranteeing a tranquil night's sleep while maintaining the level of comfort. For an elevated experience at hotel, select rooms are equipped with air conditioning to improve your stay.At Origami Inn Himandhoo , a selection of rooms can be found that showcase unique design elements such as a balcony or terrace. Expand your in-room entertainment choices with various amenities, such as television offered in certain accommodations. Rest assured that your hydration needs will be met, as some guestrooms are equipped with a coffee or tea maker, bottled water, instant coffee, instant tea and mini bar. Maintain your cleanliness and comfort using a hair dryer and toiletries available in select guest restrooms. Begin your day on a delightful note with a scrumptious complimentary breakfast, consistently served at Origami Inn Himandhoo .During your visit, indulge in a range of delightful culinary choices at hotel to enhance your experience. Do you possess exceptional culinary skills? Prepare your meals personally within the hotel at its BBQ facilities."
+          }
+        },
+        "chain_code": null,
+        "bids": {
+          "ctrp": "j23",
+          "agda": "j23",
+          "bkng": "j23"
+        },
+        "worst_offer": 133.34,
+        "best_offer": 88.51,
+        "best_offer_ota": "ctrp",
+        "best_offer_mota": null,
+        "discount": 35,
+        "offers_count": 7,
+        "coordinates": {
+          "lat": 3.92125,
+          "lng": 72.74209
+        },
+        "distance": 0.49,
+        "neighborhood": null,
+        "badge": null,
+        "distances": [
+          {
+            "from": "center",
+            "distance": 0.49,
+            "time": 681,
+            "means": "foot",
+            "means_type": "foot"
+          }
+        ],
+        "specs": {
+          "bathrooms": null,
+          "beds": null,
+          "bedrooms": null,
+          "guests": null,
+          "square_meters": null
+        },
+        "toa_label": "bed and breakfast",
+        "top_amenities": [
+          "internet",
+          "restaurant",
+          "room_service",
+          "air_conditioning"
+        ],
+        "transportations": {
+          "airports": [],
+          "trains": []
+        },
+        "images": [
+          {
+            "image_id": "725023238",
+            "label": ""
+          },
+          {
+            "image_id": "725023223",
+            "label": ""
+          },
+          {
+            "image_id": "725023232",
+            "label": ""
+          },
+          {
+            "image_id": "725023244",
+            "label": ""
+          },
+          {
+            "image_id": "725023210",
+            "label": ""
+          },
+          {
+            "image_id": "725023239",
+            "label": ""
+          },
+          {
+            "image_id": "725023228",
+            "label": ""
+          },
+          {
+            "image_id": "725023208",
+            "label": ""
+          },
+          {
+            "image_id": "725023226",
+            "label": ""
+          },
+          {
+            "image_id": "725023205",
+            "label": ""
+          },
+          {
+            "image_id": "725023195",
+            "label": ""
+          },
+          {
+            "image_id": "725023198",
+            "label": ""
+          },
+          {
+            "image_id": "725023236",
+            "label": ""
+          },
+          {
+            "image_id": "725023240",
+            "label": ""
+          },
+          {
+            "image_id": "725023212",
+            "label": ""
+          }
+        ],
+        "hero_offer": {
+          "price": 88.51,
+          "brt": "p2d#",
+          "rf": "p2d#",
+          "brf": 9470032,
+          "rt": 9470032,
+          "vendor": "ctrp",
+          "vendor_id_raw": "91505186",
+          "mota_code": null,
+          "direct_offer": false,
+          "offer_flags": {
+            "breakfast": "Breakfast included",
+            "balcony": "Balcony"
+          },
+          "jc_code": "TRIPCOM",
+          "ranking_index": 0.88,
+          "chain": "",
+          "free_cancellation": false,
+          "special": false,
+          "room_name": "Deluxe room",
+          "rooms": [
+            {
+              "name": "Deluxe room",
+              "flags": []
+            }
+          ],
+          "partner_name": "Trip.com",
+          "partner_logo": "https://hotelscan.com/apis/vendors/ctrp/logo.svg?pos=zz"
+        },
+        "rank": 0,
+        "ctrl_srt": "im a ctrl teapot",
+        "test_srt": "im a test teapot"
+      }
+    ],
+    "filters": [],
+    "query": {
+      "pos": "zz"
+    }
+  }
+}

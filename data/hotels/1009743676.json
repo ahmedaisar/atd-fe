@@ -1,0 +1,529 @@
+{
+  "_meta": {
+    "status": "SUCCESS",
+    "cached": true,
+    "count": 1,
+    "debug": {
+      "ticket": {
+        "ticket_id": "1009743676_zz_zz_d_publ_en_2_2025-10-08_2025-10-13_1_3",
+        "created_at": 1758065379.0569,
+        "loop": null,
+        "snapped_at": 1758065379.1871,
+        "snapshot_id": "1009743676_zz_zz_d_publ_en_2_2025-10-08_2025-10-13_1_3",
+        "snapshot_ttl": 300,
+        "executions": 2,
+        "progress": 1,
+        "save_errors": []
+      }
+    }
+  },
+  "data": {
+    "meta": [],
+    "geo": {
+      "hs_id": "x5fa2305ia69",
+      "region_name": "Guraidhoo",
+      "region_name_long": "Guraidhoo, Maldives",
+      "region_type": "CITY",
+      "region_id": 6158524,
+      "country_iso": "MV",
+      "country": "maldives",
+      "localised_country": "Maldives",
+      "center": [
+        3.90042,
+        73.46827
+      ],
+      "centroid": [
+        3.90002,
+        73.4684
+      ],
+      "polygon": [
+        "3.90191,73.465366",
+        "3.896186,73.465753",
+        "3.896274,73.471173",
+        "3.903793,73.470641",
+        "3.904655,73.468789",
+        "3.90191,73.465366"
+      ],
+      "radius": 0.52,
+      "zoom": -1,
+      "search_by_polygon": 0,
+      "cluster": 0,
+      "properties": 57,
+      "radius_override": 5,
+      "boundingbox": {
+        "ne": [
+          3.905,
+          73.472
+        ],
+        "sw": [
+          3.896,
+          73.465
+        ]
+      },
+      "airports": [
+        "MLE",
+        "DRV"
+      ],
+      "region_name_en": "Guraidhoo",
+      "region_name_long_en": "Guraidhoo, Maldives",
+      "referrer_city_name_en": "Guraidhoo",
+      "parent_region_id": 6051084,
+      "parent_hs_id": "x5p4hmhw6iot",
+      "parent_region_name": "Maldives (all)",
+      "parent_region_name_long": "Maldives (all)",
+      "dynamic_bbox": {
+        "ne": [
+          3.903,
+          73.468
+        ],
+        "sw": [
+          3.903,
+          73.468
+        ]
+      }
+    },
+    "records": [
+      {
+        "hs_id": 1009743676,
+        "slug": "chambao-maldives-guraidhoo-mv-1009743676",
+        "name": "Chambao Maldives",
+        "toa": "guest_house",
+        "location": {
+          "city": "Guraidhoo",
+          "zip": "08080",
+          "country_iso2": "MV",
+          "address": "Villa Vadige",
+          "geoid": "x5fa2305ia69",
+          "loc": {
+            "type": "Point"
+          },
+          "coordinates": {
+            "lng": 73.46876,
+            "lat": 3.90334
+          }
+        },
+        "opening_time": {
+          "check_in_from": "15:00",
+          "check_in_to": "18:00",
+          "check_out_from": "08:00",
+          "check_out_to": "12:00"
+        },
+        "quality": {
+          "review_count": 38,
+          "review_rating": 95,
+          "stars": 0,
+          "stars_is_estimated": false,
+          "review_source": ""
+        },
+        "covid_safe": true,
+        "amenities": {
+          "wellness": [
+            "solarium"
+          ],
+          "sports": [
+            "badminton",
+            "ping_pong",
+            "sub"
+          ],
+          "internet": [
+            "wifi",
+            "internet"
+          ],
+          "food_drink": [
+            "restaurant",
+            "room_service",
+            "cafe",
+            "bar"
+          ],
+          "pets": [
+            "pets_allowed"
+          ],
+          "outdoor": [
+            "terrace"
+          ],
+          "other": [],
+          "business": [
+            "meeting_room"
+          ],
+          "children": [
+            "children_playground"
+          ],
+          "entertainment": [
+            "tv_lobby"
+          ],
+          "transfer": [
+            "shuttle_service"
+          ],
+          "room": [
+            "air_conditioning"
+          ],
+          "reception": [
+            "luggage_storage",
+            "safety_deposit_box"
+          ]
+        },
+        "descriptions": {
+          "general": "At Chambao Maldives, exceptional service and top-notch amenities create a memorable experience for guests. Complimentary internet access is available in the apartment to ensure you stay connected during your visit. Desire to unwind? Make the most of your visit at Chambao Maldives with accessible amenities such as daily housekeeping. Accommodations come equipped with all the conveniences required for a restful night's slumber.A selection of rooms feature linen service and air conditioning to ensure your comfort and convenience.A few accommodations at Chambao Maldives also include unique design elements like a balcony or terrace. A number of rooms feature television for guest amusement and enjoyment. Chambao Maldives offers a hair dryer and toiletries in the restrooms of specific accommodations. At Chambao Maldives, each day commences with a scrumptious breakfast offered at no additional cost.",
+          "localized": "At Chambao Maldives, exceptional service and top-notch amenities create a memorable experience for guests. Complimentary internet access is available in the apartment to ensure you stay connected during your visit. Desire to unwind? Make the most of your visit at Chambao Maldives with accessible amenities such as daily housekeeping. Accommodations come equipped with all the conveniences required for a restful night's slumber.A selection of rooms feature linen service and air conditioning to ensure your comfort and convenience.A few accommodations at Chambao Maldives also include unique design elements like a balcony or terrace. A number of rooms feature television for guest amusement and enjoyment. Chambao Maldives offers a hair dryer and toiletries in the restrooms of specific accommodations. At Chambao Maldives, each day commences with a scrumptious breakfast offered at no additional cost."
+        },
+        "short_description": "Simple guest house with restaurant, bar and meeting room",
+        "chain": "no_chain",
+        "brand": "no_brand",
+        "offers": [
+          {
+            "price": 84.58,
+            "brt": "p2r#",
+            "rf": "p2r#",
+            "brf": 8421440,
+            "rt": 8421440,
+            "vendor": "bkng",
+            "vendor_id_raw": "8232742",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [],
+            "jc_code": "",
+            "ranking_index": 0.9963584771813667,
+            "chain": "",
+            "free_cancellation": false,
+            "special": false,
+            "room_name": "Standard room",
+            "rooms": [
+              {
+                "name": "Standard room",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": [],
+            "partner_name": "Booking.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/bkng/logo.svg?pos=zz"
+          },
+          {
+            "vendor": "agda",
+            "price": 83.81,
+            "vendor_id_raw": "31056390",
+            "mota_code": null,
+            "jc_code": "",
+            "partner_name": "Agoda",
+            "partner_logo": "https://hotelscan.com/apis/vendors/agda/logo.svg?pos=zz",
+            "room_name": "Standard room",
+            "brf": 8421440,
+            "brt": "p2r#"
+          }
+        ],
+        "all_offers": [
+          {
+            "price": 83.81,
+            "brt": "p2r#",
+            "rf": "p2r#",
+            "brf": 8421440,
+            "rt": 8421440,
+            "vendor": "agda",
+            "vendor_id_raw": "31056390",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": false,
+            "special": false,
+            "room_name": "Standard room",
+            "rooms": [
+              {
+                "name": "Standard room",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": [],
+            "partner_name": "Agoda",
+            "partner_logo": "https://hotelscan.com/apis/vendors/agda/logo.svg?pos=zz"
+          },
+          {
+            "price": 84.58,
+            "brt": "p2r#",
+            "rf": "p2r#",
+            "brf": 8421440,
+            "rt": 8421440,
+            "vendor": "bkng",
+            "vendor_id_raw": "8232742",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": false,
+            "special": false,
+            "room_name": "Standard room",
+            "rooms": [
+              {
+                "name": "Standard room",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": [],
+            "partner_name": "Booking.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/bkng/logo.svg?pos=zz"
+          },
+          {
+            "price": 110.92,
+            "brt": "p2r#",
+            "rf": "p2r#",
+            "brf": 9470016,
+            "rt": 9470016,
+            "vendor": "agda",
+            "vendor_id_raw": "31056390",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": false,
+            "special": false,
+            "room_name": "Standard room",
+            "rooms": [
+              {
+                "name": "Standard room",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included"
+            },
+            "partner_name": "Agoda",
+            "partner_logo": "https://hotelscan.com/apis/vendors/agda/logo.svg?pos=zz"
+          },
+          {
+            "price": 111.95,
+            "brt": "p2r#",
+            "rf": "p2r#",
+            "brf": 9470016,
+            "rt": 9470016,
+            "vendor": "bkng",
+            "vendor_id_raw": "8232742",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": false,
+            "special": false,
+            "room_name": "Standard room",
+            "rooms": [
+              {
+                "name": "Standard room",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included"
+            },
+            "partner_name": "Booking.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/bkng/logo.svg?pos=zz"
+          },
+          {
+            "price": 167.62,
+            "brt": "p4r#",
+            "rf": "p4r#",
+            "brf": 8421440,
+            "rt": 8421440,
+            "vendor": "agda",
+            "vendor_id_raw": "31056390",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": false,
+            "special": false,
+            "room_name": "Standard Quadruple Room",
+            "rooms": [
+              {
+                "name": "Standard Quadruple Room",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": [],
+            "partner_name": "Agoda",
+            "partner_logo": "https://hotelscan.com/apis/vendors/agda/logo.svg?pos=zz"
+          },
+          {
+            "price": 169.16,
+            "brt": "p4r#",
+            "rf": "p4r#",
+            "brf": 8421440,
+            "rt": 8421440,
+            "vendor": "bkng",
+            "vendor_id_raw": "8232742",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": false,
+            "special": false,
+            "room_name": "Standard Quadruple Room",
+            "rooms": [
+              {
+                "name": "Standard Quadruple Room",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": [],
+            "partner_name": "Booking.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/bkng/logo.svg?pos=zz"
+          }
+        ],
+        "descriptions_language": {
+          "general": {
+            "original_language": true,
+            "text": "At Chambao Maldives, exceptional service and top-notch amenities create a memorable experience for guests. Complimentary internet access is available in the apartment to ensure you stay connected during your visit. Desire to unwind? Make the most of your visit at Chambao Maldives with accessible amenities such as daily housekeeping. Accommodations come equipped with all the conveniences required for a restful night's slumber.A selection of rooms feature linen service and air conditioning to ensure your comfort and convenience.A few accommodations at Chambao Maldives also include unique design elements like a balcony or terrace. A number of rooms feature television for guest amusement and enjoyment. Chambao Maldives offers a hair dryer and toiletries in the restrooms of specific accommodations. At Chambao Maldives, each day commences with a scrumptious breakfast offered at no additional cost."
+          }
+        },
+        "chain_code": null,
+        "bids": {
+          "agda": "j23",
+          "bkng": "j23"
+        },
+        "worst_offer": null,
+        "best_offer": 83.81,
+        "best_offer_ota": "agda",
+        "best_offer_mota": null,
+        "discount": 0,
+        "offers_count": 6,
+        "coordinates": {
+          "lat": 3.90334,
+          "lng": 73.46876
+        },
+        "distance": 0.33,
+        "neighborhood": null,
+        "badge": null,
+        "distances": [
+          {
+            "from": "center",
+            "distance": 0.33,
+            "time": 458,
+            "means": "foot",
+            "means_type": "foot"
+          }
+        ],
+        "specs": {
+          "bathrooms": null,
+          "beds": null,
+          "bedrooms": null,
+          "guests": null,
+          "square_meters": null
+        },
+        "toa_label": "guest house",
+        "top_amenities": [
+          "internet",
+          "restaurant",
+          "room_service",
+          "bar",
+          "pets_allowed"
+        ],
+        "transportations": {
+          "airports": [],
+          "trains": []
+        },
+        "images": [
+          {
+            "image_id": "682852060",
+            "label": ""
+          },
+          {
+            "image_id": "682851985",
+            "label": ""
+          },
+          {
+            "image_id": "682852020",
+            "label": ""
+          },
+          {
+            "image_id": "682851971",
+            "label": ""
+          },
+          {
+            "image_id": "682852044",
+            "label": ""
+          },
+          {
+            "image_id": "682852045",
+            "label": ""
+          },
+          {
+            "image_id": "682851991",
+            "label": ""
+          },
+          {
+            "image_id": "682851986",
+            "label": ""
+          },
+          {
+            "image_id": "682852032",
+            "label": ""
+          },
+          {
+            "image_id": "682852065",
+            "label": ""
+          },
+          {
+            "image_id": "682852025",
+            "label": ""
+          },
+          {
+            "image_id": "682852028",
+            "label": ""
+          },
+          {
+            "image_id": "682852057",
+            "label": ""
+          },
+          {
+            "image_id": "682852061",
+            "label": ""
+          },
+          {
+            "image_id": "682851999",
+            "label": ""
+          }
+        ],
+        "hero_offer": {
+          "price": 84.58,
+          "brt": "p2r#",
+          "rf": "p2r#",
+          "brf": 8421440,
+          "rt": 8421440,
+          "vendor": "bkng",
+          "vendor_id_raw": "8232742",
+          "mota_code": null,
+          "direct_offer": false,
+          "offer_flags": [],
+          "jc_code": "",
+          "ranking_index": 0.9963584771813667,
+          "chain": "",
+          "free_cancellation": false,
+          "special": false,
+          "room_name": "Standard room",
+          "rooms": [
+            {
+              "name": "Standard room",
+              "flags": []
+            }
+          ],
+          "partner_name": "Booking.com",
+          "partner_logo": "https://hotelscan.com/apis/vendors/bkng/logo.svg?pos=zz"
+        },
+        "rank": 0,
+        "ctrl_srt": "im a ctrl teapot",
+        "test_srt": "im a test teapot"
+      }
+    ],
+    "filters": [],
+    "query": {
+      "pos": "zz"
+    }
+  }
+}

@@ -1,0 +1,984 @@
+{
+  "_meta": {
+    "status": "SUCCESS",
+    "cached": true,
+    "count": 1,
+    "debug": {
+      "ticket": {
+        "ticket_id": "1000377809_zz_zz_d_publ_en_2_2025-10-08_2025-10-13_1_3",
+        "created_at": 1758065385.7298,
+        "loop": null,
+        "snapped_at": 1758065387.0771,
+        "snapshot_id": "1000377809_zz_zz_d_publ_en_2_2025-10-08_2025-10-13_1_3",
+        "snapshot_ttl": 300,
+        "executions": 5,
+        "progress": 1,
+        "save_errors": []
+      }
+    }
+  },
+  "data": {
+    "meta": [],
+    "geo": {
+      "hs_id": "x54h121bvwb7",
+      "region_name": "Maafushi",
+      "region_name_long": "Maafushi, Maldives",
+      "region_type": "CITY",
+      "region_id": 6147669,
+      "country_iso": "MV",
+      "country": "maldives",
+      "localised_country": "Maldives",
+      "center": [
+        3.94171,
+        73.49239
+      ],
+      "centroid": [
+        3.94171,
+        73.49239
+      ],
+      "polygon": [
+        "3.95425,73.48239",
+        "3.95425,73.50239",
+        "3.92916,73.50239",
+        "3.92916,73.48239",
+        "3.95425,73.48239"
+      ],
+      "radius": 1.79,
+      "zoom": -1,
+      "search_by_polygon": 1,
+      "cluster": 0,
+      "properties": 92,
+      "radius_override": 5,
+      "boundingbox": {
+        "ne": [
+          3.955,
+          73.503
+        ],
+        "sw": [
+          3.929,
+          73.482
+        ]
+      },
+      "airports": [
+        "MLE",
+        "DRV"
+      ],
+      "region_name_en": "Maafushi",
+      "region_name_long_en": "Maafushi, Maldives",
+      "referrer_city_name_en": "Maafushi",
+      "parent_region_id": 6051084,
+      "parent_hs_id": "x5p4hmhw6iot",
+      "parent_region_name": "Maldives (all)",
+      "parent_region_name_long": "Maldives (all)",
+      "dynamic_bbox": {
+        "ne": [
+          3.944,
+          73.49
+        ],
+        "sw": [
+          3.944,
+          73.49
+        ]
+      }
+    },
+    "records": [
+      {
+        "hs_id": 1000377809,
+        "slug": "salt-beach-hotel-maafushi-mv-1000377809",
+        "name": "Salt Beach Hotel",
+        "ty_id": "05dc5758-ec8a-4810-9b8a-2b3d493c245d",
+        "toa": "guest_house",
+        "building": {
+          "room_num": 15
+        },
+        "location": {
+          "city": "Maafushi",
+          "zip": "08090",
+          "country_iso2": "MV",
+          "address": "Miskihmagu",
+          "geoid": "x54h121bvwb7",
+          "loc": {
+            "type": "Point"
+          },
+          "coordinates": {
+            "lng": 73.490709,
+            "lat": 3.944182
+          }
+        },
+        "opening_time": {
+          "check_in_from": "14:00",
+          "check_in_to": "00:00",
+          "check_out_from": null,
+          "check_out_to": "13:00"
+        },
+        "quality": {
+          "review_count": 200,
+          "review_rating": 80,
+          "stars": 3,
+          "stars_is_estimated": false,
+          "review_source": ""
+        },
+        "covid_safe": false,
+        "amenities": {
+          "children": [
+            "babysitter",
+            "children_playground"
+          ],
+          "wellness": [
+            "massage",
+            "hair_salon",
+            "spa"
+          ],
+          "sports": [
+            "bike_rent",
+            "sub",
+            "surf"
+          ],
+          "internet": [
+            "wifi"
+          ],
+          "transfer": [
+            "shuttle_service"
+          ],
+          "food_drink": [
+            "restaurant",
+            "room_service",
+            "bar"
+          ],
+          "disability": [
+            "disability_facilities"
+          ],
+          "parking": [
+            "parking"
+          ],
+          "outdoor": [
+            "garden",
+            "terrace"
+          ],
+          "room": [
+            "fan",
+            "air_conditioning",
+            "tv"
+          ],
+          "reception": [
+            "24h_reception",
+            "luggage_storage",
+            "concierge",
+            "laundry_service",
+            "safety_deposit_box"
+          ]
+        },
+        "descriptions": {
+          "direction": "Located in Maafushi, Salt Beach Hotel is on the beach. Maafushi Harbor and Bolifushi Island Pier are worth checking out if an activity is on the agenda, while those wishing to experience the area's natural beauty can explore Water Sports Beach and Rihiveli Beach. Looking to get your feet wet? Scuba diving, snorkeling and windsurfing adventures can be found near the property.",
+          "general": "Salt Beach Hotel at Maafushi provides flawless service and all the necessary facilities for visitors.Stay connected with your associates, as complimentary Wi-Fi is available during your entire visit.To facilitate your arrival and departure, you can pre-book airport transfer services prior to checking in. The hotel offers car hire and shuttle amenities for your ease in navigating around Maldive Islands.The hotel offers reception amenities including concierge service, luggage storage and safety deposit boxes to ensure a comfortable stay for guests. Should you require assistance, the ticket service and tours can also aid in booking tickets and securing reservations at the finest shows and events in the vicinity. The hotel also features a fireplace, providing a cozy ambience during cool evenings. Whether it's an extended stay or simply needing fresh attire, dry cleaning service and laundry service provided by hotel ensures your cherished travel garments stay spotless and accessible. Your stay will be comfortable with the presence of 24-hour room service, room service and daily housekeeping as an in-room amenity for your relaxation and enjoyment. Need something at the last minute? The convenience stores has you covered, ensuring your requirements are met without any inconvenience. Smoking is permitted solely in the specified smoking zones allocated by hotel. In order to ensure the utmost level of relaxation, the guestrooms feature an inviting design and are equipped with all basic necessities, creating a delightful stay experience. To ensure a pleasant stay, a selection of rooms at hotel come furnished with linen service and air conditioning, all designed with your ease in mind.Several chosen accommodations at Salt Beach Hotel at Maafushi have a balcony or terrace incorporated into the room design.Selected rooms offer in-room amusement like television as a source of entertainment for guests to enjoy. Within specific rooms, bottled water and mini bar is conveniently available for your use.Understanding the significance of bathroom facilities in enhancing visitor contentment, hotel offers a hair dryer and toiletries within a few chosen chambers. Start your day stress-free at Salt Beach Hotel at Maafushi as breakfast is made available for you on the premises.How about kicking off each day of your getaway with a delicious cup of coffee? At the hotel, relish in the invigorating taste of a freshly brewed, excellent coffee. Various excellent meal offerings at hotel ensure that enticing and easily accessible options are constantly available.Visitors with specific dietary preferences can savor a variety of culinary styles at Salt Beach Hotel at Maafushi, featuring halal choices to accommodate their needs. Within the hotel, discerning guests will also find on-site culinary facilities like BBQ facilities and shared kitchen to further cater to their needs. Throughout the day, engage in the entertaining activities available at Salt Beach Hotel at Maafushi. Make sure to discover the readily available beach at hotel. Unwind and conclude each day delightfully by stopping by massage, salon and spa, ensuring a soothing experience.",
+          "amenities": true,
+          "localized": "Salt Beach Hotel at Maafushi provides flawless service and all the necessary facilities for visitors.Stay connected with your associates, as complimentary Wi-Fi is available during your entire visit.To facilitate your arrival and departure, you can pre-book airport transfer services prior to checking in. The hotel offers car hire and shuttle amenities for your ease in navigating around Maldive Islands.The hotel offers reception amenities including concierge service, luggage storage and safety deposit boxes to ensure a comfortable stay for guests. Should you require assistance, the ticket service and tours can also aid in booking tickets and securing reservations at the finest shows and events in the vicinity. The hotel also features a fireplace, providing a cozy ambience during cool evenings. Whether it's an extended stay or simply needing fresh attire, dry cleaning service and laundry service provided by hotel ensures your cherished travel garments stay spotless and accessible. Your stay will be comfortable with the presence of 24-hour room service, room service and daily housekeeping as an in-room amenity for your relaxation and enjoyment. Need something at the last minute? The convenience stores has you covered, ensuring your requirements are met without any inconvenience. Smoking is permitted solely in the specified smoking zones allocated by hotel. In order to ensure the utmost level of relaxation, the guestrooms feature an inviting design and are equipped with all basic necessities, creating a delightful stay experience. To ensure a pleasant stay, a selection of rooms at hotel come furnished with linen service and air conditioning, all designed with your ease in mind.Several chosen accommodations at Salt Beach Hotel at Maafushi have a balcony or terrace incorporated into the room design.Selected rooms offer in-room amusement like television as a source of entertainment for guests to enjoy. Within specific rooms, bottled water and mini bar is conveniently available for your use.Understanding the significance of bathroom facilities in enhancing visitor contentment, hotel offers a hair dryer and toiletries within a few chosen chambers. Start your day stress-free at Salt Beach Hotel at Maafushi as breakfast is made available for you on the premises.How about kicking off each day of your getaway with a delicious cup of coffee? At the hotel, relish in the invigorating taste of a freshly brewed, excellent coffee. Various excellent meal offerings at hotel ensure that enticing and easily accessible options are constantly available.Visitors with specific dietary preferences can savor a variety of culinary styles at Salt Beach Hotel at Maafushi, featuring halal choices to accommodate their needs. Within the hotel, discerning guests will also find on-site culinary facilities like BBQ facilities and shared kitchen to further cater to their needs. Throughout the day, engage in the entertaining activities available at Salt Beach Hotel at Maafushi. Make sure to discover the readily available beach at hotel. Unwind and conclude each day delightfully by stopping by massage, salon and spa, ensuring a soothing experience."
+        },
+        "short_description": "Very good accommodation. Close to the beach .",
+        "offers": [
+          {
+            "price": 106.49,
+            "brt": "p2r#b",
+            "rf": "p2r#b",
+            "brf": 9503360,
+            "rt": 9503360,
+            "vendor": "bkng",
+            "vendor_id_raw": "1775507",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included",
+              "Free cancellation",
+              "Garden view",
+              "Pay at the property"
+            ],
+            "jc_code": "",
+            "ranking_index": 0.9935768616771529,
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Standard room - Choice of single or double beds",
+            "rooms": [
+              {
+                "name": "Standard room - Choice of single or double beds",
+                "flags": [
+                  "Choice of single or double beds"
+                ]
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included",
+              "refundable": "Free cancellation",
+              "view_garden": "Garden view",
+              "pay_at_hotel": "Pay at the property"
+            },
+            "partner_name": "Booking.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/bkng/logo.svg?pos=zz"
+          },
+          {
+            "vendor": "htls",
+            "price": 123.43,
+            "vendor_id_raw": "652271",
+            "mota_code": null,
+            "jc_code": "",
+            "partner_name": "Hotels.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/htls/logo.svg?pos=zz",
+            "room_name": "Go to the booking site for more details",
+            "brf": 9503808,
+            "brt": "z2r#"
+          },
+          {
+            "vendor": "ctrp",
+            "price": 112.26,
+            "vendor_id_raw": "9585195",
+            "mota_code": null,
+            "jc_code": "TRIPCOM",
+            "partner_name": "Trip.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/ctrp/logo.svg?pos=zz",
+            "room_name": "Go to the booking site for more details",
+            "brf": 9471104,
+            "brt": "z2r#"
+          },
+          {
+            "vendor": "expd",
+            "price": 104.78,
+            "vendor_id_raw": "17062345",
+            "mota_code": null,
+            "jc_code": "EXPEDIA",
+            "partner_name": "Expedia",
+            "partner_logo": "https://hotelscan.com/apis/vendors/expd/logo.svg?pos=zz",
+            "room_name": "Go to the booking site for more details",
+            "brf": 9503808,
+            "brt": "z2r#"
+          }
+        ],
+        "all_offers": [
+          {
+            "price": 104.78,
+            "brt": "z2r#",
+            "rf": "z2r#",
+            "brf": 9503808,
+            "rt": 9503808,
+            "vendor": "expd",
+            "vendor_id_raw": "17062345",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included",
+              "Free cancellation",
+              "Sea view"
+            ],
+            "jc_code": "EXPEDIA",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Go to the booking site for more details",
+            "rooms": [
+              {
+                "name": "Go to the booking site for more details",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included",
+              "refundable": "Free cancellation",
+              "view_sea": "Sea view"
+            },
+            "partner_name": "Expedia",
+            "partner_logo": "https://hotelscan.com/apis/vendors/expd/logo.svg?pos=zz"
+          },
+          {
+            "price": 106.49,
+            "brt": "p2r#b",
+            "rf": "p2r#b",
+            "brf": 9503360,
+            "rt": 9503360,
+            "vendor": "bkng",
+            "vendor_id_raw": "1775507",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included",
+              "Free cancellation",
+              "Garden view",
+              "Pay at the property"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Standard room - Choice of single or double beds",
+            "rooms": [
+              {
+                "name": "Standard room - Choice of single or double beds",
+                "flags": [
+                  "Choice of single or double beds"
+                ]
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included",
+              "refundable": "Free cancellation",
+              "view_garden": "Garden view",
+              "pay_at_hotel": "Pay at the property"
+            },
+            "partner_name": "Booking.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/bkng/logo.svg?pos=zz"
+          },
+          {
+            "price": 112.26,
+            "brt": "z2r#",
+            "rf": "z2r#",
+            "brf": 9471104,
+            "rt": 9471104,
+            "vendor": "ctrp",
+            "vendor_id_raw": "9585195",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included",
+              "Sea view",
+              "Pay at the property"
+            ],
+            "jc_code": "TRIPCOM",
+            "chain": "",
+            "free_cancellation": false,
+            "special": false,
+            "room_name": "Go to the booking site for more details",
+            "rooms": [
+              {
+                "name": "Go to the booking site for more details",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included",
+              "view_sea": "Sea view",
+              "pay_at_hotel": "Pay at the property"
+            },
+            "partner_name": "Trip.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/ctrp/logo.svg?pos=zz"
+          },
+          {
+            "price": 112.81,
+            "brt": "z2r#",
+            "rf": "z2r#",
+            "brf": 9471040,
+            "rt": 9471040,
+            "vendor": "ctrp",
+            "vendor_id_raw": "9585195",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included",
+              "Sea view"
+            ],
+            "jc_code": "TRIPCOM",
+            "chain": "",
+            "free_cancellation": false,
+            "special": false,
+            "room_name": "Go to the booking site for more details",
+            "rooms": [
+              {
+                "name": "Go to the booking site for more details",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included",
+              "view_sea": "Sea view"
+            },
+            "partner_name": "Trip.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/ctrp/logo.svg?pos=zz"
+          },
+          {
+            "price": 123.43,
+            "brt": "z2r#",
+            "rf": "z2r#",
+            "brf": 9503808,
+            "rt": 9503808,
+            "vendor": "htls",
+            "vendor_id_raw": "652271",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included",
+              "Free cancellation",
+              "Sea view"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Go to the booking site for more details",
+            "rooms": [
+              {
+                "name": "Go to the booking site for more details",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included",
+              "refundable": "Free cancellation",
+              "view_sea": "Sea view"
+            },
+            "partner_name": "Hotels.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/htls/logo.svg?pos=zz"
+          },
+          {
+            "price": 123.44,
+            "brt": "z2r#",
+            "rf": "z2r#",
+            "brf": 9503872,
+            "rt": 9503872,
+            "vendor": "htls",
+            "vendor_id_raw": "652271",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included",
+              "Free cancellation",
+              "Sea view",
+              "Pay at the property"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Go to the booking site for more details",
+            "rooms": [
+              {
+                "name": "Go to the booking site for more details",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included",
+              "refundable": "Free cancellation",
+              "view_sea": "Sea view",
+              "pay_at_hotel": "Pay at the property"
+            },
+            "partner_name": "Hotels.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/htls/logo.svg?pos=zz"
+          },
+          {
+            "price": 123.44,
+            "brt": "z2r#",
+            "rf": "z2r#",
+            "brf": 9503872,
+            "rt": 9503872,
+            "vendor": "expd",
+            "vendor_id_raw": "17062345",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included",
+              "Free cancellation",
+              "Sea view",
+              "Pay at the property"
+            ],
+            "jc_code": "EXPEDIA",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Go to the booking site for more details",
+            "rooms": [
+              {
+                "name": "Go to the booking site for more details",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included",
+              "refundable": "Free cancellation",
+              "view_sea": "Sea view",
+              "pay_at_hotel": "Pay at the property"
+            },
+            "partner_name": "Expedia",
+            "partner_logo": "https://hotelscan.com/apis/vendors/expd/logo.svg?pos=zz"
+          },
+          {
+            "price": 125.37,
+            "brt": "p2q#",
+            "rf": "p2q#",
+            "brf": 9502784,
+            "rt": 9502784,
+            "vendor": "expd",
+            "vendor_id_raw": "17062345",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included",
+              "Free cancellation"
+            ],
+            "jc_code": "EXPEDIA",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Family room",
+            "rooms": [
+              {
+                "name": "Family room",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included",
+              "refundable": "Free cancellation"
+            },
+            "partner_name": "Expedia",
+            "partner_logo": "https://hotelscan.com/apis/vendors/expd/logo.svg?pos=zz"
+          },
+          {
+            "price": 131.61,
+            "brt": "p2r#b",
+            "rf": "p2r#b",
+            "brf": 12124800,
+            "rt": 12124800,
+            "vendor": "bkng",
+            "vendor_id_raw": "1775507",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast and dinner",
+              "Free cancellation",
+              "Garden view",
+              "Pay at the property"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Standard room - Choice of single or double beds",
+            "rooms": [
+              {
+                "name": "Standard room - Choice of single or double beds",
+                "flags": [
+                  "Choice of single or double beds"
+                ]
+              }
+            ],
+            "offer_flags_new": {
+              "half_board_dinner": "Breakfast and dinner",
+              "refundable": "Free cancellation",
+              "view_garden": "Garden view",
+              "pay_at_hotel": "Pay at the property"
+            },
+            "partner_name": "Booking.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/bkng/logo.svg?pos=zz"
+          },
+          {
+            "price": 139.99,
+            "brt": "p2r#b",
+            "rf": "p2r#b",
+            "brf": 10027648,
+            "rt": 10027648,
+            "vendor": "bkng",
+            "vendor_id_raw": "1775507",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Full board",
+              "Free cancellation",
+              "Garden view",
+              "Pay at the property"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Standard room - Choice of single or double beds",
+            "rooms": [
+              {
+                "name": "Standard room - Choice of single or double beds",
+                "flags": [
+                  "Choice of single or double beds"
+                ]
+              }
+            ],
+            "offer_flags_new": {
+              "full_board": "Full board",
+              "refundable": "Free cancellation",
+              "view_garden": "Garden view",
+              "pay_at_hotel": "Pay at the property"
+            },
+            "partner_name": "Booking.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/bkng/logo.svg?pos=zz"
+          },
+          {
+            "price": 141.18,
+            "brt": "p2r#b",
+            "rf": "p2r#b",
+            "brf": 9503296,
+            "rt": 9503296,
+            "vendor": "ctrp",
+            "vendor_id_raw": "9585195",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included",
+              "Free cancellation",
+              "Garden view"
+            ],
+            "jc_code": "TRIPCOM",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Standard room - Choice of single or double beds",
+            "rooms": [
+              {
+                "name": "Standard room - Choice of single or double beds",
+                "flags": [
+                  "Choice of single or double beds"
+                ]
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included",
+              "refundable": "Free cancellation",
+              "view_garden": "Garden view"
+            },
+            "partner_name": "Trip.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/ctrp/logo.svg?pos=zz"
+          },
+          {
+            "price": 148.05,
+            "brt": "p2q#",
+            "rf": "p2q#",
+            "brf": 9502848,
+            "rt": 9502848,
+            "vendor": "htls",
+            "vendor_id_raw": "652271",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included",
+              "Free cancellation",
+              "Pay at the property"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Family room",
+            "rooms": [
+              {
+                "name": "Family room",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included",
+              "refundable": "Free cancellation",
+              "pay_at_hotel": "Pay at the property"
+            },
+            "partner_name": "Hotels.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/htls/logo.svg?pos=zz"
+          },
+          {
+            "price": 148.05,
+            "brt": "p2q#",
+            "rf": "p2q#",
+            "brf": 9502848,
+            "rt": 9502848,
+            "vendor": "expd",
+            "vendor_id_raw": "17062345",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included",
+              "Free cancellation",
+              "Pay at the property"
+            ],
+            "jc_code": "EXPEDIA",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Family room",
+            "rooms": [
+              {
+                "name": "Family room",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included",
+              "refundable": "Free cancellation",
+              "pay_at_hotel": "Pay at the property"
+            },
+            "partner_name": "Expedia",
+            "partner_logo": "https://hotelscan.com/apis/vendors/expd/logo.svg?pos=zz"
+          },
+          {
+            "price": 148.11,
+            "brt": "p2q#",
+            "rf": "p2q#",
+            "brf": 9504384,
+            "rt": 9504384,
+            "vendor": "bkng",
+            "vendor_id_raw": "1775507",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included",
+              "Free cancellation",
+              "City view",
+              "Pay at the property"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Family room",
+            "rooms": [
+              {
+                "name": "Family room",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included",
+              "refundable": "Free cancellation",
+              "view_city": "City view",
+              "pay_at_hotel": "Pay at the property"
+            },
+            "partner_name": "Booking.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/bkng/logo.svg?pos=zz"
+          },
+          {
+            "price": 192.44,
+            "brt": "p2q#",
+            "rf": "p2q#",
+            "brf": 12125824,
+            "rt": 12125824,
+            "vendor": "bkng",
+            "vendor_id_raw": "1775507",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast and dinner",
+              "Free cancellation",
+              "City view",
+              "Pay at the property"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Family room",
+            "rooms": [
+              {
+                "name": "Family room",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "half_board_dinner": "Breakfast and dinner",
+              "refundable": "Free cancellation",
+              "view_city": "City view",
+              "pay_at_hotel": "Pay at the property"
+            },
+            "partner_name": "Booking.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/bkng/logo.svg?pos=zz"
+          },
+          {
+            "price": 207.22,
+            "brt": "p2q#",
+            "rf": "p2q#",
+            "brf": 10028672,
+            "rt": 10028672,
+            "vendor": "bkng",
+            "vendor_id_raw": "1775507",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Full board",
+              "Free cancellation",
+              "City view",
+              "Pay at the property"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Family room",
+            "rooms": [
+              {
+                "name": "Family room",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "full_board": "Full board",
+              "refundable": "Free cancellation",
+              "view_city": "City view",
+              "pay_at_hotel": "Pay at the property"
+            },
+            "partner_name": "Booking.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/bkng/logo.svg?pos=zz"
+          }
+        ],
+        "descriptions_language": {
+          "general": {
+            "original_language": true,
+            "text": "Salt Beach Hotel at Maafushi provides flawless service and all the necessary facilities for visitors.Stay connected with your associates, as complimentary Wi-Fi is available during your entire visit.To facilitate your arrival and departure, you can pre-book airport transfer services prior to checking in. The hotel offers car hire and shuttle amenities for your ease in navigating around Maldive Islands.The hotel offers reception amenities including concierge service, luggage storage and safety deposit boxes to ensure a comfortable stay for guests. Should you require assistance, the ticket service and tours can also aid in booking tickets and securing reservations at the finest shows and events in the vicinity. The hotel also features a fireplace, providing a cozy ambience during cool evenings. Whether it's an extended stay or simply needing fresh attire, dry cleaning service and laundry service provided by hotel ensures your cherished travel garments stay spotless and accessible. Your stay will be comfortable with the presence of 24-hour room service, room service and daily housekeeping as an in-room amenity for your relaxation and enjoyment. Need something at the last minute? The convenience stores has you covered, ensuring your requirements are met without any inconvenience. Smoking is permitted solely in the specified smoking zones allocated by hotel. In order to ensure the utmost level of relaxation, the guestrooms feature an inviting design and are equipped with all basic necessities, creating a delightful stay experience. To ensure a pleasant stay, a selection of rooms at hotel come furnished with linen service and air conditioning, all designed with your ease in mind.Several chosen accommodations at Salt Beach Hotel at Maafushi have a balcony or terrace incorporated into the room design.Selected rooms offer in-room amusement like television as a source of entertainment for guests to enjoy. Within specific rooms, bottled water and mini bar is conveniently available for your use.Understanding the significance of bathroom facilities in enhancing visitor contentment, hotel offers a hair dryer and toiletries within a few chosen chambers. Start your day stress-free at Salt Beach Hotel at Maafushi as breakfast is made available for you on the premises.How about kicking off each day of your getaway with a delicious cup of coffee? At the hotel, relish in the invigorating taste of a freshly brewed, excellent coffee. Various excellent meal offerings at hotel ensure that enticing and easily accessible options are constantly available.Visitors with specific dietary preferences can savor a variety of culinary styles at Salt Beach Hotel at Maafushi, featuring halal choices to accommodate their needs. Within the hotel, discerning guests will also find on-site culinary facilities like BBQ facilities and shared kitchen to further cater to their needs. Throughout the day, engage in the entertaining activities available at Salt Beach Hotel at Maafushi. Make sure to discover the readily available beach at hotel. Unwind and conclude each day delightfully by stopping by massage, salon and spa, ensuring a soothing experience."
+          },
+          "direction": {
+            "original_language": true,
+            "text": "Located in Maafushi, Salt Beach Hotel is on the beach. Maafushi Harbor and Bolifushi Island Pier are worth checking out if an activity is on the agenda, while those wishing to experience the area's natural beauty can explore Water Sports Beach and Rihiveli Beach. Looking to get your feet wet? Scuba diving, snorkeling and windsurfing adventures can be found near the property."
+          }
+        },
+        "chain_code": null,
+        "bids": {
+          "ctrp": "j23",
+          "bkng": "j23",
+          "htls": "j23",
+          "expd": "j23"
+        },
+        "worst_offer": 123.43,
+        "best_offer": 104.78,
+        "best_offer_ota": "expd",
+        "best_offer_mota": null,
+        "discount": 15,
+        "offers_count": 16,
+        "coordinates": {
+          "lat": 3.944182,
+          "lng": 73.490709
+        },
+        "distance": 0.33,
+        "neighborhood": null,
+        "badge": null,
+        "distances": [
+          {
+            "from": "center",
+            "distance": 0.33,
+            "time": 458,
+            "means": "foot",
+            "means_type": "foot"
+          }
+        ],
+        "specs": {
+          "bathrooms": null,
+          "beds": null,
+          "bedrooms": null,
+          "guests": null,
+          "square_meters": null
+        },
+        "toa_label": "guest house",
+        "top_amenities": [
+          "restaurant",
+          "room_service",
+          "bar",
+          "parking",
+          "air_conditioning"
+        ],
+        "transportations": {
+          "airports": [],
+          "trains": []
+        },
+        "images": [
+          {
+            "image_id": "727486166",
+            "label": ""
+          },
+          {
+            "image_id": "727486167",
+            "label": ""
+          },
+          {
+            "image_id": "727517207",
+            "label": ""
+          },
+          {
+            "image_id": "727486169",
+            "label": ""
+          },
+          {
+            "image_id": "727517182",
+            "label": ""
+          },
+          {
+            "image_id": "727517178",
+            "label": ""
+          },
+          {
+            "image_id": "727517202",
+            "label": ""
+          },
+          {
+            "image_id": "727517195",
+            "label": ""
+          },
+          {
+            "image_id": "727486168",
+            "label": ""
+          },
+          {
+            "image_id": "727517171",
+            "label": ""
+          },
+          {
+            "image_id": "727486163",
+            "label": ""
+          },
+          {
+            "image_id": "727486164",
+            "label": ""
+          },
+          {
+            "image_id": "727517206",
+            "label": ""
+          },
+          {
+            "image_id": "727517180",
+            "label": ""
+          },
+          {
+            "image_id": "727517209",
+            "label": ""
+          }
+        ],
+        "hero_offer": {
+          "price": 106.49,
+          "brt": "p2r#b",
+          "rf": "p2r#b",
+          "brf": 9503360,
+          "rt": 9503360,
+          "vendor": "bkng",
+          "vendor_id_raw": "1775507",
+          "mota_code": null,
+          "direct_offer": false,
+          "offer_flags": {
+            "breakfast": "Breakfast included",
+            "refundable": "Free cancellation",
+            "view_garden": "Garden view",
+            "pay_at_hotel": "Pay at the property"
+          },
+          "jc_code": "",
+          "ranking_index": 0.9935768616771529,
+          "chain": "",
+          "free_cancellation": true,
+          "special": false,
+          "room_name": "Standard room - Choice of single or double beds",
+          "rooms": [
+            {
+              "name": "Standard room - Choice of single or double beds",
+              "flags": [
+                "Choice of single or double beds"
+              ]
+            }
+          ],
+          "partner_name": "Booking.com",
+          "partner_logo": "https://hotelscan.com/apis/vendors/bkng/logo.svg?pos=zz"
+        },
+        "rank": 0,
+        "ctrl_srt": "im a ctrl teapot",
+        "test_srt": "im a test teapot"
+      }
+    ],
+    "filters": [],
+    "query": {
+      "pos": "zz"
+    }
+  }
+}

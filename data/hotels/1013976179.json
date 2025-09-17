@@ -1,0 +1,272 @@
+{
+  "_meta": {
+    "status": "SUCCESS",
+    "cached": true,
+    "count": 1,
+    "debug": {
+      "ticket": {
+        "ticket_id": "1013976179_zz_zz_d_publ_en_2_2025-10-08_2025-10-13_1_3",
+        "created_at": 1758065363.3703,
+        "loop": null,
+        "snapped_at": 1758065363.4391,
+        "snapshot_id": "1013976179_zz_zz_d_publ_en_2_2025-10-08_2025-10-13_1_3",
+        "snapshot_ttl": 300,
+        "executions": 2,
+        "progress": 1,
+        "save_errors": []
+      }
+    }
+  },
+  "data": {
+    "meta": [],
+    "geo": {
+      "hs_id": "xmmlhiwlt3m7",
+      "region_name": "Male",
+      "region_name_long": "Male, Maldives",
+      "region_type": "CITY",
+      "region_id": 2343,
+      "country_iso": "MV",
+      "country": "maldives",
+      "localised_country": "Maldives",
+      "center": [
+        4.17432,
+        73.50075
+      ],
+      "centroid": [
+        4.1747,
+        73.50075
+      ],
+      "polygon": [
+        "4.178078,73.481936",
+        "4.170725,73.481004",
+        "4.16616,73.502277",
+        "4.169539,73.519909",
+        "4.178669,73.520501",
+        "4.182473,73.507104",
+        "4.178078,73.481936"
+      ],
+      "radius": 2.24,
+      "zoom": -1,
+      "search_by_polygon": 1,
+      "cluster": 0,
+      "properties": 128,
+      "radius_override": 5,
+      "boundingbox": {
+        "ne": [
+          4.183,
+          73.521
+        ],
+        "sw": [
+          4.166,
+          73.481
+        ]
+      },
+      "airports": [
+        "MLE",
+        "DRV"
+      ],
+      "region_name_en": "Male",
+      "region_name_long_en": "Male, Maldives",
+      "referrer_city_name_en": "Male",
+      "parent_region_id": 6051084,
+      "parent_hs_id": "x5p4hmhw6iot",
+      "parent_region_name": "Maldives (all)",
+      "parent_region_name_long": "Maldives (all)",
+      "dynamic_bbox": {
+        "ne": [
+          4.173,
+          73.507
+        ],
+        "sw": [
+          4.173,
+          73.507
+        ]
+      }
+    },
+    "records": [
+      {
+        "hs_id": 1013976179,
+        "slug": "ontrack-travel-male-mv-1013976179",
+        "name": "Ontrack Travel",
+        "toa": "apartment",
+        "building": {
+          "room_num": 3
+        },
+        "location": {
+          "city": "Male",
+          "zip": "20231",
+          "country_iso2": "MV",
+          "address": "4th Floor Blue Flower Room 101",
+          "geoid": "xmmlhiwlt3m7",
+          "loc": {
+            "type": "Point"
+          },
+          "coordinates": {
+            "lng": 73.50731,
+            "lat": 4.17394
+          }
+        },
+        "opening_time": {
+          "check_in_from": "00:00",
+          "check_in_to": "00:00",
+          "check_out_from": "12:30",
+          "check_out_to": "13:00"
+        },
+        "quality": {
+          "review_count": 77,
+          "review_rating": 79,
+          "stars": 0,
+          "stars_is_estimated": false,
+          "review_source": ""
+        },
+        "covid_safe": true,
+        "amenities": {
+          "business": [
+            "business_services"
+          ],
+          "internet": [
+            "wifi",
+            "internet"
+          ],
+          "food_drink": [
+            "room_service"
+          ],
+          "other": [],
+          "room": [
+            "heating",
+            "air_conditioning"
+          ],
+          "reception": [
+            "luggage_storage",
+            "laundry_service",
+            "safety_deposit_box"
+          ]
+        },
+        "descriptions": {
+          "general": "At Ontrack Travel , every guestroom is provided with convenient amenities and fittings to ensure a comfortable stay.Elevate your experience at apartment with the knowledge that certain rooms are equipped with air conditioning, ensuring a more pleasant stay for you.",
+          "localized": "At Ontrack Travel , every guestroom is provided with convenient amenities and fittings to ensure a comfortable stay.Elevate your experience at apartment with the knowledge that certain rooms are equipped with air conditioning, ensuring a more pleasant stay for you."
+        },
+        "short_description": "Apartment with 3 bedrooms",
+        "chain": "no_chain",
+        "brand": "no_brand",
+        "offers": [],
+        "all_offers": [],
+        "descriptions_language": {
+          "general": {
+            "original_language": true,
+            "text": "At Ontrack Travel , every guestroom is provided with convenient amenities and fittings to ensure a comfortable stay.Elevate your experience at apartment with the knowledge that certain rooms are equipped with air conditioning, ensuring a more pleasant stay for you."
+          }
+        },
+        "chain_code": null,
+        "bids": [],
+        "coordinates": {
+          "lat": 4.17394,
+          "lng": 73.50731
+        },
+        "distance": 0.73,
+        "neighborhood": null,
+        "badge": null,
+        "distances": [
+          {
+            "from": "center",
+            "distance": 0.73,
+            "time": 1014,
+            "means": "foot",
+            "means_type": "foot"
+          }
+        ],
+        "specs": {
+          "bathrooms": null,
+          "beds": null,
+          "bedrooms": null,
+          "guests": null,
+          "square_meters": null
+        },
+        "toa_label": "apartment",
+        "top_amenities": [
+          "heating",
+          "air_conditioning"
+        ],
+        "transportations": {
+          "airports": [],
+          "trains": []
+        },
+        "images": [
+          {
+            "image_id": "720020591",
+            "label": ""
+          },
+          {
+            "image_id": "720020627",
+            "label": ""
+          },
+          {
+            "image_id": "720020594",
+            "label": ""
+          },
+          {
+            "image_id": "720020593",
+            "label": ""
+          },
+          {
+            "image_id": "720020624",
+            "label": ""
+          },
+          {
+            "image_id": "720020602",
+            "label": ""
+          },
+          {
+            "image_id": "720020618",
+            "label": ""
+          },
+          {
+            "image_id": "720020611",
+            "label": ""
+          },
+          {
+            "image_id": "720020609",
+            "label": ""
+          },
+          {
+            "image_id": "720020597",
+            "label": ""
+          },
+          {
+            "image_id": "720020604",
+            "label": ""
+          },
+          {
+            "image_id": "720020595",
+            "label": ""
+          },
+          {
+            "image_id": "720020587",
+            "label": ""
+          },
+          {
+            "image_id": "720020631",
+            "label": ""
+          },
+          {
+            "image_id": "720020599",
+            "label": ""
+          }
+        ],
+        "best_offer": null,
+        "discount": null,
+        "offers_count": 0,
+        "worst_offer": null,
+        "rank": 0,
+        "ctrl_srt": "im a ctrl teapot",
+        "test_srt": "im a test teapot",
+        "best_offer_ota": null,
+        "best_offer_mota": null
+      }
+    ],
+    "filters": [],
+    "query": {
+      "pos": "zz"
+    }
+  }
+}

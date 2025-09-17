@@ -1,0 +1,2567 @@
+{
+  "_meta": {
+    "status": "SUCCESS",
+    "cached": true,
+    "count": 1,
+    "debug": {
+      "ticket": {
+        "ticket_id": "1000553122_zz_zz_d_publ_en_2_2025-10-08_2025-10-13_1_3",
+        "created_at": 1758065372.1718,
+        "loop": null,
+        "snapped_at": 1758065373.4085,
+        "snapshot_id": "1000553122_zz_zz_d_publ_en_2_2025-10-08_2025-10-13_1_3",
+        "snapshot_ttl": 300,
+        "executions": 4,
+        "progress": 1,
+        "save_errors": []
+      }
+    }
+  },
+  "data": {
+    "meta": [],
+    "geo": {
+      "hs_id": "xkmcbzm72aw2",
+      "region_name": "Ukulhas",
+      "region_name_long": "Ukulhas, Maldives",
+      "region_type": "CITY",
+      "region_id": 6221930,
+      "country_iso": "MV",
+      "country": "maldives",
+      "localised_country": "Maldives",
+      "center": [
+        4.2152,
+        72.86405
+      ],
+      "centroid": [
+        4.21533,
+        72.86405
+      ],
+      "polygon": [
+        "4.208669,72.865099",
+        "4.212336,72.870321",
+        "4.221738,72.863589",
+        "4.218314,72.857769",
+        "4.208669,72.865099"
+      ],
+      "radius": 0.78,
+      "zoom": -1,
+      "search_by_polygon": 0,
+      "cluster": 0,
+      "properties": 45,
+      "radius_override": 5,
+      "boundingbox": {
+        "ne": [
+          4.222,
+          72.871
+        ],
+        "sw": [
+          4.208,
+          72.857
+        ]
+      },
+      "airports": [
+        "MLE",
+        "DRV"
+      ],
+      "region_name_en": "Ukulhas",
+      "region_name_long_en": "Ukulhas, Maldives",
+      "referrer_city_name_en": "Ukulhas",
+      "parent_region_id": 6051084,
+      "parent_hs_id": "x5p4hmhw6iot",
+      "parent_region_name": "Maldives (all)",
+      "parent_region_name_long": "Maldives (all)",
+      "dynamic_bbox": {
+        "ne": [
+          4.213,
+          72.865
+        ],
+        "sw": [
+          4.213,
+          72.865
+        ]
+      }
+    },
+    "records": [
+      {
+        "hs_id": 1000553122,
+        "slug": "sealavie-inn-ukulhas-mv-1000553122",
+        "name": "Sealavie Inn",
+        "ty_id": "5ebd4193-1e02-4e62-a7b4-cff8434ff857",
+        "toa": "guest_house",
+        "building": {
+          "room_num": 7
+        },
+        "location": {
+          "city": "Ukulhas",
+          "zip": "09030",
+          "country_iso2": "MV",
+          "address": "Jumhooree Magu",
+          "geoid": "xkmcbzm72aw2",
+          "loc": {
+            "type": "Point"
+          },
+          "coordinates": {
+            "lng": 72.86561,
+            "lat": 4.21386
+          }
+        },
+        "opening_time": {
+          "check_in_from": "06:30",
+          "check_in_to": "22:00",
+          "check_out_from": "06:30",
+          "check_out_to": "18:00"
+        },
+        "quality": {
+          "review_count": 185,
+          "review_rating": 94,
+          "stars": 3,
+          "stars_is_estimated": false,
+          "review_source": ""
+        },
+        "covid_safe": true,
+        "amenities": {
+          "children": [
+            "children_playground"
+          ],
+          "wellness": [
+            "massage",
+            "fitness_center",
+            "spa"
+          ],
+          "sports": [
+            "bike_rent",
+            "sub"
+          ],
+          "internet": [
+            "wifi",
+            "internet"
+          ],
+          "food_drink": [
+            "restaurant",
+            "room_service",
+            "cafe",
+            "bar"
+          ],
+          "disability": [
+            "wheelchair_accessible",
+            "disability_facilities"
+          ],
+          "parking": [
+            "parking"
+          ],
+          "outdoor": [
+            "garden"
+          ],
+          "other": [],
+          "entertainment": [
+            "tv_lobby"
+          ],
+          "transfer": [
+            "shuttle_service"
+          ],
+          "room": [
+            "fan",
+            "air_conditioning",
+            "tv"
+          ],
+          "reception": [
+            "luggage_storage",
+            "concierge",
+            "laundry_service",
+            "safety_deposit_box"
+          ]
+        },
+        "descriptions": {
+          "direction": "Located in Ukulhas, SeaLaVie Inn is near the airport and on the beach. Folhudhoo Harbor and Ukulhas Harbor are local landmarks, and some of the area's activities can be experienced at Mathiveri Harbor and Nika Island Resort & Spa.",
+          "general": "Great care is taken to ensure guests experience comfort through top-notch services and amenities.Remain linked during your visit by utilizing the complimentary internet access available. Prior to your check-in date, you can arrange airport transportation services, guaranteeing a seamless and efficient experience for both arrival and departure. Discovering Maldive Islands becomes even more accessible through the car hire and shuttle amenities provided at the hotel.Parking is accessible, supplied by the hotel for guests who arrive by car.Effortlessly plan your daily activities and travel requirements with concierge service, express check-in or check-out and luggage storage provided by the front desk services.Securing passes to the city's top attractions is simple with the hotel's ticket service and tours.Repeatedly enjoy your best-loved attire with the aid of the laundry service available at SeaLaVie Inn.During leisurely days and evenings, in-room amenities such as room service and daily housekeeping enable you to maximize your stay in the room.For minor or impromptu requirements, the convenience stores can promptly cater to them without the necessity of stepping out from the hotel.In limited designated zones, smoking is exclusively permitted.Crafted for coziness, every guestroom provides an array of features, guaranteeing a tranquil night's sleep while maintaining the level of comfort. For a more enjoyable stay, select rooms at hotel are equipped with blackout curtains and air conditioning. At SeaLaVie Inn, a selection of rooms can be found that showcase unique design elements such as a balcony or terrace. Expand your in-room entertainment choices with various amenities, such as cable TV offered in certain accommodations. Rest assured that your hydration needs will be met, as some guestrooms are equipped with a coffee or tea maker and bottled water. Maintain your cleanliness and comfort using a hair dryer and toiletries available in select guest restrooms. Begin your day on a delightful note with a scrumptious complimentary breakfast, consistently served at SeaLaVie Inn.Begin your holiday mornings right with your essential cup of coffee, offered daily at the cafe on-site.During your visit, indulge in a range of delightful culinary choices at hotel to enhance your experience.Concerned about your dining preferences? Fret not! SeaLaVie Inn offers an assortment of culinary varieties featuring halal choices, catering to all tastes.Experience a fantastic evening effortlessly! Relish an entertaining night without venturing beyond the confines of the bar. For those with discerning taste buds, having an on-site BBQ facilities and shared kitchen at your disposal will undoubtedly be appreciated. Indulge in the numerous pursuits available at SeaLaVie Inn. During your stay, the hotel provides direct access to a beach, ensuring you remain near the sea throughout your visit.Eliminate those holiday calories by stopping by hotel and making use of their well-equipped exercise amenities.",
+          "amenities": true,
+          "localized": "Great care is taken to ensure guests experience comfort through top-notch services and amenities.Remain linked during your visit by utilizing the complimentary internet access available. Prior to your check-in date, you can arrange airport transportation services, guaranteeing a seamless and efficient experience for both arrival and departure. Discovering Maldive Islands becomes even more accessible through the car hire and shuttle amenities provided at the hotel.Parking is accessible, supplied by the hotel for guests who arrive by car.Effortlessly plan your daily activities and travel requirements with concierge service, express check-in or check-out and luggage storage provided by the front desk services.Securing passes to the city's top attractions is simple with the hotel's ticket service and tours.Repeatedly enjoy your best-loved attire with the aid of the laundry service available at SeaLaVie Inn.During leisurely days and evenings, in-room amenities such as room service and daily housekeeping enable you to maximize your stay in the room.For minor or impromptu requirements, the convenience stores can promptly cater to them without the necessity of stepping out from the hotel.In limited designated zones, smoking is exclusively permitted.Crafted for coziness, every guestroom provides an array of features, guaranteeing a tranquil night's sleep while maintaining the level of comfort. For a more enjoyable stay, select rooms at hotel are equipped with blackout curtains and air conditioning. At SeaLaVie Inn, a selection of rooms can be found that showcase unique design elements such as a balcony or terrace. Expand your in-room entertainment choices with various amenities, such as cable TV offered in certain accommodations. Rest assured that your hydration needs will be met, as some guestrooms are equipped with a coffee or tea maker and bottled water. Maintain your cleanliness and comfort using a hair dryer and toiletries available in select guest restrooms. Begin your day on a delightful note with a scrumptious complimentary breakfast, consistently served at SeaLaVie Inn.Begin your holiday mornings right with your essential cup of coffee, offered daily at the cafe on-site.During your visit, indulge in a range of delightful culinary choices at hotel to enhance your experience.Concerned about your dining preferences? Fret not! SeaLaVie Inn offers an assortment of culinary varieties featuring halal choices, catering to all tastes.Experience a fantastic evening effortlessly! Relish an entertaining night without venturing beyond the confines of the bar. For those with discerning taste buds, having an on-site BBQ facilities and shared kitchen at your disposal will undoubtedly be appreciated. Indulge in the numerous pursuits available at SeaLaVie Inn. During your stay, the hotel provides direct access to a beach, ensuring you remain near the sea throughout your visit.Eliminate those holiday calories by stopping by hotel and making use of their well-equipped exercise amenities."
+        },
+        "short_description": "Excellent accommodation. Awesome rooms and service in a great location. Beautiful beach. Awesome vibe.",
+        "chain": "no_chain",
+        "brand": "no_brand",
+        "offers": [
+          {
+            "price": 116.59,
+            "brt": "p2dr",
+            "rf": "p2dr",
+            "brf": 8421440,
+            "rt": 8421440,
+            "vendor": "bkng",
+            "vendor_id_raw": "2070654",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [],
+            "jc_code": "",
+            "ranking_index": 0.9963976327300798,
+            "chain": "",
+            "free_cancellation": false,
+            "special": false,
+            "room_name": "Standard deluxe room",
+            "rooms": [
+              {
+                "name": "Standard deluxe room",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": [],
+            "partner_name": "Booking.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/bkng/logo.svg?pos=zz"
+          },
+          {
+            "vendor": "agda",
+            "price": 115.54,
+            "vendor_id_raw": "3292012",
+            "mota_code": null,
+            "jc_code": "",
+            "partner_name": "Agoda",
+            "partner_logo": "https://hotelscan.com/apis/vendors/agda/logo.svg?pos=zz",
+            "room_name": "Superior room",
+            "brf": 8421440,
+            "brt": "p2c#"
+          },
+          {
+            "vendor": "htls",
+            "price": 173.22,
+            "vendor_id_raw": "694345",
+            "mota_code": null,
+            "jc_code": "",
+            "partner_name": "Hotels.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/htls/logo.svg?pos=zz",
+            "room_name": "Superior room - King bed",
+            "brf": 8454784,
+            "brt": "p2c#k"
+          },
+          {
+            "vendor": "expd",
+            "price": 173.22,
+            "vendor_id_raw": "18416437",
+            "mota_code": null,
+            "jc_code": "EXPEDIA",
+            "partner_name": "Expedia",
+            "partner_logo": "https://hotelscan.com/apis/vendors/expd/logo.svg?pos=zz",
+            "room_name": "Superior room - King bed",
+            "brf": 8454784,
+            "brt": "p2c#k"
+          },
+          {
+            "vendor": "ostr",
+            "price": 171.51,
+            "vendor_id_raw": "8731543",
+            "mota_code": null,
+            "jc_code": "",
+            "partner_name": "Zenhotels",
+            "partner_logo": "https://hotelscan.com/apis/vendors/ostr/logo.svg?pos=zz",
+            "room_name": "Superior room - King bed",
+            "brf": 8454784,
+            "brt": "p2c#k"
+          }
+        ],
+        "all_offers": [
+          {
+            "price": 115.54,
+            "brt": "p2c#",
+            "rf": "p2c#",
+            "brf": 8421440,
+            "rt": 8421440,
+            "vendor": "agda",
+            "vendor_id_raw": "3292012",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": false,
+            "special": false,
+            "room_name": "Superior room",
+            "rooms": [
+              {
+                "name": "Superior room",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": [],
+            "partner_name": "Agoda",
+            "partner_logo": "https://hotelscan.com/apis/vendors/agda/logo.svg?pos=zz"
+          },
+          {
+            "price": 116.59,
+            "brt": "p2dr",
+            "rf": "p2dr",
+            "brf": 8421440,
+            "rt": 8421440,
+            "vendor": "bkng",
+            "vendor_id_raw": "2070654",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": false,
+            "special": false,
+            "room_name": "Standard deluxe room",
+            "rooms": [
+              {
+                "name": "Standard deluxe room",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": [],
+            "partner_name": "Booking.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/bkng/logo.svg?pos=zz"
+          },
+          {
+            "price": 127.26,
+            "brt": "p2c#",
+            "rf": "p2c#",
+            "brf": 9502848,
+            "rt": 9502848,
+            "vendor": "agda",
+            "vendor_id_raw": "3292012",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included",
+              "Free cancellation",
+              "Pay at the property"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Superior room",
+            "rooms": [
+              {
+                "name": "Superior room",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included",
+              "refundable": "Free cancellation",
+              "pay_at_hotel": "Pay at the property"
+            },
+            "partner_name": "Agoda",
+            "partner_logo": "https://hotelscan.com/apis/vendors/agda/logo.svg?pos=zz"
+          },
+          {
+            "price": 128.41,
+            "brt": "p2dr",
+            "rf": "p2dr",
+            "brf": 9502848,
+            "rt": 9502848,
+            "vendor": "bkng",
+            "vendor_id_raw": "2070654",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included",
+              "Free cancellation",
+              "Pay at the property"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Standard deluxe room",
+            "rooms": [
+              {
+                "name": "Standard deluxe room",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included",
+              "refundable": "Free cancellation",
+              "pay_at_hotel": "Pay at the property"
+            },
+            "partner_name": "Booking.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/bkng/logo.svg?pos=zz"
+          },
+          {
+            "price": 132.13,
+            "brt": "p2c#",
+            "rf": "p2c#",
+            "brf": 8454208,
+            "rt": 8454208,
+            "vendor": "agda",
+            "vendor_id_raw": "3292012",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Free cancellation"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Superior room",
+            "rooms": [
+              {
+                "name": "Superior room",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "refundable": "Free cancellation"
+            },
+            "partner_name": "Agoda",
+            "partner_logo": "https://hotelscan.com/apis/vendors/agda/logo.svg?pos=zz"
+          },
+          {
+            "price": 133.34,
+            "brt": "p2dr",
+            "rf": "p2dr",
+            "brf": 8454272,
+            "rt": 8454272,
+            "vendor": "bkng",
+            "vendor_id_raw": "2070654",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Free cancellation",
+              "Pay at the property"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Standard deluxe room",
+            "rooms": [
+              {
+                "name": "Standard deluxe room",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "refundable": "Free cancellation",
+              "pay_at_hotel": "Pay at the property"
+            },
+            "partner_name": "Booking.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/bkng/logo.svg?pos=zz"
+          },
+          {
+            "price": 137.5,
+            "brt": "p2d#k",
+            "rf": "p2d#k",
+            "brf": 8421952,
+            "rt": 8421952,
+            "vendor": "agda",
+            "vendor_id_raw": "3292012",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Garden view"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": false,
+            "special": false,
+            "room_name": "Deluxe room - King bed",
+            "rooms": [
+              {
+                "name": "Deluxe room - King bed",
+                "flags": [
+                  "King bed"
+                ]
+              }
+            ],
+            "offer_flags_new": {
+              "view_garden": "Garden view"
+            },
+            "partner_name": "Agoda",
+            "partner_logo": "https://hotelscan.com/apis/vendors/agda/logo.svg?pos=zz"
+          },
+          {
+            "price": 138.75,
+            "brt": "p2d#k",
+            "rf": "p2d#k",
+            "brf": 8421440,
+            "rt": 8421440,
+            "vendor": "bkng",
+            "vendor_id_raw": "2070654",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": false,
+            "special": false,
+            "room_name": "Deluxe room - King bed",
+            "rooms": [
+              {
+                "name": "Deluxe room - King bed",
+                "flags": [
+                  "King bed"
+                ]
+              }
+            ],
+            "offer_flags_new": [],
+            "partner_name": "Booking.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/bkng/logo.svg?pos=zz"
+          },
+          {
+            "price": 151.65,
+            "brt": "p2d#k",
+            "rf": "p2d#k",
+            "brf": 9503360,
+            "rt": 9503360,
+            "vendor": "agda",
+            "vendor_id_raw": "3292012",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included",
+              "Free cancellation",
+              "Garden view",
+              "Pay at the property"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Deluxe room - King bed",
+            "rooms": [
+              {
+                "name": "Deluxe room - King bed",
+                "flags": [
+                  "King bed"
+                ]
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included",
+              "refundable": "Free cancellation",
+              "view_garden": "Garden view",
+              "pay_at_hotel": "Pay at the property"
+            },
+            "partner_name": "Agoda",
+            "partner_logo": "https://hotelscan.com/apis/vendors/agda/logo.svg?pos=zz"
+          },
+          {
+            "price": 153.04,
+            "brt": "p2d#k",
+            "rf": "p2d#k",
+            "brf": 9502848,
+            "rt": 9502848,
+            "vendor": "bkng",
+            "vendor_id_raw": "2070654",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included",
+              "Free cancellation",
+              "Pay at the property"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Deluxe room - King bed",
+            "rooms": [
+              {
+                "name": "Deluxe room - King bed",
+                "flags": [
+                  "King bed"
+                ]
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included",
+              "refundable": "Free cancellation",
+              "pay_at_hotel": "Pay at the property"
+            },
+            "partner_name": "Booking.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/bkng/logo.svg?pos=zz"
+          },
+          {
+            "price": 156.54,
+            "brt": "p2d#k",
+            "rf": "p2d#k",
+            "brf": 8454720,
+            "rt": 8454720,
+            "vendor": "agda",
+            "vendor_id_raw": "3292012",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Free cancellation",
+              "Garden view"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Deluxe room - King bed",
+            "rooms": [
+              {
+                "name": "Deluxe room - King bed",
+                "flags": [
+                  "King bed"
+                ]
+              }
+            ],
+            "offer_flags_new": {
+              "refundable": "Free cancellation",
+              "view_garden": "Garden view"
+            },
+            "partner_name": "Agoda",
+            "partner_logo": "https://hotelscan.com/apis/vendors/agda/logo.svg?pos=zz"
+          },
+          {
+            "price": 157.97,
+            "brt": "p2d#k",
+            "rf": "p2d#k",
+            "brf": 8454272,
+            "rt": 8454272,
+            "vendor": "bkng",
+            "vendor_id_raw": "2070654",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Free cancellation",
+              "Pay at the property"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Deluxe room - King bed",
+            "rooms": [
+              {
+                "name": "Deluxe room - King bed",
+                "flags": [
+                  "King bed"
+                ]
+              }
+            ],
+            "offer_flags_new": {
+              "refundable": "Free cancellation",
+              "pay_at_hotel": "Pay at the property"
+            },
+            "partner_name": "Booking.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/bkng/logo.svg?pos=zz"
+          },
+          {
+            "price": 167.82,
+            "brt": "p2d#k",
+            "rf": "p2d#k",
+            "brf": 8421440,
+            "rt": 8421440,
+            "vendor": "bkng",
+            "vendor_id_raw": "2070654",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": false,
+            "special": false,
+            "room_name": "Deluxe room - King bed",
+            "rooms": [
+              {
+                "name": "Deluxe room - King bed",
+                "flags": [
+                  "King bed"
+                ]
+              }
+            ],
+            "offer_flags_new": [],
+            "partner_name": "Booking.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/bkng/logo.svg?pos=zz"
+          },
+          {
+            "price": 171.51,
+            "brt": "p2c#k",
+            "rf": "p2c#k",
+            "brf": 8454784,
+            "rt": 8454784,
+            "vendor": "ostr",
+            "vendor_id_raw": "8731543",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Free cancellation",
+              "Garden view",
+              "Pay at the property"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Superior room - King bed",
+            "rooms": [
+              {
+                "name": "Superior room - King bed",
+                "flags": [
+                  "King bed"
+                ]
+              }
+            ],
+            "offer_flags_new": {
+              "refundable": "Free cancellation",
+              "view_garden": "Garden view",
+              "pay_at_hotel": "Pay at the property"
+            },
+            "partner_name": "Zenhotels",
+            "partner_logo": "https://hotelscan.com/apis/vendors/ostr/logo.svg?pos=zz"
+          },
+          {
+            "price": 173.22,
+            "brt": "p2c#k",
+            "rf": "p2c#k",
+            "brf": 8454784,
+            "rt": 8454784,
+            "vendor": "htls",
+            "vendor_id_raw": "694345",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Free cancellation",
+              "Garden view",
+              "Pay at the property"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Superior room - King bed",
+            "rooms": [
+              {
+                "name": "Superior room - King bed",
+                "flags": [
+                  "King bed"
+                ]
+              }
+            ],
+            "offer_flags_new": {
+              "refundable": "Free cancellation",
+              "view_garden": "Garden view",
+              "pay_at_hotel": "Pay at the property"
+            },
+            "partner_name": "Hotels.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/htls/logo.svg?pos=zz"
+          },
+          {
+            "price": 173.22,
+            "brt": "p2c#k",
+            "rf": "p2c#k",
+            "brf": 8454784,
+            "rt": 8454784,
+            "vendor": "expd",
+            "vendor_id_raw": "18416437",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Free cancellation",
+              "Garden view",
+              "Pay at the property"
+            ],
+            "jc_code": "EXPEDIA",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Superior room - King bed",
+            "rooms": [
+              {
+                "name": "Superior room - King bed",
+                "flags": [
+                  "King bed"
+                ]
+              }
+            ],
+            "offer_flags_new": {
+              "refundable": "Free cancellation",
+              "view_garden": "Garden view",
+              "pay_at_hotel": "Pay at the property"
+            },
+            "partner_name": "Expedia",
+            "partner_logo": "https://hotelscan.com/apis/vendors/expd/logo.svg?pos=zz"
+          },
+          {
+            "price": 173.23,
+            "brt": "p2c#k",
+            "rf": "p2c#k",
+            "brf": 8454720,
+            "rt": 8454720,
+            "vendor": "htls",
+            "vendor_id_raw": "694345",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Free cancellation",
+              "Garden view"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Superior room - King bed",
+            "rooms": [
+              {
+                "name": "Superior room - King bed",
+                "flags": [
+                  "King bed"
+                ]
+              }
+            ],
+            "offer_flags_new": {
+              "refundable": "Free cancellation",
+              "view_garden": "Garden view"
+            },
+            "partner_name": "Hotels.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/htls/logo.svg?pos=zz"
+          },
+          {
+            "price": 173.23,
+            "brt": "p2c#k",
+            "rf": "p2c#k",
+            "brf": 8454720,
+            "rt": 8454720,
+            "vendor": "expd",
+            "vendor_id_raw": "18416437",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Free cancellation",
+              "Garden view"
+            ],
+            "jc_code": "EXPEDIA",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Superior room - King bed",
+            "rooms": [
+              {
+                "name": "Superior room - King bed",
+                "flags": [
+                  "King bed"
+                ]
+              }
+            ],
+            "offer_flags_new": {
+              "refundable": "Free cancellation",
+              "view_garden": "Garden view"
+            },
+            "partner_name": "Expedia",
+            "partner_logo": "https://hotelscan.com/apis/vendors/expd/logo.svg?pos=zz"
+          },
+          {
+            "price": 176.05,
+            "brt": "p2c#",
+            "rf": "p2c#",
+            "brf": 9502848,
+            "rt": 9502848,
+            "vendor": "agda",
+            "vendor_id_raw": "3292012",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included",
+              "Free cancellation",
+              "Pay at the property"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Superior room",
+            "rooms": [
+              {
+                "name": "Superior room",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included",
+              "refundable": "Free cancellation",
+              "pay_at_hotel": "Pay at the property"
+            },
+            "partner_name": "Agoda",
+            "partner_logo": "https://hotelscan.com/apis/vendors/agda/logo.svg?pos=zz"
+          },
+          {
+            "price": 177.67,
+            "brt": "p2dr",
+            "rf": "p2dr",
+            "brf": 12124288,
+            "rt": 12124288,
+            "vendor": "bkng",
+            "vendor_id_raw": "2070654",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast and dinner",
+              "Free cancellation",
+              "Pay at the property"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Standard deluxe room",
+            "rooms": [
+              {
+                "name": "Standard deluxe room",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "half_board_dinner": "Breakfast and dinner",
+              "refundable": "Free cancellation",
+              "pay_at_hotel": "Pay at the property"
+            },
+            "partner_name": "Booking.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/bkng/logo.svg?pos=zz"
+          },
+          {
+            "price": 181.31,
+            "brt": "p2c#k",
+            "rf": "p2c#k",
+            "brf": 9503360,
+            "rt": 9503360,
+            "vendor": "ostr",
+            "vendor_id_raw": "8731543",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included",
+              "Free cancellation",
+              "Garden view",
+              "Pay at the property"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Superior room - King bed",
+            "rooms": [
+              {
+                "name": "Superior room - King bed",
+                "flags": [
+                  "King bed"
+                ]
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included",
+              "refundable": "Free cancellation",
+              "view_garden": "Garden view",
+              "pay_at_hotel": "Pay at the property"
+            },
+            "partner_name": "Zenhotels",
+            "partner_logo": "https://hotelscan.com/apis/vendors/ostr/logo.svg?pos=zz"
+          },
+          {
+            "price": 183.06,
+            "brt": "p2c#k",
+            "rf": "p2c#k",
+            "brf": 9503296,
+            "rt": 9503296,
+            "vendor": "htls",
+            "vendor_id_raw": "694345",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included",
+              "Free cancellation",
+              "Garden view"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Superior room - King bed",
+            "rooms": [
+              {
+                "name": "Superior room - King bed",
+                "flags": [
+                  "King bed"
+                ]
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included",
+              "refundable": "Free cancellation",
+              "view_garden": "Garden view"
+            },
+            "partner_name": "Hotels.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/htls/logo.svg?pos=zz"
+          },
+          {
+            "price": 183.06,
+            "brt": "p2c#k",
+            "rf": "p2c#k",
+            "brf": 9503296,
+            "rt": 9503296,
+            "vendor": "expd",
+            "vendor_id_raw": "18416437",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included",
+              "Free cancellation",
+              "Garden view"
+            ],
+            "jc_code": "EXPEDIA",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Superior room - King bed",
+            "rooms": [
+              {
+                "name": "Superior room - King bed",
+                "flags": [
+                  "King bed"
+                ]
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included",
+              "refundable": "Free cancellation",
+              "view_garden": "Garden view"
+            },
+            "partner_name": "Expedia",
+            "partner_logo": "https://hotelscan.com/apis/vendors/expd/logo.svg?pos=zz"
+          },
+          {
+            "price": 183.07,
+            "brt": "p2c#k",
+            "rf": "p2c#k",
+            "brf": 9503360,
+            "rt": 9503360,
+            "vendor": "htls",
+            "vendor_id_raw": "694345",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included",
+              "Free cancellation",
+              "Garden view",
+              "Pay at the property"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Superior room - King bed",
+            "rooms": [
+              {
+                "name": "Superior room - King bed",
+                "flags": [
+                  "King bed"
+                ]
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included",
+              "refundable": "Free cancellation",
+              "view_garden": "Garden view",
+              "pay_at_hotel": "Pay at the property"
+            },
+            "partner_name": "Hotels.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/htls/logo.svg?pos=zz"
+          },
+          {
+            "price": 183.07,
+            "brt": "p2c#k",
+            "rf": "p2c#k",
+            "brf": 9503360,
+            "rt": 9503360,
+            "vendor": "expd",
+            "vendor_id_raw": "18416437",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included",
+              "Free cancellation",
+              "Garden view",
+              "Pay at the property"
+            ],
+            "jc_code": "EXPEDIA",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Superior room - King bed",
+            "rooms": [
+              {
+                "name": "Superior room - King bed",
+                "flags": [
+                  "King bed"
+                ]
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included",
+              "refundable": "Free cancellation",
+              "view_garden": "Garden view",
+              "pay_at_hotel": "Pay at the property"
+            },
+            "partner_name": "Expedia",
+            "partner_logo": "https://hotelscan.com/apis/vendors/expd/logo.svg?pos=zz"
+          },
+          {
+            "price": 187.52,
+            "brt": "p2d#k",
+            "rf": "p2d#k",
+            "brf": 9502848,
+            "rt": 9502848,
+            "vendor": "bkng",
+            "vendor_id_raw": "2070654",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included",
+              "Free cancellation",
+              "Pay at the property"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Deluxe room - King bed",
+            "rooms": [
+              {
+                "name": "Deluxe room - King bed",
+                "flags": [
+                  "King bed"
+                ]
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included",
+              "refundable": "Free cancellation",
+              "pay_at_hotel": "Pay at the property"
+            },
+            "partner_name": "Booking.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/bkng/logo.svg?pos=zz"
+          },
+          {
+            "price": 187.52,
+            "brt": "p2dr",
+            "rf": "p2dr",
+            "brf": 10027136,
+            "rt": 10027136,
+            "vendor": "bkng",
+            "vendor_id_raw": "2070654",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Full board",
+              "Free cancellation",
+              "Pay at the property"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Standard deluxe room",
+            "rooms": [
+              {
+                "name": "Standard deluxe room",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "full_board": "Full board",
+              "refundable": "Free cancellation",
+              "pay_at_hotel": "Pay at the property"
+            },
+            "partner_name": "Booking.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/bkng/logo.svg?pos=zz"
+          },
+          {
+            "price": 196.11,
+            "brt": "p2d#k",
+            "rf": "p2d#k",
+            "brf": 8454208,
+            "rt": 8454208,
+            "vendor": "ostr",
+            "vendor_id_raw": "8731543",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Free cancellation"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Deluxe room - King bed",
+            "rooms": [
+              {
+                "name": "Deluxe room - King bed",
+                "flags": [
+                  "King bed"
+                ]
+              }
+            ],
+            "offer_flags_new": {
+              "refundable": "Free cancellation"
+            },
+            "partner_name": "Zenhotels",
+            "partner_logo": "https://hotelscan.com/apis/vendors/ostr/logo.svg?pos=zz"
+          },
+          {
+            "price": 197.82,
+            "brt": "p2d#k",
+            "rf": "p2d#k",
+            "brf": 8454208,
+            "rt": 8454208,
+            "vendor": "htls",
+            "vendor_id_raw": "694345",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Free cancellation"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Deluxe room - King bed",
+            "rooms": [
+              {
+                "name": "Deluxe room - King bed",
+                "flags": [
+                  "King bed"
+                ]
+              }
+            ],
+            "offer_flags_new": {
+              "refundable": "Free cancellation"
+            },
+            "partner_name": "Hotels.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/htls/logo.svg?pos=zz"
+          },
+          {
+            "price": 197.82,
+            "brt": "p2d#k",
+            "rf": "p2d#k",
+            "brf": 8454208,
+            "rt": 8454208,
+            "vendor": "expd",
+            "vendor_id_raw": "18416437",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Free cancellation"
+            ],
+            "jc_code": "EXPEDIA",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Deluxe room - King bed",
+            "rooms": [
+              {
+                "name": "Deluxe room - King bed",
+                "flags": [
+                  "King bed"
+                ]
+              }
+            ],
+            "offer_flags_new": {
+              "refundable": "Free cancellation"
+            },
+            "partner_name": "Expedia",
+            "partner_logo": "https://hotelscan.com/apis/vendors/expd/logo.svg?pos=zz"
+          },
+          {
+            "price": 197.84,
+            "brt": "p2d#k",
+            "rf": "p2d#k",
+            "brf": 8454272,
+            "rt": 8454272,
+            "vendor": "htls",
+            "vendor_id_raw": "694345",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Free cancellation",
+              "Pay at the property"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Deluxe room - King bed",
+            "rooms": [
+              {
+                "name": "Deluxe room - King bed",
+                "flags": [
+                  "King bed"
+                ]
+              }
+            ],
+            "offer_flags_new": {
+              "refundable": "Free cancellation",
+              "pay_at_hotel": "Pay at the property"
+            },
+            "partner_name": "Hotels.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/htls/logo.svg?pos=zz"
+          },
+          {
+            "price": 197.84,
+            "brt": "p2d#k",
+            "rf": "p2d#k",
+            "brf": 8454272,
+            "rt": 8454272,
+            "vendor": "expd",
+            "vendor_id_raw": "18416437",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Free cancellation",
+              "Pay at the property"
+            ],
+            "jc_code": "EXPEDIA",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Deluxe room - King bed",
+            "rooms": [
+              {
+                "name": "Deluxe room - King bed",
+                "flags": [
+                  "King bed"
+                ]
+              }
+            ],
+            "offer_flags_new": {
+              "refundable": "Free cancellation",
+              "pay_at_hotel": "Pay at the property"
+            },
+            "partner_name": "Expedia",
+            "partner_logo": "https://hotelscan.com/apis/vendors/expd/logo.svg?pos=zz"
+          },
+          {
+            "price": 202.3,
+            "brt": "p2d#k",
+            "rf": "p2d#k",
+            "brf": 12124288,
+            "rt": 12124288,
+            "vendor": "bkng",
+            "vendor_id_raw": "2070654",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast and dinner",
+              "Free cancellation",
+              "Pay at the property"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Deluxe room - King bed",
+            "rooms": [
+              {
+                "name": "Deluxe room - King bed",
+                "flags": [
+                  "King bed"
+                ]
+              }
+            ],
+            "offer_flags_new": {
+              "half_board_dinner": "Breakfast and dinner",
+              "refundable": "Free cancellation",
+              "pay_at_hotel": "Pay at the property"
+            },
+            "partner_name": "Booking.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/bkng/logo.svg?pos=zz"
+          },
+          {
+            "price": 205.71,
+            "brt": "p2d#k",
+            "rf": "p2d#k",
+            "brf": 9502848,
+            "rt": 9502848,
+            "vendor": "ostr",
+            "vendor_id_raw": "8731543",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included",
+              "Free cancellation",
+              "Pay at the property"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Deluxe room - King bed",
+            "rooms": [
+              {
+                "name": "Deluxe room - King bed",
+                "flags": [
+                  "King bed"
+                ]
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included",
+              "refundable": "Free cancellation",
+              "pay_at_hotel": "Pay at the property"
+            },
+            "partner_name": "Zenhotels",
+            "partner_logo": "https://hotelscan.com/apis/vendors/ostr/logo.svg?pos=zz"
+          },
+          {
+            "price": 207.68,
+            "brt": "p2d#k",
+            "rf": "p2d#k",
+            "brf": 9502784,
+            "rt": 9502784,
+            "vendor": "htls",
+            "vendor_id_raw": "694345",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included",
+              "Free cancellation"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Deluxe room - King bed",
+            "rooms": [
+              {
+                "name": "Deluxe room - King bed",
+                "flags": [
+                  "King bed"
+                ]
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included",
+              "refundable": "Free cancellation"
+            },
+            "partner_name": "Hotels.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/htls/logo.svg?pos=zz"
+          },
+          {
+            "price": 207.68,
+            "brt": "p2d#k",
+            "rf": "p2d#k",
+            "brf": 9502784,
+            "rt": 9502784,
+            "vendor": "expd",
+            "vendor_id_raw": "18416437",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included",
+              "Free cancellation"
+            ],
+            "jc_code": "EXPEDIA",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Deluxe room - King bed",
+            "rooms": [
+              {
+                "name": "Deluxe room - King bed",
+                "flags": [
+                  "King bed"
+                ]
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included",
+              "refundable": "Free cancellation"
+            },
+            "partner_name": "Expedia",
+            "partner_logo": "https://hotelscan.com/apis/vendors/expd/logo.svg?pos=zz"
+          },
+          {
+            "price": 207.69,
+            "brt": "p2d#k",
+            "rf": "p2d#k",
+            "brf": 9502848,
+            "rt": 9502848,
+            "vendor": "htls",
+            "vendor_id_raw": "694345",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included",
+              "Free cancellation",
+              "Pay at the property"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Deluxe room - King bed",
+            "rooms": [
+              {
+                "name": "Deluxe room - King bed",
+                "flags": [
+                  "King bed"
+                ]
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included",
+              "refundable": "Free cancellation",
+              "pay_at_hotel": "Pay at the property"
+            },
+            "partner_name": "Hotels.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/htls/logo.svg?pos=zz"
+          },
+          {
+            "price": 207.69,
+            "brt": "p2d#k",
+            "rf": "p2d#k",
+            "brf": 9502848,
+            "rt": 9502848,
+            "vendor": "expd",
+            "vendor_id_raw": "18416437",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included",
+              "Free cancellation",
+              "Pay at the property"
+            ],
+            "jc_code": "EXPEDIA",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Deluxe room - King bed",
+            "rooms": [
+              {
+                "name": "Deluxe room - King bed",
+                "flags": [
+                  "King bed"
+                ]
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included",
+              "refundable": "Free cancellation",
+              "pay_at_hotel": "Pay at the property"
+            },
+            "partner_name": "Expedia",
+            "partner_logo": "https://hotelscan.com/apis/vendors/expd/logo.svg?pos=zz"
+          },
+          {
+            "price": 212.15,
+            "brt": "p2d#k",
+            "rf": "p2d#k",
+            "brf": 10027136,
+            "rt": 10027136,
+            "vendor": "bkng",
+            "vendor_id_raw": "2070654",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Full board",
+              "Free cancellation",
+              "Pay at the property"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Deluxe room - King bed",
+            "rooms": [
+              {
+                "name": "Deluxe room - King bed",
+                "flags": [
+                  "King bed"
+                ]
+              }
+            ],
+            "offer_flags_new": {
+              "full_board": "Full board",
+              "refundable": "Free cancellation",
+              "pay_at_hotel": "Pay at the property"
+            },
+            "partner_name": "Booking.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/bkng/logo.svg?pos=zz"
+          },
+          {
+            "price": 217.07,
+            "brt": "p2dr",
+            "rf": "p2dr",
+            "brf": 11075712,
+            "rt": 11075712,
+            "vendor": "bkng",
+            "vendor_id_raw": "2070654",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Free cancellation",
+              "Pay at the property"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Standard deluxe room",
+            "rooms": [
+              {
+                "name": "Standard deluxe room",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "refundable": "Free cancellation",
+              "pay_at_hotel": "Pay at the property"
+            },
+            "partner_name": "Booking.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/bkng/logo.svg?pos=zz"
+          },
+          {
+            "price": 225.31,
+            "brt": "p2c#k",
+            "rf": "p2c#k",
+            "brf": 10551936,
+            "rt": 10551936,
+            "vendor": "ostr",
+            "vendor_id_raw": "8731543",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Half board",
+              "Free cancellation",
+              "Garden view",
+              "Pay at the property"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Superior room - King bed",
+            "rooms": [
+              {
+                "name": "Superior room - King bed",
+                "flags": [
+                  "King bed"
+                ]
+              }
+            ],
+            "offer_flags_new": {
+              "half_board": "Half board",
+              "refundable": "Free cancellation",
+              "view_garden": "Garden view",
+              "pay_at_hotel": "Pay at the property"
+            },
+            "partner_name": "Zenhotels",
+            "partner_logo": "https://hotelscan.com/apis/vendors/ostr/logo.svg?pos=zz"
+          },
+          {
+            "price": 226.92,
+            "brt": "p2d#k",
+            "rf": "p2d#k",
+            "brf": 12124288,
+            "rt": 12124288,
+            "vendor": "bkng",
+            "vendor_id_raw": "2070654",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast and dinner",
+              "Free cancellation",
+              "Pay at the property"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Deluxe room - King bed",
+            "rooms": [
+              {
+                "name": "Deluxe room - King bed",
+                "flags": [
+                  "King bed"
+                ]
+              }
+            ],
+            "offer_flags_new": {
+              "half_board_dinner": "Breakfast and dinner",
+              "refundable": "Free cancellation",
+              "pay_at_hotel": "Pay at the property"
+            },
+            "partner_name": "Booking.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/bkng/logo.svg?pos=zz"
+          },
+          {
+            "price": 227.38,
+            "brt": "p2c#k",
+            "rf": "p2c#k",
+            "brf": 9503360,
+            "rt": 9503360,
+            "vendor": "htls",
+            "vendor_id_raw": "694345",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included",
+              "Free cancellation",
+              "Garden view",
+              "Pay at the property"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Superior room - King bed",
+            "rooms": [
+              {
+                "name": "Superior room - King bed",
+                "flags": [
+                  "King bed"
+                ]
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included",
+              "refundable": "Free cancellation",
+              "view_garden": "Garden view",
+              "pay_at_hotel": "Pay at the property"
+            },
+            "partner_name": "Hotels.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/htls/logo.svg?pos=zz"
+          },
+          {
+            "price": 227.38,
+            "brt": "p2c#k",
+            "rf": "p2c#k",
+            "brf": 9503360,
+            "rt": 9503360,
+            "vendor": "expd",
+            "vendor_id_raw": "18416437",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included",
+              "Free cancellation",
+              "Garden view",
+              "Pay at the property"
+            ],
+            "jc_code": "EXPEDIA",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Superior room - King bed",
+            "rooms": [
+              {
+                "name": "Superior room - King bed",
+                "flags": [
+                  "King bed"
+                ]
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included",
+              "refundable": "Free cancellation",
+              "view_garden": "Garden view",
+              "pay_at_hotel": "Pay at the property"
+            },
+            "partner_name": "Expedia",
+            "partner_logo": "https://hotelscan.com/apis/vendors/expd/logo.svg?pos=zz"
+          },
+          {
+            "price": 241.7,
+            "brt": "p2d#k",
+            "rf": "p2d#k",
+            "brf": 11075712,
+            "rt": 11075712,
+            "vendor": "bkng",
+            "vendor_id_raw": "2070654",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Free cancellation",
+              "Pay at the property"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Deluxe room - King bed",
+            "rooms": [
+              {
+                "name": "Deluxe room - King bed",
+                "flags": [
+                  "King bed"
+                ]
+              }
+            ],
+            "offer_flags_new": {
+              "refundable": "Free cancellation",
+              "pay_at_hotel": "Pay at the property"
+            },
+            "partner_name": "Booking.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/bkng/logo.svg?pos=zz"
+          },
+          {
+            "price": 246.63,
+            "brt": "p2d#k",
+            "rf": "p2d#k",
+            "brf": 10027136,
+            "rt": 10027136,
+            "vendor": "bkng",
+            "vendor_id_raw": "2070654",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Full board",
+              "Free cancellation",
+              "Pay at the property"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Deluxe room - King bed",
+            "rooms": [
+              {
+                "name": "Deluxe room - King bed",
+                "flags": [
+                  "King bed"
+                ]
+              }
+            ],
+            "offer_flags_new": {
+              "full_board": "Full board",
+              "refundable": "Free cancellation",
+              "pay_at_hotel": "Pay at the property"
+            },
+            "partner_name": "Booking.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/bkng/logo.svg?pos=zz"
+          },
+          {
+            "price": 249.71,
+            "brt": "p2d#k",
+            "rf": "p2d#k",
+            "brf": 10551424,
+            "rt": 10551424,
+            "vendor": "ostr",
+            "vendor_id_raw": "8731543",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Half board",
+              "Free cancellation",
+              "Pay at the property"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Deluxe room - King bed",
+            "rooms": [
+              {
+                "name": "Deluxe room - King bed",
+                "flags": [
+                  "King bed"
+                ]
+              }
+            ],
+            "offer_flags_new": {
+              "half_board": "Half board",
+              "refundable": "Free cancellation",
+              "pay_at_hotel": "Pay at the property"
+            },
+            "partner_name": "Zenhotels",
+            "partner_logo": "https://hotelscan.com/apis/vendors/ostr/logo.svg?pos=zz"
+          },
+          {
+            "price": 252,
+            "brt": "p2d#k",
+            "rf": "p2d#k",
+            "brf": 9502848,
+            "rt": 9502848,
+            "vendor": "htls",
+            "vendor_id_raw": "694345",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included",
+              "Free cancellation",
+              "Pay at the property"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Deluxe room - King bed",
+            "rooms": [
+              {
+                "name": "Deluxe room - King bed",
+                "flags": [
+                  "King bed"
+                ]
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included",
+              "refundable": "Free cancellation",
+              "pay_at_hotel": "Pay at the property"
+            },
+            "partner_name": "Hotels.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/htls/logo.svg?pos=zz"
+          },
+          {
+            "price": 252,
+            "brt": "p2d#k",
+            "rf": "p2d#k",
+            "brf": 9502848,
+            "rt": 9502848,
+            "vendor": "expd",
+            "vendor_id_raw": "18416437",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included",
+              "Free cancellation",
+              "Pay at the property"
+            ],
+            "jc_code": "EXPEDIA",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Deluxe room - King bed",
+            "rooms": [
+              {
+                "name": "Deluxe room - King bed",
+                "flags": [
+                  "King bed"
+                ]
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included",
+              "refundable": "Free cancellation",
+              "pay_at_hotel": "Pay at the property"
+            },
+            "partner_name": "Expedia",
+            "partner_logo": "https://hotelscan.com/apis/vendors/expd/logo.svg?pos=zz"
+          },
+          {
+            "price": 252.01,
+            "brt": "p2d#k",
+            "rf": "p2d#k",
+            "brf": 9502784,
+            "rt": 9502784,
+            "vendor": "htls",
+            "vendor_id_raw": "694345",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included",
+              "Free cancellation"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Deluxe room - King bed",
+            "rooms": [
+              {
+                "name": "Deluxe room - King bed",
+                "flags": [
+                  "King bed"
+                ]
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included",
+              "refundable": "Free cancellation"
+            },
+            "partner_name": "Hotels.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/htls/logo.svg?pos=zz"
+          },
+          {
+            "price": 252.01,
+            "brt": "p2d#k",
+            "rf": "p2d#k",
+            "brf": 9502784,
+            "rt": 9502784,
+            "vendor": "expd",
+            "vendor_id_raw": "18416437",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included",
+              "Free cancellation"
+            ],
+            "jc_code": "EXPEDIA",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Deluxe room - King bed",
+            "rooms": [
+              {
+                "name": "Deluxe room - King bed",
+                "flags": [
+                  "King bed"
+                ]
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included",
+              "refundable": "Free cancellation"
+            },
+            "partner_name": "Expedia",
+            "partner_logo": "https://hotelscan.com/apis/vendors/expd/logo.svg?pos=zz"
+          },
+          {
+            "price": 269.31,
+            "brt": "p2c#k",
+            "rf": "p2c#k",
+            "brf": 10027648,
+            "rt": 10027648,
+            "vendor": "ostr",
+            "vendor_id_raw": "8731543",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Full board",
+              "Free cancellation",
+              "Garden view",
+              "Pay at the property"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Superior room - King bed",
+            "rooms": [
+              {
+                "name": "Superior room - King bed",
+                "flags": [
+                  "King bed"
+                ]
+              }
+            ],
+            "offer_flags_new": {
+              "full_board": "Full board",
+              "refundable": "Free cancellation",
+              "view_garden": "Garden view",
+              "pay_at_hotel": "Pay at the property"
+            },
+            "partner_name": "Zenhotels",
+            "partner_logo": "https://hotelscan.com/apis/vendors/ostr/logo.svg?pos=zz"
+          },
+          {
+            "price": 271.68,
+            "brt": "p2c#k",
+            "rf": "p2c#k",
+            "brf": 9503360,
+            "rt": 9503360,
+            "vendor": "htls",
+            "vendor_id_raw": "694345",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included",
+              "Free cancellation",
+              "Garden view",
+              "Pay at the property"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Superior room - King bed",
+            "rooms": [
+              {
+                "name": "Superior room - King bed",
+                "flags": [
+                  "King bed"
+                ]
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included",
+              "refundable": "Free cancellation",
+              "view_garden": "Garden view",
+              "pay_at_hotel": "Pay at the property"
+            },
+            "partner_name": "Hotels.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/htls/logo.svg?pos=zz"
+          },
+          {
+            "price": 271.68,
+            "brt": "p2c#k",
+            "rf": "p2c#k",
+            "brf": 9503360,
+            "rt": 9503360,
+            "vendor": "expd",
+            "vendor_id_raw": "18416437",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included",
+              "Free cancellation",
+              "Garden view",
+              "Pay at the property"
+            ],
+            "jc_code": "EXPEDIA",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Superior room - King bed",
+            "rooms": [
+              {
+                "name": "Superior room - King bed",
+                "flags": [
+                  "King bed"
+                ]
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included",
+              "refundable": "Free cancellation",
+              "view_garden": "Garden view",
+              "pay_at_hotel": "Pay at the property"
+            },
+            "partner_name": "Expedia",
+            "partner_logo": "https://hotelscan.com/apis/vendors/expd/logo.svg?pos=zz"
+          },
+          {
+            "price": 271.69,
+            "brt": "p2c#k",
+            "rf": "p2c#k",
+            "brf": 9503296,
+            "rt": 9503296,
+            "vendor": "htls",
+            "vendor_id_raw": "694345",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included",
+              "Free cancellation",
+              "Garden view"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Superior room - King bed",
+            "rooms": [
+              {
+                "name": "Superior room - King bed",
+                "flags": [
+                  "King bed"
+                ]
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included",
+              "refundable": "Free cancellation",
+              "view_garden": "Garden view"
+            },
+            "partner_name": "Hotels.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/htls/logo.svg?pos=zz"
+          },
+          {
+            "price": 271.69,
+            "brt": "p2c#k",
+            "rf": "p2c#k",
+            "brf": 9503296,
+            "rt": 9503296,
+            "vendor": "expd",
+            "vendor_id_raw": "18416437",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included",
+              "Free cancellation",
+              "Garden view"
+            ],
+            "jc_code": "EXPEDIA",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Superior room - King bed",
+            "rooms": [
+              {
+                "name": "Superior room - King bed",
+                "flags": [
+                  "King bed"
+                ]
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included",
+              "refundable": "Free cancellation",
+              "view_garden": "Garden view"
+            },
+            "partner_name": "Expedia",
+            "partner_logo": "https://hotelscan.com/apis/vendors/expd/logo.svg?pos=zz"
+          },
+          {
+            "price": 286.03,
+            "brt": "p2d#k",
+            "rf": "p2d#k",
+            "brf": 11075712,
+            "rt": 11075712,
+            "vendor": "bkng",
+            "vendor_id_raw": "2070654",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Free cancellation",
+              "Pay at the property"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Deluxe room - King bed",
+            "rooms": [
+              {
+                "name": "Deluxe room - King bed",
+                "flags": [
+                  "King bed"
+                ]
+              }
+            ],
+            "offer_flags_new": {
+              "refundable": "Free cancellation",
+              "pay_at_hotel": "Pay at the property"
+            },
+            "partner_name": "Booking.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/bkng/logo.svg?pos=zz"
+          },
+          {
+            "price": 293.71,
+            "brt": "p2d#k",
+            "rf": "p2d#k",
+            "brf": 10027136,
+            "rt": 10027136,
+            "vendor": "ostr",
+            "vendor_id_raw": "8731543",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Full board",
+              "Free cancellation",
+              "Pay at the property"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Deluxe room - King bed",
+            "rooms": [
+              {
+                "name": "Deluxe room - King bed",
+                "flags": [
+                  "King bed"
+                ]
+              }
+            ],
+            "offer_flags_new": {
+              "full_board": "Full board",
+              "refundable": "Free cancellation",
+              "pay_at_hotel": "Pay at the property"
+            },
+            "partner_name": "Zenhotels",
+            "partner_logo": "https://hotelscan.com/apis/vendors/ostr/logo.svg?pos=zz"
+          },
+          {
+            "price": 296.3,
+            "brt": "p2d#k",
+            "rf": "p2d#k",
+            "brf": 9502784,
+            "rt": 9502784,
+            "vendor": "htls",
+            "vendor_id_raw": "694345",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included",
+              "Free cancellation"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Deluxe room - King bed",
+            "rooms": [
+              {
+                "name": "Deluxe room - King bed",
+                "flags": [
+                  "King bed"
+                ]
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included",
+              "refundable": "Free cancellation"
+            },
+            "partner_name": "Hotels.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/htls/logo.svg?pos=zz"
+          },
+          {
+            "price": 296.3,
+            "brt": "p2d#k",
+            "rf": "p2d#k",
+            "brf": 9502784,
+            "rt": 9502784,
+            "vendor": "expd",
+            "vendor_id_raw": "18416437",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included",
+              "Free cancellation"
+            ],
+            "jc_code": "EXPEDIA",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Deluxe room - King bed",
+            "rooms": [
+              {
+                "name": "Deluxe room - King bed",
+                "flags": [
+                  "King bed"
+                ]
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included",
+              "refundable": "Free cancellation"
+            },
+            "partner_name": "Expedia",
+            "partner_logo": "https://hotelscan.com/apis/vendors/expd/logo.svg?pos=zz"
+          },
+          {
+            "price": 296.31,
+            "brt": "p2d#k",
+            "rf": "p2d#k",
+            "brf": 9502848,
+            "rt": 9502848,
+            "vendor": "htls",
+            "vendor_id_raw": "694345",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included",
+              "Free cancellation",
+              "Pay at the property"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Deluxe room - King bed",
+            "rooms": [
+              {
+                "name": "Deluxe room - King bed",
+                "flags": [
+                  "King bed"
+                ]
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included",
+              "refundable": "Free cancellation",
+              "pay_at_hotel": "Pay at the property"
+            },
+            "partner_name": "Hotels.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/htls/logo.svg?pos=zz"
+          },
+          {
+            "price": 296.31,
+            "brt": "p2d#k",
+            "rf": "p2d#k",
+            "brf": 9502848,
+            "rt": 9502848,
+            "vendor": "expd",
+            "vendor_id_raw": "18416437",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included",
+              "Free cancellation",
+              "Pay at the property"
+            ],
+            "jc_code": "EXPEDIA",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Deluxe room - King bed",
+            "rooms": [
+              {
+                "name": "Deluxe room - King bed",
+                "flags": [
+                  "King bed"
+                ]
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included",
+              "refundable": "Free cancellation",
+              "pay_at_hotel": "Pay at the property"
+            },
+            "partner_name": "Expedia",
+            "partner_logo": "https://hotelscan.com/apis/vendors/expd/logo.svg?pos=zz"
+          }
+        ],
+        "descriptions_language": {
+          "general": {
+            "original_language": true,
+            "text": "Great care is taken to ensure guests experience comfort through top-notch services and amenities.Remain linked during your visit by utilizing the complimentary internet access available. Prior to your check-in date, you can arrange airport transportation services, guaranteeing a seamless and efficient experience for both arrival and departure. Discovering Maldive Islands becomes even more accessible through the car hire and shuttle amenities provided at the hotel.Parking is accessible, supplied by the hotel for guests who arrive by car.Effortlessly plan your daily activities and travel requirements with concierge service, express check-in or check-out and luggage storage provided by the front desk services.Securing passes to the city's top attractions is simple with the hotel's ticket service and tours.Repeatedly enjoy your best-loved attire with the aid of the laundry service available at SeaLaVie Inn.During leisurely days and evenings, in-room amenities such as room service and daily housekeeping enable you to maximize your stay in the room.For minor or impromptu requirements, the convenience stores can promptly cater to them without the necessity of stepping out from the hotel.In limited designated zones, smoking is exclusively permitted.Crafted for coziness, every guestroom provides an array of features, guaranteeing a tranquil night's sleep while maintaining the level of comfort. For a more enjoyable stay, select rooms at hotel are equipped with blackout curtains and air conditioning. At SeaLaVie Inn, a selection of rooms can be found that showcase unique design elements such as a balcony or terrace. Expand your in-room entertainment choices with various amenities, such as cable TV offered in certain accommodations. Rest assured that your hydration needs will be met, as some guestrooms are equipped with a coffee or tea maker and bottled water. Maintain your cleanliness and comfort using a hair dryer and toiletries available in select guest restrooms. Begin your day on a delightful note with a scrumptious complimentary breakfast, consistently served at SeaLaVie Inn.Begin your holiday mornings right with your essential cup of coffee, offered daily at the cafe on-site.During your visit, indulge in a range of delightful culinary choices at hotel to enhance your experience.Concerned about your dining preferences? Fret not! SeaLaVie Inn offers an assortment of culinary varieties featuring halal choices, catering to all tastes.Experience a fantastic evening effortlessly! Relish an entertaining night without venturing beyond the confines of the bar. For those with discerning taste buds, having an on-site BBQ facilities and shared kitchen at your disposal will undoubtedly be appreciated. Indulge in the numerous pursuits available at SeaLaVie Inn. During your stay, the hotel provides direct access to a beach, ensuring you remain near the sea throughout your visit.Eliminate those holiday calories by stopping by hotel and making use of their well-equipped exercise amenities."
+          },
+          "direction": {
+            "original_language": true,
+            "text": "Located in Ukulhas, SeaLaVie Inn is near the airport and on the beach. Folhudhoo Harbor and Ukulhas Harbor are local landmarks, and some of the area's activities can be experienced at Mathiveri Harbor and Nika Island Resort & Spa."
+          }
+        },
+        "chain_code": null,
+        "bids": {
+          "agda": "j23",
+          "bkng": "j23",
+          "ostr": "j23",
+          "expd": "j23",
+          "htls": "j23"
+        },
+        "worst_offer": 173.22,
+        "best_offer": 115.54,
+        "best_offer_ota": "agda",
+        "best_offer_mota": null,
+        "discount": 35,
+        "offers_count": 62,
+        "coordinates": {
+          "lat": 4.21386,
+          "lng": 72.86561
+        },
+        "distance": 0.23,
+        "neighborhood": null,
+        "badge": null,
+        "distances": [
+          {
+            "from": "center",
+            "distance": 0.23,
+            "time": 319,
+            "means": "foot",
+            "means_type": "foot"
+          }
+        ],
+        "specs": {
+          "bathrooms": null,
+          "beds": null,
+          "bedrooms": null,
+          "guests": null,
+          "square_meters": null
+        },
+        "toa_label": "guest house",
+        "top_amenities": [
+          "internet",
+          "restaurant",
+          "room_service",
+          "bar",
+          "parking"
+        ],
+        "transportations": {
+          "airports": [],
+          "trains": []
+        },
+        "images": [
+          {
+            "image_id": "724800510",
+            "label": ""
+          },
+          {
+            "image_id": "724800526",
+            "label": ""
+          },
+          {
+            "image_id": "724800555",
+            "label": ""
+          },
+          {
+            "image_id": "724800577",
+            "label": ""
+          },
+          {
+            "image_id": "724800540",
+            "label": ""
+          },
+          {
+            "image_id": "724800560",
+            "label": ""
+          },
+          {
+            "image_id": "724800519",
+            "label": ""
+          },
+          {
+            "image_id": "724800504",
+            "label": ""
+          },
+          {
+            "image_id": "724800562",
+            "label": ""
+          },
+          {
+            "image_id": "724800579",
+            "label": ""
+          },
+          {
+            "image_id": "724800507",
+            "label": ""
+          },
+          {
+            "image_id": "724800512",
+            "label": ""
+          },
+          {
+            "image_id": "724800503",
+            "label": ""
+          },
+          {
+            "image_id": "724800573",
+            "label": ""
+          },
+          {
+            "image_id": "724800556",
+            "label": ""
+          }
+        ],
+        "hero_offer": {
+          "price": 116.59,
+          "brt": "p2dr",
+          "rf": "p2dr",
+          "brf": 8421440,
+          "rt": 8421440,
+          "vendor": "bkng",
+          "vendor_id_raw": "2070654",
+          "mota_code": null,
+          "direct_offer": false,
+          "offer_flags": [],
+          "jc_code": "",
+          "ranking_index": 0.9963976327300798,
+          "chain": "",
+          "free_cancellation": false,
+          "special": false,
+          "room_name": "Standard deluxe room",
+          "rooms": [
+            {
+              "name": "Standard deluxe room",
+              "flags": []
+            }
+          ],
+          "partner_name": "Booking.com",
+          "partner_logo": "https://hotelscan.com/apis/vendors/bkng/logo.svg?pos=zz"
+        },
+        "rank": 0,
+        "ctrl_srt": "im a ctrl teapot",
+        "test_srt": "im a test teapot"
+      }
+    ],
+    "filters": [],
+    "query": {
+      "pos": "zz"
+    }
+  }
+}

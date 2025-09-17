@@ -1,0 +1,645 @@
+{
+  "_meta": {
+    "status": "SUCCESS",
+    "cached": true,
+    "count": 1,
+    "debug": {
+      "ticket": {
+        "ticket_id": "1001245871_zz_zz_d_publ_en_2_2025-10-08_2025-10-13_1_3",
+        "created_at": 1758065371.6285,
+        "loop": null,
+        "snapped_at": 1758065371.7525,
+        "snapshot_id": "1001245871_zz_zz_d_publ_en_2_2025-10-08_2025-10-13_1_3",
+        "snapshot_ttl": 300,
+        "executions": 2,
+        "progress": 1,
+        "save_errors": []
+      }
+    }
+  },
+  "data": {
+    "meta": [],
+    "geo": {
+      "hs_id": "xk3yg1hs9wa4",
+      "region_name": "Dharavandhoo",
+      "region_name_long": "Dharavandhoo, Maldives",
+      "region_type": "CITY",
+      "region_id": 6344516,
+      "country_iso": "MV",
+      "country": "maldives",
+      "localised_country": "Maldives",
+      "center": [
+        5.15735,
+        73.13085
+      ],
+      "centroid": [
+        5.1586,
+        73.13085
+      ],
+      "polygon": [
+        "5.153199,73.128681",
+        "5.152505,73.136519",
+        "5.158403,73.139228",
+        "5.161949,73.131507",
+        "5.1622,73.123901",
+        "5.158788,73.122469",
+        "5.153199,73.128681"
+      ],
+      "radius": 0.93,
+      "zoom": -1,
+      "search_by_polygon": 0,
+      "cluster": 0,
+      "properties": 46,
+      "radius_override": 5,
+      "boundingbox": {
+        "ne": [
+          5.163,
+          73.14
+        ],
+        "sw": [
+          5.152,
+          73.122
+        ]
+      },
+      "airports": [
+        "DRV"
+      ],
+      "region_name_en": "Dharavandhoo",
+      "region_name_long_en": "Dharavandhoo, Maldives",
+      "referrer_city_name_en": "Dharavandhoo",
+      "parent_region_id": 6051084,
+      "parent_hs_id": "x5p4hmhw6iot",
+      "parent_region_name": "Maldives (all)",
+      "parent_region_name_long": "Maldives (all)",
+      "dynamic_bbox": {
+        "ne": [
+          5.159,
+          73.128
+        ],
+        "sw": [
+          5.159,
+          73.128
+        ]
+      }
+    },
+    "records": [
+      {
+        "hs_id": 1001245871,
+        "slug": "kiha-beach-dharavandhoo-mv-1001245871",
+        "name": "Kiha Beach",
+        "ty_id": "9db09abf-f509-4e21-9dff-97452088f325",
+        "toa": "hotel",
+        "building": {
+          "room_num": 10
+        },
+        "location": {
+          "city": "Dharavandhoo",
+          "zip": "06060",
+          "country_iso2": "MV",
+          "address": "Baa Atoll",
+          "geoid": "xk3yg1hs9wa4",
+          "loc": {
+            "type": "Point"
+          },
+          "coordinates": {
+            "lng": 73.12853,
+            "lat": 5.15986
+          }
+        },
+        "opening_time": {
+          "check_in_from": "14:00",
+          "check_in_to": "13:00",
+          "check_out_from": null,
+          "check_out_to": "12:00"
+        },
+        "quality": {
+          "review_count": 202,
+          "review_rating": 93,
+          "stars": 4,
+          "stars_is_estimated": false,
+          "review_source": ""
+        },
+        "covid_safe": true,
+        "amenities": {
+          "children": [
+            "children_playground"
+          ],
+          "wellness": [
+            "indoor_pool",
+            "massage",
+            "solarium",
+            "spa",
+            "outdoor_pool"
+          ],
+          "sports": [
+            "billiard",
+            "ski",
+            "bike_rent",
+            "trekking",
+            "sub"
+          ],
+          "internet": [
+            "wifi",
+            "internet"
+          ],
+          "food_drink": [
+            "restaurant",
+            "room_service",
+            "cafe",
+            "bar",
+            "snack_bar"
+          ],
+          "disability": [
+            "disability_facilities"
+          ],
+          "parking": [
+            "parking"
+          ],
+          "outdoor": [
+            "garden",
+            "terrace"
+          ],
+          "other": [],
+          "entertainment": [
+            "tv_lobby"
+          ],
+          "transfer": [
+            "shuttle_service"
+          ],
+          "room": [
+            "fan",
+            "air_conditioning",
+            "tv"
+          ],
+          "reception": [
+            "24h_reception",
+            "luggage_storage",
+            "concierge",
+            "laundry_facilities",
+            "laundry_service",
+            "safety_deposit_box"
+          ]
+        },
+        "descriptions": {
+          "direction": "Located in Dharavandhoo, Kiha Beach is on the beach. While the natural beauty of Hanifaru Bay and Hibalhidoo can be enjoyed by anyone, those looking for an activity can check out Kihaadhuffaru Island Pier. Snorkeling and fishing offer great chances to get out on the surrounding water, or you can seek out an adventure with hiking/biking trails nearby.",
+          "general": "At Kiha Beach, exceptional service and top-notch amenities create a memorable experience for guests.Complimentary internet access is available in the hotel to ensure you stay connected during your visit.Arrange your trips to and from the airport using the hotel's convenient transportation services booking.Amenities at car hire offered by Kiha Beach simplify the organization of your excursions, tourist activities, and other adventures in Maldive Islands. For guests with their own vehicle, parking facilities are provided. Continuously receive the support you require through front desk amenities such as concierge service, express check-in or check-out, luggage storage and safety deposit boxes. At the hotel, their ticket service and tours is also capable of assisting with booking tickets and securing reservations for entertainment and adventures. Always look your best in your preferred attire with the dry cleaning service and laundry service provided at Kiha Beach.Craving relaxation? In-room amenities such as room service and daily housekeeping allow you to maximize your time spent inside the room. For the health and well-being of all guests and staff, smoking is restricted exclusively to assigned zones.Accommodations come equipped with all the conveniences required for a restful night's slumber.A selection of rooms feature linen service, blackout curtains and air conditioning to ensure your comfort and convenience.A few accommodations at Kiha Beach also include unique design elements like a balcony or terrace.A few chosen rooms are equipped with television and cable TV to ensure guest amusement. In certain rooms, the hotel offers visitors access to a refrigerator, bottled water, a coffee or tea maker, instant coffee, instant tea and mini bar.In the hotel, certain guest bathrooms come equipped with essential bathroom amenities, such as a hair dryer, toiletries and bathrobes, ensuring a comfortable stay for guests. A delightful breakfast is the perfect way to begin your day, and at Kiha Beach, you can always indulge in a scrumptious meal on-site. All adore a delightful cup of coffee! An on-site coffee shop ensures you can relish a cup of authentic, freshly-brewed coffee every morning -- or whenever you desire it. Allow your journey to be free from the pangs of hunger! On-site eateries offer delicious and accessible meal choices. At Kiha Beach, guests with diverse dietary needs are accommodated by offering options like halal among the different types of cuisine. An evening spent at hotel's bar can offer as much enjoyment as venturing out with your fellow travelers.Are you a fan of preparing your own dishes? You'll certainly appreciate the onsite BBQ facilities and shared kitchen for your culinary needs. At Kiha Beach, guests can take pleasure in the delightful recreational amenities provided for their entertainment. At the hotel, a wide range of enjoyable activities ensures that there's never a dull moment during your visit. Don't miss out on the easily reachable beach in the vicinity.At the hotel, an abundance of recreational activities guarantees a fulfilling stay. Enjoy the ultimate winter getaway with the inclusion of ski equipment rentals and ski lessons.At Kiha Beach, a wide array of amenities guarantees a fulfilling experience throughout your visit. Make your holiday truly memorable by taking a rejuvenating plunge into the pool.",
+          "amenities": true,
+          "localized": "At Kiha Beach, exceptional service and top-notch amenities create a memorable experience for guests.Complimentary internet access is available in the hotel to ensure you stay connected during your visit.Arrange your trips to and from the airport using the hotel's convenient transportation services booking.Amenities at car hire offered by Kiha Beach simplify the organization of your excursions, tourist activities, and other adventures in Maldive Islands. For guests with their own vehicle, parking facilities are provided. Continuously receive the support you require through front desk amenities such as concierge service, express check-in or check-out, luggage storage and safety deposit boxes. At the hotel, their ticket service and tours is also capable of assisting with booking tickets and securing reservations for entertainment and adventures. Always look your best in your preferred attire with the dry cleaning service and laundry service provided at Kiha Beach.Craving relaxation? In-room amenities such as room service and daily housekeeping allow you to maximize your time spent inside the room. For the health and well-being of all guests and staff, smoking is restricted exclusively to assigned zones.Accommodations come equipped with all the conveniences required for a restful night's slumber.A selection of rooms feature linen service, blackout curtains and air conditioning to ensure your comfort and convenience.A few accommodations at Kiha Beach also include unique design elements like a balcony or terrace.A few chosen rooms are equipped with television and cable TV to ensure guest amusement. In certain rooms, the hotel offers visitors access to a refrigerator, bottled water, a coffee or tea maker, instant coffee, instant tea and mini bar.In the hotel, certain guest bathrooms come equipped with essential bathroom amenities, such as a hair dryer, toiletries and bathrobes, ensuring a comfortable stay for guests. A delightful breakfast is the perfect way to begin your day, and at Kiha Beach, you can always indulge in a scrumptious meal on-site. All adore a delightful cup of coffee! An on-site coffee shop ensures you can relish a cup of authentic, freshly-brewed coffee every morning -- or whenever you desire it. Allow your journey to be free from the pangs of hunger! On-site eateries offer delicious and accessible meal choices. At Kiha Beach, guests with diverse dietary needs are accommodated by offering options like halal among the different types of cuisine. An evening spent at hotel's bar can offer as much enjoyment as venturing out with your fellow travelers.Are you a fan of preparing your own dishes? You'll certainly appreciate the onsite BBQ facilities and shared kitchen for your culinary needs. At Kiha Beach, guests can take pleasure in the delightful recreational amenities provided for their entertainment. At the hotel, a wide range of enjoyable activities ensures that there's never a dull moment during your visit. Don't miss out on the easily reachable beach in the vicinity.At the hotel, an abundance of recreational activities guarantees a fulfilling stay. Enjoy the ultimate winter getaway with the inclusion of ski equipment rentals and ski lessons.At Kiha Beach, a wide array of amenities guarantees a fulfilling experience throughout your visit. Make your holiday truly memorable by taking a rejuvenating plunge into the pool."
+        },
+        "short_description": "Excellent hotel. Great rooms in excellent location. Great pool. Beautiful beach.",
+        "chain": "no_chain",
+        "brand": "no_brand",
+        "offers": [
+          {
+            "price": 217.67,
+            "brt": "p2r#t",
+            "rf": "p2r#t",
+            "brf": 9503888,
+            "rt": 9503888,
+            "vendor": "bkng",
+            "vendor_id_raw": "2339650",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included",
+              "Free cancellation",
+              "Sea view",
+              "Pay at the property",
+              "Balcony"
+            ],
+            "jc_code": "",
+            "ranking_index": 0.9963798410437819,
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Standard room - Twin beds",
+            "rooms": [
+              {
+                "name": "Standard room - Twin beds",
+                "flags": [
+                  "Twin beds"
+                ]
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included",
+              "refundable": "Free cancellation",
+              "view_sea": "Sea view",
+              "pay_at_hotel": "Pay at the property",
+              "balcony": "Balcony"
+            },
+            "partner_name": "Booking.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/bkng/logo.svg?pos=zz"
+          },
+          {
+            "vendor": "agda",
+            "price": 215.7,
+            "vendor_id_raw": "2282265",
+            "mota_code": null,
+            "jc_code": "",
+            "partner_name": "Agoda",
+            "partner_logo": "https://hotelscan.com/apis/vendors/agda/logo.svg?pos=zz",
+            "room_name": "Standard room - Twin beds",
+            "brf": 9502864,
+            "brt": "p2r#t"
+          }
+        ],
+        "all_offers": [
+          {
+            "price": 215.7,
+            "brt": "p2r#t",
+            "rf": "p2r#t",
+            "brf": 9502864,
+            "rt": 9502864,
+            "vendor": "agda",
+            "vendor_id_raw": "2282265",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included",
+              "Free cancellation",
+              "Pay at the property",
+              "Balcony"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Standard room - Twin beds",
+            "rooms": [
+              {
+                "name": "Standard room - Twin beds",
+                "flags": [
+                  "Twin beds"
+                ]
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included",
+              "refundable": "Free cancellation",
+              "pay_at_hotel": "Pay at the property",
+              "balcony": "Balcony"
+            },
+            "partner_name": "Agoda",
+            "partner_logo": "https://hotelscan.com/apis/vendors/agda/logo.svg?pos=zz"
+          },
+          {
+            "price": 217.67,
+            "brt": "p2r#t",
+            "rf": "p2r#t",
+            "brf": 9503888,
+            "rt": 9503888,
+            "vendor": "bkng",
+            "vendor_id_raw": "2339650",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included",
+              "Free cancellation",
+              "Sea view",
+              "Pay at the property",
+              "Balcony"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Standard room - Twin beds",
+            "rooms": [
+              {
+                "name": "Standard room - Twin beds",
+                "flags": [
+                  "Twin beds"
+                ]
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included",
+              "refundable": "Free cancellation",
+              "view_sea": "Sea view",
+              "pay_at_hotel": "Pay at the property",
+              "balcony": "Balcony"
+            },
+            "partner_name": "Booking.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/bkng/logo.svg?pos=zz"
+          },
+          {
+            "price": 261.79,
+            "brt": "p2r#t",
+            "rf": "p2r#t",
+            "brf": 9502864,
+            "rt": 9502864,
+            "vendor": "agda",
+            "vendor_id_raw": "2282265",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included",
+              "Free cancellation",
+              "Pay at the property",
+              "Balcony"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Standard room - Twin beds",
+            "rooms": [
+              {
+                "name": "Standard room - Twin beds",
+                "flags": [
+                  "Twin beds"
+                ]
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included",
+              "refundable": "Free cancellation",
+              "pay_at_hotel": "Pay at the property",
+              "balcony": "Balcony"
+            },
+            "partner_name": "Agoda",
+            "partner_logo": "https://hotelscan.com/apis/vendors/agda/logo.svg?pos=zz"
+          },
+          {
+            "price": 264.19,
+            "brt": "p2r#t",
+            "rf": "p2r#t",
+            "brf": 12125328,
+            "rt": 12125328,
+            "vendor": "bkng",
+            "vendor_id_raw": "2339650",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast and dinner",
+              "Free cancellation",
+              "Sea view",
+              "Pay at the property",
+              "Balcony"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Standard room - Twin beds",
+            "rooms": [
+              {
+                "name": "Standard room - Twin beds",
+                "flags": [
+                  "Twin beds"
+                ]
+              }
+            ],
+            "offer_flags_new": {
+              "half_board_dinner": "Breakfast and dinner",
+              "refundable": "Free cancellation",
+              "view_sea": "Sea view",
+              "pay_at_hotel": "Pay at the property",
+              "balcony": "Balcony"
+            },
+            "partner_name": "Booking.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/bkng/logo.svg?pos=zz"
+          },
+          {
+            "price": 307.88,
+            "brt": "p2r#t",
+            "rf": "p2r#t",
+            "brf": 9502864,
+            "rt": 9502864,
+            "vendor": "agda",
+            "vendor_id_raw": "2282265",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included",
+              "Free cancellation",
+              "Pay at the property",
+              "Balcony"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Standard room - Twin beds",
+            "rooms": [
+              {
+                "name": "Standard room - Twin beds",
+                "flags": [
+                  "Twin beds"
+                ]
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included",
+              "refundable": "Free cancellation",
+              "pay_at_hotel": "Pay at the property",
+              "balcony": "Balcony"
+            },
+            "partner_name": "Agoda",
+            "partner_logo": "https://hotelscan.com/apis/vendors/agda/logo.svg?pos=zz"
+          },
+          {
+            "price": 310.71,
+            "brt": "p2r#t",
+            "rf": "p2r#t",
+            "brf": 10028176,
+            "rt": 10028176,
+            "vendor": "bkng",
+            "vendor_id_raw": "2339650",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Full board",
+              "Free cancellation",
+              "Sea view",
+              "Pay at the property",
+              "Balcony"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Standard room - Twin beds",
+            "rooms": [
+              {
+                "name": "Standard room - Twin beds",
+                "flags": [
+                  "Twin beds"
+                ]
+              }
+            ],
+            "offer_flags_new": {
+              "full_board": "Full board",
+              "refundable": "Free cancellation",
+              "view_sea": "Sea view",
+              "pay_at_hotel": "Pay at the property",
+              "balcony": "Balcony"
+            },
+            "partner_name": "Booking.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/bkng/logo.svg?pos=zz"
+          }
+        ],
+        "descriptions_language": {
+          "general": {
+            "original_language": true,
+            "text": "At Kiha Beach, exceptional service and top-notch amenities create a memorable experience for guests.Complimentary internet access is available in the hotel to ensure you stay connected during your visit.Arrange your trips to and from the airport using the hotel's convenient transportation services booking.Amenities at car hire offered by Kiha Beach simplify the organization of your excursions, tourist activities, and other adventures in Maldive Islands. For guests with their own vehicle, parking facilities are provided. Continuously receive the support you require through front desk amenities such as concierge service, express check-in or check-out, luggage storage and safety deposit boxes. At the hotel, their ticket service and tours is also capable of assisting with booking tickets and securing reservations for entertainment and adventures. Always look your best in your preferred attire with the dry cleaning service and laundry service provided at Kiha Beach.Craving relaxation? In-room amenities such as room service and daily housekeeping allow you to maximize your time spent inside the room. For the health and well-being of all guests and staff, smoking is restricted exclusively to assigned zones.Accommodations come equipped with all the conveniences required for a restful night's slumber.A selection of rooms feature linen service, blackout curtains and air conditioning to ensure your comfort and convenience.A few accommodations at Kiha Beach also include unique design elements like a balcony or terrace.A few chosen rooms are equipped with television and cable TV to ensure guest amusement. In certain rooms, the hotel offers visitors access to a refrigerator, bottled water, a coffee or tea maker, instant coffee, instant tea and mini bar.In the hotel, certain guest bathrooms come equipped with essential bathroom amenities, such as a hair dryer, toiletries and bathrobes, ensuring a comfortable stay for guests. A delightful breakfast is the perfect way to begin your day, and at Kiha Beach, you can always indulge in a scrumptious meal on-site. All adore a delightful cup of coffee! An on-site coffee shop ensures you can relish a cup of authentic, freshly-brewed coffee every morning -- or whenever you desire it. Allow your journey to be free from the pangs of hunger! On-site eateries offer delicious and accessible meal choices. At Kiha Beach, guests with diverse dietary needs are accommodated by offering options like halal among the different types of cuisine. An evening spent at hotel's bar can offer as much enjoyment as venturing out with your fellow travelers.Are you a fan of preparing your own dishes? You'll certainly appreciate the onsite BBQ facilities and shared kitchen for your culinary needs. At Kiha Beach, guests can take pleasure in the delightful recreational amenities provided for their entertainment. At the hotel, a wide range of enjoyable activities ensures that there's never a dull moment during your visit. Don't miss out on the easily reachable beach in the vicinity.At the hotel, an abundance of recreational activities guarantees a fulfilling stay. Enjoy the ultimate winter getaway with the inclusion of ski equipment rentals and ski lessons.At Kiha Beach, a wide array of amenities guarantees a fulfilling experience throughout your visit. Make your holiday truly memorable by taking a rejuvenating plunge into the pool."
+          },
+          "direction": {
+            "original_language": true,
+            "text": "Located in Dharavandhoo, Kiha Beach is on the beach. While the natural beauty of Hanifaru Bay and Hibalhidoo can be enjoyed by anyone, those looking for an activity can check out Kihaadhuffaru Island Pier. Snorkeling and fishing offer great chances to get out on the surrounding water, or you can seek out an adventure with hiking/biking trails nearby."
+          }
+        },
+        "chain_code": null,
+        "bids": {
+          "agda": "j23",
+          "bkng": "j23"
+        },
+        "worst_offer": null,
+        "best_offer": 215.7,
+        "best_offer_ota": "agda",
+        "best_offer_mota": null,
+        "discount": 0,
+        "offers_count": 6,
+        "coordinates": {
+          "lat": 5.15986,
+          "lng": 73.12853
+        },
+        "distance": 0.38,
+        "neighborhood": null,
+        "badge": null,
+        "distances": [
+          {
+            "from": "center",
+            "distance": 0.38,
+            "time": 528,
+            "means": "foot",
+            "means_type": "foot"
+          }
+        ],
+        "specs": {
+          "bathrooms": null,
+          "beds": null,
+          "bedrooms": null,
+          "guests": null,
+          "square_meters": null
+        },
+        "toa_label": "hotel",
+        "top_amenities": [
+          "indoor_pool",
+          "outdoor_pool",
+          "internet",
+          "restaurant",
+          "room_service"
+        ],
+        "transportations": {
+          "airports": [],
+          "trains": []
+        },
+        "images": [
+          {
+            "image_id": "694549115",
+            "label": ""
+          },
+          {
+            "image_id": "694549109",
+            "label": ""
+          },
+          {
+            "image_id": "694549146",
+            "label": ""
+          },
+          {
+            "image_id": "694549157",
+            "label": ""
+          },
+          {
+            "image_id": "694549152",
+            "label": ""
+          },
+          {
+            "image_id": "694549153",
+            "label": ""
+          },
+          {
+            "image_id": "694549139",
+            "label": ""
+          },
+          {
+            "image_id": "694549160",
+            "label": ""
+          },
+          {
+            "image_id": "694549154",
+            "label": ""
+          },
+          {
+            "image_id": "694549113",
+            "label": ""
+          },
+          {
+            "image_id": "694549116",
+            "label": ""
+          },
+          {
+            "image_id": "694549140",
+            "label": ""
+          },
+          {
+            "image_id": "694549117",
+            "label": ""
+          },
+          {
+            "image_id": "694549156",
+            "label": ""
+          },
+          {
+            "image_id": "694549110",
+            "label": ""
+          }
+        ],
+        "hero_offer": {
+          "price": 217.67,
+          "brt": "p2r#t",
+          "rf": "p2r#t",
+          "brf": 9503888,
+          "rt": 9503888,
+          "vendor": "bkng",
+          "vendor_id_raw": "2339650",
+          "mota_code": null,
+          "direct_offer": false,
+          "offer_flags": {
+            "breakfast": "Breakfast included",
+            "refundable": "Free cancellation",
+            "view_sea": "Sea view",
+            "pay_at_hotel": "Pay at the property",
+            "balcony": "Balcony"
+          },
+          "jc_code": "",
+          "ranking_index": 0.9963798410437819,
+          "chain": "",
+          "free_cancellation": true,
+          "special": false,
+          "room_name": "Standard room - Twin beds",
+          "rooms": [
+            {
+              "name": "Standard room - Twin beds",
+              "flags": [
+                "Twin beds"
+              ]
+            }
+          ],
+          "partner_name": "Booking.com",
+          "partner_logo": "https://hotelscan.com/apis/vendors/bkng/logo.svg?pos=zz"
+        },
+        "rank": 0,
+        "ctrl_srt": "im a ctrl teapot",
+        "test_srt": "im a test teapot"
+      }
+    ],
+    "filters": [],
+    "query": {
+      "pos": "zz"
+    }
+  }
+}

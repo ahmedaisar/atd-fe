@@ -1,0 +1,4302 @@
+{
+  "_meta": {
+    "status": "SUCCESS",
+    "cached": true,
+    "count": 1,
+    "debug": {
+      "ticket": {
+        "ticket_id": "690245599_zz_zz_d_publ_en_2_2025-10-08_2025-10-13_1_3",
+        "created_at": 1758065346.9293,
+        "loop": null,
+        "snapped_at": 1758065349.2593,
+        "snapshot_id": "690245599_zz_zz_d_publ_en_2_2025-10-08_2025-10-13_1_3",
+        "snapshot_ttl": 300,
+        "executions": 5,
+        "progress": 1,
+        "save_errors": []
+      }
+    }
+  },
+  "data": {
+    "meta": [],
+    "geo": {
+      "hs_id": "x5pn2t7xwxa9",
+      "region_name": "Dhonakulhi",
+      "region_name_long": "Dhonakulhi, Maldives",
+      "region_type": "CITY",
+      "region_id": 6047941,
+      "country_iso": "MV",
+      "country": "maldives",
+      "localised_country": "Maldives",
+      "center": [
+        6.84297,
+        73.04955
+      ],
+      "centroid": [
+        6.84297,
+        73.04955
+      ],
+      "polygon": [
+        "6.85121,73.041312",
+        "6.835139,73.041452",
+        "6.834723,73.057778",
+        "6.85121,73.05708",
+        "6.85121,73.041312"
+      ],
+      "radius": 1.3,
+      "zoom": -1,
+      "search_by_polygon": 0,
+      "cluster": 0,
+      "properties": 2,
+      "radius_override": 5,
+      "boundingbox": {
+        "ne": [
+          6.852,
+          73.058
+        ],
+        "sw": [
+          6.834,
+          73.041
+        ]
+      },
+      "airports": [
+        "HAQ",
+        "DRV"
+      ],
+      "region_name_en": "Dhonakulhi",
+      "region_name_long_en": "Dhonakulhi, Maldives",
+      "referrer_city_name_en": "Dhonakulhi",
+      "parent_region_id": 6051084,
+      "parent_hs_id": "x5p4hmhw6iot",
+      "parent_region_name": "Maldives (all)",
+      "parent_region_name_long": "Maldives (all)",
+      "dynamic_bbox": {
+        "ne": [
+          6.842,
+          73.049
+        ],
+        "sw": [
+          6.842,
+          73.049
+        ]
+      }
+    },
+    "records": [
+      {
+        "hs_id": 690245599,
+        "slug": "hideaway-beach-resort-spa-free-shared-charter-flight-for-two-on-stays-of-7-or-more-nights-from-september-2025-until-23rd-december-2026-dhonakulhi-mv-690245599",
+        "name": "Hideaway Beach Resort & Spa, Free Shared Charter Flight For Two On Stays Of 7 Or More Nights From September 2025 Until 23rd December 2026",
+        "ty_id": "ba3d1fa0-efaf-4a8a-83e8-5e6db4ddedd6",
+        "toa": "resort",
+        "location": {
+          "city": "Dhonakulhi",
+          "zip": "99999",
+          "country_iso2": "MV",
+          "address": "Dhonakulhi Island",
+          "geoid": "x5pn2t7xwxa9",
+          "loc": {
+            "type": "Point"
+          },
+          "coordinates": {
+            "lng": 73.0498,
+            "lat": 6.84267
+          }
+        },
+        "opening_time": {
+          "check_in_from": "14:00",
+          "check_in_to": "00:00",
+          "check_out_from": null,
+          "check_out_to": "12:00"
+        },
+        "quality": {
+          "review_count": 172,
+          "review_rating": 92,
+          "stars": 5,
+          "stars_is_estimated": false,
+          "review_source": ""
+        },
+        "covid_safe": true,
+        "amenities": {
+          "wellness": [
+            "indoor_pool",
+            "massage",
+            "jacuzzi",
+            "fitness_center",
+            "hair_salon",
+            "sauna",
+            "spa",
+            "outdoor_pool",
+            "turkish_bath"
+          ],
+          "sports": [
+            "billiard",
+            "yoga",
+            "bike_rent",
+            "ping_pong",
+            "tennis",
+            "sub",
+            "surf"
+          ],
+          "internet": [
+            "wifi",
+            "internet"
+          ],
+          "food_drink": [
+            "restaurant",
+            "room_service",
+            "poolside_bar",
+            "cafe",
+            "bar"
+          ],
+          "disability": [
+            "wheelchair_accessible"
+          ],
+          "outdoor": [
+            "garden",
+            "terrace"
+          ],
+          "other": [],
+          "business": [
+            "business_services"
+          ],
+          "children": [
+            "babysitter",
+            "children_playground"
+          ],
+          "entertainment": [
+            "disco"
+          ],
+          "transfer": [
+            "shuttle_service"
+          ],
+          "room": [
+            "air_conditioning",
+            "tv"
+          ],
+          "reception": [
+            "24h_reception",
+            "luggage_storage",
+            "concierge",
+            "laundry_service",
+            "safety_deposit_box"
+          ]
+        },
+        "themes": [
+          "romantic",
+          "other",
+          "beach"
+        ],
+        "descriptions": {
+          "direction": "Located in Dhonakulhi, Hideaway Beach Resort & Spa, FREE SHARED CHARTER FLIGHT for two on stays of 7 or more nights from September 2025 until 23rd December 2026 is on a private beach. While the natural beauty of Medhafushi and Govvaafushi can be enjoyed by anyone, those looking for an activity can check out Baarah Dock. Discover the area's water adventures with windsurfing nearby, or enjoy the great outdoors with hiking/biking trails.",
+          "general": "General description: The hotel Hideaway Beach Resort & Spa Maldives is located in the vicinity of its own sandy beach. At the beach, there are sun umbrellas free of charge available. The town Male is around 290 km away (Hanimadhoo around 1 km). The airport (MLE) is approx. 318 km away. The hotel and airport are linked by a shuttle (for a fee). Amenities: The one-storey spa hotel has 103 rooms in total. It offers its guests a 24h reception (check-in from 14:00, check-out until 12:00), a lobby, air conditioning, a safe (where applicable, for a fee), coiffeur, a shop, cinema and a money changing facility. For the meals, there are 4 restaurants. WiFi is available for free. Concierge service is free of charge. Room service, laundry / ironing service and medical service are available for a fee. Pool: In the outdoor area of the hotel you will find 3 pools with a children´s pool. Here, there are sun umbrellas for free available. A bar at the pool offers guests refreshing beverages. Meals: Breakfast from the buffet. Sport and Leisure: Sports and entertainment: Tennis (for a fee) and fitness. Spa area with sun terrace, sauna and massages available (where applicable for a fee). Entertainment for adults: evening shows. For the entertainment of young guests there is a children´s play area. Child supervision: babysitting (where applicable, for a fee). Additional information: Additional fees may apply for certain facilities, amenities or activities. Some services depend on the local climatic conditions and the season. Languages spoken: English, Russian, Arabic and Chinese. Accepted methods of payment: Visa, Euro / MasterCard and American Express. Beach Villa (Sunset View, Domestic Flight Included): With balcony or terrace, heating (centrally controlled), kettle (where applicable, for a fee), minibar (where applicable, for a fee), internet (where applicable, for a fee) and safe (where applicable, for a fee) as well as centrally controlled air conditioning. Bathroom with bathtub and shower. Beach Villa (Sunset View, Seaplane Included): With balcony or terrace, heating (centrally controlled), kettle (where applicable, for a fee), minibar (where applicable, for a fee), internet (where applicable, for a fee) and safe (where applicable, for a fee) as well as centrally controlled air conditioning. Bathroom with bathtub and shower. Residence Beach Villa (Private Pool - Domestic Flight): With balcony or terrace, heating (centrally controlled), kettle (where applicable, for a fee), minibar (where applicable, for a fee), internet (where applicable, for a fee) and safe (where applicable, for a fee) as well as centrally controlled air conditioning. Bathroom with bathtub and shower. Residence Beach Villa (Private Pool - Seaplane): With balcony or terrace, heating (centrally controlled), kettle (where applicable, for a fee), minibar (where applicable, for a fee), internet (where applicable, for a fee) and safe (where applicable, for a fee) as well as centrally controlled air conditioning. Bathroom with bathtub and shower. Residence Beach Villa (Sunset View, Private Pool - Domestic Flight): With balcony or terrace, heating (centrally controlled), kettle (where applicable, for a fee), minibar (where applicable, for a fee), internet (where applicable, for a fee) and safe (where applicable, for a fee) as well as centrally controlled air conditioning. Bathroom with bathtub and shower. Residence Beach Villa (Sunset View, Private Pool - Seaplane): With balcony or terrace, heating (centrally controlled), kettle (where applicable, for a fee), minibar (where applicable, for a fee), internet (where applicable, for a fee) and safe (where applicable, for a fee) as well as centrally controlled air conditioning. Bathroom with bathtub and shower. 2 Bedroom Residence Beach Villa (Private Pool - Domestic Flight): With balcony or terrace, heating (centrally controlled), kettle (where applicable, for a fee), minibar (where applicable, for a fee), internet (where applicable, for a fee) and safe (where applicable, for a fee) as well as centrally controlled air conditioning. Bathroom with bathtub and shower. 2 Bedroom Residence Beach Villa (Private Pool - Seaplane): With balcony or terrace, heating (centrally controlled), kettle (where applicable, for a fee), minibar (where applicable, for a fee), internet (where applicable, for a fee) and safe (where applicable, for a fee) as well as centrally controlled air conditioning. Bathroom with bathtub and shower. Deluxe Beach Villa (Private Pool - Domestic Flight): With balcony or terrace, heating (centrally controlled), kettle (where applicable, for a fee), minibar (where applicable, for a fee), internet (where applicable, for a fee) and safe (where applicable, for a fee) as well as centrally controlled air conditioning. Bathroom with bathtub and shower. Deluxe Beach Villa (Private Pool - Seaplane): With balcony or terrace, heating (centrally controlled), kettle (where applicable, for a fee), minibar (where applicable, for a fee), internet (where applicable, for a fee) and safe (where applicable, for a fee) as well as centrally controlled air conditioning. Bathroom with bathtub and shower. Deluxe Beach Villa (Sunset View, Private Pool - Domestic Flight): With balcony or terrace, heating (centrally controlled), kettle (where applicable, for a fee), minibar (where applicable, for a fee), internet (where applicable, for a fee) and safe (where applicable, for a fee) as well as centrally controlled air conditioning. Bathroom with bathtub and shower. Deluxe Beach Villa (Sunset View, Private Pool - Seaplane): With balcony or terrace, heating (centrally controlled), kettle (where applicable, for a fee), minibar (where applicable, for a fee), internet (where applicable, for a fee) and safe (where applicable, for a fee) as well as centrally controlled air conditioning. Bathroom with bathtub and shower. Deluxe Water Villa (Private Pool - Domestic Flight): With balcony or terrace, heating (centrally controlled), kettle (where applicable, for a fee), minibar (where applicable, for a fee), internet (where applicable, for a fee) and safe (where applicable, for a fee) as well as centrally controlled air conditioning. Bathroom with bathtub and shower. Deluxe Water Villa (Private Pool - Seaplane): With balcony or terrace, heating (centrally controlled), kettle (where applicable, for a fee), minibar (where applicable, for a fee), internet (where applicable, for a fee) and safe (where applicable, for a fee) as well as centrally controlled air conditioning. Bathroom with bathtub and shower. Ocean Villa (Private Pool - Domestic Flight): With balcony or terrace, heating (centrally controlled), kettle (where applicable, for a fee), minibar (where applicable, for a fee), internet (where applicable, for a fee) and safe (where applicable, for a fee) as well as centrally controlled air conditioning. Bathroom with bathtub and shower. Ocean Villa (Private Pool - Seaplane): With balcony or terrace, heating (centrally controlled), kettle (where applicable, for a fee), minibar (where applicable, for a fee), internet (where applicable, for a fee) and safe (where applicable, for a fee) as well as centrally controlled air conditioning. Bathroom with bathtub and shower. 2 Bedroom Ocean Villa (Private Pool - Domestic Flight): With balcony or terrace, heating (centrally controlled), kettle (where applicable, for a fee), minibar (where applicable, for a fee), internet (where applicable, for a fee) and safe (where applicable, for a fee) as well as centrally controlled air conditioning. Bathroom with bathtub and shower. 2 Bedroom Ocean Villa (Private Pool - Seaplane): With balcony or terrace, heating (centrally controlled), kettle (where applicable, for a fee), minibar (where applicable, for a fee), internet (where applicable, for a fee) and safe (where applicable, for a fee) as well as centrally controlled air conditioning. Bathroom with bathtub and shower. Seaplane transfer subject to availability.",
+          "amenities": true,
+          "localized": "General description: The hotel Hideaway Beach Resort & Spa Maldives is located in the vicinity of its own sandy beach. At the beach, there are sun umbrellas free of charge available. The town Male is around 290 km away (Hanimadhoo around 1 km). The airport (MLE) is approx. 318 km away. The hotel and airport are linked by a shuttle (for a fee). Amenities: The one-storey spa hotel has 103 rooms in total. It offers its guests a 24h reception (check-in from 14:00, check-out until 12:00), a lobby, air conditioning, a safe (where applicable, for a fee), coiffeur, a shop, cinema and a money changing facility. For the meals, there are 4 restaurants. WiFi is available for free. Concierge service is free of charge. Room service, laundry / ironing service and medical service are available for a fee. Pool: In the outdoor area of the hotel you will find 3 pools with a children´s pool. Here, there are sun umbrellas for free available. A bar at the pool offers guests refreshing beverages. Meals: Breakfast from the buffet. Sport and Leisure: Sports and entertainment: Tennis (for a fee) and fitness. Spa area with sun terrace, sauna and massages available (where applicable for a fee). Entertainment for adults: evening shows. For the entertainment of young guests there is a children´s play area. Child supervision: babysitting (where applicable, for a fee). Additional information: Additional fees may apply for certain facilities, amenities or activities. Some services depend on the local climatic conditions and the season. Languages spoken: English, Russian, Arabic and Chinese. Accepted methods of payment: Visa, Euro / MasterCard and American Express. Beach Villa (Sunset View, Domestic Flight Included): With balcony or terrace, heating (centrally controlled), kettle (where applicable, for a fee), minibar (where applicable, for a fee), internet (where applicable, for a fee) and safe (where applicable, for a fee) as well as centrally controlled air conditioning. Bathroom with bathtub and shower. Beach Villa (Sunset View, Seaplane Included): With balcony or terrace, heating (centrally controlled), kettle (where applicable, for a fee), minibar (where applicable, for a fee), internet (where applicable, for a fee) and safe (where applicable, for a fee) as well as centrally controlled air conditioning. Bathroom with bathtub and shower. Residence Beach Villa (Private Pool - Domestic Flight): With balcony or terrace, heating (centrally controlled), kettle (where applicable, for a fee), minibar (where applicable, for a fee), internet (where applicable, for a fee) and safe (where applicable, for a fee) as well as centrally controlled air conditioning. Bathroom with bathtub and shower. Residence Beach Villa (Private Pool - Seaplane): With balcony or terrace, heating (centrally controlled), kettle (where applicable, for a fee), minibar (where applicable, for a fee), internet (where applicable, for a fee) and safe (where applicable, for a fee) as well as centrally controlled air conditioning. Bathroom with bathtub and shower. Residence Beach Villa (Sunset View, Private Pool - Domestic Flight): With balcony or terrace, heating (centrally controlled), kettle (where applicable, for a fee), minibar (where applicable, for a fee), internet (where applicable, for a fee) and safe (where applicable, for a fee) as well as centrally controlled air conditioning. Bathroom with bathtub and shower. Residence Beach Villa (Sunset View, Private Pool - Seaplane): With balcony or terrace, heating (centrally controlled), kettle (where applicable, for a fee), minibar (where applicable, for a fee), internet (where applicable, for a fee) and safe (where applicable, for a fee) as well as centrally controlled air conditioning. Bathroom with bathtub and shower. 2 Bedroom Residence Beach Villa (Private Pool - Domestic Flight): With balcony or terrace, heating (centrally controlled), kettle (where applicable, for a fee), minibar (where applicable, for a fee), internet (where applicable, for a fee) and safe (where applicable, for a fee) as well as centrally controlled air conditioning. Bathroom with bathtub and shower. 2 Bedroom Residence Beach Villa (Private Pool - Seaplane): With balcony or terrace, heating (centrally controlled), kettle (where applicable, for a fee), minibar (where applicable, for a fee), internet (where applicable, for a fee) and safe (where applicable, for a fee) as well as centrally controlled air conditioning. Bathroom with bathtub and shower. Deluxe Beach Villa (Private Pool - Domestic Flight): With balcony or terrace, heating (centrally controlled), kettle (where applicable, for a fee), minibar (where applicable, for a fee), internet (where applicable, for a fee) and safe (where applicable, for a fee) as well as centrally controlled air conditioning. Bathroom with bathtub and shower. Deluxe Beach Villa (Private Pool - Seaplane): With balcony or terrace, heating (centrally controlled), kettle (where applicable, for a fee), minibar (where applicable, for a fee), internet (where applicable, for a fee) and safe (where applicable, for a fee) as well as centrally controlled air conditioning. Bathroom with bathtub and shower. Deluxe Beach Villa (Sunset View, Private Pool - Domestic Flight): With balcony or terrace, heating (centrally controlled), kettle (where applicable, for a fee), minibar (where applicable, for a fee), internet (where applicable, for a fee) and safe (where applicable, for a fee) as well as centrally controlled air conditioning. Bathroom with bathtub and shower. Deluxe Beach Villa (Sunset View, Private Pool - Seaplane): With balcony or terrace, heating (centrally controlled), kettle (where applicable, for a fee), minibar (where applicable, for a fee), internet (where applicable, for a fee) and safe (where applicable, for a fee) as well as centrally controlled air conditioning. Bathroom with bathtub and shower. Deluxe Water Villa (Private Pool - Domestic Flight): With balcony or terrace, heating (centrally controlled), kettle (where applicable, for a fee), minibar (where applicable, for a fee), internet (where applicable, for a fee) and safe (where applicable, for a fee) as well as centrally controlled air conditioning. Bathroom with bathtub and shower. Deluxe Water Villa (Private Pool - Seaplane): With balcony or terrace, heating (centrally controlled), kettle (where applicable, for a fee), minibar (where applicable, for a fee), internet (where applicable, for a fee) and safe (where applicable, for a fee) as well as centrally controlled air conditioning. Bathroom with bathtub and shower. Ocean Villa (Private Pool - Domestic Flight): With balcony or terrace, heating (centrally controlled), kettle (where applicable, for a fee), minibar (where applicable, for a fee), internet (where applicable, for a fee) and safe (where applicable, for a fee) as well as centrally controlled air conditioning. Bathroom with bathtub and shower. Ocean Villa (Private Pool - Seaplane): With balcony or terrace, heating (centrally controlled), kettle (where applicable, for a fee), minibar (where applicable, for a fee), internet (where applicable, for a fee) and safe (where applicable, for a fee) as well as centrally controlled air conditioning. Bathroom with bathtub and shower. 2 Bedroom Ocean Villa (Private Pool - Domestic Flight): With balcony or terrace, heating (centrally controlled), kettle (where applicable, for a fee), minibar (where applicable, for a fee), internet (where applicable, for a fee) and safe (where applicable, for a fee) as well as centrally controlled air conditioning. Bathroom with bathtub and shower. 2 Bedroom Ocean Villa (Private Pool - Seaplane): With balcony or terrace, heating (centrally controlled), kettle (where applicable, for a fee), minibar (where applicable, for a fee), internet (where applicable, for a fee) and safe (where applicable, for a fee) as well as centrally controlled air conditioning. Bathroom with bathtub and shower. Seaplane transfer subject to availability."
+        },
+        "short_description": "Excellent family hotel. Great rooms in excellent location. Awesome vibe. Great pool. Beautiful beach.",
+        "chain": "lily_hotels",
+        "brand": "lily_hotels",
+        "offers": [
+          {
+            "price": 542.62,
+            "brt": "o2r#",
+            "rf": "o2r#",
+            "brf": 9502784,
+            "rt": 9502784,
+            "vendor": "bkng",
+            "vendor_id_raw": "257521",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included",
+              "Free cancellation"
+            ],
+            "jc_code": "",
+            "ranking_index": 0.9673215141351222,
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Villa",
+            "rooms": [
+              {
+                "name": "Villa",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included",
+              "refundable": "Free cancellation"
+            },
+            "partner_name": "Booking.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/bkng/logo.svg?pos=zz"
+          },
+          {
+            "vendor": "agda",
+            "price": 498.58,
+            "vendor_id_raw": "626247",
+            "mota_code": null,
+            "jc_code": "",
+            "partner_name": "Agoda",
+            "partner_logo": "https://hotelscan.com/apis/vendors/agda/logo.svg?pos=zz",
+            "room_name": "Villa",
+            "brf": 9470016,
+            "brt": "o2r#"
+          },
+          {
+            "vendor": "ctrp",
+            "price": 498.29,
+            "vendor_id_raw": "1573697",
+            "mota_code": null,
+            "jc_code": "TRIPCOM",
+            "partner_name": "Trip.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/ctrp/logo.svg?pos=zz",
+            "room_name": "Villa",
+            "brf": 9502784,
+            "brt": "o2r#"
+          },
+          {
+            "vendor": "expd",
+            "price": 542.38,
+            "vendor_id_raw": "1393456",
+            "mota_code": null,
+            "jc_code": "EXPEDIA",
+            "partner_name": "Expedia",
+            "partner_logo": "https://hotelscan.com/apis/vendors/expd/logo.svg?pos=zz",
+            "room_name": "Villa",
+            "brf": 9470016,
+            "brt": "o2r#"
+          },
+          {
+            "vendor": "ostr",
+            "price": 580.27,
+            "vendor_id_raw": "7381183",
+            "mota_code": null,
+            "jc_code": "",
+            "partner_name": "Zenhotels",
+            "partner_logo": "https://hotelscan.com/apis/vendors/ostr/logo.svg?pos=zz",
+            "room_name": "Deluxe villa - King bed",
+            "brf": 9470016,
+            "brt": "o2d#k"
+          },
+          {
+            "vendor": "last",
+            "price": 668.1,
+            "vendor_id_raw": "570502",
+            "mota_code": null,
+            "jc_code": "LASTMINUTE",
+            "partner_name": "lastminute.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/last/logo.svg?pos=zz",
+            "room_name": "Villa",
+            "brf": 10551360,
+            "brt": "o2r#"
+          }
+        ],
+        "all_offers": [
+          {
+            "price": 498.29,
+            "brt": "o2r#",
+            "rf": "o2r#",
+            "brf": 9502784,
+            "rt": 9502784,
+            "vendor": "ctrp",
+            "vendor_id_raw": "1573697",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included",
+              "Free cancellation"
+            ],
+            "jc_code": "TRIPCOM",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Villa",
+            "rooms": [
+              {
+                "name": "Villa",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included",
+              "refundable": "Free cancellation"
+            },
+            "partner_name": "Trip.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/ctrp/logo.svg?pos=zz"
+          },
+          {
+            "price": 498.58,
+            "brt": "o2r#",
+            "rf": "o2r#",
+            "brf": 9470016,
+            "rt": 9470016,
+            "vendor": "agda",
+            "vendor_id_raw": "626247",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": false,
+            "special": false,
+            "room_name": "Villa",
+            "rooms": [
+              {
+                "name": "Villa",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included"
+            },
+            "partner_name": "Agoda",
+            "partner_logo": "https://hotelscan.com/apis/vendors/agda/logo.svg?pos=zz"
+          },
+          {
+            "price": 537.66,
+            "brt": "o2r#",
+            "rf": "o2r#",
+            "brf": 9502784,
+            "rt": 9502784,
+            "vendor": "agda",
+            "vendor_id_raw": "626247",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included",
+              "Free cancellation"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Villa",
+            "rooms": [
+              {
+                "name": "Villa",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included",
+              "refundable": "Free cancellation"
+            },
+            "partner_name": "Agoda",
+            "partner_logo": "https://hotelscan.com/apis/vendors/agda/logo.svg?pos=zz"
+          },
+          {
+            "price": 542.38,
+            "brt": "o2r#",
+            "rf": "o2r#",
+            "brf": 9470016,
+            "rt": 9470016,
+            "vendor": "expd",
+            "vendor_id_raw": "1393456",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included"
+            ],
+            "jc_code": "EXPEDIA",
+            "chain": "",
+            "free_cancellation": false,
+            "special": false,
+            "room_name": "Villa",
+            "rooms": [
+              {
+                "name": "Villa",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included"
+            },
+            "partner_name": "Expedia",
+            "partner_logo": "https://hotelscan.com/apis/vendors/expd/logo.svg?pos=zz"
+          },
+          {
+            "price": 542.62,
+            "brt": "o2r#",
+            "rf": "o2r#",
+            "brf": 9502784,
+            "rt": 9502784,
+            "vendor": "bkng",
+            "vendor_id_raw": "257521",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included",
+              "Free cancellation"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Villa",
+            "rooms": [
+              {
+                "name": "Villa",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included",
+              "refundable": "Free cancellation"
+            },
+            "partner_name": "Booking.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/bkng/logo.svg?pos=zz"
+          },
+          {
+            "price": 580.27,
+            "brt": "o2d#k",
+            "rf": "o2d#k",
+            "brf": 9470016,
+            "rt": 9470016,
+            "vendor": "ostr",
+            "vendor_id_raw": "7381183",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": false,
+            "special": false,
+            "room_name": "Deluxe villa - King bed",
+            "rooms": [
+              {
+                "name": "Deluxe villa - King bed",
+                "flags": [
+                  "King bed"
+                ]
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included"
+            },
+            "partner_name": "Zenhotels",
+            "partner_logo": "https://hotelscan.com/apis/vendors/ostr/logo.svg?pos=zz"
+          },
+          {
+            "price": 589.65,
+            "brt": "o2d#",
+            "rf": "o2d#",
+            "brf": 9470016,
+            "rt": 9470016,
+            "vendor": "agda",
+            "vendor_id_raw": "626247",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": false,
+            "special": false,
+            "room_name": "Deluxe villa",
+            "rooms": [
+              {
+                "name": "Deluxe villa",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included"
+            },
+            "partner_name": "Agoda",
+            "partner_logo": "https://hotelscan.com/apis/vendors/agda/logo.svg?pos=zz"
+          },
+          {
+            "price": 623.24,
+            "brt": "o2r#",
+            "rf": "o2r#",
+            "brf": 9470016,
+            "rt": 9470016,
+            "vendor": "ctrp",
+            "vendor_id_raw": "1573697",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included"
+            ],
+            "jc_code": "TRIPCOM",
+            "chain": "",
+            "free_cancellation": false,
+            "special": false,
+            "room_name": "Villa",
+            "rooms": [
+              {
+                "name": "Villa",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included"
+            },
+            "partner_name": "Trip.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/ctrp/logo.svg?pos=zz"
+          },
+          {
+            "price": 635.62,
+            "brt": "o2d#k",
+            "rf": "o2d#k",
+            "brf": 9470080,
+            "rt": 9470080,
+            "vendor": "ostr",
+            "vendor_id_raw": "7381183",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included",
+              "Pay at the property"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": false,
+            "special": false,
+            "room_name": "Deluxe villa - King bed",
+            "rooms": [
+              {
+                "name": "Deluxe villa - King bed",
+                "flags": [
+                  "King bed"
+                ]
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included",
+              "pay_at_hotel": "Pay at the property"
+            },
+            "partner_name": "Zenhotels",
+            "partner_logo": "https://hotelscan.com/apis/vendors/ostr/logo.svg?pos=zz"
+          },
+          {
+            "price": 635.65,
+            "brt": "o2d#",
+            "rf": "o2d#",
+            "brf": 9502784,
+            "rt": 9502784,
+            "vendor": "agda",
+            "vendor_id_raw": "626247",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included",
+              "Free cancellation"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Deluxe villa",
+            "rooms": [
+              {
+                "name": "Deluxe villa",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included",
+              "refundable": "Free cancellation"
+            },
+            "partner_name": "Agoda",
+            "partner_logo": "https://hotelscan.com/apis/vendors/agda/logo.svg?pos=zz"
+          },
+          {
+            "price": 641.24,
+            "brt": "o2d#",
+            "rf": "o2d#",
+            "brf": 9470016,
+            "rt": 9470016,
+            "vendor": "expd",
+            "vendor_id_raw": "1393456",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included"
+            ],
+            "jc_code": "EXPEDIA",
+            "chain": "",
+            "free_cancellation": false,
+            "special": false,
+            "room_name": "Deluxe villa",
+            "rooms": [
+              {
+                "name": "Deluxe villa",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included"
+            },
+            "partner_name": "Expedia",
+            "partner_logo": "https://hotelscan.com/apis/vendors/expd/logo.svg?pos=zz"
+          },
+          {
+            "price": 641.51,
+            "brt": "o2d#",
+            "rf": "o2d#",
+            "brf": 9502784,
+            "rt": 9502784,
+            "vendor": "bkng",
+            "vendor_id_raw": "257521",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included",
+              "Free cancellation"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Deluxe villa",
+            "rooms": [
+              {
+                "name": "Deluxe villa",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included",
+              "refundable": "Free cancellation"
+            },
+            "partner_name": "Booking.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/bkng/logo.svg?pos=zz"
+          },
+          {
+            "price": 666.22,
+            "brt": "p2r#k",
+            "rf": "p2r#k",
+            "brf": 9470016,
+            "rt": 9470016,
+            "vendor": "ostr",
+            "vendor_id_raw": "7381183",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": false,
+            "special": false,
+            "room_name": "Standard room - King bed",
+            "rooms": [
+              {
+                "name": "Standard room - King bed",
+                "flags": [
+                  "King bed"
+                ]
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included"
+            },
+            "partner_name": "Zenhotels",
+            "partner_logo": "https://hotelscan.com/apis/vendors/ostr/logo.svg?pos=zz"
+          },
+          {
+            "price": 668.1,
+            "brt": "o2r#",
+            "rf": "o2r#",
+            "brf": 9502784,
+            "rt": 9502784,
+            "vendor": "last",
+            "vendor_id_raw": "570502",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included",
+              "Free cancellation"
+            ],
+            "jc_code": "LASTMINUTE",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Villa",
+            "rooms": [
+              {
+                "name": "Villa",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included",
+              "refundable": "Free cancellation"
+            },
+            "partner_name": "lastminute.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/last/logo.svg?pos=zz"
+          },
+          {
+            "price": 668.1,
+            "brt": "o2r#",
+            "rf": "o2r#",
+            "brf": 10551360,
+            "rt": 10551360,
+            "vendor": "last",
+            "vendor_id_raw": "570502",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Half board",
+              "Free cancellation"
+            ],
+            "jc_code": "LASTMINUTE",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Villa",
+            "rooms": [
+              {
+                "name": "Villa",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "half_board": "Half board",
+              "refundable": "Free cancellation"
+            },
+            "partner_name": "lastminute.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/last/logo.svg?pos=zz"
+          },
+          {
+            "price": 677.44,
+            "brt": "z2r#",
+            "rf": "z2r#",
+            "brf": 9470016,
+            "rt": 9470016,
+            "vendor": "agda",
+            "vendor_id_raw": "626247",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": false,
+            "special": false,
+            "room_name": "Go to the booking site for more details",
+            "rooms": [
+              {
+                "name": "Go to the booking site for more details",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included"
+            },
+            "partner_name": "Agoda",
+            "partner_logo": "https://hotelscan.com/apis/vendors/agda/logo.svg?pos=zz"
+          },
+          {
+            "price": 699.62,
+            "brt": "o2r#",
+            "rf": "o2r#",
+            "brf": 8421440,
+            "rt": 8421440,
+            "vendor": "agda",
+            "vendor_id_raw": "626247",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": false,
+            "special": false,
+            "room_name": "Villa",
+            "rooms": [
+              {
+                "name": "Villa",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": [],
+            "partner_name": "Agoda",
+            "partner_logo": "https://hotelscan.com/apis/vendors/agda/logo.svg?pos=zz"
+          },
+          {
+            "price": 730.02,
+            "brt": "p2r#k",
+            "rf": "p2r#k",
+            "brf": 9470080,
+            "rt": 9470080,
+            "vendor": "ostr",
+            "vendor_id_raw": "7381183",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included",
+              "Pay at the property"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": false,
+            "special": false,
+            "room_name": "Standard room - King bed",
+            "rooms": [
+              {
+                "name": "Standard room - King bed",
+                "flags": [
+                  "King bed"
+                ]
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included",
+              "pay_at_hotel": "Pay at the property"
+            },
+            "partner_name": "Zenhotels",
+            "partner_logo": "https://hotelscan.com/apis/vendors/ostr/logo.svg?pos=zz"
+          },
+          {
+            "price": 730.12,
+            "brt": "z2r#",
+            "rf": "z2r#",
+            "brf": 9502784,
+            "rt": 9502784,
+            "vendor": "agda",
+            "vendor_id_raw": "626247",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included",
+              "Free cancellation"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Go to the booking site for more details",
+            "rooms": [
+              {
+                "name": "Go to the booking site for more details",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included",
+              "refundable": "Free cancellation"
+            },
+            "partner_name": "Agoda",
+            "partner_logo": "https://hotelscan.com/apis/vendors/agda/logo.svg?pos=zz"
+          },
+          {
+            "price": 736.54,
+            "brt": "z2r#",
+            "rf": "z2r#",
+            "brf": 9470016,
+            "rt": 9470016,
+            "vendor": "expd",
+            "vendor_id_raw": "1393456",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included"
+            ],
+            "jc_code": "EXPEDIA",
+            "chain": "",
+            "free_cancellation": false,
+            "special": false,
+            "room_name": "Go to the booking site for more details",
+            "rooms": [
+              {
+                "name": "Go to the booking site for more details",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included"
+            },
+            "partner_name": "Expedia",
+            "partner_logo": "https://hotelscan.com/apis/vendors/expd/logo.svg?pos=zz"
+          },
+          {
+            "price": 736.85,
+            "brt": "z2r#",
+            "rf": "z2r#",
+            "brf": 9502784,
+            "rt": 9502784,
+            "vendor": "bkng",
+            "vendor_id_raw": "257521",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included",
+              "Free cancellation"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Go to the booking site for more details",
+            "rooms": [
+              {
+                "name": "Go to the booking site for more details",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included",
+              "refundable": "Free cancellation"
+            },
+            "partner_name": "Booking.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/bkng/logo.svg?pos=zz"
+          },
+          {
+            "price": 740.69,
+            "brt": "o2r#",
+            "rf": "o2r#",
+            "brf": 9502784,
+            "rt": 9502784,
+            "vendor": "agda",
+            "vendor_id_raw": "626247",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included",
+              "Free cancellation"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Villa",
+            "rooms": [
+              {
+                "name": "Villa",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included",
+              "refundable": "Free cancellation"
+            },
+            "partner_name": "Agoda",
+            "partner_logo": "https://hotelscan.com/apis/vendors/agda/logo.svg?pos=zz"
+          },
+          {
+            "price": 747.52,
+            "brt": "o2r#",
+            "rf": "o2r#",
+            "brf": 12124224,
+            "rt": 12124224,
+            "vendor": "bkng",
+            "vendor_id_raw": "257521",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast and dinner",
+              "Free cancellation"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Villa",
+            "rooms": [
+              {
+                "name": "Villa",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "half_board_dinner": "Breakfast and dinner",
+              "refundable": "Free cancellation"
+            },
+            "partner_name": "Booking.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/bkng/logo.svg?pos=zz"
+          },
+          {
+            "price": 757.39,
+            "brt": "o2r#",
+            "rf": "o2r#",
+            "brf": 8421440,
+            "rt": 8421440,
+            "vendor": "expd",
+            "vendor_id_raw": "1393456",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [],
+            "jc_code": "EXPEDIA",
+            "chain": "",
+            "free_cancellation": false,
+            "special": false,
+            "room_name": "Villa",
+            "rooms": [
+              {
+                "name": "Villa",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": [],
+            "partner_name": "Expedia",
+            "partner_logo": "https://hotelscan.com/apis/vendors/expd/logo.svg?pos=zz"
+          },
+          {
+            "price": 775.13,
+            "brt": "o2d#k",
+            "rf": "o2d#k",
+            "brf": 10518592,
+            "rt": 10518592,
+            "vendor": "ostr",
+            "vendor_id_raw": "7381183",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Half board"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": false,
+            "special": false,
+            "room_name": "Deluxe villa - King bed",
+            "rooms": [
+              {
+                "name": "Deluxe villa - King bed",
+                "flags": [
+                  "King bed"
+                ]
+              }
+            ],
+            "offer_flags_new": {
+              "half_board": "Half board"
+            },
+            "partner_name": "Zenhotels",
+            "partner_logo": "https://hotelscan.com/apis/vendors/ostr/logo.svg?pos=zz"
+          },
+          {
+            "price": 826.61,
+            "brt": "o2d#k",
+            "rf": "o2d#k",
+            "brf": 9470016,
+            "rt": 9470016,
+            "vendor": "ostr",
+            "vendor_id_raw": "7381183",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": false,
+            "special": false,
+            "room_name": "Deluxe villa - King bed",
+            "rooms": [
+              {
+                "name": "Deluxe villa - King bed",
+                "flags": [
+                  "King bed"
+                ]
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included"
+            },
+            "partner_name": "Zenhotels",
+            "partner_logo": "https://hotelscan.com/apis/vendors/ostr/logo.svg?pos=zz"
+          },
+          {
+            "price": 832.9,
+            "brt": "o2d#",
+            "rf": "o2d#",
+            "brf": 9502784,
+            "rt": 9502784,
+            "vendor": "bkng",
+            "vendor_id_raw": "257521",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included",
+              "Free cancellation"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Deluxe villa",
+            "rooms": [
+              {
+                "name": "Deluxe villa",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included",
+              "refundable": "Free cancellation"
+            },
+            "partner_name": "Booking.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/bkng/logo.svg?pos=zz"
+          },
+          {
+            "price": 837.91,
+            "brt": "o2r#",
+            "rf": "o2r#",
+            "brf": 10027072,
+            "rt": 10027072,
+            "vendor": "last",
+            "vendor_id_raw": "570502",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Full board",
+              "Free cancellation"
+            ],
+            "jc_code": "LASTMINUTE",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Villa",
+            "rooms": [
+              {
+                "name": "Villa",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "full_board": "Full board",
+              "refundable": "Free cancellation"
+            },
+            "partner_name": "lastminute.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/last/logo.svg?pos=zz"
+          },
+          {
+            "price": 838.68,
+            "brt": "o2d#",
+            "rf": "o2d#",
+            "brf": 9502784,
+            "rt": 9502784,
+            "vendor": "agda",
+            "vendor_id_raw": "626247",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included",
+              "Free cancellation"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Deluxe villa",
+            "rooms": [
+              {
+                "name": "Deluxe villa",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included",
+              "refundable": "Free cancellation"
+            },
+            "partner_name": "Agoda",
+            "partner_logo": "https://hotelscan.com/apis/vendors/agda/logo.svg?pos=zz"
+          },
+          {
+            "price": 841.24,
+            "brt": "o2d#",
+            "rf": "o2d#",
+            "brf": 9470016,
+            "rt": 9470016,
+            "vendor": "agda",
+            "vendor_id_raw": "626247",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": false,
+            "special": false,
+            "room_name": "Deluxe villa",
+            "rooms": [
+              {
+                "name": "Deluxe villa",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included"
+            },
+            "partner_name": "Agoda",
+            "partner_logo": "https://hotelscan.com/apis/vendors/agda/logo.svg?pos=zz"
+          },
+          {
+            "price": 846.42,
+            "brt": "o2d#",
+            "rf": "o2d#",
+            "brf": 12124224,
+            "rt": 12124224,
+            "vendor": "bkng",
+            "vendor_id_raw": "257521",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast and dinner",
+              "Free cancellation"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Deluxe villa",
+            "rooms": [
+              {
+                "name": "Deluxe villa",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "half_board_dinner": "Breakfast and dinner",
+              "refundable": "Free cancellation"
+            },
+            "partner_name": "Booking.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/bkng/logo.svg?pos=zz"
+          },
+          {
+            "price": 848.62,
+            "brt": "o2d#k",
+            "rf": "o2d#k",
+            "brf": 10518656,
+            "rt": 10518656,
+            "vendor": "ostr",
+            "vendor_id_raw": "7381183",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Half board",
+              "Pay at the property"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": false,
+            "special": false,
+            "room_name": "Deluxe villa - King bed",
+            "rooms": [
+              {
+                "name": "Deluxe villa - King bed",
+                "flags": [
+                  "King bed"
+                ]
+              }
+            ],
+            "offer_flags_new": {
+              "half_board": "Half board",
+              "pay_at_hotel": "Pay at the property"
+            },
+            "partner_name": "Zenhotels",
+            "partner_logo": "https://hotelscan.com/apis/vendors/ostr/logo.svg?pos=zz"
+          },
+          {
+            "price": 856.25,
+            "brt": "o2d#",
+            "rf": "o2d#",
+            "brf": 9470016,
+            "rt": 9470016,
+            "vendor": "expd",
+            "vendor_id_raw": "1393456",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included"
+            ],
+            "jc_code": "EXPEDIA",
+            "chain": "",
+            "free_cancellation": false,
+            "special": false,
+            "room_name": "Deluxe villa",
+            "rooms": [
+              {
+                "name": "Deluxe villa",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included"
+            },
+            "partner_name": "Expedia",
+            "partner_logo": "https://hotelscan.com/apis/vendors/expd/logo.svg?pos=zz"
+          },
+          {
+            "price": 857.4,
+            "brt": "p2d#k",
+            "rf": "p2d#k",
+            "brf": 9470016,
+            "rt": 9470016,
+            "vendor": "ostr",
+            "vendor_id_raw": "7381183",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": false,
+            "special": false,
+            "room_name": "Deluxe room - King bed",
+            "rooms": [
+              {
+                "name": "Deluxe room - King bed",
+                "flags": [
+                  "King bed"
+                ]
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included"
+            },
+            "partner_name": "Zenhotels",
+            "partner_logo": "https://hotelscan.com/apis/vendors/ostr/logo.svg?pos=zz"
+          },
+          {
+            "price": 861.08,
+            "brt": "p2r#k",
+            "rf": "p2r#k",
+            "brf": 10518592,
+            "rt": 10518592,
+            "vendor": "ostr",
+            "vendor_id_raw": "7381183",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Half board"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": false,
+            "special": false,
+            "room_name": "Standard room - King bed",
+            "rooms": [
+              {
+                "name": "Standard room - King bed",
+                "flags": [
+                  "King bed"
+                ]
+              }
+            ],
+            "offer_flags_new": {
+              "half_board": "Half board"
+            },
+            "partner_name": "Zenhotels",
+            "partner_logo": "https://hotelscan.com/apis/vendors/ostr/logo.svg?pos=zz"
+          },
+          {
+            "price": 906.22,
+            "brt": "o2d#k",
+            "rf": "o2d#k",
+            "brf": 9470080,
+            "rt": 9470080,
+            "vendor": "ostr",
+            "vendor_id_raw": "7381183",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included",
+              "Pay at the property"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": false,
+            "special": false,
+            "room_name": "Deluxe villa - King bed",
+            "rooms": [
+              {
+                "name": "Deluxe villa - King bed",
+                "flags": [
+                  "King bed"
+                ]
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included",
+              "pay_at_hotel": "Pay at the property"
+            },
+            "partner_name": "Zenhotels",
+            "partner_logo": "https://hotelscan.com/apis/vendors/ostr/logo.svg?pos=zz"
+          },
+          {
+            "price": 914.32,
+            "brt": "o2d#",
+            "rf": "o2d#",
+            "brf": 9470016,
+            "rt": 9470016,
+            "vendor": "expd",
+            "vendor_id_raw": "1393456",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included"
+            ],
+            "jc_code": "EXPEDIA",
+            "chain": "",
+            "free_cancellation": false,
+            "special": false,
+            "room_name": "Deluxe villa",
+            "rooms": [
+              {
+                "name": "Deluxe villa",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included"
+            },
+            "partner_name": "Expedia",
+            "partner_logo": "https://hotelscan.com/apis/vendors/expd/logo.svg?pos=zz"
+          },
+          {
+            "price": 914.72,
+            "brt": "o2d#",
+            "rf": "o2d#",
+            "brf": 9502784,
+            "rt": 9502784,
+            "vendor": "bkng",
+            "vendor_id_raw": "257521",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included",
+              "Free cancellation"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Deluxe villa",
+            "rooms": [
+              {
+                "name": "Deluxe villa",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included",
+              "refundable": "Free cancellation"
+            },
+            "partner_name": "Booking.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/bkng/logo.svg?pos=zz"
+          },
+          {
+            "price": 940.02,
+            "brt": "p2d#k",
+            "rf": "p2d#k",
+            "brf": 9470080,
+            "rt": 9470080,
+            "vendor": "ostr",
+            "vendor_id_raw": "7381183",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included",
+              "Pay at the property"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": false,
+            "special": false,
+            "room_name": "Deluxe room - King bed",
+            "rooms": [
+              {
+                "name": "Deluxe room - King bed",
+                "flags": [
+                  "King bed"
+                ]
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included",
+              "pay_at_hotel": "Pay at the property"
+            },
+            "partner_name": "Zenhotels",
+            "partner_logo": "https://hotelscan.com/apis/vendors/ostr/logo.svg?pos=zz"
+          },
+          {
+            "price": 941.76,
+            "brt": "z2r#",
+            "rf": "z2r#",
+            "brf": 12124224,
+            "rt": 12124224,
+            "vendor": "bkng",
+            "vendor_id_raw": "257521",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast and dinner",
+              "Free cancellation"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Go to the booking site for more details",
+            "rooms": [
+              {
+                "name": "Go to the booking site for more details",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "half_board_dinner": "Breakfast and dinner",
+              "refundable": "Free cancellation"
+            },
+            "partner_name": "Booking.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/bkng/logo.svg?pos=zz"
+          },
+          {
+            "price": 943.22,
+            "brt": "p2r#k",
+            "rf": "p2r#k",
+            "brf": 10518656,
+            "rt": 10518656,
+            "vendor": "ostr",
+            "vendor_id_raw": "7381183",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Half board",
+              "Pay at the property"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": false,
+            "special": false,
+            "room_name": "Standard room - King bed",
+            "rooms": [
+              {
+                "name": "Standard room - King bed",
+                "flags": [
+                  "King bed"
+                ]
+              }
+            ],
+            "offer_flags_new": {
+              "half_board": "Half board",
+              "pay_at_hotel": "Pay at the property"
+            },
+            "partner_name": "Zenhotels",
+            "partner_logo": "https://hotelscan.com/apis/vendors/ostr/logo.svg?pos=zz"
+          },
+          {
+            "price": 948.45,
+            "brt": "p2d#",
+            "rf": "p2d#",
+            "brf": 9470016,
+            "rt": 9470016,
+            "vendor": "expd",
+            "vendor_id_raw": "1393456",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included"
+            ],
+            "jc_code": "EXPEDIA",
+            "chain": "",
+            "free_cancellation": false,
+            "special": false,
+            "room_name": "Deluxe room",
+            "rooms": [
+              {
+                "name": "Deluxe room",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included"
+            },
+            "partner_name": "Expedia",
+            "partner_logo": "https://hotelscan.com/apis/vendors/expd/logo.svg?pos=zz"
+          },
+          {
+            "price": 948.87,
+            "brt": "p2d#",
+            "rf": "p2d#",
+            "brf": 9502784,
+            "rt": 9502784,
+            "vendor": "bkng",
+            "vendor_id_raw": "257521",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included",
+              "Free cancellation"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Deluxe room",
+            "rooms": [
+              {
+                "name": "Deluxe room",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included",
+              "refundable": "Free cancellation"
+            },
+            "partner_name": "Booking.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/bkng/logo.svg?pos=zz"
+          },
+          {
+            "price": 951.55,
+            "brt": "z2r#",
+            "rf": "z2r#",
+            "brf": 9470016,
+            "rt": 9470016,
+            "vendor": "expd",
+            "vendor_id_raw": "1393456",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included"
+            ],
+            "jc_code": "EXPEDIA",
+            "chain": "",
+            "free_cancellation": false,
+            "special": false,
+            "room_name": "Go to the booking site for more details",
+            "rooms": [
+              {
+                "name": "Go to the booking site for more details",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included"
+            },
+            "partner_name": "Expedia",
+            "partner_logo": "https://hotelscan.com/apis/vendors/expd/logo.svg?pos=zz"
+          },
+          {
+            "price": 959.4,
+            "brt": "o2r#k",
+            "rf": "o2r#k",
+            "brf": 9470016,
+            "rt": 9470016,
+            "vendor": "ostr",
+            "vendor_id_raw": "7381183",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": false,
+            "special": false,
+            "room_name": "Villa - King bed",
+            "rooms": [
+              {
+                "name": "Villa - King bed",
+                "flags": [
+                  "King bed"
+                ]
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included"
+            },
+            "partner_name": "Zenhotels",
+            "partner_logo": "https://hotelscan.com/apis/vendors/ostr/logo.svg?pos=zz"
+          },
+          {
+            "price": 983.02,
+            "brt": "z2r#",
+            "rf": "z2r#",
+            "brf": 9502784,
+            "rt": 9502784,
+            "vendor": "bkng",
+            "vendor_id_raw": "257521",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included",
+              "Free cancellation"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Go to the booking site for more details",
+            "rooms": [
+              {
+                "name": "Go to the booking site for more details",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included",
+              "refundable": "Free cancellation"
+            },
+            "partner_name": "Booking.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/bkng/logo.svg?pos=zz"
+          },
+          {
+            "price": 1001.09,
+            "brt": "p2r#k",
+            "rf": "p2r#k",
+            "brf": 9470016,
+            "rt": 9470016,
+            "vendor": "ostr",
+            "vendor_id_raw": "7381183",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": false,
+            "special": false,
+            "room_name": "Standard room - King bed",
+            "rooms": [
+              {
+                "name": "Standard room - King bed",
+                "flags": [
+                  "King bed"
+                ]
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included"
+            },
+            "partner_name": "Zenhotels",
+            "partner_logo": "https://hotelscan.com/apis/vendors/ostr/logo.svg?pos=zz"
+          },
+          {
+            "price": 1021.48,
+            "brt": "o2d#k",
+            "rf": "o2d#k",
+            "brf": 8421440,
+            "rt": 8421440,
+            "vendor": "ostr",
+            "vendor_id_raw": "7381183",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": false,
+            "special": false,
+            "room_name": "Deluxe villa - King bed",
+            "rooms": [
+              {
+                "name": "Deluxe villa - King bed",
+                "flags": [
+                  "King bed"
+                ]
+              }
+            ],
+            "offer_flags_new": [],
+            "partner_name": "Zenhotels",
+            "partner_logo": "https://hotelscan.com/apis/vendors/ostr/logo.svg?pos=zz"
+          },
+          {
+            "price": 1052.22,
+            "brt": "o2r#k",
+            "rf": "o2r#k",
+            "brf": 9470080,
+            "rt": 9470080,
+            "vendor": "ostr",
+            "vendor_id_raw": "7381183",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included",
+              "Pay at the property"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": false,
+            "special": false,
+            "room_name": "Villa - King bed",
+            "rooms": [
+              {
+                "name": "Villa - King bed",
+                "flags": [
+                  "King bed"
+                ]
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included",
+              "pay_at_hotel": "Pay at the property"
+            },
+            "partner_name": "Zenhotels",
+            "partner_logo": "https://hotelscan.com/apis/vendors/ostr/logo.svg?pos=zz"
+          },
+          {
+            "price": 1059.48,
+            "brt": "p2r#k",
+            "rf": "p2r#k",
+            "brf": 9470016,
+            "rt": 9470016,
+            "vendor": "ostr",
+            "vendor_id_raw": "7381183",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": false,
+            "special": false,
+            "room_name": "Standard room - King bed",
+            "rooms": [
+              {
+                "name": "Standard room - King bed",
+                "flags": [
+                  "King bed"
+                ]
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included"
+            },
+            "partner_name": "Zenhotels",
+            "partner_logo": "https://hotelscan.com/apis/vendors/ostr/logo.svg?pos=zz"
+          },
+          {
+            "price": 1061.53,
+            "brt": "o2r#",
+            "rf": "o2r#",
+            "brf": 9470016,
+            "rt": 9470016,
+            "vendor": "expd",
+            "vendor_id_raw": "1393456",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included"
+            ],
+            "jc_code": "EXPEDIA",
+            "chain": "",
+            "free_cancellation": false,
+            "special": false,
+            "room_name": "Villa",
+            "rooms": [
+              {
+                "name": "Villa",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included"
+            },
+            "partner_name": "Expedia",
+            "partner_logo": "https://hotelscan.com/apis/vendors/expd/logo.svg?pos=zz"
+          },
+          {
+            "price": 1061.99,
+            "brt": "o2r#",
+            "rf": "o2r#",
+            "brf": 9502784,
+            "rt": 9502784,
+            "vendor": "bkng",
+            "vendor_id_raw": "257521",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included",
+              "Free cancellation"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Villa",
+            "rooms": [
+              {
+                "name": "Villa",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included",
+              "refundable": "Free cancellation"
+            },
+            "partner_name": "Booking.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/bkng/logo.svg?pos=zz"
+          },
+          {
+            "price": 1092.63,
+            "brt": "o2r#",
+            "rf": "o2r#",
+            "brf": 11075648,
+            "rt": 11075648,
+            "vendor": "last",
+            "vendor_id_raw": "570502",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Free cancellation"
+            ],
+            "jc_code": "LASTMINUTE",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Villa",
+            "rooms": [
+              {
+                "name": "Villa",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "refundable": "Free cancellation"
+            },
+            "partner_name": "lastminute.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/last/logo.svg?pos=zz"
+          },
+          {
+            "price": 1098.02,
+            "brt": "p2r#k",
+            "rf": "p2r#k",
+            "brf": 9470080,
+            "rt": 9470080,
+            "vendor": "ostr",
+            "vendor_id_raw": "7381183",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included",
+              "Pay at the property"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": false,
+            "special": false,
+            "room_name": "Standard room - King bed",
+            "rooms": [
+              {
+                "name": "Standard room - King bed",
+                "flags": [
+                  "King bed"
+                ]
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included",
+              "pay_at_hotel": "Pay at the property"
+            },
+            "partner_name": "Zenhotels",
+            "partner_logo": "https://hotelscan.com/apis/vendors/ostr/logo.svg?pos=zz"
+          },
+          {
+            "price": 1107.76,
+            "brt": "z2r#",
+            "rf": "z2r#",
+            "brf": 9470016,
+            "rt": 9470016,
+            "vendor": "expd",
+            "vendor_id_raw": "1393456",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included"
+            ],
+            "jc_code": "EXPEDIA",
+            "chain": "",
+            "free_cancellation": false,
+            "special": false,
+            "room_name": "Go to the booking site for more details",
+            "rooms": [
+              {
+                "name": "Go to the booking site for more details",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included"
+            },
+            "partner_name": "Expedia",
+            "partner_logo": "https://hotelscan.com/apis/vendors/expd/logo.svg?pos=zz"
+          },
+          {
+            "price": 1108.24,
+            "brt": "z2r#",
+            "rf": "z2r#",
+            "brf": 9502784,
+            "rt": 9502784,
+            "vendor": "bkng",
+            "vendor_id_raw": "257521",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included",
+              "Free cancellation"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Go to the booking site for more details",
+            "rooms": [
+              {
+                "name": "Go to the booking site for more details",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included",
+              "refundable": "Free cancellation"
+            },
+            "partner_name": "Booking.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/bkng/logo.svg?pos=zz"
+          },
+          {
+            "price": 1119.42,
+            "brt": "o2d#k",
+            "rf": "o2d#k",
+            "brf": 8421504,
+            "rt": 8421504,
+            "vendor": "ostr",
+            "vendor_id_raw": "7381183",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Pay at the property"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": false,
+            "special": false,
+            "room_name": "Deluxe villa - King bed",
+            "rooms": [
+              {
+                "name": "Deluxe villa - King bed",
+                "flags": [
+                  "King bed"
+                ]
+              }
+            ],
+            "offer_flags_new": {
+              "pay_at_hotel": "Pay at the property"
+            },
+            "partner_name": "Zenhotels",
+            "partner_logo": "https://hotelscan.com/apis/vendors/ostr/logo.svg?pos=zz"
+          },
+          {
+            "price": 1119.62,
+            "brt": "o2d#",
+            "rf": "o2d#",
+            "brf": 12124224,
+            "rt": 12124224,
+            "vendor": "bkng",
+            "vendor_id_raw": "257521",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast and dinner",
+              "Free cancellation"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Deluxe villa",
+            "rooms": [
+              {
+                "name": "Deluxe villa",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "half_board_dinner": "Breakfast and dinner",
+              "refundable": "Free cancellation"
+            },
+            "partner_name": "Booking.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/bkng/logo.svg?pos=zz"
+          },
+          {
+            "price": 1129.32,
+            "brt": "o2d#",
+            "rf": "o2d#",
+            "brf": 8421440,
+            "rt": 8421440,
+            "vendor": "expd",
+            "vendor_id_raw": "1393456",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [],
+            "jc_code": "EXPEDIA",
+            "chain": "",
+            "free_cancellation": false,
+            "special": false,
+            "room_name": "Deluxe villa",
+            "rooms": [
+              {
+                "name": "Deluxe villa",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": [],
+            "partner_name": "Expedia",
+            "partner_logo": "https://hotelscan.com/apis/vendors/expd/logo.svg?pos=zz"
+          },
+          {
+            "price": 1153.22,
+            "brt": "p2d#k",
+            "rf": "p2d#k",
+            "brf": 8421504,
+            "rt": 8421504,
+            "vendor": "ostr",
+            "vendor_id_raw": "7381183",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Pay at the property"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": false,
+            "special": false,
+            "room_name": "Deluxe room - King bed",
+            "rooms": [
+              {
+                "name": "Deluxe room - King bed",
+                "flags": [
+                  "King bed"
+                ]
+              }
+            ],
+            "offer_flags_new": {
+              "pay_at_hotel": "Pay at the property"
+            },
+            "partner_name": "Zenhotels",
+            "partner_logo": "https://hotelscan.com/apis/vendors/ostr/logo.svg?pos=zz"
+          },
+          {
+            "price": 1153.78,
+            "brt": "p2d#",
+            "rf": "p2d#",
+            "brf": 12124224,
+            "rt": 12124224,
+            "vendor": "bkng",
+            "vendor_id_raw": "257521",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast and dinner",
+              "Free cancellation"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Deluxe room",
+            "rooms": [
+              {
+                "name": "Deluxe room",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "half_board_dinner": "Breakfast and dinner",
+              "refundable": "Free cancellation"
+            },
+            "partner_name": "Booking.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/bkng/logo.svg?pos=zz"
+          },
+          {
+            "price": 1154.27,
+            "brt": "o2r#k",
+            "rf": "o2r#k",
+            "brf": 8421440,
+            "rt": 8421440,
+            "vendor": "ostr",
+            "vendor_id_raw": "7381183",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": false,
+            "special": false,
+            "room_name": "Villa - King bed",
+            "rooms": [
+              {
+                "name": "Villa - King bed",
+                "flags": [
+                  "King bed"
+                ]
+              }
+            ],
+            "offer_flags_new": [],
+            "partner_name": "Zenhotels",
+            "partner_logo": "https://hotelscan.com/apis/vendors/ostr/logo.svg?pos=zz"
+          },
+          {
+            "price": 1160.89,
+            "brt": "o2d#",
+            "rf": "o2d#",
+            "brf": 9502784,
+            "rt": 9502784,
+            "vendor": "bkng",
+            "vendor_id_raw": "257521",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included",
+              "Free cancellation"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Deluxe villa",
+            "rooms": [
+              {
+                "name": "Deluxe villa",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included",
+              "refundable": "Free cancellation"
+            },
+            "partner_name": "Booking.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/bkng/logo.svg?pos=zz"
+          },
+          {
+            "price": 1162.22,
+            "brt": "p2r#k",
+            "rf": "p2r#k",
+            "brf": 9470080,
+            "rt": 9470080,
+            "vendor": "ostr",
+            "vendor_id_raw": "7381183",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included",
+              "Pay at the property"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": false,
+            "special": false,
+            "room_name": "Standard room - King bed",
+            "rooms": [
+              {
+                "name": "Standard room - King bed",
+                "flags": [
+                  "King bed"
+                ]
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included",
+              "pay_at_hotel": "Pay at the property"
+            },
+            "partner_name": "Zenhotels",
+            "partner_logo": "https://hotelscan.com/apis/vendors/ostr/logo.svg?pos=zz"
+          },
+          {
+            "price": 1163.46,
+            "brt": "p2d#",
+            "rf": "p2d#",
+            "brf": 8421440,
+            "rt": 8421440,
+            "vendor": "expd",
+            "vendor_id_raw": "1393456",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [],
+            "jc_code": "EXPEDIA",
+            "chain": "",
+            "free_cancellation": false,
+            "special": false,
+            "room_name": "Deluxe room",
+            "rooms": [
+              {
+                "name": "Deluxe room",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": [],
+            "partner_name": "Expedia",
+            "partner_logo": "https://hotelscan.com/apis/vendors/expd/logo.svg?pos=zz"
+          },
+          {
+            "price": 1172.45,
+            "brt": "z2r#",
+            "rf": "z2r#",
+            "brf": 9470016,
+            "rt": 9470016,
+            "vendor": "expd",
+            "vendor_id_raw": "1393456",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included"
+            ],
+            "jc_code": "EXPEDIA",
+            "chain": "",
+            "free_cancellation": false,
+            "special": false,
+            "room_name": "Go to the booking site for more details",
+            "rooms": [
+              {
+                "name": "Go to the booking site for more details",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included"
+            },
+            "partner_name": "Expedia",
+            "partner_logo": "https://hotelscan.com/apis/vendors/expd/logo.svg?pos=zz"
+          },
+          {
+            "price": 1172.98,
+            "brt": "z2r#",
+            "rf": "z2r#",
+            "brf": 9502784,
+            "rt": 9502784,
+            "vendor": "bkng",
+            "vendor_id_raw": "257521",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included",
+              "Free cancellation"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Go to the booking site for more details",
+            "rooms": [
+              {
+                "name": "Go to the booking site for more details",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included",
+              "refundable": "Free cancellation"
+            },
+            "partner_name": "Booking.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/bkng/logo.svg?pos=zz"
+          },
+          {
+            "price": 1195.04,
+            "brt": "p2d#",
+            "rf": "p2d#",
+            "brf": 9502784,
+            "rt": 9502784,
+            "vendor": "bkng",
+            "vendor_id_raw": "257521",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included",
+              "Free cancellation"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Deluxe room",
+            "rooms": [
+              {
+                "name": "Deluxe room",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included",
+              "refundable": "Free cancellation"
+            },
+            "partner_name": "Booking.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/bkng/logo.svg?pos=zz"
+          },
+          {
+            "price": 1202.15,
+            "brt": "o2d#",
+            "rf": "o2d#",
+            "brf": 12124224,
+            "rt": 12124224,
+            "vendor": "bkng",
+            "vendor_id_raw": "257521",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast and dinner",
+              "Free cancellation"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Deluxe villa",
+            "rooms": [
+              {
+                "name": "Deluxe villa",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "half_board_dinner": "Breakfast and dinner",
+              "refundable": "Free cancellation"
+            },
+            "partner_name": "Booking.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/bkng/logo.svg?pos=zz"
+          },
+          {
+            "price": 1252.7,
+            "brt": "o2d#d",
+            "rf": "o2d#d",
+            "brf": 9994304,
+            "rt": 9994304,
+            "vendor": "ostr",
+            "vendor_id_raw": "7381183",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Full board"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": false,
+            "special": false,
+            "room_name": "Deluxe villa - Double bed",
+            "rooms": [
+              {
+                "name": "Deluxe villa - Double bed",
+                "flags": [
+                  "Double bed"
+                ]
+              }
+            ],
+            "offer_flags_new": {
+              "full_board": "Full board"
+            },
+            "partner_name": "Zenhotels",
+            "partner_logo": "https://hotelscan.com/apis/vendors/ostr/logo.svg?pos=zz"
+          },
+          {
+            "price": 1265.42,
+            "brt": "o2r#k",
+            "rf": "o2r#k",
+            "brf": 8421504,
+            "rt": 8421504,
+            "vendor": "ostr",
+            "vendor_id_raw": "7381183",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Pay at the property"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": false,
+            "special": false,
+            "room_name": "Villa - King bed",
+            "rooms": [
+              {
+                "name": "Villa - King bed",
+                "flags": [
+                  "King bed"
+                ]
+              }
+            ],
+            "offer_flags_new": {
+              "pay_at_hotel": "Pay at the property"
+            },
+            "partner_name": "Zenhotels",
+            "partner_logo": "https://hotelscan.com/apis/vendors/ostr/logo.svg?pos=zz"
+          },
+          {
+            "price": 1266.9,
+            "brt": "o2r#",
+            "rf": "o2r#",
+            "brf": 12124224,
+            "rt": 12124224,
+            "vendor": "bkng",
+            "vendor_id_raw": "257521",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast and dinner",
+              "Free cancellation"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Villa",
+            "rooms": [
+              {
+                "name": "Villa",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "half_board_dinner": "Breakfast and dinner",
+              "refundable": "Free cancellation"
+            },
+            "partner_name": "Booking.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/bkng/logo.svg?pos=zz"
+          },
+          {
+            "price": 1273.6,
+            "brt": "o2d#k",
+            "rf": "o2d#k",
+            "brf": 11042880,
+            "rt": 11042880,
+            "vendor": "ostr",
+            "vendor_id_raw": "7381183",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": false,
+            "special": false,
+            "room_name": "Deluxe villa - King bed",
+            "rooms": [
+              {
+                "name": "Deluxe villa - King bed",
+                "flags": [
+                  "King bed"
+                ]
+              }
+            ],
+            "offer_flags_new": [],
+            "partner_name": "Zenhotels",
+            "partner_logo": "https://hotelscan.com/apis/vendors/ostr/logo.svg?pos=zz"
+          },
+          {
+            "price": 1276.54,
+            "brt": "o2r#",
+            "rf": "o2r#",
+            "brf": 8421440,
+            "rt": 8421440,
+            "vendor": "expd",
+            "vendor_id_raw": "1393456",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [],
+            "jc_code": "EXPEDIA",
+            "chain": "",
+            "free_cancellation": false,
+            "special": false,
+            "room_name": "Villa",
+            "rooms": [
+              {
+                "name": "Villa",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": [],
+            "partner_name": "Expedia",
+            "partner_logo": "https://hotelscan.com/apis/vendors/expd/logo.svg?pos=zz"
+          },
+          {
+            "price": 1297.49,
+            "brt": "z2r#",
+            "rf": "z2r#",
+            "brf": 12124224,
+            "rt": 12124224,
+            "vendor": "bkng",
+            "vendor_id_raw": "257521",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast and dinner",
+              "Free cancellation"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Go to the booking site for more details",
+            "rooms": [
+              {
+                "name": "Go to the booking site for more details",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "half_board_dinner": "Breakfast and dinner",
+              "refundable": "Free cancellation"
+            },
+            "partner_name": "Booking.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/bkng/logo.svg?pos=zz"
+          },
+          {
+            "price": 1301.05,
+            "brt": "o2r#",
+            "rf": "o2r#",
+            "brf": 11075648,
+            "rt": 11075648,
+            "vendor": "bkng",
+            "vendor_id_raw": "257521",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Free cancellation"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Villa",
+            "rooms": [
+              {
+                "name": "Villa",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "refundable": "Free cancellation"
+            },
+            "partner_name": "Booking.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/bkng/logo.svg?pos=zz"
+          },
+          {
+            "price": 1308.16,
+            "brt": "o2r#",
+            "rf": "o2r#",
+            "brf": 9502784,
+            "rt": 9502784,
+            "vendor": "bkng",
+            "vendor_id_raw": "257521",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included",
+              "Free cancellation"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Villa",
+            "rooms": [
+              {
+                "name": "Villa",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included",
+              "refundable": "Free cancellation"
+            },
+            "partner_name": "Booking.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/bkng/logo.svg?pos=zz"
+          },
+          {
+            "price": 1310.67,
+            "brt": "o2r#",
+            "rf": "o2r#",
+            "brf": 9470016,
+            "rt": 9470016,
+            "vendor": "expd",
+            "vendor_id_raw": "1393456",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included"
+            ],
+            "jc_code": "EXPEDIA",
+            "chain": "",
+            "free_cancellation": false,
+            "special": false,
+            "room_name": "Villa",
+            "rooms": [
+              {
+                "name": "Villa",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included"
+            },
+            "partner_name": "Expedia",
+            "partner_logo": "https://hotelscan.com/apis/vendors/expd/logo.svg?pos=zz"
+          },
+          {
+            "price": 1314.17,
+            "brt": "z2r#",
+            "rf": "z2r#",
+            "brf": 9470016,
+            "rt": 9470016,
+            "vendor": "ostr",
+            "vendor_id_raw": "7381183",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": false,
+            "special": false,
+            "room_name": "Go to the booking site for more details",
+            "rooms": [
+              {
+                "name": "Go to the booking site for more details",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included"
+            },
+            "partner_name": "Zenhotels",
+            "partner_logo": "https://hotelscan.com/apis/vendors/ostr/logo.svg?pos=zz"
+          },
+          {
+            "price": 1359.55,
+            "brt": "p2r#k",
+            "rf": "p2r#k",
+            "brf": 11042880,
+            "rt": 11042880,
+            "vendor": "ostr",
+            "vendor_id_raw": "7381183",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": false,
+            "special": false,
+            "room_name": "Standard room - King bed",
+            "rooms": [
+              {
+                "name": "Standard room - King bed",
+                "flags": [
+                  "King bed"
+                ]
+              }
+            ],
+            "offer_flags_new": [],
+            "partner_name": "Zenhotels",
+            "partner_logo": "https://hotelscan.com/apis/vendors/ostr/logo.svg?pos=zz"
+          },
+          {
+            "price": 1380.72,
+            "brt": "p2r#k",
+            "rf": "p2r#k",
+            "brf": 8421440,
+            "rt": 8421440,
+            "vendor": "ostr",
+            "vendor_id_raw": "7381183",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": false,
+            "special": false,
+            "room_name": "Standard room - King bed",
+            "rooms": [
+              {
+                "name": "Standard room - King bed",
+                "flags": [
+                  "King bed"
+                ]
+              }
+            ],
+            "offer_flags_new": [],
+            "partner_name": "Zenhotels",
+            "partner_logo": "https://hotelscan.com/apis/vendors/ostr/logo.svg?pos=zz"
+          },
+          {
+            "price": 1396.42,
+            "brt": "o2d#k",
+            "rf": "o2d#k",
+            "brf": 11042944,
+            "rt": 11042944,
+            "vendor": "ostr",
+            "vendor_id_raw": "7381183",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Pay at the property"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": false,
+            "special": false,
+            "room_name": "Deluxe villa - King bed",
+            "rooms": [
+              {
+                "name": "Deluxe villa - King bed",
+                "flags": [
+                  "King bed"
+                ]
+              }
+            ],
+            "offer_flags_new": {
+              "pay_at_hotel": "Pay at the property"
+            },
+            "partner_name": "Zenhotels",
+            "partner_logo": "https://hotelscan.com/apis/vendors/ostr/logo.svg?pos=zz"
+          },
+          {
+            "price": 1399.23,
+            "brt": "o2d#",
+            "rf": "o2d#",
+            "brf": 11075648,
+            "rt": 11075648,
+            "vendor": "bkng",
+            "vendor_id_raw": "257521",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Free cancellation"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Deluxe villa",
+            "rooms": [
+              {
+                "name": "Deluxe villa",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "refundable": "Free cancellation"
+            },
+            "partner_name": "Booking.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/bkng/logo.svg?pos=zz"
+          },
+          {
+            "price": 1408.81,
+            "brt": "o2d#",
+            "rf": "o2d#",
+            "brf": 9470016,
+            "rt": 9470016,
+            "vendor": "expd",
+            "vendor_id_raw": "1393456",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included"
+            ],
+            "jc_code": "EXPEDIA",
+            "chain": "",
+            "free_cancellation": false,
+            "special": false,
+            "room_name": "Deluxe villa",
+            "rooms": [
+              {
+                "name": "Deluxe villa",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included"
+            },
+            "partner_name": "Expedia",
+            "partner_logo": "https://hotelscan.com/apis/vendors/expd/logo.svg?pos=zz"
+          },
+          {
+            "price": 1428.99,
+            "brt": "p2r#k",
+            "rf": "p2r#k",
+            "brf": 10518592,
+            "rt": 10518592,
+            "vendor": "ostr",
+            "vendor_id_raw": "7381183",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Half board"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": false,
+            "special": false,
+            "room_name": "Standard room - King bed",
+            "rooms": [
+              {
+                "name": "Standard room - King bed",
+                "flags": [
+                  "King bed"
+                ]
+              }
+            ],
+            "offer_flags_new": {
+              "half_board": "Half board"
+            },
+            "partner_name": "Zenhotels",
+            "partner_logo": "https://hotelscan.com/apis/vendors/ostr/logo.svg?pos=zz"
+          },
+          {
+            "price": 1442.02,
+            "brt": "z2r#",
+            "rf": "z2r#",
+            "brf": 9470080,
+            "rt": 9470080,
+            "vendor": "ostr",
+            "vendor_id_raw": "7381183",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included",
+              "Pay at the property"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": false,
+            "special": false,
+            "room_name": "Go to the booking site for more details",
+            "rooms": [
+              {
+                "name": "Go to the booking site for more details",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included",
+              "pay_at_hotel": "Pay at the property"
+            },
+            "partner_name": "Zenhotels",
+            "partner_logo": "https://hotelscan.com/apis/vendors/ostr/logo.svg?pos=zz"
+          },
+          {
+            "price": 1454.79,
+            "brt": "z2r#",
+            "rf": "z2r#",
+            "brf": 9470016,
+            "rt": 9470016,
+            "vendor": "expd",
+            "vendor_id_raw": "1393456",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included"
+            ],
+            "jc_code": "EXPEDIA",
+            "chain": "",
+            "free_cancellation": false,
+            "special": false,
+            "room_name": "Go to the booking site for more details",
+            "rooms": [
+              {
+                "name": "Go to the booking site for more details",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included"
+            },
+            "partner_name": "Expedia",
+            "partner_logo": "https://hotelscan.com/apis/vendors/expd/logo.svg?pos=zz"
+          },
+          {
+            "price": 1455.44,
+            "brt": "o2r#",
+            "rf": "o2r#",
+            "brf": 9502784,
+            "rt": 9502784,
+            "vendor": "bkng",
+            "vendor_id_raw": "257521",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included",
+              "Free cancellation"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Villa",
+            "rooms": [
+              {
+                "name": "Villa",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included",
+              "refundable": "Free cancellation"
+            },
+            "partner_name": "Booking.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/bkng/logo.svg?pos=zz"
+          },
+          {
+            "price": 1475.36,
+            "brt": "o2d#",
+            "rf": "o2d#",
+            "brf": 12124224,
+            "rt": 12124224,
+            "vendor": "bkng",
+            "vendor_id_raw": "257521",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast and dinner",
+              "Free cancellation"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Deluxe villa",
+            "rooms": [
+              {
+                "name": "Deluxe villa",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "half_board_dinner": "Breakfast and dinner",
+              "refundable": "Free cancellation"
+            },
+            "partner_name": "Booking.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/bkng/logo.svg?pos=zz"
+          },
+          {
+            "price": 1490.82,
+            "brt": "p2r#k",
+            "rf": "p2r#k",
+            "brf": 11042944,
+            "rt": 11042944,
+            "vendor": "ostr",
+            "vendor_id_raw": "7381183",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Pay at the property"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": false,
+            "special": false,
+            "room_name": "Standard room - King bed",
+            "rooms": [
+              {
+                "name": "Standard room - King bed",
+                "flags": [
+                  "King bed"
+                ]
+              }
+            ],
+            "offer_flags_new": {
+              "pay_at_hotel": "Pay at the property"
+            },
+            "partner_name": "Zenhotels",
+            "partner_logo": "https://hotelscan.com/apis/vendors/ostr/logo.svg?pos=zz"
+          },
+          {
+            "price": 1504.11,
+            "brt": "z2r#",
+            "rf": "z2r#",
+            "brf": 9470016,
+            "rt": 9470016,
+            "vendor": "expd",
+            "vendor_id_raw": "1393456",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included"
+            ],
+            "jc_code": "EXPEDIA",
+            "chain": "",
+            "free_cancellation": false,
+            "special": false,
+            "room_name": "Go to the booking site for more details",
+            "rooms": [
+              {
+                "name": "Go to the booking site for more details",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included"
+            },
+            "partner_name": "Expedia",
+            "partner_logo": "https://hotelscan.com/apis/vendors/expd/logo.svg?pos=zz"
+          },
+          {
+            "price": 1514.22,
+            "brt": "p2r#k",
+            "rf": "p2r#k",
+            "brf": 8421504,
+            "rt": 8421504,
+            "vendor": "ostr",
+            "vendor_id_raw": "7381183",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Pay at the property"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": false,
+            "special": false,
+            "room_name": "Standard room - King bed",
+            "rooms": [
+              {
+                "name": "Standard room - King bed",
+                "flags": [
+                  "King bed"
+                ]
+              }
+            ],
+            "offer_flags_new": {
+              "pay_at_hotel": "Pay at the property"
+            },
+            "partner_name": "Zenhotels",
+            "partner_logo": "https://hotelscan.com/apis/vendors/ostr/logo.svg?pos=zz"
+          },
+          {
+            "price": 1520.58,
+            "brt": "o2d#k",
+            "rf": "o2d#k",
+            "brf": 11042880,
+            "rt": 11042880,
+            "vendor": "ostr",
+            "vendor_id_raw": "7381183",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": false,
+            "special": false,
+            "room_name": "Deluxe villa - King bed",
+            "rooms": [
+              {
+                "name": "Deluxe villa - King bed",
+                "flags": [
+                  "King bed"
+                ]
+              }
+            ],
+            "offer_flags_new": [],
+            "partner_name": "Zenhotels",
+            "partner_logo": "https://hotelscan.com/apis/vendors/ostr/logo.svg?pos=zz"
+          },
+          {
+            "price": 1527.57,
+            "brt": "z2r#",
+            "rf": "z2r#",
+            "brf": 8421440,
+            "rt": 8421440,
+            "vendor": "expd",
+            "vendor_id_raw": "1393456",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [],
+            "jc_code": "EXPEDIA",
+            "chain": "",
+            "free_cancellation": false,
+            "special": false,
+            "room_name": "Go to the booking site for more details",
+            "rooms": [
+              {
+                "name": "Go to the booking site for more details",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": [],
+            "partner_name": "Expedia",
+            "partner_logo": "https://hotelscan.com/apis/vendors/expd/logo.svg?pos=zz"
+          },
+          {
+            "price": 1550.72,
+            "brt": "p2d#k",
+            "rf": "p2d#k",
+            "brf": 11042880,
+            "rt": 11042880,
+            "vendor": "ostr",
+            "vendor_id_raw": "7381183",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": false,
+            "special": false,
+            "room_name": "Deluxe room - King bed",
+            "rooms": [
+              {
+                "name": "Deluxe room - King bed",
+                "flags": [
+                  "King bed"
+                ]
+              }
+            ],
+            "offer_flags_new": [],
+            "partner_name": "Zenhotels",
+            "partner_logo": "https://hotelscan.com/apis/vendors/ostr/logo.svg?pos=zz"
+          },
+          {
+            "price": 1568.22,
+            "brt": "p2r#k",
+            "rf": "p2r#k",
+            "brf": 10518656,
+            "rt": 10518656,
+            "vendor": "ostr",
+            "vendor_id_raw": "7381183",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Half board",
+              "Pay at the property"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": false,
+            "special": false,
+            "room_name": "Standard room - King bed",
+            "rooms": [
+              {
+                "name": "Standard room - King bed",
+                "flags": [
+                  "King bed"
+                ]
+              }
+            ],
+            "offer_flags_new": {
+              "half_board": "Half board",
+              "pay_at_hotel": "Pay at the property"
+            },
+            "partner_name": "Zenhotels",
+            "partner_logo": "https://hotelscan.com/apis/vendors/ostr/logo.svg?pos=zz"
+          },
+          {
+            "price": 1582.09,
+            "brt": "z2r#",
+            "rf": "z2r#",
+            "brf": 9470016,
+            "rt": 9470016,
+            "vendor": "expd",
+            "vendor_id_raw": "1393456",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included"
+            ],
+            "jc_code": "EXPEDIA",
+            "chain": "",
+            "free_cancellation": false,
+            "special": false,
+            "room_name": "Go to the booking site for more details",
+            "rooms": [
+              {
+                "name": "Go to the booking site for more details",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included"
+            },
+            "partner_name": "Expedia",
+            "partner_logo": "https://hotelscan.com/apis/vendors/expd/logo.svg?pos=zz"
+          },
+          {
+            "price": 1653.36,
+            "brt": "o2r#k",
+            "rf": "o2r#k",
+            "brf": 11042880,
+            "rt": 11042880,
+            "vendor": "ostr",
+            "vendor_id_raw": "7381183",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": false,
+            "special": false,
+            "room_name": "Villa - King bed",
+            "rooms": [
+              {
+                "name": "Villa - King bed",
+                "flags": [
+                  "King bed"
+                ]
+              }
+            ],
+            "offer_flags_new": [],
+            "partner_name": "Zenhotels",
+            "partner_logo": "https://hotelscan.com/apis/vendors/ostr/logo.svg?pos=zz"
+          },
+          {
+            "price": 1667.82,
+            "brt": "o2d#k",
+            "rf": "o2d#k",
+            "brf": 11042944,
+            "rt": 11042944,
+            "vendor": "ostr",
+            "vendor_id_raw": "7381183",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Pay at the property"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": false,
+            "special": false,
+            "room_name": "Deluxe villa - King bed",
+            "rooms": [
+              {
+                "name": "Deluxe villa - King bed",
+                "flags": [
+                  "King bed"
+                ]
+              }
+            ],
+            "offer_flags_new": {
+              "pay_at_hotel": "Pay at the property"
+            },
+            "partner_name": "Zenhotels",
+            "partner_logo": "https://hotelscan.com/apis/vendors/ostr/logo.svg?pos=zz"
+          },
+          {
+            "price": 1682.61,
+            "brt": "o2d#",
+            "rf": "o2d#",
+            "brf": 9470016,
+            "rt": 9470016,
+            "vendor": "expd",
+            "vendor_id_raw": "1393456",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included"
+            ],
+            "jc_code": "EXPEDIA",
+            "chain": "",
+            "free_cancellation": false,
+            "special": false,
+            "room_name": "Deluxe villa",
+            "rooms": [
+              {
+                "name": "Deluxe villa",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included"
+            },
+            "partner_name": "Expedia",
+            "partner_logo": "https://hotelscan.com/apis/vendors/expd/logo.svg?pos=zz"
+          },
+          {
+            "price": 1693.79,
+            "brt": "z2r#",
+            "rf": "z2r#",
+            "brf": 8421440,
+            "rt": 8421440,
+            "vendor": "ostr",
+            "vendor_id_raw": "7381183",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": false,
+            "special": false,
+            "room_name": "Go to the booking site for more details",
+            "rooms": [
+              {
+                "name": "Go to the booking site for more details",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": [],
+            "partner_name": "Zenhotels",
+            "partner_logo": "https://hotelscan.com/apis/vendors/ostr/logo.svg?pos=zz"
+          },
+          {
+            "price": 1701.02,
+            "brt": "p2d#k",
+            "rf": "p2d#k",
+            "brf": 11042944,
+            "rt": 11042944,
+            "vendor": "ostr",
+            "vendor_id_raw": "7381183",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Pay at the property"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": false,
+            "special": false,
+            "room_name": "Deluxe room - King bed",
+            "rooms": [
+              {
+                "name": "Deluxe room - King bed",
+                "flags": [
+                  "King bed"
+                ]
+              }
+            ],
+            "offer_flags_new": {
+              "pay_at_hotel": "Pay at the property"
+            },
+            "partner_name": "Zenhotels",
+            "partner_logo": "https://hotelscan.com/apis/vendors/ostr/logo.svg?pos=zz"
+          },
+          {
+            "price": 1716.04,
+            "brt": "p2d#",
+            "rf": "p2d#",
+            "brf": 9470016,
+            "rt": 9470016,
+            "vendor": "expd",
+            "vendor_id_raw": "1393456",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included"
+            ],
+            "jc_code": "EXPEDIA",
+            "chain": "",
+            "free_cancellation": false,
+            "special": false,
+            "room_name": "Deluxe room",
+            "rooms": [
+              {
+                "name": "Deluxe room",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included"
+            },
+            "partner_name": "Expedia",
+            "partner_logo": "https://hotelscan.com/apis/vendors/expd/logo.svg?pos=zz"
+          },
+          {
+            "price": 1813.82,
+            "brt": "o2r#k",
+            "rf": "o2r#k",
+            "brf": 11042944,
+            "rt": 11042944,
+            "vendor": "ostr",
+            "vendor_id_raw": "7381183",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Pay at the property"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": false,
+            "special": false,
+            "room_name": "Villa - King bed",
+            "rooms": [
+              {
+                "name": "Villa - King bed",
+                "flags": [
+                  "King bed"
+                ]
+              }
+            ],
+            "offer_flags_new": {
+              "pay_at_hotel": "Pay at the property"
+            },
+            "partner_name": "Zenhotels",
+            "partner_logo": "https://hotelscan.com/apis/vendors/ostr/logo.svg?pos=zz"
+          },
+          {
+            "price": 1829.82,
+            "brt": "o2r#",
+            "rf": "o2r#",
+            "brf": 9470016,
+            "rt": 9470016,
+            "vendor": "expd",
+            "vendor_id_raw": "1393456",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included"
+            ],
+            "jc_code": "EXPEDIA",
+            "chain": "",
+            "free_cancellation": false,
+            "special": false,
+            "room_name": "Villa",
+            "rooms": [
+              {
+                "name": "Villa",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included"
+            },
+            "partner_name": "Expedia",
+            "partner_logo": "https://hotelscan.com/apis/vendors/expd/logo.svg?pos=zz"
+          },
+          {
+            "price": 1858.22,
+            "brt": "z2r#",
+            "rf": "z2r#",
+            "brf": 8421504,
+            "rt": 8421504,
+            "vendor": "ostr",
+            "vendor_id_raw": "7381183",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Pay at the property"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": false,
+            "special": false,
+            "room_name": "Go to the booking site for more details",
+            "rooms": [
+              {
+                "name": "Go to the booking site for more details",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "pay_at_hotel": "Pay at the property"
+            },
+            "partner_name": "Zenhotels",
+            "partner_logo": "https://hotelscan.com/apis/vendors/ostr/logo.svg?pos=zz"
+          },
+          {
+            "price": 1874.61,
+            "brt": "z2r#",
+            "rf": "z2r#",
+            "brf": 8421440,
+            "rt": 8421440,
+            "vendor": "expd",
+            "vendor_id_raw": "1393456",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [],
+            "jc_code": "EXPEDIA",
+            "chain": "",
+            "free_cancellation": false,
+            "special": false,
+            "room_name": "Go to the booking site for more details",
+            "rooms": [
+              {
+                "name": "Go to the booking site for more details",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": [],
+            "partner_name": "Expedia",
+            "partner_logo": "https://hotelscan.com/apis/vendors/expd/logo.svg?pos=zz"
+          },
+          {
+            "price": 1890.87,
+            "brt": "p2r#k",
+            "rf": "p2r#k",
+            "brf": 11042880,
+            "rt": 11042880,
+            "vendor": "ostr",
+            "vendor_id_raw": "7381183",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": false,
+            "special": false,
+            "room_name": "Standard room - King bed",
+            "rooms": [
+              {
+                "name": "Standard room - King bed",
+                "flags": [
+                  "King bed"
+                ]
+              }
+            ],
+            "offer_flags_new": [],
+            "partner_name": "Zenhotels",
+            "partner_logo": "https://hotelscan.com/apis/vendors/ostr/logo.svg?pos=zz"
+          },
+          {
+            "price": 2075.82,
+            "brt": "p2r#k",
+            "rf": "p2r#k",
+            "brf": 11042944,
+            "rt": 11042944,
+            "vendor": "ostr",
+            "vendor_id_raw": "7381183",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Pay at the property"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": false,
+            "special": false,
+            "room_name": "Standard room - King bed",
+            "rooms": [
+              {
+                "name": "Standard room - King bed",
+                "flags": [
+                  "King bed"
+                ]
+              }
+            ],
+            "offer_flags_new": {
+              "pay_at_hotel": "Pay at the property"
+            },
+            "partner_name": "Zenhotels",
+            "partner_logo": "https://hotelscan.com/apis/vendors/ostr/logo.svg?pos=zz"
+          },
+          {
+            "price": 2094.11,
+            "brt": "z2r#",
+            "rf": "z2r#",
+            "brf": 9470016,
+            "rt": 9470016,
+            "vendor": "expd",
+            "vendor_id_raw": "1393456",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included"
+            ],
+            "jc_code": "EXPEDIA",
+            "chain": "",
+            "free_cancellation": false,
+            "special": false,
+            "room_name": "Go to the booking site for more details",
+            "rooms": [
+              {
+                "name": "Go to the booking site for more details",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included"
+            },
+            "partner_name": "Expedia",
+            "partner_logo": "https://hotelscan.com/apis/vendors/expd/logo.svg?pos=zz"
+          },
+          {
+            "price": 2378.28,
+            "brt": "p2r#k",
+            "rf": "p2r#k",
+            "brf": 11042880,
+            "rt": 11042880,
+            "vendor": "ostr",
+            "vendor_id_raw": "7381183",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": false,
+            "special": false,
+            "room_name": "Standard room - King bed",
+            "rooms": [
+              {
+                "name": "Standard room - King bed",
+                "flags": [
+                  "King bed"
+                ]
+              }
+            ],
+            "offer_flags_new": [],
+            "partner_name": "Zenhotels",
+            "partner_logo": "https://hotelscan.com/apis/vendors/ostr/logo.svg?pos=zz"
+          },
+          {
+            "price": 2610.42,
+            "brt": "p2r#k",
+            "rf": "p2r#k",
+            "brf": 11042944,
+            "rt": 11042944,
+            "vendor": "ostr",
+            "vendor_id_raw": "7381183",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Pay at the property"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": false,
+            "special": false,
+            "room_name": "Standard room - King bed",
+            "rooms": [
+              {
+                "name": "Standard room - King bed",
+                "flags": [
+                  "King bed"
+                ]
+              }
+            ],
+            "offer_flags_new": {
+              "pay_at_hotel": "Pay at the property"
+            },
+            "partner_name": "Zenhotels",
+            "partner_logo": "https://hotelscan.com/apis/vendors/ostr/logo.svg?pos=zz"
+          },
+          {
+            "price": 2633.42,
+            "brt": "z2r#",
+            "rf": "z2r#",
+            "brf": 9470016,
+            "rt": 9470016,
+            "vendor": "expd",
+            "vendor_id_raw": "1393456",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included"
+            ],
+            "jc_code": "EXPEDIA",
+            "chain": "",
+            "free_cancellation": false,
+            "special": false,
+            "room_name": "Go to the booking site for more details",
+            "rooms": [
+              {
+                "name": "Go to the booking site for more details",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included"
+            },
+            "partner_name": "Expedia",
+            "partner_logo": "https://hotelscan.com/apis/vendors/expd/logo.svg?pos=zz"
+          },
+          {
+            "price": 2691.97,
+            "brt": "z2r#",
+            "rf": "z2r#",
+            "brf": 11042880,
+            "rt": 11042880,
+            "vendor": "ostr",
+            "vendor_id_raw": "7381183",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": false,
+            "special": false,
+            "room_name": "Go to the booking site for more details",
+            "rooms": [
+              {
+                "name": "Go to the booking site for more details",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": [],
+            "partner_name": "Zenhotels",
+            "partner_logo": "https://hotelscan.com/apis/vendors/ostr/logo.svg?pos=zz"
+          },
+          {
+            "price": 2819.14,
+            "brt": "z2r#",
+            "rf": "z2r#",
+            "brf": 9470016,
+            "rt": 9470016,
+            "vendor": "ostr",
+            "vendor_id_raw": "7381183",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": false,
+            "special": false,
+            "room_name": "Go to the booking site for more details",
+            "rooms": [
+              {
+                "name": "Go to the booking site for more details",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included"
+            },
+            "partner_name": "Zenhotels",
+            "partner_logo": "https://hotelscan.com/apis/vendors/ostr/logo.svg?pos=zz"
+          },
+          {
+            "price": 2955.02,
+            "brt": "z2r#",
+            "rf": "z2r#",
+            "brf": 11042944,
+            "rt": 11042944,
+            "vendor": "ostr",
+            "vendor_id_raw": "7381183",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Pay at the property"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": false,
+            "special": false,
+            "room_name": "Go to the booking site for more details",
+            "rooms": [
+              {
+                "name": "Go to the booking site for more details",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "pay_at_hotel": "Pay at the property"
+            },
+            "partner_name": "Zenhotels",
+            "partner_logo": "https://hotelscan.com/apis/vendors/ostr/logo.svg?pos=zz"
+          },
+          {
+            "price": 2981.17,
+            "brt": "z2r#",
+            "rf": "z2r#",
+            "brf": 9470016,
+            "rt": 9470016,
+            "vendor": "expd",
+            "vendor_id_raw": "1393456",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included"
+            ],
+            "jc_code": "EXPEDIA",
+            "chain": "",
+            "free_cancellation": false,
+            "special": false,
+            "room_name": "Go to the booking site for more details",
+            "rooms": [
+              {
+                "name": "Go to the booking site for more details",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included"
+            },
+            "partner_name": "Expedia",
+            "partner_logo": "https://hotelscan.com/apis/vendors/expd/logo.svg?pos=zz"
+          },
+          {
+            "price": 3095.82,
+            "brt": "z2r#",
+            "rf": "z2r#",
+            "brf": 9470080,
+            "rt": 9470080,
+            "vendor": "ostr",
+            "vendor_id_raw": "7381183",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included",
+              "Pay at the property"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": false,
+            "special": false,
+            "room_name": "Go to the booking site for more details",
+            "rooms": [
+              {
+                "name": "Go to the booking site for more details",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included",
+              "pay_at_hotel": "Pay at the property"
+            },
+            "partner_name": "Zenhotels",
+            "partner_logo": "https://hotelscan.com/apis/vendors/ostr/logo.svg?pos=zz"
+          },
+          {
+            "price": 3123.15,
+            "brt": "z2r#",
+            "rf": "z2r#",
+            "brf": 9470016,
+            "rt": 9470016,
+            "vendor": "expd",
+            "vendor_id_raw": "1393456",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included"
+            ],
+            "jc_code": "EXPEDIA",
+            "chain": "",
+            "free_cancellation": false,
+            "special": false,
+            "room_name": "Go to the booking site for more details",
+            "rooms": [
+              {
+                "name": "Go to the booking site for more details",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included"
+            },
+            "partner_name": "Expedia",
+            "partner_logo": "https://hotelscan.com/apis/vendors/expd/logo.svg?pos=zz"
+          },
+          {
+            "price": 3658.89,
+            "brt": "p4r#",
+            "rf": "p4r#",
+            "brf": 9470016,
+            "rt": 9470016,
+            "vendor": "ostr",
+            "vendor_id_raw": "7381183",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": false,
+            "special": false,
+            "room_name": "Standard Quadruple Room",
+            "rooms": [
+              {
+                "name": "Standard Quadruple Room",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included"
+            },
+            "partner_name": "Zenhotels",
+            "partner_logo": "https://hotelscan.com/apis/vendors/ostr/logo.svg?pos=zz"
+          },
+          {
+            "price": 4054.05,
+            "brt": "z2r#",
+            "rf": "z2r#",
+            "brf": 9470016,
+            "rt": 9470016,
+            "vendor": "expd",
+            "vendor_id_raw": "1393456",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included"
+            ],
+            "jc_code": "EXPEDIA",
+            "chain": "",
+            "free_cancellation": false,
+            "special": false,
+            "room_name": "Go to the booking site for more details",
+            "rooms": [
+              {
+                "name": "Go to the booking site for more details",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included"
+            },
+            "partner_name": "Expedia",
+            "partner_logo": "https://hotelscan.com/apis/vendors/expd/logo.svg?pos=zz"
+          },
+          {
+            "price": 4352.02,
+            "brt": "z2r#",
+            "rf": "z2r#",
+            "brf": 9470016,
+            "rt": 9470016,
+            "vendor": "expd",
+            "vendor_id_raw": "1393456",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included"
+            ],
+            "jc_code": "EXPEDIA",
+            "chain": "",
+            "free_cancellation": false,
+            "special": false,
+            "room_name": "Go to the booking site for more details",
+            "rooms": [
+              {
+                "name": "Go to the booking site for more details",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included"
+            },
+            "partner_name": "Expedia",
+            "partner_logo": "https://hotelscan.com/apis/vendors/expd/logo.svg?pos=zz"
+          },
+          {
+            "price": 5692.55,
+            "brt": "z2r#",
+            "rf": "z2r#",
+            "brf": 9470016,
+            "rt": 9470016,
+            "vendor": "expd",
+            "vendor_id_raw": "1393456",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included"
+            ],
+            "jc_code": "EXPEDIA",
+            "chain": "",
+            "free_cancellation": false,
+            "special": false,
+            "room_name": "Go to the booking site for more details",
+            "rooms": [
+              {
+                "name": "Go to the booking site for more details",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included"
+            },
+            "partner_name": "Expedia",
+            "partner_logo": "https://hotelscan.com/apis/vendors/expd/logo.svg?pos=zz"
+          },
+          {
+            "price": 5888.12,
+            "brt": "z2r#",
+            "rf": "z2r#",
+            "brf": 9470016,
+            "rt": 9470016,
+            "vendor": "expd",
+            "vendor_id_raw": "1393456",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included"
+            ],
+            "jc_code": "EXPEDIA",
+            "chain": "",
+            "free_cancellation": false,
+            "special": false,
+            "room_name": "Go to the booking site for more details",
+            "rooms": [
+              {
+                "name": "Go to the booking site for more details",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included"
+            },
+            "partner_name": "Expedia",
+            "partner_logo": "https://hotelscan.com/apis/vendors/expd/logo.svg?pos=zz"
+          },
+          {
+            "price": 7740.66,
+            "brt": "z2r#",
+            "rf": "z2r#",
+            "brf": 9470016,
+            "rt": 9470016,
+            "vendor": "expd",
+            "vendor_id_raw": "1393456",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included"
+            ],
+            "jc_code": "EXPEDIA",
+            "chain": "",
+            "free_cancellation": false,
+            "special": false,
+            "room_name": "Go to the booking site for more details",
+            "rooms": [
+              {
+                "name": "Go to the booking site for more details",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included"
+            },
+            "partner_name": "Expedia",
+            "partner_logo": "https://hotelscan.com/apis/vendors/expd/logo.svg?pos=zz"
+          }
+        ],
+        "descriptions_language": {
+          "general": {
+            "original_language": true,
+            "text": "General description: The hotel Hideaway Beach Resort & Spa Maldives is located in the vicinity of its own sandy beach. At the beach, there are sun umbrellas free of charge available. The town Male is around 290 km away (Hanimadhoo around 1 km). The airport (MLE) is approx. 318 km away. The hotel and airport are linked by a shuttle (for a fee). Amenities: The one-storey spa hotel has 103 rooms in total. It offers its guests a 24h reception (check-in from 14:00, check-out until 12:00), a lobby, air conditioning, a safe (where applicable, for a fee), coiffeur, a shop, cinema and a money changing facility. For the meals, there are 4 restaurants. WiFi is available for free. Concierge service is free of charge. Room service, laundry / ironing service and medical service are available for a fee. Pool: In the outdoor area of the hotel you will find 3 pools with a children´s pool. Here, there are sun umbrellas for free available. A bar at the pool offers guests refreshing beverages. Meals: Breakfast from the buffet. Sport and Leisure: Sports and entertainment: Tennis (for a fee) and fitness. Spa area with sun terrace, sauna and massages available (where applicable for a fee). Entertainment for adults: evening shows. For the entertainment of young guests there is a children´s play area. Child supervision: babysitting (where applicable, for a fee). Additional information: Additional fees may apply for certain facilities, amenities or activities. Some services depend on the local climatic conditions and the season. Languages spoken: English, Russian, Arabic and Chinese. Accepted methods of payment: Visa, Euro / MasterCard and American Express. Beach Villa (Sunset View, Domestic Flight Included): With balcony or terrace, heating (centrally controlled), kettle (where applicable, for a fee), minibar (where applicable, for a fee), internet (where applicable, for a fee) and safe (where applicable, for a fee) as well as centrally controlled air conditioning. Bathroom with bathtub and shower. Beach Villa (Sunset View, Seaplane Included): With balcony or terrace, heating (centrally controlled), kettle (where applicable, for a fee), minibar (where applicable, for a fee), internet (where applicable, for a fee) and safe (where applicable, for a fee) as well as centrally controlled air conditioning. Bathroom with bathtub and shower. Residence Beach Villa (Private Pool - Domestic Flight): With balcony or terrace, heating (centrally controlled), kettle (where applicable, for a fee), minibar (where applicable, for a fee), internet (where applicable, for a fee) and safe (where applicable, for a fee) as well as centrally controlled air conditioning. Bathroom with bathtub and shower. Residence Beach Villa (Private Pool - Seaplane): With balcony or terrace, heating (centrally controlled), kettle (where applicable, for a fee), minibar (where applicable, for a fee), internet (where applicable, for a fee) and safe (where applicable, for a fee) as well as centrally controlled air conditioning. Bathroom with bathtub and shower. Residence Beach Villa (Sunset View, Private Pool - Domestic Flight): With balcony or terrace, heating (centrally controlled), kettle (where applicable, for a fee), minibar (where applicable, for a fee), internet (where applicable, for a fee) and safe (where applicable, for a fee) as well as centrally controlled air conditioning. Bathroom with bathtub and shower. Residence Beach Villa (Sunset View, Private Pool - Seaplane): With balcony or terrace, heating (centrally controlled), kettle (where applicable, for a fee), minibar (where applicable, for a fee), internet (where applicable, for a fee) and safe (where applicable, for a fee) as well as centrally controlled air conditioning. Bathroom with bathtub and shower. 2 Bedroom Residence Beach Villa (Private Pool - Domestic Flight): With balcony or terrace, heating (centrally controlled), kettle (where applicable, for a fee), minibar (where applicable, for a fee), internet (where applicable, for a fee) and safe (where applicable, for a fee) as well as centrally controlled air conditioning. Bathroom with bathtub and shower. 2 Bedroom Residence Beach Villa (Private Pool - Seaplane): With balcony or terrace, heating (centrally controlled), kettle (where applicable, for a fee), minibar (where applicable, for a fee), internet (where applicable, for a fee) and safe (where applicable, for a fee) as well as centrally controlled air conditioning. Bathroom with bathtub and shower. Deluxe Beach Villa (Private Pool - Domestic Flight): With balcony or terrace, heating (centrally controlled), kettle (where applicable, for a fee), minibar (where applicable, for a fee), internet (where applicable, for a fee) and safe (where applicable, for a fee) as well as centrally controlled air conditioning. Bathroom with bathtub and shower. Deluxe Beach Villa (Private Pool - Seaplane): With balcony or terrace, heating (centrally controlled), kettle (where applicable, for a fee), minibar (where applicable, for a fee), internet (where applicable, for a fee) and safe (where applicable, for a fee) as well as centrally controlled air conditioning. Bathroom with bathtub and shower. Deluxe Beach Villa (Sunset View, Private Pool - Domestic Flight): With balcony or terrace, heating (centrally controlled), kettle (where applicable, for a fee), minibar (where applicable, for a fee), internet (where applicable, for a fee) and safe (where applicable, for a fee) as well as centrally controlled air conditioning. Bathroom with bathtub and shower. Deluxe Beach Villa (Sunset View, Private Pool - Seaplane): With balcony or terrace, heating (centrally controlled), kettle (where applicable, for a fee), minibar (where applicable, for a fee), internet (where applicable, for a fee) and safe (where applicable, for a fee) as well as centrally controlled air conditioning. Bathroom with bathtub and shower. Deluxe Water Villa (Private Pool - Domestic Flight): With balcony or terrace, heating (centrally controlled), kettle (where applicable, for a fee), minibar (where applicable, for a fee), internet (where applicable, for a fee) and safe (where applicable, for a fee) as well as centrally controlled air conditioning. Bathroom with bathtub and shower. Deluxe Water Villa (Private Pool - Seaplane): With balcony or terrace, heating (centrally controlled), kettle (where applicable, for a fee), minibar (where applicable, for a fee), internet (where applicable, for a fee) and safe (where applicable, for a fee) as well as centrally controlled air conditioning. Bathroom with bathtub and shower. Ocean Villa (Private Pool - Domestic Flight): With balcony or terrace, heating (centrally controlled), kettle (where applicable, for a fee), minibar (where applicable, for a fee), internet (where applicable, for a fee) and safe (where applicable, for a fee) as well as centrally controlled air conditioning. Bathroom with bathtub and shower. Ocean Villa (Private Pool - Seaplane): With balcony or terrace, heating (centrally controlled), kettle (where applicable, for a fee), minibar (where applicable, for a fee), internet (where applicable, for a fee) and safe (where applicable, for a fee) as well as centrally controlled air conditioning. Bathroom with bathtub and shower. 2 Bedroom Ocean Villa (Private Pool - Domestic Flight): With balcony or terrace, heating (centrally controlled), kettle (where applicable, for a fee), minibar (where applicable, for a fee), internet (where applicable, for a fee) and safe (where applicable, for a fee) as well as centrally controlled air conditioning. Bathroom with bathtub and shower. 2 Bedroom Ocean Villa (Private Pool - Seaplane): With balcony or terrace, heating (centrally controlled), kettle (where applicable, for a fee), minibar (where applicable, for a fee), internet (where applicable, for a fee) and safe (where applicable, for a fee) as well as centrally controlled air conditioning. Bathroom with bathtub and shower. Seaplane transfer subject to availability."
+          },
+          "direction": {
+            "original_language": true,
+            "text": "Located in Dhonakulhi, Hideaway Beach Resort & Spa, FREE SHARED CHARTER FLIGHT for two on stays of 7 or more nights from September 2025 until 23rd December 2026 is on a private beach. While the natural beauty of Medhafushi and Govvaafushi can be enjoyed by anyone, those looking for an activity can check out Baarah Dock. Discover the area's water adventures with windsurfing nearby, or enjoy the great outdoors with hiking/biking trails."
+          }
+        },
+        "chain_code": null,
+        "bids": {
+          "agda": "j23",
+          "ctrp": "j23",
+          "last": "j23",
+          "expd": "j23",
+          "bkng": "j23",
+          "ostr": "j23"
+        },
+        "worst_offer": 668.1,
+        "best_offer": 498.29,
+        "best_offer_ota": "ctrp",
+        "best_offer_mota": null,
+        "discount": 20,
+        "offers_count": 125,
+        "coordinates": {
+          "lat": 6.84267,
+          "lng": 73.0498
+        },
+        "distance": 0.04,
+        "neighborhood": null,
+        "badge": "romantic",
+        "distances": [
+          {
+            "from": "center",
+            "distance": 0.04,
+            "time": 56,
+            "means": "foot",
+            "means_type": "foot"
+          }
+        ],
+        "specs": {
+          "bathrooms": null,
+          "beds": null,
+          "bedrooms": null,
+          "guests": null,
+          "square_meters": null
+        },
+        "toa_label": "resort",
+        "top_amenities": [
+          "indoor_pool",
+          "outdoor_pool",
+          "internet",
+          "restaurant",
+          "room_service"
+        ],
+        "transportations": {
+          "airports": [],
+          "trains": []
+        },
+        "images": [
+          {
+            "image_id": "686957174",
+            "label": ""
+          },
+          {
+            "image_id": "686985601",
+            "label": ""
+          },
+          {
+            "image_id": "686985598",
+            "label": ""
+          },
+          {
+            "image_id": "686985615",
+            "label": ""
+          },
+          {
+            "image_id": "686957176",
+            "label": ""
+          },
+          {
+            "image_id": "686957200",
+            "label": ""
+          },
+          {
+            "image_id": "686957217",
+            "label": ""
+          },
+          {
+            "image_id": "686957194",
+            "label": ""
+          },
+          {
+            "image_id": "686985602",
+            "label": ""
+          },
+          {
+            "image_id": "686957191",
+            "label": ""
+          },
+          {
+            "image_id": "686957184",
+            "label": ""
+          },
+          {
+            "image_id": "686957170",
+            "label": ""
+          },
+          {
+            "image_id": "686957197",
+            "label": ""
+          },
+          {
+            "image_id": "686957196",
+            "label": ""
+          },
+          {
+            "image_id": "686985608",
+            "label": ""
+          }
+        ],
+        "hero_offer": {
+          "price": 542.62,
+          "brt": "o2r#",
+          "rf": "o2r#",
+          "brf": 9502784,
+          "rt": 9502784,
+          "vendor": "bkng",
+          "vendor_id_raw": "257521",
+          "mota_code": null,
+          "direct_offer": false,
+          "offer_flags": {
+            "breakfast": "Breakfast included",
+            "refundable": "Free cancellation"
+          },
+          "jc_code": "",
+          "ranking_index": 0.9673215141351222,
+          "chain": "",
+          "free_cancellation": true,
+          "special": false,
+          "room_name": "Villa",
+          "rooms": [
+            {
+              "name": "Villa",
+              "flags": []
+            }
+          ],
+          "partner_name": "Booking.com",
+          "partner_logo": "https://hotelscan.com/apis/vendors/bkng/logo.svg?pos=zz"
+        },
+        "rank": 0,
+        "ctrl_srt": "im a ctrl teapot",
+        "test_srt": "im a test teapot"
+      }
+    ],
+    "filters": [],
+    "query": {
+      "pos": "zz"
+    }
+  }
+}

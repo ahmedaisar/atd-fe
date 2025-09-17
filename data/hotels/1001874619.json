@@ -1,0 +1,724 @@
+{
+  "_meta": {
+    "status": "SUCCESS",
+    "cached": true,
+    "count": 1,
+    "debug": {
+      "ticket": {
+        "ticket_id": "1001874619_zz_zz_d_publ_en_2_2025-10-08_2025-10-13_1_3",
+        "created_at": 1758065377.355,
+        "loop": null,
+        "snapped_at": 1758065378.6268,
+        "snapshot_id": "1001874619_zz_zz_d_publ_en_2_2025-10-08_2025-10-13_1_3",
+        "snapshot_ttl": 300,
+        "executions": 4,
+        "progress": 1,
+        "save_errors": []
+      }
+    }
+  },
+  "data": {
+    "meta": [],
+    "geo": {
+      "hs_id": "x5puiz3a9n2x",
+      "region_name": "Velavaru",
+      "region_name_long": "Velavaru, Maldives",
+      "region_type": "CITY",
+      "region_id": 6049333,
+      "country_iso": "MV",
+      "country": "maldives",
+      "localised_country": "Maldives",
+      "center": [
+        2.98179,
+        73.01411
+      ],
+      "centroid": [
+        2.98164,
+        73.01241
+      ],
+      "polygon": [
+        "2.98384,72.99952",
+        "2.99764,73.0172",
+        "2.97793,73.0287",
+        "2.96593,73.00673",
+        "2.98384,72.99952"
+      ],
+      "radius": 1.86,
+      "zoom": -1,
+      "search_by_polygon": 0,
+      "cluster": 0,
+      "properties": 4,
+      "radius_override": 5,
+      "boundingbox": {
+        "ne": [
+          2.998,
+          73.029
+        ],
+        "sw": [
+          2.965,
+          72.999
+        ]
+      },
+      "airports": [
+        "MLE"
+      ],
+      "region_name_en": "Velavaru",
+      "region_name_long_en": "Velavaru, Maldives",
+      "referrer_city_name_en": "Velavaru",
+      "parent_region_id": 6051084,
+      "parent_hs_id": "x5p4hmhw6iot",
+      "parent_region_name": "Maldives (all)",
+      "parent_region_name_long": "Maldives (all)",
+      "dynamic_bbox": {
+        "ne": [
+          2.98,
+          73.014
+        ],
+        "sw": [
+          2.98,
+          73.014
+        ]
+      }
+    },
+    "records": [
+      {
+        "hs_id": 1001874619,
+        "slug": "angsana-velavaru-velavaru-mv-1001874619",
+        "name": "Angsana Velavaru",
+        "ty_id": "4f56fc1f-3be7-49f0-a7ef-745c7c2c7463",
+        "toa": "hotel",
+        "location": {
+          "city": "Velavaru",
+          "zip": "20050",
+          "country_iso2": "MV",
+          "address": "South Nilandhe Atoll",
+          "geoid": "x5puiz3a9n2x",
+          "loc": {
+            "type": "Point"
+          },
+          "coordinates": {
+            "lng": 73.01493,
+            "lat": 2.98073
+          }
+        },
+        "quality": {
+          "review_count": 430,
+          "review_rating": 87,
+          "stars": 5,
+          "stars_is_estimated": false,
+          "review_source": ""
+        },
+        "covid_safe": false,
+        "amenities": {
+          "wellness": [
+            "massage",
+            "fitness_center",
+            "hair_salon",
+            "sauna",
+            "spa",
+            "outdoor_pool"
+          ],
+          "sports": [
+            "golf",
+            "sailing",
+            "billiard",
+            "yoga",
+            "ping_pong",
+            "trekking",
+            "volley_beach_volley",
+            "sub",
+            "surf"
+          ],
+          "internet": [
+            "wifi_lobby",
+            "wifi_room",
+            "internet"
+          ],
+          "food_drink": [
+            "restaurant",
+            "room_service",
+            "poolside_bar",
+            "cafe",
+            "bar"
+          ],
+          "outdoor": [
+            "garden",
+            "terrace"
+          ],
+          "other": [
+            "lift"
+          ],
+          "business": [
+            "meeting_room",
+            "business_services"
+          ],
+          "children": [
+            "babysitter",
+            "children_playground"
+          ],
+          "entertainment": [
+            "tv_lobby",
+            "disco"
+          ],
+          "transfer": [
+            "shuttle_service"
+          ],
+          "room": [
+            "fan",
+            "air_conditioning",
+            "tv",
+            "in_room_safe"
+          ],
+          "reception": [
+            "24h_reception",
+            "luggage_storage",
+            "concierge",
+            "laundry_facilities",
+            "laundry_service",
+            "safety_deposit_box"
+          ]
+        },
+        "themes": [
+          "spa_relax",
+          "other",
+          "beach"
+        ],
+        "descriptions": {
+          "general": "Situated in South Nilandhe Atoll, Velavaru Resort is at 146 km from Velana International Airport, with on-site the Marine Center and the Velavaru Water Sports Center. Price shown does NOT include arrival and return transfer, but is compulsory to book online Sunhotels POS, together with the hotel reservation. You are required to book the appropriate transfer and supply all the required transfer information. Hotel booking is not regarded as confirmed until the transfer booking has been completed. Facilities and services include restaurant, bar, events areas, kid's club, spa treatments (extra charge), gym room, marine center and diving school. Villas feature air conditioning, wireless Internet access, telephone, TV, coffee/tea facilities, safe, hairdryer and bathroom. Beachfront Villa has private back area garden and sun loungers on the beach. Romance Beachfront Villa has a private back area garden with an external bathtub and sun loungers on the beach. Infinity Beachfront Pool Villa has a private back area garden with external bathtub, a private pool overlooking the beach with sun loungers. Deluxe Beachfront Pool Villa features indoor and outdoor showers, private back area garden with private pool, a Thai sala overlooking the beach and sun loungers. InOcean Villas feature each a private infinity pool, huge bathtub and rooftop pavilion. InOcean Sanctuary Pool Villa with 2 bedrooms, 2 bathrooms, comfy living area and spacious dining area. Villa with 1 bedroom: extra bed can be placed for 3rd person. Villa with 2 bedroom: extra bed can be placed for 5th person. All-Inclusive ‘Dine’ Package with new amends: IN VALIDITY Exclusively designed by Angsana Velavaru to embrace all the elements of a gastronomic holiday experience in the Maldives. This package includes: DINING EXPERIENCE • Breakfast, Lunch & Dinner served at the main restaurant (see below) – enjoy a combination of a la carte menus or sumptuous buffets along with live cooking stations, BBQ & Grill. Land Villa guests: Kaani Restaurant and Kuredhi Bar InOcean Pool Villa guests: Kaani Restaurant, Kuredhi Bar and Azzurro Restaurant • Afternoon Tea/Coffee, where you can enjoy a selection of handmade goodies & snacks from 3:30pm to 5:00pm daily. • 20% discount on Destination Dining experience. BEVERAGES • Free flow of alcoholic beverages including a selection of wines, beers, cocktails & house pour international branded spirits, non-alcoholic beverages including a selection of mocktails, soft drinks, sparkling/still mineral water and a selection of tea/coffee at the main restaurant and bar. Available daily from 11:00am to 11:00pm. • Minibar: iii. In-villa minibar soft drinks and snacks will be replenished daily. iv. Other beverages such as selected brands of spirits, wines & beers from the minibar will be offered once during the stay Please be advised that Magoo Garden is no longer operating as an outlet but now incorporated in the Destination Dining options. Please note that Castaway Island is no longer operational. Please note that when Funa is closed, lounge benefits are available at Kuredhi and Azzurro. Please be advised that Funa access is available: AI Dine - upon reservation and with 20% discount. AI Style / Max – upon priority reservation Please note that PCR Test is available with corresponding fee per person, applicable to both adults and children. **Please be advised that the domestic transfers to Angsana Velavaru is suspended with immediate effect.** **If guests are landing in Male with a late afternoon/evening flight, we suggest having them booked for one night in Dhawa Ihuru or Banyan Tree Vabbinfaru and transferred by seaplane the day after to Angsana Velavaru. ** Address: South Nilandhe Atoll, 13909 Velavaru, Maldives.",
+          "localized": "Situated in South Nilandhe Atoll, Velavaru Resort is at 146 km from Velana International Airport, with on-site the Marine Center and the Velavaru Water Sports Center. Price shown does NOT include arrival and return transfer, but is compulsory to book online Sunhotels POS, together with the hotel reservation. You are required to book the appropriate transfer and supply all the required transfer information. Hotel booking is not regarded as confirmed until the transfer booking has been completed. Facilities and services include restaurant, bar, events areas, kid's club, spa treatments (extra charge), gym room, marine center and diving school. Villas feature air conditioning, wireless Internet access, telephone, TV, coffee/tea facilities, safe, hairdryer and bathroom. Beachfront Villa has private back area garden and sun loungers on the beach. Romance Beachfront Villa has a private back area garden with an external bathtub and sun loungers on the beach. Infinity Beachfront Pool Villa has a private back area garden with external bathtub, a private pool overlooking the beach with sun loungers. Deluxe Beachfront Pool Villa features indoor and outdoor showers, private back area garden with private pool, a Thai sala overlooking the beach and sun loungers. InOcean Villas feature each a private infinity pool, huge bathtub and rooftop pavilion. InOcean Sanctuary Pool Villa with 2 bedrooms, 2 bathrooms, comfy living area and spacious dining area. Villa with 1 bedroom: extra bed can be placed for 3rd person. Villa with 2 bedroom: extra bed can be placed for 5th person. All-Inclusive ‘Dine’ Package with new amends: IN VALIDITY Exclusively designed by Angsana Velavaru to embrace all the elements of a gastronomic holiday experience in the Maldives. This package includes: DINING EXPERIENCE • Breakfast, Lunch & Dinner served at the main restaurant (see below) – enjoy a combination of a la carte menus or sumptuous buffets along with live cooking stations, BBQ & Grill. Land Villa guests: Kaani Restaurant and Kuredhi Bar InOcean Pool Villa guests: Kaani Restaurant, Kuredhi Bar and Azzurro Restaurant • Afternoon Tea/Coffee, where you can enjoy a selection of handmade goodies & snacks from 3:30pm to 5:00pm daily. • 20% discount on Destination Dining experience. BEVERAGES • Free flow of alcoholic beverages including a selection of wines, beers, cocktails & house pour international branded spirits, non-alcoholic beverages including a selection of mocktails, soft drinks, sparkling/still mineral water and a selection of tea/coffee at the main restaurant and bar. Available daily from 11:00am to 11:00pm. • Minibar: iii. In-villa minibar soft drinks and snacks will be replenished daily. iv. Other beverages such as selected brands of spirits, wines & beers from the minibar will be offered once during the stay Please be advised that Magoo Garden is no longer operating as an outlet but now incorporated in the Destination Dining options. Please note that Castaway Island is no longer operational. Please note that when Funa is closed, lounge benefits are available at Kuredhi and Azzurro. Please be advised that Funa access is available: AI Dine - upon reservation and with 20% discount. AI Style / Max – upon priority reservation Please note that PCR Test is available with corresponding fee per person, applicable to both adults and children. **Please be advised that the domestic transfers to Angsana Velavaru is suspended with immediate effect.** **If guests are landing in Male with a late afternoon/evening flight, we suggest having them booked for one night in Dhawa Ihuru or Banyan Tree Vabbinfaru and transferred by seaplane the day after to Angsana Velavaru. ** Address: South Nilandhe Atoll, 13909 Velavaru, Maldives."
+        },
+        "short_description": "Excellent beach hotel. Great location. Great pool.",
+        "chain": "angsana",
+        "brand": "accor",
+        "offers": [
+          {
+            "price": 292.45,
+            "brt": "o2r#",
+            "rf": "o2r#",
+            "brf": 9470016,
+            "rt": 9470016,
+            "vendor": "agda",
+            "vendor_id_raw": "41513",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included"
+            ],
+            "jc_code": "",
+            "ranking_index": 1,
+            "chain": "",
+            "free_cancellation": false,
+            "special": false,
+            "room_name": "Villa",
+            "rooms": [
+              {
+                "name": "Villa",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included"
+            },
+            "partner_name": "Agoda",
+            "partner_logo": "https://hotelscan.com/apis/vendors/agda/logo.svg?pos=zz"
+          },
+          {
+            "vendor": "stfl",
+            "price": 403.18,
+            "vendor_id_raw": "52221",
+            "mota_code": null,
+            "jc_code": "",
+            "partner_name": "Stayforlong",
+            "partner_logo": "https://hotelscan.com/apis/vendors/stfl/logo.svg?pos=zz",
+            "room_name": "Villa - Choice of single or double beds",
+            "brf": 9470016,
+            "brt": "o2r#b"
+          }
+        ],
+        "all_offers": [
+          {
+            "price": 292.45,
+            "brt": "o2r#",
+            "rf": "o2r#",
+            "brf": 9470016,
+            "rt": 9470016,
+            "vendor": "agda",
+            "vendor_id_raw": "41513",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": false,
+            "special": false,
+            "room_name": "Villa",
+            "rooms": [
+              {
+                "name": "Villa",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included"
+            },
+            "partner_name": "Agoda",
+            "partner_logo": "https://hotelscan.com/apis/vendors/agda/logo.svg?pos=zz"
+          },
+          {
+            "price": 403.18,
+            "brt": "o2r#b",
+            "rf": "o2r#b",
+            "brf": 9470016,
+            "rt": 9470016,
+            "vendor": "stfl",
+            "vendor_id_raw": "52221",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": false,
+            "special": false,
+            "room_name": "Villa - Choice of single or double beds",
+            "rooms": [
+              {
+                "name": "Villa - Choice of single or double beds",
+                "flags": [
+                  "Choice of single or double beds"
+                ]
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included"
+            },
+            "partner_name": "Stayforlong",
+            "partner_logo": "https://hotelscan.com/apis/vendors/stfl/logo.svg?pos=zz"
+          },
+          {
+            "price": 406.85,
+            "brt": "o2r#",
+            "rf": "o2r#",
+            "brf": 9470016,
+            "rt": 9470016,
+            "vendor": "agda",
+            "vendor_id_raw": "41513",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": false,
+            "special": false,
+            "room_name": "Villa",
+            "rooms": [
+              {
+                "name": "Villa",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included"
+            },
+            "partner_name": "Agoda",
+            "partner_logo": "https://hotelscan.com/apis/vendors/agda/logo.svg?pos=zz"
+          },
+          {
+            "price": 411.42,
+            "brt": "o2r#",
+            "rf": "o2r#",
+            "brf": 9470016,
+            "rt": 9470016,
+            "vendor": "agda",
+            "vendor_id_raw": "41513",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": false,
+            "special": false,
+            "room_name": "Villa",
+            "rooms": [
+              {
+                "name": "Villa",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included"
+            },
+            "partner_name": "Agoda",
+            "partner_logo": "https://hotelscan.com/apis/vendors/agda/logo.svg?pos=zz"
+          },
+          {
+            "price": 502.62,
+            "brt": "o2d#",
+            "rf": "o2d#",
+            "brf": 9470016,
+            "rt": 9470016,
+            "vendor": "agda",
+            "vendor_id_raw": "41513",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": false,
+            "special": false,
+            "room_name": "Deluxe villa",
+            "rooms": [
+              {
+                "name": "Deluxe villa",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included"
+            },
+            "partner_name": "Agoda",
+            "partner_logo": "https://hotelscan.com/apis/vendors/agda/logo.svg?pos=zz"
+          },
+          {
+            "price": 525.82,
+            "brt": "o2r#",
+            "rf": "o2r#",
+            "brf": 9470016,
+            "rt": 9470016,
+            "vendor": "agda",
+            "vendor_id_raw": "41513",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": false,
+            "special": false,
+            "room_name": "Villa",
+            "rooms": [
+              {
+                "name": "Villa",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included"
+            },
+            "partner_name": "Agoda",
+            "partner_logo": "https://hotelscan.com/apis/vendors/agda/logo.svg?pos=zz"
+          },
+          {
+            "price": 621.59,
+            "brt": "o2d#",
+            "rf": "o2d#",
+            "brf": 9470016,
+            "rt": 9470016,
+            "vendor": "agda",
+            "vendor_id_raw": "41513",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": false,
+            "special": false,
+            "room_name": "Deluxe villa",
+            "rooms": [
+              {
+                "name": "Deluxe villa",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included"
+            },
+            "partner_name": "Agoda",
+            "partner_logo": "https://hotelscan.com/apis/vendors/agda/logo.svg?pos=zz"
+          },
+          {
+            "price": 625.56,
+            "brt": "o2r#",
+            "rf": "o2r#",
+            "brf": 9470016,
+            "rt": 9470016,
+            "vendor": "agda",
+            "vendor_id_raw": "41513",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": false,
+            "special": false,
+            "room_name": "Villa",
+            "rooms": [
+              {
+                "name": "Villa",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included"
+            },
+            "partner_name": "Agoda",
+            "partner_logo": "https://hotelscan.com/apis/vendors/agda/logo.svg?pos=zz"
+          },
+          {
+            "price": 739.96,
+            "brt": "o2r#",
+            "rf": "o2r#",
+            "brf": 9470016,
+            "rt": 9470016,
+            "vendor": "agda",
+            "vendor_id_raw": "41513",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": false,
+            "special": false,
+            "room_name": "Villa",
+            "rooms": [
+              {
+                "name": "Villa",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included"
+            },
+            "partner_name": "Agoda",
+            "partner_logo": "https://hotelscan.com/apis/vendors/agda/logo.svg?pos=zz"
+          },
+          {
+            "price": 835.73,
+            "brt": "o2d#",
+            "rf": "o2d#",
+            "brf": 9470016,
+            "rt": 9470016,
+            "vendor": "agda",
+            "vendor_id_raw": "41513",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": false,
+            "special": false,
+            "room_name": "Deluxe villa",
+            "rooms": [
+              {
+                "name": "Deluxe villa",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included"
+            },
+            "partner_name": "Agoda",
+            "partner_logo": "https://hotelscan.com/apis/vendors/agda/logo.svg?pos=zz"
+          },
+          {
+            "price": 1105.37,
+            "brt": "o2d#",
+            "rf": "o2d#",
+            "brf": 9470016,
+            "rt": 9470016,
+            "vendor": "agda",
+            "vendor_id_raw": "41513",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": false,
+            "special": false,
+            "room_name": "Deluxe villa",
+            "rooms": [
+              {
+                "name": "Deluxe villa",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included"
+            },
+            "partner_name": "Agoda",
+            "partner_logo": "https://hotelscan.com/apis/vendors/agda/logo.svg?pos=zz"
+          }
+        ],
+        "descriptions_language": {
+          "general": {
+            "original_language": true,
+            "text": "Situated in South Nilandhe Atoll, Velavaru Resort is at 146 km from Velana International Airport, with on-site the Marine Center and the Velavaru Water Sports Center. Price shown does NOT include arrival and return transfer, but is compulsory to book online Sunhotels POS, together with the hotel reservation. You are required to book the appropriate transfer and supply all the required transfer information. Hotel booking is not regarded as confirmed until the transfer booking has been completed. Facilities and services include restaurant, bar, events areas, kid's club, spa treatments (extra charge), gym room, marine center and diving school. Villas feature air conditioning, wireless Internet access, telephone, TV, coffee/tea facilities, safe, hairdryer and bathroom. Beachfront Villa has private back area garden and sun loungers on the beach. Romance Beachfront Villa has a private back area garden with an external bathtub and sun loungers on the beach. Infinity Beachfront Pool Villa has a private back area garden with external bathtub, a private pool overlooking the beach with sun loungers. Deluxe Beachfront Pool Villa features indoor and outdoor showers, private back area garden with private pool, a Thai sala overlooking the beach and sun loungers. InOcean Villas feature each a private infinity pool, huge bathtub and rooftop pavilion. InOcean Sanctuary Pool Villa with 2 bedrooms, 2 bathrooms, comfy living area and spacious dining area. Villa with 1 bedroom: extra bed can be placed for 3rd person. Villa with 2 bedroom: extra bed can be placed for 5th person. All-Inclusive ‘Dine’ Package with new amends: IN VALIDITY Exclusively designed by Angsana Velavaru to embrace all the elements of a gastronomic holiday experience in the Maldives. This package includes: DINING EXPERIENCE • Breakfast, Lunch & Dinner served at the main restaurant (see below) – enjoy a combination of a la carte menus or sumptuous buffets along with live cooking stations, BBQ & Grill. Land Villa guests: Kaani Restaurant and Kuredhi Bar InOcean Pool Villa guests: Kaani Restaurant, Kuredhi Bar and Azzurro Restaurant • Afternoon Tea/Coffee, where you can enjoy a selection of handmade goodies & snacks from 3:30pm to 5:00pm daily. • 20% discount on Destination Dining experience. BEVERAGES • Free flow of alcoholic beverages including a selection of wines, beers, cocktails & house pour international branded spirits, non-alcoholic beverages including a selection of mocktails, soft drinks, sparkling/still mineral water and a selection of tea/coffee at the main restaurant and bar. Available daily from 11:00am to 11:00pm. • Minibar: iii. In-villa minibar soft drinks and snacks will be replenished daily. iv. Other beverages such as selected brands of spirits, wines & beers from the minibar will be offered once during the stay Please be advised that Magoo Garden is no longer operating as an outlet but now incorporated in the Destination Dining options. Please note that Castaway Island is no longer operational. Please note that when Funa is closed, lounge benefits are available at Kuredhi and Azzurro. Please be advised that Funa access is available: AI Dine - upon reservation and with 20% discount. AI Style / Max – upon priority reservation Please note that PCR Test is available with corresponding fee per person, applicable to both adults and children. **Please be advised that the domestic transfers to Angsana Velavaru is suspended with immediate effect.** **If guests are landing in Male with a late afternoon/evening flight, we suggest having them booked for one night in Dhawa Ihuru or Banyan Tree Vabbinfaru and transferred by seaplane the day after to Angsana Velavaru. ** Address: South Nilandhe Atoll, 13909 Velavaru, Maldives."
+          }
+        },
+        "chain_code": null,
+        "bids": {
+          "agda": "j23",
+          "stfl": "j23"
+        },
+        "worst_offer": 403.18,
+        "best_offer": 292.45,
+        "best_offer_ota": "agda",
+        "best_offer_mota": null,
+        "discount": 25,
+        "offers_count": 11,
+        "coordinates": {
+          "lat": 2.98073,
+          "lng": 73.01493
+        },
+        "distance": 0.15,
+        "neighborhood": null,
+        "badge": "beach",
+        "distances": [
+          {
+            "from": "center",
+            "distance": 0.15,
+            "time": 208,
+            "means": "foot",
+            "means_type": "foot"
+          }
+        ],
+        "specs": {
+          "bathrooms": null,
+          "beds": null,
+          "bedrooms": null,
+          "guests": null,
+          "square_meters": null
+        },
+        "toa_label": "hotel",
+        "top_amenities": [
+          "outdoor_pool",
+          "wifi_room",
+          "internet",
+          "restaurant",
+          "room_service"
+        ],
+        "transportations": {
+          "airports": [],
+          "trains": []
+        },
+        "images": [
+          {
+            "image_id": "685038430",
+            "label": ""
+          },
+          {
+            "image_id": "685038436",
+            "label": ""
+          },
+          {
+            "image_id": "685038450",
+            "label": ""
+          },
+          {
+            "image_id": "685038458",
+            "label": ""
+          },
+          {
+            "image_id": "685038441",
+            "label": ""
+          },
+          {
+            "image_id": "685038424",
+            "label": ""
+          },
+          {
+            "image_id": "685038448",
+            "label": ""
+          },
+          {
+            "image_id": "685038446",
+            "label": ""
+          },
+          {
+            "image_id": "685038456",
+            "label": ""
+          },
+          {
+            "image_id": "685038444",
+            "label": ""
+          },
+          {
+            "image_id": "685038435",
+            "label": ""
+          },
+          {
+            "image_id": "685038426",
+            "label": ""
+          },
+          {
+            "image_id": "685038451",
+            "label": ""
+          },
+          {
+            "image_id": "685038452",
+            "label": ""
+          },
+          {
+            "image_id": "685038453",
+            "label": ""
+          }
+        ],
+        "hero_offer": {
+          "price": 292.45,
+          "brt": "o2r#",
+          "rf": "o2r#",
+          "brf": 9470016,
+          "rt": 9470016,
+          "vendor": "agda",
+          "vendor_id_raw": "41513",
+          "mota_code": null,
+          "direct_offer": false,
+          "offer_flags": {
+            "breakfast": "Breakfast included"
+          },
+          "jc_code": "",
+          "ranking_index": 1,
+          "chain": "",
+          "free_cancellation": false,
+          "special": false,
+          "room_name": "Villa",
+          "rooms": [
+            {
+              "name": "Villa",
+              "flags": []
+            }
+          ],
+          "partner_name": "Agoda",
+          "partner_logo": "https://hotelscan.com/apis/vendors/agda/logo.svg?pos=zz"
+        },
+        "rank": 0,
+        "ctrl_srt": "im a ctrl teapot",
+        "test_srt": "im a test teapot"
+      }
+    ],
+    "filters": [],
+    "query": {
+      "pos": "zz"
+    }
+  }
+}

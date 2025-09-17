@@ -1,5 +1,5 @@
 {
-  "name": "atdwebapp",
+  "name": "my-v0-project",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -15,7 +15,8 @@
     "e2e": "playwright test",
     "start": "next start",
     "data:fetch-hotels": "ts-node scripts/data/fetch-remote-hotels.ts",
-    "data:fetch-full-hotels": "node scripts/data/fetch-full-hotels.cjs"
+    "data:fetch-full-hotels": "node scripts/data/fetch-full-hotels.cjs",
+     "fetch:hotel-details": "node scripts/data/fetch-hotel-details.cjs"
   },
   "dependencies": {
     "@hookform/resolvers": "^3.9.1",
@@ -60,9 +61,9 @@
     "maplibre-gl": "^5.7.1",
     "next": "15.2.4",
     "next-themes": "^0.4.4",
-    "react": "^18",
+    "react": "^19",
     "react-day-picker": "latest",
-    "react-dom": "^18",
+    "react-dom": "^19",
     "react-hook-form": "^7.54.1",
     "react-resizable-panels": "^2.1.7",
     "recharts": "2.15.0",
@@ -79,8 +80,8 @@
     "@testing-library/user-event": "^14.5.2",
     "@types/jsdom": "^21.1.7",
     "@types/node": "^22",
-    "@types/react": "^18",
-    "@types/react-dom": "^18",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
     "@typescript-eslint/eslint-plugin": "^8.9.0",
     "@typescript-eslint/parser": "^8.9.0",
     "@vitest/coverage-v8": "^2.1.4",

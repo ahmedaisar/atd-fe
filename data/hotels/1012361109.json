@@ -1,0 +1,937 @@
+{
+  "_meta": {
+    "status": "SUCCESS",
+    "cached": true,
+    "count": 1,
+    "debug": {
+      "ticket": {
+        "ticket_id": "1012361109_zz_zz_d_publ_en_2_2025-10-08_2025-10-13_1_3",
+        "created_at": 1758065358.2691,
+        "loop": null,
+        "snapped_at": 1758065358.356,
+        "snapshot_id": "1012361109_zz_zz_d_publ_en_2_2025-10-08_2025-10-13_1_3",
+        "snapshot_ttl": 300,
+        "executions": 2,
+        "progress": 1,
+        "save_errors": []
+      }
+    }
+  },
+  "data": {
+    "meta": [],
+    "geo": {
+      "hs_id": "x54dycop8la4",
+      "region_name": "Hulhumale",
+      "region_name_long": "Hulhumale, Maldives",
+      "region_type": "CITY",
+      "region_id": 6146552,
+      "country_iso": "MV",
+      "country": "maldives",
+      "localised_country": "Maldives",
+      "center": [
+        4.21046,
+        73.54275
+      ],
+      "centroid": [
+        4.21202,
+        73.54161
+      ],
+      "polygon": [
+        "4.227074,73.53137",
+        "4.211848,73.52809",
+        "4.193837,73.5426",
+        "4.221066,73.557409",
+        "4.227074,73.53137"
+      ],
+      "radius": 2.03,
+      "zoom": -1,
+      "search_by_polygon": 1,
+      "cluster": 0,
+      "properties": 194,
+      "radius_override": 5,
+      "boundingbox": {
+        "ne": [
+          4.228,
+          73.558
+        ],
+        "sw": [
+          4.193,
+          73.528
+        ]
+      },
+      "airports": [
+        "MLE",
+        "DRV"
+      ],
+      "region_name_en": "Hulhumale",
+      "region_name_long_en": "Hulhumale, Maldives",
+      "referrer_city_name_en": "Hulhumale",
+      "parent_region_id": 6051084,
+      "parent_hs_id": "x5p4hmhw6iot",
+      "parent_region_name": "Maldives (all)",
+      "parent_region_name_long": "Maldives (all)",
+      "dynamic_bbox": {
+        "ne": [
+          4.214,
+          73.544
+        ],
+        "sw": [
+          4.214,
+          73.544
+        ]
+      }
+    },
+    "records": [
+      {
+        "hs_id": 1012361109,
+        "slug": "the-hive-beach-hulhumale-mv-1012361109",
+        "name": "The Hive Beach",
+        "toa": "hotel",
+        "building": {
+          "room_num": 22
+        },
+        "location": {
+          "city": "Hulhumale",
+          "zip": "20057",
+          "country_iso2": "MV",
+          "address": "Hirundhu Magu Lot 10358",
+          "geoid": "x54dycop8la4",
+          "loc": {
+            "type": "Point"
+          },
+          "coordinates": {
+            "lng": 73.54479,
+            "lat": 4.21446
+          }
+        },
+        "opening_time": {
+          "check_in_from": "14:00",
+          "check_in_to": null,
+          "check_out_from": null,
+          "check_out_to": "12:30"
+        },
+        "quality": {
+          "review_count": 490,
+          "review_rating": 75,
+          "stars": 4,
+          "stars_is_estimated": false,
+          "review_source": ""
+        },
+        "covid_safe": true,
+        "amenities": {
+          "business": [
+            "meeting_room",
+            "business_services"
+          ],
+          "sports": [
+            "sub"
+          ],
+          "internet": [
+            "wifi",
+            "wifi_room",
+            "internet"
+          ],
+          "transfer": [
+            "shuttle_service"
+          ],
+          "food_drink": [
+            "restaurant",
+            "room_service",
+            "cafe",
+            "bar",
+            "snack_bar"
+          ],
+          "disability": [
+            "wheelchair_accessible",
+            "disability_facilities"
+          ],
+          "outdoor": [
+            "terrace"
+          ],
+          "other": [
+            "lift"
+          ],
+          "room": [
+            "heating",
+            "air_conditioning",
+            "tv"
+          ],
+          "reception": [
+            "24h_reception",
+            "luggage_storage",
+            "concierge",
+            "laundry_facilities",
+            "laundry_service",
+            "safety_deposit_box"
+          ]
+        },
+        "descriptions": {
+          "direction": "Located in Hulhumalé, The Hive Beach Hotel is on the beach. Shoppers can check out Male Fish Market, while everyone can enjoy the natural beauty of Hulhumale Beach and Kurumba Beach. Hulhumale Ferry Terminal and Maldives Islamic Centre are two other places to visit that come recommended. With scuba diving, snorkeling, and motor boating nearby, you'll find plenty of adventures in the water.",
+          "general": "Located a 2-minute walk from Eastern/ Hulhumale beach, The Hive Beach offers 4-star accommodations in Malé and features a terrace. The property is around 4.4 miles from Henveiru Park, 4.5 miles from Villa College QI Campus and 4.6 miles from Hulhumale Ferry Terminal. The property provides a 24-hour front desk, airport transportation, room service and free WiFi throughout the property. The hotel will provide guests with air-conditioned rooms with a desk, an electric tea pot, a fridge, a safety deposit box, a flat-screen TV and a private bathroom with a bidet. Guest rooms include a closet. A buffet, continental or American breakfast is available at the property. At The Hive Beach you'll find a restaurant serving Chinese, Indian and Indonesian cuisine. Vegetarian, halal and vegan options can also be requested. National Football Stadium is 4.8 miles from the accommodation, while Sultan Park is 5 miles away. Velana International Airport is 0.6 miles from the property.",
+          "amenities": true,
+          "localized": "Located a 2-minute walk from Eastern/ Hulhumale beach, The Hive Beach offers 4-star accommodations in Malé and features a terrace. The property is around 4.4 miles from Henveiru Park, 4.5 miles from Villa College QI Campus and 4.6 miles from Hulhumale Ferry Terminal. The property provides a 24-hour front desk, airport transportation, room service and free WiFi throughout the property. The hotel will provide guests with air-conditioned rooms with a desk, an electric tea pot, a fridge, a safety deposit box, a flat-screen TV and a private bathroom with a bidet. Guest rooms include a closet. A buffet, continental or American breakfast is available at the property. At The Hive Beach you'll find a restaurant serving Chinese, Indian and Indonesian cuisine. Vegetarian, halal and vegan options can also be requested. National Football Stadium is 4.8 miles from the accommodation, while Sultan Park is 5 miles away. Velana International Airport is 0.6 miles from the property."
+        },
+        "short_description": "Original hotel with 22 rooms, shuttle service and bar",
+        "offers": [
+          {
+            "price": 147.62,
+            "brt": "p2r#t",
+            "rf": "p2r#t",
+            "brf": 8455808,
+            "rt": 8455808,
+            "vendor": "bkng",
+            "vendor_id_raw": "9855086",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Free cancellation",
+              "City view",
+              "Pay at the property"
+            ],
+            "jc_code": "",
+            "ranking_index": 0.9078444655195773,
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Standard room - Twin beds",
+            "rooms": [
+              {
+                "name": "Standard room - Twin beds",
+                "flags": [
+                  "Twin beds"
+                ]
+              }
+            ],
+            "offer_flags_new": {
+              "refundable": "Free cancellation",
+              "view_city": "City view",
+              "pay_at_hotel": "Pay at the property"
+            },
+            "partner_name": "Booking.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/bkng/logo.svg?pos=zz"
+          },
+          {
+            "vendor": "ctrp",
+            "price": 113.61,
+            "vendor_id_raw": "126691245",
+            "mota_code": null,
+            "jc_code": "TRIPCOM",
+            "partner_name": "Trip.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/ctrp/logo.svg?pos=zz",
+            "room_name": "Standard room",
+            "brf": 8454208,
+            "brt": "p2r#"
+          },
+          {
+            "vendor": "agda",
+            "price": 146.28,
+            "vendor_id_raw": "38607705",
+            "mota_code": null,
+            "jc_code": "",
+            "partner_name": "Agoda",
+            "partner_logo": "https://hotelscan.com/apis/vendors/agda/logo.svg?pos=zz",
+            "room_name": "Standard room - Twin beds",
+            "brf": 8455744,
+            "brt": "p2r#t"
+          }
+        ],
+        "all_offers": [
+          {
+            "price": 113.61,
+            "brt": "p2r#",
+            "rf": "p2r#",
+            "brf": 8454208,
+            "rt": 8454208,
+            "vendor": "ctrp",
+            "vendor_id_raw": "126691245",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Free cancellation"
+            ],
+            "jc_code": "TRIPCOM",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Standard room",
+            "rooms": [
+              {
+                "name": "Standard room",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "refundable": "Free cancellation"
+            },
+            "partner_name": "Trip.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/ctrp/logo.svg?pos=zz"
+          },
+          {
+            "price": 131.6,
+            "brt": "p2r#",
+            "rf": "p2r#",
+            "brf": 9502784,
+            "rt": 9502784,
+            "vendor": "ctrp",
+            "vendor_id_raw": "126691245",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included",
+              "Free cancellation"
+            ],
+            "jc_code": "TRIPCOM",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Standard room",
+            "rooms": [
+              {
+                "name": "Standard room",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included",
+              "refundable": "Free cancellation"
+            },
+            "partner_name": "Trip.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/ctrp/logo.svg?pos=zz"
+          },
+          {
+            "price": 146.28,
+            "brt": "p2r#t",
+            "rf": "p2r#t",
+            "brf": 8455744,
+            "rt": 8455744,
+            "vendor": "agda",
+            "vendor_id_raw": "38607705",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Free cancellation",
+              "City view"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Standard room - Twin beds",
+            "rooms": [
+              {
+                "name": "Standard room - Twin beds",
+                "flags": [
+                  "Twin beds"
+                ]
+              }
+            ],
+            "offer_flags_new": {
+              "refundable": "Free cancellation",
+              "view_city": "City view"
+            },
+            "partner_name": "Agoda",
+            "partner_logo": "https://hotelscan.com/apis/vendors/agda/logo.svg?pos=zz"
+          },
+          {
+            "price": 147.62,
+            "brt": "p2r#t",
+            "rf": "p2r#t",
+            "brf": 8455808,
+            "rt": 8455808,
+            "vendor": "bkng",
+            "vendor_id_raw": "9855086",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Free cancellation",
+              "City view",
+              "Pay at the property"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Standard room - Twin beds",
+            "rooms": [
+              {
+                "name": "Standard room - Twin beds",
+                "flags": [
+                  "Twin beds"
+                ]
+              }
+            ],
+            "offer_flags_new": {
+              "refundable": "Free cancellation",
+              "view_city": "City view",
+              "pay_at_hotel": "Pay at the property"
+            },
+            "partner_name": "Booking.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/bkng/logo.svg?pos=zz"
+          },
+          {
+            "price": 161.42,
+            "brt": "p2r#t",
+            "rf": "p2r#t",
+            "brf": 9504320,
+            "rt": 9504320,
+            "vendor": "agda",
+            "vendor_id_raw": "38607705",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included",
+              "Free cancellation",
+              "City view"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Standard room - Twin beds",
+            "rooms": [
+              {
+                "name": "Standard room - Twin beds",
+                "flags": [
+                  "Twin beds"
+                ]
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included",
+              "refundable": "Free cancellation",
+              "view_city": "City view"
+            },
+            "partner_name": "Agoda",
+            "partner_logo": "https://hotelscan.com/apis/vendors/agda/logo.svg?pos=zz"
+          },
+          {
+            "price": 162.89,
+            "brt": "p2r#t",
+            "rf": "p2r#t",
+            "brf": 9504384,
+            "rt": 9504384,
+            "vendor": "bkng",
+            "vendor_id_raw": "9855086",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included",
+              "Free cancellation",
+              "City view",
+              "Pay at the property"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Standard room - Twin beds",
+            "rooms": [
+              {
+                "name": "Standard room - Twin beds",
+                "flags": [
+                  "Twin beds"
+                ]
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included",
+              "refundable": "Free cancellation",
+              "view_city": "City view",
+              "pay_at_hotel": "Pay at the property"
+            },
+            "partner_name": "Booking.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/bkng/logo.svg?pos=zz"
+          },
+          {
+            "price": 234.14,
+            "brt": "p3d#",
+            "rf": "p3d#",
+            "brf": 8454208,
+            "rt": 8454208,
+            "vendor": "agda",
+            "vendor_id_raw": "38607705",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Free cancellation"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Deluxe Triple Room",
+            "rooms": [
+              {
+                "name": "Deluxe Triple Room",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "refundable": "Free cancellation"
+            },
+            "partner_name": "Agoda",
+            "partner_logo": "https://hotelscan.com/apis/vendors/agda/logo.svg?pos=zz"
+          },
+          {
+            "price": 236.28,
+            "brt": "p3d#",
+            "rf": "p3d#",
+            "brf": 8454272,
+            "rt": 8454272,
+            "vendor": "bkng",
+            "vendor_id_raw": "9855086",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Free cancellation",
+              "Pay at the property"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Deluxe Triple Room",
+            "rooms": [
+              {
+                "name": "Deluxe Triple Room",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "refundable": "Free cancellation",
+              "pay_at_hotel": "Pay at the property"
+            },
+            "partner_name": "Booking.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/bkng/logo.svg?pos=zz"
+          },
+          {
+            "price": 254.01,
+            "brt": "p3d#",
+            "rf": "p3d#",
+            "brf": 8454272,
+            "rt": 8454272,
+            "vendor": "bkng",
+            "vendor_id_raw": "9855086",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Free cancellation",
+              "Pay at the property"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Deluxe Triple Room",
+            "rooms": [
+              {
+                "name": "Deluxe Triple Room",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "refundable": "Free cancellation",
+              "pay_at_hotel": "Pay at the property"
+            },
+            "partner_name": "Booking.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/bkng/logo.svg?pos=zz"
+          },
+          {
+            "price": 259.03,
+            "brt": "p3d#",
+            "rf": "p3d#",
+            "brf": 9502784,
+            "rt": 9502784,
+            "vendor": "agda",
+            "vendor_id_raw": "38607705",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included",
+              "Free cancellation"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Deluxe Triple Room",
+            "rooms": [
+              {
+                "name": "Deluxe Triple Room",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included",
+              "refundable": "Free cancellation"
+            },
+            "partner_name": "Agoda",
+            "partner_logo": "https://hotelscan.com/apis/vendors/agda/logo.svg?pos=zz"
+          },
+          {
+            "price": 261.4,
+            "brt": "p3d#",
+            "rf": "p3d#",
+            "brf": 9502848,
+            "rt": 9502848,
+            "vendor": "bkng",
+            "vendor_id_raw": "9855086",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included",
+              "Free cancellation",
+              "Pay at the property"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Deluxe Triple Room",
+            "rooms": [
+              {
+                "name": "Deluxe Triple Room",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included",
+              "refundable": "Free cancellation",
+              "pay_at_hotel": "Pay at the property"
+            },
+            "partner_name": "Booking.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/bkng/logo.svg?pos=zz"
+          },
+          {
+            "price": 273.67,
+            "brt": "p2q#",
+            "rf": "p2q#",
+            "brf": 8455232,
+            "rt": 8455232,
+            "vendor": "agda",
+            "vendor_id_raw": "38607705",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Free cancellation",
+              "Sea view"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Family room",
+            "rooms": [
+              {
+                "name": "Family room",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "refundable": "Free cancellation",
+              "view_sea": "Sea view"
+            },
+            "partner_name": "Agoda",
+            "partner_logo": "https://hotelscan.com/apis/vendors/agda/logo.svg?pos=zz"
+          },
+          {
+            "price": 276.18,
+            "brt": "p2q#",
+            "rf": "p2q#",
+            "brf": 8455296,
+            "rt": 8455296,
+            "vendor": "bkng",
+            "vendor_id_raw": "9855086",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Free cancellation",
+              "Sea view",
+              "Pay at the property"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Family room",
+            "rooms": [
+              {
+                "name": "Family room",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "refundable": "Free cancellation",
+              "view_sea": "Sea view",
+              "pay_at_hotel": "Pay at the property"
+            },
+            "partner_name": "Booking.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/bkng/logo.svg?pos=zz"
+          },
+          {
+            "price": 281.11,
+            "brt": "p3d#",
+            "rf": "p3d#",
+            "brf": 9502848,
+            "rt": 9502848,
+            "vendor": "bkng",
+            "vendor_id_raw": "9855086",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included",
+              "Free cancellation",
+              "Pay at the property"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Deluxe Triple Room",
+            "rooms": [
+              {
+                "name": "Deluxe Triple Room",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included",
+              "refundable": "Free cancellation",
+              "pay_at_hotel": "Pay at the property"
+            },
+            "partner_name": "Booking.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/bkng/logo.svg?pos=zz"
+          },
+          {
+            "price": 302.95,
+            "brt": "p2q#",
+            "rf": "p2q#",
+            "brf": 9503808,
+            "rt": 9503808,
+            "vendor": "agda",
+            "vendor_id_raw": "38607705",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included",
+              "Free cancellation",
+              "Sea view"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Family room",
+            "rooms": [
+              {
+                "name": "Family room",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included",
+              "refundable": "Free cancellation",
+              "view_sea": "Sea view"
+            },
+            "partner_name": "Agoda",
+            "partner_logo": "https://hotelscan.com/apis/vendors/agda/logo.svg?pos=zz"
+          },
+          {
+            "price": 305.73,
+            "brt": "p2q#",
+            "rf": "p2q#",
+            "brf": 9503872,
+            "rt": 9503872,
+            "vendor": "bkng",
+            "vendor_id_raw": "9855086",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included",
+              "Free cancellation",
+              "Sea view",
+              "Pay at the property"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Family room",
+            "rooms": [
+              {
+                "name": "Family room",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included",
+              "refundable": "Free cancellation",
+              "view_sea": "Sea view",
+              "pay_at_hotel": "Pay at the property"
+            },
+            "partner_name": "Booking.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/bkng/logo.svg?pos=zz"
+          }
+        ],
+        "descriptions_language": {
+          "general": {
+            "original_language": true,
+            "text": "Located a 2-minute walk from Eastern/ Hulhumale beach, The Hive Beach offers 4-star accommodations in Malé and features a terrace. The property is around 4.4 miles from Henveiru Park, 4.5 miles from Villa College QI Campus and 4.6 miles from Hulhumale Ferry Terminal. The property provides a 24-hour front desk, airport transportation, room service and free WiFi throughout the property. The hotel will provide guests with air-conditioned rooms with a desk, an electric tea pot, a fridge, a safety deposit box, a flat-screen TV and a private bathroom with a bidet. Guest rooms include a closet. A buffet, continental or American breakfast is available at the property. At The Hive Beach you'll find a restaurant serving Chinese, Indian and Indonesian cuisine. Vegetarian, halal and vegan options can also be requested. National Football Stadium is 4.8 miles from the accommodation, while Sultan Park is 5 miles away. Velana International Airport is 0.6 miles from the property."
+          },
+          "direction": {
+            "original_language": true,
+            "text": "Located in Hulhumalé, The Hive Beach Hotel is on the beach. Shoppers can check out Male Fish Market, while everyone can enjoy the natural beauty of Hulhumale Beach and Kurumba Beach. Hulhumale Ferry Terminal and Maldives Islamic Centre are two other places to visit that come recommended. With scuba diving, snorkeling, and motor boating nearby, you'll find plenty of adventures in the water."
+          }
+        },
+        "chain_code": null,
+        "bids": {
+          "agda": "j23",
+          "bkng": "j23",
+          "ctrp": "j23"
+        },
+        "worst_offer": null,
+        "best_offer": 113.61,
+        "best_offer_ota": "ctrp",
+        "best_offer_mota": null,
+        "discount": 0,
+        "offers_count": 16,
+        "coordinates": {
+          "lat": 4.21446,
+          "lng": 73.54479
+        },
+        "distance": 0.5,
+        "neighborhood": null,
+        "badge": null,
+        "distances": [
+          {
+            "from": "center",
+            "distance": 0.5,
+            "time": 694,
+            "means": "foot",
+            "means_type": "foot"
+          }
+        ],
+        "specs": {
+          "bathrooms": null,
+          "beds": null,
+          "bedrooms": null,
+          "guests": null,
+          "square_meters": null
+        },
+        "toa_label": "hotel",
+        "top_amenities": [
+          "meeting_room",
+          "wifi_room",
+          "internet",
+          "restaurant",
+          "room_service"
+        ],
+        "transportations": {
+          "airports": [],
+          "trains": []
+        },
+        "images": [
+          {
+            "image_id": "770026001",
+            "label": ""
+          },
+          {
+            "image_id": "770026049",
+            "label": ""
+          },
+          {
+            "image_id": "770026003",
+            "label": ""
+          },
+          {
+            "image_id": "770026025",
+            "label": ""
+          },
+          {
+            "image_id": "770026032",
+            "label": ""
+          },
+          {
+            "image_id": "770026089",
+            "label": ""
+          },
+          {
+            "image_id": "770026098",
+            "label": ""
+          },
+          {
+            "image_id": "770026080",
+            "label": ""
+          },
+          {
+            "image_id": "770026000",
+            "label": ""
+          },
+          {
+            "image_id": "770025998",
+            "label": ""
+          },
+          {
+            "image_id": "770026016",
+            "label": ""
+          },
+          {
+            "image_id": "770026104",
+            "label": ""
+          },
+          {
+            "image_id": "770026106",
+            "label": ""
+          },
+          {
+            "image_id": "770026109",
+            "label": ""
+          },
+          {
+            "image_id": "770026022",
+            "label": ""
+          }
+        ],
+        "hero_offer": {
+          "price": 147.62,
+          "brt": "p2r#t",
+          "rf": "p2r#t",
+          "brf": 8455808,
+          "rt": 8455808,
+          "vendor": "bkng",
+          "vendor_id_raw": "9855086",
+          "mota_code": null,
+          "direct_offer": false,
+          "offer_flags": {
+            "refundable": "Free cancellation",
+            "view_city": "City view",
+            "pay_at_hotel": "Pay at the property"
+          },
+          "jc_code": "",
+          "ranking_index": 0.9078444655195773,
+          "chain": "",
+          "free_cancellation": true,
+          "special": false,
+          "room_name": "Standard room - Twin beds",
+          "rooms": [
+            {
+              "name": "Standard room - Twin beds",
+              "flags": [
+                "Twin beds"
+              ]
+            }
+          ],
+          "partner_name": "Booking.com",
+          "partner_logo": "https://hotelscan.com/apis/vendors/bkng/logo.svg?pos=zz"
+        },
+        "rank": 0,
+        "ctrl_srt": "im a ctrl teapot",
+        "test_srt": "im a test teapot"
+      }
+    ],
+    "filters": [],
+    "query": {
+      "pos": "zz"
+    }
+  }
+}

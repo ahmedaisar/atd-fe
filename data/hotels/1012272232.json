@@ -1,0 +1,301 @@
+{
+  "_meta": {
+    "status": "SUCCESS",
+    "cached": true,
+    "count": 1,
+    "debug": {
+      "ticket": {
+        "ticket_id": "1012272232_zz_zz_d_publ_en_2_2025-10-08_2025-10-13_1_3",
+        "created_at": 1758065375.2534,
+        "loop": null,
+        "snapped_at": 1758065375.3841,
+        "snapshot_id": "1012272232_zz_zz_d_publ_en_2_2025-10-08_2025-10-13_1_3",
+        "snapshot_ttl": 300,
+        "executions": 2,
+        "progress": 1,
+        "save_errors": []
+      }
+    }
+  },
+  "data": {
+    "meta": [],
+    "geo": {
+      "hs_id": "xk3yg1hs9wa4",
+      "region_name": "Dharavandhoo",
+      "region_name_long": "Dharavandhoo, Maldives",
+      "region_type": "CITY",
+      "region_id": 6344516,
+      "country_iso": "MV",
+      "country": "maldives",
+      "localised_country": "Maldives",
+      "center": [
+        5.15735,
+        73.13085
+      ],
+      "centroid": [
+        5.1586,
+        73.13085
+      ],
+      "polygon": [
+        "5.153199,73.128681",
+        "5.152505,73.136519",
+        "5.158403,73.139228",
+        "5.161949,73.131507",
+        "5.1622,73.123901",
+        "5.158788,73.122469",
+        "5.153199,73.128681"
+      ],
+      "radius": 0.93,
+      "zoom": -1,
+      "search_by_polygon": 0,
+      "cluster": 0,
+      "properties": 46,
+      "radius_override": 5,
+      "boundingbox": {
+        "ne": [
+          5.163,
+          73.14
+        ],
+        "sw": [
+          5.152,
+          73.122
+        ]
+      },
+      "airports": [
+        "DRV"
+      ],
+      "region_name_en": "Dharavandhoo",
+      "region_name_long_en": "Dharavandhoo, Maldives",
+      "referrer_city_name_en": "Dharavandhoo",
+      "parent_region_id": 6051084,
+      "parent_hs_id": "x5p4hmhw6iot",
+      "parent_region_name": "Maldives (all)",
+      "parent_region_name_long": "Maldives (all)",
+      "dynamic_bbox": {
+        "ne": [
+          5.159,
+          73.129
+        ],
+        "sw": [
+          5.159,
+          73.129
+        ]
+      }
+    },
+    "records": [
+      {
+        "hs_id": 1012272232,
+        "slug": "lvis-village-dharavandhoo-mv-1012272232",
+        "name": "Lvis Village",
+        "toa": "guest_house",
+        "building": {
+          "room_num": 6,
+          "square_meters": 23,
+          "max_children": 2
+        },
+        "location": {
+          "city": "Dharavandhoo",
+          "zip": "06060",
+          "country_iso2": "MV",
+          "address": "Finivai Baa Atoll",
+          "geoid": "xk3yg1hs9wa4",
+          "loc": {
+            "type": "Point"
+          },
+          "coordinates": {
+            "lng": 73.12954,
+            "lat": 5.15932
+          }
+        },
+        "opening_time": {
+          "check_in_from": "14:00",
+          "check_in_to": "22:00",
+          "check_out_from": "11:00",
+          "check_out_to": "12:00"
+        },
+        "quality": {
+          "review_count": 21,
+          "review_rating": 95,
+          "stars": 0,
+          "stars_is_estimated": false,
+          "review_source": ""
+        },
+        "covid_safe": true,
+        "amenities": {
+          "children": [
+            "children_playground"
+          ],
+          "wellness": [
+            "fitness_center"
+          ],
+          "sports": [
+            "bike_rent",
+            "sub"
+          ],
+          "internet": [
+            "wifi",
+            "wifi_room",
+            "internet"
+          ],
+          "transfer": [
+            "shuttle_service"
+          ],
+          "food_drink": [
+            "restaurant",
+            "cafe",
+            "bar",
+            "tea_coffee_maker"
+          ],
+          "parking": [
+            "parking"
+          ],
+          "outdoor": [
+            "garden",
+            "patio"
+          ],
+          "other": [],
+          "room": [
+            "fan",
+            "air_conditioning"
+          ],
+          "reception": [
+            "luggage_storage",
+            "concierge",
+            "laundry_service",
+            "safety_deposit_box"
+          ]
+        },
+        "descriptions": {
+          "general": "Situated in Dharavandhoo in the Baa Atoll region, LVIS Village has a garden. The air-conditioned accommodation is 100 metres from Dharavandhoo Beach, and guests can benefit from private parking available on site and free WiFi. The accommodation features airport transfers, while a bicycle rental service is also available.",
+          "other": "Please inform in advance of your expected arrival time. You can use the Special Requests box when booking, or contact the property directly with the contact details provided in your confirmation.",
+          "localized": "Situated in Dharavandhoo in the Baa Atoll region, LVIS Village has a garden. The air-conditioned accommodation is 100 metres from Dharavandhoo Beach, and guests can benefit from private parking available on site and free WiFi. The accommodation features airport transfers, while a bicycle rental service is also available."
+        },
+        "short_description": "Basic guest house with shuttle service, bike rent and bar",
+        "offers": [],
+        "all_offers": [],
+        "descriptions_language": {
+          "general": {
+            "original_language": true,
+            "text": "Situated in Dharavandhoo in the Baa Atoll region, LVIS Village has a garden. The air-conditioned accommodation is 100 metres from Dharavandhoo Beach, and guests can benefit from private parking available on site and free WiFi. The accommodation features airport transfers, while a bicycle rental service is also available."
+          },
+          "other": {
+            "original_language": true,
+            "text": "Please inform in advance of your expected arrival time. You can use the Special Requests box when booking, or contact the property directly with the contact details provided in your confirmation."
+          }
+        },
+        "chain_code": null,
+        "bids": [],
+        "coordinates": {
+          "lat": 5.15932,
+          "lng": 73.12954
+        },
+        "distance": 0.26,
+        "neighborhood": null,
+        "badge": null,
+        "distances": [
+          {
+            "from": "center",
+            "distance": 0.26,
+            "time": 361,
+            "means": "foot",
+            "means_type": "foot"
+          }
+        ],
+        "specs": {
+          "bathrooms": 0,
+          "beds": null,
+          "bedrooms": 1,
+          "guests": 3,
+          "square_meters": 23
+        },
+        "toa_label": "guest house",
+        "top_amenities": [
+          "wifi_room",
+          "internet",
+          "restaurant",
+          "bar",
+          "tea_coffee_maker"
+        ],
+        "transportations": {
+          "airports": [],
+          "trains": []
+        },
+        "images": [
+          {
+            "image_id": "695140940",
+            "label": ""
+          },
+          {
+            "image_id": "695140958",
+            "label": ""
+          },
+          {
+            "image_id": "695140946",
+            "label": ""
+          },
+          {
+            "image_id": "695140947",
+            "label": ""
+          },
+          {
+            "image_id": "695140948",
+            "label": ""
+          },
+          {
+            "image_id": "695140954",
+            "label": ""
+          },
+          {
+            "image_id": "695140955",
+            "label": ""
+          },
+          {
+            "image_id": "695140950",
+            "label": ""
+          },
+          {
+            "image_id": "695140952",
+            "label": ""
+          },
+          {
+            "image_id": "695140941",
+            "label": ""
+          },
+          {
+            "image_id": "695140943",
+            "label": ""
+          },
+          {
+            "image_id": "695140938",
+            "label": ""
+          },
+          {
+            "image_id": "695140945",
+            "label": ""
+          },
+          {
+            "image_id": "695140953",
+            "label": ""
+          },
+          {
+            "image_id": "695140957",
+            "label": ""
+          }
+        ],
+        "best_offer": null,
+        "discount": null,
+        "offers_count": 0,
+        "worst_offer": null,
+        "rank": 0,
+        "ctrl_srt": "im a ctrl teapot",
+        "test_srt": "im a test teapot",
+        "best_offer_ota": null,
+        "best_offer_mota": null
+      }
+    ],
+    "filters": [],
+    "query": {
+      "pos": "zz"
+    }
+  }
+}

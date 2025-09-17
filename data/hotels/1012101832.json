@@ -1,0 +1,813 @@
+{
+  "_meta": {
+    "status": "SUCCESS",
+    "cached": true,
+    "count": 1,
+    "debug": {
+      "ticket": {
+        "ticket_id": "1012101832_zz_zz_d_publ_en_2_2025-10-08_2025-10-13_1_3",
+        "created_at": 1758065358.6943,
+        "loop": null,
+        "snapped_at": 1758065358.7772,
+        "snapshot_id": "1012101832_zz_zz_d_publ_en_2_2025-10-08_2025-10-13_1_3",
+        "snapshot_ttl": 300,
+        "executions": 2,
+        "progress": 1,
+        "save_errors": []
+      }
+    }
+  },
+  "data": {
+    "meta": [],
+    "geo": {
+      "hs_id": "xk37cluc5gl2",
+      "region_name": "Himmafushi",
+      "region_name_long": "Himmafushi, Maldives",
+      "region_type": "CITY",
+      "region_id": 6343439,
+      "country_iso": "MV",
+      "country": "maldives",
+      "localised_country": "Maldives",
+      "center": [
+        4.30882,
+        73.57184
+      ],
+      "centroid": [
+        4.30757,
+        73.57184
+      ],
+      "polygon": [
+        "4.304066,73.571207",
+        "4.30697,73.579713",
+        "4.311818,73.574284",
+        "4.313569,73.567522",
+        "4.308162,73.563966",
+        "4.304315,73.566281",
+        "4.304066,73.571207"
+      ],
+      "radius": 0.88,
+      "zoom": -1,
+      "search_by_polygon": 0,
+      "cluster": 0,
+      "properties": 69,
+      "radius_override": 5,
+      "boundingbox": {
+        "ne": [
+          4.314,
+          73.58
+        ],
+        "sw": [
+          4.304,
+          73.563
+        ]
+      },
+      "airports": [
+        "MLE",
+        "DRV"
+      ],
+      "region_name_en": "Himmafushi",
+      "region_name_long_en": "Himmafushi, Maldives",
+      "referrer_city_name_en": "Himmafushi",
+      "parent_region_id": 6051084,
+      "parent_hs_id": "x5p4hmhw6iot",
+      "parent_region_name": "Maldives (all)",
+      "parent_region_name_long": "Maldives (all)",
+      "dynamic_bbox": {
+        "ne": [
+          4.311,
+          73.569
+        ],
+        "sw": [
+          4.311,
+          73.569
+        ]
+      }
+    },
+    "records": [
+      {
+        "hs_id": 1012101832,
+        "slug": "funplace-beach-himmafushi-mv-1012101832",
+        "name": "Funplace Beach",
+        "toa": "guest_house",
+        "building": {
+          "room_num": 9
+        },
+        "location": {
+          "city": "Himmafushi",
+          "zip": "08060",
+          "country_iso2": "MV",
+          "address": "Roazee Magu",
+          "geoid": "xk37cluc5gl2",
+          "loc": {
+            "type": "Point"
+          },
+          "coordinates": {
+            "lng": 73.56995,
+            "lat": 4.31114
+          }
+        },
+        "opening_time": {
+          "check_in_from": "14:00",
+          "check_in_to": "14:00",
+          "check_out_from": "12:00",
+          "check_out_to": "12:00"
+        },
+        "quality": {
+          "review_count": 65,
+          "review_rating": 84,
+          "stars": 0,
+          "stars_is_estimated": false,
+          "review_source": ""
+        },
+        "covid_safe": true,
+        "amenities": {
+          "children": [
+            "children_playground"
+          ],
+          "wellness": [
+            "massage",
+            "solarium",
+            "jacuzzi",
+            "hair_salon",
+            "spa"
+          ],
+          "sports": [
+            "bike_rent",
+            "sub",
+            "surf"
+          ],
+          "internet": [
+            "wifi",
+            "internet"
+          ],
+          "food_drink": [
+            "restaurant",
+            "room_service",
+            "cafe",
+            "bar"
+          ],
+          "parking": [
+            "parking"
+          ],
+          "outdoor": [
+            "garden",
+            "terrace"
+          ],
+          "other": [],
+          "entertainment": [
+            "tv_lobby"
+          ],
+          "transfer": [
+            "shuttle_service"
+          ],
+          "room": [
+            "heating",
+            "air_conditioning",
+            "tv"
+          ],
+          "reception": [
+            "24h_reception",
+            "luggage_storage",
+            "concierge",
+            "laundry_service",
+            "safety_deposit_box"
+          ]
+        },
+        "descriptions": {
+          "hotel": "Situated within 90 metres of Himmafushi Beach in Himmafushi, FUNPLACE BEACH provides accommodation with seating area. Among the facilities of this property are a restaurant, a 24-hour front desk and full-day security, along with free WiFi throughout the property. There is free private parking and the property features paid airport shuttle service. The guest house will provide guests with air-conditioned units with a wardrobe, a kettle, a fridge, a minibar, a safety deposit box, a flat-screen TV, a terrace and a private bathroom with a bidet. A balcony boasting sea views and fitted with outdoor furniture are available in some units. At the guest house, each unit is fitted with bed linen and towels. Terms and conditions: Cancellation policy: 14 days before arrival. In case of a late cancellation or No Show, you will be charged the first night of your stay. Check in from 14:00 to 00:00 . Check out from 00:00 to 00:00 . Payment upon arrival by cash, credit cards. Taxes not included - Tourist Good & Service Tax 16% Service Charge 10% Green Tax USD 6 per night per person per person per night Breakfast included. No curfew. Child friendly. Non smoking.No smoking in Room, but have a smoking area 24 hours Reception The Property will make Pre-authorization Charge for the first night to Secure the booking",
+          "direction": "From MalÃ International Airport, guests can reach Funplace Beach by taking a short domestic flight to Addu Atoll, followed by a speedboat transfer to Himmafushi. The hotel offers a convenient paid airport shuttle service that can be arranged in advance to ensure a smooth arrival.",
+          "general": "Experience an abundance of unparalleled facilities and features at Funplace Beach.Maintain seamless communication using the complimentary Wi-Fi at hotel. Effortlessly arrange transportation to and from the airport using the hotel's airport transfer services. Discovering Maldive Islands becomes even more accessible through the taxi, car hire and shuttle amenities provided at the hotel.During your stay at this fantastic hotel, the attentive front desk personnel can provide you with a range of amenities such as express check-in or check-out, luggage storage and safety deposit boxes. Obtaining passes for the town's top entertainments becomes effortless with hotel's tours.During chilly days and evenings, the hotel provides an in-house fireplace to ensure your warmth. For extended visits or whenever required, the laundry service ensures your preferred travel garments remain fresh and accessible.During leisurely days and evenings, on-site amenities such as daily housekeeping enable you to fully enjoy your accommodation. For visitors wishing to smoke, designated smoking zones can be found. At Funplace Beach, every guestroom is provided with convenient amenities and fittings to ensure a comfortable stay. Enhance your experience at hotel with the knowledge that certain rooms are equipped with linen service, blackout curtains and air conditioning for your convenience. At Funplace Beach, each visit offers an array of intriguing room configurations, featuring accommodations with separate living room and balcony or terrace, ensuring a distinct experience every time.Certain rooms boast in-room amusement features such as television and in-room video streaming, offering guests an enjoyable stay. In select rooms within the hotel, a refrigerator, bottled water, a coffee or tea maker, instant coffee, instant tea and mini bar is available to cater to your requirements when desired. In the hotel, certain guest bathrooms come equipped with essential bathroom amenities, such as a hair dryer, toiletries and bathrobes, ensuring a comfortable stay for guests. Begin your day with a scrumptious on-site breakfast available each morning at Funplace Beach.Begin your day feeling refreshed and invigorated as you enjoy a delightful cup of quality coffee available at the cafe situated within the hotel. At the hotel, an assortment of easily accessible and delicious meal choices are available to satisfy your appetite whenever it strikes. At Funplace Beach, they are committed to catering to your unique requirements. They offer a variety of meal choices, encompassing halal alternatives for those with special dietary preferences. Create unforgettable moments with your fellow voyagers just steps away, at hotel's karaoke rooms and bar, for a delightful evening together.At the hotel, discerning guests can also enjoy on-site culinary facilities like BBQ facilities tailored to their preferences. During your stay at hotel, an array of engaging activities and amenities guarantees a delightful experience.During your stay, don't forget to allocate some moments to experience the readily available shoreline.",
+          "other": "Funplace Beach is just steps away from Himmafushi Beach, where guests can enjoy the pristine shoreline and clear waters. Nearby attractions include the popular local dive sites and water sports centers, making it an ideal spot for snorkeling, diving, and island excursions.",
+          "localized": "Experience an abundance of unparalleled facilities and features at Funplace Beach.Maintain seamless communication using the complimentary Wi-Fi at hotel. Effortlessly arrange transportation to and from the airport using the hotel's airport transfer services. Discovering Maldive Islands becomes even more accessible through the taxi, car hire and shuttle amenities provided at the hotel.During your stay at this fantastic hotel, the attentive front desk personnel can provide you with a range of amenities such as express check-in or check-out, luggage storage and safety deposit boxes. Obtaining passes for the town's top entertainments becomes effortless with hotel's tours.During chilly days and evenings, the hotel provides an in-house fireplace to ensure your warmth. For extended visits or whenever required, the laundry service ensures your preferred travel garments remain fresh and accessible.During leisurely days and evenings, on-site amenities such as daily housekeeping enable you to fully enjoy your accommodation. For visitors wishing to smoke, designated smoking zones can be found. At Funplace Beach, every guestroom is provided with convenient amenities and fittings to ensure a comfortable stay. Enhance your experience at hotel with the knowledge that certain rooms are equipped with linen service, blackout curtains and air conditioning for your convenience. At Funplace Beach, each visit offers an array of intriguing room configurations, featuring accommodations with separate living room and balcony or terrace, ensuring a distinct experience every time.Certain rooms boast in-room amusement features such as television and in-room video streaming, offering guests an enjoyable stay. In select rooms within the hotel, a refrigerator, bottled water, a coffee or tea maker, instant coffee, instant tea and mini bar is available to cater to your requirements when desired. In the hotel, certain guest bathrooms come equipped with essential bathroom amenities, such as a hair dryer, toiletries and bathrobes, ensuring a comfortable stay for guests. Begin your day with a scrumptious on-site breakfast available each morning at Funplace Beach.Begin your day feeling refreshed and invigorated as you enjoy a delightful cup of quality coffee available at the cafe situated within the hotel. At the hotel, an assortment of easily accessible and delicious meal choices are available to satisfy your appetite whenever it strikes. At Funplace Beach, they are committed to catering to your unique requirements. They offer a variety of meal choices, encompassing halal alternatives for those with special dietary preferences. Create unforgettable moments with your fellow voyagers just steps away, at hotel's karaoke rooms and bar, for a delightful evening together.At the hotel, discerning guests can also enjoy on-site culinary facilities like BBQ facilities tailored to their preferences. During your stay at hotel, an array of engaging activities and amenities guarantees a delightful experience.During your stay, don't forget to allocate some moments to experience the readily available shoreline."
+        },
+        "short_description": "Simple guest house with parking, bike rent and bar",
+        "chain": "no_chain",
+        "brand": "no_brand",
+        "offers": [
+          {
+            "price": 82.99,
+            "brt": "p2d#t",
+            "rf": "p2d#t",
+            "brf": 9470016,
+            "rt": 9470016,
+            "vendor": "bkng",
+            "vendor_id_raw": "9510151",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included"
+            ],
+            "jc_code": "",
+            "ranking_index": 0.9963851066393541,
+            "chain": "",
+            "free_cancellation": false,
+            "special": false,
+            "room_name": "Deluxe room - Twin beds",
+            "rooms": [
+              {
+                "name": "Deluxe room - Twin beds",
+                "flags": [
+                  "Twin beds"
+                ]
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included"
+            },
+            "partner_name": "Booking.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/bkng/logo.svg?pos=zz"
+          },
+          {
+            "vendor": "agda",
+            "price": 82.24,
+            "vendor_id_raw": "37202351",
+            "mota_code": null,
+            "jc_code": "",
+            "partner_name": "Agoda",
+            "partner_logo": "https://hotelscan.com/apis/vendors/agda/logo.svg?pos=zz",
+            "room_name": "Standard room",
+            "brf": 9470016,
+            "brt": "p2r#"
+          }
+        ],
+        "all_offers": [
+          {
+            "price": 82.24,
+            "brt": "p2cdt",
+            "rf": "p2cdt",
+            "brf": 9470016,
+            "rt": 9470016,
+            "vendor": "agda",
+            "vendor_id_raw": "37202351",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": false,
+            "special": false,
+            "room_name": "Superior deluxe room - Twin beds",
+            "rooms": [
+              {
+                "name": "Superior deluxe room - Twin beds",
+                "flags": [
+                  "Twin beds"
+                ]
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included"
+            },
+            "partner_name": "Agoda",
+            "partner_logo": "https://hotelscan.com/apis/vendors/agda/logo.svg?pos=zz"
+          },
+          {
+            "price": 82.24,
+            "brt": "p2r#",
+            "rf": "p2r#",
+            "brf": 9470016,
+            "rt": 9470016,
+            "vendor": "agda",
+            "vendor_id_raw": "37202351",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": false,
+            "special": false,
+            "room_name": "Standard room",
+            "rooms": [
+              {
+                "name": "Standard room",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included"
+            },
+            "partner_name": "Agoda",
+            "partner_logo": "https://hotelscan.com/apis/vendors/agda/logo.svg?pos=zz"
+          },
+          {
+            "price": 82.99,
+            "brt": "p2r#",
+            "rf": "p2r#",
+            "brf": 9470016,
+            "rt": 9470016,
+            "vendor": "bkng",
+            "vendor_id_raw": "9510151",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": false,
+            "special": false,
+            "room_name": "Standard room",
+            "rooms": [
+              {
+                "name": "Standard room",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included"
+            },
+            "partner_name": "Booking.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/bkng/logo.svg?pos=zz"
+          },
+          {
+            "price": 82.99,
+            "brt": "p2d#t",
+            "rf": "p2d#t",
+            "brf": 9470016,
+            "rt": 9470016,
+            "vendor": "bkng",
+            "vendor_id_raw": "9510151",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": false,
+            "special": false,
+            "room_name": "Deluxe room - Twin beds",
+            "rooms": [
+              {
+                "name": "Deluxe room - Twin beds",
+                "flags": [
+                  "Twin beds"
+                ]
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included"
+            },
+            "partner_name": "Booking.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/bkng/logo.svg?pos=zz"
+          },
+          {
+            "price": 84.31,
+            "brt": "p2r#",
+            "rf": "p2r#",
+            "brf": 9502784,
+            "rt": 9502784,
+            "vendor": "agda",
+            "vendor_id_raw": "37202351",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included",
+              "Free cancellation"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Standard room",
+            "rooms": [
+              {
+                "name": "Standard room",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included",
+              "refundable": "Free cancellation"
+            },
+            "partner_name": "Agoda",
+            "partner_logo": "https://hotelscan.com/apis/vendors/agda/logo.svg?pos=zz"
+          },
+          {
+            "price": 89.83,
+            "brt": "p2c#",
+            "rf": "p2c#",
+            "brf": 9470032,
+            "rt": 9470032,
+            "vendor": "agda",
+            "vendor_id_raw": "37202351",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included",
+              "Balcony"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": false,
+            "special": false,
+            "room_name": "Superior room",
+            "rooms": [
+              {
+                "name": "Superior room",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included",
+              "balcony": "Balcony"
+            },
+            "partner_name": "Agoda",
+            "partner_logo": "https://hotelscan.com/apis/vendors/agda/logo.svg?pos=zz"
+          },
+          {
+            "price": 90.65,
+            "brt": "p2r#",
+            "rf": "p2r#",
+            "brf": 9470032,
+            "rt": 9470032,
+            "vendor": "bkng",
+            "vendor_id_raw": "9510151",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included",
+              "Balcony"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": false,
+            "special": false,
+            "room_name": "Standard room",
+            "rooms": [
+              {
+                "name": "Standard room",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included",
+              "balcony": "Balcony"
+            },
+            "partner_name": "Booking.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/bkng/logo.svg?pos=zz"
+          },
+          {
+            "price": 97.83,
+            "brt": "p2cdt",
+            "rf": "p2cdt",
+            "brf": 9502784,
+            "rt": 9502784,
+            "vendor": "agda",
+            "vendor_id_raw": "37202351",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included",
+              "Free cancellation"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Superior deluxe room - Twin beds",
+            "rooms": [
+              {
+                "name": "Superior deluxe room - Twin beds",
+                "flags": [
+                  "Twin beds"
+                ]
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included",
+              "refundable": "Free cancellation"
+            },
+            "partner_name": "Agoda",
+            "partner_logo": "https://hotelscan.com/apis/vendors/agda/logo.svg?pos=zz"
+          },
+          {
+            "price": 106.85,
+            "brt": "p2c#",
+            "rf": "p2c#",
+            "brf": 9502800,
+            "rt": 9502800,
+            "vendor": "agda",
+            "vendor_id_raw": "37202351",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included",
+              "Free cancellation",
+              "Balcony"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Superior room",
+            "rooms": [
+              {
+                "name": "Superior room",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included",
+              "refundable": "Free cancellation",
+              "balcony": "Balcony"
+            },
+            "partner_name": "Agoda",
+            "partner_logo": "https://hotelscan.com/apis/vendors/agda/logo.svg?pos=zz"
+          },
+          {
+            "price": 278.15,
+            "brt": "p2q#",
+            "rf": "p2q#",
+            "brf": 9510976,
+            "rt": 9510976,
+            "vendor": "agda",
+            "vendor_id_raw": "37202351",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included",
+              "Free cancellation"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Family room",
+            "rooms": [
+              {
+                "name": "Family room",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included",
+              "refundable": "Free cancellation"
+            },
+            "partner_name": "Agoda",
+            "partner_logo": "https://hotelscan.com/apis/vendors/agda/logo.svg?pos=zz"
+          },
+          {
+            "price": 309.7,
+            "brt": "e2q#",
+            "rf": "e2q#",
+            "brf": 9502784,
+            "rt": 9502784,
+            "vendor": "agda",
+            "vendor_id_raw": "37202351",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included",
+              "Free cancellation"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Family suite",
+            "rooms": [
+              {
+                "name": "Family suite",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included",
+              "refundable": "Free cancellation"
+            },
+            "partner_name": "Agoda",
+            "partner_logo": "https://hotelscan.com/apis/vendors/agda/logo.svg?pos=zz"
+          },
+          {
+            "price": 313.79,
+            "brt": "e2q#",
+            "rf": "e2q#",
+            "brf": 9470016,
+            "rt": 9470016,
+            "vendor": "agda",
+            "vendor_id_raw": "37202351",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": false,
+            "special": false,
+            "room_name": "Family suite",
+            "rooms": [
+              {
+                "name": "Family suite",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included"
+            },
+            "partner_name": "Agoda",
+            "partner_logo": "https://hotelscan.com/apis/vendors/agda/logo.svg?pos=zz"
+          },
+          {
+            "price": 316.68,
+            "brt": "e2q#",
+            "rf": "e2q#",
+            "brf": 9470016,
+            "rt": 9470016,
+            "vendor": "bkng",
+            "vendor_id_raw": "9510151",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": false,
+            "special": false,
+            "room_name": "Family suite",
+            "rooms": [
+              {
+                "name": "Family suite",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included"
+            },
+            "partner_name": "Booking.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/bkng/logo.svg?pos=zz"
+          }
+        ],
+        "descriptions_language": {
+          "general": {
+            "original_language": true,
+            "text": "Experience an abundance of unparalleled facilities and features at Funplace Beach.Maintain seamless communication using the complimentary Wi-Fi at hotel. Effortlessly arrange transportation to and from the airport using the hotel's airport transfer services. Discovering Maldive Islands becomes even more accessible through the taxi, car hire and shuttle amenities provided at the hotel.During your stay at this fantastic hotel, the attentive front desk personnel can provide you with a range of amenities such as express check-in or check-out, luggage storage and safety deposit boxes. Obtaining passes for the town's top entertainments becomes effortless with hotel's tours.During chilly days and evenings, the hotel provides an in-house fireplace to ensure your warmth. For extended visits or whenever required, the laundry service ensures your preferred travel garments remain fresh and accessible.During leisurely days and evenings, on-site amenities such as daily housekeeping enable you to fully enjoy your accommodation. For visitors wishing to smoke, designated smoking zones can be found. At Funplace Beach, every guestroom is provided with convenient amenities and fittings to ensure a comfortable stay. Enhance your experience at hotel with the knowledge that certain rooms are equipped with linen service, blackout curtains and air conditioning for your convenience. At Funplace Beach, each visit offers an array of intriguing room configurations, featuring accommodations with separate living room and balcony or terrace, ensuring a distinct experience every time.Certain rooms boast in-room amusement features such as television and in-room video streaming, offering guests an enjoyable stay. In select rooms within the hotel, a refrigerator, bottled water, a coffee or tea maker, instant coffee, instant tea and mini bar is available to cater to your requirements when desired. In the hotel, certain guest bathrooms come equipped with essential bathroom amenities, such as a hair dryer, toiletries and bathrobes, ensuring a comfortable stay for guests. Begin your day with a scrumptious on-site breakfast available each morning at Funplace Beach.Begin your day feeling refreshed and invigorated as you enjoy a delightful cup of quality coffee available at the cafe situated within the hotel. At the hotel, an assortment of easily accessible and delicious meal choices are available to satisfy your appetite whenever it strikes. At Funplace Beach, they are committed to catering to your unique requirements. They offer a variety of meal choices, encompassing halal alternatives for those with special dietary preferences. Create unforgettable moments with your fellow voyagers just steps away, at hotel's karaoke rooms and bar, for a delightful evening together.At the hotel, discerning guests can also enjoy on-site culinary facilities like BBQ facilities tailored to their preferences. During your stay at hotel, an array of engaging activities and amenities guarantees a delightful experience.During your stay, don't forget to allocate some moments to experience the readily available shoreline."
+          },
+          "direction": {
+            "original_language": true,
+            "text": "From MalÃ International Airport, guests can reach Funplace Beach by taking a short domestic flight to Addu Atoll, followed by a speedboat transfer to Himmafushi. The hotel offers a convenient paid airport shuttle service that can be arranged in advance to ensure a smooth arrival."
+          },
+          "hotel": {
+            "original_language": true,
+            "text": "Situated within 90 metres of Himmafushi Beach in Himmafushi, FUNPLACE BEACH provides accommodation with seating area. Among the facilities of this property are a restaurant, a 24-hour front desk and full-day security, along with free WiFi throughout the property. There is free private parking and the property features paid airport shuttle service. The guest house will provide guests with air-conditioned units with a wardrobe, a kettle, a fridge, a minibar, a safety deposit box, a flat-screen TV, a terrace and a private bathroom with a bidet. A balcony boasting sea views and fitted with outdoor furniture are available in some units. At the guest house, each unit is fitted with bed linen and towels. Terms and conditions: Cancellation policy: 14 days before arrival. In case of a late cancellation or No Show, you will be charged the first night of your stay. Check in from 14:00 to 00:00 . Check out from 00:00 to 00:00 . Payment upon arrival by cash, credit cards. Taxes not included - Tourist Good & Service Tax 16% Service Charge 10% Green Tax USD 6 per night per person per person per night Breakfast included. No curfew. Child friendly. Non smoking.No smoking in Room, but have a smoking area 24 hours Reception The Property will make Pre-authorization Charge for the first night to Secure the booking"
+          },
+          "other": {
+            "original_language": true,
+            "text": "Funplace Beach is just steps away from Himmafushi Beach, where guests can enjoy the pristine shoreline and clear waters. Nearby attractions include the popular local dive sites and water sports centers, making it an ideal spot for snorkeling, diving, and island excursions."
+          }
+        },
+        "chain_code": null,
+        "bids": {
+          "bkng": "j23",
+          "agda": "j23"
+        },
+        "worst_offer": null,
+        "best_offer": 82.24,
+        "best_offer_ota": "agda",
+        "best_offer_mota": null,
+        "discount": 0,
+        "offers_count": 13,
+        "coordinates": {
+          "lat": 4.31114,
+          "lng": 73.56995
+        },
+        "distance": 0.33,
+        "neighborhood": null,
+        "badge": null,
+        "distances": [
+          {
+            "from": "center",
+            "distance": 0.33,
+            "time": 458,
+            "means": "foot",
+            "means_type": "foot"
+          }
+        ],
+        "specs": {
+          "bathrooms": null,
+          "beds": null,
+          "bedrooms": null,
+          "guests": null,
+          "square_meters": null
+        },
+        "toa_label": "guest house",
+        "top_amenities": [
+          "internet",
+          "restaurant",
+          "room_service",
+          "bar",
+          "parking"
+        ],
+        "transportations": {
+          "airports": [],
+          "trains": []
+        },
+        "images": [
+          {
+            "image_id": "740380831",
+            "label": ""
+          },
+          {
+            "image_id": "740380854",
+            "label": ""
+          },
+          {
+            "image_id": "740380876",
+            "label": ""
+          },
+          {
+            "image_id": "740380836",
+            "label": ""
+          },
+          {
+            "image_id": "740380847",
+            "label": ""
+          },
+          {
+            "image_id": "740380827",
+            "label": ""
+          },
+          {
+            "image_id": "740380874",
+            "label": ""
+          },
+          {
+            "image_id": "740380882",
+            "label": ""
+          },
+          {
+            "image_id": "740380863",
+            "label": ""
+          },
+          {
+            "image_id": "740380865",
+            "label": ""
+          },
+          {
+            "image_id": "740380862",
+            "label": ""
+          },
+          {
+            "image_id": "740380875",
+            "label": ""
+          },
+          {
+            "image_id": "740380839",
+            "label": ""
+          },
+          {
+            "image_id": "740380855",
+            "label": ""
+          },
+          {
+            "image_id": "740380859",
+            "label": ""
+          }
+        ],
+        "hero_offer": {
+          "price": 82.99,
+          "brt": "p2d#t",
+          "rf": "p2d#t",
+          "brf": 9470016,
+          "rt": 9470016,
+          "vendor": "bkng",
+          "vendor_id_raw": "9510151",
+          "mota_code": null,
+          "direct_offer": false,
+          "offer_flags": {
+            "breakfast": "Breakfast included"
+          },
+          "jc_code": "",
+          "ranking_index": 0.9963851066393541,
+          "chain": "",
+          "free_cancellation": false,
+          "special": false,
+          "room_name": "Deluxe room - Twin beds",
+          "rooms": [
+            {
+              "name": "Deluxe room - Twin beds",
+              "flags": [
+                "Twin beds"
+              ]
+            }
+          ],
+          "partner_name": "Booking.com",
+          "partner_logo": "https://hotelscan.com/apis/vendors/bkng/logo.svg?pos=zz"
+        },
+        "rank": 0,
+        "ctrl_srt": "im a ctrl teapot",
+        "test_srt": "im a test teapot"
+      }
+    ],
+    "filters": [],
+    "query": {
+      "pos": "zz"
+    }
+  }
+}

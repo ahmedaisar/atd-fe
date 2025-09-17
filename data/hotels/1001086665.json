@@ -1,0 +1,554 @@
+{
+  "_meta": {
+    "status": "SUCCESS",
+    "cached": true,
+    "count": 1,
+    "debug": {
+      "ticket": {
+        "ticket_id": "1001086665_zz_zz_d_publ_en_2_2025-10-08_2025-10-13_1_3",
+        "created_at": 1758065402.4314,
+        "loop": null,
+        "snapped_at": 1758065402.5576,
+        "snapshot_id": "1001086665_zz_zz_d_publ_en_2_2025-10-08_2025-10-13_1_3",
+        "snapshot_ttl": 300,
+        "executions": 2,
+        "progress": 1,
+        "save_errors": []
+      }
+    }
+  },
+  "data": {
+    "meta": [],
+    "geo": {
+      "hs_id": "83t39mee9jxb2",
+      "region_name": "Himandhoo",
+      "region_name_long": "Himandhoo, Maldives",
+      "region_type": "CITY",
+      "region_id": 3000003539,
+      "country_iso": "MV",
+      "country": "maldives",
+      "localised_country": "Maldives",
+      "center": [
+        3.92151,
+        72.74649
+      ],
+      "centroid": [
+        3.92358,
+        72.748
+      ],
+      "polygon": [
+        "3.92865,72.734818",
+        "3.91769,72.735161",
+        "3.911182,72.745804",
+        "3.919745,72.761597",
+        "3.93002,72.751984",
+        "3.92865,72.734818"
+      ],
+      "radius": 1.57,
+      "zoom": -1,
+      "search_by_polygon": 0,
+      "cluster": 0,
+      "properties": 16,
+      "radius_override": 5,
+      "boundingbox": {
+        "ne": [
+          3.931,
+          72.762
+        ],
+        "sw": [
+          3.911,
+          72.734
+        ]
+      },
+      "airports": [
+        "MLE",
+        "DRV"
+      ],
+      "region_name_en": "Himandhoo",
+      "region_name_long_en": "Himandhoo, Maldives",
+      "referrer_city_name_en": "Himandhoo",
+      "parent_region_id": 6051084,
+      "parent_hs_id": "x5p4hmhw6iot",
+      "parent_region_name": "Maldives (all)",
+      "parent_region_name_long": "Maldives (all)",
+      "dynamic_bbox": {
+        "ne": [
+          3.921,
+          72.745
+        ],
+        "sw": [
+          3.921,
+          72.745
+        ]
+      }
+    },
+    "records": [
+      {
+        "hs_id": 1001086665,
+        "slug": "kuri-himandhoo-inn-himandhoo-mv-1001086665",
+        "name": "Kuri Himandhoo Inn",
+        "ty_id": "f72d67d8-eed3-4ca2-8c1f-528ce6a4e661",
+        "toa": "hotel",
+        "building": {
+          "room_num": 3
+        },
+        "location": {
+          "city": "Himandhoo",
+          "zip": "09080",
+          "country_iso2": "MV",
+          "address": "Fareedhee Magu",
+          "geoid": "83t39mee9jxb2",
+          "loc": {
+            "type": "Point"
+          },
+          "coordinates": {
+            "lng": 72.7459,
+            "lat": 3.92115
+          }
+        },
+        "opening_time": {
+          "check_in_from": "12:00",
+          "check_in_to": "00:00",
+          "check_out_from": "06:00",
+          "check_out_to": "12:00"
+        },
+        "quality": {
+          "review_count": 1,
+          "review_rating": 90,
+          "stars": 3,
+          "stars_is_estimated": false,
+          "review_source": ""
+        },
+        "covid_safe": true,
+        "amenities": {
+          "children": [
+            "babysitter"
+          ],
+          "wellness": [
+            "solarium",
+            "fitness_center",
+            "hair_salon"
+          ],
+          "sports": [
+            "sub"
+          ],
+          "internet": [
+            "wifi",
+            "internet"
+          ],
+          "food_drink": [
+            "restaurant",
+            "cafe",
+            "bar"
+          ],
+          "pets": [
+            "pets_allowed"
+          ],
+          "parking": [
+            "parking"
+          ],
+          "outdoor": [
+            "garden",
+            "terrace"
+          ],
+          "other": [],
+          "entertainment": [
+            "tv_lobby"
+          ],
+          "transfer": [
+            "shuttle_service"
+          ],
+          "room": [
+            "air_conditioning",
+            "tv"
+          ],
+          "reception": [
+            "24h_reception",
+            "luggage_storage",
+            "concierge",
+            "laundry_service",
+            "safety_deposit_box"
+          ]
+        },
+        "descriptions": {
+          "direction": "Located in Himandhoo, Kuri Himandhoo Inn is on the beach. Himendhoo Thila and Feridhoo Harbor are worth checking out if an activity is on the agenda, while those wishing to experience the area's natural beauty can explore Ari Atoll and Malhoss Thila.",
+          "general": "Himandhoo Inn offers top-notch services and amenities, ensuring guests experience utmost comfort.Share your photos and respond to emails at your convenience, thanks to the free Wi-Fi internet access offered by inn.Reception services such as concierge service and safety deposit boxes are available to accommodate your requirements.Traveling with minimal luggage is achievable at Himandhoo Inn due to the inn's laundry service ensuring your garments stay fresh.Room amenities feature room service, allowing you to unwind and make the most of your visit. The inn maintains a completely smoke-free zone, providing a breathable atmosphere. Smoking is limited to specified smoking zones.Each accommodation at Himandhoo Inn is thoughtfully created and adorned to provide visitors with a comfortable, home-like atmosphere. In select rooms of the inn, guests can enjoy the advantage of having air conditioning available for their convenience.Rest assured, in a few chosen rooms, you will find the convenience of bottled water and mini bar at your disposal.Maintain your cleanliness and comfort using a hair dryer and bathrobes available in select guest restrooms. Experience the delight of a fresh morning by savoring excellent coffee at the cafe situated within inn. Visitors who enjoy preparing their own culinary delights will appreciate the presence of an on-site BBQ facilities and shared kitchen at this location. Indulge in the numerous pursuits available at Himandhoo Inn. Experience the unique private beach at inn, offering exceptional direct access to the ocean just for you.",
+          "amenities": true,
+          "localized": "Himandhoo Inn offers top-notch services and amenities, ensuring guests experience utmost comfort.Share your photos and respond to emails at your convenience, thanks to the free Wi-Fi internet access offered by inn.Reception services such as concierge service and safety deposit boxes are available to accommodate your requirements.Traveling with minimal luggage is achievable at Himandhoo Inn due to the inn's laundry service ensuring your garments stay fresh.Room amenities feature room service, allowing you to unwind and make the most of your visit. The inn maintains a completely smoke-free zone, providing a breathable atmosphere. Smoking is limited to specified smoking zones.Each accommodation at Himandhoo Inn is thoughtfully created and adorned to provide visitors with a comfortable, home-like atmosphere. In select rooms of the inn, guests can enjoy the advantage of having air conditioning available for their convenience.Rest assured, in a few chosen rooms, you will find the convenience of bottled water and mini bar at your disposal.Maintain your cleanliness and comfort using a hair dryer and bathrobes available in select guest restrooms. Experience the delight of a fresh morning by savoring excellent coffee at the cafe situated within inn. Visitors who enjoy preparing their own culinary delights will appreciate the presence of an on-site BBQ facilities and shared kitchen at this location. Indulge in the numerous pursuits available at Himandhoo Inn. Experience the unique private beach at inn, offering exceptional direct access to the ocean just for you."
+        },
+        "short_description": "Comfortable hotel with shuttle service, fitness center and bar",
+        "chain": "no_chain",
+        "brand": "no_brand",
+        "offers": [
+          {
+            "price": 64.05,
+            "brt": "z2r#",
+            "rf": "z2r#",
+            "brf": 9502784,
+            "rt": 9502784,
+            "vendor": "agda",
+            "vendor_id_raw": "28762821",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included",
+              "Free cancellation"
+            ],
+            "jc_code": "",
+            "ranking_index": 0.96,
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Go to the booking site for more details",
+            "rooms": [
+              {
+                "name": "Go to the booking site for more details",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included",
+              "refundable": "Free cancellation"
+            },
+            "partner_name": "Agoda",
+            "partner_logo": "https://hotelscan.com/apis/vendors/agda/logo.svg?pos=zz"
+          },
+          {
+            "vendor": "bkng",
+            "price": 84.73,
+            "vendor_id_raw": "7913223",
+            "mota_code": null,
+            "jc_code": "",
+            "partner_name": "Booking.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/bkng/logo.svg?pos=zz",
+            "room_name": "Superior Family Room",
+            "brf": 9502848,
+            "brt": "p2qc"
+          }
+        ],
+        "all_offers": [
+          {
+            "price": 64.05,
+            "brt": "z2r#",
+            "rf": "z2r#",
+            "brf": 9502784,
+            "rt": 9502784,
+            "vendor": "agda",
+            "vendor_id_raw": "28762821",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included",
+              "Free cancellation"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Go to the booking site for more details",
+            "rooms": [
+              {
+                "name": "Go to the booking site for more details",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included",
+              "refundable": "Free cancellation"
+            },
+            "partner_name": "Agoda",
+            "partner_logo": "https://hotelscan.com/apis/vendors/agda/logo.svg?pos=zz"
+          },
+          {
+            "price": 83.97,
+            "brt": "p2qc",
+            "rf": "p2qc",
+            "brf": 9502848,
+            "rt": 9502848,
+            "vendor": "agda",
+            "vendor_id_raw": "28762821",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included",
+              "Free cancellation",
+              "Pay at the property"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Superior Family Room",
+            "rooms": [
+              {
+                "name": "Superior Family Room",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included",
+              "refundable": "Free cancellation",
+              "pay_at_hotel": "Pay at the property"
+            },
+            "partner_name": "Agoda",
+            "partner_logo": "https://hotelscan.com/apis/vendors/agda/logo.svg?pos=zz"
+          },
+          {
+            "price": 84.73,
+            "brt": "p2qc",
+            "rf": "p2qc",
+            "brf": 9502848,
+            "rt": 9502848,
+            "vendor": "bkng",
+            "vendor_id_raw": "7913223",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included",
+              "Free cancellation",
+              "Pay at the property"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Superior Family Room",
+            "rooms": [
+              {
+                "name": "Superior Family Room",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included",
+              "refundable": "Free cancellation",
+              "pay_at_hotel": "Pay at the property"
+            },
+            "partner_name": "Booking.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/bkng/logo.svg?pos=zz"
+          },
+          {
+            "price": 91.47,
+            "brt": "z2r#",
+            "rf": "z2r#",
+            "brf": 9502784,
+            "rt": 9502784,
+            "vendor": "agda",
+            "vendor_id_raw": "28762821",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included",
+              "Free cancellation"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Go to the booking site for more details",
+            "rooms": [
+              {
+                "name": "Go to the booking site for more details",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included",
+              "refundable": "Free cancellation"
+            },
+            "partner_name": "Agoda",
+            "partner_logo": "https://hotelscan.com/apis/vendors/agda/logo.svg?pos=zz"
+          },
+          {
+            "price": 103.36,
+            "brt": "p2qc",
+            "rf": "p2qc",
+            "brf": 9502848,
+            "rt": 9502848,
+            "vendor": "bkng",
+            "vendor_id_raw": "7913223",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included",
+              "Free cancellation",
+              "Pay at the property"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Superior Family Room",
+            "rooms": [
+              {
+                "name": "Superior Family Room",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included",
+              "refundable": "Free cancellation",
+              "pay_at_hotel": "Pay at the property"
+            },
+            "partner_name": "Booking.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/bkng/logo.svg?pos=zz"
+          }
+        ],
+        "descriptions_language": {
+          "general": {
+            "original_language": true,
+            "text": "Himandhoo Inn offers top-notch services and amenities, ensuring guests experience utmost comfort.Share your photos and respond to emails at your convenience, thanks to the free Wi-Fi internet access offered by inn.Reception services such as concierge service and safety deposit boxes are available to accommodate your requirements.Traveling with minimal luggage is achievable at Himandhoo Inn due to the inn's laundry service ensuring your garments stay fresh.Room amenities feature room service, allowing you to unwind and make the most of your visit. The inn maintains a completely smoke-free zone, providing a breathable atmosphere. Smoking is limited to specified smoking zones.Each accommodation at Himandhoo Inn is thoughtfully created and adorned to provide visitors with a comfortable, home-like atmosphere. In select rooms of the inn, guests can enjoy the advantage of having air conditioning available for their convenience.Rest assured, in a few chosen rooms, you will find the convenience of bottled water and mini bar at your disposal.Maintain your cleanliness and comfort using a hair dryer and bathrobes available in select guest restrooms. Experience the delight of a fresh morning by savoring excellent coffee at the cafe situated within inn. Visitors who enjoy preparing their own culinary delights will appreciate the presence of an on-site BBQ facilities and shared kitchen at this location. Indulge in the numerous pursuits available at Himandhoo Inn. Experience the unique private beach at inn, offering exceptional direct access to the ocean just for you."
+          },
+          "direction": {
+            "original_language": true,
+            "text": "Located in Himandhoo, Kuri Himandhoo Inn is on the beach. Himendhoo Thila and Feridhoo Harbor are worth checking out if an activity is on the agenda, while those wishing to experience the area's natural beauty can explore Ari Atoll and Malhoss Thila."
+          }
+        },
+        "chain_code": null,
+        "bids": {
+          "agda": "j23",
+          "bkng": "j23"
+        },
+        "worst_offer": 84.73,
+        "best_offer": 64.05,
+        "best_offer_ota": "agda",
+        "best_offer_mota": null,
+        "discount": 25,
+        "offers_count": 5,
+        "coordinates": {
+          "lat": 3.92115,
+          "lng": 72.7459
+        },
+        "distance": 0.08,
+        "neighborhood": null,
+        "badge": null,
+        "distances": [
+          {
+            "from": "center",
+            "distance": 0.08,
+            "time": 111,
+            "means": "foot",
+            "means_type": "foot"
+          }
+        ],
+        "specs": {
+          "bathrooms": null,
+          "beds": null,
+          "bedrooms": null,
+          "guests": null,
+          "square_meters": null
+        },
+        "toa_label": "hotel",
+        "top_amenities": [
+          "internet",
+          "restaurant",
+          "bar",
+          "pets_allowed",
+          "parking"
+        ],
+        "transportations": {
+          "airports": [],
+          "trains": []
+        },
+        "images": [
+          {
+            "image_id": "764258287",
+            "label": ""
+          },
+          {
+            "image_id": "764258265",
+            "label": ""
+          },
+          {
+            "image_id": "764258294",
+            "label": ""
+          },
+          {
+            "image_id": "764258311",
+            "label": ""
+          },
+          {
+            "image_id": "764258315",
+            "label": ""
+          },
+          {
+            "image_id": "764258313",
+            "label": ""
+          },
+          {
+            "image_id": "764258304",
+            "label": ""
+          },
+          {
+            "image_id": "764258319",
+            "label": ""
+          },
+          {
+            "image_id": "764258326",
+            "label": ""
+          },
+          {
+            "image_id": "764258325",
+            "label": ""
+          },
+          {
+            "image_id": "764258299",
+            "label": ""
+          },
+          {
+            "image_id": "764258297",
+            "label": ""
+          },
+          {
+            "image_id": "764258290",
+            "label": ""
+          },
+          {
+            "image_id": "764258302",
+            "label": ""
+          },
+          {
+            "image_id": "764258307",
+            "label": ""
+          }
+        ],
+        "hero_offer": {
+          "price": 64.05,
+          "brt": "z2r#",
+          "rf": "z2r#",
+          "brf": 9502784,
+          "rt": 9502784,
+          "vendor": "agda",
+          "vendor_id_raw": "28762821",
+          "mota_code": null,
+          "direct_offer": false,
+          "offer_flags": {
+            "breakfast": "Breakfast included",
+            "refundable": "Free cancellation"
+          },
+          "jc_code": "",
+          "ranking_index": 0.96,
+          "chain": "",
+          "free_cancellation": true,
+          "special": false,
+          "room_name": "Go to the booking site for more details",
+          "rooms": [
+            {
+              "name": "Go to the booking site for more details",
+              "flags": []
+            }
+          ],
+          "partner_name": "Agoda",
+          "partner_logo": "https://hotelscan.com/apis/vendors/agda/logo.svg?pos=zz"
+        },
+        "rank": 0,
+        "ctrl_srt": "im a ctrl teapot",
+        "test_srt": "im a test teapot"
+      }
+    ],
+    "filters": [],
+    "query": {
+      "pos": "zz"
+    }
+  }
+}

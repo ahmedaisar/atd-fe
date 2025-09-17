@@ -2,12 +2,12 @@
 import Image from 'next/image'
 import { useRef, useEffect, useState, useMemo } from 'react'
 import atollLabels from '@/data/generated/atolls.json'
-import { getAtollImage } from 'lib/atoll-images'
 
+// Transform imported labels into objects with placeholder images (can be refined later)
 const ATOLL_TYPES = (atollLabels as string[]).slice(0, 30).map((label, idx) => ({
   key: `atoll-${idx}`,
   label,
-  img: getAtollImage(label)
+  img: '/images/atoll-types/castle.jpg' // TODO: map to real image per atoll
 }))
 
 export function AtollSearchCarousel() {

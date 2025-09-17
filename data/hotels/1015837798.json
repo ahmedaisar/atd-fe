@@ -1,0 +1,726 @@
+{
+  "_meta": {
+    "status": "SUCCESS",
+    "cached": true,
+    "count": 1,
+    "debug": {
+      "ticket": {
+        "ticket_id": "1015837798_zz_zz_d_publ_en_2_2025-10-08_2025-10-13_1_3",
+        "created_at": 1758065353.7721,
+        "loop": null,
+        "snapped_at": 1758065353.9058,
+        "snapshot_id": "1015837798_zz_zz_d_publ_en_2_2025-10-08_2025-10-13_1_3",
+        "snapshot_ttl": 300,
+        "executions": 2,
+        "progress": 1,
+        "save_errors": []
+      }
+    }
+  },
+  "data": {
+    "meta": [],
+    "geo": {
+      "hs_id": "xk9ou1sgal4x",
+      "region_name": "Dhiffushi",
+      "region_name_long": "Dhiffushi (Kaafu Atoll), Maldives",
+      "region_type": "CITY",
+      "region_id": 6350221,
+      "country_iso": "MV",
+      "country": "maldives",
+      "localised_country": "Maldives",
+      "center": [
+        4.44246,
+        73.71368
+      ],
+      "centroid": [
+        4.44244,
+        73.71368
+      ],
+      "polygon": [
+        "4.438113,73.707662",
+        "4.435686,73.713634",
+        "4.446766,73.719691",
+        "4.449226,73.711356",
+        "4.438113,73.707662"
+      ],
+      "radius": 0.83,
+      "zoom": -1,
+      "search_by_polygon": 1,
+      "cluster": 0,
+      "properties": 54,
+      "radius_override": 5,
+      "boundingbox": {
+        "ne": [
+          4.45,
+          73.72
+        ],
+        "sw": [
+          4.435,
+          73.707
+        ]
+      },
+      "airports": [
+        "MLE",
+        "DRV"
+      ],
+      "region_name_en": "Dhiffushi",
+      "region_name_long_en": "Dhiffushi (Kaafu Atoll), Maldives",
+      "referrer_city_name_en": "Dhiffushi",
+      "parent_region_id": 6051084,
+      "parent_hs_id": "x5p4hmhw6iot",
+      "parent_region_name": "Maldives (all)",
+      "parent_region_name_long": "Maldives (all)",
+      "dynamic_bbox": {
+        "ne": [
+          4.443,
+          73.714
+        ],
+        "sw": [
+          4.443,
+          73.714
+        ]
+      }
+    },
+    "records": [
+      {
+        "hs_id": 1015837798,
+        "slug": "dhiffushi-tourist-hotel-dhiffushi-mv-1015837798",
+        "name": "Dhiffushi Tourist Hotel",
+        "toa": "hotel",
+        "building": {
+          "room_num": 5,
+          "square_meters": 14,
+          "max_children": 1
+        },
+        "location": {
+          "city": "Dhiffushi",
+          "zip": "08030",
+          "country_iso2": "MV",
+          "address": "",
+          "geoid": "xk9ou1sgal4x",
+          "loc": {
+            "type": "Point"
+          },
+          "coordinates": {
+            "lng": 73.71496,
+            "lat": 4.44333
+          }
+        },
+        "opening_time": {
+          "check_in_from": "15:00",
+          "check_in_to": "18:00",
+          "check_out_from": "08:00",
+          "check_out_to": "11:00"
+        },
+        "quality": {
+          "review_count": 52,
+          "review_rating": 86,
+          "stars": 3,
+          "stars_is_estimated": false,
+          "review_source": ""
+        },
+        "covid_safe": true,
+        "amenities": {
+          "children": [
+            "children_playground"
+          ],
+          "wellness": [
+            "solarium"
+          ],
+          "sports": [
+            "badminton",
+            "bike_rent",
+            "tennis",
+            "sub"
+          ],
+          "internet": [
+            "wifi",
+            "internet"
+          ],
+          "entertainment": [
+            "tv_lobby"
+          ],
+          "food_drink": [
+            "cafe",
+            "bar",
+            "tea_coffee_maker",
+            "snack_bar"
+          ],
+          "disability": [
+            "wheelchair_accessible",
+            "disability_facilities"
+          ],
+          "pets": [
+            "pets_allowed"
+          ],
+          "parking": [
+            "parking"
+          ],
+          "outdoor": [
+            "garden",
+            "terrace"
+          ],
+          "other": [],
+          "room": [
+            "fan",
+            "heating",
+            "air_conditioning",
+            "tv"
+          ],
+          "reception": [
+            "24h_reception",
+            "luggage_storage",
+            "concierge",
+            "laundry_facilities",
+            "laundry_service",
+            "safety_deposit_box"
+          ]
+        },
+        "descriptions": {
+          "hotel": "Make yourself at home in one of the 5 guestrooms featuring microwaves. Complimentary wireless internet access is available to keep you connected. Private bathrooms with showers feature complimentary toiletries and hair dryers. Conveniences include safes and desks, and housekeeping is provided daily.",
+          "direction": "With a stay at Dhiffushi Tourist Hotel in Dhiffushi, you'll be near the beach, just a 4-minute walk from Dhiffushi East Kite Beach and 9 minutes by foot from Dhiffushi South Beach. This hotel is within close proximity of Meeru Beach and Meeru House Reef.",
+          "general": "Facing the beachfront, Dhiffushi Tourist Hotel offers 3-star accommodations in Dhiffushi and has free bikes, garden and private beach area. Among the facilities at this property are a 24-hour front desk and a concierge service, along with free WiFi throughout the property. The property has a shared kitchen, a shared lounge and currency exchange for guests. The hotel will provide guests with air-conditioned rooms offering a desk, an electric tea pot, a safety deposit box, a flat-screen TV, a terrace and a private bathroom with a bidet. Dhiffushi Tourist Hotel provides certain accommodations with garden views, and rooms have a balcony. The rooms have a closet. Breakfast is available, and includes continental, Asian and halal options. The accommodation has a playground. You can play darts at Dhiffushi Tourist Hotel, and the area is popular for cycling. Dhiffushi Beach is a 4-minute walk from the hotel.",
+          "amenities": true,
+          "other": "Featured amenities include dry cleaning/laundry services, a 24-hour front desk, and luggage storage. Free self parking is available onsite.",
+          "localized": "Facing the beachfront, Dhiffushi Tourist Hotel offers 3-star accommodations in Dhiffushi and has free bikes, garden and private beach area. Among the facilities at this property are a 24-hour front desk and a concierge service, along with free WiFi throughout the property. The property has a shared kitchen, a shared lounge and currency exchange for guests. The hotel will provide guests with air-conditioned rooms offering a desk, an electric tea pot, a safety deposit box, a flat-screen TV, a terrace and a private bathroom with a bidet. Dhiffushi Tourist Hotel provides certain accommodations with garden views, and rooms have a balcony. The rooms have a closet. Breakfast is available, and includes continental, Asian and halal options. The accommodation has a playground. You can play darts at Dhiffushi Tourist Hotel, and the area is popular for cycling. Dhiffushi Beach is a 4-minute walk from the hotel."
+        },
+        "short_description": "Comfortable hotel with parking, bike rent and bar",
+        "chain": "no_chain",
+        "brand": "no_brand",
+        "offers": [
+          {
+            "price": 53.88,
+            "brt": "p2r#",
+            "rf": "p2r#",
+            "brf": 9502784,
+            "rt": 9502784,
+            "vendor": "agda",
+            "vendor_id_raw": "77595709",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included",
+              "Free cancellation"
+            ],
+            "jc_code": "",
+            "ranking_index": 0.96,
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Standard room",
+            "rooms": [
+              {
+                "name": "Standard room",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included",
+              "refundable": "Free cancellation"
+            },
+            "partner_name": "Agoda",
+            "partner_logo": "https://hotelscan.com/apis/vendors/agda/logo.svg?pos=zz"
+          },
+          {
+            "vendor": "bkng",
+            "price": 62.46,
+            "vendor_id_raw": "13177234",
+            "mota_code": null,
+            "jc_code": "",
+            "partner_name": "Booking.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/bkng/logo.svg?pos=zz",
+            "room_name": "Standard room - Choice of single or double beds",
+            "brf": 9470016,
+            "brt": "p2r#b"
+          },
+          {
+            "vendor": "hawy",
+            "price": 66.82,
+            "vendor_id_raw": "111211931",
+            "mota_code": null,
+            "jc_code": "",
+            "partner_name": "VRBO",
+            "partner_logo": "https://hotelscan.com/apis/vendors/hawy/logo.svg?pos=zz",
+            "room_name": "Go to the booking site for more details",
+            "brf": 8454144,
+            "brt": "z2r#"
+          },
+          {
+            "vendor": "ctrp",
+            "price": 75.6,
+            "vendor_id_raw": "124071918",
+            "mota_code": null,
+            "jc_code": "TRIPCOM",
+            "partner_name": "Trip.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/ctrp/logo.svg?pos=zz",
+            "room_name": "Deluxe room - Choice of single or double beds",
+            "brf": 8454208,
+            "brt": "p2d#b"
+          }
+        ],
+        "all_offers": [
+          {
+            "price": 53.88,
+            "brt": "p2b#b",
+            "rf": "p2b#b",
+            "brf": 9502784,
+            "rt": 9502784,
+            "vendor": "agda",
+            "vendor_id_raw": "77595709",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included",
+              "Free cancellation"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Classic room - Choice of single or double beds",
+            "rooms": [
+              {
+                "name": "Classic room - Choice of single or double beds",
+                "flags": [
+                  "Choice of single or double beds"
+                ]
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included",
+              "refundable": "Free cancellation"
+            },
+            "partner_name": "Agoda",
+            "partner_logo": "https://hotelscan.com/apis/vendors/agda/logo.svg?pos=zz"
+          },
+          {
+            "price": 53.88,
+            "brt": "p2d#b",
+            "rf": "p2d#b",
+            "brf": 9502784,
+            "rt": 9502784,
+            "vendor": "agda",
+            "vendor_id_raw": "77595709",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included",
+              "Free cancellation"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Deluxe room - Choice of single or double beds",
+            "rooms": [
+              {
+                "name": "Deluxe room - Choice of single or double beds",
+                "flags": [
+                  "Choice of single or double beds"
+                ]
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included",
+              "refundable": "Free cancellation"
+            },
+            "partner_name": "Agoda",
+            "partner_logo": "https://hotelscan.com/apis/vendors/agda/logo.svg?pos=zz"
+          },
+          {
+            "price": 53.88,
+            "brt": "z2r#",
+            "rf": "z2r#",
+            "brf": 9503296,
+            "rt": 9503296,
+            "vendor": "agda",
+            "vendor_id_raw": "77595709",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included",
+              "Free cancellation",
+              "Garden view"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Go to the booking site for more details",
+            "rooms": [
+              {
+                "name": "Go to the booking site for more details",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included",
+              "refundable": "Free cancellation",
+              "view_garden": "Garden view"
+            },
+            "partner_name": "Agoda",
+            "partner_logo": "https://hotelscan.com/apis/vendors/agda/logo.svg?pos=zz"
+          },
+          {
+            "price": 53.88,
+            "brt": "p2r#",
+            "rf": "p2r#",
+            "brf": 9502784,
+            "rt": 9502784,
+            "vendor": "agda",
+            "vendor_id_raw": "77595709",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included",
+              "Free cancellation"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Standard room",
+            "rooms": [
+              {
+                "name": "Standard room",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included",
+              "refundable": "Free cancellation"
+            },
+            "partner_name": "Agoda",
+            "partner_logo": "https://hotelscan.com/apis/vendors/agda/logo.svg?pos=zz"
+          },
+          {
+            "price": 55.71,
+            "brt": "p2d#",
+            "rf": "p2d#",
+            "brf": 9502800,
+            "rt": 9502800,
+            "vendor": "agda",
+            "vendor_id_raw": "77595709",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included",
+              "Free cancellation",
+              "Balcony"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Deluxe room",
+            "rooms": [
+              {
+                "name": "Deluxe room",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included",
+              "refundable": "Free cancellation",
+              "balcony": "Balcony"
+            },
+            "partner_name": "Agoda",
+            "partner_logo": "https://hotelscan.com/apis/vendors/agda/logo.svg?pos=zz"
+          },
+          {
+            "price": 62.46,
+            "brt": "p2r#b",
+            "rf": "p2r#b",
+            "brf": 9470016,
+            "rt": 9470016,
+            "vendor": "bkng",
+            "vendor_id_raw": "13177234",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": false,
+            "special": false,
+            "room_name": "Standard room - Choice of single or double beds",
+            "rooms": [
+              {
+                "name": "Standard room - Choice of single or double beds",
+                "flags": [
+                  "Choice of single or double beds"
+                ]
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included"
+            },
+            "partner_name": "Booking.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/bkng/logo.svg?pos=zz"
+          },
+          {
+            "price": 66.82,
+            "brt": "z2r#",
+            "rf": "z2r#",
+            "brf": 8454144,
+            "rt": 8454144,
+            "vendor": "hawy",
+            "vendor_id_raw": "111211931",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Free cancellation"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Go to the booking site for more details",
+            "rooms": [
+              {
+                "name": "Go to the booking site for more details",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "refundable": "Free cancellation"
+            },
+            "partner_name": "VRBO",
+            "partner_logo": "https://hotelscan.com/apis/vendors/hawy/logo.svg?pos=zz"
+          },
+          {
+            "price": 75.6,
+            "brt": "p2d#b",
+            "rf": "p2d#b",
+            "brf": 8454208,
+            "rt": 8454208,
+            "vendor": "ctrp",
+            "vendor_id_raw": "124071918",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Free cancellation"
+            ],
+            "jc_code": "TRIPCOM",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Deluxe room - Choice of single or double beds",
+            "rooms": [
+              {
+                "name": "Deluxe room - Choice of single or double beds",
+                "flags": [
+                  "Choice of single or double beds"
+                ]
+              }
+            ],
+            "offer_flags_new": {
+              "refundable": "Free cancellation"
+            },
+            "partner_name": "Trip.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/ctrp/logo.svg?pos=zz"
+          },
+          {
+            "price": 76.34,
+            "brt": "p2r#b",
+            "rf": "p2r#b",
+            "brf": 8454272,
+            "rt": 8454272,
+            "vendor": "bkng",
+            "vendor_id_raw": "13177234",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Free cancellation",
+              "Pay at the property"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Standard room - Choice of single or double beds",
+            "rooms": [
+              {
+                "name": "Standard room - Choice of single or double beds",
+                "flags": [
+                  "Choice of single or double beds"
+                ]
+              }
+            ],
+            "offer_flags_new": {
+              "refundable": "Free cancellation",
+              "pay_at_hotel": "Pay at the property"
+            },
+            "partner_name": "Booking.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/bkng/logo.svg?pos=zz"
+          }
+        ],
+        "descriptions_language": {
+          "general": {
+            "original_language": true,
+            "text": "Facing the beachfront, Dhiffushi Tourist Hotel offers 3-star accommodations in Dhiffushi and has free bikes, garden and private beach area. Among the facilities at this property are a 24-hour front desk and a concierge service, along with free WiFi throughout the property. The property has a shared kitchen, a shared lounge and currency exchange for guests. The hotel will provide guests with air-conditioned rooms offering a desk, an electric tea pot, a safety deposit box, a flat-screen TV, a terrace and a private bathroom with a bidet. Dhiffushi Tourist Hotel provides certain accommodations with garden views, and rooms have a balcony. The rooms have a closet. Breakfast is available, and includes continental, Asian and halal options. The accommodation has a playground. You can play darts at Dhiffushi Tourist Hotel, and the area is popular for cycling. Dhiffushi Beach is a 4-minute walk from the hotel."
+          },
+          "direction": {
+            "original_language": true,
+            "text": "With a stay at Dhiffushi Tourist Hotel in Dhiffushi, you'll be near the beach, just a 4-minute walk from Dhiffushi East Kite Beach and 9 minutes by foot from Dhiffushi South Beach. This hotel is within close proximity of Meeru Beach and Meeru House Reef."
+          },
+          "hotel": {
+            "original_language": true,
+            "text": "Make yourself at home in one of the 5 guestrooms featuring microwaves. Complimentary wireless internet access is available to keep you connected. Private bathrooms with showers feature complimentary toiletries and hair dryers. Conveniences include safes and desks, and housekeeping is provided daily."
+          },
+          "other": {
+            "original_language": true,
+            "text": "Featured amenities include dry cleaning/laundry services, a 24-hour front desk, and luggage storage. Free self parking is available onsite."
+          }
+        },
+        "chain_code": null,
+        "bids": {
+          "bkng": "j23",
+          "agda": "j23",
+          "ctrp": "j23",
+          "hawy": "j23"
+        },
+        "worst_offer": 75.6,
+        "best_offer": 53.88,
+        "best_offer_ota": "agda",
+        "best_offer_mota": null,
+        "discount": 30,
+        "offers_count": 9,
+        "coordinates": {
+          "lat": 4.44333,
+          "lng": 73.71496
+        },
+        "distance": 0.17,
+        "neighborhood": null,
+        "badge": null,
+        "distances": [
+          {
+            "from": "center",
+            "distance": 0.17,
+            "time": 236,
+            "means": "foot",
+            "means_type": "foot"
+          }
+        ],
+        "specs": {
+          "bathrooms": 1,
+          "beds": null,
+          "bedrooms": 1,
+          "guests": 2,
+          "square_meters": 14
+        },
+        "toa_label": "hotel",
+        "top_amenities": [
+          "internet",
+          "bar",
+          "tea_coffee_maker",
+          "pets_allowed",
+          "parking"
+        ],
+        "transportations": {
+          "airports": [],
+          "trains": []
+        },
+        "images": [
+          {
+            "image_id": "703588225",
+            "label": ""
+          },
+          {
+            "image_id": "703588234",
+            "label": ""
+          },
+          {
+            "image_id": "703588232",
+            "label": ""
+          },
+          {
+            "image_id": "703588222",
+            "label": ""
+          },
+          {
+            "image_id": "703588223",
+            "label": ""
+          },
+          {
+            "image_id": "703588236",
+            "label": ""
+          },
+          {
+            "image_id": "703588231",
+            "label": ""
+          },
+          {
+            "image_id": "703588220",
+            "label": ""
+          },
+          {
+            "image_id": "703588229",
+            "label": ""
+          },
+          {
+            "image_id": "703588227",
+            "label": ""
+          },
+          {
+            "image_id": "703588235",
+            "label": ""
+          },
+          {
+            "image_id": "703588228",
+            "label": ""
+          },
+          {
+            "image_id": "703588217",
+            "label": ""
+          },
+          {
+            "image_id": "703588216",
+            "label": ""
+          },
+          {
+            "image_id": "703588224",
+            "label": ""
+          }
+        ],
+        "hero_offer": {
+          "price": 53.88,
+          "brt": "p2r#",
+          "rf": "p2r#",
+          "brf": 9502784,
+          "rt": 9502784,
+          "vendor": "agda",
+          "vendor_id_raw": "77595709",
+          "mota_code": null,
+          "direct_offer": false,
+          "offer_flags": {
+            "breakfast": "Breakfast included",
+            "refundable": "Free cancellation"
+          },
+          "jc_code": "",
+          "ranking_index": 0.96,
+          "chain": "",
+          "free_cancellation": true,
+          "special": false,
+          "room_name": "Standard room",
+          "rooms": [
+            {
+              "name": "Standard room",
+              "flags": []
+            }
+          ],
+          "partner_name": "Agoda",
+          "partner_logo": "https://hotelscan.com/apis/vendors/agda/logo.svg?pos=zz"
+        },
+        "rank": 0,
+        "ctrl_srt": "im a ctrl teapot",
+        "test_srt": "im a test teapot"
+      }
+    ],
+    "filters": [],
+    "query": {
+      "pos": "zz"
+    }
+  }
+}

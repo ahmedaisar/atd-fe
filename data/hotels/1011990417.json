@@ -1,0 +1,427 @@
+{
+  "_meta": {
+    "status": "SUCCESS",
+    "cached": true,
+    "count": 1,
+    "debug": {
+      "ticket": {
+        "ticket_id": "1011990417_zz_zz_d_publ_en_2_2025-10-08_2025-10-13_1_3",
+        "created_at": 1758065362.8908,
+        "loop": null,
+        "snapped_at": 1758065362.9716,
+        "snapshot_id": "1011990417_zz_zz_d_publ_en_2_2025-10-08_2025-10-13_1_3",
+        "snapshot_ttl": 300,
+        "executions": 2,
+        "progress": 1,
+        "save_errors": []
+      }
+    }
+  },
+  "data": {
+    "meta": [],
+    "geo": {
+      "hs_id": "xmmlhiwlt3m7",
+      "region_name": "Male",
+      "region_name_long": "Male, Maldives",
+      "region_type": "CITY",
+      "region_id": 2343,
+      "country_iso": "MV",
+      "country": "maldives",
+      "localised_country": "Maldives",
+      "center": [
+        4.17432,
+        73.50075
+      ],
+      "centroid": [
+        4.1747,
+        73.50075
+      ],
+      "polygon": [
+        "4.178078,73.481936",
+        "4.170725,73.481004",
+        "4.16616,73.502277",
+        "4.169539,73.519909",
+        "4.178669,73.520501",
+        "4.182473,73.507104",
+        "4.178078,73.481936"
+      ],
+      "radius": 2.24,
+      "zoom": -1,
+      "search_by_polygon": 1,
+      "cluster": 0,
+      "properties": 128,
+      "radius_override": 5,
+      "boundingbox": {
+        "ne": [
+          4.183,
+          73.521
+        ],
+        "sw": [
+          4.166,
+          73.481
+        ]
+      },
+      "airports": [
+        "MLE",
+        "DRV"
+      ],
+      "region_name_en": "Male",
+      "region_name_long_en": "Male, Maldives",
+      "referrer_city_name_en": "Male",
+      "parent_region_id": 6051084,
+      "parent_hs_id": "x5p4hmhw6iot",
+      "parent_region_name": "Maldives (all)",
+      "parent_region_name_long": "Maldives (all)",
+      "dynamic_bbox": {
+        "ne": [
+          4.178,
+          73.505
+        ],
+        "sw": [
+          4.178,
+          73.505
+        ]
+      }
+    },
+    "records": [
+      {
+        "hs_id": 1011990417,
+        "slug": "resting-view-male-mv-1011990417",
+        "name": "Resting View",
+        "toa": "guest_house",
+        "building": {
+          "room_num": 2,
+          "square_meters": 32,
+          "max_children": 1
+        },
+        "location": {
+          "city": "Male",
+          "zip": "20283",
+          "country_iso2": "MV",
+          "address": "Haveeree Hingun, M.haircare Plus Building, 1st Floor",
+          "geoid": "xmmlhiwlt3m7",
+          "loc": {
+            "type": "Point"
+          },
+          "coordinates": {
+            "lng": 73.50529,
+            "lat": 4.17828
+          }
+        },
+        "opening_time": {
+          "check_in_from": "13:30",
+          "check_in_to": "14:00",
+          "check_out_from": "11:30",
+          "check_out_to": "12:00"
+        },
+        "quality": {
+          "review_count": 259,
+          "review_rating": 84,
+          "stars": 0,
+          "stars_is_estimated": false,
+          "review_source": ""
+        },
+        "covid_safe": false,
+        "amenities": {
+          "internet": [
+            "wifi",
+            "internet"
+          ],
+          "transfer": [
+            "shuttle_service"
+          ],
+          "parking": [
+            "parking"
+          ],
+          "outdoor": [
+            "terrace"
+          ],
+          "room": [
+            "fan",
+            "heating",
+            "air_conditioning",
+            "tv"
+          ],
+          "reception": [
+            "laundry_facilities",
+            "laundry_service",
+            "safety_deposit_box"
+          ]
+        },
+        "descriptions": {
+          "general": "Set in Male City, 1.1 km from Artificial Beach and 500 metres from Villa College QI Campus, Resting View offers free WiFi, a terrace and air conditioning. It is situated 400 metres from National Football Stadium and offers private check-in and check-out. The property is non-smoking and is located 500 metres from Henveiru Park.",
+          "other": "Managed by a private host",
+          "localized": "Set in Male City, 1.1 km from Artificial Beach and 500 metres from Villa College QI Campus, Resting View offers free WiFi, a terrace and air conditioning. It is situated 400 metres from National Football Stadium and offers private check-in and check-out. The property is non-smoking and is located 500 metres from Henveiru Park."
+        },
+        "short_description": "Basic guest house with parking and shuttle service",
+        "offers": [
+          {
+            "price": 55.7,
+            "brt": "p2d#q",
+            "rf": "p2d#q",
+            "brf": 8454208,
+            "rt": 8454208,
+            "vendor": "bkng",
+            "vendor_id_raw": "5627425",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Free cancellation"
+            ],
+            "jc_code": "",
+            "ranking_index": 0.9964093357271095,
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Deluxe room - Queen bed",
+            "rooms": [
+              {
+                "name": "Deluxe room - Queen bed",
+                "flags": [
+                  "Queen bed"
+                ]
+              }
+            ],
+            "offer_flags_new": {
+              "refundable": "Free cancellation"
+            },
+            "partner_name": "Booking.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/bkng/logo.svg?pos=zz"
+          },
+          {
+            "vendor": "agda",
+            "price": 55.2,
+            "vendor_id_raw": "13417767",
+            "mota_code": null,
+            "jc_code": "",
+            "partner_name": "Agoda",
+            "partner_logo": "https://hotelscan.com/apis/vendors/agda/logo.svg?pos=zz",
+            "room_name": "Deluxe room - Queen bed",
+            "brf": 8454208,
+            "brt": "p2d#q"
+          }
+        ],
+        "all_offers": [
+          {
+            "price": 55.2,
+            "brt": "p2d#q",
+            "rf": "p2d#q",
+            "brf": 8454208,
+            "rt": 8454208,
+            "vendor": "agda",
+            "vendor_id_raw": "13417767",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Free cancellation"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Deluxe room - Queen bed",
+            "rooms": [
+              {
+                "name": "Deluxe room - Queen bed",
+                "flags": [
+                  "Queen bed"
+                ]
+              }
+            ],
+            "offer_flags_new": {
+              "refundable": "Free cancellation"
+            },
+            "partner_name": "Agoda",
+            "partner_logo": "https://hotelscan.com/apis/vendors/agda/logo.svg?pos=zz"
+          },
+          {
+            "price": 55.7,
+            "brt": "p2d#q",
+            "rf": "p2d#q",
+            "brf": 8454208,
+            "rt": 8454208,
+            "vendor": "bkng",
+            "vendor_id_raw": "5627425",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Free cancellation"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Deluxe room - Queen bed",
+            "rooms": [
+              {
+                "name": "Deluxe room - Queen bed",
+                "flags": [
+                  "Queen bed"
+                ]
+              }
+            ],
+            "offer_flags_new": {
+              "refundable": "Free cancellation"
+            },
+            "partner_name": "Booking.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/bkng/logo.svg?pos=zz"
+          }
+        ],
+        "descriptions_language": {
+          "general": {
+            "original_language": true,
+            "text": "Set in Male City, 1.1 km from Artificial Beach and 500 metres from Villa College QI Campus, Resting View offers free WiFi, a terrace and air conditioning. It is situated 400 metres from National Football Stadium and offers private check-in and check-out. The property is non-smoking and is located 500 metres from Henveiru Park."
+          },
+          "other": {
+            "original_language": true,
+            "text": "Managed by a private host"
+          }
+        },
+        "chain_code": null,
+        "bids": {
+          "bkng": "j23",
+          "agda": "j23"
+        },
+        "worst_offer": null,
+        "best_offer": 55.2,
+        "best_offer_ota": "agda",
+        "best_offer_mota": null,
+        "discount": 0,
+        "offers_count": 2,
+        "coordinates": {
+          "lat": 4.17828,
+          "lng": 73.50529
+        },
+        "distance": 0.67,
+        "neighborhood": null,
+        "badge": null,
+        "distances": [
+          {
+            "from": "center",
+            "distance": 0.67,
+            "time": 931,
+            "means": "foot",
+            "means_type": "foot"
+          }
+        ],
+        "specs": {
+          "bathrooms": 1,
+          "beds": null,
+          "bedrooms": 1,
+          "guests": 2,
+          "square_meters": 32
+        },
+        "toa_label": "guest house",
+        "top_amenities": [
+          "internet",
+          "parking",
+          "heating",
+          "air_conditioning"
+        ],
+        "transportations": {
+          "airports": [],
+          "trains": []
+        },
+        "images": [
+          {
+            "image_id": "593732457",
+            "label": ""
+          },
+          {
+            "image_id": "593732449",
+            "label": ""
+          },
+          {
+            "image_id": "593732460",
+            "label": ""
+          },
+          {
+            "image_id": "593732442",
+            "label": ""
+          },
+          {
+            "image_id": "593732471",
+            "label": ""
+          },
+          {
+            "image_id": "593732453",
+            "label": ""
+          },
+          {
+            "image_id": "593732472",
+            "label": ""
+          },
+          {
+            "image_id": "593732462",
+            "label": ""
+          },
+          {
+            "image_id": "593732455",
+            "label": ""
+          },
+          {
+            "image_id": "593732458",
+            "label": ""
+          },
+          {
+            "image_id": "593732445",
+            "label": ""
+          },
+          {
+            "image_id": "593732463",
+            "label": ""
+          },
+          {
+            "image_id": "593732444",
+            "label": ""
+          },
+          {
+            "image_id": "593732443",
+            "label": ""
+          },
+          {
+            "image_id": "593732450",
+            "label": ""
+          }
+        ],
+        "hero_offer": {
+          "price": 55.7,
+          "brt": "p2d#q",
+          "rf": "p2d#q",
+          "brf": 8454208,
+          "rt": 8454208,
+          "vendor": "bkng",
+          "vendor_id_raw": "5627425",
+          "mota_code": null,
+          "direct_offer": false,
+          "offer_flags": {
+            "refundable": "Free cancellation"
+          },
+          "jc_code": "",
+          "ranking_index": 0.9964093357271095,
+          "chain": "",
+          "free_cancellation": true,
+          "special": false,
+          "room_name": "Deluxe room - Queen bed",
+          "rooms": [
+            {
+              "name": "Deluxe room - Queen bed",
+              "flags": [
+                "Queen bed"
+              ]
+            }
+          ],
+          "partner_name": "Booking.com",
+          "partner_logo": "https://hotelscan.com/apis/vendors/bkng/logo.svg?pos=zz"
+        },
+        "rank": 0,
+        "ctrl_srt": "im a ctrl teapot",
+        "test_srt": "im a test teapot"
+      }
+    ],
+    "filters": [],
+    "query": {
+      "pos": "zz"
+    }
+  }
+}

@@ -1,0 +1,802 @@
+{
+  "_meta": {
+    "status": "SUCCESS",
+    "cached": true,
+    "count": 1,
+    "debug": {
+      "ticket": {
+        "ticket_id": "1003636238_zz_zz_d_publ_en_2_2025-10-08_2025-10-13_1_3",
+        "created_at": 1758065359.3335,
+        "loop": null,
+        "snapped_at": 1758065359.435,
+        "snapshot_id": "1003636238_zz_zz_d_publ_en_2_2025-10-08_2025-10-13_1_3",
+        "snapshot_ttl": 300,
+        "executions": 2,
+        "progress": 1,
+        "save_errors": []
+      }
+    }
+  },
+  "data": {
+    "meta": [],
+    "geo": {
+      "hs_id": "xkhvx3vp0spo",
+      "region_name": "Dhangethi",
+      "region_name_long": "Dhangethi, Maldives",
+      "region_type": "CITY",
+      "region_id": 6334812,
+      "country_iso": "MV",
+      "country": "maldives",
+      "localised_country": "Maldives",
+      "center": [
+        3.60664,
+        72.95528
+      ],
+      "centroid": [
+        3.6067,
+        72.95582
+      ],
+      "polygon": [
+        "3.610612,72.951386",
+        "3.601346,72.953854",
+        "3.601827,72.959167",
+        "3.611924,72.958578",
+        "3.610612,72.951386"
+      ],
+      "radius": 0.66,
+      "zoom": -1,
+      "search_by_polygon": 0,
+      "cluster": 0,
+      "properties": 45,
+      "radius_override": 5,
+      "boundingbox": {
+        "ne": [
+          3.612,
+          72.96
+        ],
+        "sw": [
+          3.601,
+          72.951
+        ]
+      },
+      "airports": [
+        "MLE",
+        "DRV"
+      ],
+      "region_name_en": "Dhangethi",
+      "region_name_long_en": "Dhangethi, Maldives",
+      "referrer_city_name_en": "Dhangethi",
+      "parent_region_id": 6051084,
+      "parent_hs_id": "x5p4hmhw6iot",
+      "parent_region_name": "Maldives (all)",
+      "parent_region_name_long": "Maldives (all)",
+      "dynamic_bbox": {
+        "ne": [
+          3.606,
+          72.956
+        ],
+        "sw": [
+          3.606,
+          72.956
+        ]
+      }
+    },
+    "records": [
+      {
+        "hs_id": 1003636238,
+        "slug": "arianna-dhangethi-dhangethi-mv-1003636238",
+        "name": "Arianna Dhangethi",
+        "toa": "guest_house",
+        "building": {
+          "room_num": 10
+        },
+        "location": {
+          "city": "Dhangethi",
+          "zip": "00060",
+          "country_iso2": "MV",
+          "address": "Unnamed Road",
+          "geoid": "xkhvx3vp0spo",
+          "loc": {
+            "type": "Point"
+          },
+          "coordinates": {
+            "lng": 72.95617,
+            "lat": 3.60689
+          }
+        },
+        "opening_time": {
+          "check_in_from": "14:00",
+          "check_in_to": "18:00",
+          "check_out_from": "09:00",
+          "check_out_to": "10:00"
+        },
+        "quality": {
+          "review_count": 52,
+          "review_rating": 86,
+          "stars": 0,
+          "stars_is_estimated": false,
+          "review_source": ""
+        },
+        "covid_safe": true,
+        "amenities": {
+          "children": [
+            "babysitter",
+            "children_playground"
+          ],
+          "wellness": [
+            "fitness_center",
+            "hair_salon"
+          ],
+          "sports": [
+            "badminton",
+            "sub",
+            "surf"
+          ],
+          "internet": [
+            "wifi",
+            "internet"
+          ],
+          "food_drink": [
+            "restaurant",
+            "room_service",
+            "cafe",
+            "bar"
+          ],
+          "parking": [
+            "parking"
+          ],
+          "outdoor": [
+            "garden",
+            "terrace"
+          ],
+          "other": [],
+          "entertainment": [
+            "tv_lobby"
+          ],
+          "transfer": [
+            "shuttle_service"
+          ],
+          "room": [
+            "air_conditioning",
+            "tv"
+          ],
+          "reception": [
+            "24h_reception",
+            "laundry_service",
+            "safety_deposit_box"
+          ]
+        },
+        "descriptions": {
+          "general": "Crafted for coziness, every guestroom provides an array of features, guaranteeing a tranquil night's sleep while maintaining the level of comfort. For an elevated experience at hotel, select rooms are equipped with air conditioning to improve your stay.At Manta Dhangethi, a selection of rooms can be found that showcase unique design elements such as a balcony or terrace.For certain chosen rooms, guests can enjoy in-room amusement like television and cable TV as a part of their stay. Rest assured that your hydration needs will be met, as some guestrooms are equipped with a refrigerator and mini bar. Maintain your cleanliness and comfort using a hair dryer and toiletries available in select guest restrooms. Experience a fantastic evening effortlessly! Relish an entertaining night without venturing beyond the confines of the bar.",
+          "localized": "Crafted for coziness, every guestroom provides an array of features, guaranteeing a tranquil night's sleep while maintaining the level of comfort. For an elevated experience at hotel, select rooms are equipped with air conditioning to improve your stay.At Manta Dhangethi, a selection of rooms can be found that showcase unique design elements such as a balcony or terrace.For certain chosen rooms, guests can enjoy in-room amusement like television and cable TV as a part of their stay. Rest assured that your hydration needs will be met, as some guestrooms are equipped with a refrigerator and mini bar. Maintain your cleanliness and comfort using a hair dryer and toiletries available in select guest restrooms. Experience a fantastic evening effortlessly! Relish an entertaining night without venturing beyond the confines of the bar."
+        },
+        "short_description": "Simple guest house with fitness center, restaurant and bar",
+        "chain": "no_chain",
+        "brand": "no_brand",
+        "offers": [
+          {
+            "price": 39.8,
+            "brt": "p2p#",
+            "rf": "p2p#",
+            "brf": 8454272,
+            "rt": 8454272,
+            "vendor": "bkng",
+            "vendor_id_raw": "4026581",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Free cancellation",
+              "Pay at the property"
+            ],
+            "jc_code": "",
+            "ranking_index": 1,
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Budget room",
+            "rooms": [
+              {
+                "name": "Budget room",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "refundable": "Free cancellation",
+              "pay_at_hotel": "Pay at the property"
+            },
+            "partner_name": "Booking.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/bkng/logo.svg?pos=zz"
+          },
+          {
+            "vendor": "agda",
+            "price": 81.1,
+            "vendor_id_raw": "32773247",
+            "mota_code": null,
+            "jc_code": "",
+            "partner_name": "Agoda",
+            "partner_logo": "https://hotelscan.com/apis/vendors/agda/logo.svg?pos=zz",
+            "room_name": "Deluxe room",
+            "brf": 8454272,
+            "brt": "p2d#"
+          }
+        ],
+        "all_offers": [
+          {
+            "price": 39.8,
+            "brt": "p2p#",
+            "rf": "p2p#",
+            "brf": 8454272,
+            "rt": 8454272,
+            "vendor": "bkng",
+            "vendor_id_raw": "4026581",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Free cancellation",
+              "Pay at the property"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Budget room",
+            "rooms": [
+              {
+                "name": "Budget room",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "refundable": "Free cancellation",
+              "pay_at_hotel": "Pay at the property"
+            },
+            "partner_name": "Booking.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/bkng/logo.svg?pos=zz"
+          },
+          {
+            "price": 64.68,
+            "brt": "p2d#q",
+            "rf": "p2d#q",
+            "brf": 8421440,
+            "rt": 8421440,
+            "vendor": "bkng",
+            "vendor_id_raw": "4026581",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": false,
+            "special": false,
+            "room_name": "Deluxe room - Queen bed",
+            "rooms": [
+              {
+                "name": "Deluxe room - Queen bed",
+                "flags": [
+                  "Queen bed"
+                ]
+              }
+            ],
+            "offer_flags_new": [],
+            "partner_name": "Booking.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/bkng/logo.svg?pos=zz"
+          },
+          {
+            "price": 74.63,
+            "brt": "p2d#",
+            "rf": "p2d#",
+            "brf": 8421440,
+            "rt": 8421440,
+            "vendor": "bkng",
+            "vendor_id_raw": "4026581",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": false,
+            "special": false,
+            "room_name": "Deluxe room",
+            "rooms": [
+              {
+                "name": "Deluxe room",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": [],
+            "partner_name": "Booking.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/bkng/logo.svg?pos=zz"
+          },
+          {
+            "price": 81.1,
+            "brt": "p2d#",
+            "rf": "p2d#",
+            "brf": 8454272,
+            "rt": 8454272,
+            "vendor": "agda",
+            "vendor_id_raw": "32773247",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Free cancellation",
+              "Pay at the property"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Deluxe room",
+            "rooms": [
+              {
+                "name": "Deluxe room",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "refundable": "Free cancellation",
+              "pay_at_hotel": "Pay at the property"
+            },
+            "partner_name": "Agoda",
+            "partner_logo": "https://hotelscan.com/apis/vendors/agda/logo.svg?pos=zz"
+          },
+          {
+            "price": 84.65,
+            "brt": "p2d#b",
+            "rf": "p2d#b",
+            "brf": 8454272,
+            "rt": 8454272,
+            "vendor": "agda",
+            "vendor_id_raw": "32773247",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Free cancellation",
+              "Pay at the property"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Deluxe room - Choice of single or double beds",
+            "rooms": [
+              {
+                "name": "Deluxe room - Choice of single or double beds",
+                "flags": [
+                  "Choice of single or double beds"
+                ]
+              }
+            ],
+            "offer_flags_new": {
+              "refundable": "Free cancellation",
+              "pay_at_hotel": "Pay at the property"
+            },
+            "partner_name": "Agoda",
+            "partner_logo": "https://hotelscan.com/apis/vendors/agda/logo.svg?pos=zz"
+          },
+          {
+            "price": 85.54,
+            "brt": "p2d#",
+            "rf": "p2d#",
+            "brf": 9502848,
+            "rt": 9502848,
+            "vendor": "agda",
+            "vendor_id_raw": "32773247",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included",
+              "Free cancellation",
+              "Pay at the property"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Deluxe room",
+            "rooms": [
+              {
+                "name": "Deluxe room",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included",
+              "refundable": "Free cancellation",
+              "pay_at_hotel": "Pay at the property"
+            },
+            "partner_name": "Agoda",
+            "partner_logo": "https://hotelscan.com/apis/vendors/agda/logo.svg?pos=zz"
+          },
+          {
+            "price": 89.98,
+            "brt": "p2d#b",
+            "rf": "p2d#b",
+            "brf": 9502848,
+            "rt": 9502848,
+            "vendor": "agda",
+            "vendor_id_raw": "32773247",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included",
+              "Free cancellation",
+              "Pay at the property"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Deluxe room - Choice of single or double beds",
+            "rooms": [
+              {
+                "name": "Deluxe room - Choice of single or double beds",
+                "flags": [
+                  "Choice of single or double beds"
+                ]
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included",
+              "refundable": "Free cancellation",
+              "pay_at_hotel": "Pay at the property"
+            },
+            "partner_name": "Agoda",
+            "partner_logo": "https://hotelscan.com/apis/vendors/agda/logo.svg?pos=zz"
+          },
+          {
+            "price": 93.08,
+            "brt": "p2d#",
+            "rf": "p2d#",
+            "brf": 8454208,
+            "rt": 8454208,
+            "vendor": "agda",
+            "vendor_id_raw": "32773247",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Free cancellation"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Deluxe room",
+            "rooms": [
+              {
+                "name": "Deluxe room",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "refundable": "Free cancellation"
+            },
+            "partner_name": "Agoda",
+            "partner_logo": "https://hotelscan.com/apis/vendors/agda/logo.svg?pos=zz"
+          },
+          {
+            "price": 97.97,
+            "brt": "p2d#b",
+            "rf": "p2d#b",
+            "brf": 8454208,
+            "rt": 8454208,
+            "vendor": "agda",
+            "vendor_id_raw": "32773247",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Free cancellation"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Deluxe room - Choice of single or double beds",
+            "rooms": [
+              {
+                "name": "Deluxe room - Choice of single or double beds",
+                "flags": [
+                  "Choice of single or double beds"
+                ]
+              }
+            ],
+            "offer_flags_new": {
+              "refundable": "Free cancellation"
+            },
+            "partner_name": "Agoda",
+            "partner_logo": "https://hotelscan.com/apis/vendors/agda/logo.svg?pos=zz"
+          },
+          {
+            "price": 108.17,
+            "brt": "p2d#",
+            "rf": "p2d#",
+            "brf": 9502848,
+            "rt": 9502848,
+            "vendor": "agda",
+            "vendor_id_raw": "32773247",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included",
+              "Free cancellation",
+              "Pay at the property"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Deluxe room",
+            "rooms": [
+              {
+                "name": "Deluxe room",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included",
+              "refundable": "Free cancellation",
+              "pay_at_hotel": "Pay at the property"
+            },
+            "partner_name": "Agoda",
+            "partner_logo": "https://hotelscan.com/apis/vendors/agda/logo.svg?pos=zz"
+          },
+          {
+            "price": 113.94,
+            "brt": "p2d#b",
+            "rf": "p2d#b",
+            "brf": 9502848,
+            "rt": 9502848,
+            "vendor": "agda",
+            "vendor_id_raw": "32773247",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included",
+              "Free cancellation",
+              "Pay at the property"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Deluxe room - Choice of single or double beds",
+            "rooms": [
+              {
+                "name": "Deluxe room - Choice of single or double beds",
+                "flags": [
+                  "Choice of single or double beds"
+                ]
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included",
+              "refundable": "Free cancellation",
+              "pay_at_hotel": "Pay at the property"
+            },
+            "partner_name": "Agoda",
+            "partner_logo": "https://hotelscan.com/apis/vendors/agda/logo.svg?pos=zz"
+          },
+          {
+            "price": 123.26,
+            "brt": "p2d#",
+            "rf": "p2d#",
+            "brf": 9502848,
+            "rt": 9502848,
+            "vendor": "agda",
+            "vendor_id_raw": "32773247",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included",
+              "Free cancellation",
+              "Pay at the property"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Deluxe room",
+            "rooms": [
+              {
+                "name": "Deluxe room",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included",
+              "refundable": "Free cancellation",
+              "pay_at_hotel": "Pay at the property"
+            },
+            "partner_name": "Agoda",
+            "partner_logo": "https://hotelscan.com/apis/vendors/agda/logo.svg?pos=zz"
+          },
+          {
+            "price": 129.91,
+            "brt": "p2d#b",
+            "rf": "p2d#b",
+            "brf": 9502848,
+            "rt": 9502848,
+            "vendor": "agda",
+            "vendor_id_raw": "32773247",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included",
+              "Free cancellation",
+              "Pay at the property"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Deluxe room - Choice of single or double beds",
+            "rooms": [
+              {
+                "name": "Deluxe room - Choice of single or double beds",
+                "flags": [
+                  "Choice of single or double beds"
+                ]
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included",
+              "refundable": "Free cancellation",
+              "pay_at_hotel": "Pay at the property"
+            },
+            "partner_name": "Agoda",
+            "partner_logo": "https://hotelscan.com/apis/vendors/agda/logo.svg?pos=zz"
+          }
+        ],
+        "descriptions_language": {
+          "general": {
+            "original_language": true,
+            "text": "Crafted for coziness, every guestroom provides an array of features, guaranteeing a tranquil night's sleep while maintaining the level of comfort. For an elevated experience at hotel, select rooms are equipped with air conditioning to improve your stay.At Manta Dhangethi, a selection of rooms can be found that showcase unique design elements such as a balcony or terrace.For certain chosen rooms, guests can enjoy in-room amusement like television and cable TV as a part of their stay. Rest assured that your hydration needs will be met, as some guestrooms are equipped with a refrigerator and mini bar. Maintain your cleanliness and comfort using a hair dryer and toiletries available in select guest restrooms. Experience a fantastic evening effortlessly! Relish an entertaining night without venturing beyond the confines of the bar."
+          }
+        },
+        "chain_code": null,
+        "bids": {
+          "agda": "j23",
+          "bkng": "j23"
+        },
+        "worst_offer": 81.1,
+        "best_offer": 39.8,
+        "best_offer_ota": "bkng",
+        "best_offer_mota": null,
+        "discount": 50,
+        "offers_count": 13,
+        "coordinates": {
+          "lat": 3.60689,
+          "lng": 72.95617
+        },
+        "distance": 0.1,
+        "neighborhood": null,
+        "badge": null,
+        "distances": [
+          {
+            "from": "center",
+            "distance": 0.1,
+            "time": 139,
+            "means": "foot",
+            "means_type": "foot"
+          }
+        ],
+        "specs": {
+          "bathrooms": null,
+          "beds": null,
+          "bedrooms": null,
+          "guests": null,
+          "square_meters": null
+        },
+        "toa_label": "guest house",
+        "top_amenities": [
+          "internet",
+          "restaurant",
+          "room_service",
+          "bar",
+          "parking"
+        ],
+        "transportations": {
+          "airports": [],
+          "trains": []
+        },
+        "images": [
+          {
+            "image_id": "746388975",
+            "label": ""
+          },
+          {
+            "image_id": "746388985",
+            "label": ""
+          },
+          {
+            "image_id": "746388971",
+            "label": ""
+          },
+          {
+            "image_id": "746388953",
+            "label": ""
+          },
+          {
+            "image_id": "746388958",
+            "label": ""
+          },
+          {
+            "image_id": "746388990",
+            "label": ""
+          },
+          {
+            "image_id": "746388987",
+            "label": ""
+          },
+          {
+            "image_id": "746388952",
+            "label": ""
+          },
+          {
+            "image_id": "746388986",
+            "label": ""
+          },
+          {
+            "image_id": "746388974",
+            "label": ""
+          },
+          {
+            "image_id": "746388978",
+            "label": ""
+          },
+          {
+            "image_id": "746388979",
+            "label": ""
+          },
+          {
+            "image_id": "746388968",
+            "label": ""
+          },
+          {
+            "image_id": "746388988",
+            "label": ""
+          },
+          {
+            "image_id": "746388946",
+            "label": ""
+          }
+        ],
+        "hero_offer": {
+          "price": 39.8,
+          "brt": "p2p#",
+          "rf": "p2p#",
+          "brf": 8454272,
+          "rt": 8454272,
+          "vendor": "bkng",
+          "vendor_id_raw": "4026581",
+          "mota_code": null,
+          "direct_offer": false,
+          "offer_flags": {
+            "refundable": "Free cancellation",
+            "pay_at_hotel": "Pay at the property"
+          },
+          "jc_code": "",
+          "ranking_index": 1,
+          "chain": "",
+          "free_cancellation": true,
+          "special": false,
+          "room_name": "Budget room",
+          "rooms": [
+            {
+              "name": "Budget room",
+              "flags": []
+            }
+          ],
+          "partner_name": "Booking.com",
+          "partner_logo": "https://hotelscan.com/apis/vendors/bkng/logo.svg?pos=zz"
+        },
+        "rank": 0,
+        "ctrl_srt": "im a ctrl teapot",
+        "test_srt": "im a test teapot"
+      }
+    ],
+    "filters": [],
+    "query": {
+      "pos": "zz"
+    }
+  }
+}

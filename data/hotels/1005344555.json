@@ -1,0 +1,440 @@
+{
+  "_meta": {
+    "status": "SUCCESS",
+    "cached": true,
+    "count": 1,
+    "debug": {
+      "ticket": {
+        "ticket_id": "1005344555_zz_zz_d_publ_en_2_2025-10-08_2025-10-13_1_3",
+        "created_at": 1758065390.191,
+        "loop": null,
+        "snapped_at": 1758065390.3138,
+        "snapshot_id": "1005344555_zz_zz_d_publ_en_2_2025-10-08_2025-10-13_1_3",
+        "snapshot_ttl": 300,
+        "executions": 2,
+        "progress": 1,
+        "save_errors": []
+      }
+    }
+  },
+  "data": {
+    "meta": [],
+    "geo": {
+      "hs_id": "xkx8jeq4hbuy",
+      "region_name": "Rasdhoo",
+      "region_name_long": "Rasdhoo, Maldives",
+      "region_type": "CITY",
+      "region_id": 6227584,
+      "country_iso": "MV",
+      "country": "maldives",
+      "localised_country": "Maldives",
+      "center": [
+        4.26655,
+        72.99018
+      ],
+      "centroid": [
+        4.2669,
+        72.99018
+      ],
+      "polygon": [
+        "4.254605,72.99124",
+        "4.263035,72.987716",
+        "4.268655,72.976446",
+        "4.27849,72.994054",
+        "4.265142,73.003917",
+        "4.254605,72.99124"
+      ],
+      "radius": 1.54,
+      "zoom": -1,
+      "search_by_polygon": 1,
+      "cluster": 0,
+      "properties": 54,
+      "radius_override": 5,
+      "boundingbox": {
+        "ne": [
+          4.279,
+          73.004
+        ],
+        "sw": [
+          4.254,
+          72.976
+        ]
+      },
+      "airports": [
+        "MLE",
+        "DRV"
+      ],
+      "region_name_en": "Rasdhoo",
+      "region_name_long_en": "Rasdhoo, Maldives",
+      "referrer_city_name_en": "Rasdhoo",
+      "parent_region_id": 109,
+      "parent_hs_id": "xmmmamtksdxx",
+      "parent_region_name": "Maldives",
+      "parent_region_name_long": "Maldives",
+      "dynamic_bbox": {
+        "ne": [
+          4.261,
+          72.993
+        ],
+        "sw": [
+          4.261,
+          72.993
+        ]
+      }
+    },
+    "records": [
+      {
+        "hs_id": 1005344555,
+        "slug": "gamotranquila-rasdhoo-mv-1005344555",
+        "name": "Gamo*tranquila",
+        "ty_id": "7765ad0e-a46e-46d3-9e65-99272b96795a",
+        "toa": "guest_house",
+        "building": {
+          "room_num": 10
+        },
+        "location": {
+          "city": "Rasdhoo",
+          "zip": "09020",
+          "country_iso2": "MV",
+          "address": "Fannu Miskithu Magu",
+          "geoid": "xkx8jeq4hbuy",
+          "loc": {
+            "type": "Point"
+          },
+          "coordinates": {
+            "lng": 72.993251,
+            "lat": 4.261329
+          }
+        },
+        "opening_time": {
+          "check_in_from": "12:00",
+          "check_in_to": "00:00",
+          "check_out_from": null,
+          "check_out_to": "11:00"
+        },
+        "quality": {
+          "review_count": 21,
+          "review_rating": 80,
+          "stars": 4,
+          "stars_is_estimated": false,
+          "review_source": ""
+        },
+        "covid_safe": false,
+        "amenities": {
+          "wellness": [
+            "massage",
+            "outdoor_pool"
+          ],
+          "sports": [
+            "sub",
+            "surf"
+          ],
+          "internet": [
+            "wifi_lobby",
+            "wifi_room"
+          ],
+          "transfer": [
+            "shuttle_service"
+          ],
+          "food_drink": [
+            "restaurant",
+            "room_service",
+            "cafe",
+            "bar"
+          ],
+          "disability": [
+            "wheelchair_accessible",
+            "disability_facilities"
+          ],
+          "parking": [
+            "parking"
+          ],
+          "outdoor": [
+            "garden"
+          ],
+          "business": [
+            "meeting_room",
+            "business_services"
+          ],
+          "children": [
+            "babysitter",
+            "children_playground"
+          ],
+          "room": [
+            "fan",
+            "air_conditioning",
+            "tv"
+          ],
+          "reception": [
+            "24h_reception",
+            "luggage_storage",
+            "concierge",
+            "laundry_service",
+            "safety_deposit_box"
+          ]
+        },
+        "descriptions": {
+          "direction": "Located in Rasdhoo, Tranquila Maldives is on a private beach. Folhudhoo Harbor and Ukulhas Harbor are local landmarks, and the area's natural beauty can be seen at Madivaru Corner Dive Site and Rasdhoo Reef Dive Site. Spend some time exploring the area's activities, including whale-watching.",
+          "general": "At Tranquila Maldives, exceptional service and top-notch amenities create a memorable experience for guests.Complimentary internet access is available in the hotel to ensure you stay connected during your visit.Arrange your trips to and from the airport using the hotel's convenient transportation services booking. Amenities at shuttle offered by Tranquila Maldives simplify the organization of your excursions, tourist activities, and other adventures in Maldive Islands.Continuously receive the support you require through front desk amenities such as concierge service, express check-in or check-out and luggage storage.At the hotel, their tours can even assist you in booking tickets and securing reservations for leisure activities and adventures.At the hotel, utilize the convenient laundry service to maintain your preferred travel attire fresh, allowing you to pack lighter. Craving relaxation? In-room amenities such as room service and daily housekeeping allow you to maximize your time spent inside the room.For the health and well-being of all guests and staff, smoking is restricted exclusively to assigned zones. Accommodations come equipped with all the conveniences required for a restful night's slumber. A selection of rooms feature linen service, blackout curtains and air conditioning to ensure your comfort and convenience.A few accommodations at Tranquila Maldives also include unique design elements like a balcony or terrace. In certain rooms, the hotel offers visitors access to instant coffee and mini bar.In the hotel, certain guest bathrooms come equipped with essential bathroom amenities, such as a hair dryer and toiletries, ensuring a comfortable stay for guests. A delightful breakfast is the perfect way to begin your day, and at Tranquila Maldives, you can always indulge in a scrumptious meal on-site. All adore a delightful cup of coffee! An on-site coffee shop ensures you can relish a cup of authentic, freshly-brewed coffee every morning -- or whenever you desire it.Allow your journey to be free from the pangs of hunger! On-site eateries offer delicious and accessible meal choices. At Tranquila Maldives, catering to your unique requirements is our priority. Guests with particular dietary preferences can choose from an assortment of dishes, featuring kosher and halal choices among other options. At Tranquila Maldives, experience the ease of having groceries brought straight to your accommodation through their efficient service. Are you inclined to prepare your own dishes? You will surely appreciate having the on-site BBQ facilities available. At Tranquila Maldives, guests can take pleasure in the delightful recreational amenities provided for their entertainment.At the hotel, a wide range of enjoyable activities ensures that there's never a dull moment during your visit. Don't miss out on the easily reachable beach in the vicinity.Conclude your days in complete tranquility by paying a visit to massage and salon for ultimate relaxation.At Tranquila Maldives, a wide array of amenities guarantees a fulfilling experience throughout your visit. Make your holiday truly memorable by taking a rejuvenating plunge into the pool. At the hotel fitness center, you have the option to engage in your daily exercise routine or simply alleviate your jet lag by breaking a sweat.",
+          "amenities": true,
+          "localized": "At Tranquila Maldives, exceptional service and top-notch amenities create a memorable experience for guests.Complimentary internet access is available in the hotel to ensure you stay connected during your visit.Arrange your trips to and from the airport using the hotel's convenient transportation services booking. Amenities at shuttle offered by Tranquila Maldives simplify the organization of your excursions, tourist activities, and other adventures in Maldive Islands.Continuously receive the support you require through front desk amenities such as concierge service, express check-in or check-out and luggage storage.At the hotel, their tours can even assist you in booking tickets and securing reservations for leisure activities and adventures.At the hotel, utilize the convenient laundry service to maintain your preferred travel attire fresh, allowing you to pack lighter. Craving relaxation? In-room amenities such as room service and daily housekeeping allow you to maximize your time spent inside the room.For the health and well-being of all guests and staff, smoking is restricted exclusively to assigned zones. Accommodations come equipped with all the conveniences required for a restful night's slumber. A selection of rooms feature linen service, blackout curtains and air conditioning to ensure your comfort and convenience.A few accommodations at Tranquila Maldives also include unique design elements like a balcony or terrace. In certain rooms, the hotel offers visitors access to instant coffee and mini bar.In the hotel, certain guest bathrooms come equipped with essential bathroom amenities, such as a hair dryer and toiletries, ensuring a comfortable stay for guests. A delightful breakfast is the perfect way to begin your day, and at Tranquila Maldives, you can always indulge in a scrumptious meal on-site. All adore a delightful cup of coffee! An on-site coffee shop ensures you can relish a cup of authentic, freshly-brewed coffee every morning -- or whenever you desire it.Allow your journey to be free from the pangs of hunger! On-site eateries offer delicious and accessible meal choices. At Tranquila Maldives, catering to your unique requirements is our priority. Guests with particular dietary preferences can choose from an assortment of dishes, featuring kosher and halal choices among other options. At Tranquila Maldives, experience the ease of having groceries brought straight to your accommodation through their efficient service. Are you inclined to prepare your own dishes? You will surely appreciate having the on-site BBQ facilities available. At Tranquila Maldives, guests can take pleasure in the delightful recreational amenities provided for their entertainment.At the hotel, a wide range of enjoyable activities ensures that there's never a dull moment during your visit. Don't miss out on the easily reachable beach in the vicinity.Conclude your days in complete tranquility by paying a visit to massage and salon for ultimate relaxation.At Tranquila Maldives, a wide array of amenities guarantees a fulfilling experience throughout your visit. Make your holiday truly memorable by taking a rejuvenating plunge into the pool. At the hotel fitness center, you have the option to engage in your daily exercise routine or simply alleviate your jet lag by breaking a sweat."
+        },
+        "short_description": "Original guest house with 10 rooms, outdoor pool and parking",
+        "chain": "no_chain",
+        "brand": "no_brand",
+        "offers": [
+          {
+            "price": 33.22,
+            "brt": "z2r#",
+            "rf": "z2r#",
+            "brf": 9502784,
+            "rt": 9502784,
+            "vendor": "agda",
+            "vendor_id_raw": "23069670",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included",
+              "Free cancellation"
+            ],
+            "jc_code": "",
+            "ranking_index": 1,
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Go to the booking site for more details",
+            "rooms": [
+              {
+                "name": "Go to the booking site for more details",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included",
+              "refundable": "Free cancellation"
+            },
+            "partner_name": "Agoda",
+            "partner_logo": "https://hotelscan.com/apis/vendors/agda/logo.svg?pos=zz"
+          }
+        ],
+        "all_offers": [
+          {
+            "price": 33.22,
+            "brt": "z2r#",
+            "rf": "z2r#",
+            "brf": 9502784,
+            "rt": 9502784,
+            "vendor": "agda",
+            "vendor_id_raw": "23069670",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included",
+              "Free cancellation"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Go to the booking site for more details",
+            "rooms": [
+              {
+                "name": "Go to the booking site for more details",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included",
+              "refundable": "Free cancellation"
+            },
+            "partner_name": "Agoda",
+            "partner_logo": "https://hotelscan.com/apis/vendors/agda/logo.svg?pos=zz"
+          },
+          {
+            "price": 34.61,
+            "brt": "z2r#",
+            "rf": "z2r#",
+            "brf": 9470016,
+            "rt": 9470016,
+            "vendor": "agda",
+            "vendor_id_raw": "23069670",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": false,
+            "special": false,
+            "room_name": "Go to the booking site for more details",
+            "rooms": [
+              {
+                "name": "Go to the booking site for more details",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included"
+            },
+            "partner_name": "Agoda",
+            "partner_logo": "https://hotelscan.com/apis/vendors/agda/logo.svg?pos=zz"
+          }
+        ],
+        "descriptions_language": {
+          "general": {
+            "original_language": true,
+            "text": "At Tranquila Maldives, exceptional service and top-notch amenities create a memorable experience for guests.Complimentary internet access is available in the hotel to ensure you stay connected during your visit.Arrange your trips to and from the airport using the hotel's convenient transportation services booking. Amenities at shuttle offered by Tranquila Maldives simplify the organization of your excursions, tourist activities, and other adventures in Maldive Islands.Continuously receive the support you require through front desk amenities such as concierge service, express check-in or check-out and luggage storage.At the hotel, their tours can even assist you in booking tickets and securing reservations for leisure activities and adventures.At the hotel, utilize the convenient laundry service to maintain your preferred travel attire fresh, allowing you to pack lighter. Craving relaxation? In-room amenities such as room service and daily housekeeping allow you to maximize your time spent inside the room.For the health and well-being of all guests and staff, smoking is restricted exclusively to assigned zones. Accommodations come equipped with all the conveniences required for a restful night's slumber. A selection of rooms feature linen service, blackout curtains and air conditioning to ensure your comfort and convenience.A few accommodations at Tranquila Maldives also include unique design elements like a balcony or terrace. In certain rooms, the hotel offers visitors access to instant coffee and mini bar.In the hotel, certain guest bathrooms come equipped with essential bathroom amenities, such as a hair dryer and toiletries, ensuring a comfortable stay for guests. A delightful breakfast is the perfect way to begin your day, and at Tranquila Maldives, you can always indulge in a scrumptious meal on-site. All adore a delightful cup of coffee! An on-site coffee shop ensures you can relish a cup of authentic, freshly-brewed coffee every morning -- or whenever you desire it.Allow your journey to be free from the pangs of hunger! On-site eateries offer delicious and accessible meal choices. At Tranquila Maldives, catering to your unique requirements is our priority. Guests with particular dietary preferences can choose from an assortment of dishes, featuring kosher and halal choices among other options. At Tranquila Maldives, experience the ease of having groceries brought straight to your accommodation through their efficient service. Are you inclined to prepare your own dishes? You will surely appreciate having the on-site BBQ facilities available. At Tranquila Maldives, guests can take pleasure in the delightful recreational amenities provided for their entertainment.At the hotel, a wide range of enjoyable activities ensures that there's never a dull moment during your visit. Don't miss out on the easily reachable beach in the vicinity.Conclude your days in complete tranquility by paying a visit to massage and salon for ultimate relaxation.At Tranquila Maldives, a wide array of amenities guarantees a fulfilling experience throughout your visit. Make your holiday truly memorable by taking a rejuvenating plunge into the pool. At the hotel fitness center, you have the option to engage in your daily exercise routine or simply alleviate your jet lag by breaking a sweat."
+          },
+          "direction": {
+            "original_language": true,
+            "text": "Located in Rasdhoo, Tranquila Maldives is on a private beach. Folhudhoo Harbor and Ukulhas Harbor are local landmarks, and the area's natural beauty can be seen at Madivaru Corner Dive Site and Rasdhoo Reef Dive Site. Spend some time exploring the area's activities, including whale-watching."
+          }
+        },
+        "chain_code": null,
+        "bids": {
+          "agda": "j23"
+        },
+        "worst_offer": null,
+        "best_offer": 33.22,
+        "best_offer_ota": "agda",
+        "best_offer_mota": null,
+        "discount": 0,
+        "offers_count": 2,
+        "coordinates": {
+          "lat": 4.261329,
+          "lng": 72.993251
+        },
+        "distance": 0.67,
+        "neighborhood": null,
+        "badge": null,
+        "distances": [
+          {
+            "from": "center",
+            "distance": 0.67,
+            "time": 931,
+            "means": "foot",
+            "means_type": "foot"
+          }
+        ],
+        "specs": {
+          "bathrooms": null,
+          "beds": null,
+          "bedrooms": null,
+          "guests": null,
+          "square_meters": null
+        },
+        "toa_label": "guest house",
+        "top_amenities": [
+          "outdoor_pool",
+          "wifi_room",
+          "restaurant",
+          "room_service",
+          "bar"
+        ],
+        "transportations": {
+          "airports": [],
+          "trains": []
+        },
+        "images": [
+          {
+            "image_id": "710262561",
+            "label": ""
+          },
+          {
+            "image_id": "710262557",
+            "label": ""
+          },
+          {
+            "image_id": "710262632",
+            "label": ""
+          },
+          {
+            "image_id": "710262550",
+            "label": ""
+          },
+          {
+            "image_id": "710262626",
+            "label": ""
+          },
+          {
+            "image_id": "710262585",
+            "label": ""
+          },
+          {
+            "image_id": "710262556",
+            "label": ""
+          },
+          {
+            "image_id": "710262581",
+            "label": ""
+          },
+          {
+            "image_id": "710262590",
+            "label": ""
+          },
+          {
+            "image_id": "710262619",
+            "label": ""
+          },
+          {
+            "image_id": "710262579",
+            "label": ""
+          },
+          {
+            "image_id": "710262617",
+            "label": ""
+          },
+          {
+            "image_id": "710262569",
+            "label": ""
+          },
+          {
+            "image_id": "710262603",
+            "label": ""
+          },
+          {
+            "image_id": "710262578",
+            "label": ""
+          }
+        ],
+        "hero_offer": {
+          "price": 33.22,
+          "brt": "z2r#",
+          "rf": "z2r#",
+          "brf": 9502784,
+          "rt": 9502784,
+          "vendor": "agda",
+          "vendor_id_raw": "23069670",
+          "mota_code": null,
+          "direct_offer": false,
+          "offer_flags": {
+            "breakfast": "Breakfast included",
+            "refundable": "Free cancellation"
+          },
+          "jc_code": "",
+          "ranking_index": 1,
+          "chain": "",
+          "free_cancellation": true,
+          "special": false,
+          "room_name": "Go to the booking site for more details",
+          "rooms": [
+            {
+              "name": "Go to the booking site for more details",
+              "flags": []
+            }
+          ],
+          "partner_name": "Agoda",
+          "partner_logo": "https://hotelscan.com/apis/vendors/agda/logo.svg?pos=zz"
+        },
+        "rank": 0,
+        "ctrl_srt": "im a ctrl teapot",
+        "test_srt": "im a test teapot"
+      }
+    ],
+    "filters": [],
+    "query": {
+      "pos": "zz"
+    }
+  }
+}

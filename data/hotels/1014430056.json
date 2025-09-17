@@ -1,0 +1,1180 @@
+{
+  "_meta": {
+    "status": "SUCCESS",
+    "cached": true,
+    "count": 1,
+    "debug": {
+      "ticket": {
+        "ticket_id": "1014430056_zz_zz_d_publ_en_2_2025-10-08_2025-10-13_1_3",
+        "created_at": 1758065378.4293,
+        "loop": null,
+        "snapped_at": 1758065378.5531,
+        "snapshot_id": "1014430056_zz_zz_d_publ_en_2_2025-10-08_2025-10-13_1_3",
+        "snapshot_ttl": 300,
+        "executions": 2,
+        "progress": 1,
+        "save_errors": []
+      }
+    }
+  },
+  "data": {
+    "meta": [],
+    "geo": {
+      "hs_id": "xkhryl35ftb2",
+      "region_name": "Thoddoo",
+      "region_name_long": "Thoddoo, Maldives",
+      "region_type": "CITY",
+      "region_id": 6337256,
+      "country_iso": "MV",
+      "country": "maldives",
+      "localised_country": "Maldives",
+      "center": [
+        4.43729,
+        72.95954
+      ],
+      "centroid": [
+        4.43729,
+        72.96036
+      ],
+      "polygon": [
+        "4.425651,72.959838",
+        "4.430975,72.968935",
+        "4.431131,72.968938",
+        "4.441786,72.967547",
+        "4.448931,72.960879",
+        "4.445211,72.952565",
+        "4.438801,72.950145",
+        "4.425651,72.959838"
+      ],
+      "radius": 1.3,
+      "zoom": -1,
+      "search_by_polygon": 1,
+      "cluster": 0,
+      "properties": 85,
+      "radius_override": 5,
+      "boundingbox": {
+        "ne": [
+          4.449,
+          72.969
+        ],
+        "sw": [
+          4.425,
+          72.95
+        ]
+      },
+      "airports": [
+        "MLE",
+        "DRV"
+      ],
+      "region_name_en": "Thoddoo",
+      "region_name_long_en": "Thoddoo, Maldives",
+      "referrer_city_name_en": "Thoddoo",
+      "parent_region_id": 6051084,
+      "parent_hs_id": "x5p4hmhw6iot",
+      "parent_region_name": "Maldives (all)",
+      "parent_region_name_long": "Maldives (all)",
+      "dynamic_bbox": {
+        "ne": [
+          4.436,
+          72.961
+        ],
+        "sw": [
+          4.436,
+          72.961
+        ]
+      }
+    },
+    "records": [
+      {
+        "hs_id": 1014430056,
+        "slug": "shams-thoddoo-mv-1014430056",
+        "name": "Shams",
+        "toa": "hotel",
+        "location": {
+          "city": "Thoddoo",
+          "zip": "09010",
+          "country_iso2": "MV",
+          "address": "Shams Thoddoo",
+          "geoid": "xkhryl35ftb2",
+          "loc": {
+            "type": "Point"
+          },
+          "coordinates": {
+            "lng": 72.96147,
+            "lat": 4.43653
+          }
+        },
+        "opening_time": {
+          "check_in_from": "14:00",
+          "check_in_to": "20:00",
+          "check_out_from": "06:00",
+          "check_out_to": "11:00"
+        },
+        "quality": {
+          "review_count": 1,
+          "review_rating": 100,
+          "stars": 3,
+          "stars_is_estimated": false,
+          "review_source": ""
+        },
+        "covid_safe": true,
+        "amenities": {
+          "children": [
+            "children_playground"
+          ],
+          "wellness": [
+            "massage",
+            "solarium",
+            "fitness_center",
+            "hair_salon",
+            "spa"
+          ],
+          "sports": [
+            "yoga",
+            "bike_rent",
+            "sub"
+          ],
+          "internet": [
+            "wifi",
+            "wifi_room",
+            "internet"
+          ],
+          "food_drink": [
+            "restaurant",
+            "room_service",
+            "cafe",
+            "bar",
+            "snack_bar"
+          ],
+          "parking": [
+            "parking"
+          ],
+          "outdoor": [
+            "garden",
+            "terrace"
+          ],
+          "other": [],
+          "entertainment": [
+            "tv_lobby",
+            "disco"
+          ],
+          "transfer": [
+            "shuttle_service"
+          ],
+          "room": [
+            "air_conditioning",
+            "tv"
+          ],
+          "reception": [
+            "24h_reception",
+            "luggage_storage",
+            "laundry_facilities",
+            "laundry_service",
+            "safety_deposit_box"
+          ]
+        },
+        "descriptions": {
+          "general": "Shams features a shared lounge, terrace, a bar and spa and wellness centre in Thoddoo. With a garden, the 3-star hotel has air-conditioned rooms with free WiFi, each with a private bathroom. The accommodation provides room service, a 24-hour front desk and currency exchange for guests.",
+          "other": "This property will not accommodate hen, stag or similar parties.",
+          "localized": "Shams features a shared lounge, terrace, a bar and spa and wellness centre in Thoddoo. With a garden, the 3-star hotel has air-conditioned rooms with free WiFi, each with a private bathroom. The accommodation provides room service, a 24-hour front desk and currency exchange for guests."
+        },
+        "short_description": "Comfortable hotel with fitness center, restaurant and bar",
+        "offers": [
+          {
+            "price": 98.86,
+            "brt": "p2r#b",
+            "rf": "p2r#b",
+            "brf": 9470528,
+            "rt": 9470528,
+            "vendor": "bkng",
+            "vendor_id_raw": "13747111",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included",
+              "Garden view"
+            ],
+            "jc_code": "",
+            "ranking_index": 0.996398948007283,
+            "chain": "",
+            "free_cancellation": false,
+            "special": false,
+            "room_name": "Standard room - Choice of single or double beds",
+            "rooms": [
+              {
+                "name": "Standard room - Choice of single or double beds",
+                "flags": [
+                  "Choice of single or double beds"
+                ]
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included",
+              "view_garden": "Garden view"
+            },
+            "partner_name": "Booking.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/bkng/logo.svg?pos=zz"
+          },
+          {
+            "vendor": "agda",
+            "price": 97.97,
+            "vendor_id_raw": "67552402",
+            "mota_code": null,
+            "jc_code": "",
+            "partner_name": "Agoda",
+            "partner_logo": "https://hotelscan.com/apis/vendors/agda/logo.svg?pos=zz",
+            "room_name": "Standard room - Choice of single or double beds",
+            "brf": 9470528,
+            "brt": "p2r#b"
+          }
+        ],
+        "all_offers": [
+          {
+            "price": 97.97,
+            "brt": "p2r#b",
+            "rf": "p2r#b",
+            "brf": 9470528,
+            "rt": 9470528,
+            "vendor": "agda",
+            "vendor_id_raw": "67552402",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included",
+              "Garden view"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": false,
+            "special": false,
+            "room_name": "Standard room - Choice of single or double beds",
+            "rooms": [
+              {
+                "name": "Standard room - Choice of single or double beds",
+                "flags": [
+                  "Choice of single or double beds"
+                ]
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included",
+              "view_garden": "Garden view"
+            },
+            "partner_name": "Agoda",
+            "partner_logo": "https://hotelscan.com/apis/vendors/agda/logo.svg?pos=zz"
+          },
+          {
+            "price": 98.86,
+            "brt": "p2r#b",
+            "rf": "p2r#b",
+            "brf": 9470528,
+            "rt": 9470528,
+            "vendor": "bkng",
+            "vendor_id_raw": "13747111",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included",
+              "Garden view"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": false,
+            "special": false,
+            "room_name": "Standard room - Choice of single or double beds",
+            "rooms": [
+              {
+                "name": "Standard room - Choice of single or double beds",
+                "flags": [
+                  "Choice of single or double beds"
+                ]
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included",
+              "view_garden": "Garden view"
+            },
+            "partner_name": "Booking.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/bkng/logo.svg?pos=zz"
+          },
+          {
+            "price": 107.73,
+            "brt": "p2r#b",
+            "rf": "p2r#b",
+            "brf": 9503296,
+            "rt": 9503296,
+            "vendor": "agda",
+            "vendor_id_raw": "67552402",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included",
+              "Free cancellation",
+              "Garden view"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Standard room - Choice of single or double beds",
+            "rooms": [
+              {
+                "name": "Standard room - Choice of single or double beds",
+                "flags": [
+                  "Choice of single or double beds"
+                ]
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included",
+              "refundable": "Free cancellation",
+              "view_garden": "Garden view"
+            },
+            "partner_name": "Agoda",
+            "partner_logo": "https://hotelscan.com/apis/vendors/agda/logo.svg?pos=zz"
+          },
+          {
+            "price": 108.71,
+            "brt": "p2r#b",
+            "rf": "p2r#b",
+            "brf": 9503296,
+            "rt": 9503296,
+            "vendor": "bkng",
+            "vendor_id_raw": "13747111",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included",
+              "Free cancellation",
+              "Garden view"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Standard room - Choice of single or double beds",
+            "rooms": [
+              {
+                "name": "Standard room - Choice of single or double beds",
+                "flags": [
+                  "Choice of single or double beds"
+                ]
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included",
+              "refundable": "Free cancellation",
+              "view_garden": "Garden view"
+            },
+            "partner_name": "Booking.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/bkng/logo.svg?pos=zz"
+          },
+          {
+            "price": 118.58,
+            "brt": "p2r#",
+            "rf": "p2r#",
+            "brf": 9502800,
+            "rt": 9502800,
+            "vendor": "agda",
+            "vendor_id_raw": "67552402",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included",
+              "Free cancellation",
+              "Balcony"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Standard room",
+            "rooms": [
+              {
+                "name": "Standard room",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included",
+              "refundable": "Free cancellation",
+              "balcony": "Balcony"
+            },
+            "partner_name": "Agoda",
+            "partner_logo": "https://hotelscan.com/apis/vendors/agda/logo.svg?pos=zz"
+          },
+          {
+            "price": 119.65,
+            "brt": "p2r#",
+            "rf": "p2r#",
+            "brf": 9502800,
+            "rt": 9502800,
+            "vendor": "bkng",
+            "vendor_id_raw": "13747111",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included",
+              "Free cancellation",
+              "Balcony"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Standard room",
+            "rooms": [
+              {
+                "name": "Standard room",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included",
+              "refundable": "Free cancellation",
+              "balcony": "Balcony"
+            },
+            "partner_name": "Booking.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/bkng/logo.svg?pos=zz"
+          },
+          {
+            "price": 127.26,
+            "brt": "p2r#b",
+            "rf": "p2r#b",
+            "brf": 9470528,
+            "rt": 9470528,
+            "vendor": "agda",
+            "vendor_id_raw": "67552402",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included",
+              "Garden view"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": false,
+            "special": false,
+            "room_name": "Standard room - Choice of single or double beds",
+            "rooms": [
+              {
+                "name": "Standard room - Choice of single or double beds",
+                "flags": [
+                  "Choice of single or double beds"
+                ]
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included",
+              "view_garden": "Garden view"
+            },
+            "partner_name": "Agoda",
+            "partner_logo": "https://hotelscan.com/apis/vendors/agda/logo.svg?pos=zz"
+          },
+          {
+            "price": 128.41,
+            "brt": "p2r#b",
+            "rf": "p2r#b",
+            "brf": 12091968,
+            "rt": 12091968,
+            "vendor": "bkng",
+            "vendor_id_raw": "13747111",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast and dinner",
+              "Garden view"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": false,
+            "special": false,
+            "room_name": "Standard room - Choice of single or double beds",
+            "rooms": [
+              {
+                "name": "Standard room - Choice of single or double beds",
+                "flags": [
+                  "Choice of single or double beds"
+                ]
+              }
+            ],
+            "offer_flags_new": {
+              "half_board_dinner": "Breakfast and dinner",
+              "view_garden": "Garden view"
+            },
+            "partner_name": "Booking.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/bkng/logo.svg?pos=zz"
+          },
+          {
+            "price": 137.02,
+            "brt": "p2r#",
+            "rf": "p2r#",
+            "brf": 9470032,
+            "rt": 9470032,
+            "vendor": "agda",
+            "vendor_id_raw": "67552402",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included",
+              "Balcony"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": false,
+            "special": false,
+            "room_name": "Standard room",
+            "rooms": [
+              {
+                "name": "Standard room",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included",
+              "balcony": "Balcony"
+            },
+            "partner_name": "Agoda",
+            "partner_logo": "https://hotelscan.com/apis/vendors/agda/logo.svg?pos=zz"
+          },
+          {
+            "price": 138.26,
+            "brt": "p2r#",
+            "rf": "p2r#",
+            "brf": 12091472,
+            "rt": 12091472,
+            "vendor": "bkng",
+            "vendor_id_raw": "13747111",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast and dinner",
+              "Balcony"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": false,
+            "special": false,
+            "room_name": "Standard room",
+            "rooms": [
+              {
+                "name": "Standard room",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "half_board_dinner": "Breakfast and dinner",
+              "balcony": "Balcony"
+            },
+            "partner_name": "Booking.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/bkng/logo.svg?pos=zz"
+          },
+          {
+            "price": 140.27,
+            "brt": "p2r#b",
+            "rf": "p2r#b",
+            "brf": 9503296,
+            "rt": 9503296,
+            "vendor": "agda",
+            "vendor_id_raw": "67552402",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included",
+              "Free cancellation",
+              "Garden view"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Standard room - Choice of single or double beds",
+            "rooms": [
+              {
+                "name": "Standard room - Choice of single or double beds",
+                "flags": [
+                  "Choice of single or double beds"
+                ]
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included",
+              "refundable": "Free cancellation",
+              "view_garden": "Garden view"
+            },
+            "partner_name": "Agoda",
+            "partner_logo": "https://hotelscan.com/apis/vendors/agda/logo.svg?pos=zz"
+          },
+          {
+            "price": 141.55,
+            "brt": "p2r#b",
+            "rf": "p2r#b",
+            "brf": 12124736,
+            "rt": 12124736,
+            "vendor": "bkng",
+            "vendor_id_raw": "13747111",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast and dinner",
+              "Free cancellation",
+              "Garden view"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Standard room - Choice of single or double beds",
+            "rooms": [
+              {
+                "name": "Standard room - Choice of single or double beds",
+                "flags": [
+                  "Choice of single or double beds"
+                ]
+              }
+            ],
+            "offer_flags_new": {
+              "half_board_dinner": "Breakfast and dinner",
+              "refundable": "Free cancellation",
+              "view_garden": "Garden view"
+            },
+            "partner_name": "Booking.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/bkng/logo.svg?pos=zz"
+          },
+          {
+            "price": 151.11,
+            "brt": "p2r#",
+            "rf": "p2r#",
+            "brf": 9502800,
+            "rt": 9502800,
+            "vendor": "agda",
+            "vendor_id_raw": "67552402",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included",
+              "Free cancellation",
+              "Balcony"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Standard room",
+            "rooms": [
+              {
+                "name": "Standard room",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included",
+              "refundable": "Free cancellation",
+              "balcony": "Balcony"
+            },
+            "partner_name": "Agoda",
+            "partner_logo": "https://hotelscan.com/apis/vendors/agda/logo.svg?pos=zz"
+          },
+          {
+            "price": 152.49,
+            "brt": "p2r#",
+            "rf": "p2r#",
+            "brf": 12124240,
+            "rt": 12124240,
+            "vendor": "bkng",
+            "vendor_id_raw": "13747111",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast and dinner",
+              "Free cancellation",
+              "Balcony"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Standard room",
+            "rooms": [
+              {
+                "name": "Standard room",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "half_board_dinner": "Breakfast and dinner",
+              "refundable": "Free cancellation",
+              "balcony": "Balcony"
+            },
+            "partner_name": "Booking.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/bkng/logo.svg?pos=zz"
+          },
+          {
+            "price": 172.8,
+            "brt": "p2r#b",
+            "rf": "p2r#b",
+            "brf": 9503296,
+            "rt": 9503296,
+            "vendor": "agda",
+            "vendor_id_raw": "67552402",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included",
+              "Free cancellation",
+              "Garden view"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Standard room - Choice of single or double beds",
+            "rooms": [
+              {
+                "name": "Standard room - Choice of single or double beds",
+                "flags": [
+                  "Choice of single or double beds"
+                ]
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included",
+              "refundable": "Free cancellation",
+              "view_garden": "Garden view"
+            },
+            "partner_name": "Agoda",
+            "partner_logo": "https://hotelscan.com/apis/vendors/agda/logo.svg?pos=zz"
+          },
+          {
+            "price": 174.38,
+            "brt": "p2r#b",
+            "rf": "p2r#b",
+            "brf": 10027584,
+            "rt": 10027584,
+            "vendor": "bkng",
+            "vendor_id_raw": "13747111",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Full board",
+              "Free cancellation",
+              "Garden view"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Standard room - Choice of single or double beds",
+            "rooms": [
+              {
+                "name": "Standard room - Choice of single or double beds",
+                "flags": [
+                  "Choice of single or double beds"
+                ]
+              }
+            ],
+            "offer_flags_new": {
+              "full_board": "Full board",
+              "refundable": "Free cancellation",
+              "view_garden": "Garden view"
+            },
+            "partner_name": "Booking.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/bkng/logo.svg?pos=zz"
+          },
+          {
+            "price": 183.65,
+            "brt": "p2r#",
+            "rf": "p2r#",
+            "brf": 9502800,
+            "rt": 9502800,
+            "vendor": "agda",
+            "vendor_id_raw": "67552402",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included",
+              "Free cancellation",
+              "Balcony"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Standard room",
+            "rooms": [
+              {
+                "name": "Standard room",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included",
+              "refundable": "Free cancellation",
+              "balcony": "Balcony"
+            },
+            "partner_name": "Agoda",
+            "partner_logo": "https://hotelscan.com/apis/vendors/agda/logo.svg?pos=zz"
+          },
+          {
+            "price": 185.33,
+            "brt": "p2r#",
+            "rf": "p2r#",
+            "brf": 10027088,
+            "rt": 10027088,
+            "vendor": "bkng",
+            "vendor_id_raw": "13747111",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Full board",
+              "Free cancellation",
+              "Balcony"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Standard room",
+            "rooms": [
+              {
+                "name": "Standard room",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "full_board": "Full board",
+              "refundable": "Free cancellation",
+              "balcony": "Balcony"
+            },
+            "partner_name": "Booking.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/bkng/logo.svg?pos=zz"
+          },
+          {
+            "price": 227.03,
+            "brt": "f2r#",
+            "rf": "f2r#",
+            "brf": 9502800,
+            "rt": 9502800,
+            "vendor": "agda",
+            "vendor_id_raw": "67552402",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included",
+              "Free cancellation",
+              "Balcony"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Standard apartment",
+            "rooms": [
+              {
+                "name": "Standard apartment",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included",
+              "refundable": "Free cancellation",
+              "balcony": "Balcony"
+            },
+            "partner_name": "Agoda",
+            "partner_logo": "https://hotelscan.com/apis/vendors/agda/logo.svg?pos=zz"
+          },
+          {
+            "price": 229.11,
+            "brt": "f2r#",
+            "rf": "f2r#",
+            "brf": 9502800,
+            "rt": 9502800,
+            "vendor": "bkng",
+            "vendor_id_raw": "13747111",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included",
+              "Free cancellation",
+              "Balcony"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Standard apartment",
+            "rooms": [
+              {
+                "name": "Standard apartment",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included",
+              "refundable": "Free cancellation",
+              "balcony": "Balcony"
+            },
+            "partner_name": "Booking.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/bkng/logo.svg?pos=zz"
+          },
+          {
+            "price": 266.33,
+            "brt": "f2r#",
+            "rf": "f2r#",
+            "brf": 12091472,
+            "rt": 12091472,
+            "vendor": "bkng",
+            "vendor_id_raw": "13747111",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast and dinner",
+              "Balcony"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": false,
+            "special": false,
+            "room_name": "Standard apartment",
+            "rooms": [
+              {
+                "name": "Standard apartment",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "half_board_dinner": "Breakfast and dinner",
+              "balcony": "Balcony"
+            },
+            "partner_name": "Booking.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/bkng/logo.svg?pos=zz"
+          },
+          {
+            "price": 294.79,
+            "brt": "f2r#",
+            "rf": "f2r#",
+            "brf": 12124240,
+            "rt": 12124240,
+            "vendor": "bkng",
+            "vendor_id_raw": "13747111",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast and dinner",
+              "Free cancellation",
+              "Balcony"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Standard apartment",
+            "rooms": [
+              {
+                "name": "Standard apartment",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "half_board_dinner": "Breakfast and dinner",
+              "refundable": "Free cancellation",
+              "balcony": "Balcony"
+            },
+            "partner_name": "Booking.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/bkng/logo.svg?pos=zz"
+          },
+          {
+            "price": 344.04,
+            "brt": "f2r#",
+            "rf": "f2r#",
+            "brf": 10027088,
+            "rt": 10027088,
+            "vendor": "bkng",
+            "vendor_id_raw": "13747111",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Full board",
+              "Free cancellation",
+              "Balcony"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Standard apartment",
+            "rooms": [
+              {
+                "name": "Standard apartment",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "full_board": "Full board",
+              "refundable": "Free cancellation",
+              "balcony": "Balcony"
+            },
+            "partner_name": "Booking.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/bkng/logo.svg?pos=zz"
+          }
+        ],
+        "descriptions_language": {
+          "general": {
+            "original_language": true,
+            "text": "Shams features a shared lounge, terrace, a bar and spa and wellness centre in Thoddoo. With a garden, the 3-star hotel has air-conditioned rooms with free WiFi, each with a private bathroom. The accommodation provides room service, a 24-hour front desk and currency exchange for guests."
+          },
+          "other": {
+            "original_language": true,
+            "text": "This property will not accommodate hen, stag or similar parties."
+          }
+        },
+        "chain_code": null,
+        "bids": {
+          "agda": "j23",
+          "bkng": "j23"
+        },
+        "worst_offer": null,
+        "best_offer": 97.97,
+        "best_offer_ota": "agda",
+        "best_offer_mota": null,
+        "discount": 0,
+        "offers_count": 23,
+        "coordinates": {
+          "lat": 4.43653,
+          "lng": 72.96147
+        },
+        "distance": 0.23,
+        "neighborhood": null,
+        "badge": null,
+        "distances": [
+          {
+            "from": "center",
+            "distance": 0.23,
+            "time": 319,
+            "means": "foot",
+            "means_type": "foot"
+          }
+        ],
+        "specs": {
+          "bathrooms": null,
+          "beds": null,
+          "bedrooms": null,
+          "guests": null,
+          "square_meters": null
+        },
+        "toa_label": "hotel",
+        "top_amenities": [
+          "wifi_room",
+          "internet",
+          "restaurant",
+          "room_service",
+          "bar"
+        ],
+        "transportations": {
+          "airports": [],
+          "trains": []
+        },
+        "images": [
+          {
+            "image_id": "763087762",
+            "label": ""
+          },
+          {
+            "image_id": "763087769",
+            "label": ""
+          },
+          {
+            "image_id": "763087747",
+            "label": ""
+          },
+          {
+            "image_id": "763087750",
+            "label": ""
+          },
+          {
+            "image_id": "763087758",
+            "label": ""
+          },
+          {
+            "image_id": "763087760",
+            "label": ""
+          },
+          {
+            "image_id": "763087755",
+            "label": ""
+          },
+          {
+            "image_id": "763087752",
+            "label": ""
+          },
+          {
+            "image_id": "763087759",
+            "label": ""
+          },
+          {
+            "image_id": "763087768",
+            "label": ""
+          },
+          {
+            "image_id": "763087763",
+            "label": ""
+          },
+          {
+            "image_id": "763087749",
+            "label": ""
+          },
+          {
+            "image_id": "763087751",
+            "label": ""
+          },
+          {
+            "image_id": "763087757",
+            "label": ""
+          },
+          {
+            "image_id": "763087748",
+            "label": ""
+          }
+        ],
+        "hero_offer": {
+          "price": 98.86,
+          "brt": "p2r#b",
+          "rf": "p2r#b",
+          "brf": 9470528,
+          "rt": 9470528,
+          "vendor": "bkng",
+          "vendor_id_raw": "13747111",
+          "mota_code": null,
+          "direct_offer": false,
+          "offer_flags": {
+            "breakfast": "Breakfast included",
+            "view_garden": "Garden view"
+          },
+          "jc_code": "",
+          "ranking_index": 0.996398948007283,
+          "chain": "",
+          "free_cancellation": false,
+          "special": false,
+          "room_name": "Standard room - Choice of single or double beds",
+          "rooms": [
+            {
+              "name": "Standard room - Choice of single or double beds",
+              "flags": [
+                "Choice of single or double beds"
+              ]
+            }
+          ],
+          "partner_name": "Booking.com",
+          "partner_logo": "https://hotelscan.com/apis/vendors/bkng/logo.svg?pos=zz"
+        },
+        "rank": 0,
+        "ctrl_srt": "im a ctrl teapot",
+        "test_srt": "im a test teapot"
+      }
+    ],
+    "filters": [],
+    "query": {
+      "pos": "zz"
+    }
+  }
+}

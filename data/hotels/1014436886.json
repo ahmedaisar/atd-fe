@@ -1,0 +1,471 @@
+{
+  "_meta": {
+    "status": "SUCCESS",
+    "cached": true,
+    "count": 1,
+    "debug": {
+      "ticket": {
+        "ticket_id": "1014436886_zz_zz_d_publ_en_2_2025-10-08_2025-10-13_1_3",
+        "created_at": 1758065377.2778,
+        "loop": null,
+        "snapped_at": 1758065377.4131,
+        "snapshot_id": "1014436886_zz_zz_d_publ_en_2_2025-10-08_2025-10-13_1_3",
+        "snapshot_ttl": 300,
+        "executions": 2,
+        "progress": 1,
+        "save_errors": []
+      }
+    }
+  },
+  "data": {
+    "meta": [],
+    "geo": {
+      "hs_id": "x5rjsqvb6iot",
+      "region_name": "Fuvahmulah",
+      "region_name_long": "Fuvahmulah, Maldives",
+      "region_type": "CITY",
+      "region_id": 6215109,
+      "country_iso": "MV",
+      "country": "maldives",
+      "localised_country": "Maldives",
+      "center": [
+        -0.29485,
+        73.4232
+      ],
+      "centroid": [
+        -0.29485,
+        73.4232
+      ],
+      "polygon": [
+        "-0.26591,73.39425",
+        "-0.26591,73.45214",
+        "-0.32379,73.45214",
+        "-0.32379,73.39425",
+        "-0.26591,73.39425"
+      ],
+      "radius": 4.56,
+      "zoom": -1,
+      "search_by_polygon": 1,
+      "cluster": 0,
+      "properties": 60,
+      "radius_override": 5,
+      "boundingbox": {
+        "ne": [
+          -0.266,
+          73.453
+        ],
+        "sw": [
+          -0.323,
+          73.394
+        ]
+      },
+      "airports": [
+        "GAN"
+      ],
+      "region_name_en": "Fuvahmulah",
+      "region_name_long_en": "Fuvahmulah, Maldives",
+      "referrer_city_name_en": "Fuvahmulah",
+      "parent_region_id": 6051084,
+      "parent_hs_id": "x5p4hmhw6iot",
+      "parent_region_name": "Maldives (all)",
+      "parent_region_name_long": "Maldives (all)",
+      "dynamic_bbox": {
+        "ne": [
+          -0.289,
+          73.412
+        ],
+        "sw": [
+          -0.289,
+          73.412
+        ]
+      }
+    },
+    "records": [
+      {
+        "hs_id": 1014436886,
+        "slug": "secret-escape-fuvahmulah-mv-1014436886",
+        "name": "Secret Escape",
+        "toa": "guest_house",
+        "building": {
+          "room_num": 6
+        },
+        "location": {
+          "city": "Fuvahmulah",
+          "zip": "18018",
+          "country_iso2": "MV",
+          "address": "Ujaalaa Goalhi",
+          "geoid": "x5rjsqvb6iot",
+          "loc": {
+            "type": "Point"
+          },
+          "coordinates": {
+            "lng": 73.412307,
+            "lat": -0.288691
+          }
+        },
+        "opening_time": {
+          "check_in_from": "14:00",
+          "check_in_to": null,
+          "check_out_from": null,
+          "check_out_to": "23:30"
+        },
+        "quality": {
+          "stars": 3,
+          "stars_is_estimated": false,
+          "review_source": ""
+        },
+        "covid_safe": false,
+        "amenities": {
+          "children": [
+            "babysitter",
+            "children_playground"
+          ],
+          "wellness": [
+            "fitness_center",
+            "hair_salon"
+          ],
+          "sports": [
+            "bike_rent",
+            "sub",
+            "surf"
+          ],
+          "transfer": [
+            "shuttle_service"
+          ],
+          "food_drink": [
+            "room_service"
+          ],
+          "parking": [
+            "parking"
+          ],
+          "outdoor": [
+            "garden"
+          ],
+          "room": [
+            "heating",
+            "air_conditioning",
+            "tv"
+          ],
+          "reception": [
+            "luggage_storage",
+            "laundry_service",
+            "safety_deposit_box"
+          ]
+        },
+        "descriptions": {
+          "hotel": "Make yourself at home in one of the 6 guestrooms. Complimentary wireless internet access is available to keep you connected. Conveniences include in-room massages, and housekeeping is provided daily.",
+          "direction": "Located in Fuvahmulah, Secret Escape is near the beach, within a 5-minute walk of Fuvahmulah Nature Park and Dhadimagu Lake. This guesthouse is 1.1 mi (1.8 km) from Fuvahmulah Beach and 1.4 mi (2.3 km) from Bandaara Lake.",
+          "general": "This guest house provides air-conditioned accommodations with a balcony. The accommodation features free shuttle service, full-day security, and currency exchange for guests. The unit has soundproofing and a bidet. The guest house offers bed linen, towels, and daily room service. For visitors looking to embark on day trips to nearby landmarks, Secret Escape offers a selection of packed lunches. Cycling and walking tours can be enjoyed nearby, while a bicycle rental service and a private beach area are also available on-site. Fuvahmulah Airport is 1.9 miles from the property.",
+          "amenities": true,
+          "other": "The front desk is staffed during limited hours. Motorcycle parking is available onsite.",
+          "localized": "This guest house provides air-conditioned accommodations with a balcony. The accommodation features free shuttle service, full-day security, and currency exchange for guests. The unit has soundproofing and a bidet. The guest house offers bed linen, towels, and daily room service. For visitors looking to embark on day trips to nearby landmarks, Secret Escape offers a selection of packed lunches. Cycling and walking tours can be enjoyed nearby, while a bicycle rental service and a private beach area are also available on-site. Fuvahmulah Airport is 1.9 miles from the property."
+        },
+        "short_description": "Simple guest house with fitness center, shuttle service and bike rent",
+        "offers": [
+          {
+            "price": 70.53,
+            "brt": "p2d#",
+            "rf": "p2d#",
+            "brf": 8454272,
+            "rt": 8454272,
+            "vendor": "htls",
+            "vendor_id_raw": "3399094816",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Free cancellation",
+              "Pay at the property"
+            ],
+            "jc_code": "",
+            "ranking_index": 0.996540479228697,
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Deluxe room",
+            "rooms": [
+              {
+                "name": "Deluxe room",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "refundable": "Free cancellation",
+              "pay_at_hotel": "Pay at the property"
+            },
+            "partner_name": "Hotels.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/htls/logo.svg?pos=zz"
+          },
+          {
+            "vendor": "expd",
+            "price": 69.92,
+            "vendor_id_raw": "106190463",
+            "mota_code": null,
+            "jc_code": "EXPEDIA",
+            "partner_name": "Expedia",
+            "partner_logo": "https://hotelscan.com/apis/vendors/expd/logo.svg?pos=zz",
+            "room_name": "Deluxe room",
+            "brf": 8454208,
+            "brt": "p2d#"
+          }
+        ],
+        "all_offers": [
+          {
+            "price": 69.92,
+            "brt": "p2d#",
+            "rf": "p2d#",
+            "brf": 8454208,
+            "rt": 8454208,
+            "vendor": "expd",
+            "vendor_id_raw": "106190463",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Free cancellation"
+            ],
+            "jc_code": "EXPEDIA",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Deluxe room",
+            "rooms": [
+              {
+                "name": "Deluxe room",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "refundable": "Free cancellation"
+            },
+            "partner_name": "Expedia",
+            "partner_logo": "https://hotelscan.com/apis/vendors/expd/logo.svg?pos=zz"
+          },
+          {
+            "price": 70.53,
+            "brt": "p2d#",
+            "rf": "p2d#",
+            "brf": 8454272,
+            "rt": 8454272,
+            "vendor": "htls",
+            "vendor_id_raw": "3399094816",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Free cancellation",
+              "Pay at the property"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Deluxe room",
+            "rooms": [
+              {
+                "name": "Deluxe room",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "refundable": "Free cancellation",
+              "pay_at_hotel": "Pay at the property"
+            },
+            "partner_name": "Hotels.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/htls/logo.svg?pos=zz"
+          },
+          {
+            "price": 70.53,
+            "brt": "p2d#",
+            "rf": "p2d#",
+            "brf": 8454272,
+            "rt": 8454272,
+            "vendor": "expd",
+            "vendor_id_raw": "106190463",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Free cancellation",
+              "Pay at the property"
+            ],
+            "jc_code": "EXPEDIA",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Deluxe room",
+            "rooms": [
+              {
+                "name": "Deluxe room",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "refundable": "Free cancellation",
+              "pay_at_hotel": "Pay at the property"
+            },
+            "partner_name": "Expedia",
+            "partner_logo": "https://hotelscan.com/apis/vendors/expd/logo.svg?pos=zz"
+          }
+        ],
+        "descriptions_language": {
+          "general": {
+            "original_language": true,
+            "text": "This guest house provides air-conditioned accommodations with a balcony. The accommodation features free shuttle service, full-day security, and currency exchange for guests. The unit has soundproofing and a bidet. The guest house offers bed linen, towels, and daily room service. For visitors looking to embark on day trips to nearby landmarks, Secret Escape offers a selection of packed lunches. Cycling and walking tours can be enjoyed nearby, while a bicycle rental service and a private beach area are also available on-site. Fuvahmulah Airport is 1.9 miles from the property."
+          },
+          "direction": {
+            "original_language": true,
+            "text": "Located in Fuvahmulah, Secret Escape is near the beach, within a 5-minute walk of Fuvahmulah Nature Park and Dhadimagu Lake. This guesthouse is 1.1 mi (1.8 km) from Fuvahmulah Beach and 1.4 mi (2.3 km) from Bandaara Lake."
+          },
+          "hotel": {
+            "original_language": true,
+            "text": "Make yourself at home in one of the 6 guestrooms. Complimentary wireless internet access is available to keep you connected. Conveniences include in-room massages, and housekeeping is provided daily."
+          },
+          "other": {
+            "original_language": true,
+            "text": "The front desk is staffed during limited hours. Motorcycle parking is available onsite."
+          }
+        },
+        "chain_code": null,
+        "bids": {
+          "expd": "j23",
+          "htls": "j23"
+        },
+        "worst_offer": null,
+        "best_offer": 69.92,
+        "best_offer_ota": "expd",
+        "best_offer_mota": null,
+        "discount": 0,
+        "offers_count": 3,
+        "coordinates": {
+          "lat": -0.288691,
+          "lng": 73.412307
+        },
+        "distance": 1.39,
+        "neighborhood": null,
+        "badge": null,
+        "distances": [
+          {
+            "from": "center",
+            "distance": 1.39,
+            "time": 1931,
+            "means": "foot",
+            "means_type": "foot"
+          }
+        ],
+        "specs": {
+          "bathrooms": null,
+          "beds": null,
+          "bedrooms": null,
+          "guests": null,
+          "square_meters": null
+        },
+        "toa_label": "guest house",
+        "top_amenities": [
+          "room_service",
+          "parking",
+          "heating",
+          "air_conditioning"
+        ],
+        "transportations": {
+          "airports": [],
+          "trains": []
+        },
+        "images": [
+          {
+            "image_id": "740754273",
+            "label": ""
+          },
+          {
+            "image_id": "740754283",
+            "label": ""
+          },
+          {
+            "image_id": "740754280",
+            "label": ""
+          },
+          {
+            "image_id": "740754318",
+            "label": ""
+          },
+          {
+            "image_id": "740754320",
+            "label": ""
+          },
+          {
+            "image_id": "740754321",
+            "label": ""
+          },
+          {
+            "image_id": "740754286",
+            "label": ""
+          },
+          {
+            "image_id": "740754309",
+            "label": ""
+          },
+          {
+            "image_id": "740754312",
+            "label": ""
+          },
+          {
+            "image_id": "740754315",
+            "label": ""
+          },
+          {
+            "image_id": "740754272",
+            "label": ""
+          },
+          {
+            "image_id": "740754291",
+            "label": ""
+          },
+          {
+            "image_id": "740754306",
+            "label": ""
+          },
+          {
+            "image_id": "740754314",
+            "label": ""
+          },
+          {
+            "image_id": "740754278",
+            "label": ""
+          }
+        ],
+        "hero_offer": {
+          "price": 70.53,
+          "brt": "p2d#",
+          "rf": "p2d#",
+          "brf": 8454272,
+          "rt": 8454272,
+          "vendor": "htls",
+          "vendor_id_raw": "3399094816",
+          "mota_code": null,
+          "direct_offer": false,
+          "offer_flags": {
+            "refundable": "Free cancellation",
+            "pay_at_hotel": "Pay at the property"
+          },
+          "jc_code": "",
+          "ranking_index": 0.996540479228697,
+          "chain": "",
+          "free_cancellation": true,
+          "special": false,
+          "room_name": "Deluxe room",
+          "rooms": [
+            {
+              "name": "Deluxe room",
+              "flags": []
+            }
+          ],
+          "partner_name": "Hotels.com",
+          "partner_logo": "https://hotelscan.com/apis/vendors/htls/logo.svg?pos=zz"
+        },
+        "rank": 0,
+        "ctrl_srt": "im a ctrl teapot",
+        "test_srt": "im a test teapot"
+      }
+    ],
+    "filters": [],
+    "query": {
+      "pos": "zz"
+    }
+  }
+}

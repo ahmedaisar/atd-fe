@@ -1,0 +1,421 @@
+{
+  "_meta": {
+    "status": "SUCCESS",
+    "cached": true,
+    "count": 1,
+    "debug": {
+      "ticket": {
+        "ticket_id": "1003616829_zz_zz_d_publ_en_2_2025-10-08_2025-10-13_1_3",
+        "created_at": 1758065365.5729,
+        "loop": null,
+        "snapped_at": 1758065365.6493,
+        "snapshot_id": "1003616829_zz_zz_d_publ_en_2_2025-10-08_2025-10-13_1_3",
+        "snapshot_ttl": 300,
+        "executions": 2,
+        "progress": 1,
+        "save_errors": []
+      }
+    }
+  },
+  "data": {
+    "meta": [],
+    "geo": {
+      "hs_id": "xk37cluc5gl2",
+      "region_name": "Himmafushi",
+      "region_name_long": "Himmafushi, Maldives",
+      "region_type": "CITY",
+      "region_id": 6343439,
+      "country_iso": "MV",
+      "country": "maldives",
+      "localised_country": "Maldives",
+      "center": [
+        4.30882,
+        73.57184
+      ],
+      "centroid": [
+        4.30757,
+        73.57184
+      ],
+      "polygon": [
+        "4.304066,73.571207",
+        "4.30697,73.579713",
+        "4.311818,73.574284",
+        "4.313569,73.567522",
+        "4.308162,73.563966",
+        "4.304315,73.566281",
+        "4.304066,73.571207"
+      ],
+      "radius": 0.88,
+      "zoom": -1,
+      "search_by_polygon": 0,
+      "cluster": 0,
+      "properties": 69,
+      "radius_override": 5,
+      "boundingbox": {
+        "ne": [
+          4.314,
+          73.58
+        ],
+        "sw": [
+          4.304,
+          73.563
+        ]
+      },
+      "airports": [
+        "MLE",
+        "DRV"
+      ],
+      "region_name_en": "Himmafushi",
+      "region_name_long_en": "Himmafushi, Maldives",
+      "referrer_city_name_en": "Himmafushi",
+      "parent_region_id": 6051084,
+      "parent_hs_id": "x5p4hmhw6iot",
+      "parent_region_name": "Maldives (all)",
+      "parent_region_name_long": "Maldives (all)",
+      "dynamic_bbox": {
+        "ne": [
+          4.309,
+          73.569
+        ],
+        "sw": [
+          4.309,
+          73.569
+        ]
+      }
+    },
+    "records": [
+      {
+        "hs_id": 1003616829,
+        "slug": "molar-wave-himmafushi-mv-1003616829",
+        "name": "Molar Wave",
+        "ty_id": "213d05f5-3891-48a0-a7aa-a8f68ace3e5b",
+        "toa": "hotel",
+        "building": {
+          "room_num": 6,
+          "square_meters": 12,
+          "max_children": 2
+        },
+        "location": {
+          "city": "Himmafushi",
+          "zip": "08060",
+          "country_iso2": "MV",
+          "address": "Himafushi",
+          "geoid": "xk37cluc5gl2",
+          "loc": {
+            "type": "Point"
+          },
+          "coordinates": {
+            "lng": 73.56911,
+            "lat": 4.30935
+          }
+        },
+        "opening_time": {
+          "check_in_from": "12:00",
+          "check_in_to": null,
+          "check_out_from": null,
+          "check_out_to": "12:00"
+        },
+        "quality": {
+          "review_count": 79,
+          "review_rating": 86,
+          "stars": 0,
+          "stars_is_estimated": false,
+          "review_source": ""
+        },
+        "covid_safe": true,
+        "amenities": {
+          "children": [
+            "babysitter"
+          ],
+          "wellness": [
+            "massage",
+            "solarium",
+            "fitness_center",
+            "hair_salon",
+            "spa"
+          ],
+          "sports": [
+            "bike_rent",
+            "tennis",
+            "sub"
+          ],
+          "internet": [
+            "wifi",
+            "internet"
+          ],
+          "food_drink": [
+            "restaurant",
+            "room_service",
+            "cafe",
+            "bar",
+            "tea_coffee_maker"
+          ],
+          "disability": [
+            "wheelchair_accessible"
+          ],
+          "parking": [
+            "parking"
+          ],
+          "outdoor": [
+            "garden",
+            "terrace",
+            "patio"
+          ],
+          "other": [],
+          "entertainment": [
+            "tv_lobby",
+            "disco"
+          ],
+          "transfer": [
+            "shuttle_service"
+          ],
+          "room": [
+            "fan",
+            "heating",
+            "air_conditioning",
+            "tv",
+            "tea_coffe_maker_room",
+            "tv_room"
+          ],
+          "reception": [
+            "24h_reception",
+            "concierge",
+            "laundry_facilities",
+            "laundry_service",
+            "safety_deposit_box"
+          ]
+        },
+        "descriptions": {
+          "general": "Location A very nice place to stay for a reasonable price - hotel «Morgen Wave» is located in Himmafushi. This hotel is located in the city center. Before going to bed, you can take a walk and enjoy the main landmarks of the city. You can take a walk and explore the neighbourhood area of the hotel — Gili Lankanfushi Beach.At the hotel Spend an evening in a nice atmosphere of the bar. It’s time to have a nice meal! Stop by the restaurant. Free Wi-Fi on the territory will help you to stay on-line. If you travel by car, you can park in a parking zone. The beauty and wellness services: a massage room. Guests who love doing sports will be able to enjoy a fitness center. You won’t be bored as at the hotel you will find a picnic area. There are other services available for the guests of the hotel. For example, a laundry, a safe-deposit box and a concierge.Room amenities Guests will find the following in the room: a TV and a mini-bar. Please note that the listed services may not be available in all the rooms.",
+          "localized": "Location A very nice place to stay for a reasonable price - hotel «Morgen Wave» is located in Himmafushi. This hotel is located in the city center. Before going to bed, you can take a walk and enjoy the main landmarks of the city. You can take a walk and explore the neighbourhood area of the hotel — Gili Lankanfushi Beach.At the hotel Spend an evening in a nice atmosphere of the bar. It’s time to have a nice meal! Stop by the restaurant. Free Wi-Fi on the territory will help you to stay on-line. If you travel by car, you can park in a parking zone. The beauty and wellness services: a massage room. Guests who love doing sports will be able to enjoy a fitness center. You won’t be bored as at the hotel you will find a picnic area. There are other services available for the guests of the hotel. For example, a laundry, a safe-deposit box and a concierge.Room amenities Guests will find the following in the room: a TV and a mini-bar. Please note that the listed services may not be available in all the rooms."
+        },
+        "short_description": "Excellent hotel for solo travelers. Beautiful beach. Great location.",
+        "offers": [
+          {
+            "price": 92.29,
+            "brt": "p2d#",
+            "rf": "p2d#",
+            "brf": 8454208,
+            "rt": 8454208,
+            "vendor": "bkng",
+            "vendor_id_raw": "4032699",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Free cancellation"
+            ],
+            "jc_code": "",
+            "ranking_index": 1,
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Deluxe room",
+            "rooms": [
+              {
+                "name": "Deluxe room",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "refundable": "Free cancellation"
+            },
+            "partner_name": "Booking.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/bkng/logo.svg?pos=zz"
+          }
+        ],
+        "all_offers": [
+          {
+            "price": 92.29,
+            "brt": "p2d#",
+            "rf": "p2d#",
+            "brf": 8454208,
+            "rt": 8454208,
+            "vendor": "bkng",
+            "vendor_id_raw": "4032699",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Free cancellation"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Deluxe room",
+            "rooms": [
+              {
+                "name": "Deluxe room",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "refundable": "Free cancellation"
+            },
+            "partner_name": "Booking.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/bkng/logo.svg?pos=zz"
+          },
+          {
+            "price": 103.24,
+            "brt": "p2d#",
+            "rf": "p2d#",
+            "brf": 9502784,
+            "rt": 9502784,
+            "vendor": "bkng",
+            "vendor_id_raw": "4032699",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included",
+              "Free cancellation"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Deluxe room",
+            "rooms": [
+              {
+                "name": "Deluxe room",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included",
+              "refundable": "Free cancellation"
+            },
+            "partner_name": "Booking.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/bkng/logo.svg?pos=zz"
+          }
+        ],
+        "descriptions_language": {
+          "general": {
+            "original_language": true,
+            "text": "Location A very nice place to stay for a reasonable price - hotel «Morgen Wave» is located in Himmafushi. This hotel is located in the city center. Before going to bed, you can take a walk and enjoy the main landmarks of the city. You can take a walk and explore the neighbourhood area of the hotel — Gili Lankanfushi Beach.At the hotel Spend an evening in a nice atmosphere of the bar. It’s time to have a nice meal! Stop by the restaurant. Free Wi-Fi on the territory will help you to stay on-line. If you travel by car, you can park in a parking zone. The beauty and wellness services: a massage room. Guests who love doing sports will be able to enjoy a fitness center. You won’t be bored as at the hotel you will find a picnic area. There are other services available for the guests of the hotel. For example, a laundry, a safe-deposit box and a concierge.Room amenities Guests will find the following in the room: a TV and a mini-bar. Please note that the listed services may not be available in all the rooms."
+          }
+        },
+        "chain_code": null,
+        "bids": {
+          "bkng": "j23"
+        },
+        "worst_offer": null,
+        "best_offer": 92.29,
+        "best_offer_ota": "bkng",
+        "best_offer_mota": null,
+        "discount": 0,
+        "offers_count": 2,
+        "coordinates": {
+          "lat": 4.30935,
+          "lng": 73.56911
+        },
+        "distance": 0.31,
+        "neighborhood": null,
+        "badge": null,
+        "distances": [
+          {
+            "from": "center",
+            "distance": 0.31,
+            "time": 431,
+            "means": "foot",
+            "means_type": "foot"
+          }
+        ],
+        "specs": {
+          "bathrooms": 0,
+          "beds": null,
+          "bedrooms": 1,
+          "guests": 2,
+          "square_meters": 12
+        },
+        "toa_label": "hotel",
+        "top_amenities": [
+          "internet",
+          "restaurant",
+          "room_service",
+          "bar",
+          "tea_coffee_maker"
+        ],
+        "transportations": {
+          "airports": [],
+          "trains": []
+        },
+        "images": [
+          {
+            "image_id": "697731625",
+            "label": ""
+          },
+          {
+            "image_id": "697731622",
+            "label": ""
+          },
+          {
+            "image_id": "697731617",
+            "label": ""
+          },
+          {
+            "image_id": "697731623",
+            "label": ""
+          },
+          {
+            "image_id": "697731620",
+            "label": ""
+          },
+          {
+            "image_id": "697731619",
+            "label": ""
+          },
+          {
+            "image_id": "697731618",
+            "label": ""
+          },
+          {
+            "image_id": "697731624",
+            "label": ""
+          },
+          {
+            "image_id": "697731626",
+            "label": ""
+          },
+          {
+            "image_id": "697731621",
+            "label": ""
+          }
+        ],
+        "hero_offer": {
+          "price": 92.29,
+          "brt": "p2d#",
+          "rf": "p2d#",
+          "brf": 8454208,
+          "rt": 8454208,
+          "vendor": "bkng",
+          "vendor_id_raw": "4032699",
+          "mota_code": null,
+          "direct_offer": false,
+          "offer_flags": {
+            "refundable": "Free cancellation"
+          },
+          "jc_code": "",
+          "ranking_index": 1,
+          "chain": "",
+          "free_cancellation": true,
+          "special": false,
+          "room_name": "Deluxe room",
+          "rooms": [
+            {
+              "name": "Deluxe room",
+              "flags": []
+            }
+          ],
+          "partner_name": "Booking.com",
+          "partner_logo": "https://hotelscan.com/apis/vendors/bkng/logo.svg?pos=zz"
+        },
+        "rank": 0,
+        "ctrl_srt": "im a ctrl teapot",
+        "test_srt": "im a test teapot"
+      }
+    ],
+    "filters": [],
+    "query": {
+      "pos": "zz"
+    }
+  }
+}

@@ -1,0 +1,1469 @@
+{
+  "_meta": {
+    "status": "SUCCESS",
+    "cached": true,
+    "count": 1,
+    "debug": {
+      "ticket": {
+        "ticket_id": "1004247629_zz_zz_d_publ_en_2_2025-10-08_2025-10-13_1_3",
+        "created_at": 1758065380.6334,
+        "loop": null,
+        "snapped_at": 1758065380.7219,
+        "snapshot_id": "1004247629_zz_zz_d_publ_en_2_2025-10-08_2025-10-13_1_3",
+        "snapshot_ttl": 300,
+        "executions": 2,
+        "progress": 1,
+        "save_errors": []
+      }
+    }
+  },
+  "data": {
+    "meta": [],
+    "geo": {
+      "hs_id": "x5rjsqvb6iot",
+      "region_name": "Fuvahmulah",
+      "region_name_long": "Fuvahmulah, Maldives",
+      "region_type": "CITY",
+      "region_id": 6215109,
+      "country_iso": "MV",
+      "country": "maldives",
+      "localised_country": "Maldives",
+      "center": [
+        -0.29485,
+        73.4232
+      ],
+      "centroid": [
+        -0.29485,
+        73.4232
+      ],
+      "polygon": [
+        "-0.26591,73.39425",
+        "-0.26591,73.45214",
+        "-0.32379,73.45214",
+        "-0.32379,73.39425",
+        "-0.26591,73.39425"
+      ],
+      "radius": 4.56,
+      "zoom": -1,
+      "search_by_polygon": 1,
+      "cluster": 0,
+      "properties": 60,
+      "radius_override": 5,
+      "boundingbox": {
+        "ne": [
+          -0.266,
+          73.453
+        ],
+        "sw": [
+          -0.323,
+          73.394
+        ]
+      },
+      "airports": [
+        "GAN"
+      ],
+      "region_name_en": "Fuvahmulah",
+      "region_name_long_en": "Fuvahmulah, Maldives",
+      "referrer_city_name_en": "Fuvahmulah",
+      "parent_region_id": 6051084,
+      "parent_hs_id": "x5p4hmhw6iot",
+      "parent_region_name": "Maldives (all)",
+      "parent_region_name_long": "Maldives (all)",
+      "dynamic_bbox": {
+        "ne": [
+          -0.299,
+          73.422
+        ],
+        "sw": [
+          -0.299,
+          73.422
+        ]
+      }
+    },
+    "records": [
+      {
+        "hs_id": 1004247629,
+        "slug": "calyx-grand-fuvahmulah-fuvahmulah-mv-1004247629",
+        "name": "Calyx Grand Fuvahmulah",
+        "ty_id": "c09a18f0-f1c2-4547-8f17-6fcd3fb22c16",
+        "toa": "hotel",
+        "building": {
+          "room_num": 10
+        },
+        "location": {
+          "city": "Fuvahmulah",
+          "zip": "18015",
+          "country_iso2": "MV",
+          "address": "Ghazee Magu",
+          "geoid": "x5rjsqvb6iot",
+          "loc": {
+            "type": "Point"
+          },
+          "coordinates": {
+            "lng": 73.422782,
+            "lat": -0.298009
+          }
+        },
+        "opening_time": {
+          "check_in_from": "14:00",
+          "check_in_to": "23:00",
+          "check_out_from": null,
+          "check_out_to": "12:00"
+        },
+        "quality": {
+          "review_count": 2,
+          "review_rating": 20,
+          "stars": 3,
+          "stars_is_estimated": false,
+          "review_source": ""
+        },
+        "covid_safe": false,
+        "amenities": {
+          "sports": [
+            "bike_rent",
+            "sub"
+          ],
+          "internet": [
+            "wifi_lobby",
+            "wifi",
+            "internet"
+          ],
+          "transfer": [
+            "shuttle_service"
+          ],
+          "food_drink": [
+            "restaurant",
+            "cafe",
+            "bar"
+          ],
+          "parking": [
+            "parking"
+          ],
+          "room": [
+            "air_conditioning",
+            "tv"
+          ],
+          "reception": [
+            "24h_reception",
+            "luggage_storage",
+            "laundry_service",
+            "safety_deposit_box"
+          ]
+        },
+        "descriptions": {
+          "hotel": "Calyx Grand Hotel is located in Fuvahmulah one of the beautiful islands in Maldives. It has opened public in January 2019 offering 5 quality and comfy rooms. It has two category rooms with deluxe double room and superior king room with Jacuzzi along with complementary high-speed wifi at the entire hotel. Calyx Grand Hotel provides round the clock room service and also, they provide laundry service. Calyx Grand Hotel provides three-star service that begins with complementary airport pickup service to all of their guests from Fuvahmulah Airport or Fuvahmulah Harbor. Every interaction with the hotel staff has an added personal touch to cater to specific needs of every guest. Fuvahmulah is famous for dive destination and it has most popular tiger shark dive point called “Tiger shark Zoo”. Tiger shark diving is 100%. As an added bonus to the exceptional care to each guest, at a request the hotel organizes snorkeling, diving, tiger shark diving, night fishing. ***Property Policies*** Cancellation policy: 7 days before arrival. In case of a late cancellation or No Show, you will be charged the total amount of your stay. Check in from 14:00 to 23:00. Check out before 12:00 noon. Payment upon arrival by cash. Taxes included. Breakfast included. No curfew. Non smoking in the room but have a smoking area.",
+          "direction": "Fuvahmulah is home to this guesthouse. While the natural beauty of Bandaara Lake and Fuvahmulah Nature Park can be enjoyed by anyone, those looking for an activity can check out Fuvahmulah Harbor.",
+          "general": "At Calyx Grand Fuvahmulah, exceptional service and top-notch amenities create a memorable experience for guests.Complimentary internet access is available in the hotel to ensure you stay connected during your visit. Arrange your trips to and from the airport using the hotel's convenient transportation services booking. Discover the wonders of Maldive Islands with ease by utilizing the services provided by taxi, car hire and shuttle. For guests with their own vehicle, parking facilities are provided. Continuously receive the support you require through front desk amenities such as express check-in or check-out, luggage storage and safety deposit boxes.At the hotel, their ticket service and tours is also capable of assisting with booking tickets and securing reservations for entertainment and adventures.At the hotel, utilize the convenient laundry service to maintain your preferred travel attire fresh, allowing you to pack lighter. Craving relaxation? In-room amenities such as 24-hour room service, room service and daily housekeeping allow you to maximize your time spent inside the room.Additionally, you can obtain minor travel essentials and miscellaneous items at the convenience stores without departing from the Calyx Grand Fuvahmulah. Due to health concerns, smoking is strictly prohibited within the entire premises of hotel.For the health and well-being of all guests and staff, smoking is restricted exclusively to assigned zones. Accommodations come equipped with all the conveniences required for a restful night's slumber. A selection of rooms feature linen service and air conditioning to ensure your comfort and convenience. A few accommodations in Calyx Grand Fuvahmulah incorporate separate living room and balcony or terrace into their architectural arrangement. A few chosen rooms are equipped with television and cable TV to ensure guest amusement. In certain rooms, the hotel offers visitors access to a refrigerator, a coffee or tea maker, instant tea and mini bar. Calyx Grand Fuvahmulah offers a hair dryer and toiletries in the restrooms of specific accommodations.An additional advantage for guests is the executive lounge, which offers an outstandingly cozy and excellently furnished environment for relaxation. At Calyx Grand Fuvahmulah, each day commences with a scrumptious breakfast offered at no additional cost.All adore a delightful cup of coffee! An on-site coffee shop ensures you can relish a cup of authentic, freshly-brewed coffee every morning -- or whenever you desire it. Allow your journey to be free from the pangs of hunger! On-site eateries offer delicious and accessible meal choices.At Calyx Grand Fuvahmulah, catering to your unique requirements is our priority. Guests with particular dietary preferences can choose from an assortment of dishes, featuring kosher and halal choices among other options. An evening spent at hotel's bar can offer as much enjoyment as venturing out with your fellow travelers.At Calyx Grand Fuvahmulah, experience the ease of having groceries brought straight to your accommodation through their efficient service.Are you inclined to prepare your own dishes? You will surely appreciate having the on-site BBQ facilities available.At Calyx Grand Fuvahmulah, guests can take pleasure in the delightful recreational amenities provided for their entertainment. At the hotel, a wide range of enjoyable activities ensures that there's never a dull moment during your visit. Don't miss out on the easily reachable beach in the vicinity. Conclude your days in complete tranquility by visiting the salon situated precisely at the hotel.",
+          "amenities": true,
+          "other": "Fuvahmulah is famous for dive destination and it has most popular tiger shark dive point called “Tiger shark Zoo”. Tiger shark diving is 100%. As an added bonus to the exceptional care to each guest, at a request the hotel organizes snorkeling, diving, tiger shark diving, night fishing, big game fishing and mud bath. Thus, the hotel carries special potential to be the hub of any visit to the following the g Tiger sharks, Tiger Zoo,Thoodu beach,Mud bath Nature park,Nature park Lake, Bandaaraki.",
+          "localized": "At Calyx Grand Fuvahmulah, exceptional service and top-notch amenities create a memorable experience for guests.Complimentary internet access is available in the hotel to ensure you stay connected during your visit. Arrange your trips to and from the airport using the hotel's convenient transportation services booking. Discover the wonders of Maldive Islands with ease by utilizing the services provided by taxi, car hire and shuttle. For guests with their own vehicle, parking facilities are provided. Continuously receive the support you require through front desk amenities such as express check-in or check-out, luggage storage and safety deposit boxes.At the hotel, their ticket service and tours is also capable of assisting with booking tickets and securing reservations for entertainment and adventures.At the hotel, utilize the convenient laundry service to maintain your preferred travel attire fresh, allowing you to pack lighter. Craving relaxation? In-room amenities such as 24-hour room service, room service and daily housekeeping allow you to maximize your time spent inside the room.Additionally, you can obtain minor travel essentials and miscellaneous items at the convenience stores without departing from the Calyx Grand Fuvahmulah. Due to health concerns, smoking is strictly prohibited within the entire premises of hotel.For the health and well-being of all guests and staff, smoking is restricted exclusively to assigned zones. Accommodations come equipped with all the conveniences required for a restful night's slumber. A selection of rooms feature linen service and air conditioning to ensure your comfort and convenience. A few accommodations in Calyx Grand Fuvahmulah incorporate separate living room and balcony or terrace into their architectural arrangement. A few chosen rooms are equipped with television and cable TV to ensure guest amusement. In certain rooms, the hotel offers visitors access to a refrigerator, a coffee or tea maker, instant tea and mini bar. Calyx Grand Fuvahmulah offers a hair dryer and toiletries in the restrooms of specific accommodations.An additional advantage for guests is the executive lounge, which offers an outstandingly cozy and excellently furnished environment for relaxation. At Calyx Grand Fuvahmulah, each day commences with a scrumptious breakfast offered at no additional cost.All adore a delightful cup of coffee! An on-site coffee shop ensures you can relish a cup of authentic, freshly-brewed coffee every morning -- or whenever you desire it. Allow your journey to be free from the pangs of hunger! On-site eateries offer delicious and accessible meal choices.At Calyx Grand Fuvahmulah, catering to your unique requirements is our priority. Guests with particular dietary preferences can choose from an assortment of dishes, featuring kosher and halal choices among other options. An evening spent at hotel's bar can offer as much enjoyment as venturing out with your fellow travelers.At Calyx Grand Fuvahmulah, experience the ease of having groceries brought straight to your accommodation through their efficient service.Are you inclined to prepare your own dishes? You will surely appreciate having the on-site BBQ facilities available.At Calyx Grand Fuvahmulah, guests can take pleasure in the delightful recreational amenities provided for their entertainment. At the hotel, a wide range of enjoyable activities ensures that there's never a dull moment during your visit. Don't miss out on the easily reachable beach in the vicinity. Conclude your days in complete tranquility by visiting the salon situated precisely at the hotel."
+        },
+        "short_description": "Comfortable hotel with 10 rooms, bike rent and bar",
+        "chain": "no_chain",
+        "brand": "no_brand",
+        "offers": [
+          {
+            "price": 110.48,
+            "brt": "p2d#t",
+            "rf": "p2d#t",
+            "brf": 9502784,
+            "rt": 9502784,
+            "vendor": "htls",
+            "vendor_id_raw": "1047589536",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included",
+              "Free cancellation"
+            ],
+            "jc_code": "",
+            "ranking_index": 0.9964880521361332,
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Deluxe room - Twin beds",
+            "rooms": [
+              {
+                "name": "Deluxe room - Twin beds",
+                "flags": [
+                  "Twin beds"
+                ]
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included",
+              "refundable": "Free cancellation"
+            },
+            "partner_name": "Hotels.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/htls/logo.svg?pos=zz"
+          },
+          {
+            "vendor": "expd",
+            "price": 110.48,
+            "vendor_id_raw": "32705923",
+            "mota_code": null,
+            "jc_code": "EXPEDIA",
+            "partner_name": "Expedia",
+            "partner_logo": "https://hotelscan.com/apis/vendors/expd/logo.svg?pos=zz",
+            "room_name": "Deluxe room - Twin beds",
+            "brf": 9502784,
+            "brt": "p2d#t"
+          },
+          {
+            "vendor": "ostr",
+            "price": 109.51,
+            "vendor_id_raw": "8927694",
+            "mota_code": null,
+            "jc_code": "",
+            "partner_name": "Zenhotels",
+            "partner_logo": "https://hotelscan.com/apis/vendors/ostr/logo.svg?pos=zz",
+            "room_name": "Deluxe room - Double bed",
+            "brf": 9502848,
+            "brt": "p2d#d"
+          }
+        ],
+        "all_offers": [
+          {
+            "price": 109.51,
+            "brt": "p2d#d",
+            "rf": "p2d#d",
+            "brf": 9502848,
+            "rt": 9502848,
+            "vendor": "ostr",
+            "vendor_id_raw": "8927694",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included",
+              "Free cancellation",
+              "Pay at the property"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Deluxe room - Double bed",
+            "rooms": [
+              {
+                "name": "Deluxe room - Double bed",
+                "flags": [
+                  "Double bed"
+                ]
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included",
+              "refundable": "Free cancellation",
+              "pay_at_hotel": "Pay at the property"
+            },
+            "partner_name": "Zenhotels",
+            "partner_logo": "https://hotelscan.com/apis/vendors/ostr/logo.svg?pos=zz"
+          },
+          {
+            "price": 110.48,
+            "brt": "p2d#t",
+            "rf": "p2d#t",
+            "brf": 9502784,
+            "rt": 9502784,
+            "vendor": "htls",
+            "vendor_id_raw": "1047589536",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included",
+              "Free cancellation"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Deluxe room - Twin beds",
+            "rooms": [
+              {
+                "name": "Deluxe room - Twin beds",
+                "flags": [
+                  "Twin beds"
+                ]
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included",
+              "refundable": "Free cancellation"
+            },
+            "partner_name": "Hotels.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/htls/logo.svg?pos=zz"
+          },
+          {
+            "price": 110.48,
+            "brt": "p2d#t",
+            "rf": "p2d#t",
+            "brf": 9502784,
+            "rt": 9502784,
+            "vendor": "expd",
+            "vendor_id_raw": "32705923",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included",
+              "Free cancellation"
+            ],
+            "jc_code": "EXPEDIA",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Deluxe room - Twin beds",
+            "rooms": [
+              {
+                "name": "Deluxe room - Twin beds",
+                "flags": [
+                  "Twin beds"
+                ]
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included",
+              "refundable": "Free cancellation"
+            },
+            "partner_name": "Expedia",
+            "partner_logo": "https://hotelscan.com/apis/vendors/expd/logo.svg?pos=zz"
+          },
+          {
+            "price": 110.49,
+            "brt": "p2d#t",
+            "rf": "p2d#t",
+            "brf": 9502848,
+            "rt": 9502848,
+            "vendor": "htls",
+            "vendor_id_raw": "1047589536",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included",
+              "Free cancellation",
+              "Pay at the property"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Deluxe room - Twin beds",
+            "rooms": [
+              {
+                "name": "Deluxe room - Twin beds",
+                "flags": [
+                  "Twin beds"
+                ]
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included",
+              "refundable": "Free cancellation",
+              "pay_at_hotel": "Pay at the property"
+            },
+            "partner_name": "Hotels.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/htls/logo.svg?pos=zz"
+          },
+          {
+            "price": 110.49,
+            "brt": "p2d#t",
+            "rf": "p2d#t",
+            "brf": 9502848,
+            "rt": 9502848,
+            "vendor": "expd",
+            "vendor_id_raw": "32705923",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included",
+              "Free cancellation",
+              "Pay at the property"
+            ],
+            "jc_code": "EXPEDIA",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Deluxe room - Twin beds",
+            "rooms": [
+              {
+                "name": "Deluxe room - Twin beds",
+                "flags": [
+                  "Twin beds"
+                ]
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included",
+              "refundable": "Free cancellation",
+              "pay_at_hotel": "Pay at the property"
+            },
+            "partner_name": "Expedia",
+            "partner_logo": "https://hotelscan.com/apis/vendors/expd/logo.svg?pos=zz"
+          },
+          {
+            "price": 133.93,
+            "brt": "p2d#t",
+            "rf": "p2d#t",
+            "brf": 9502784,
+            "rt": 9502784,
+            "vendor": "htls",
+            "vendor_id_raw": "1047589536",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included",
+              "Free cancellation"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Deluxe room - Twin beds",
+            "rooms": [
+              {
+                "name": "Deluxe room - Twin beds",
+                "flags": [
+                  "Twin beds"
+                ]
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included",
+              "refundable": "Free cancellation"
+            },
+            "partner_name": "Hotels.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/htls/logo.svg?pos=zz"
+          },
+          {
+            "price": 133.93,
+            "brt": "p2d#t",
+            "rf": "p2d#t",
+            "brf": 9502784,
+            "rt": 9502784,
+            "vendor": "expd",
+            "vendor_id_raw": "32705923",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included",
+              "Free cancellation"
+            ],
+            "jc_code": "EXPEDIA",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Deluxe room - Twin beds",
+            "rooms": [
+              {
+                "name": "Deluxe room - Twin beds",
+                "flags": [
+                  "Twin beds"
+                ]
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included",
+              "refundable": "Free cancellation"
+            },
+            "partner_name": "Expedia",
+            "partner_logo": "https://hotelscan.com/apis/vendors/expd/logo.svg?pos=zz"
+          },
+          {
+            "price": 133.94,
+            "brt": "p2d#t",
+            "rf": "p2d#t",
+            "brf": 9502848,
+            "rt": 9502848,
+            "vendor": "htls",
+            "vendor_id_raw": "1047589536",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included",
+              "Free cancellation",
+              "Pay at the property"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Deluxe room - Twin beds",
+            "rooms": [
+              {
+                "name": "Deluxe room - Twin beds",
+                "flags": [
+                  "Twin beds"
+                ]
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included",
+              "refundable": "Free cancellation",
+              "pay_at_hotel": "Pay at the property"
+            },
+            "partner_name": "Hotels.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/htls/logo.svg?pos=zz"
+          },
+          {
+            "price": 133.94,
+            "brt": "p2d#t",
+            "rf": "p2d#t",
+            "brf": 9502848,
+            "rt": 9502848,
+            "vendor": "expd",
+            "vendor_id_raw": "32705923",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included",
+              "Free cancellation",
+              "Pay at the property"
+            ],
+            "jc_code": "EXPEDIA",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Deluxe room - Twin beds",
+            "rooms": [
+              {
+                "name": "Deluxe room - Twin beds",
+                "flags": [
+                  "Twin beds"
+                ]
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included",
+              "refundable": "Free cancellation",
+              "pay_at_hotel": "Pay at the property"
+            },
+            "partner_name": "Expedia",
+            "partner_logo": "https://hotelscan.com/apis/vendors/expd/logo.svg?pos=zz"
+          },
+          {
+            "price": 134.29,
+            "brt": "p2d#",
+            "rf": "p2d#",
+            "brf": 9502848,
+            "rt": 9502848,
+            "vendor": "htls",
+            "vendor_id_raw": "1047589536",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included",
+              "Free cancellation",
+              "Pay at the property"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Deluxe room",
+            "rooms": [
+              {
+                "name": "Deluxe room",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included",
+              "refundable": "Free cancellation",
+              "pay_at_hotel": "Pay at the property"
+            },
+            "partner_name": "Hotels.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/htls/logo.svg?pos=zz"
+          },
+          {
+            "price": 134.29,
+            "brt": "p2d#",
+            "rf": "p2d#",
+            "brf": 9502848,
+            "rt": 9502848,
+            "vendor": "expd",
+            "vendor_id_raw": "32705923",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included",
+              "Free cancellation",
+              "Pay at the property"
+            ],
+            "jc_code": "EXPEDIA",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Deluxe room",
+            "rooms": [
+              {
+                "name": "Deluxe room",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included",
+              "refundable": "Free cancellation",
+              "pay_at_hotel": "Pay at the property"
+            },
+            "partner_name": "Expedia",
+            "partner_logo": "https://hotelscan.com/apis/vendors/expd/logo.svg?pos=zz"
+          },
+          {
+            "price": 147.11,
+            "brt": "p2c#k",
+            "rf": "p2c#k",
+            "brf": 9502848,
+            "rt": 9502848,
+            "vendor": "ostr",
+            "vendor_id_raw": "8927694",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included",
+              "Free cancellation",
+              "Pay at the property"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Superior room - King bed",
+            "rooms": [
+              {
+                "name": "Superior room - King bed",
+                "flags": [
+                  "King bed"
+                ]
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included",
+              "refundable": "Free cancellation",
+              "pay_at_hotel": "Pay at the property"
+            },
+            "partner_name": "Zenhotels",
+            "partner_logo": "https://hotelscan.com/apis/vendors/ostr/logo.svg?pos=zz"
+          },
+          {
+            "price": 148.55,
+            "brt": "p2c#k",
+            "rf": "p2c#k",
+            "brf": 9502784,
+            "rt": 9502784,
+            "vendor": "htls",
+            "vendor_id_raw": "1047589536",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included",
+              "Free cancellation"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Superior room - King bed",
+            "rooms": [
+              {
+                "name": "Superior room - King bed",
+                "flags": [
+                  "King bed"
+                ]
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included",
+              "refundable": "Free cancellation"
+            },
+            "partner_name": "Hotels.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/htls/logo.svg?pos=zz"
+          },
+          {
+            "price": 148.55,
+            "brt": "p2c#k",
+            "rf": "p2c#k",
+            "brf": 9502784,
+            "rt": 9502784,
+            "vendor": "expd",
+            "vendor_id_raw": "32705923",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included",
+              "Free cancellation"
+            ],
+            "jc_code": "EXPEDIA",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Superior room - King bed",
+            "rooms": [
+              {
+                "name": "Superior room - King bed",
+                "flags": [
+                  "King bed"
+                ]
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included",
+              "refundable": "Free cancellation"
+            },
+            "partner_name": "Expedia",
+            "partner_logo": "https://hotelscan.com/apis/vendors/expd/logo.svg?pos=zz"
+          },
+          {
+            "price": 148.56,
+            "brt": "p2c#k",
+            "rf": "p2c#k",
+            "brf": 9502848,
+            "rt": 9502848,
+            "vendor": "htls",
+            "vendor_id_raw": "1047589536",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included",
+              "Free cancellation",
+              "Pay at the property"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Superior room - King bed",
+            "rooms": [
+              {
+                "name": "Superior room - King bed",
+                "flags": [
+                  "King bed"
+                ]
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included",
+              "refundable": "Free cancellation",
+              "pay_at_hotel": "Pay at the property"
+            },
+            "partner_name": "Hotels.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/htls/logo.svg?pos=zz"
+          },
+          {
+            "price": 148.56,
+            "brt": "p2c#k",
+            "rf": "p2c#k",
+            "brf": 9502848,
+            "rt": 9502848,
+            "vendor": "expd",
+            "vendor_id_raw": "32705923",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included",
+              "Free cancellation",
+              "Pay at the property"
+            ],
+            "jc_code": "EXPEDIA",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Superior room - King bed",
+            "rooms": [
+              {
+                "name": "Superior room - King bed",
+                "flags": [
+                  "King bed"
+                ]
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included",
+              "refundable": "Free cancellation",
+              "pay_at_hotel": "Pay at the property"
+            },
+            "partner_name": "Expedia",
+            "partner_logo": "https://hotelscan.com/apis/vendors/expd/logo.svg?pos=zz"
+          },
+          {
+            "price": 151.91,
+            "brt": "p2d#d",
+            "rf": "p2d#d",
+            "brf": 10027136,
+            "rt": 10027136,
+            "vendor": "ostr",
+            "vendor_id_raw": "8927694",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Full board",
+              "Free cancellation",
+              "Pay at the property"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Deluxe room - Double bed",
+            "rooms": [
+              {
+                "name": "Deluxe room - Double bed",
+                "flags": [
+                  "Double bed"
+                ]
+              }
+            ],
+            "offer_flags_new": {
+              "full_board": "Full board",
+              "refundable": "Free cancellation",
+              "pay_at_hotel": "Pay at the property"
+            },
+            "partner_name": "Zenhotels",
+            "partner_logo": "https://hotelscan.com/apis/vendors/ostr/logo.svg?pos=zz"
+          },
+          {
+            "price": 153.31,
+            "brt": "p2d#",
+            "rf": "p2d#",
+            "brf": 9502784,
+            "rt": 9502784,
+            "vendor": "htls",
+            "vendor_id_raw": "1047589536",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included",
+              "Free cancellation"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Deluxe room",
+            "rooms": [
+              {
+                "name": "Deluxe room",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included",
+              "refundable": "Free cancellation"
+            },
+            "partner_name": "Hotels.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/htls/logo.svg?pos=zz"
+          },
+          {
+            "price": 153.31,
+            "brt": "p2d#",
+            "rf": "p2d#",
+            "brf": 9502784,
+            "rt": 9502784,
+            "vendor": "expd",
+            "vendor_id_raw": "32705923",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included",
+              "Free cancellation"
+            ],
+            "jc_code": "EXPEDIA",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Deluxe room",
+            "rooms": [
+              {
+                "name": "Deluxe room",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included",
+              "refundable": "Free cancellation"
+            },
+            "partner_name": "Expedia",
+            "partner_logo": "https://hotelscan.com/apis/vendors/expd/logo.svg?pos=zz"
+          },
+          {
+            "price": 153.32,
+            "brt": "p2d#",
+            "rf": "p2d#",
+            "brf": 9502848,
+            "rt": 9502848,
+            "vendor": "htls",
+            "vendor_id_raw": "1047589536",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included",
+              "Free cancellation",
+              "Pay at the property"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Deluxe room",
+            "rooms": [
+              {
+                "name": "Deluxe room",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included",
+              "refundable": "Free cancellation",
+              "pay_at_hotel": "Pay at the property"
+            },
+            "partner_name": "Hotels.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/htls/logo.svg?pos=zz"
+          },
+          {
+            "price": 153.32,
+            "brt": "p2d#",
+            "rf": "p2d#",
+            "brf": 9502848,
+            "rt": 9502848,
+            "vendor": "expd",
+            "vendor_id_raw": "32705923",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included",
+              "Free cancellation",
+              "Pay at the property"
+            ],
+            "jc_code": "EXPEDIA",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Deluxe room",
+            "rooms": [
+              {
+                "name": "Deluxe room",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included",
+              "refundable": "Free cancellation",
+              "pay_at_hotel": "Pay at the property"
+            },
+            "partner_name": "Expedia",
+            "partner_logo": "https://hotelscan.com/apis/vendors/expd/logo.svg?pos=zz"
+          },
+          {
+            "price": 167.6,
+            "brt": "p2d#t",
+            "rf": "p2d#t",
+            "brf": 9502848,
+            "rt": 9502848,
+            "vendor": "htls",
+            "vendor_id_raw": "1047589536",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included",
+              "Free cancellation",
+              "Pay at the property"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Deluxe room - Twin beds",
+            "rooms": [
+              {
+                "name": "Deluxe room - Twin beds",
+                "flags": [
+                  "Twin beds"
+                ]
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included",
+              "refundable": "Free cancellation",
+              "pay_at_hotel": "Pay at the property"
+            },
+            "partner_name": "Hotels.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/htls/logo.svg?pos=zz"
+          },
+          {
+            "price": 167.6,
+            "brt": "p2d#t",
+            "rf": "p2d#t",
+            "brf": 9502848,
+            "rt": 9502848,
+            "vendor": "expd",
+            "vendor_id_raw": "32705923",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included",
+              "Free cancellation",
+              "Pay at the property"
+            ],
+            "jc_code": "EXPEDIA",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Deluxe room - Twin beds",
+            "rooms": [
+              {
+                "name": "Deluxe room - Twin beds",
+                "flags": [
+                  "Twin beds"
+                ]
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included",
+              "refundable": "Free cancellation",
+              "pay_at_hotel": "Pay at the property"
+            },
+            "partner_name": "Expedia",
+            "partner_logo": "https://hotelscan.com/apis/vendors/expd/logo.svg?pos=zz"
+          },
+          {
+            "price": 172.36,
+            "brt": "p2c#k",
+            "rf": "p2c#k",
+            "brf": 9502848,
+            "rt": 9502848,
+            "vendor": "htls",
+            "vendor_id_raw": "1047589536",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included",
+              "Free cancellation",
+              "Pay at the property"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Superior room - King bed",
+            "rooms": [
+              {
+                "name": "Superior room - King bed",
+                "flags": [
+                  "King bed"
+                ]
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included",
+              "refundable": "Free cancellation",
+              "pay_at_hotel": "Pay at the property"
+            },
+            "partner_name": "Hotels.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/htls/logo.svg?pos=zz"
+          },
+          {
+            "price": 172.36,
+            "brt": "p2c#k",
+            "rf": "p2c#k",
+            "brf": 9502848,
+            "rt": 9502848,
+            "vendor": "expd",
+            "vendor_id_raw": "32705923",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included",
+              "Free cancellation",
+              "Pay at the property"
+            ],
+            "jc_code": "EXPEDIA",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Superior room - King bed",
+            "rooms": [
+              {
+                "name": "Superior room - King bed",
+                "flags": [
+                  "King bed"
+                ]
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included",
+              "refundable": "Free cancellation",
+              "pay_at_hotel": "Pay at the property"
+            },
+            "partner_name": "Expedia",
+            "partner_logo": "https://hotelscan.com/apis/vendors/expd/logo.svg?pos=zz"
+          },
+          {
+            "price": 189.71,
+            "brt": "p2c#k",
+            "rf": "p2c#k",
+            "brf": 10027136,
+            "rt": 10027136,
+            "vendor": "ostr",
+            "vendor_id_raw": "8927694",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Full board",
+              "Free cancellation",
+              "Pay at the property"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Superior room - King bed",
+            "rooms": [
+              {
+                "name": "Superior room - King bed",
+                "flags": [
+                  "King bed"
+                ]
+              }
+            ],
+            "offer_flags_new": {
+              "full_board": "Full board",
+              "refundable": "Free cancellation",
+              "pay_at_hotel": "Pay at the property"
+            },
+            "partner_name": "Zenhotels",
+            "partner_logo": "https://hotelscan.com/apis/vendors/ostr/logo.svg?pos=zz"
+          },
+          {
+            "price": 191.4,
+            "brt": "p2c#k",
+            "rf": "p2c#k",
+            "brf": 9502848,
+            "rt": 9502848,
+            "vendor": "htls",
+            "vendor_id_raw": "1047589536",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included",
+              "Free cancellation",
+              "Pay at the property"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Superior room - King bed",
+            "rooms": [
+              {
+                "name": "Superior room - King bed",
+                "flags": [
+                  "King bed"
+                ]
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included",
+              "refundable": "Free cancellation",
+              "pay_at_hotel": "Pay at the property"
+            },
+            "partner_name": "Hotels.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/htls/logo.svg?pos=zz"
+          },
+          {
+            "price": 191.4,
+            "brt": "p2c#k",
+            "rf": "p2c#k",
+            "brf": 9502848,
+            "rt": 9502848,
+            "vendor": "expd",
+            "vendor_id_raw": "32705923",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included",
+              "Free cancellation",
+              "Pay at the property"
+            ],
+            "jc_code": "EXPEDIA",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Superior room - King bed",
+            "rooms": [
+              {
+                "name": "Superior room - King bed",
+                "flags": [
+                  "King bed"
+                ]
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included",
+              "refundable": "Free cancellation",
+              "pay_at_hotel": "Pay at the property"
+            },
+            "partner_name": "Expedia",
+            "partner_logo": "https://hotelscan.com/apis/vendors/expd/logo.svg?pos=zz"
+          },
+          {
+            "price": 1062.11,
+            "brt": "p2d#k",
+            "rf": "p2d#k",
+            "brf": 9994368,
+            "rt": 9994368,
+            "vendor": "ostr",
+            "vendor_id_raw": "8927694",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Full board",
+              "Pay at the property"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": false,
+            "special": false,
+            "room_name": "Deluxe room - King bed",
+            "rooms": [
+              {
+                "name": "Deluxe room - King bed",
+                "flags": [
+                  "King bed"
+                ]
+              }
+            ],
+            "offer_flags_new": {
+              "full_board": "Full board",
+              "pay_at_hotel": "Pay at the property"
+            },
+            "partner_name": "Zenhotels",
+            "partner_logo": "https://hotelscan.com/apis/vendors/ostr/logo.svg?pos=zz"
+          },
+          {
+            "price": 1071.46,
+            "brt": "e2f#",
+            "rf": "e2f#",
+            "brf": 9470016,
+            "rt": 9470016,
+            "vendor": "htls",
+            "vendor_id_raw": "1047589536",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": false,
+            "special": false,
+            "room_name": "Executive suite",
+            "rooms": [
+              {
+                "name": "Executive suite",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included"
+            },
+            "partner_name": "Hotels.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/htls/logo.svg?pos=zz"
+          },
+          {
+            "price": 1071.46,
+            "brt": "e2f#",
+            "rf": "e2f#",
+            "brf": 9470016,
+            "rt": 9470016,
+            "vendor": "expd",
+            "vendor_id_raw": "32705923",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included"
+            ],
+            "jc_code": "EXPEDIA",
+            "chain": "",
+            "free_cancellation": false,
+            "special": false,
+            "room_name": "Executive suite",
+            "rooms": [
+              {
+                "name": "Executive suite",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included"
+            },
+            "partner_name": "Expedia",
+            "partner_logo": "https://hotelscan.com/apis/vendors/expd/logo.svg?pos=zz"
+          }
+        ],
+        "descriptions_language": {
+          "general": {
+            "original_language": true,
+            "text": "At Calyx Grand Fuvahmulah, exceptional service and top-notch amenities create a memorable experience for guests.Complimentary internet access is available in the hotel to ensure you stay connected during your visit. Arrange your trips to and from the airport using the hotel's convenient transportation services booking. Discover the wonders of Maldive Islands with ease by utilizing the services provided by taxi, car hire and shuttle. For guests with their own vehicle, parking facilities are provided. Continuously receive the support you require through front desk amenities such as express check-in or check-out, luggage storage and safety deposit boxes.At the hotel, their ticket service and tours is also capable of assisting with booking tickets and securing reservations for entertainment and adventures.At the hotel, utilize the convenient laundry service to maintain your preferred travel attire fresh, allowing you to pack lighter. Craving relaxation? In-room amenities such as 24-hour room service, room service and daily housekeeping allow you to maximize your time spent inside the room.Additionally, you can obtain minor travel essentials and miscellaneous items at the convenience stores without departing from the Calyx Grand Fuvahmulah. Due to health concerns, smoking is strictly prohibited within the entire premises of hotel.For the health and well-being of all guests and staff, smoking is restricted exclusively to assigned zones. Accommodations come equipped with all the conveniences required for a restful night's slumber. A selection of rooms feature linen service and air conditioning to ensure your comfort and convenience. A few accommodations in Calyx Grand Fuvahmulah incorporate separate living room and balcony or terrace into their architectural arrangement. A few chosen rooms are equipped with television and cable TV to ensure guest amusement. In certain rooms, the hotel offers visitors access to a refrigerator, a coffee or tea maker, instant tea and mini bar. Calyx Grand Fuvahmulah offers a hair dryer and toiletries in the restrooms of specific accommodations.An additional advantage for guests is the executive lounge, which offers an outstandingly cozy and excellently furnished environment for relaxation. At Calyx Grand Fuvahmulah, each day commences with a scrumptious breakfast offered at no additional cost.All adore a delightful cup of coffee! An on-site coffee shop ensures you can relish a cup of authentic, freshly-brewed coffee every morning -- or whenever you desire it. Allow your journey to be free from the pangs of hunger! On-site eateries offer delicious and accessible meal choices.At Calyx Grand Fuvahmulah, catering to your unique requirements is our priority. Guests with particular dietary preferences can choose from an assortment of dishes, featuring kosher and halal choices among other options. An evening spent at hotel's bar can offer as much enjoyment as venturing out with your fellow travelers.At Calyx Grand Fuvahmulah, experience the ease of having groceries brought straight to your accommodation through their efficient service.Are you inclined to prepare your own dishes? You will surely appreciate having the on-site BBQ facilities available.At Calyx Grand Fuvahmulah, guests can take pleasure in the delightful recreational amenities provided for their entertainment. At the hotel, a wide range of enjoyable activities ensures that there's never a dull moment during your visit. Don't miss out on the easily reachable beach in the vicinity. Conclude your days in complete tranquility by visiting the salon situated precisely at the hotel."
+          },
+          "direction": {
+            "original_language": true,
+            "text": "Fuvahmulah is home to this guesthouse. While the natural beauty of Bandaara Lake and Fuvahmulah Nature Park can be enjoyed by anyone, those looking for an activity can check out Fuvahmulah Harbor."
+          },
+          "hotel": {
+            "original_language": true,
+            "text": "Calyx Grand Hotel is located in Fuvahmulah one of the beautiful islands in Maldives. It has opened public in January 2019 offering 5 quality and comfy rooms. It has two category rooms with deluxe double room and superior king room with Jacuzzi along with complementary high-speed wifi at the entire hotel. Calyx Grand Hotel provides round the clock room service and also, they provide laundry service. Calyx Grand Hotel provides three-star service that begins with complementary airport pickup service to all of their guests from Fuvahmulah Airport or Fuvahmulah Harbor. Every interaction with the hotel staff has an added personal touch to cater to specific needs of every guest. Fuvahmulah is famous for dive destination and it has most popular tiger shark dive point called “Tiger shark Zoo”. Tiger shark diving is 100%. As an added bonus to the exceptional care to each guest, at a request the hotel organizes snorkeling, diving, tiger shark diving, night fishing. ***Property Policies*** Cancellation policy: 7 days before arrival. In case of a late cancellation or No Show, you will be charged the total amount of your stay. Check in from 14:00 to 23:00. Check out before 12:00 noon. Payment upon arrival by cash. Taxes included. Breakfast included. No curfew. Non smoking in the room but have a smoking area."
+          },
+          "other": {
+            "original_language": true,
+            "text": "Fuvahmulah is famous for dive destination and it has most popular tiger shark dive point called “Tiger shark Zoo”. Tiger shark diving is 100%. As an added bonus to the exceptional care to each guest, at a request the hotel organizes snorkeling, diving, tiger shark diving, night fishing, big game fishing and mud bath. Thus, the hotel carries special potential to be the hub of any visit to the following the g Tiger sharks, Tiger Zoo,Thoodu beach,Mud bath Nature park,Nature park Lake, Bandaaraki."
+          }
+        },
+        "chain_code": null,
+        "bids": {
+          "ostr": "j23",
+          "expd": "j23",
+          "htls": "j23"
+        },
+        "worst_offer": null,
+        "best_offer": 109.51,
+        "best_offer_ota": "ostr",
+        "best_offer_mota": null,
+        "discount": 0,
+        "offers_count": 31,
+        "coordinates": {
+          "lat": -0.298009,
+          "lng": 73.422782
+        },
+        "distance": 0.35,
+        "neighborhood": null,
+        "badge": null,
+        "distances": [
+          {
+            "from": "center",
+            "distance": 0.35,
+            "time": 486,
+            "means": "foot",
+            "means_type": "foot"
+          }
+        ],
+        "specs": {
+          "bathrooms": null,
+          "beds": null,
+          "bedrooms": null,
+          "guests": null,
+          "square_meters": null
+        },
+        "toa_label": "hotel",
+        "top_amenities": [
+          "internet",
+          "restaurant",
+          "bar",
+          "parking",
+          "air_conditioning"
+        ],
+        "transportations": {
+          "airports": [],
+          "trains": []
+        },
+        "images": [
+          {
+            "image_id": "594528311",
+            "label": ""
+          },
+          {
+            "image_id": "594528355",
+            "label": ""
+          },
+          {
+            "image_id": "594528306",
+            "label": ""
+          },
+          {
+            "image_id": "594528335",
+            "label": ""
+          },
+          {
+            "image_id": "594528313",
+            "label": ""
+          },
+          {
+            "image_id": "594528317",
+            "label": ""
+          },
+          {
+            "image_id": "594528315",
+            "label": ""
+          },
+          {
+            "image_id": "594528345",
+            "label": ""
+          },
+          {
+            "image_id": "594528336",
+            "label": ""
+          },
+          {
+            "image_id": "594528339",
+            "label": ""
+          },
+          {
+            "image_id": "594528341",
+            "label": ""
+          },
+          {
+            "image_id": "594528319",
+            "label": ""
+          },
+          {
+            "image_id": "594528333",
+            "label": ""
+          },
+          {
+            "image_id": "594528344",
+            "label": ""
+          },
+          {
+            "image_id": "594528318",
+            "label": ""
+          }
+        ],
+        "hero_offer": {
+          "price": 110.48,
+          "brt": "p2d#t",
+          "rf": "p2d#t",
+          "brf": 9502784,
+          "rt": 9502784,
+          "vendor": "htls",
+          "vendor_id_raw": "1047589536",
+          "mota_code": null,
+          "direct_offer": false,
+          "offer_flags": {
+            "breakfast": "Breakfast included",
+            "refundable": "Free cancellation"
+          },
+          "jc_code": "",
+          "ranking_index": 0.9964880521361332,
+          "chain": "",
+          "free_cancellation": true,
+          "special": false,
+          "room_name": "Deluxe room - Twin beds",
+          "rooms": [
+            {
+              "name": "Deluxe room - Twin beds",
+              "flags": [
+                "Twin beds"
+              ]
+            }
+          ],
+          "partner_name": "Hotels.com",
+          "partner_logo": "https://hotelscan.com/apis/vendors/htls/logo.svg?pos=zz"
+        },
+        "rank": 0,
+        "ctrl_srt": "im a ctrl teapot",
+        "test_srt": "im a test teapot"
+      }
+    ],
+    "filters": [],
+    "query": {
+      "pos": "zz"
+    }
+  }
+}

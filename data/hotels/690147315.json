@@ -1,0 +1,726 @@
+{
+  "_meta": {
+    "status": "SUCCESS",
+    "cached": true,
+    "count": 1,
+    "debug": {
+      "ticket": {
+        "ticket_id": "690147315_zz_zz_d_publ_en_2_2025-10-08_2025-10-13_1_3",
+        "created_at": 1758065405.759,
+        "loop": null,
+        "snapped_at": 1758065405.8517,
+        "snapshot_id": "690147315_zz_zz_d_publ_en_2_2025-10-08_2025-10-13_1_3",
+        "snapshot_ttl": 300,
+        "executions": 2,
+        "progress": 1,
+        "save_errors": []
+      }
+    }
+  },
+  "data": {
+    "meta": [],
+    "geo": {
+      "hs_id": "x5jetk285452",
+      "region_name": "Gan Island",
+      "region_name_long": "Gan Island, Maldives",
+      "region_type": "CITY",
+      "region_id": 6195983,
+      "country_iso": "MV",
+      "country": "maldives",
+      "localised_country": "Maldives",
+      "center": [
+        1.90851,
+        73.5384
+      ],
+      "centroid": [
+        1.90851,
+        73.54535
+      ],
+      "polygon": [
+        "1.876269,73.516855",
+        "1.865079,73.537556",
+        "1.915388,73.559946",
+        "1.951936,73.553136",
+        "1.946548,73.528047",
+        "1.876269,73.516855"
+      ],
+      "radius": 4.91,
+      "zoom": -1,
+      "search_by_polygon": 0,
+      "cluster": 0,
+      "properties": 17,
+      "radius_override": 5,
+      "boundingbox": {
+        "ne": [
+          1.952,
+          73.56
+        ],
+        "sw": [
+          1.865,
+          73.516
+        ]
+      },
+      "airports": [],
+      "region_name_en": "Gan Island",
+      "region_name_long_en": "Gan Island, Maldives",
+      "referrer_city_name_en": "Gan Island",
+      "parent_region_id": 6051084,
+      "parent_hs_id": "x5p4hmhw6iot",
+      "parent_region_name": "Maldives (all)",
+      "parent_region_name_long": "Maldives (all)",
+      "dynamic_bbox": {
+        "ne": [
+          1.937,
+          73.54
+        ],
+        "sw": [
+          1.937,
+          73.54
+        ]
+      }
+    },
+    "records": [
+      {
+        "hs_id": 690147315,
+        "slug": "reveries-maldives-gan-island-mv-690147315",
+        "name": "Reveries Maldives",
+        "ty_id": "e3b747f6-9fca-4903-ba28-fe07ef79e259",
+        "toa": "guest_house",
+        "building": {
+          "room_num": 23
+        },
+        "location": {
+          "city": "Gan Island",
+          "zip": "15061",
+          "country_iso2": "MV",
+          "address": "Monaan, Laamu Gan  Namoona Magu, Thundi",
+          "geoid": "x5jetk285452",
+          "loc": {
+            "type": "Point"
+          },
+          "coordinates": {
+            "lng": 73.54005,
+            "lat": 1.9377
+          }
+        },
+        "opening_time": {
+          "check_in_from": "00:00",
+          "check_in_to": "00:00",
+          "check_out_from": "00:00",
+          "check_out_to": "00:00"
+        },
+        "quality": {
+          "review_count": 27,
+          "review_rating": 86,
+          "stars": 3,
+          "stars_is_estimated": false,
+          "review_source": ""
+        },
+        "covid_safe": true,
+        "amenities": {
+          "business": [
+            "meeting_room"
+          ],
+          "wellness": [
+            "massage",
+            "solarium",
+            "fitness_center",
+            "hair_salon",
+            "spa",
+            "outdoor_pool"
+          ],
+          "sports": [
+            "billiard",
+            "bike_rent",
+            "ping_pong",
+            "volley_beach_volley",
+            "sub",
+            "surf"
+          ],
+          "internet": [
+            "wifi",
+            "internet"
+          ],
+          "food_drink": [
+            "restaurant",
+            "room_service",
+            "cafe",
+            "bar",
+            "snack_bar"
+          ],
+          "parking": [
+            "parking"
+          ],
+          "outdoor": [
+            "garden",
+            "terrace"
+          ],
+          "other": [],
+          "entertainment": [
+            "tv_lobby"
+          ],
+          "transfer": [
+            "shuttle_service"
+          ],
+          "room": [
+            "air_conditioning",
+            "tv"
+          ],
+          "reception": [
+            "24h_reception",
+            "luggage_storage",
+            "laundry_facilities",
+            "laundry_service",
+            "safety_deposit_box"
+          ]
+        },
+        "descriptions": {
+          "direction": "Located in Gan, Reveries Maldives is near the airport and on a private beach. Masjudhul Zikraa and Siraajudheen Mosque are notable landmarks, and the area's natural beauty can be seen at Paree Fengandu. Take an opportunity to explore the area for outdoor excitement like hiking/biking trails.",
+          "general": "Enjoy the breathtaking view of the beautiful atolls on a thirty-five minute flight from Ibrahim Nasir International Airport before reaching Laamu, the longest stretch of islands, connected by land in the Maldives. A twenty minute drive across three islands will take you the exquisite Reveries Diving Village.",
+          "amenities": true,
+          "localized": "Enjoy the breathtaking view of the beautiful atolls on a thirty-five minute flight from Ibrahim Nasir International Airport before reaching Laamu, the longest stretch of islands, connected by land in the Maldives. A twenty minute drive across three islands will take you the exquisite Reveries Diving Village."
+        },
+        "short_description": "Casual guest house with 23 rooms, outdoor pool and fitness center",
+        "offers": [
+          {
+            "price": 96.56,
+            "brt": "p1d#",
+            "rf": "p1d#",
+            "brf": 8454272,
+            "rt": 8454272,
+            "vendor": "htls",
+            "vendor_id_raw": "416797",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Free cancellation",
+              "Pay at the property"
+            ],
+            "jc_code": "",
+            "ranking_index": 0.9963960231980116,
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Single deluxe room",
+            "rooms": [
+              {
+                "name": "Single deluxe room",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "refundable": "Free cancellation",
+              "pay_at_hotel": "Pay at the property"
+            },
+            "partner_name": "Hotels.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/htls/logo.svg?pos=zz"
+          },
+          {
+            "vendor": "expd",
+            "price": 96.56,
+            "vendor_id_raw": "5346946",
+            "mota_code": null,
+            "jc_code": "EXPEDIA",
+            "partner_name": "Expedia",
+            "partner_logo": "https://hotelscan.com/apis/vendors/expd/logo.svg?pos=zz",
+            "room_name": "Single deluxe room",
+            "brf": 8454272,
+            "brt": "p1d#"
+          },
+          {
+            "vendor": "bkng",
+            "price": 547.06,
+            "vendor_id_raw": "422876",
+            "mota_code": null,
+            "jc_code": "",
+            "partner_name": "Booking.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/bkng/logo.svg?pos=zz",
+            "room_name": "Bungalow",
+            "brf": 9502848,
+            "brt": "g2r#"
+          },
+          {
+            "vendor": "ostr",
+            "price": 95.69,
+            "vendor_id_raw": "7683730",
+            "mota_code": null,
+            "jc_code": "",
+            "partner_name": "Zenhotels",
+            "partner_logo": "https://hotelscan.com/apis/vendors/ostr/logo.svg?pos=zz",
+            "room_name": "Single deluxe room",
+            "brf": 8454272,
+            "brt": "p1d#"
+          },
+          {
+            "vendor": "agda",
+            "price": 575.82,
+            "vendor_id_raw": "3534715",
+            "mota_code": null,
+            "jc_code": "",
+            "partner_name": "Agoda",
+            "partner_logo": "https://hotelscan.com/apis/vendors/agda/logo.svg?pos=zz",
+            "room_name": "Bungalow",
+            "brf": 9502784,
+            "brt": "g2r#"
+          },
+          {
+            "vendor": "stfl",
+            "price": 100.9,
+            "vendor_id_raw": "52227",
+            "mota_code": null,
+            "jc_code": "",
+            "partner_name": "Stayforlong",
+            "partner_logo": "https://hotelscan.com/apis/vendors/stfl/logo.svg?pos=zz",
+            "room_name": "Deluxe room - Choice of single or double beds",
+            "brf": 8945728,
+            "brt": "p2d#b"
+          }
+        ],
+        "all_offers": [
+          {
+            "price": 95.69,
+            "brt": "p1d#",
+            "rf": "p1d#",
+            "brf": 8454272,
+            "rt": 8454272,
+            "vendor": "ostr",
+            "vendor_id_raw": "7683730",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Free cancellation",
+              "Pay at the property"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Single deluxe room",
+            "rooms": [
+              {
+                "name": "Single deluxe room",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "refundable": "Free cancellation",
+              "pay_at_hotel": "Pay at the property"
+            },
+            "partner_name": "Zenhotels",
+            "partner_logo": "https://hotelscan.com/apis/vendors/ostr/logo.svg?pos=zz"
+          },
+          {
+            "price": 96.56,
+            "brt": "p1d#",
+            "rf": "p1d#",
+            "brf": 8454272,
+            "rt": 8454272,
+            "vendor": "htls",
+            "vendor_id_raw": "416797",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Free cancellation",
+              "Pay at the property"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Single deluxe room",
+            "rooms": [
+              {
+                "name": "Single deluxe room",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "refundable": "Free cancellation",
+              "pay_at_hotel": "Pay at the property"
+            },
+            "partner_name": "Hotels.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/htls/logo.svg?pos=zz"
+          },
+          {
+            "price": 96.56,
+            "brt": "p1d#",
+            "rf": "p1d#",
+            "brf": 8454272,
+            "rt": 8454272,
+            "vendor": "expd",
+            "vendor_id_raw": "5346946",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Free cancellation",
+              "Pay at the property"
+            ],
+            "jc_code": "EXPEDIA",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Single deluxe room",
+            "rooms": [
+              {
+                "name": "Single deluxe room",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "refundable": "Free cancellation",
+              "pay_at_hotel": "Pay at the property"
+            },
+            "partner_name": "Expedia",
+            "partner_logo": "https://hotelscan.com/apis/vendors/expd/logo.svg?pos=zz"
+          },
+          {
+            "price": 96.57,
+            "brt": "p1d#",
+            "rf": "p1d#",
+            "brf": 8454208,
+            "rt": 8454208,
+            "vendor": "htls",
+            "vendor_id_raw": "416797",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Free cancellation"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Single deluxe room",
+            "rooms": [
+              {
+                "name": "Single deluxe room",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "refundable": "Free cancellation"
+            },
+            "partner_name": "Hotels.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/htls/logo.svg?pos=zz"
+          },
+          {
+            "price": 96.57,
+            "brt": "p1d#",
+            "rf": "p1d#",
+            "brf": 8454208,
+            "rt": 8454208,
+            "vendor": "expd",
+            "vendor_id_raw": "5346946",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Free cancellation"
+            ],
+            "jc_code": "EXPEDIA",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Single deluxe room",
+            "rooms": [
+              {
+                "name": "Single deluxe room",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "refundable": "Free cancellation"
+            },
+            "partner_name": "Expedia",
+            "partner_logo": "https://hotelscan.com/apis/vendors/expd/logo.svg?pos=zz"
+          },
+          {
+            "price": 100.9,
+            "brt": "p2d#b",
+            "rf": "p2d#b",
+            "brf": 8945728,
+            "rt": 8945728,
+            "vendor": "stfl",
+            "vendor_id_raw": "52227",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": false,
+            "special": false,
+            "room_name": "Deluxe room - Choice of single or double beds",
+            "rooms": [
+              {
+                "name": "Deluxe room - Choice of single or double beds",
+                "flags": [
+                  "Choice of single or double beds"
+                ]
+              }
+            ],
+            "offer_flags_new": [],
+            "partner_name": "Stayforlong",
+            "partner_logo": "https://hotelscan.com/apis/vendors/stfl/logo.svg?pos=zz"
+          },
+          {
+            "price": 244.37,
+            "brt": "p2d#a",
+            "rf": "p2d#a",
+            "brf": 9502784,
+            "rt": 9502784,
+            "vendor": "ostr",
+            "vendor_id_raw": "7683730",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included",
+              "Free cancellation"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Deluxe room - Bed type subject to availability",
+            "rooms": [
+              {
+                "name": "Deluxe room - Bed type subject to availability",
+                "flags": [
+                  "Bed type subject to availability"
+                ]
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included",
+              "refundable": "Free cancellation"
+            },
+            "partner_name": "Zenhotels",
+            "partner_logo": "https://hotelscan.com/apis/vendors/ostr/logo.svg?pos=zz"
+          },
+          {
+            "price": 547.06,
+            "brt": "g2r#",
+            "rf": "g2r#",
+            "brf": 9502848,
+            "rt": 9502848,
+            "vendor": "bkng",
+            "vendor_id_raw": "422876",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included",
+              "Free cancellation",
+              "Pay at the property"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Bungalow",
+            "rooms": [
+              {
+                "name": "Bungalow",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included",
+              "refundable": "Free cancellation",
+              "pay_at_hotel": "Pay at the property"
+            },
+            "partner_name": "Booking.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/bkng/logo.svg?pos=zz"
+          },
+          {
+            "price": 575.82,
+            "brt": "g2r#",
+            "rf": "g2r#",
+            "brf": 9502784,
+            "rt": 9502784,
+            "vendor": "agda",
+            "vendor_id_raw": "3534715",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included",
+              "Free cancellation"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Bungalow",
+            "rooms": [
+              {
+                "name": "Bungalow",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included",
+              "refundable": "Free cancellation"
+            },
+            "partner_name": "Agoda",
+            "partner_logo": "https://hotelscan.com/apis/vendors/agda/logo.svg?pos=zz"
+          }
+        ],
+        "descriptions_language": {
+          "general": {
+            "original_language": true,
+            "text": "Enjoy the breathtaking view of the beautiful atolls on a thirty-five minute flight from Ibrahim Nasir International Airport before reaching Laamu, the longest stretch of islands, connected by land in the Maldives. A twenty minute drive across three islands will take you the exquisite Reveries Diving Village."
+          },
+          "direction": {
+            "original_language": true,
+            "text": "Located in Gan, Reveries Maldives is near the airport and on a private beach. Masjudhul Zikraa and Siraajudheen Mosque are notable landmarks, and the area's natural beauty can be seen at Paree Fengandu. Take an opportunity to explore the area for outdoor excitement like hiking/biking trails."
+          }
+        },
+        "chain_code": null,
+        "bids": {
+          "bkng": "j23",
+          "agda": "j23",
+          "htls": "j23",
+          "expd": "j23",
+          "stfl": "j23",
+          "ostr": "j23"
+        },
+        "worst_offer": 575.82,
+        "best_offer": 95.69,
+        "best_offer_ota": "ostr",
+        "best_offer_mota": null,
+        "discount": 85,
+        "offers_count": 9,
+        "coordinates": {
+          "lat": 1.9377,
+          "lng": 73.54005
+        },
+        "distance": 3.25,
+        "neighborhood": null,
+        "badge": null,
+        "distances": [
+          {
+            "from": "center",
+            "distance": 3.25,
+            "time": 390,
+            "means": "car",
+            "means_type": "car"
+          }
+        ],
+        "specs": {
+          "bathrooms": null,
+          "beds": null,
+          "bedrooms": null,
+          "guests": null,
+          "square_meters": null
+        },
+        "toa_label": "guest house",
+        "top_amenities": [
+          "meeting_room",
+          "outdoor_pool",
+          "internet",
+          "restaurant",
+          "room_service"
+        ],
+        "transportations": {
+          "airports": [],
+          "trains": []
+        },
+        "images": [
+          {
+            "image_id": "684131617",
+            "label": ""
+          },
+          {
+            "image_id": "684131567",
+            "label": ""
+          },
+          {
+            "image_id": "684131623",
+            "label": ""
+          },
+          {
+            "image_id": "684131627",
+            "label": ""
+          },
+          {
+            "image_id": "684131611",
+            "label": ""
+          },
+          {
+            "image_id": "684131608",
+            "label": ""
+          },
+          {
+            "image_id": "684131589",
+            "label": ""
+          },
+          {
+            "image_id": "684131572",
+            "label": ""
+          },
+          {
+            "image_id": "684131569",
+            "label": ""
+          },
+          {
+            "image_id": "684131604",
+            "label": ""
+          },
+          {
+            "image_id": "684131635",
+            "label": ""
+          },
+          {
+            "image_id": "684131563",
+            "label": ""
+          },
+          {
+            "image_id": "684131566",
+            "label": ""
+          },
+          {
+            "image_id": "684131593",
+            "label": ""
+          },
+          {
+            "image_id": "684131610",
+            "label": ""
+          }
+        ],
+        "hero_offer": {
+          "price": 96.56,
+          "brt": "p1d#",
+          "rf": "p1d#",
+          "brf": 8454272,
+          "rt": 8454272,
+          "vendor": "htls",
+          "vendor_id_raw": "416797",
+          "mota_code": null,
+          "direct_offer": false,
+          "offer_flags": {
+            "refundable": "Free cancellation",
+            "pay_at_hotel": "Pay at the property"
+          },
+          "jc_code": "",
+          "ranking_index": 0.9963960231980116,
+          "chain": "",
+          "free_cancellation": true,
+          "special": false,
+          "room_name": "Single deluxe room",
+          "rooms": [
+            {
+              "name": "Single deluxe room",
+              "flags": []
+            }
+          ],
+          "partner_name": "Hotels.com",
+          "partner_logo": "https://hotelscan.com/apis/vendors/htls/logo.svg?pos=zz"
+        },
+        "rank": 0,
+        "ctrl_srt": "im a ctrl teapot",
+        "test_srt": "im a test teapot"
+      }
+    ],
+    "filters": [],
+    "query": {
+      "pos": "zz"
+    }
+  }
+}

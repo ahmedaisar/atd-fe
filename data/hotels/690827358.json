@@ -1,0 +1,1576 @@
+{
+  "_meta": {
+    "status": "SUCCESS",
+    "cached": true,
+    "count": 1,
+    "debug": {
+      "ticket": {
+        "ticket_id": "690827358_zz_zz_d_publ_en_2_2025-10-08_2025-10-13_1_3",
+        "created_at": 1758065355.1329,
+        "loop": null,
+        "snapped_at": 1758065355.2246,
+        "snapshot_id": "690827358_zz_zz_d_publ_en_2_2025-10-08_2025-10-13_1_3",
+        "snapshot_ttl": 300,
+        "executions": 2,
+        "progress": 1,
+        "save_errors": []
+      }
+    }
+  },
+  "data": {
+    "meta": [],
+    "geo": {
+      "hs_id": "xkhvx3vp0spo",
+      "region_name": "Dhangethi",
+      "region_name_long": "Dhangethi, Maldives",
+      "region_type": "CITY",
+      "region_id": 6334812,
+      "country_iso": "MV",
+      "country": "maldives",
+      "localised_country": "Maldives",
+      "center": [
+        3.60664,
+        72.95528
+      ],
+      "centroid": [
+        3.6067,
+        72.95582
+      ],
+      "polygon": [
+        "3.610612,72.951386",
+        "3.601346,72.953854",
+        "3.601827,72.959167",
+        "3.611924,72.958578",
+        "3.610612,72.951386"
+      ],
+      "radius": 0.66,
+      "zoom": -1,
+      "search_by_polygon": 0,
+      "cluster": 0,
+      "properties": 45,
+      "radius_override": 5,
+      "boundingbox": {
+        "ne": [
+          3.612,
+          72.96
+        ],
+        "sw": [
+          3.601,
+          72.951
+        ]
+      },
+      "airports": [
+        "MLE",
+        "DRV"
+      ],
+      "region_name_en": "Dhangethi",
+      "region_name_long_en": "Dhangethi, Maldives",
+      "referrer_city_name_en": "Dhangethi",
+      "parent_region_id": 6051084,
+      "parent_hs_id": "x5p4hmhw6iot",
+      "parent_region_name": "Maldives (all)",
+      "parent_region_name_long": "Maldives (all)",
+      "dynamic_bbox": {
+        "ne": [
+          3.607,
+          72.955
+        ],
+        "sw": [
+          3.607,
+          72.955
+        ]
+      }
+    },
+    "records": [
+      {
+        "hs_id": 690827358,
+        "slug": "banyan-villa-maldives-dhangethi-dhangethi-mv-690827358",
+        "name": "Banyan Villa Maldives Dhangethi",
+        "ty_id": "1ce85112-df9b-46fc-8d5e-910a6aee937f",
+        "toa": "guest_house",
+        "building": {
+          "room_num": 5
+        },
+        "location": {
+          "city": "Dhangethi",
+          "zip": "00060",
+          "country_iso2": "MV",
+          "address": "Beach Villa",
+          "geoid": "xkhvx3vp0spo",
+          "loc": {
+            "type": "Point"
+          },
+          "coordinates": {
+            "lng": 72.9552,
+            "lat": 3.60714
+          }
+        },
+        "opening_time": {
+          "check_in_from": "00:00",
+          "check_in_to": "00:00",
+          "check_out_from": "00:00",
+          "check_out_to": "12:00"
+        },
+        "quality": {
+          "review_count": 28,
+          "review_rating": 91,
+          "stars": 0,
+          "stars_is_estimated": false,
+          "review_source": ""
+        },
+        "covid_safe": true,
+        "amenities": {
+          "wellness": [
+            "solarium",
+            "fitness_center"
+          ],
+          "sports": [
+            "bike_rent",
+            "sub",
+            "surf"
+          ],
+          "internet": [
+            "wifi",
+            "internet"
+          ],
+          "food_drink": [
+            "restaurant",
+            "room_service",
+            "cafe",
+            "bar",
+            "snack_bar"
+          ],
+          "disability": [
+            "disability_facilities"
+          ],
+          "outdoor": [
+            "garden",
+            "terrace"
+          ],
+          "other": [],
+          "business": [
+            "meeting_room"
+          ],
+          "children": [
+            "babysitter",
+            "children_playground"
+          ],
+          "entertainment": [
+            "tv_lobby"
+          ],
+          "transfer": [
+            "shuttle_service"
+          ],
+          "room": [
+            "fan",
+            "air_conditioning",
+            "tv"
+          ],
+          "reception": [
+            "24h_reception",
+            "luggage_storage",
+            "concierge",
+            "laundry_facilities",
+            "laundry_service",
+            "safety_deposit_box"
+          ]
+        },
+        "descriptions": {
+          "hotel": "Banyan Villa is one of the most recognizable Hotel in the tropical island of Dhangethi, located in Ari Atoll of Maldives. The islands center with all the major attractions is only a minute's walk from the Hotel Our mission is enriching peoples lives with pleasant vacation moments and memories. Our assets are: first-class rooms with excellent service, breathtaking experiences and genuine hospitality. Featuring free WiFi, a restaurant and a sun terrace, Banyan Villa Maldives Dhangethi offers accommodation in Dhangethi. Guests can enjoy the on-site snack bar. Every air conditioned room at this guest house is fitted with a flat-screen TV offering satellite channels. Each room comes with a private bathroom. Extras include bath robes, free toiletries and a hair dryer. You will find a 24-hour front desk and gift shop at the property. Terms and conditions: Cancellation policy: 7 days before arrival. In case of a late cancellation or No Show, you will be charged the first night of your stay. Check in from 08:00 to 18:00 . Check out before 12:00 . 24-hour front desk. Payment upon arrival by credit cards and cash. Taxes included. Breakfast included. Buffet breakfast available for free daily 07:30 to10:00. No curfew. We accept guests below 18 years if accompanied by adults. Government-issued photo ID required Non smoking but with designated smoking area within the premise.",
+          "direction": "Dhangethi is home to Banyan Villa Maldives. Villingilivaru Island Pier and Maafushivaru Island Jetty are worth checking out if an activity is on the agenda, while those wishing to experience the area's natural beauty can explore Dhangethi Beach and Ranveli Beach. Maafushivaru Island Beach and Vakarufalhi Island Beach are two other places to visit that come recommended. With scuba diving, snorkeling, and windsurfing nearby, you'll find plenty of adventures in the water.",
+          "general": "Property Desc: Property Location With a stay at Banyan Villa Maldives in Dhangethi, you'll be near the beach, just steps from Dhangethi Beach. This beach guesthouse is within close proximity of Ranveli Beach and Villingilivaru Island Pier. Rooms Make yourself at home in one of the 5 individually decorated guestrooms, featuring minibars and flat-screen televisions. Complimentary wireless Internet access keeps you connected, and cable programming is available for your entertainment. Private bathrooms have jetted bathtubs and rainfall showerheads. Conveniences include safes and separate sitting areas, and housekeeping is provided daily. Amenities Take in the views from a terrace and a garden and make use of amenities such as complimentary wireless Internet access. This guesthouse also features concierge services, a communal living room, and a picnic area. Dining Enjoy a meal at the restaurant or snacks in the coffee shop/cafe. The guesthouse also offers room service (during limited hours). Quench your thirst with your favorite drink at the bar/lounge. Buffet breakfasts are available daily from 7:30 AM to 10:00 AM for a fee. Business, Other Amenities Featured amenities include express check-in, express check-out, and complimentary newspapers in the lobby. A roundtrip airport shuttle is provided for a surcharge (available on request). Attractions Distances are displayed to the nearest 0.1 mile and kilometer. Dhangethi Beach - 0.1 km / 0.1 mi Bikini Beach - 0.5 km / 0.3 mi Bunbaru Public Beach - 0.1 km / 0.1 mi Harbor Green Zone - 0.1 km / 0.1 mi House Rules Children welcome No pets No smoking Spoken Languages English Know Before You Go: Only registered guests are allowed in the guestrooms. This property advises that enhanced cleaning and guest safety measures are currently in place. Disinfectant is used to clean the property; commonly-touched surfaces are cleaned with disinfectant between stays; bed sheets and towels are laundered at a temperature of at least 60 C/140 F. Social distancing measures are in place; periodic temperature checks are conducted on staff; temperature checks are available to guests; guests are provided with hand sanitizer; contactless room service is available; masks are required in public areas. Contactless check-in and contactless check-out are available. Enhanced food service safety measures are in place. Individually-wrapped food options are available through room service. Fees: Fee for buffet breakfast: approximately USD 5 for adults and USD 5 for children Airport shuttle fee: USD 45 per person (one-way) Airport shuttle fee per child: USD 45 (one-way), (from 2 to 9 years old) Rollaway bed fee: USD 15 per day The above list may not be comprehensive. Fees and deposits may not include tax and are subject to change. Mandatory Fees and Taxes: You'll be asked to pay the following charges at the property: A tax is imposed by the city: USD 3.00 per person, per night Resort fee: 10 percent of room rate We have included all charges provided to us by the property. Checkin Instructions: Extra-person charges may apply and vary depending on property policy Government-issued photo identification and a credit card, debit card, or cash deposit may be required at check-in for incidental charges Special requests are subject to availability upon check-in and may incur additional charges; special requests cannot be guaranteed Safety features at this property include a fire extinguisher, a security system, and a first aid kit Be prepared: check the latest COVID-19 travel requirements and measures in place for this destination before you travel. Special Checkin Instructions: This property offers transfers from the airport (surcharges may apply). Guests must contact the property with arrival details before travel, using the contact information on the booking confirmation. Front desk staff will greet guests on arrival. Checkin Time: 12:00 PM Checkin End Time: 6:00 PM Checkin Minimum Age: 18 Checkout Time: 11:00 AM",
+          "amenities": true,
+          "other": "Guests can enjoy various activities in the surroundings, including snorkeling,diving and windsurfing. Whale sharks are frequently spotted in the area along with Mantas and Turtles Local Souvenir shops are nearby and guests can enjoy the local lifestyle while enjoying their stay. Top spots nearby Recommended by this property Dhangethi Beach (2-minute walk) Ranveli Beach (12-minute walk) Villingilivaru Island Pier (12-minute walk) Maafushivaru Island Jetty (3.7 mi / 6 km) Maafushivaru Island Beach (3.8 mi / 6.1 km) Vakarufalhi Island Beach (4.1 mi / 6.7 km) Dhigurah Beach (5.5 mi / 8.8 km) Dhidhoofinolhu Marina (8.4 mi / 13.5 km)",
+          "localized": "Property Desc: Property Location With a stay at Banyan Villa Maldives in Dhangethi, you'll be near the beach, just steps from Dhangethi Beach. This beach guesthouse is within close proximity of Ranveli Beach and Villingilivaru Island Pier. Rooms Make yourself at home in one of the 5 individually decorated guestrooms, featuring minibars and flat-screen televisions. Complimentary wireless Internet access keeps you connected, and cable programming is available for your entertainment. Private bathrooms have jetted bathtubs and rainfall showerheads. Conveniences include safes and separate sitting areas, and housekeeping is provided daily. Amenities Take in the views from a terrace and a garden and make use of amenities such as complimentary wireless Internet access. This guesthouse also features concierge services, a communal living room, and a picnic area. Dining Enjoy a meal at the restaurant or snacks in the coffee shop/cafe. The guesthouse also offers room service (during limited hours). Quench your thirst with your favorite drink at the bar/lounge. Buffet breakfasts are available daily from 7:30 AM to 10:00 AM for a fee. Business, Other Amenities Featured amenities include express check-in, express check-out, and complimentary newspapers in the lobby. A roundtrip airport shuttle is provided for a surcharge (available on request). Attractions Distances are displayed to the nearest 0.1 mile and kilometer. Dhangethi Beach - 0.1 km / 0.1 mi Bikini Beach - 0.5 km / 0.3 mi Bunbaru Public Beach - 0.1 km / 0.1 mi Harbor Green Zone - 0.1 km / 0.1 mi House Rules Children welcome No pets No smoking Spoken Languages English Know Before You Go: Only registered guests are allowed in the guestrooms. This property advises that enhanced cleaning and guest safety measures are currently in place. Disinfectant is used to clean the property; commonly-touched surfaces are cleaned with disinfectant between stays; bed sheets and towels are laundered at a temperature of at least 60 C/140 F. Social distancing measures are in place; periodic temperature checks are conducted on staff; temperature checks are available to guests; guests are provided with hand sanitizer; contactless room service is available; masks are required in public areas. Contactless check-in and contactless check-out are available. Enhanced food service safety measures are in place. Individually-wrapped food options are available through room service. Fees: Fee for buffet breakfast: approximately USD 5 for adults and USD 5 for children Airport shuttle fee: USD 45 per person (one-way) Airport shuttle fee per child: USD 45 (one-way), (from 2 to 9 years old) Rollaway bed fee: USD 15 per day The above list may not be comprehensive. Fees and deposits may not include tax and are subject to change. Mandatory Fees and Taxes: You'll be asked to pay the following charges at the property: A tax is imposed by the city: USD 3.00 per person, per night Resort fee: 10 percent of room rate We have included all charges provided to us by the property. Checkin Instructions: Extra-person charges may apply and vary depending on property policy Government-issued photo identification and a credit card, debit card, or cash deposit may be required at check-in for incidental charges Special requests are subject to availability upon check-in and may incur additional charges; special requests cannot be guaranteed Safety features at this property include a fire extinguisher, a security system, and a first aid kit Be prepared: check the latest COVID-19 travel requirements and measures in place for this destination before you travel. Special Checkin Instructions: This property offers transfers from the airport (surcharges may apply). Guests must contact the property with arrival details before travel, using the contact information on the booking confirmation. Front desk staff will greet guests on arrival. Checkin Time: 12:00 PM Checkin End Time: 6:00 PM Checkin Minimum Age: 18 Checkout Time: 11:00 AM"
+        },
+        "short_description": "Excellent accommodation. Awesome rooms and service in a great location.",
+        "chain": "no_chain",
+        "brand": "no_brand",
+        "offers": [
+          {
+            "price": 61.9,
+            "brt": "p2qrt",
+            "rf": "p2qrt",
+            "brf": 8454144,
+            "rt": 8454144,
+            "vendor": "hwld",
+            "vendor_id_raw": "301667",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Free cancellation"
+            ],
+            "jc_code": "",
+            "ranking_index": 0.8706946688206785,
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Standard family room - Twin beds",
+            "rooms": [
+              {
+                "name": "Standard family room - Twin beds",
+                "flags": [
+                  "Twin beds"
+                ]
+              }
+            ],
+            "offer_flags_new": {
+              "refundable": "Free cancellation"
+            },
+            "partner_name": "Hostelworld",
+            "partner_logo": "https://hotelscan.com/apis/vendors/hwld/logo.svg?pos=zz"
+          },
+          {
+            "vendor": "agda",
+            "price": 41.89,
+            "vendor_id_raw": "1016162",
+            "mota_code": null,
+            "jc_code": "",
+            "partner_name": "Agoda",
+            "partner_logo": "https://hotelscan.com/apis/vendors/agda/logo.svg?pos=zz",
+            "room_name": "Deluxe room",
+            "brf": 8454208,
+            "brt": "p2d#"
+          },
+          {
+            "vendor": "bkng",
+            "price": 80.63,
+            "vendor_id_raw": "1412618",
+            "mota_code": null,
+            "jc_code": "",
+            "partner_name": "Booking.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/bkng/logo.svg?pos=zz",
+            "room_name": "Standard room",
+            "brf": 8454208,
+            "brt": "p2r#"
+          },
+          {
+            "vendor": "htls",
+            "price": 88.49,
+            "vendor_id_raw": "669722",
+            "mota_code": null,
+            "jc_code": "",
+            "partner_name": "Hotels.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/htls/logo.svg?pos=zz",
+            "room_name": "Deluxe room",
+            "brf": 8454272,
+            "brt": "p2d#"
+          },
+          {
+            "vendor": "ctrp",
+            "price": 59.28,
+            "vendor_id_raw": "10733019",
+            "mota_code": null,
+            "jc_code": "TRIPCOM",
+            "partner_name": "Trip.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/ctrp/logo.svg?pos=zz",
+            "room_name": "Deluxe room",
+            "brf": 8454272,
+            "brt": "p2d#"
+          },
+          {
+            "vendor": "expd",
+            "price": 88.49,
+            "vendor_id_raw": "17437612",
+            "mota_code": null,
+            "jc_code": "EXPEDIA",
+            "partner_name": "Expedia",
+            "partner_logo": "https://hotelscan.com/apis/vendors/expd/logo.svg?pos=zz",
+            "room_name": "Deluxe room",
+            "brf": 8454272,
+            "brt": "p2d#"
+          }
+        ],
+        "all_offers": [
+          {
+            "price": 41.89,
+            "brt": "p2d#",
+            "rf": "p2d#",
+            "brf": 8454208,
+            "rt": 8454208,
+            "vendor": "agda",
+            "vendor_id_raw": "1016162",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Free cancellation"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Deluxe room",
+            "rooms": [
+              {
+                "name": "Deluxe room",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "refundable": "Free cancellation"
+            },
+            "partner_name": "Agoda",
+            "partner_logo": "https://hotelscan.com/apis/vendors/agda/logo.svg?pos=zz"
+          },
+          {
+            "price": 54.43,
+            "brt": "p2c#",
+            "rf": "p2c#",
+            "brf": 8454208,
+            "rt": 8454208,
+            "vendor": "agda",
+            "vendor_id_raw": "1016162",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Free cancellation"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Superior room",
+            "rooms": [
+              {
+                "name": "Superior room",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "refundable": "Free cancellation"
+            },
+            "partner_name": "Agoda",
+            "partner_logo": "https://hotelscan.com/apis/vendors/agda/logo.svg?pos=zz"
+          },
+          {
+            "price": 59.28,
+            "brt": "p2d#",
+            "rf": "p2d#",
+            "brf": 8454272,
+            "rt": 8454272,
+            "vendor": "agda",
+            "vendor_id_raw": "1016162",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Free cancellation",
+              "Pay at the property"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Deluxe room",
+            "rooms": [
+              {
+                "name": "Deluxe room",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "refundable": "Free cancellation",
+              "pay_at_hotel": "Pay at the property"
+            },
+            "partner_name": "Agoda",
+            "partner_logo": "https://hotelscan.com/apis/vendors/agda/logo.svg?pos=zz"
+          },
+          {
+            "price": 59.28,
+            "brt": "p2d#",
+            "rf": "p2d#",
+            "brf": 8454272,
+            "rt": 8454272,
+            "vendor": "ctrp",
+            "vendor_id_raw": "10733019",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Free cancellation",
+              "Pay at the property"
+            ],
+            "jc_code": "TRIPCOM",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Deluxe room",
+            "rooms": [
+              {
+                "name": "Deluxe room",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "refundable": "Free cancellation",
+              "pay_at_hotel": "Pay at the property"
+            },
+            "partner_name": "Trip.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/ctrp/logo.svg?pos=zz"
+          },
+          {
+            "price": 59.58,
+            "brt": "p2d#",
+            "rf": "p2d#",
+            "brf": 8454208,
+            "rt": 8454208,
+            "vendor": "ctrp",
+            "vendor_id_raw": "10733019",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Free cancellation"
+            ],
+            "jc_code": "TRIPCOM",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Deluxe room",
+            "rooms": [
+              {
+                "name": "Deluxe room",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "refundable": "Free cancellation"
+            },
+            "partner_name": "Trip.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/ctrp/logo.svg?pos=zz"
+          },
+          {
+            "price": 61.9,
+            "brt": "p2qrt",
+            "rf": "p2qrt",
+            "brf": 8454144,
+            "rt": 8454144,
+            "vendor": "hwld",
+            "vendor_id_raw": "301667",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Free cancellation"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Standard family room - Twin beds",
+            "rooms": [
+              {
+                "name": "Standard family room - Twin beds",
+                "flags": [
+                  "Twin beds"
+                ]
+              }
+            ],
+            "offer_flags_new": {
+              "refundable": "Free cancellation"
+            },
+            "partner_name": "Hostelworld",
+            "partner_logo": "https://hotelscan.com/apis/vendors/hwld/logo.svg?pos=zz"
+          },
+          {
+            "price": 62.26,
+            "brt": "p2d#",
+            "rf": "p2d#",
+            "brf": 8454720,
+            "rt": 8454720,
+            "vendor": "agda",
+            "vendor_id_raw": "1016162",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Free cancellation",
+              "Garden view"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Deluxe room",
+            "rooms": [
+              {
+                "name": "Deluxe room",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "refundable": "Free cancellation",
+              "view_garden": "Garden view"
+            },
+            "partner_name": "Agoda",
+            "partner_logo": "https://hotelscan.com/apis/vendors/agda/logo.svg?pos=zz"
+          },
+          {
+            "price": 76.24,
+            "brt": "p2c#",
+            "rf": "p2c#",
+            "brf": 8454272,
+            "rt": 8454272,
+            "vendor": "agda",
+            "vendor_id_raw": "1016162",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Free cancellation",
+              "Pay at the property"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Superior room",
+            "rooms": [
+              {
+                "name": "Superior room",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "refundable": "Free cancellation",
+              "pay_at_hotel": "Pay at the property"
+            },
+            "partner_name": "Agoda",
+            "partner_logo": "https://hotelscan.com/apis/vendors/agda/logo.svg?pos=zz"
+          },
+          {
+            "price": 80.63,
+            "brt": "p2r#",
+            "rf": "p2r#",
+            "brf": 8454208,
+            "rt": 8454208,
+            "vendor": "bkng",
+            "vendor_id_raw": "1412618",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Free cancellation"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Standard room",
+            "rooms": [
+              {
+                "name": "Standard room",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "refundable": "Free cancellation"
+            },
+            "partner_name": "Booking.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/bkng/logo.svg?pos=zz"
+          },
+          {
+            "price": 86.71,
+            "brt": "p2d#",
+            "rf": "p2d#",
+            "brf": 8454784,
+            "rt": 8454784,
+            "vendor": "agda",
+            "vendor_id_raw": "1016162",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Free cancellation",
+              "Garden view",
+              "Pay at the property"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Deluxe room",
+            "rooms": [
+              {
+                "name": "Deluxe room",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "refundable": "Free cancellation",
+              "view_garden": "Garden view",
+              "pay_at_hotel": "Pay at the property"
+            },
+            "partner_name": "Agoda",
+            "partner_logo": "https://hotelscan.com/apis/vendors/agda/logo.svg?pos=zz"
+          },
+          {
+            "price": 88.49,
+            "brt": "p2d#",
+            "rf": "p2d#",
+            "brf": 8454272,
+            "rt": 8454272,
+            "vendor": "htls",
+            "vendor_id_raw": "669722",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Free cancellation",
+              "Pay at the property"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Deluxe room",
+            "rooms": [
+              {
+                "name": "Deluxe room",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "refundable": "Free cancellation",
+              "pay_at_hotel": "Pay at the property"
+            },
+            "partner_name": "Hotels.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/htls/logo.svg?pos=zz"
+          },
+          {
+            "price": 88.49,
+            "brt": "p2d#",
+            "rf": "p2d#",
+            "brf": 8454272,
+            "rt": 8454272,
+            "vendor": "expd",
+            "vendor_id_raw": "17437612",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Free cancellation",
+              "Pay at the property"
+            ],
+            "jc_code": "EXPEDIA",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Deluxe room",
+            "rooms": [
+              {
+                "name": "Deluxe room",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "refundable": "Free cancellation",
+              "pay_at_hotel": "Pay at the property"
+            },
+            "partner_name": "Expedia",
+            "partner_logo": "https://hotelscan.com/apis/vendors/expd/logo.svg?pos=zz"
+          },
+          {
+            "price": 90.66,
+            "brt": "p2r#",
+            "rf": "p2r#",
+            "brf": 8454208,
+            "rt": 8454208,
+            "vendor": "bkng",
+            "vendor_id_raw": "1412618",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Free cancellation"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Standard room",
+            "rooms": [
+              {
+                "name": "Standard room",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "refundable": "Free cancellation"
+            },
+            "partner_name": "Booking.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/bkng/logo.svg?pos=zz"
+          },
+          {
+            "price": 94.72,
+            "brt": "p2r#",
+            "rf": "p2r#",
+            "brf": 9502784,
+            "rt": 9502784,
+            "vendor": "bkng",
+            "vendor_id_raw": "1412618",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included",
+              "Free cancellation"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Standard room",
+            "rooms": [
+              {
+                "name": "Standard room",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included",
+              "refundable": "Free cancellation"
+            },
+            "partner_name": "Booking.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/bkng/logo.svg?pos=zz"
+          },
+          {
+            "price": 97.15,
+            "brt": "p2c#",
+            "rf": "p2c#",
+            "brf": 8454272,
+            "rt": 8454272,
+            "vendor": "htls",
+            "vendor_id_raw": "669722",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Free cancellation",
+              "Pay at the property"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Superior room",
+            "rooms": [
+              {
+                "name": "Superior room",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "refundable": "Free cancellation",
+              "pay_at_hotel": "Pay at the property"
+            },
+            "partner_name": "Hotels.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/htls/logo.svg?pos=zz"
+          },
+          {
+            "price": 97.15,
+            "brt": "p2c#",
+            "rf": "p2c#",
+            "brf": 8454272,
+            "rt": 8454272,
+            "vendor": "expd",
+            "vendor_id_raw": "17437612",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Free cancellation",
+              "Pay at the property"
+            ],
+            "jc_code": "EXPEDIA",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Superior room",
+            "rooms": [
+              {
+                "name": "Superior room",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "refundable": "Free cancellation",
+              "pay_at_hotel": "Pay at the property"
+            },
+            "partner_name": "Expedia",
+            "partner_logo": "https://hotelscan.com/apis/vendors/expd/logo.svg?pos=zz"
+          },
+          {
+            "price": 101.22,
+            "brt": "p2d#b",
+            "rf": "p2d#b",
+            "brf": 8454720,
+            "rt": 8454720,
+            "vendor": "bkng",
+            "vendor_id_raw": "1412618",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Free cancellation",
+              "Garden view"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Deluxe room - Choice of single or double beds",
+            "rooms": [
+              {
+                "name": "Deluxe room - Choice of single or double beds",
+                "flags": [
+                  "Choice of single or double beds"
+                ]
+              }
+            ],
+            "offer_flags_new": {
+              "refundable": "Free cancellation",
+              "view_garden": "Garden view"
+            },
+            "partner_name": "Booking.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/bkng/logo.svg?pos=zz"
+          },
+          {
+            "price": 106.3,
+            "brt": "p2d#",
+            "rf": "p2d#",
+            "brf": 8454272,
+            "rt": 8454272,
+            "vendor": "htls",
+            "vendor_id_raw": "669722",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Free cancellation",
+              "Pay at the property"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Deluxe room",
+            "rooms": [
+              {
+                "name": "Deluxe room",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "refundable": "Free cancellation",
+              "pay_at_hotel": "Pay at the property"
+            },
+            "partner_name": "Hotels.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/htls/logo.svg?pos=zz"
+          },
+          {
+            "price": 106.3,
+            "brt": "p2d#",
+            "rf": "p2d#",
+            "brf": 8454272,
+            "rt": 8454272,
+            "vendor": "expd",
+            "vendor_id_raw": "17437612",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Free cancellation",
+              "Pay at the property"
+            ],
+            "jc_code": "EXPEDIA",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Deluxe room",
+            "rooms": [
+              {
+                "name": "Deluxe room",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "refundable": "Free cancellation",
+              "pay_at_hotel": "Pay at the property"
+            },
+            "partner_name": "Expedia",
+            "partner_logo": "https://hotelscan.com/apis/vendors/expd/logo.svg?pos=zz"
+          },
+          {
+            "price": 106.31,
+            "brt": "p2d#",
+            "rf": "p2d#",
+            "brf": 8454208,
+            "rt": 8454208,
+            "vendor": "htls",
+            "vendor_id_raw": "669722",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Free cancellation"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Deluxe room",
+            "rooms": [
+              {
+                "name": "Deluxe room",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "refundable": "Free cancellation"
+            },
+            "partner_name": "Hotels.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/htls/logo.svg?pos=zz"
+          },
+          {
+            "price": 106.31,
+            "brt": "p2d#",
+            "rf": "p2d#",
+            "brf": 8454208,
+            "rt": 8454208,
+            "vendor": "expd",
+            "vendor_id_raw": "17437612",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Free cancellation"
+            ],
+            "jc_code": "EXPEDIA",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Deluxe room",
+            "rooms": [
+              {
+                "name": "Deluxe room",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "refundable": "Free cancellation"
+            },
+            "partner_name": "Expedia",
+            "partner_logo": "https://hotelscan.com/apis/vendors/expd/logo.svg?pos=zz"
+          },
+          {
+            "price": 106.74,
+            "brt": "p2qd",
+            "rf": "p2qd",
+            "brf": 9502784,
+            "rt": 9502784,
+            "vendor": "bkng",
+            "vendor_id_raw": "1412618",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included",
+              "Free cancellation"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Deluxe Family Room",
+            "rooms": [
+              {
+                "name": "Deluxe Family Room",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included",
+              "refundable": "Free cancellation"
+            },
+            "partner_name": "Booking.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/bkng/logo.svg?pos=zz"
+          },
+          {
+            "price": 106.75,
+            "brt": "p2r#",
+            "rf": "p2r#",
+            "brf": 9502784,
+            "rt": 9502784,
+            "vendor": "bkng",
+            "vendor_id_raw": "1412618",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included",
+              "Free cancellation"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Standard room",
+            "rooms": [
+              {
+                "name": "Standard room",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included",
+              "refundable": "Free cancellation"
+            },
+            "partner_name": "Booking.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/bkng/logo.svg?pos=zz"
+          },
+          {
+            "price": 112.33,
+            "brt": "p2r#",
+            "rf": "p2r#",
+            "brf": 12124224,
+            "rt": 12124224,
+            "vendor": "bkng",
+            "vendor_id_raw": "1412618",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast and dinner",
+              "Free cancellation"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Standard room",
+            "rooms": [
+              {
+                "name": "Standard room",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "half_board_dinner": "Breakfast and dinner",
+              "refundable": "Free cancellation"
+            },
+            "partner_name": "Booking.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/bkng/logo.svg?pos=zz"
+          },
+          {
+            "price": 119.43,
+            "brt": "p2d#b",
+            "rf": "p2d#b",
+            "brf": 9503296,
+            "rt": 9503296,
+            "vendor": "bkng",
+            "vendor_id_raw": "1412618",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included",
+              "Free cancellation",
+              "Garden view"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Deluxe room - Choice of single or double beds",
+            "rooms": [
+              {
+                "name": "Deluxe room - Choice of single or double beds",
+                "flags": [
+                  "Choice of single or double beds"
+                ]
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included",
+              "refundable": "Free cancellation",
+              "view_garden": "Garden view"
+            },
+            "partner_name": "Booking.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/bkng/logo.svg?pos=zz"
+          },
+          {
+            "price": 121.22,
+            "brt": "p2qd",
+            "rf": "p2qd",
+            "brf": 9502784,
+            "rt": 9502784,
+            "vendor": "bkng",
+            "vendor_id_raw": "1412618",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included",
+              "Free cancellation"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Deluxe Family Room",
+            "rooms": [
+              {
+                "name": "Deluxe Family Room",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included",
+              "refundable": "Free cancellation"
+            },
+            "partner_name": "Booking.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/bkng/logo.svg?pos=zz"
+          },
+          {
+            "price": 126.05,
+            "brt": "p2qd",
+            "rf": "p2qd",
+            "brf": 9502784,
+            "rt": 9502784,
+            "vendor": "bkng",
+            "vendor_id_raw": "1412618",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included",
+              "Free cancellation"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Deluxe Family Room",
+            "rooms": [
+              {
+                "name": "Deluxe Family Room",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included",
+              "refundable": "Free cancellation"
+            },
+            "partner_name": "Booking.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/bkng/logo.svg?pos=zz"
+          },
+          {
+            "price": 126.87,
+            "brt": "p2r#",
+            "rf": "p2r#",
+            "brf": 12124224,
+            "rt": 12124224,
+            "vendor": "bkng",
+            "vendor_id_raw": "1412618",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast and dinner",
+              "Free cancellation"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Standard room",
+            "rooms": [
+              {
+                "name": "Standard room",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "half_board_dinner": "Breakfast and dinner",
+              "refundable": "Free cancellation"
+            },
+            "partner_name": "Booking.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/bkng/logo.svg?pos=zz"
+          },
+          {
+            "price": 129.94,
+            "brt": "p2r#",
+            "rf": "p2r#",
+            "brf": 10027072,
+            "rt": 10027072,
+            "vendor": "bkng",
+            "vendor_id_raw": "1412618",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Full board",
+              "Free cancellation"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Standard room",
+            "rooms": [
+              {
+                "name": "Standard room",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "full_board": "Full board",
+              "refundable": "Free cancellation"
+            },
+            "partner_name": "Booking.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/bkng/logo.svg?pos=zz"
+          },
+          {
+            "price": 142.18,
+            "brt": "p2d#b",
+            "rf": "p2d#b",
+            "brf": 12124736,
+            "rt": 12124736,
+            "vendor": "bkng",
+            "vendor_id_raw": "1412618",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast and dinner",
+              "Free cancellation",
+              "Garden view"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Deluxe room - Choice of single or double beds",
+            "rooms": [
+              {
+                "name": "Deluxe room - Choice of single or double beds",
+                "flags": [
+                  "Choice of single or double beds"
+                ]
+              }
+            ],
+            "offer_flags_new": {
+              "half_board_dinner": "Breakfast and dinner",
+              "refundable": "Free cancellation",
+              "view_garden": "Garden view"
+            },
+            "partner_name": "Booking.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/bkng/logo.svg?pos=zz"
+          },
+          {
+            "price": 144.03,
+            "brt": "p2r#",
+            "rf": "p2r#",
+            "brf": 11075648,
+            "rt": 11075648,
+            "vendor": "bkng",
+            "vendor_id_raw": "1412618",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Free cancellation"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Standard room",
+            "rooms": [
+              {
+                "name": "Standard room",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "refundable": "Free cancellation"
+            },
+            "partner_name": "Booking.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/bkng/logo.svg?pos=zz"
+          },
+          {
+            "price": 146.98,
+            "brt": "p2r#",
+            "rf": "p2r#",
+            "brf": 10027072,
+            "rt": 10027072,
+            "vendor": "bkng",
+            "vendor_id_raw": "1412618",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Full board",
+              "Free cancellation"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Standard room",
+            "rooms": [
+              {
+                "name": "Standard room",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "full_board": "Full board",
+              "refundable": "Free cancellation"
+            },
+            "partner_name": "Booking.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/bkng/logo.svg?pos=zz"
+          },
+          {
+            "price": 163.08,
+            "brt": "p2r#",
+            "rf": "p2r#",
+            "brf": 11075648,
+            "rt": 11075648,
+            "vendor": "bkng",
+            "vendor_id_raw": "1412618",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Free cancellation"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Standard room",
+            "rooms": [
+              {
+                "name": "Standard room",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "refundable": "Free cancellation"
+            },
+            "partner_name": "Booking.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/bkng/logo.svg?pos=zz"
+          },
+          {
+            "price": 164.94,
+            "brt": "p2d#b",
+            "rf": "p2d#b",
+            "brf": 10027584,
+            "rt": 10027584,
+            "vendor": "bkng",
+            "vendor_id_raw": "1412618",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Full board",
+              "Free cancellation",
+              "Garden view"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Deluxe room - Choice of single or double beds",
+            "rooms": [
+              {
+                "name": "Deluxe room - Choice of single or double beds",
+                "flags": [
+                  "Choice of single or double beds"
+                ]
+              }
+            ],
+            "offer_flags_new": {
+              "full_board": "Full board",
+              "refundable": "Free cancellation",
+              "view_garden": "Garden view"
+            },
+            "partner_name": "Booking.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/bkng/logo.svg?pos=zz"
+          },
+          {
+            "price": 183.15,
+            "brt": "p2d#b",
+            "rf": "p2d#b",
+            "brf": 11076160,
+            "rt": 11076160,
+            "vendor": "bkng",
+            "vendor_id_raw": "1412618",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Free cancellation",
+              "Garden view"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Deluxe room - Choice of single or double beds",
+            "rooms": [
+              {
+                "name": "Deluxe room - Choice of single or double beds",
+                "flags": [
+                  "Choice of single or double beds"
+                ]
+              }
+            ],
+            "offer_flags_new": {
+              "refundable": "Free cancellation",
+              "view_garden": "Garden view"
+            },
+            "partner_name": "Booking.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/bkng/logo.svg?pos=zz"
+          }
+        ],
+        "descriptions_language": {
+          "general": {
+            "original_language": true,
+            "text": "Property Desc: Property Location With a stay at Banyan Villa Maldives in Dhangethi, you'll be near the beach, just steps from Dhangethi Beach. This beach guesthouse is within close proximity of Ranveli Beach and Villingilivaru Island Pier. Rooms Make yourself at home in one of the 5 individually decorated guestrooms, featuring minibars and flat-screen televisions. Complimentary wireless Internet access keeps you connected, and cable programming is available for your entertainment. Private bathrooms have jetted bathtubs and rainfall showerheads. Conveniences include safes and separate sitting areas, and housekeeping is provided daily. Amenities Take in the views from a terrace and a garden and make use of amenities such as complimentary wireless Internet access. This guesthouse also features concierge services, a communal living room, and a picnic area. Dining Enjoy a meal at the restaurant or snacks in the coffee shop/cafe. The guesthouse also offers room service (during limited hours). Quench your thirst with your favorite drink at the bar/lounge. Buffet breakfasts are available daily from 7:30 AM to 10:00 AM for a fee. Business, Other Amenities Featured amenities include express check-in, express check-out, and complimentary newspapers in the lobby. A roundtrip airport shuttle is provided for a surcharge (available on request). Attractions Distances are displayed to the nearest 0.1 mile and kilometer. Dhangethi Beach - 0.1 km / 0.1 mi Bikini Beach - 0.5 km / 0.3 mi Bunbaru Public Beach - 0.1 km / 0.1 mi Harbor Green Zone - 0.1 km / 0.1 mi House Rules Children welcome No pets No smoking Spoken Languages English Know Before You Go: Only registered guests are allowed in the guestrooms. This property advises that enhanced cleaning and guest safety measures are currently in place. Disinfectant is used to clean the property; commonly-touched surfaces are cleaned with disinfectant between stays; bed sheets and towels are laundered at a temperature of at least 60 C/140 F. Social distancing measures are in place; periodic temperature checks are conducted on staff; temperature checks are available to guests; guests are provided with hand sanitizer; contactless room service is available; masks are required in public areas. Contactless check-in and contactless check-out are available. Enhanced food service safety measures are in place. Individually-wrapped food options are available through room service. Fees: Fee for buffet breakfast: approximately USD 5 for adults and USD 5 for children Airport shuttle fee: USD 45 per person (one-way) Airport shuttle fee per child: USD 45 (one-way), (from 2 to 9 years old) Rollaway bed fee: USD 15 per day The above list may not be comprehensive. Fees and deposits may not include tax and are subject to change. Mandatory Fees and Taxes: You'll be asked to pay the following charges at the property: A tax is imposed by the city: USD 3.00 per person, per night Resort fee: 10 percent of room rate We have included all charges provided to us by the property. Checkin Instructions: Extra-person charges may apply and vary depending on property policy Government-issued photo identification and a credit card, debit card, or cash deposit may be required at check-in for incidental charges Special requests are subject to availability upon check-in and may incur additional charges; special requests cannot be guaranteed Safety features at this property include a fire extinguisher, a security system, and a first aid kit Be prepared: check the latest COVID-19 travel requirements and measures in place for this destination before you travel. Special Checkin Instructions: This property offers transfers from the airport (surcharges may apply). Guests must contact the property with arrival details before travel, using the contact information on the booking confirmation. Front desk staff will greet guests on arrival. Checkin Time: 12:00 PM Checkin End Time: 6:00 PM Checkin Minimum Age: 18 Checkout Time: 11:00 AM"
+          },
+          "direction": {
+            "original_language": true,
+            "text": "Dhangethi is home to Banyan Villa Maldives. Villingilivaru Island Pier and Maafushivaru Island Jetty are worth checking out if an activity is on the agenda, while those wishing to experience the area's natural beauty can explore Dhangethi Beach and Ranveli Beach. Maafushivaru Island Beach and Vakarufalhi Island Beach are two other places to visit that come recommended. With scuba diving, snorkeling, and windsurfing nearby, you'll find plenty of adventures in the water."
+          },
+          "hotel": {
+            "original_language": true,
+            "text": "Banyan Villa is one of the most recognizable Hotel in the tropical island of Dhangethi, located in Ari Atoll of Maldives. The islands center with all the major attractions is only a minute's walk from the Hotel Our mission is enriching peoples lives with pleasant vacation moments and memories. Our assets are: first-class rooms with excellent service, breathtaking experiences and genuine hospitality. Featuring free WiFi, a restaurant and a sun terrace, Banyan Villa Maldives Dhangethi offers accommodation in Dhangethi. Guests can enjoy the on-site snack bar. Every air conditioned room at this guest house is fitted with a flat-screen TV offering satellite channels. Each room comes with a private bathroom. Extras include bath robes, free toiletries and a hair dryer. You will find a 24-hour front desk and gift shop at the property. Terms and conditions: Cancellation policy: 7 days before arrival. In case of a late cancellation or No Show, you will be charged the first night of your stay. Check in from 08:00 to 18:00 . Check out before 12:00 . 24-hour front desk. Payment upon arrival by credit cards and cash. Taxes included. Breakfast included. Buffet breakfast available for free daily 07:30 to10:00. No curfew. We accept guests below 18 years if accompanied by adults. Government-issued photo ID required Non smoking but with designated smoking area within the premise."
+          },
+          "other": {
+            "original_language": true,
+            "text": "Guests can enjoy various activities in the surroundings, including snorkeling,diving and windsurfing. Whale sharks are frequently spotted in the area along with Mantas and Turtles Local Souvenir shops are nearby and guests can enjoy the local lifestyle while enjoying their stay. Top spots nearby Recommended by this property Dhangethi Beach (2-minute walk) Ranveli Beach (12-minute walk) Villingilivaru Island Pier (12-minute walk) Maafushivaru Island Jetty (3.7 mi / 6 km) Maafushivaru Island Beach (3.8 mi / 6.1 km) Vakarufalhi Island Beach (4.1 mi / 6.7 km) Dhigurah Beach (5.5 mi / 8.8 km) Dhidhoofinolhu Marina (8.4 mi / 13.5 km)"
+          }
+        },
+        "chain_code": null,
+        "bids": {
+          "agda": "j23",
+          "hwld": "j23",
+          "bkng": "j23",
+          "ctrp": "j23",
+          "expd": "j23",
+          "htls": "j23"
+        },
+        "worst_offer": 88.49,
+        "best_offer": 41.89,
+        "best_offer_ota": "agda",
+        "best_offer_mota": null,
+        "discount": 30,
+        "offers_count": 35,
+        "coordinates": {
+          "lat": 3.60714,
+          "lng": 72.9552
+        },
+        "distance": 0.06,
+        "neighborhood": null,
+        "badge": null,
+        "distances": [
+          {
+            "from": "center",
+            "distance": 0.06,
+            "time": 83,
+            "means": "foot",
+            "means_type": "foot"
+          }
+        ],
+        "specs": {
+          "bathrooms": null,
+          "beds": null,
+          "bedrooms": null,
+          "guests": null,
+          "square_meters": null
+        },
+        "toa_label": "guest house",
+        "top_amenities": [
+          "internet",
+          "restaurant",
+          "room_service",
+          "bar",
+          "meeting_room"
+        ],
+        "transportations": {
+          "airports": [],
+          "trains": []
+        },
+        "images": [
+          {
+            "image_id": "724173098",
+            "label": ""
+          },
+          {
+            "image_id": "724173059",
+            "label": ""
+          },
+          {
+            "image_id": "724173072",
+            "label": ""
+          },
+          {
+            "image_id": "724173062",
+            "label": ""
+          },
+          {
+            "image_id": "724173097",
+            "label": ""
+          },
+          {
+            "image_id": "724173088",
+            "label": ""
+          },
+          {
+            "image_id": "724173079",
+            "label": ""
+          },
+          {
+            "image_id": "724173089",
+            "label": ""
+          },
+          {
+            "image_id": "724173078",
+            "label": ""
+          },
+          {
+            "image_id": "724173092",
+            "label": ""
+          },
+          {
+            "image_id": "724173077",
+            "label": ""
+          },
+          {
+            "image_id": "724173049",
+            "label": ""
+          },
+          {
+            "image_id": "724173051",
+            "label": ""
+          },
+          {
+            "image_id": "724173063",
+            "label": ""
+          },
+          {
+            "image_id": "724173085",
+            "label": ""
+          }
+        ],
+        "hero_offer": {
+          "price": 61.9,
+          "brt": "p2qrt",
+          "rf": "p2qrt",
+          "brf": 8454144,
+          "rt": 8454144,
+          "vendor": "hwld",
+          "vendor_id_raw": "301667",
+          "mota_code": null,
+          "direct_offer": false,
+          "offer_flags": {
+            "refundable": "Free cancellation"
+          },
+          "jc_code": "",
+          "ranking_index": 0.8706946688206785,
+          "chain": "",
+          "free_cancellation": true,
+          "special": false,
+          "room_name": "Standard family room - Twin beds",
+          "rooms": [
+            {
+              "name": "Standard family room - Twin beds",
+              "flags": [
+                "Twin beds"
+              ]
+            }
+          ],
+          "partner_name": "Hostelworld",
+          "partner_logo": "https://hotelscan.com/apis/vendors/hwld/logo.svg?pos=zz"
+        },
+        "rank": 0,
+        "ctrl_srt": "im a ctrl teapot",
+        "test_srt": "im a test teapot"
+      }
+    ],
+    "filters": [],
+    "query": {
+      "pos": "zz"
+    }
+  }
+}

@@ -1,0 +1,416 @@
+{
+  "_meta": {
+    "status": "SUCCESS",
+    "cached": true,
+    "count": 1,
+    "debug": {
+      "ticket": {
+        "ticket_id": "1014431829_zz_zz_d_publ_en_2_2025-10-08_2025-10-13_1_3",
+        "created_at": 1758065385.9471,
+        "loop": null,
+        "snapped_at": 1758065386.1287,
+        "snapshot_id": "1014431829_zz_zz_d_publ_en_2_2025-10-08_2025-10-13_1_3",
+        "snapshot_ttl": 300,
+        "executions": 2,
+        "progress": 1,
+        "save_errors": []
+      }
+    }
+  },
+  "data": {
+    "meta": [],
+    "geo": {
+      "hs_id": "x5rjsqvb6iot",
+      "region_name": "Fuvahmulah",
+      "region_name_long": "Fuvahmulah, Maldives",
+      "region_type": "CITY",
+      "region_id": 6215109,
+      "country_iso": "MV",
+      "country": "maldives",
+      "localised_country": "Maldives",
+      "center": [
+        -0.29485,
+        73.4232
+      ],
+      "centroid": [
+        -0.29485,
+        73.4232
+      ],
+      "polygon": [
+        "-0.26591,73.39425",
+        "-0.26591,73.45214",
+        "-0.32379,73.45214",
+        "-0.32379,73.39425",
+        "-0.26591,73.39425"
+      ],
+      "radius": 4.56,
+      "zoom": -1,
+      "search_by_polygon": 1,
+      "cluster": 0,
+      "properties": 60,
+      "radius_override": 5,
+      "boundingbox": {
+        "ne": [
+          -0.266,
+          73.453
+        ],
+        "sw": [
+          -0.323,
+          73.394
+        ]
+      },
+      "airports": [
+        "GAN"
+      ],
+      "region_name_en": "Fuvahmulah",
+      "region_name_long_en": "Fuvahmulah, Maldives",
+      "referrer_city_name_en": "Fuvahmulah",
+      "parent_region_id": 6051084,
+      "parent_hs_id": "x5p4hmhw6iot",
+      "parent_region_name": "Maldives (all)",
+      "parent_region_name_long": "Maldives (all)",
+      "dynamic_bbox": {
+        "ne": [
+          -0.298,
+          73.421
+        ],
+        "sw": [
+          -0.298,
+          73.421
+        ]
+      }
+    },
+    "records": [
+      {
+        "hs_id": 1014431829,
+        "slug": "isle-inn-fuvahmulah-fuvahmulah-mv-1014431829",
+        "name": "Isle Inn {fuvahmulah)",
+        "toa": "guest_house",
+        "location": {
+          "city": "Fuvahmulah",
+          "zip": "18012",
+          "country_iso2": "MV",
+          "address": "Naibu Thuththu Hingun",
+          "geoid": "x5rjsqvb6iot",
+          "loc": {
+            "type": "Point"
+          },
+          "coordinates": {
+            "lng": 73.4218,
+            "lat": -0.29779
+          }
+        },
+        "opening_time": {
+          "check_in_from": "15:00",
+          "check_in_to": "18:00",
+          "check_out_from": "08:00",
+          "check_out_to": "11:00"
+        },
+        "quality": {
+          "review_count": 1,
+          "review_rating": 100,
+          "stars": 0,
+          "stars_is_estimated": false,
+          "review_source": ""
+        },
+        "covid_safe": true,
+        "amenities": {
+          "sports": [
+            "bike_rent",
+            "sub"
+          ],
+          "internet": [
+            "wifi",
+            "internet"
+          ],
+          "entertainment": [
+            "tv_lobby"
+          ],
+          "food_drink": [
+            "restaurant",
+            "room_service",
+            "cafe"
+          ],
+          "disability": [
+            "wheelchair_accessible",
+            "disability_facilities"
+          ],
+          "parking": [
+            "parking"
+          ],
+          "outdoor": [
+            "garden"
+          ],
+          "other": [],
+          "room": [
+            "air_conditioning",
+            "tv"
+          ],
+          "reception": [
+            "luggage_storage",
+            "laundry_service",
+            "safety_deposit_box"
+          ]
+        },
+        "descriptions": {
+          "hotel": "Featuring city views, Isle inn {Fuvahmulah) in Fuvahmulah offers accommodation, a garden and a shared lounge. With garden views, this accommodation provides a balcony.",
+          "localized": "Featuring city views, Isle inn {Fuvahmulah) in Fuvahmulah offers accommodation, a garden and a shared lounge. With garden views, this accommodation provides a balcony."
+        },
+        "short_description": "Basic guest house with parking, restaurant and bike rent",
+        "offers": [
+          {
+            "price": 65.36,
+            "brt": "p2d#q",
+            "rf": "p2d#q",
+            "brf": 8454208,
+            "rt": 8454208,
+            "vendor": "bkng",
+            "vendor_id_raw": "11602281",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Free cancellation"
+            ],
+            "jc_code": "",
+            "ranking_index": 1,
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Deluxe room - Queen bed",
+            "rooms": [
+              {
+                "name": "Deluxe room - Queen bed",
+                "flags": [
+                  "Queen bed"
+                ]
+              }
+            ],
+            "offer_flags_new": {
+              "refundable": "Free cancellation"
+            },
+            "partner_name": "Booking.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/bkng/logo.svg?pos=zz"
+          }
+        ],
+        "all_offers": [
+          {
+            "price": 65.36,
+            "brt": "p2d#q",
+            "rf": "p2d#q",
+            "brf": 8454208,
+            "rt": 8454208,
+            "vendor": "bkng",
+            "vendor_id_raw": "11602281",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Free cancellation"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Deluxe room - Queen bed",
+            "rooms": [
+              {
+                "name": "Deluxe room - Queen bed",
+                "flags": [
+                  "Queen bed"
+                ]
+              }
+            ],
+            "offer_flags_new": {
+              "refundable": "Free cancellation"
+            },
+            "partner_name": "Booking.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/bkng/logo.svg?pos=zz"
+          },
+          {
+            "price": 68.81,
+            "brt": "p2d#q",
+            "rf": "p2d#q",
+            "brf": 9502784,
+            "rt": 9502784,
+            "vendor": "bkng",
+            "vendor_id_raw": "11602281",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included",
+              "Free cancellation"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Deluxe room - Queen bed",
+            "rooms": [
+              {
+                "name": "Deluxe room - Queen bed",
+                "flags": [
+                  "Queen bed"
+                ]
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included",
+              "refundable": "Free cancellation"
+            },
+            "partner_name": "Booking.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/bkng/logo.svg?pos=zz"
+          }
+        ],
+        "descriptions_language": {
+          "general": {
+            "original_language": true,
+            "text": "Featuring city views, Isle inn {Fuvahmulah) in Fuvahmulah offers accommodation, a garden and a shared lounge. With garden views, this accommodation provides a balcony."
+          }
+        },
+        "chain_code": null,
+        "bids": {
+          "bkng": "j23"
+        },
+        "worst_offer": null,
+        "best_offer": 65.36,
+        "best_offer_ota": "bkng",
+        "best_offer_mota": null,
+        "discount": 0,
+        "offers_count": 2,
+        "coordinates": {
+          "lat": -0.29779,
+          "lng": 73.4218
+        },
+        "distance": 0.36,
+        "neighborhood": null,
+        "badge": null,
+        "distances": [
+          {
+            "from": "center",
+            "distance": 0.36,
+            "time": 500,
+            "means": "foot",
+            "means_type": "foot"
+          }
+        ],
+        "specs": {
+          "bathrooms": null,
+          "beds": null,
+          "bedrooms": null,
+          "guests": null,
+          "square_meters": null
+        },
+        "toa_label": "guest house",
+        "top_amenities": [
+          "internet",
+          "restaurant",
+          "room_service",
+          "parking",
+          "air_conditioning"
+        ],
+        "transportations": {
+          "airports": [],
+          "trains": []
+        },
+        "images": [
+          {
+            "image_id": "754844105",
+            "label": ""
+          },
+          {
+            "image_id": "754844134",
+            "label": ""
+          },
+          {
+            "image_id": "754844109",
+            "label": ""
+          },
+          {
+            "image_id": "754844156",
+            "label": ""
+          },
+          {
+            "image_id": "754844110",
+            "label": ""
+          },
+          {
+            "image_id": "754844114",
+            "label": ""
+          },
+          {
+            "image_id": "754844145",
+            "label": ""
+          },
+          {
+            "image_id": "754844148",
+            "label": ""
+          },
+          {
+            "image_id": "754844154",
+            "label": ""
+          },
+          {
+            "image_id": "754844160",
+            "label": ""
+          },
+          {
+            "image_id": "754844108",
+            "label": ""
+          },
+          {
+            "image_id": "754844131",
+            "label": ""
+          },
+          {
+            "image_id": "754844163",
+            "label": ""
+          },
+          {
+            "image_id": "754844115",
+            "label": ""
+          },
+          {
+            "image_id": "754844119",
+            "label": ""
+          }
+        ],
+        "hero_offer": {
+          "price": 65.36,
+          "brt": "p2d#q",
+          "rf": "p2d#q",
+          "brf": 8454208,
+          "rt": 8454208,
+          "vendor": "bkng",
+          "vendor_id_raw": "11602281",
+          "mota_code": null,
+          "direct_offer": false,
+          "offer_flags": {
+            "refundable": "Free cancellation"
+          },
+          "jc_code": "",
+          "ranking_index": 1,
+          "chain": "",
+          "free_cancellation": true,
+          "special": false,
+          "room_name": "Deluxe room - Queen bed",
+          "rooms": [
+            {
+              "name": "Deluxe room - Queen bed",
+              "flags": [
+                "Queen bed"
+              ]
+            }
+          ],
+          "partner_name": "Booking.com",
+          "partner_logo": "https://hotelscan.com/apis/vendors/bkng/logo.svg?pos=zz"
+        },
+        "rank": 0,
+        "ctrl_srt": "im a ctrl teapot",
+        "test_srt": "im a test teapot"
+      }
+    ],
+    "filters": [],
+    "query": {
+      "pos": "zz"
+    }
+  }
+}

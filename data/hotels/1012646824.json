@@ -1,0 +1,357 @@
+{
+  "_meta": {
+    "status": "SUCCESS",
+    "cached": true,
+    "count": 1,
+    "debug": {
+      "ticket": {
+        "ticket_id": "1012646824_zz_zz_d_publ_en_2_2025-10-08_2025-10-13_1_3",
+        "created_at": 1758065389.7428,
+        "loop": null,
+        "snapped_at": 1758065389.8424,
+        "snapshot_id": "1012646824_zz_zz_d_publ_en_2_2025-10-08_2025-10-13_1_3",
+        "snapshot_ttl": 300,
+        "executions": 2,
+        "progress": 1,
+        "save_errors": []
+      }
+    }
+  },
+  "data": {
+    "meta": [],
+    "geo": {
+      "hs_id": "xk8lkha1ntyx",
+      "region_name": "Thulusdhoo Island",
+      "region_name_long": "Thulusdhoo Island, Maldives",
+      "region_type": "CITY",
+      "region_id": 6278797,
+      "country_iso": "MV",
+      "country": "maldives",
+      "localised_country": "Maldives",
+      "center": [
+        4.37228,
+        73.65101
+      ],
+      "centroid": [
+        4.37228,
+        73.65101
+      ],
+      "polygon": [
+        "4.380631,73.643003",
+        "4.364183,73.643261",
+        "4.363924,73.659018",
+        "4.38052,73.658721",
+        "4.380631,73.643003"
+      ],
+      "radius": 1.29,
+      "zoom": -1,
+      "search_by_polygon": 1,
+      "cluster": 0,
+      "properties": 82,
+      "radius_override": 5,
+      "boundingbox": {
+        "ne": [
+          4.381,
+          73.66
+        ],
+        "sw": [
+          4.363,
+          73.643
+        ]
+      },
+      "airports": [
+        "MLE",
+        "DRV"
+      ],
+      "region_name_en": "Thulusdhoo Island",
+      "region_name_long_en": "Thulusdhoo Island, Maldives",
+      "referrer_city_name_en": "Thulusdhoo Island",
+      "parent_region_id": 6051084,
+      "parent_hs_id": "x5p4hmhw6iot",
+      "parent_region_name": "Maldives (all)",
+      "parent_region_name_long": "Maldives (all)",
+      "dynamic_bbox": {
+        "ne": [
+          4.373,
+          73.654
+        ],
+        "sw": [
+          4.373,
+          73.654
+        ]
+      }
+    },
+    "records": [
+      {
+        "hs_id": 1012646824,
+        "slug": "ocean-cottage-maldives-thulusdhoo-island-mv-1012646824",
+        "name": "Ocean Cottage Maldives",
+        "toa": "bed_and_breakfast",
+        "location": {
+          "city": "Thulusdhoo Island",
+          "zip": "08040",
+          "country_iso2": "MV",
+          "address": "Kenery Magu",
+          "geoid": "xk8lkha1ntyx",
+          "loc": {
+            "type": "Point"
+          },
+          "coordinates": {
+            "lng": 73.65406,
+            "lat": 4.373336
+          }
+        },
+        "quality": {
+          "review_count": 4,
+          "review_rating": 95,
+          "stars": 3,
+          "stars_is_estimated": false,
+          "review_source": ""
+        },
+        "covid_safe": false,
+        "amenities": {
+          "internet": [
+            "wifi_lobby",
+            "wifi_room",
+            "internet"
+          ],
+          "food_drink": [
+            "bar"
+          ],
+          "pets": [
+            "pets_allowed"
+          ],
+          "parking": [
+            "parking"
+          ],
+          "room": [
+            "fan",
+            "air_conditioning"
+          ],
+          "reception": [
+            "laundry_service",
+            "safety_deposit_box"
+          ]
+        },
+        "short_description": "Casual bed and breakfast with parking and bar",
+        "offers": [
+          {
+            "price": 75.19,
+            "brt": "p2r#b",
+            "rf": "p2r#b",
+            "brf": 9502784,
+            "rt": 9502784,
+            "vendor": "agda",
+            "vendor_id_raw": "38503467",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included",
+              "Free cancellation"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Standard room - Choice of single or double beds",
+            "rooms": [
+              {
+                "name": "Standard room - Choice of single or double beds",
+                "flags": [
+                  "Choice of single or double beds"
+                ]
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included",
+              "refundable": "Free cancellation"
+            },
+            "partner_name": "Agoda",
+            "partner_logo": "https://hotelscan.com/apis/vendors/agda/logo.svg?pos=zz"
+          }
+        ],
+        "all_offers": [
+          {
+            "price": 75.19,
+            "brt": "p2r#b",
+            "rf": "p2r#b",
+            "brf": 9502784,
+            "rt": 9502784,
+            "vendor": "agda",
+            "vendor_id_raw": "38503467",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included",
+              "Free cancellation"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Standard room - Choice of single or double beds",
+            "rooms": [
+              {
+                "name": "Standard room - Choice of single or double beds",
+                "flags": [
+                  "Choice of single or double beds"
+                ]
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included",
+              "refundable": "Free cancellation"
+            },
+            "partner_name": "Agoda",
+            "partner_logo": "https://hotelscan.com/apis/vendors/agda/logo.svg?pos=zz"
+          }
+        ],
+        "descriptions": {},
+        "chain_code": null,
+        "bids": {
+          "agda": "j23"
+        },
+        "worst_offer": null,
+        "best_offer": 75.19,
+        "discount": 0,
+        "offers_count": 1,
+        "coordinates": {
+          "lat": 4.373336,
+          "lng": 73.65406
+        },
+        "distance": 0.36,
+        "neighborhood": null,
+        "badge": null,
+        "distances": [
+          {
+            "from": "center",
+            "distance": 0.36,
+            "time": 500,
+            "means": "foot",
+            "means_type": "foot"
+          }
+        ],
+        "specs": {
+          "bathrooms": null,
+          "beds": null,
+          "bedrooms": null,
+          "guests": null,
+          "square_meters": null
+        },
+        "toa_label": "bed and breakfast",
+        "top_amenities": [
+          "wifi_room",
+          "internet",
+          "bar",
+          "pets_allowed",
+          "parking"
+        ],
+        "transportations": {
+          "airports": [],
+          "trains": []
+        },
+        "images": [
+          {
+            "image_id": "541860667",
+            "label": ""
+          },
+          {
+            "image_id": "541860660",
+            "label": ""
+          },
+          {
+            "image_id": "541860674",
+            "label": ""
+          },
+          {
+            "image_id": "541860666",
+            "label": ""
+          },
+          {
+            "image_id": "541860665",
+            "label": ""
+          },
+          {
+            "image_id": "541860663",
+            "label": ""
+          },
+          {
+            "image_id": "541860662",
+            "label": ""
+          },
+          {
+            "image_id": "541860672",
+            "label": ""
+          },
+          {
+            "image_id": "541860671",
+            "label": ""
+          },
+          {
+            "image_id": "541860677",
+            "label": ""
+          },
+          {
+            "image_id": "541860670",
+            "label": ""
+          },
+          {
+            "image_id": "541860669",
+            "label": ""
+          },
+          {
+            "image_id": "541860673",
+            "label": ""
+          },
+          {
+            "image_id": "541860679",
+            "label": ""
+          },
+          {
+            "image_id": "541860664",
+            "label": ""
+          }
+        ],
+        "hero_offer": {
+          "price": 75.19,
+          "brt": "p2r#b",
+          "rf": "p2r#b",
+          "brf": 9502784,
+          "rt": 9502784,
+          "vendor": "agda",
+          "vendor_id_raw": "38503467",
+          "mota_code": null,
+          "direct_offer": false,
+          "offer_flags": {
+            "breakfast": "Breakfast included",
+            "refundable": "Free cancellation"
+          },
+          "jc_code": "",
+          "chain": "",
+          "free_cancellation": true,
+          "special": false,
+          "room_name": "Standard room - Choice of single or double beds",
+          "rooms": [
+            {
+              "name": "Standard room - Choice of single or double beds",
+              "flags": [
+                "Choice of single or double beds"
+              ]
+            }
+          ],
+          "partner_name": "Agoda",
+          "partner_logo": "https://hotelscan.com/apis/vendors/agda/logo.svg?pos=zz"
+        },
+        "rank": 0,
+        "ctrl_srt": "im a ctrl teapot",
+        "test_srt": "im a test teapot",
+        "best_offer_ota": null,
+        "best_offer_mota": null
+      }
+    ],
+    "filters": [],
+    "query": {
+      "pos": "zz"
+    }
+  }
+}

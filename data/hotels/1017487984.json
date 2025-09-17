@@ -1,0 +1,338 @@
+{
+  "_meta": {
+    "status": "SUCCESS",
+    "cached": true,
+    "count": 1,
+    "debug": {
+      "ticket": {
+        "ticket_id": "1017487984_zz_zz_d_publ_en_2_2025-10-08_2025-10-13_1_3",
+        "created_at": 1758065392.6,
+        "loop": null,
+        "snapped_at": 1758065392.6874,
+        "snapshot_id": "1017487984_zz_zz_d_publ_en_2_2025-10-08_2025-10-13_1_3",
+        "snapshot_ttl": 300,
+        "executions": 2,
+        "progress": 1,
+        "save_errors": []
+      }
+    }
+  },
+  "data": {
+    "meta": [],
+    "geo": {
+      "hs_id": "xk37cqelyyf9",
+      "region_name": "Felidhoo",
+      "region_name_long": "Felidhoo, Maldives",
+      "region_type": "CITY",
+      "region_id": 6343438,
+      "country_iso": "MV",
+      "country": "maldives",
+      "localised_country": "Maldives",
+      "center": [
+        3.47197,
+        73.54671
+      ],
+      "centroid": [
+        3.4721,
+        73.54679
+      ],
+      "polygon": [
+        "3.468653,73.545252",
+        "3.469262,73.548895",
+        "3.472689,73.550237",
+        "3.47529,73.548789",
+        "3.474049,73.543561",
+        "3.471236,73.543211",
+        "3.471198,73.543178",
+        "3.468653,73.545252"
+      ],
+      "radius": 0.42,
+      "zoom": -1,
+      "search_by_polygon": 0,
+      "cluster": 0,
+      "properties": 32,
+      "radius_override": 5,
+      "boundingbox": {
+        "ne": [
+          3.476,
+          73.551
+        ],
+        "sw": [
+          3.468,
+          73.543
+        ]
+      },
+      "airports": [
+        "MLE",
+        "DRV"
+      ],
+      "region_name_en": "Felidhoo",
+      "region_name_long_en": "Felidhoo, Maldives",
+      "referrer_city_name_en": "Felidhoo",
+      "parent_region_id": 6051084,
+      "parent_hs_id": "x5p4hmhw6iot",
+      "parent_region_name": "Maldives (all)",
+      "parent_region_name_long": "Maldives (all)",
+      "dynamic_bbox": {
+        "ne": [
+          3.472,
+          73.548
+        ],
+        "sw": [
+          3.472,
+          73.548
+        ]
+      }
+    },
+    "records": [
+      {
+        "hs_id": 1017487984,
+        "slug": "charming-2-bedroom-bed-breakfast-in-lovely-felidhoo-with-ac-felidhoo-mv-1017487984",
+        "name": "Charming 2-bedroom Bed & Breakfast In Lovely Felidhoo With Ac",
+        "toa": "bed_and_breakfast",
+        "location": {
+          "city": "Felidhoo",
+          "zip": "10030",
+          "country_iso2": "MV",
+          "address": "",
+          "geoid": "xk37cqelyyf9",
+          "loc": {
+            "type": "Point"
+          },
+          "coordinates": {
+            "lng": 73.548259,
+            "lat": 3.472502
+          }
+        },
+        "opening_time": {
+          "check_in_from": "14:00",
+          "check_in_to": null,
+          "check_out_from": null,
+          "check_out_to": "00:00"
+        },
+        "quality": {
+          "stars": 0,
+          "stars_is_estimated": false,
+          "review_source": ""
+        },
+        "covid_safe": false,
+        "amenities": {
+          "internet": [
+            "wifi"
+          ],
+          "disability": [
+            "disability_facilities"
+          ],
+          "pets": [
+            "pets_allowed"
+          ],
+          "room": [
+            "air_conditioning"
+          ]
+        },
+        "descriptions": {
+          "direction": "Felidhoo is home to this vacation home. Felidhoo Harbor and Keyodhoo Harbor are worth checking out if an activity is on the agenda, while those wishing to experience the area's natural beauty can explore Aarah Island and Alimathaa.",
+          "amenities": true,
+          "localized": "Felidhoo is home to this vacation home. Felidhoo Harbor and Keyodhoo Harbor are worth checking out if an activity is on the agenda, while those wishing to experience the area's natural beauty can explore Aarah Island and Alimathaa."
+        },
+        "short_description": "Bed and breakfast with 2 rooms",
+        "offers": [
+          {
+            "price": 93.38,
+            "brt": "z2r#",
+            "rf": "z2r#",
+            "brf": 8454144,
+            "rt": 8454144,
+            "vendor": "hawy",
+            "vendor_id_raw": "118318770",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Free cancellation"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Go to the booking site for more details",
+            "rooms": [
+              {
+                "name": "Go to the booking site for more details",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "refundable": "Free cancellation"
+            },
+            "partner_name": "VRBO",
+            "partner_logo": "https://hotelscan.com/apis/vendors/hawy/logo.svg?pos=zz"
+          }
+        ],
+        "all_offers": [
+          {
+            "price": 93.38,
+            "brt": "z2r#",
+            "rf": "z2r#",
+            "brf": 8454144,
+            "rt": 8454144,
+            "vendor": "hawy",
+            "vendor_id_raw": "118318770",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Free cancellation"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Go to the booking site for more details",
+            "rooms": [
+              {
+                "name": "Go to the booking site for more details",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "refundable": "Free cancellation"
+            },
+            "partner_name": "VRBO",
+            "partner_logo": "https://hotelscan.com/apis/vendors/hawy/logo.svg?pos=zz"
+          }
+        ],
+        "descriptions_language": {
+          "general": {
+            "original_language": true,
+            "text": "Felidhoo is home to this vacation home. Felidhoo Harbor and Keyodhoo Harbor are worth checking out if an activity is on the agenda, while those wishing to experience the area's natural beauty can explore Aarah Island and Alimathaa."
+          }
+        },
+        "chain_code": null,
+        "bids": {
+          "hawy": "j23"
+        },
+        "worst_offer": null,
+        "best_offer": 93.38,
+        "discount": 0,
+        "offers_count": 1,
+        "coordinates": {
+          "lat": 3.472502,
+          "lng": 73.548259
+        },
+        "distance": 0.18,
+        "neighborhood": null,
+        "badge": null,
+        "distances": [
+          {
+            "from": "center",
+            "distance": 0.18,
+            "time": 250,
+            "means": "foot",
+            "means_type": "foot"
+          }
+        ],
+        "specs": {
+          "bathrooms": null,
+          "beds": null,
+          "bedrooms": null,
+          "guests": null,
+          "square_meters": null
+        },
+        "toa_label": "bed and breakfast",
+        "top_amenities": [
+          "pets_allowed",
+          "air_conditioning"
+        ],
+        "transportations": {
+          "airports": [],
+          "trains": []
+        },
+        "images": [
+          {
+            "image_id": "763903913",
+            "label": ""
+          },
+          {
+            "image_id": "763903918",
+            "label": ""
+          },
+          {
+            "image_id": "763903916",
+            "label": ""
+          },
+          {
+            "image_id": "763903921",
+            "label": ""
+          },
+          {
+            "image_id": "763903912",
+            "label": ""
+          },
+          {
+            "image_id": "763903922",
+            "label": ""
+          },
+          {
+            "image_id": "763903920",
+            "label": ""
+          },
+          {
+            "image_id": "763903915",
+            "label": ""
+          },
+          {
+            "image_id": "763903923",
+            "label": ""
+          },
+          {
+            "image_id": "763903917",
+            "label": ""
+          },
+          {
+            "image_id": "763903914",
+            "label": ""
+          },
+          {
+            "image_id": "763903919",
+            "label": ""
+          }
+        ],
+        "hero_offer": {
+          "price": 93.38,
+          "brt": "z2r#",
+          "rf": "z2r#",
+          "brf": 8454144,
+          "rt": 8454144,
+          "vendor": "hawy",
+          "vendor_id_raw": "118318770",
+          "mota_code": null,
+          "direct_offer": false,
+          "offer_flags": {
+            "refundable": "Free cancellation"
+          },
+          "jc_code": "",
+          "chain": "",
+          "free_cancellation": true,
+          "special": false,
+          "room_name": "Go to the booking site for more details",
+          "rooms": [
+            {
+              "name": "Go to the booking site for more details",
+              "flags": []
+            }
+          ],
+          "partner_name": "VRBO",
+          "partner_logo": "https://hotelscan.com/apis/vendors/hawy/logo.svg?pos=zz"
+        },
+        "rank": 0,
+        "ctrl_srt": "im a ctrl teapot",
+        "test_srt": "im a test teapot",
+        "best_offer_ota": null,
+        "best_offer_mota": null
+      }
+    ],
+    "filters": [],
+    "query": {
+      "pos": "zz"
+    }
+  }
+}

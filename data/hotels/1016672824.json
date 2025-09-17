@@ -1,0 +1,338 @@
+{
+  "_meta": {
+    "status": "SUCCESS",
+    "cached": true,
+    "count": 1,
+    "debug": {
+      "ticket": {
+        "ticket_id": "1016672824_zz_zz_d_publ_en_2_2025-10-08_2025-10-13_1_3",
+        "created_at": 1758065394.415,
+        "loop": null,
+        "snapped_at": 1758065394.5131,
+        "snapshot_id": "1016672824_zz_zz_d_publ_en_2_2025-10-08_2025-10-13_1_3",
+        "snapshot_ttl": 300,
+        "executions": 2,
+        "progress": 1,
+        "save_errors": []
+      }
+    }
+  },
+  "data": {
+    "meta": [],
+    "geo": {
+      "hs_id": "x5zqbp1vkin4",
+      "region_name": "Huraa",
+      "region_name_long": "Huraa, Maldives",
+      "region_type": "CITY",
+      "region_id": 6054356,
+      "country_iso": "MV",
+      "country": "maldives",
+      "localised_country": "Maldives",
+      "center": [
+        4.3348,
+        73.60022
+      ],
+      "centroid": [
+        4.3348,
+        73.60077
+      ],
+      "polygon": [
+        "4.332087,73.596225",
+        "4.329496,73.600754",
+        "4.333241,73.604217",
+        "4.338233,73.603924",
+        "4.340094,73.600781",
+        "4.332087,73.596225"
+      ],
+      "radius": 0.59,
+      "zoom": -1,
+      "search_by_polygon": 0,
+      "cluster": 0,
+      "properties": 70,
+      "radius_override": 5,
+      "boundingbox": {
+        "ne": [
+          4.341,
+          73.605
+        ],
+        "sw": [
+          4.329,
+          73.596
+        ]
+      },
+      "airports": [
+        "MLE",
+        "DRV"
+      ],
+      "region_name_en": "Huraa",
+      "region_name_long_en": "Huraa, Maldives",
+      "referrer_city_name_en": "Huraa",
+      "parent_region_id": 6051084,
+      "parent_hs_id": "x5p4hmhw6iot",
+      "parent_region_name": "Maldives (all)",
+      "parent_region_name_long": "Maldives (all)",
+      "dynamic_bbox": {
+        "ne": [
+          4.334,
+          73.599
+        ],
+        "sw": [
+          4.334,
+          73.599
+        ]
+      }
+    },
+    "records": [
+      {
+        "hs_id": 1016672824,
+        "slug": "treasure-island-lodge-huraamaldives-huraa-mv-1016672824",
+        "name": "Treasure Island Lodge - Huraa/maldives",
+        "toa": "bed_and_breakfast",
+        "location": {
+          "city": "Huraa",
+          "zip": "08050",
+          "country_iso2": "MV",
+          "address": "",
+          "geoid": "x5zqbp1vkin4",
+          "loc": {
+            "type": "Point"
+          },
+          "coordinates": {
+            "lng": 73.599984,
+            "lat": 4.33441
+          }
+        },
+        "opening_time": {
+          "check_in_from": "16:00",
+          "check_in_to": null,
+          "check_out_from": null,
+          "check_out_to": "00:30"
+        },
+        "quality": {
+          "stars": 0,
+          "stars_is_estimated": false,
+          "review_source": ""
+        },
+        "covid_safe": false,
+        "amenities": {
+          "children": [
+            "children_playground"
+          ],
+          "internet": [
+            "wifi",
+            "wifi_room"
+          ],
+          "food_drink": [
+            "beach_bar"
+          ],
+          "disability": [
+            "disability_facilities"
+          ],
+          "room": [
+            "heating",
+            "air_conditioning",
+            "in_room_safe"
+          ],
+          "reception": [
+            "laundry_facilities"
+          ]
+        },
+        "descriptions": {
+          "direction": "Located in Huraa, this bed & breakfast is on a lake. Maldives Islamic Centre and Medhu Ziyaaraiy are local landmarks, and travelers looking to shop may want to visit Boutique by Island Breeze and Orofini Jewellery.",
+          "amenities": true,
+          "localized": "Located in Huraa, this bed & breakfast is on a lake. Maldives Islamic Centre and Medhu Ziyaaraiy are local landmarks, and travelers looking to shop may want to visit Boutique by Island Breeze and Orofini Jewellery."
+        },
+        "short_description": "Rooms with wifi in bed and breakfast with beach bar",
+        "offers": [
+          {
+            "price": 70.9,
+            "brt": "z2r#",
+            "rf": "z2r#",
+            "brf": 8454144,
+            "rt": 8454144,
+            "vendor": "hawy",
+            "vendor_id_raw": "91195485",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Free cancellation"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Go to the booking site for more details",
+            "rooms": [
+              {
+                "name": "Go to the booking site for more details",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "refundable": "Free cancellation"
+            },
+            "partner_name": "VRBO",
+            "partner_logo": "https://hotelscan.com/apis/vendors/hawy/logo.svg?pos=zz"
+          }
+        ],
+        "all_offers": [
+          {
+            "price": 70.9,
+            "brt": "z2r#",
+            "rf": "z2r#",
+            "brf": 8454144,
+            "rt": 8454144,
+            "vendor": "hawy",
+            "vendor_id_raw": "91195485",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Free cancellation"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Go to the booking site for more details",
+            "rooms": [
+              {
+                "name": "Go to the booking site for more details",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "refundable": "Free cancellation"
+            },
+            "partner_name": "VRBO",
+            "partner_logo": "https://hotelscan.com/apis/vendors/hawy/logo.svg?pos=zz"
+          }
+        ],
+        "descriptions_language": {
+          "general": {
+            "original_language": true,
+            "text": "Located in Huraa, this bed & breakfast is on a lake. Maldives Islamic Centre and Medhu Ziyaaraiy are local landmarks, and travelers looking to shop may want to visit Boutique by Island Breeze and Orofini Jewellery."
+          }
+        },
+        "chain_code": null,
+        "bids": {
+          "hawy": "j23"
+        },
+        "worst_offer": null,
+        "best_offer": 70.9,
+        "discount": 0,
+        "offers_count": 1,
+        "coordinates": {
+          "lat": 4.33441,
+          "lng": 73.599984
+        },
+        "distance": 0.05,
+        "neighborhood": null,
+        "badge": null,
+        "distances": [
+          {
+            "from": "center",
+            "distance": 0.05,
+            "time": 69,
+            "means": "foot",
+            "means_type": "foot"
+          }
+        ],
+        "specs": {
+          "bathrooms": null,
+          "beds": null,
+          "bedrooms": null,
+          "guests": null,
+          "square_meters": null
+        },
+        "toa_label": "bed and breakfast",
+        "top_amenities": [
+          "wifi_room",
+          "heating",
+          "air_conditioning"
+        ],
+        "transportations": {
+          "airports": [],
+          "trains": []
+        },
+        "images": [
+          {
+            "image_id": "724065197",
+            "label": ""
+          },
+          {
+            "image_id": "724065206",
+            "label": ""
+          },
+          {
+            "image_id": "724065199",
+            "label": ""
+          },
+          {
+            "image_id": "724065204",
+            "label": ""
+          },
+          {
+            "image_id": "724065200",
+            "label": ""
+          },
+          {
+            "image_id": "724065198",
+            "label": ""
+          },
+          {
+            "image_id": "724065205",
+            "label": ""
+          },
+          {
+            "image_id": "724065202",
+            "label": ""
+          },
+          {
+            "image_id": "724065196",
+            "label": ""
+          },
+          {
+            "image_id": "724065203",
+            "label": ""
+          }
+        ],
+        "hero_offer": {
+          "price": 70.9,
+          "brt": "z2r#",
+          "rf": "z2r#",
+          "brf": 8454144,
+          "rt": 8454144,
+          "vendor": "hawy",
+          "vendor_id_raw": "91195485",
+          "mota_code": null,
+          "direct_offer": false,
+          "offer_flags": {
+            "refundable": "Free cancellation"
+          },
+          "jc_code": "",
+          "chain": "",
+          "free_cancellation": true,
+          "special": false,
+          "room_name": "Go to the booking site for more details",
+          "rooms": [
+            {
+              "name": "Go to the booking site for more details",
+              "flags": []
+            }
+          ],
+          "partner_name": "VRBO",
+          "partner_logo": "https://hotelscan.com/apis/vendors/hawy/logo.svg?pos=zz"
+        },
+        "rank": 0,
+        "ctrl_srt": "im a ctrl teapot",
+        "test_srt": "im a test teapot",
+        "best_offer_ota": null,
+        "best_offer_mota": null
+      }
+    ],
+    "filters": [],
+    "query": {
+      "pos": "zz"
+    }
+  }
+}

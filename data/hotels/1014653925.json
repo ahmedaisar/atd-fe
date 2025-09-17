@@ -1,0 +1,370 @@
+{
+  "_meta": {
+    "status": "SUCCESS",
+    "cached": true,
+    "count": 1,
+    "debug": {
+      "ticket": {
+        "ticket_id": "1014653925_zz_zz_d_publ_en_2_2025-10-08_2025-10-13_1_3",
+        "created_at": 1758065385.9605,
+        "loop": null,
+        "snapped_at": 1758065386.1896,
+        "snapshot_id": "1014653925_zz_zz_d_publ_en_2_2025-10-08_2025-10-13_1_3",
+        "snapshot_ttl": 300,
+        "executions": 2,
+        "progress": 1,
+        "save_errors": []
+      }
+    }
+  },
+  "data": {
+    "meta": [],
+    "geo": {
+      "hs_id": "xk8lkha1ntyx",
+      "region_name": "Thulusdhoo Island",
+      "region_name_long": "Thulusdhoo Island, Maldives",
+      "region_type": "CITY",
+      "region_id": 6278797,
+      "country_iso": "MV",
+      "country": "maldives",
+      "localised_country": "Maldives",
+      "center": [
+        4.37228,
+        73.65101
+      ],
+      "centroid": [
+        4.37228,
+        73.65101
+      ],
+      "polygon": [
+        "4.380631,73.643003",
+        "4.364183,73.643261",
+        "4.363924,73.659018",
+        "4.38052,73.658721",
+        "4.380631,73.643003"
+      ],
+      "radius": 1.29,
+      "zoom": -1,
+      "search_by_polygon": 1,
+      "cluster": 0,
+      "properties": 82,
+      "radius_override": 5,
+      "boundingbox": {
+        "ne": [
+          4.381,
+          73.66
+        ],
+        "sw": [
+          4.363,
+          73.643
+        ]
+      },
+      "airports": [
+        "MLE",
+        "DRV"
+      ],
+      "region_name_en": "Thulusdhoo Island",
+      "region_name_long_en": "Thulusdhoo Island, Maldives",
+      "referrer_city_name_en": "Thulusdhoo Island",
+      "parent_region_id": 6051084,
+      "parent_hs_id": "x5p4hmhw6iot",
+      "parent_region_name": "Maldives (all)",
+      "parent_region_name_long": "Maldives (all)",
+      "dynamic_bbox": {
+        "ne": [
+          4.373,
+          73.654
+        ],
+        "sw": [
+          4.373,
+          73.654
+        ]
+      }
+    },
+    "records": [
+      {
+        "hs_id": 1014653925,
+        "slug": "beautiful-private-2-bedroom-villa-hale-noa-thulusdhoo-island-mv-1014653925",
+        "name": "Beautiful Private 2 Bedroom Villa - Hale Noa",
+        "toa": "villa",
+        "building": {
+          "room_num": 1,
+          "square_meters": 180,
+          "max_children": 6
+        },
+        "location": {
+          "city": "Thulusdhoo Island",
+          "country_iso2": "MV",
+          "address": "Thulusdhoo",
+          "geoid": "xk8lkha1ntyx",
+          "loc": {
+            "type": "Point"
+          },
+          "coordinates": {
+            "lng": 73.65407,
+            "lat": 4.37342
+          }
+        },
+        "opening_time": {
+          "check_in_from": "12:00",
+          "check_in_to": "20:00",
+          "check_out_from": "09:00",
+          "check_out_to": "13:00"
+        },
+        "quality": {
+          "review_count": 5,
+          "review_rating": 94,
+          "stars": 0,
+          "stars_is_estimated": false,
+          "review_source": ""
+        },
+        "covid_safe": true,
+        "amenities": {
+          "children": [
+            "babysitter"
+          ],
+          "wellness": [
+            "hair_salon"
+          ],
+          "sports": [
+            "sub"
+          ],
+          "internet": [
+            "wifi",
+            "internet"
+          ],
+          "transfer": [
+            "shuttle_service"
+          ],
+          "food_drink": [
+            "tea_coffee_maker"
+          ],
+          "disability": [
+            "wheelchair_accessible"
+          ],
+          "outdoor": [
+            "garden",
+            "patio",
+            "yard"
+          ],
+          "other": [],
+          "room": [
+            "fan",
+            "air_conditioning",
+            "tv",
+            "washing_machine"
+          ],
+          "reception": [
+            "luggage_storage",
+            "laundry_facilities",
+            "laundry_service",
+            "safety_deposit_box"
+          ]
+        },
+        "descriptions": {
+          "hotel": "Featuring barbecue facilities, Beautiful private 2 bedroom villa - Hale Noa features accommodation in Male City. This beachfront property offers access to a patio and free WiFi. The property is non-smoking and is situated 100 metres from Bikini...",
+          "localized": "Featuring barbecue facilities, Beautiful private 2 bedroom villa - Hale Noa features accommodation in Male City. This beachfront property offers access to a patio and free WiFi. The property is non-smoking and is situated 100 metres from Bikini..."
+        },
+        "offers": [
+          {
+            "price": 170.16,
+            "brt": "o2r#",
+            "rf": "o2r#",
+            "brf": 8421440,
+            "rt": 8421440,
+            "vendor": "bkng",
+            "vendor_id_raw": "12054303",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": false,
+            "special": false,
+            "room_name": "Villa",
+            "rooms": [
+              {
+                "name": "Villa",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": [],
+            "partner_name": "Booking.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/bkng/logo.svg?pos=zz"
+          }
+        ],
+        "all_offers": [
+          {
+            "price": 170.16,
+            "brt": "o2r#",
+            "rf": "o2r#",
+            "brf": 8421440,
+            "rt": 8421440,
+            "vendor": "bkng",
+            "vendor_id_raw": "12054303",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": false,
+            "special": false,
+            "room_name": "Villa",
+            "rooms": [
+              {
+                "name": "Villa",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": [],
+            "partner_name": "Booking.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/bkng/logo.svg?pos=zz"
+          }
+        ],
+        "descriptions_language": {
+          "general": {
+            "original_language": true,
+            "text": "Featuring barbecue facilities, Beautiful private 2 bedroom villa - Hale Noa features accommodation in Male City. This beachfront property offers access to a patio and free WiFi. The property is non-smoking and is situated 100 metres from Bikini..."
+          }
+        },
+        "chain_code": null,
+        "bids": {
+          "bkng": "j23"
+        },
+        "worst_offer": null,
+        "best_offer": 170.16,
+        "discount": 0,
+        "offers_count": 1,
+        "coordinates": {
+          "lat": 4.37342,
+          "lng": 73.65407
+        },
+        "distance": 0.36,
+        "neighborhood": null,
+        "badge": null,
+        "distances": [
+          {
+            "from": "center",
+            "distance": 0.36,
+            "time": 500,
+            "means": "foot",
+            "means_type": "foot"
+          }
+        ],
+        "specs": {
+          "bathrooms": 2,
+          "beds": null,
+          "bedrooms": 2,
+          "guests": 7,
+          "square_meters": 180
+        },
+        "toa_label": "villa",
+        "top_amenities": [
+          "internet",
+          "tea_coffee_maker",
+          "air_conditioning"
+        ],
+        "transportations": {
+          "airports": [],
+          "trains": []
+        },
+        "images": [
+          {
+            "image_id": "646951409",
+            "label": ""
+          },
+          {
+            "image_id": "646951420",
+            "label": ""
+          },
+          {
+            "image_id": "646951410",
+            "label": ""
+          },
+          {
+            "image_id": "646951414",
+            "label": ""
+          },
+          {
+            "image_id": "646951418",
+            "label": ""
+          },
+          {
+            "image_id": "646951406",
+            "label": ""
+          },
+          {
+            "image_id": "646951407",
+            "label": ""
+          },
+          {
+            "image_id": "646951408",
+            "label": ""
+          },
+          {
+            "image_id": "646951413",
+            "label": ""
+          },
+          {
+            "image_id": "646951422",
+            "label": ""
+          },
+          {
+            "image_id": "646951419",
+            "label": ""
+          },
+          {
+            "image_id": "646951421",
+            "label": ""
+          },
+          {
+            "image_id": "646951411",
+            "label": ""
+          },
+          {
+            "image_id": "646951416",
+            "label": ""
+          },
+          {
+            "image_id": "646951412",
+            "label": ""
+          }
+        ],
+        "hero_offer": {
+          "price": 170.16,
+          "brt": "o2r#",
+          "rf": "o2r#",
+          "brf": 8421440,
+          "rt": 8421440,
+          "vendor": "bkng",
+          "vendor_id_raw": "12054303",
+          "mota_code": null,
+          "direct_offer": false,
+          "offer_flags": [],
+          "jc_code": "",
+          "chain": "",
+          "free_cancellation": false,
+          "special": false,
+          "room_name": "Villa",
+          "rooms": [
+            {
+              "name": "Villa",
+              "flags": []
+            }
+          ],
+          "partner_name": "Booking.com",
+          "partner_logo": "https://hotelscan.com/apis/vendors/bkng/logo.svg?pos=zz"
+        },
+        "rank": 0,
+        "ctrl_srt": "im a ctrl teapot",
+        "test_srt": "im a test teapot",
+        "best_offer_ota": null,
+        "best_offer_mota": null
+      }
+    ],
+    "filters": [],
+    "query": {
+      "pos": "zz"
+    }
+  }
+}

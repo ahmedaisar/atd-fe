@@ -1,0 +1,594 @@
+{
+  "_meta": {
+    "status": "SUCCESS",
+    "cached": true,
+    "count": 1,
+    "debug": {
+      "ticket": {
+        "ticket_id": "1009512793_zz_zz_d_publ_en_2_2025-10-08_2025-10-13_1_3",
+        "created_at": 1758065363.9156,
+        "loop": null,
+        "snapped_at": 1758065364.0127,
+        "snapshot_id": "1009512793_zz_zz_d_publ_en_2_2025-10-08_2025-10-13_1_3",
+        "snapshot_ttl": 300,
+        "executions": 2,
+        "progress": 1,
+        "save_errors": []
+      }
+    }
+  },
+  "data": {
+    "meta": [],
+    "geo": {
+      "hs_id": "xka3fmt2fs7x",
+      "region_name": "Fehendhoo",
+      "region_name_long": "Fehendhoo, Maldives",
+      "region_type": "CITY",
+      "region_id": 6361273,
+      "country_iso": "MV",
+      "country": "maldives",
+      "localised_country": "Maldives",
+      "center": [
+        4.88185,
+        72.96875
+      ],
+      "centroid": [
+        4.88181,
+        72.96873
+      ],
+      "polygon": [
+        "4.880681,72.955381",
+        "4.873428,72.977966",
+        "4.881478,72.982121",
+        "4.890278,72.958351",
+        "4.880681,72.955381"
+      ],
+      "radius": 1.49,
+      "zoom": -1,
+      "search_by_polygon": 0,
+      "cluster": 0,
+      "properties": 37,
+      "radius_override": 5,
+      "boundingbox": {
+        "ne": [
+          4.891,
+          72.983
+        ],
+        "sw": [
+          4.873,
+          72.955
+        ]
+      },
+      "airports": [
+        "MLE",
+        "DRV"
+      ],
+      "region_name_en": "Fehendhoo",
+      "region_name_long_en": "Fehendhoo, Maldives",
+      "referrer_city_name_en": "Fehendhoo",
+      "parent_region_id": 6051084,
+      "parent_hs_id": "x5p4hmhw6iot",
+      "parent_region_name": "Maldives (all)",
+      "parent_region_name_long": "Maldives (all)",
+      "dynamic_bbox": {
+        "ne": [
+          4.879,
+          72.974
+        ],
+        "sw": [
+          4.879,
+          72.974
+        ]
+      }
+    },
+    "records": [
+      {
+        "hs_id": 1009512793,
+        "slug": "atholhu-residence-fehendhoo-mv-1009512793",
+        "name": "Atholhu Residence",
+        "toa": "hotel",
+        "building": {
+          "room_num": 6
+        },
+        "location": {
+          "city": "Fehendhoo",
+          "zip": "06120",
+          "country_iso2": "MV",
+          "address": "Atholhu Residence In Maldives Maahal Fehendhoo",
+          "geoid": "xka3fmt2fs7x",
+          "loc": {
+            "type": "Point"
+          },
+          "coordinates": {
+            "lng": 72.97463,
+            "lat": 4.87999
+          }
+        },
+        "opening_time": {
+          "check_in_from": "12:00",
+          "check_in_to": "12:00",
+          "check_out_from": null,
+          "check_out_to": "12:00"
+        },
+        "quality": {
+          "review_count": 64,
+          "review_rating": 86,
+          "stars": 4,
+          "stars_is_estimated": false,
+          "review_source": ""
+        },
+        "covid_safe": true,
+        "amenities": {
+          "wellness": [
+            "massage",
+            "solarium",
+            "fitness_center",
+            "sauna",
+            "spa",
+            "outdoor_pool",
+            "turkish_bath"
+          ],
+          "sports": [
+            "badminton",
+            "bike_rent",
+            "trekking",
+            "sub",
+            "surf"
+          ],
+          "internet": [
+            "wifi",
+            "wifi_room",
+            "internet"
+          ],
+          "food_drink": [
+            "restaurant",
+            "room_service",
+            "poolside_bar",
+            "cafe",
+            "bar",
+            "snack_bar"
+          ],
+          "disability": [
+            "wheelchair_accessible",
+            "disability_facilities"
+          ],
+          "pets": [
+            "pets_allowed"
+          ],
+          "parking": [
+            "parking"
+          ],
+          "outdoor": [
+            "garden"
+          ],
+          "other": [],
+          "business": [
+            "business_services"
+          ],
+          "children": [
+            "babysitter",
+            "children_playground"
+          ],
+          "entertainment": [
+            "tv_lobby"
+          ],
+          "transfer": [
+            "shuttle_service"
+          ],
+          "room": [
+            "air_conditioning",
+            "tv"
+          ],
+          "reception": [
+            "24h_reception",
+            "luggage_storage",
+            "concierge",
+            "laundry_service",
+            "safety_deposit_box"
+          ]
+        },
+        "descriptions": {
+          "direction": "Fehendhoo is home to Atholhu Residence . While the natural beauty of Thulhaadho Beach and Nelivaru Finolhu can be enjoyed by anyone, those looking for an activity can check out Thulhaadho Harbor. Looking to get your feet wet? Snorkeling and windsurfing adventures can be found near the property.",
+          "general": "At Atholhu Residence, exceptional service and top-notch amenities create a memorable experience for guests. Complimentary internet access is available in the apartment to ensure you stay connected during your visit. Arrange your trips to and from the airport using the apartment's convenient transportation services booking. Discover the wonders of Maldive Islands with ease by utilizing the services provided by taxi and shuttle.Continuously receive the support you require through front desk amenities such as concierge service, luggage storage and safety deposit boxes. At the apartment, their ticket service and tours is also capable of assisting with booking tickets and securing reservations for entertainment and adventures. Always look your best in your preferred attire with the laundromat and laundry service provided at Atholhu Residence.Craving relaxation? In-room amenities such as 24-hour room service, room service and daily housekeeping allow you to maximize your time spent inside the room.Additionally, you can obtain minor travel essentials and miscellaneous items at the convenience stores without departing from the Atholhu Residence. For the health and well-being of all guests and staff, smoking is restricted exclusively to assigned zones. Accommodations come equipped with all the conveniences required for a restful night's slumber.A selection of rooms at Atholhu Residence come furnished with air conditioning to cater to your needs and comfort. In certain chosen rooms, a refrigerator is conveniently available for your use. At Atholhu Residence, each day commences with a scrumptious breakfast offered at no additional cost. All adore a delightful cup of coffee! An on-site coffee shop ensures you can relish a cup of authentic, freshly-brewed coffee every morning -- or whenever you desire it.Allow your journey to be free from the pangs of hunger! On-site eateries offer delicious and accessible meal choices.An evening spent at apartment's bar can offer as much enjoyment as venturing out with your fellow travelers. Are you inclined to prepare your own dishes? You will surely appreciate having the on-site BBQ facilities available.At Atholhu Residence, guests can take pleasure in the delightful recreational amenities provided for their entertainment. At the apartment, a wide range of enjoyable activities ensures that there's never a dull moment during your visit. Don't miss out on the easily reachable beach in the vicinity.At Atholhu Residence, a wide array of amenities guarantees a fulfilling experience throughout your visit. Make your holiday truly memorable by taking a rejuvenating plunge into the pool.At Atholhu Residence, the poolside bar provides an excellent incentive to enjoy extended hours in your swimwear.",
+          "amenities": true,
+          "localized": "At Atholhu Residence, exceptional service and top-notch amenities create a memorable experience for guests. Complimentary internet access is available in the apartment to ensure you stay connected during your visit. Arrange your trips to and from the airport using the apartment's convenient transportation services booking. Discover the wonders of Maldive Islands with ease by utilizing the services provided by taxi and shuttle.Continuously receive the support you require through front desk amenities such as concierge service, luggage storage and safety deposit boxes. At the apartment, their ticket service and tours is also capable of assisting with booking tickets and securing reservations for entertainment and adventures. Always look your best in your preferred attire with the laundromat and laundry service provided at Atholhu Residence.Craving relaxation? In-room amenities such as 24-hour room service, room service and daily housekeeping allow you to maximize your time spent inside the room.Additionally, you can obtain minor travel essentials and miscellaneous items at the convenience stores without departing from the Atholhu Residence. For the health and well-being of all guests and staff, smoking is restricted exclusively to assigned zones. Accommodations come equipped with all the conveniences required for a restful night's slumber.A selection of rooms at Atholhu Residence come furnished with air conditioning to cater to your needs and comfort. In certain chosen rooms, a refrigerator is conveniently available for your use. At Atholhu Residence, each day commences with a scrumptious breakfast offered at no additional cost. All adore a delightful cup of coffee! An on-site coffee shop ensures you can relish a cup of authentic, freshly-brewed coffee every morning -- or whenever you desire it.Allow your journey to be free from the pangs of hunger! On-site eateries offer delicious and accessible meal choices.An evening spent at apartment's bar can offer as much enjoyment as venturing out with your fellow travelers. Are you inclined to prepare your own dishes? You will surely appreciate having the on-site BBQ facilities available.At Atholhu Residence, guests can take pleasure in the delightful recreational amenities provided for their entertainment. At the apartment, a wide range of enjoyable activities ensures that there's never a dull moment during your visit. Don't miss out on the easily reachable beach in the vicinity.At Atholhu Residence, a wide array of amenities guarantees a fulfilling experience throughout your visit. Make your holiday truly memorable by taking a rejuvenating plunge into the pool.At Atholhu Residence, the poolside bar provides an excellent incentive to enjoy extended hours in your swimwear."
+        },
+        "short_description": "Rooms with free wifi in hotel with spa, fitness center and bike rent",
+        "chain": "no_chain",
+        "brand": "no_brand",
+        "offers": [
+          {
+            "price": 112.6,
+            "brt": "p2c#",
+            "rf": "p2c#",
+            "brf": 9470016,
+            "rt": 9470016,
+            "vendor": "htls",
+            "vendor_id_raw": "3230795168",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included"
+            ],
+            "jc_code": "",
+            "ranking_index": 1,
+            "chain": "",
+            "free_cancellation": false,
+            "special": false,
+            "room_name": "Superior room",
+            "rooms": [
+              {
+                "name": "Superior room",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included"
+            },
+            "partner_name": "Hotels.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/htls/logo.svg?pos=zz"
+          },
+          {
+            "vendor": "expd",
+            "price": 112.6,
+            "vendor_id_raw": "100931099",
+            "mota_code": null,
+            "jc_code": "EXPEDIA",
+            "partner_name": "Expedia",
+            "partner_logo": "https://hotelscan.com/apis/vendors/expd/logo.svg?pos=zz",
+            "room_name": "Superior room",
+            "brf": 9470016,
+            "brt": "p2c#"
+          }
+        ],
+        "all_offers": [
+          {
+            "price": 112.6,
+            "brt": "p2c#",
+            "rf": "p2c#",
+            "brf": 9470016,
+            "rt": 9470016,
+            "vendor": "htls",
+            "vendor_id_raw": "3230795168",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": false,
+            "special": false,
+            "room_name": "Superior room",
+            "rooms": [
+              {
+                "name": "Superior room",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included"
+            },
+            "partner_name": "Hotels.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/htls/logo.svg?pos=zz"
+          },
+          {
+            "price": 112.6,
+            "brt": "p2c#",
+            "rf": "p2c#",
+            "brf": 9470016,
+            "rt": 9470016,
+            "vendor": "expd",
+            "vendor_id_raw": "100931099",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included"
+            ],
+            "jc_code": "EXPEDIA",
+            "chain": "",
+            "free_cancellation": false,
+            "special": false,
+            "room_name": "Superior room",
+            "rooms": [
+              {
+                "name": "Superior room",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included"
+            },
+            "partner_name": "Expedia",
+            "partner_logo": "https://hotelscan.com/apis/vendors/expd/logo.svg?pos=zz"
+          },
+          {
+            "price": 123.98,
+            "brt": "p2c#",
+            "rf": "p2c#",
+            "brf": 9502784,
+            "rt": 9502784,
+            "vendor": "htls",
+            "vendor_id_raw": "3230795168",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included",
+              "Free cancellation"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Superior room",
+            "rooms": [
+              {
+                "name": "Superior room",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included",
+              "refundable": "Free cancellation"
+            },
+            "partner_name": "Hotels.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/htls/logo.svg?pos=zz"
+          },
+          {
+            "price": 123.98,
+            "brt": "p2c#",
+            "rf": "p2c#",
+            "brf": 9502784,
+            "rt": 9502784,
+            "vendor": "expd",
+            "vendor_id_raw": "100931099",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included",
+              "Free cancellation"
+            ],
+            "jc_code": "EXPEDIA",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Superior room",
+            "rooms": [
+              {
+                "name": "Superior room",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included",
+              "refundable": "Free cancellation"
+            },
+            "partner_name": "Expedia",
+            "partner_logo": "https://hotelscan.com/apis/vendors/expd/logo.svg?pos=zz"
+          },
+          {
+            "price": 123.99,
+            "brt": "p2c#",
+            "rf": "p2c#",
+            "brf": 9502848,
+            "rt": 9502848,
+            "vendor": "htls",
+            "vendor_id_raw": "3230795168",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included",
+              "Free cancellation",
+              "Pay at the property"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Superior room",
+            "rooms": [
+              {
+                "name": "Superior room",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included",
+              "refundable": "Free cancellation",
+              "pay_at_hotel": "Pay at the property"
+            },
+            "partner_name": "Hotels.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/htls/logo.svg?pos=zz"
+          },
+          {
+            "price": 123.99,
+            "brt": "p2c#",
+            "rf": "p2c#",
+            "brf": 9502848,
+            "rt": 9502848,
+            "vendor": "expd",
+            "vendor_id_raw": "100931099",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included",
+              "Free cancellation",
+              "Pay at the property"
+            ],
+            "jc_code": "EXPEDIA",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Superior room",
+            "rooms": [
+              {
+                "name": "Superior room",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included",
+              "refundable": "Free cancellation",
+              "pay_at_hotel": "Pay at the property"
+            },
+            "partner_name": "Expedia",
+            "partner_logo": "https://hotelscan.com/apis/vendors/expd/logo.svg?pos=zz"
+          }
+        ],
+        "descriptions_language": {
+          "general": {
+            "original_language": true,
+            "text": "At Atholhu Residence, exceptional service and top-notch amenities create a memorable experience for guests. Complimentary internet access is available in the apartment to ensure you stay connected during your visit. Arrange your trips to and from the airport using the apartment's convenient transportation services booking. Discover the wonders of Maldive Islands with ease by utilizing the services provided by taxi and shuttle.Continuously receive the support you require through front desk amenities such as concierge service, luggage storage and safety deposit boxes. At the apartment, their ticket service and tours is also capable of assisting with booking tickets and securing reservations for entertainment and adventures. Always look your best in your preferred attire with the laundromat and laundry service provided at Atholhu Residence.Craving relaxation? In-room amenities such as 24-hour room service, room service and daily housekeeping allow you to maximize your time spent inside the room.Additionally, you can obtain minor travel essentials and miscellaneous items at the convenience stores without departing from the Atholhu Residence. For the health and well-being of all guests and staff, smoking is restricted exclusively to assigned zones. Accommodations come equipped with all the conveniences required for a restful night's slumber.A selection of rooms at Atholhu Residence come furnished with air conditioning to cater to your needs and comfort. In certain chosen rooms, a refrigerator is conveniently available for your use. At Atholhu Residence, each day commences with a scrumptious breakfast offered at no additional cost. All adore a delightful cup of coffee! An on-site coffee shop ensures you can relish a cup of authentic, freshly-brewed coffee every morning -- or whenever you desire it.Allow your journey to be free from the pangs of hunger! On-site eateries offer delicious and accessible meal choices.An evening spent at apartment's bar can offer as much enjoyment as venturing out with your fellow travelers. Are you inclined to prepare your own dishes? You will surely appreciate having the on-site BBQ facilities available.At Atholhu Residence, guests can take pleasure in the delightful recreational amenities provided for their entertainment. At the apartment, a wide range of enjoyable activities ensures that there's never a dull moment during your visit. Don't miss out on the easily reachable beach in the vicinity.At Atholhu Residence, a wide array of amenities guarantees a fulfilling experience throughout your visit. Make your holiday truly memorable by taking a rejuvenating plunge into the pool.At Atholhu Residence, the poolside bar provides an excellent incentive to enjoy extended hours in your swimwear."
+          },
+          "direction": {
+            "original_language": true,
+            "text": "Fehendhoo is home to Atholhu Residence . While the natural beauty of Thulhaadho Beach and Nelivaru Finolhu can be enjoyed by anyone, those looking for an activity can check out Thulhaadho Harbor. Looking to get your feet wet? Snorkeling and windsurfing adventures can be found near the property."
+          }
+        },
+        "chain_code": null,
+        "bids": {
+          "htls": "j23",
+          "expd": "j23"
+        },
+        "worst_offer": null,
+        "best_offer": 112.6,
+        "best_offer_ota": "htls",
+        "best_offer_mota": null,
+        "discount": 0,
+        "offers_count": 6,
+        "coordinates": {
+          "lat": 4.87999,
+          "lng": 72.97463
+        },
+        "distance": 0.68,
+        "neighborhood": null,
+        "badge": null,
+        "distances": [
+          {
+            "from": "center",
+            "distance": 0.68,
+            "time": 944,
+            "means": "foot",
+            "means_type": "foot"
+          }
+        ],
+        "specs": {
+          "bathrooms": null,
+          "beds": null,
+          "bedrooms": null,
+          "guests": null,
+          "square_meters": null
+        },
+        "toa_label": "hotel",
+        "top_amenities": [
+          "outdoor_pool",
+          "wifi_room",
+          "internet",
+          "restaurant",
+          "room_service"
+        ],
+        "transportations": {
+          "airports": [],
+          "trains": []
+        },
+        "images": [
+          {
+            "image_id": "689943009",
+            "label": ""
+          },
+          {
+            "image_id": "689943001",
+            "label": ""
+          },
+          {
+            "image_id": "689943035",
+            "label": ""
+          },
+          {
+            "image_id": "689943067",
+            "label": ""
+          },
+          {
+            "image_id": "689943038",
+            "label": ""
+          },
+          {
+            "image_id": "689943040",
+            "label": ""
+          },
+          {
+            "image_id": "689943020",
+            "label": ""
+          },
+          {
+            "image_id": "689943030",
+            "label": ""
+          },
+          {
+            "image_id": "689943047",
+            "label": ""
+          },
+          {
+            "image_id": "689943025",
+            "label": ""
+          },
+          {
+            "image_id": "689943070",
+            "label": ""
+          },
+          {
+            "image_id": "689943008",
+            "label": ""
+          },
+          {
+            "image_id": "689943052",
+            "label": ""
+          },
+          {
+            "image_id": "689943060",
+            "label": ""
+          },
+          {
+            "image_id": "689942987",
+            "label": ""
+          }
+        ],
+        "hero_offer": {
+          "price": 112.6,
+          "brt": "p2c#",
+          "rf": "p2c#",
+          "brf": 9470016,
+          "rt": 9470016,
+          "vendor": "htls",
+          "vendor_id_raw": "3230795168",
+          "mota_code": null,
+          "direct_offer": false,
+          "offer_flags": {
+            "breakfast": "Breakfast included"
+          },
+          "jc_code": "",
+          "ranking_index": 1,
+          "chain": "",
+          "free_cancellation": false,
+          "special": false,
+          "room_name": "Superior room",
+          "rooms": [
+            {
+              "name": "Superior room",
+              "flags": []
+            }
+          ],
+          "partner_name": "Hotels.com",
+          "partner_logo": "https://hotelscan.com/apis/vendors/htls/logo.svg?pos=zz"
+        },
+        "rank": 0,
+        "ctrl_srt": "im a ctrl teapot",
+        "test_srt": "im a test teapot"
+      }
+    ],
+    "filters": [],
+    "query": {
+      "pos": "zz"
+    }
+  }
+}

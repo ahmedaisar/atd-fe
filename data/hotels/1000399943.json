@@ -1,0 +1,605 @@
+{
+  "_meta": {
+    "status": "SUCCESS",
+    "cached": true,
+    "count": 1,
+    "debug": {
+      "ticket": {
+        "ticket_id": "1000399943_zz_zz_d_publ_en_2_2025-10-08_2025-10-13_1_3",
+        "created_at": 1758065358.8058,
+        "loop": null,
+        "snapped_at": 1758065359.9994,
+        "snapshot_id": "1000399943_zz_zz_d_publ_en_2_2025-10-08_2025-10-13_1_3",
+        "snapshot_ttl": 300,
+        "executions": 3,
+        "progress": 1,
+        "save_errors": []
+      }
+    }
+  },
+  "data": {
+    "meta": [],
+    "geo": {
+      "hs_id": "x54h121bvwb7",
+      "region_name": "Maafushi",
+      "region_name_long": "Maafushi, Maldives",
+      "region_type": "CITY",
+      "region_id": 6147669,
+      "country_iso": "MV",
+      "country": "maldives",
+      "localised_country": "Maldives",
+      "center": [
+        3.94171,
+        73.49239
+      ],
+      "centroid": [
+        3.94171,
+        73.49239
+      ],
+      "polygon": [
+        "3.95425,73.48239",
+        "3.95425,73.50239",
+        "3.92916,73.50239",
+        "3.92916,73.48239",
+        "3.95425,73.48239"
+      ],
+      "radius": 1.79,
+      "zoom": -1,
+      "search_by_polygon": 1,
+      "cluster": 0,
+      "properties": 92,
+      "radius_override": 5,
+      "boundingbox": {
+        "ne": [
+          3.955,
+          73.503
+        ],
+        "sw": [
+          3.929,
+          73.482
+        ]
+      },
+      "airports": [
+        "MLE",
+        "DRV"
+      ],
+      "region_name_en": "Maafushi",
+      "region_name_long_en": "Maafushi, Maldives",
+      "referrer_city_name_en": "Maafushi",
+      "parent_region_id": 6051084,
+      "parent_hs_id": "x5p4hmhw6iot",
+      "parent_region_name": "Maldives (all)",
+      "parent_region_name_long": "Maldives (all)",
+      "dynamic_bbox": {
+        "ne": [
+          3.944,
+          73.491
+        ],
+        "sw": [
+          3.944,
+          73.491
+        ]
+      }
+    },
+    "records": [
+      {
+        "hs_id": 1000399943,
+        "slug": "triton-beach-hotel-spa-maafushi-mv-1000399943",
+        "name": "Triton Beach Hotel & Spa",
+        "ty_id": "321196b2-0964-4b52-af32-d7b2d2f1ed2f",
+        "toa": "guest_house",
+        "building": {
+          "room_num": 22
+        },
+        "location": {
+          "city": "Maafushi",
+          "zip": "08090",
+          "country_iso2": "MV",
+          "address": "Banafsaage Ziyaaraiy Magu",
+          "geoid": "x54h121bvwb7",
+          "loc": {
+            "type": "Point"
+          },
+          "coordinates": {
+            "lng": 73.49178,
+            "lat": 3.94487
+          }
+        },
+        "opening_time": {
+          "check_in_from": "14:00",
+          "check_in_to": "23:30",
+          "check_out_from": "11:00",
+          "check_out_to": "12:00"
+        },
+        "quality": {
+          "review_count": 1232,
+          "review_rating": 84,
+          "stars": 3,
+          "stars_is_estimated": false,
+          "review_source": ""
+        },
+        "covid_safe": true,
+        "amenities": {
+          "wellness": [
+            "indoor_pool",
+            "massage",
+            "solarium",
+            "jacuzzi",
+            "fitness_center",
+            "hair_salon",
+            "sauna",
+            "spa",
+            "outdoor_pool"
+          ],
+          "sports": [
+            "billiard",
+            "bike_rent",
+            "sub",
+            "surf"
+          ],
+          "internet": [
+            "wifi",
+            "internet"
+          ],
+          "food_drink": [
+            "restaurant",
+            "room_service",
+            "bar",
+            "snack_bar"
+          ],
+          "disability": [
+            "wheelchair_accessible",
+            "disability_facilities"
+          ],
+          "parking": [
+            "parking"
+          ],
+          "outdoor": [
+            "garden",
+            "terrace"
+          ],
+          "other": [
+            "lift"
+          ],
+          "business": [
+            "meeting_room",
+            "business_services"
+          ],
+          "children": [
+            "children_playground"
+          ],
+          "entertainment": [
+            "tv_lobby"
+          ],
+          "transfer": [
+            "shuttle_service"
+          ],
+          "room": [
+            "fan",
+            "air_conditioning",
+            "tv"
+          ],
+          "reception": [
+            "24h_reception",
+            "luggage_storage",
+            "concierge",
+            "laundry_service",
+            "safety_deposit_box"
+          ]
+        },
+        "descriptions": {
+          "direction": "Located in Maafushi, Triton Beach Hotel & Spa is on the beach. Chaandhanee Magu and Male Fish Market are worth checking out if shopping is on the agenda, while those wishing to experience the area's natural beauty can explore Paradise Island Beach and Rihiveli Beach. With scuba diving, snorkeling, and windsurfing nearby, you'll find plenty of adventures in the water.",
+          "general": "The 3-star Triton Beach Hotel & Spa at Maafushi offers comfort and convenience whether you're on business or holiday in Maldives Islands. Offering a variety of facilities and services, the hotel provides all you need for a good night's sleep. Free Wi-Fi in all rooms, 24-hour security, convenience store, daily housekeeping, fax machine are there for guest's enjoyment. Comfortable guestrooms ensure a good night's sleep with some rooms featuring facilities such as television LCD/plasma screen, air purifier, children's high chair, clothes rack, free welcome drink. The hotel offers various recreational opportunities. Triton Beach Hotel & Spa at Maafushi is an excellent choice from which to explore Maldives Islands or to simply relax and rejuvenate.",
+          "amenities": true,
+          "localized": "The 3-star Triton Beach Hotel & Spa at Maafushi offers comfort and convenience whether you're on business or holiday in Maldives Islands. Offering a variety of facilities and services, the hotel provides all you need for a good night's sleep. Free Wi-Fi in all rooms, 24-hour security, convenience store, daily housekeeping, fax machine are there for guest's enjoyment. Comfortable guestrooms ensure a good night's sleep with some rooms featuring facilities such as television LCD/plasma screen, air purifier, children's high chair, clothes rack, free welcome drink. The hotel offers various recreational opportunities. Triton Beach Hotel & Spa at Maafushi is an excellent choice from which to explore Maldives Islands or to simply relax and rejuvenate."
+        },
+        "short_description": "Good accommodation. Located near shopping areas and the beach. Beautiful beach.",
+        "chain": "no_chain",
+        "brand": "no_brand",
+        "offers": [
+          {
+            "price": 68.61,
+            "brt": "p2c#",
+            "rf": "p2c#",
+            "brf": 9503808,
+            "rt": 9503808,
+            "vendor": "agda",
+            "vendor_id_raw": "3422441",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included",
+              "Free cancellation",
+              "Sea view"
+            ],
+            "jc_code": "",
+            "ranking_index": 1,
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Superior room",
+            "rooms": [
+              {
+                "name": "Superior room",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included",
+              "refundable": "Free cancellation",
+              "view_sea": "Sea view"
+            },
+            "partner_name": "Agoda",
+            "partner_logo": "https://hotelscan.com/apis/vendors/agda/logo.svg?pos=zz"
+          }
+        ],
+        "all_offers": [
+          {
+            "price": 68.61,
+            "brt": "p2c#",
+            "rf": "p2c#",
+            "brf": 9503808,
+            "rt": 9503808,
+            "vendor": "agda",
+            "vendor_id_raw": "3422441",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included",
+              "Free cancellation",
+              "Sea view"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Superior room",
+            "rooms": [
+              {
+                "name": "Superior room",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included",
+              "refundable": "Free cancellation",
+              "view_sea": "Sea view"
+            },
+            "partner_name": "Agoda",
+            "partner_logo": "https://hotelscan.com/apis/vendors/agda/logo.svg?pos=zz"
+          },
+          {
+            "price": 81.5,
+            "brt": "p2c#",
+            "rf": "p2c#",
+            "brf": 9503808,
+            "rt": 9503808,
+            "vendor": "agda",
+            "vendor_id_raw": "3422441",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included",
+              "Free cancellation",
+              "Sea view"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Superior room",
+            "rooms": [
+              {
+                "name": "Superior room",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included",
+              "refundable": "Free cancellation",
+              "view_sea": "Sea view"
+            },
+            "partner_name": "Agoda",
+            "partner_logo": "https://hotelscan.com/apis/vendors/agda/logo.svg?pos=zz"
+          },
+          {
+            "price": 94.82,
+            "brt": "p2c#",
+            "rf": "p2c#",
+            "brf": 9503808,
+            "rt": 9503808,
+            "vendor": "agda",
+            "vendor_id_raw": "3422441",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included",
+              "Free cancellation",
+              "Sea view"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Superior room",
+            "rooms": [
+              {
+                "name": "Superior room",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included",
+              "refundable": "Free cancellation",
+              "view_sea": "Sea view"
+            },
+            "partner_name": "Agoda",
+            "partner_logo": "https://hotelscan.com/apis/vendors/agda/logo.svg?pos=zz"
+          },
+          {
+            "price": 113.15,
+            "brt": "p2c#",
+            "rf": "p2c#",
+            "brf": 9503872,
+            "rt": 9503872,
+            "vendor": "agda",
+            "vendor_id_raw": "3422441",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included",
+              "Free cancellation",
+              "Sea view",
+              "Pay at the property"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Superior room",
+            "rooms": [
+              {
+                "name": "Superior room",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included",
+              "refundable": "Free cancellation",
+              "view_sea": "Sea view",
+              "pay_at_hotel": "Pay at the property"
+            },
+            "partner_name": "Agoda",
+            "partner_logo": "https://hotelscan.com/apis/vendors/agda/logo.svg?pos=zz"
+          },
+          {
+            "price": 139.18,
+            "brt": "p2c#",
+            "rf": "p2c#",
+            "brf": 9503872,
+            "rt": 9503872,
+            "vendor": "agda",
+            "vendor_id_raw": "3422441",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included",
+              "Free cancellation",
+              "Sea view",
+              "Pay at the property"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Superior room",
+            "rooms": [
+              {
+                "name": "Superior room",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included",
+              "refundable": "Free cancellation",
+              "view_sea": "Sea view",
+              "pay_at_hotel": "Pay at the property"
+            },
+            "partner_name": "Agoda",
+            "partner_logo": "https://hotelscan.com/apis/vendors/agda/logo.svg?pos=zz"
+          },
+          {
+            "price": 165.21,
+            "brt": "p2c#",
+            "rf": "p2c#",
+            "brf": 9503872,
+            "rt": 9503872,
+            "vendor": "agda",
+            "vendor_id_raw": "3422441",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included",
+              "Free cancellation",
+              "Sea view",
+              "Pay at the property"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Superior room",
+            "rooms": [
+              {
+                "name": "Superior room",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included",
+              "refundable": "Free cancellation",
+              "view_sea": "Sea view",
+              "pay_at_hotel": "Pay at the property"
+            },
+            "partner_name": "Agoda",
+            "partner_logo": "https://hotelscan.com/apis/vendors/agda/logo.svg?pos=zz"
+          }
+        ],
+        "descriptions_language": {
+          "general": {
+            "original_language": true,
+            "text": "The 3-star Triton Beach Hotel & Spa at Maafushi offers comfort and convenience whether you're on business or holiday in Maldives Islands. Offering a variety of facilities and services, the hotel provides all you need for a good night's sleep. Free Wi-Fi in all rooms, 24-hour security, convenience store, daily housekeeping, fax machine are there for guest's enjoyment. Comfortable guestrooms ensure a good night's sleep with some rooms featuring facilities such as television LCD/plasma screen, air purifier, children's high chair, clothes rack, free welcome drink. The hotel offers various recreational opportunities. Triton Beach Hotel & Spa at Maafushi is an excellent choice from which to explore Maldives Islands or to simply relax and rejuvenate."
+          },
+          "direction": {
+            "original_language": true,
+            "text": "Located in Maafushi, Triton Beach Hotel & Spa is on the beach. Chaandhanee Magu and Male Fish Market are worth checking out if shopping is on the agenda, while those wishing to experience the area's natural beauty can explore Paradise Island Beach and Rihiveli Beach. With scuba diving, snorkeling, and windsurfing nearby, you'll find plenty of adventures in the water."
+          }
+        },
+        "chain_code": null,
+        "bids": {
+          "agda": "j23"
+        },
+        "worst_offer": null,
+        "best_offer": 68.61,
+        "best_offer_ota": "agda",
+        "best_offer_mota": null,
+        "discount": 0,
+        "offers_count": 6,
+        "coordinates": {
+          "lat": 3.94487,
+          "lng": 73.49178
+        },
+        "distance": 0.36,
+        "neighborhood": null,
+        "badge": null,
+        "distances": [
+          {
+            "from": "center",
+            "distance": 0.36,
+            "time": 500,
+            "means": "foot",
+            "means_type": "foot"
+          }
+        ],
+        "specs": {
+          "bathrooms": null,
+          "beds": null,
+          "bedrooms": null,
+          "guests": null,
+          "square_meters": null
+        },
+        "toa_label": "guest house",
+        "top_amenities": [
+          "indoor_pool",
+          "outdoor_pool",
+          "internet",
+          "restaurant",
+          "room_service"
+        ],
+        "transportations": {
+          "airports": [],
+          "trains": []
+        },
+        "images": [
+          {
+            "image_id": "699111624",
+            "label": ""
+          },
+          {
+            "image_id": "699111615",
+            "label": ""
+          },
+          {
+            "image_id": "699111557",
+            "label": ""
+          },
+          {
+            "image_id": "699111553",
+            "label": ""
+          },
+          {
+            "image_id": "699111628",
+            "label": ""
+          },
+          {
+            "image_id": "699111611",
+            "label": ""
+          },
+          {
+            "image_id": "699111579",
+            "label": ""
+          },
+          {
+            "image_id": "699111561",
+            "label": ""
+          },
+          {
+            "image_id": "699111598",
+            "label": ""
+          },
+          {
+            "image_id": "699111566",
+            "label": ""
+          },
+          {
+            "image_id": "699111577",
+            "label": ""
+          },
+          {
+            "image_id": "699111574",
+            "label": ""
+          },
+          {
+            "image_id": "699111550",
+            "label": ""
+          },
+          {
+            "image_id": "699111595",
+            "label": ""
+          },
+          {
+            "image_id": "699111617",
+            "label": ""
+          }
+        ],
+        "hero_offer": {
+          "price": 68.61,
+          "brt": "p2c#",
+          "rf": "p2c#",
+          "brf": 9503808,
+          "rt": 9503808,
+          "vendor": "agda",
+          "vendor_id_raw": "3422441",
+          "mota_code": null,
+          "direct_offer": false,
+          "offer_flags": {
+            "breakfast": "Breakfast included",
+            "refundable": "Free cancellation",
+            "view_sea": "Sea view"
+          },
+          "jc_code": "",
+          "ranking_index": 1,
+          "chain": "",
+          "free_cancellation": true,
+          "special": false,
+          "room_name": "Superior room",
+          "rooms": [
+            {
+              "name": "Superior room",
+              "flags": []
+            }
+          ],
+          "partner_name": "Agoda",
+          "partner_logo": "https://hotelscan.com/apis/vendors/agda/logo.svg?pos=zz"
+        },
+        "rank": 0,
+        "ctrl_srt": "im a ctrl teapot",
+        "test_srt": "im a test teapot"
+      }
+    ],
+    "filters": [],
+    "query": {
+      "pos": "zz"
+    }
+  }
+}

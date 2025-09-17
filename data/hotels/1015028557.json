@@ -1,0 +1,381 @@
+{
+  "_meta": {
+    "status": "SUCCESS",
+    "cached": true,
+    "count": 1,
+    "debug": {
+      "ticket": {
+        "ticket_id": "1015028557_zz_zz_d_publ_en_2_2025-10-08_2025-10-13_1_3",
+        "created_at": 1758065383.5077,
+        "loop": null,
+        "snapped_at": 1758065383.5901,
+        "snapshot_id": "1015028557_zz_zz_d_publ_en_2_2025-10-08_2025-10-13_1_3",
+        "snapshot_ttl": 300,
+        "executions": 2,
+        "progress": 1,
+        "save_errors": []
+      }
+    }
+  },
+  "data": {
+    "meta": [],
+    "geo": {
+      "hs_id": "xk8lkha1ntyx",
+      "region_name": "Thulusdhoo Island",
+      "region_name_long": "Thulusdhoo Island, Maldives",
+      "region_type": "CITY",
+      "region_id": 6278797,
+      "country_iso": "MV",
+      "country": "maldives",
+      "localised_country": "Maldives",
+      "center": [
+        4.37228,
+        73.65101
+      ],
+      "centroid": [
+        4.37228,
+        73.65101
+      ],
+      "polygon": [
+        "4.380631,73.643003",
+        "4.364183,73.643261",
+        "4.363924,73.659018",
+        "4.38052,73.658721",
+        "4.380631,73.643003"
+      ],
+      "radius": 1.29,
+      "zoom": -1,
+      "search_by_polygon": 1,
+      "cluster": 0,
+      "properties": 82,
+      "radius_override": 5,
+      "boundingbox": {
+        "ne": [
+          4.381,
+          73.66
+        ],
+        "sw": [
+          4.363,
+          73.643
+        ]
+      },
+      "airports": [
+        "MLE",
+        "DRV"
+      ],
+      "region_name_en": "Thulusdhoo Island",
+      "region_name_long_en": "Thulusdhoo Island, Maldives",
+      "referrer_city_name_en": "Thulusdhoo Island",
+      "parent_region_id": 6051084,
+      "parent_hs_id": "x5p4hmhw6iot",
+      "parent_region_name": "Maldives (all)",
+      "parent_region_name_long": "Maldives (all)",
+      "dynamic_bbox": {
+        "ne": [
+          4.373,
+          73.654
+        ],
+        "sw": [
+          4.373,
+          73.654
+        ]
+      }
+    },
+    "records": [
+      {
+        "hs_id": 1015028557,
+        "slug": "ocean-cottage-maldives-thulusdhoo-island-mv-1015028557",
+        "name": "Ocean Cottage Maldives",
+        "toa": "guest_house",
+        "building": {
+          "room_num": 5,
+          "square_meters": 24,
+          "max_children": 1
+        },
+        "location": {
+          "city": "Thulusdhoo Island",
+          "zip": "08040",
+          "country_iso2": "MV",
+          "address": "Kenery Magu",
+          "geoid": "xk8lkha1ntyx",
+          "loc": {
+            "type": "Point"
+          },
+          "coordinates": {
+            "lng": 73.65406,
+            "lat": 4.37334
+          }
+        },
+        "quality": {
+          "review_count": 52,
+          "review_rating": 95,
+          "stars": 0,
+          "stars_is_estimated": false,
+          "review_source": ""
+        },
+        "covid_safe": true,
+        "amenities": {
+          "internet": [
+            "wifi",
+            "internet"
+          ],
+          "food_drink": [
+            "bar"
+          ],
+          "pets": [
+            "pets_allowed"
+          ],
+          "parking": [
+            "parking"
+          ],
+          "other": [],
+          "room": [
+            "fan",
+            "air_conditioning"
+          ],
+          "reception": [
+            "laundry_service",
+            "safety_deposit_box"
+          ]
+        },
+        "descriptions": {
+          "general": "Located in Thulusdhoo, within 2.9 km of Gasfinolhu Beach, Ocean Cottage Maldives offers accommodation with air conditioning. This guest house provides a bar. Free WiFi is available throughout the property and Bikini Beach is 100 metres away.",
+          "other": "Managed by a private host",
+          "localized": "Located in Thulusdhoo, within 2.9 km of Gasfinolhu Beach, Ocean Cottage Maldives offers accommodation with air conditioning. This guest house provides a bar. Free WiFi is available throughout the property and Bikini Beach is 100 metres away."
+        },
+        "short_description": "Basic guest house with parking and bar",
+        "offers": [
+          {
+            "price": 75.88,
+            "brt": "p2r#b",
+            "rf": "p2r#b",
+            "brf": 9502848,
+            "rt": 9502848,
+            "vendor": "bkng",
+            "vendor_id_raw": "9783792",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included",
+              "Free cancellation",
+              "Pay at the property"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Standard room - Choice of single or double beds",
+            "rooms": [
+              {
+                "name": "Standard room - Choice of single or double beds",
+                "flags": [
+                  "Choice of single or double beds"
+                ]
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included",
+              "refundable": "Free cancellation",
+              "pay_at_hotel": "Pay at the property"
+            },
+            "partner_name": "Booking.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/bkng/logo.svg?pos=zz"
+          }
+        ],
+        "all_offers": [
+          {
+            "price": 75.88,
+            "brt": "p2r#b",
+            "rf": "p2r#b",
+            "brf": 9502848,
+            "rt": 9502848,
+            "vendor": "bkng",
+            "vendor_id_raw": "9783792",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included",
+              "Free cancellation",
+              "Pay at the property"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Standard room - Choice of single or double beds",
+            "rooms": [
+              {
+                "name": "Standard room - Choice of single or double beds",
+                "flags": [
+                  "Choice of single or double beds"
+                ]
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included",
+              "refundable": "Free cancellation",
+              "pay_at_hotel": "Pay at the property"
+            },
+            "partner_name": "Booking.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/bkng/logo.svg?pos=zz"
+          }
+        ],
+        "descriptions_language": {
+          "general": {
+            "original_language": true,
+            "text": "Located in Thulusdhoo, within 2.9 km of Gasfinolhu Beach, Ocean Cottage Maldives offers accommodation with air conditioning. This guest house provides a bar. Free WiFi is available throughout the property and Bikini Beach is 100 metres away."
+          },
+          "other": {
+            "original_language": true,
+            "text": "Managed by a private host"
+          }
+        },
+        "chain_code": null,
+        "bids": {
+          "bkng": "j23"
+        },
+        "worst_offer": null,
+        "best_offer": 75.88,
+        "discount": 0,
+        "offers_count": 1,
+        "coordinates": {
+          "lat": 4.37334,
+          "lng": 73.65406
+        },
+        "distance": 0.36,
+        "neighborhood": null,
+        "badge": null,
+        "distances": [
+          {
+            "from": "center",
+            "distance": 0.36,
+            "time": 500,
+            "means": "foot",
+            "means_type": "foot"
+          }
+        ],
+        "specs": {
+          "bathrooms": 1,
+          "beds": null,
+          "bedrooms": 1,
+          "guests": 3,
+          "square_meters": 24
+        },
+        "toa_label": "guest house",
+        "top_amenities": [
+          "internet",
+          "bar",
+          "pets_allowed",
+          "parking",
+          "air_conditioning"
+        ],
+        "transportations": {
+          "airports": [],
+          "trains": []
+        },
+        "images": [
+          {
+            "image_id": "698696359",
+            "label": ""
+          },
+          {
+            "image_id": "698696374",
+            "label": ""
+          },
+          {
+            "image_id": "698696356",
+            "label": ""
+          },
+          {
+            "image_id": "698696342",
+            "label": ""
+          },
+          {
+            "image_id": "698696366",
+            "label": ""
+          },
+          {
+            "image_id": "698696348",
+            "label": ""
+          },
+          {
+            "image_id": "698696373",
+            "label": ""
+          },
+          {
+            "image_id": "698696326",
+            "label": ""
+          },
+          {
+            "image_id": "698696364",
+            "label": ""
+          },
+          {
+            "image_id": "698696337",
+            "label": ""
+          },
+          {
+            "image_id": "698696344",
+            "label": ""
+          },
+          {
+            "image_id": "698696362",
+            "label": ""
+          },
+          {
+            "image_id": "698696363",
+            "label": ""
+          },
+          {
+            "image_id": "698696365",
+            "label": ""
+          },
+          {
+            "image_id": "698696341",
+            "label": ""
+          }
+        ],
+        "hero_offer": {
+          "price": 75.88,
+          "brt": "p2r#b",
+          "rf": "p2r#b",
+          "brf": 9502848,
+          "rt": 9502848,
+          "vendor": "bkng",
+          "vendor_id_raw": "9783792",
+          "mota_code": null,
+          "direct_offer": false,
+          "offer_flags": {
+            "breakfast": "Breakfast included",
+            "refundable": "Free cancellation",
+            "pay_at_hotel": "Pay at the property"
+          },
+          "jc_code": "",
+          "chain": "",
+          "free_cancellation": true,
+          "special": false,
+          "room_name": "Standard room - Choice of single or double beds",
+          "rooms": [
+            {
+              "name": "Standard room - Choice of single or double beds",
+              "flags": [
+                "Choice of single or double beds"
+              ]
+            }
+          ],
+          "partner_name": "Booking.com",
+          "partner_logo": "https://hotelscan.com/apis/vendors/bkng/logo.svg?pos=zz"
+        },
+        "rank": 0,
+        "ctrl_srt": "im a ctrl teapot",
+        "test_srt": "im a test teapot",
+        "best_offer_ota": null,
+        "best_offer_mota": null
+      }
+    ],
+    "filters": [],
+    "query": {
+      "pos": "zz"
+    }
+  }
+}

@@ -1,0 +1,309 @@
+{
+  "_meta": {
+    "status": "SUCCESS",
+    "cached": true,
+    "count": 1,
+    "debug": {
+      "ticket": {
+        "ticket_id": "690523297_zz_zz_d_publ_en_2_2025-10-08_2025-10-13_1_3",
+        "created_at": 1758065357.0383,
+        "loop": null,
+        "snapped_at": 1758065357.142,
+        "snapshot_id": "690523297_zz_zz_d_publ_en_2_2025-10-08_2025-10-13_1_3",
+        "snapshot_ttl": 300,
+        "executions": 2,
+        "progress": 1,
+        "save_errors": []
+      }
+    }
+  },
+  "data": {
+    "meta": [],
+    "geo": {
+      "hs_id": "x54h121bvwb7",
+      "region_name": "Maafushi",
+      "region_name_long": "Maafushi, Maldives",
+      "region_type": "CITY",
+      "region_id": 6147669,
+      "country_iso": "MV",
+      "country": "maldives",
+      "localised_country": "Maldives",
+      "center": [
+        3.94171,
+        73.49239
+      ],
+      "centroid": [
+        3.94171,
+        73.49239
+      ],
+      "polygon": [
+        "3.95425,73.48239",
+        "3.95425,73.50239",
+        "3.92916,73.50239",
+        "3.92916,73.48239",
+        "3.95425,73.48239"
+      ],
+      "radius": 1.79,
+      "zoom": -1,
+      "search_by_polygon": 1,
+      "cluster": 0,
+      "properties": 92,
+      "radius_override": 5,
+      "boundingbox": {
+        "ne": [
+          3.955,
+          73.503
+        ],
+        "sw": [
+          3.929,
+          73.482
+        ]
+      },
+      "airports": [
+        "MLE",
+        "DRV"
+      ],
+      "region_name_en": "Maafushi",
+      "region_name_long_en": "Maafushi, Maldives",
+      "referrer_city_name_en": "Maafushi",
+      "parent_region_id": 6051084,
+      "parent_hs_id": "x5p4hmhw6iot",
+      "parent_region_name": "Maldives (all)",
+      "parent_region_name_long": "Maldives (all)",
+      "dynamic_bbox": {
+        "ne": [
+          3.942,
+          73.489
+        ],
+        "sw": [
+          3.942,
+          73.489
+        ]
+      }
+    },
+    "records": [
+      {
+        "hs_id": 690523297,
+        "slug": "narnia-maldives-maafushi-mv-690523297",
+        "name": "Narnia Maldives",
+        "ty_id": "0b67f01c-f707-4475-84a1-02d7c4b51e73",
+        "toa": "bed_and_breakfast",
+        "location": {
+          "city": "Maafushi",
+          "zip": "08090",
+          "country_iso2": "MV",
+          "address": "Twilight 048/bahaaree Higun/ K.maafushi",
+          "geoid": "x54h121bvwb7",
+          "loc": {
+            "type": "Point"
+          },
+          "coordinates": {
+            "lng": 73.489608,
+            "lat": 3.942078
+          }
+        },
+        "opening_time": {
+          "check_in_from": "12:30",
+          "check_in_to": null,
+          "check_out_from": null,
+          "check_out_to": "11:00"
+        },
+        "quality": {
+          "review_count": 680,
+          "review_rating": 83,
+          "stars": 3,
+          "stars_is_estimated": false,
+          "review_source": ""
+        },
+        "covid_safe": false,
+        "amenities": {
+          "wellness": [
+            "hair_salon"
+          ],
+          "sports": [
+            "ski",
+            "sub",
+            "surf"
+          ],
+          "internet": [
+            "wifi",
+            "wifi_room",
+            "internet"
+          ],
+          "food_drink": [
+            "restaurant",
+            "room_service"
+          ],
+          "disability": [
+            "disability_facilities"
+          ],
+          "pets": [
+            "pets_allowed"
+          ],
+          "parking": [
+            "parking"
+          ],
+          "outdoor": [
+            "garden"
+          ],
+          "other": [
+            "lift"
+          ],
+          "business": [
+            "meeting_room",
+            "business_services"
+          ],
+          "children": [
+            "babysitter"
+          ],
+          "entertainment": [
+            "tv_lobby"
+          ],
+          "transfer": [
+            "shuttle_service"
+          ],
+          "room": [
+            "fan",
+            "heating",
+            "air_conditioning",
+            "tv"
+          ],
+          "reception": [
+            "24h_reception",
+            "luggage_storage",
+            "concierge",
+            "laundry_service",
+            "safety_deposit_box"
+          ]
+        },
+        "descriptions": {
+          "general": "Narnia Maldives Hotel at Maafushi is conveniently located in the popular South Male Atoll area. The hotel offers guests a range of services and amenities designed to provide comfort and convenience. Facilities like 24-hour room service, free Wi-Fi in all rooms, daily housekeeping, postal service,...Narnia Maldives Hotel at Maafushi is conveniently located in the popular South Male Atoll area. The hotel offers guests a range of services and amenities designed to provide comfort and convenience. Facilities like 24-hour room service, free Wi-Fi in all rooms, daily housekeeping, postal service, private check in/check out are readily available for you to enjoy. Some of the well-appointed guestrooms feature television LCD/plasma screen, complimentary instant coffee, complimentary tea, free welcome drink, linens. The hotel's peaceful atmosphere extends to its recreational facilities which include watersports equipment rentals, wind surfing, skiing, diving, fishing. For reliable service and professional staff, Narnia Maldives Hotel at Maafushi caters to your needs.",
+          "localized": "Narnia Maldives Hotel at Maafushi is conveniently located in the popular South Male Atoll area. The hotel offers guests a range of services and amenities designed to provide comfort and convenience. Facilities like 24-hour room service, free Wi-Fi in all rooms, daily housekeeping, postal service,...Narnia Maldives Hotel at Maafushi is conveniently located in the popular South Male Atoll area. The hotel offers guests a range of services and amenities designed to provide comfort and convenience. Facilities like 24-hour room service, free Wi-Fi in all rooms, daily housekeeping, postal service, private check in/check out are readily available for you to enjoy. Some of the well-appointed guestrooms feature television LCD/plasma screen, complimentary instant coffee, complimentary tea, free welcome drink, linens. The hotel's peaceful atmosphere extends to its recreational facilities which include watersports equipment rentals, wind surfing, skiing, diving, fishing. For reliable service and professional staff, Narnia Maldives Hotel at Maafushi caters to your needs."
+        },
+        "short_description": "Very good hotel. Great location. Fantastic service.",
+        "chain": "no_chain",
+        "brand": "no_brand",
+        "offers": [],
+        "all_offers": [],
+        "descriptions_language": {
+          "general": {
+            "original_language": true,
+            "text": "Narnia Maldives Hotel at Maafushi is conveniently located in the popular South Male Atoll area. The hotel offers guests a range of services and amenities designed to provide comfort and convenience. Facilities like 24-hour room service, free Wi-Fi in all rooms, daily housekeeping, postal service,...Narnia Maldives Hotel at Maafushi is conveniently located in the popular South Male Atoll area. The hotel offers guests a range of services and amenities designed to provide comfort and convenience. Facilities like 24-hour room service, free Wi-Fi in all rooms, daily housekeeping, postal service, private check in/check out are readily available for you to enjoy. Some of the well-appointed guestrooms feature television LCD/plasma screen, complimentary instant coffee, complimentary tea, free welcome drink, linens. The hotel's peaceful atmosphere extends to its recreational facilities which include watersports equipment rentals, wind surfing, skiing, diving, fishing. For reliable service and professional staff, Narnia Maldives Hotel at Maafushi caters to your needs."
+          }
+        },
+        "chain_code": null,
+        "bids": [],
+        "coordinates": {
+          "lat": 3.942078,
+          "lng": 73.489608
+        },
+        "distance": 0.31,
+        "neighborhood": null,
+        "badge": null,
+        "distances": [
+          {
+            "from": "center",
+            "distance": 0.31,
+            "time": 431,
+            "means": "foot",
+            "means_type": "foot"
+          }
+        ],
+        "specs": {
+          "bathrooms": null,
+          "beds": null,
+          "bedrooms": null,
+          "guests": null,
+          "square_meters": null
+        },
+        "toa_label": "bed and breakfast",
+        "top_amenities": [
+          "wifi_room",
+          "internet",
+          "restaurant",
+          "room_service",
+          "pets_allowed"
+        ],
+        "transportations": {
+          "airports": [],
+          "trains": []
+        },
+        "images": [
+          {
+            "image_id": "687060058",
+            "label": ""
+          },
+          {
+            "image_id": "687060042",
+            "label": ""
+          },
+          {
+            "image_id": "687060071",
+            "label": ""
+          },
+          {
+            "image_id": "687060056",
+            "label": ""
+          },
+          {
+            "image_id": "687060039",
+            "label": ""
+          },
+          {
+            "image_id": "687060053",
+            "label": ""
+          },
+          {
+            "image_id": "687060078",
+            "label": ""
+          },
+          {
+            "image_id": "687060069",
+            "label": ""
+          },
+          {
+            "image_id": "687060060",
+            "label": ""
+          },
+          {
+            "image_id": "687060076",
+            "label": ""
+          },
+          {
+            "image_id": "687060030",
+            "label": ""
+          },
+          {
+            "image_id": "687060055",
+            "label": ""
+          },
+          {
+            "image_id": "687060038",
+            "label": ""
+          },
+          {
+            "image_id": "687060031",
+            "label": ""
+          },
+          {
+            "image_id": "687060070",
+            "label": ""
+          }
+        ],
+        "best_offer": null,
+        "discount": null,
+        "offers_count": 0,
+        "worst_offer": null,
+        "rank": 0,
+        "ctrl_srt": "im a ctrl teapot",
+        "test_srt": "im a test teapot",
+        "best_offer_ota": null,
+        "best_offer_mota": null
+      }
+    ],
+    "filters": [],
+    "query": {
+      "pos": "zz"
+    }
+  }
+}

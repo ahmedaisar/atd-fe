@@ -7,11 +7,14 @@ export function getAtollImage(label: string): string {
   const l = label.toLowerCase();
 
   const rules: Array<[RegExp, string]> = [
-    [/baa/, '/images/offers/member-savings.jpg'],
-    [/aa.? atoll|alif|ari/, '/images/offers/couples-special.jpg'],
-    [/lhaviyani|lhavi/, '/images/offers/bundle-save.jpg'],
-    [/male|malé|north male|south male/, '/images/offers/1.jpg'],
-  ];
+    /baa/, '/images/offers/member-savings.jpg',
+    /aa.? atoll|alif|ari/, '/images/offers/couples-special.jpg',
+    /lhaviyani|lhavi/, '/images/offers/bundle-save.jpg',
+    /male|malé|north male|south male/, '/images/offers/1.jpg',
+  ].reduce<Array<[RegExp,string]>>((acc, cur, idx, arr) => {
+    if (idx % 2 === 0) acc.push([cur as RegExp, arr[idx+1] as string]);
+    return acc;
+  }, []);
 
   for (const [re, img] of rules) {
     if (re.test(l)) return img;

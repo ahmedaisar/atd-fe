@@ -1,0 +1,709 @@
+{
+  "_meta": {
+    "status": "SUCCESS",
+    "cached": true,
+    "count": 1,
+    "debug": {
+      "ticket": {
+        "ticket_id": "1013252728_zz_zz_d_publ_en_2_2025-10-08_2025-10-13_1_3",
+        "created_at": 1758065367.0763,
+        "loop": null,
+        "snapped_at": 1758065367.2021,
+        "snapshot_id": "1013252728_zz_zz_d_publ_en_2_2025-10-08_2025-10-13_1_3",
+        "snapshot_ttl": 300,
+        "executions": 2,
+        "progress": 1,
+        "save_errors": []
+      }
+    }
+  },
+  "data": {
+    "meta": [],
+    "geo": {
+      "hs_id": "xkhty9jzdrgo",
+      "region_name": "Fulidhoo",
+      "region_name_long": "Fulidhoo, Maldives",
+      "region_type": "CITY",
+      "region_id": 6336693,
+      "country_iso": "MV",
+      "country": "maldives",
+      "localised_country": "Maldives",
+      "center": [
+        3.68039,
+        73.41585
+      ],
+      "centroid": [
+        3.68051,
+        73.41586
+      ],
+      "polygon": [
+        "3.676442,73.411367",
+        "3.676347,73.421155",
+        "3.684438,73.421328",
+        "3.684409,73.41038",
+        "3.676442,73.411367"
+      ],
+      "radius": 0.75,
+      "zoom": -1,
+      "search_by_polygon": 0,
+      "cluster": 0,
+      "properties": 29,
+      "radius_override": 5,
+      "boundingbox": {
+        "ne": [
+          3.685,
+          73.422
+        ],
+        "sw": [
+          3.676,
+          73.41
+        ]
+      },
+      "airports": [
+        "MLE",
+        "DRV"
+      ],
+      "region_name_en": "Fulidhoo",
+      "region_name_long_en": "Fulidhoo, Maldives",
+      "referrer_city_name_en": "Fulidhoo",
+      "parent_region_id": 6051084,
+      "parent_hs_id": "x5p4hmhw6iot",
+      "parent_region_name": "Maldives (all)",
+      "parent_region_name_long": "Maldives (all)",
+      "dynamic_bbox": {
+        "ne": [
+          3.68,
+          73.417
+        ],
+        "sw": [
+          3.68,
+          73.417
+        ]
+      }
+    },
+    "records": [
+      {
+        "hs_id": 1013252728,
+        "slug": "galaxy-sunrise-guesthouse-fulidhoo-mv-1013252728",
+        "name": "Galaxy Sunrise Guesthouse",
+        "toa": "resort",
+        "location": {
+          "city": "Fulidhoo",
+          "zip": "10010",
+          "country_iso2": "MV",
+          "address": "Mcj9+92g Fulidhoo Island, Fulidhoo, Maldives",
+          "geoid": "xkhty9jzdrgo",
+          "loc": {
+            "type": "Point"
+          },
+          "coordinates": {
+            "lng": 73.417578,
+            "lat": 3.680937
+          }
+        },
+        "opening_time": {
+          "check_in_from": "14:00",
+          "check_in_to": "23:00",
+          "check_out_from": null,
+          "check_out_to": "12:00"
+        },
+        "quality": {
+          "review_count": 12,
+          "review_rating": 55,
+          "stars": 3,
+          "stars_is_estimated": false,
+          "review_source": ""
+        },
+        "covid_safe": false,
+        "amenities": {
+          "sports": [
+            "bike_rent",
+            "sub"
+          ],
+          "internet": [
+            "wifi",
+            "wifi_room"
+          ],
+          "transfer": [
+            "shuttle_service"
+          ],
+          "food_drink": [
+            "restaurant"
+          ],
+          "parking": [
+            "parking"
+          ],
+          "outdoor": [
+            "garden"
+          ],
+          "room": [
+            "fan",
+            "air_conditioning"
+          ],
+          "reception": [
+            "luggage_storage",
+            "concierge"
+          ]
+        },
+        "descriptions": {
+          "hotel": "Make yourself at home in one of the 9 individually decorated guestrooms. Complimentary wireless internet access is available to keep you connected. Private bathrooms with showers feature rainfall showerheads and bidets. Conveniences include safes and desks, and housekeeping is provided daily.",
+          "direction": "When you stay at Galaxy Sunrise Guesthouse in Fulidhoo, you'll be within a 5-minute drive of Rihiveli Beach. This beach guesthouse is within the region of Alimathaa and Olhuveli Beach.",
+          "amenities": true,
+          "other": "Featured amenities include multilingual staff, luggage storage, and lockers. Free self parking is available onsite.",
+          "localized": "When you stay at Galaxy Sunrise Guesthouse in Fulidhoo, you'll be within a 5-minute drive of Rihiveli Beach. This beach guesthouse is within the region of Alimathaa and Olhuveli Beach."
+        },
+        "short_description": "Comfortable resort with shuttle service, parking and restaurant",
+        "chain": "no_chain",
+        "brand": "no_brand",
+        "offers": [
+          {
+            "price": 118.12,
+            "brt": "p2r#",
+            "rf": "p2r#",
+            "brf": 9502848,
+            "rt": 9502848,
+            "vendor": "htls",
+            "vendor_id_raw": "3102371072",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included",
+              "Free cancellation",
+              "Pay at the property"
+            ],
+            "jc_code": "",
+            "ranking_index": 0.9493057907213004,
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Standard room",
+            "rooms": [
+              {
+                "name": "Standard room",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included",
+              "refundable": "Free cancellation",
+              "pay_at_hotel": "Pay at the property"
+            },
+            "partner_name": "Hotels.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/htls/logo.svg?pos=zz"
+          },
+          {
+            "vendor": "ctrp",
+            "price": 103.15,
+            "vendor_id_raw": "112216538",
+            "mota_code": null,
+            "jc_code": "TRIPCOM",
+            "partner_name": "Trip.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/ctrp/logo.svg?pos=zz",
+            "room_name": "Standard room",
+            "brf": 8421440,
+            "brt": "p2r#"
+          },
+          {
+            "vendor": "expd",
+            "price": 118.12,
+            "vendor_id_raw": "96917846",
+            "mota_code": null,
+            "jc_code": "EXPEDIA",
+            "partner_name": "Expedia",
+            "partner_logo": "https://hotelscan.com/apis/vendors/expd/logo.svg?pos=zz",
+            "room_name": "Standard room",
+            "brf": 9502848,
+            "brt": "p2r#"
+          }
+        ],
+        "all_offers": [
+          {
+            "price": 103.15,
+            "brt": "p2r#",
+            "rf": "p2r#",
+            "brf": 8421440,
+            "rt": 8421440,
+            "vendor": "ctrp",
+            "vendor_id_raw": "112216538",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [],
+            "jc_code": "TRIPCOM",
+            "chain": "",
+            "free_cancellation": false,
+            "special": false,
+            "room_name": "Standard room",
+            "rooms": [
+              {
+                "name": "Standard room",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": [],
+            "partner_name": "Trip.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/ctrp/logo.svg?pos=zz"
+          },
+          {
+            "price": 106.97,
+            "brt": "p2r#",
+            "rf": "p2r#",
+            "brf": 9502848,
+            "rt": 9502848,
+            "vendor": "ctrp",
+            "vendor_id_raw": "112216538",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included",
+              "Free cancellation",
+              "Pay at the property"
+            ],
+            "jc_code": "TRIPCOM",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Standard room",
+            "rooms": [
+              {
+                "name": "Standard room",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included",
+              "refundable": "Free cancellation",
+              "pay_at_hotel": "Pay at the property"
+            },
+            "partner_name": "Trip.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/ctrp/logo.svg?pos=zz"
+          },
+          {
+            "price": 107.52,
+            "brt": "p2r#",
+            "rf": "p2r#",
+            "brf": 9502784,
+            "rt": 9502784,
+            "vendor": "ctrp",
+            "vendor_id_raw": "112216538",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included",
+              "Free cancellation"
+            ],
+            "jc_code": "TRIPCOM",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Standard room",
+            "rooms": [
+              {
+                "name": "Standard room",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included",
+              "refundable": "Free cancellation"
+            },
+            "partner_name": "Trip.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/ctrp/logo.svg?pos=zz"
+          },
+          {
+            "price": 118.12,
+            "brt": "p2r#",
+            "rf": "p2r#",
+            "brf": 9502848,
+            "rt": 9502848,
+            "vendor": "htls",
+            "vendor_id_raw": "3102371072",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included",
+              "Free cancellation",
+              "Pay at the property"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Standard room",
+            "rooms": [
+              {
+                "name": "Standard room",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included",
+              "refundable": "Free cancellation",
+              "pay_at_hotel": "Pay at the property"
+            },
+            "partner_name": "Hotels.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/htls/logo.svg?pos=zz"
+          },
+          {
+            "price": 118.12,
+            "brt": "p2r#",
+            "rf": "p2r#",
+            "brf": 9502848,
+            "rt": 9502848,
+            "vendor": "expd",
+            "vendor_id_raw": "96917846",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included",
+              "Free cancellation",
+              "Pay at the property"
+            ],
+            "jc_code": "EXPEDIA",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Standard room",
+            "rooms": [
+              {
+                "name": "Standard room",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included",
+              "refundable": "Free cancellation",
+              "pay_at_hotel": "Pay at the property"
+            },
+            "partner_name": "Expedia",
+            "partner_logo": "https://hotelscan.com/apis/vendors/expd/logo.svg?pos=zz"
+          },
+          {
+            "price": 128.09,
+            "brt": "p2r#",
+            "rf": "p2r#",
+            "brf": 8454208,
+            "rt": 8454208,
+            "vendor": "ctrp",
+            "vendor_id_raw": "112216538",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Free cancellation"
+            ],
+            "jc_code": "TRIPCOM",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Standard room",
+            "rooms": [
+              {
+                "name": "Standard room",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "refundable": "Free cancellation"
+            },
+            "partner_name": "Trip.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/ctrp/logo.svg?pos=zz"
+          },
+          {
+            "price": 131.66,
+            "brt": "p2d#",
+            "rf": "p2d#",
+            "brf": 9502848,
+            "rt": 9502848,
+            "vendor": "htls",
+            "vendor_id_raw": "3102371072",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included",
+              "Free cancellation",
+              "Pay at the property"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Deluxe room",
+            "rooms": [
+              {
+                "name": "Deluxe room",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included",
+              "refundable": "Free cancellation",
+              "pay_at_hotel": "Pay at the property"
+            },
+            "partner_name": "Hotels.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/htls/logo.svg?pos=zz"
+          },
+          {
+            "price": 131.66,
+            "brt": "p3r#",
+            "rf": "p3r#",
+            "brf": 9502848,
+            "rt": 9502848,
+            "vendor": "htls",
+            "vendor_id_raw": "3102371072",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included",
+              "Free cancellation",
+              "Pay at the property"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Standard Triple Room",
+            "rooms": [
+              {
+                "name": "Standard Triple Room",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included",
+              "refundable": "Free cancellation",
+              "pay_at_hotel": "Pay at the property"
+            },
+            "partner_name": "Hotels.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/htls/logo.svg?pos=zz"
+          },
+          {
+            "price": 131.66,
+            "brt": "p2d#",
+            "rf": "p2d#",
+            "brf": 9502848,
+            "rt": 9502848,
+            "vendor": "expd",
+            "vendor_id_raw": "96917846",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included",
+              "Free cancellation",
+              "Pay at the property"
+            ],
+            "jc_code": "EXPEDIA",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Deluxe room",
+            "rooms": [
+              {
+                "name": "Deluxe room",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included",
+              "refundable": "Free cancellation",
+              "pay_at_hotel": "Pay at the property"
+            },
+            "partner_name": "Expedia",
+            "partner_logo": "https://hotelscan.com/apis/vendors/expd/logo.svg?pos=zz"
+          },
+          {
+            "price": 131.66,
+            "brt": "p3r#",
+            "rf": "p3r#",
+            "brf": 9502848,
+            "rt": 9502848,
+            "vendor": "expd",
+            "vendor_id_raw": "96917846",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included",
+              "Free cancellation",
+              "Pay at the property"
+            ],
+            "jc_code": "EXPEDIA",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Standard Triple Room",
+            "rooms": [
+              {
+                "name": "Standard Triple Room",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included",
+              "refundable": "Free cancellation",
+              "pay_at_hotel": "Pay at the property"
+            },
+            "partner_name": "Expedia",
+            "partner_logo": "https://hotelscan.com/apis/vendors/expd/logo.svg?pos=zz"
+          }
+        ],
+        "descriptions_language": {
+          "general": {
+            "original_language": true,
+            "text": "When you stay at Galaxy Sunrise Guesthouse in Fulidhoo, you'll be within a 5-minute drive of Rihiveli Beach. This beach guesthouse is within the region of Alimathaa and Olhuveli Beach."
+          },
+          "hotel": {
+            "original_language": true,
+            "text": "Make yourself at home in one of the 9 individually decorated guestrooms. Complimentary wireless internet access is available to keep you connected. Private bathrooms with showers feature rainfall showerheads and bidets. Conveniences include safes and desks, and housekeeping is provided daily."
+          },
+          "other": {
+            "original_language": true,
+            "text": "Featured amenities include multilingual staff, luggage storage, and lockers. Free self parking is available onsite."
+          }
+        },
+        "chain_code": null,
+        "bids": {
+          "htls": "j23",
+          "expd": "j23",
+          "ctrp": "j23"
+        },
+        "worst_offer": null,
+        "best_offer": 103.15,
+        "best_offer_ota": "ctrp",
+        "best_offer_mota": null,
+        "discount": 0,
+        "offers_count": 10,
+        "coordinates": {
+          "lat": 3.680937,
+          "lng": 73.417578
+        },
+        "distance": 0.2,
+        "neighborhood": null,
+        "badge": null,
+        "distances": [
+          {
+            "from": "center",
+            "distance": 0.2,
+            "time": 278,
+            "means": "foot",
+            "means_type": "foot"
+          }
+        ],
+        "specs": {
+          "bathrooms": null,
+          "beds": null,
+          "bedrooms": null,
+          "guests": null,
+          "square_meters": null
+        },
+        "toa_label": "resort",
+        "top_amenities": [
+          "wifi_room",
+          "restaurant",
+          "parking",
+          "air_conditioning"
+        ],
+        "transportations": {
+          "airports": [],
+          "trains": []
+        },
+        "images": [
+          {
+            "image_id": "690338044",
+            "label": ""
+          },
+          {
+            "image_id": "690338007",
+            "label": ""
+          },
+          {
+            "image_id": "690338026",
+            "label": ""
+          },
+          {
+            "image_id": "690337996",
+            "label": ""
+          },
+          {
+            "image_id": "690338064",
+            "label": ""
+          },
+          {
+            "image_id": "690338029",
+            "label": ""
+          },
+          {
+            "image_id": "690338010",
+            "label": ""
+          },
+          {
+            "image_id": "690338028",
+            "label": ""
+          },
+          {
+            "image_id": "690338008",
+            "label": ""
+          },
+          {
+            "image_id": "690338032",
+            "label": ""
+          },
+          {
+            "image_id": "690338014",
+            "label": ""
+          },
+          {
+            "image_id": "690338048",
+            "label": ""
+          },
+          {
+            "image_id": "690338049",
+            "label": ""
+          },
+          {
+            "image_id": "690338043",
+            "label": ""
+          },
+          {
+            "image_id": "690338052",
+            "label": ""
+          }
+        ],
+        "hero_offer": {
+          "price": 118.12,
+          "brt": "p2r#",
+          "rf": "p2r#",
+          "brf": 9502848,
+          "rt": 9502848,
+          "vendor": "htls",
+          "vendor_id_raw": "3102371072",
+          "mota_code": null,
+          "direct_offer": false,
+          "offer_flags": {
+            "breakfast": "Breakfast included",
+            "refundable": "Free cancellation",
+            "pay_at_hotel": "Pay at the property"
+          },
+          "jc_code": "",
+          "ranking_index": 0.9493057907213004,
+          "chain": "",
+          "free_cancellation": true,
+          "special": false,
+          "room_name": "Standard room",
+          "rooms": [
+            {
+              "name": "Standard room",
+              "flags": []
+            }
+          ],
+          "partner_name": "Hotels.com",
+          "partner_logo": "https://hotelscan.com/apis/vendors/htls/logo.svg?pos=zz"
+        },
+        "rank": 0,
+        "ctrl_srt": "im a ctrl teapot",
+        "test_srt": "im a test teapot"
+      }
+    ],
+    "filters": [],
+    "query": {
+      "pos": "zz"
+    }
+  }
+}

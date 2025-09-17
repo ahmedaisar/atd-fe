@@ -1,0 +1,646 @@
+{
+  "_meta": {
+    "status": "SUCCESS",
+    "cached": true,
+    "count": 1,
+    "debug": {
+      "ticket": {
+        "ticket_id": "1013382039_zz_zz_d_publ_en_2_2025-10-08_2025-10-13_1_3",
+        "created_at": 1758065376.7002,
+        "loop": null,
+        "snapped_at": 1758065376.825,
+        "snapshot_id": "1013382039_zz_zz_d_publ_en_2_2025-10-08_2025-10-13_1_3",
+        "snapshot_ttl": 300,
+        "executions": 2,
+        "progress": 1,
+        "save_errors": []
+      }
+    }
+  },
+  "data": {
+    "meta": [],
+    "geo": {
+      "hs_id": "xkhryl35ftb2",
+      "region_name": "Thoddoo",
+      "region_name_long": "Thoddoo, Maldives",
+      "region_type": "CITY",
+      "region_id": 6337256,
+      "country_iso": "MV",
+      "country": "maldives",
+      "localised_country": "Maldives",
+      "center": [
+        4.43729,
+        72.95954
+      ],
+      "centroid": [
+        4.43729,
+        72.96036
+      ],
+      "polygon": [
+        "4.425651,72.959838",
+        "4.430975,72.968935",
+        "4.431131,72.968938",
+        "4.441786,72.967547",
+        "4.448931,72.960879",
+        "4.445211,72.952565",
+        "4.438801,72.950145",
+        "4.425651,72.959838"
+      ],
+      "radius": 1.3,
+      "zoom": -1,
+      "search_by_polygon": 1,
+      "cluster": 0,
+      "properties": 85,
+      "radius_override": 5,
+      "boundingbox": {
+        "ne": [
+          4.449,
+          72.969
+        ],
+        "sw": [
+          4.425,
+          72.95
+        ]
+      },
+      "airports": [
+        "MLE",
+        "DRV"
+      ],
+      "region_name_en": "Thoddoo",
+      "region_name_long_en": "Thoddoo, Maldives",
+      "referrer_city_name_en": "Thoddoo",
+      "parent_region_id": 6051084,
+      "parent_hs_id": "x5p4hmhw6iot",
+      "parent_region_name": "Maldives (all)",
+      "parent_region_name_long": "Maldives (all)",
+      "dynamic_bbox": {
+        "ne": [
+          4.434,
+          72.959
+        ],
+        "sw": [
+          4.434,
+          72.959
+        ]
+      }
+    },
+    "records": [
+      {
+        "hs_id": 1013382039,
+        "slug": "rihiveli-residence-thoddoo-thoddoo-mv-1013382039",
+        "name": "Rihiveli Residence Thoddoo",
+        "toa": "hotel",
+        "location": {
+          "city": "Thoddoo",
+          "zip": "09010",
+          "country_iso2": "MV",
+          "address": "Botiku Goalhi, Aa Thoddoo",
+          "geoid": "xkhryl35ftb2",
+          "loc": {
+            "type": "Point"
+          },
+          "coordinates": {
+            "lng": 72.95979,
+            "lat": 4.4345
+          }
+        },
+        "opening_time": {
+          "check_in_from": "10:00",
+          "check_in_to": "11:00",
+          "check_out_from": "10:00",
+          "check_out_to": "10:30"
+        },
+        "quality": {
+          "review_count": 102,
+          "review_rating": 96,
+          "stars": 0,
+          "stars_is_estimated": false,
+          "review_source": ""
+        },
+        "covid_safe": true,
+        "amenities": {
+          "internet": [
+            "wifi",
+            "wifi_room",
+            "internet"
+          ],
+          "transfer": [
+            "shuttle_service"
+          ],
+          "food_drink": [
+            "restaurant",
+            "room_service"
+          ],
+          "outdoor": [
+            "garden",
+            "terrace"
+          ],
+          "other": [],
+          "room": [
+            "air_conditioning"
+          ],
+          "reception": [
+            "24h_reception",
+            "safety_deposit_box"
+          ]
+        },
+        "descriptions": {
+          "general": "Located in Thoddoo, Rihiveli Residence Thoddoo features a garden, terrace, restaurant, and free WiFi throughout the property. The accommodation provides room service and a 24-hour front desk for guests.",
+          "other": "This property will not accommodate hen, stag or similar parties.",
+          "localized": "Located in Thoddoo, Rihiveli Residence Thoddoo features a garden, terrace, restaurant, and free WiFi throughout the property. The accommodation provides room service and a 24-hour front desk for guests."
+        },
+        "short_description": "Basic hotel with shuttle service and restaurant",
+        "offers": [
+          {
+            "price": 107.24,
+            "brt": "p2q#",
+            "rf": "p2q#",
+            "brf": 8454784,
+            "rt": 8454784,
+            "vendor": "bkng",
+            "vendor_id_raw": "10664665",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Free cancellation",
+              "Garden view",
+              "Pay at the property"
+            ],
+            "jc_code": "",
+            "ranking_index": 0.9964565460649012,
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Family room",
+            "rooms": [
+              {
+                "name": "Family room",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "refundable": "Free cancellation",
+              "view_garden": "Garden view",
+              "pay_at_hotel": "Pay at the property"
+            },
+            "partner_name": "Booking.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/bkng/logo.svg?pos=zz"
+          },
+          {
+            "vendor": "agda",
+            "price": 106.29,
+            "vendor_id_raw": "45373107",
+            "mota_code": null,
+            "jc_code": "",
+            "partner_name": "Agoda",
+            "partner_logo": "https://hotelscan.com/apis/vendors/agda/logo.svg?pos=zz",
+            "room_name": "Family room",
+            "brf": 8454784,
+            "brt": "p2q#"
+          }
+        ],
+        "all_offers": [
+          {
+            "price": 106.29,
+            "brt": "p2q#",
+            "rf": "p2q#",
+            "brf": 8454784,
+            "rt": 8454784,
+            "vendor": "agda",
+            "vendor_id_raw": "45373107",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Free cancellation",
+              "Garden view",
+              "Pay at the property"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Family room",
+            "rooms": [
+              {
+                "name": "Family room",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "refundable": "Free cancellation",
+              "view_garden": "Garden view",
+              "pay_at_hotel": "Pay at the property"
+            },
+            "partner_name": "Agoda",
+            "partner_logo": "https://hotelscan.com/apis/vendors/agda/logo.svg?pos=zz"
+          },
+          {
+            "price": 107.24,
+            "brt": "p2q#",
+            "rf": "p2q#",
+            "brf": 8454784,
+            "rt": 8454784,
+            "vendor": "bkng",
+            "vendor_id_raw": "10664665",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Free cancellation",
+              "Garden view",
+              "Pay at the property"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Family room",
+            "rooms": [
+              {
+                "name": "Family room",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "refundable": "Free cancellation",
+              "view_garden": "Garden view",
+              "pay_at_hotel": "Pay at the property"
+            },
+            "partner_name": "Booking.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/bkng/logo.svg?pos=zz"
+          },
+          {
+            "price": 127.97,
+            "brt": "p2q#",
+            "rf": "p2q#",
+            "brf": 9503360,
+            "rt": 9503360,
+            "vendor": "agda",
+            "vendor_id_raw": "45373107",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included",
+              "Free cancellation",
+              "Garden view",
+              "Pay at the property"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Family room",
+            "rooms": [
+              {
+                "name": "Family room",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included",
+              "refundable": "Free cancellation",
+              "view_garden": "Garden view",
+              "pay_at_hotel": "Pay at the property"
+            },
+            "partner_name": "Agoda",
+            "partner_logo": "https://hotelscan.com/apis/vendors/agda/logo.svg?pos=zz"
+          },
+          {
+            "price": 129.13,
+            "brt": "p2q#",
+            "rf": "p2q#",
+            "brf": 9503360,
+            "rt": 9503360,
+            "vendor": "bkng",
+            "vendor_id_raw": "10664665",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included",
+              "Free cancellation",
+              "Garden view",
+              "Pay at the property"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Family room",
+            "rooms": [
+              {
+                "name": "Family room",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included",
+              "refundable": "Free cancellation",
+              "view_garden": "Garden view",
+              "pay_at_hotel": "Pay at the property"
+            },
+            "partner_name": "Booking.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/bkng/logo.svg?pos=zz"
+          },
+          {
+            "price": 182.21,
+            "brt": "p2q#",
+            "rf": "p2q#",
+            "brf": 9503360,
+            "rt": 9503360,
+            "vendor": "agda",
+            "vendor_id_raw": "45373107",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included",
+              "Free cancellation",
+              "Garden view",
+              "Pay at the property"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Family room",
+            "rooms": [
+              {
+                "name": "Family room",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included",
+              "refundable": "Free cancellation",
+              "view_garden": "Garden view",
+              "pay_at_hotel": "Pay at the property"
+            },
+            "partner_name": "Agoda",
+            "partner_logo": "https://hotelscan.com/apis/vendors/agda/logo.svg?pos=zz"
+          },
+          {
+            "price": 183.86,
+            "brt": "p2q#",
+            "rf": "p2q#",
+            "brf": 12124800,
+            "rt": 12124800,
+            "vendor": "bkng",
+            "vendor_id_raw": "10664665",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast and dinner",
+              "Free cancellation",
+              "Garden view",
+              "Pay at the property"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Family room",
+            "rooms": [
+              {
+                "name": "Family room",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "half_board_dinner": "Breakfast and dinner",
+              "refundable": "Free cancellation",
+              "view_garden": "Garden view",
+              "pay_at_hotel": "Pay at the property"
+            },
+            "partner_name": "Booking.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/bkng/logo.svg?pos=zz"
+          },
+          {
+            "price": 236.43,
+            "brt": "p2q#",
+            "rf": "p2q#",
+            "brf": 9503360,
+            "rt": 9503360,
+            "vendor": "agda",
+            "vendor_id_raw": "45373107",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included",
+              "Free cancellation",
+              "Garden view",
+              "Pay at the property"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Family room",
+            "rooms": [
+              {
+                "name": "Family room",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included",
+              "refundable": "Free cancellation",
+              "view_garden": "Garden view",
+              "pay_at_hotel": "Pay at the property"
+            },
+            "partner_name": "Agoda",
+            "partner_logo": "https://hotelscan.com/apis/vendors/agda/logo.svg?pos=zz"
+          },
+          {
+            "price": 238.59,
+            "brt": "p2q#",
+            "rf": "p2q#",
+            "brf": 10027648,
+            "rt": 10027648,
+            "vendor": "bkng",
+            "vendor_id_raw": "10664665",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Full board",
+              "Free cancellation",
+              "Garden view",
+              "Pay at the property"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Family room",
+            "rooms": [
+              {
+                "name": "Family room",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "full_board": "Full board",
+              "refundable": "Free cancellation",
+              "view_garden": "Garden view",
+              "pay_at_hotel": "Pay at the property"
+            },
+            "partner_name": "Booking.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/bkng/logo.svg?pos=zz"
+          }
+        ],
+        "descriptions_language": {
+          "general": {
+            "original_language": true,
+            "text": "Located in Thoddoo, Rihiveli Residence Thoddoo features a garden, terrace, restaurant, and free WiFi throughout the property. The accommodation provides room service and a 24-hour front desk for guests."
+          },
+          "other": {
+            "original_language": true,
+            "text": "This property will not accommodate hen, stag or similar parties."
+          }
+        },
+        "chain_code": null,
+        "bids": {
+          "agda": "j23",
+          "bkng": "j23"
+        },
+        "worst_offer": null,
+        "best_offer": 106.29,
+        "best_offer_ota": "agda",
+        "best_offer_mota": null,
+        "discount": 0,
+        "offers_count": 8,
+        "coordinates": {
+          "lat": 4.4345,
+          "lng": 72.95979
+        },
+        "distance": 0.31,
+        "neighborhood": null,
+        "badge": null,
+        "distances": [
+          {
+            "from": "center",
+            "distance": 0.31,
+            "time": 431,
+            "means": "foot",
+            "means_type": "foot"
+          }
+        ],
+        "specs": {
+          "bathrooms": null,
+          "beds": null,
+          "bedrooms": null,
+          "guests": null,
+          "square_meters": null
+        },
+        "toa_label": "hotel",
+        "top_amenities": [
+          "wifi_room",
+          "internet",
+          "restaurant",
+          "room_service",
+          "air_conditioning"
+        ],
+        "transportations": {
+          "airports": [],
+          "trains": []
+        },
+        "images": [
+          {
+            "image_id": "692242432",
+            "label": ""
+          },
+          {
+            "image_id": "692242426",
+            "label": ""
+          },
+          {
+            "image_id": "692242477",
+            "label": ""
+          },
+          {
+            "image_id": "692242430",
+            "label": ""
+          },
+          {
+            "image_id": "692242431",
+            "label": ""
+          },
+          {
+            "image_id": "692242474",
+            "label": ""
+          },
+          {
+            "image_id": "692242453",
+            "label": ""
+          },
+          {
+            "image_id": "692242444",
+            "label": ""
+          },
+          {
+            "image_id": "692242428",
+            "label": ""
+          },
+          {
+            "image_id": "692242434",
+            "label": ""
+          },
+          {
+            "image_id": "692242429",
+            "label": ""
+          },
+          {
+            "image_id": "692242472",
+            "label": ""
+          },
+          {
+            "image_id": "692242475",
+            "label": ""
+          },
+          {
+            "image_id": "692242433",
+            "label": ""
+          },
+          {
+            "image_id": "692242462",
+            "label": ""
+          }
+        ],
+        "hero_offer": {
+          "price": 107.24,
+          "brt": "p2q#",
+          "rf": "p2q#",
+          "brf": 8454784,
+          "rt": 8454784,
+          "vendor": "bkng",
+          "vendor_id_raw": "10664665",
+          "mota_code": null,
+          "direct_offer": false,
+          "offer_flags": {
+            "refundable": "Free cancellation",
+            "view_garden": "Garden view",
+            "pay_at_hotel": "Pay at the property"
+          },
+          "jc_code": "",
+          "ranking_index": 0.9964565460649012,
+          "chain": "",
+          "free_cancellation": true,
+          "special": false,
+          "room_name": "Family room",
+          "rooms": [
+            {
+              "name": "Family room",
+              "flags": []
+            }
+          ],
+          "partner_name": "Booking.com",
+          "partner_logo": "https://hotelscan.com/apis/vendors/bkng/logo.svg?pos=zz"
+        },
+        "rank": 0,
+        "ctrl_srt": "im a ctrl teapot",
+        "test_srt": "im a test teapot"
+      }
+    ],
+    "filters": [],
+    "query": {
+      "pos": "zz"
+    }
+  }
+}

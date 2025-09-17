@@ -1,0 +1,370 @@
+{
+  "_meta": {
+    "status": "SUCCESS",
+    "cached": true,
+    "count": 1,
+    "debug": {
+      "ticket": {
+        "ticket_id": "1008956461_zz_zz_d_publ_en_2_2025-10-08_2025-10-13_1_3",
+        "created_at": 1758065406.2903,
+        "loop": null,
+        "snapped_at": 1758065406.3985,
+        "snapshot_id": "1008956461_zz_zz_d_publ_en_2_2025-10-08_2025-10-13_1_3",
+        "snapshot_ttl": 300,
+        "executions": 2,
+        "progress": 1,
+        "save_errors": []
+      }
+    }
+  },
+  "data": {
+    "meta": [],
+    "geo": {
+      "hs_id": "xk933639trn4",
+      "region_name": "Mahibadhoo",
+      "region_name_long": "Mahibadhoo, Maldives",
+      "region_type": "CITY",
+      "region_id": 6350978,
+      "country_iso": "MV",
+      "country": "maldives",
+      "localised_country": "Maldives",
+      "center": [
+        3.75718,
+        72.96825
+      ],
+      "centroid": [
+        3.75744,
+        72.96824
+      ],
+      "polygon": [
+        "3.760265,72.960024",
+        "3.75409,72.960998",
+        "3.754619,72.976465",
+        "3.759647,72.975935",
+        "3.760265,72.960024"
+      ],
+      "radius": 0.97,
+      "zoom": -1,
+      "search_by_polygon": 0,
+      "cluster": 0,
+      "properties": 39,
+      "radius_override": 5,
+      "boundingbox": {
+        "ne": [
+          3.761,
+          72.977
+        ],
+        "sw": [
+          3.754,
+          72.96
+        ]
+      },
+      "airports": [
+        "MLE",
+        "DRV"
+      ],
+      "region_name_en": "Mahibadhoo",
+      "region_name_long_en": "Mahibadhoo, Maldives",
+      "referrer_city_name_en": "Mahibadhoo",
+      "parent_region_id": 6051084,
+      "parent_hs_id": "x5p4hmhw6iot",
+      "parent_region_name": "Maldives (all)",
+      "parent_region_name_long": "Maldives (all)",
+      "dynamic_bbox": {
+        "ne": [
+          3.756,
+          72.972
+        ],
+        "sw": [
+          3.756,
+          72.972
+        ]
+      }
+    },
+    "records": [
+      {
+        "hs_id": 1008956461,
+        "slug": "dhamana-beach-is-located-on-the-sunrise-beach-of-mahibadhoo-maldives-mahibadhoo-mv-1008956461",
+        "name": "Dhamana Beach Is Located On The Sunrise Beach Of Mahibadhoo, Maldives.",
+        "toa": "bed_and_breakfast",
+        "location": {
+          "city": "Mahibadhoo",
+          "zip": "00040",
+          "country_iso2": "MV",
+          "address": "",
+          "geoid": "xk933639trn4",
+          "loc": {
+            "type": "Point"
+          },
+          "coordinates": {
+            "lng": 72.972404,
+            "lat": 3.756652
+          }
+        },
+        "opening_time": {
+          "check_in_from": "00:00",
+          "check_in_to": null,
+          "check_out_from": null,
+          "check_out_to": null
+        },
+        "quality": {
+          "stars": 0,
+          "stars_is_estimated": false,
+          "review_source": ""
+        },
+        "covid_safe": false,
+        "amenities": {
+          "children": [
+            "children_playground"
+          ],
+          "wellness": [
+            "fitness_center"
+          ],
+          "sports": [
+            "boat_rent",
+            "surf"
+          ],
+          "internet": [
+            "wifi",
+            "wifi_room"
+          ],
+          "food_drink": [
+            "room_service",
+            "beach_bar"
+          ],
+          "disability": [
+            "disability_friendly_rooms",
+            "disability_facilities"
+          ],
+          "outdoor": [
+            "garden"
+          ],
+          "room": [
+            "air_conditioning",
+            "tv",
+            "in_room_safe"
+          ],
+          "reception": [
+            "concierge",
+            "laundry_facilities"
+          ]
+        },
+        "descriptions": {
+          "direction": "Located in Mahibadhoo, this bed & breakfast is on the beach. Villingilivaru Island Pier and Dhangethi Port are worth checking out if an activity is on the agenda, while those wishing to experience the area's natural beauty can explore Ari Atoll and Dhangethi Beach. Kayaking, scuba diving, and snorkeling offer great chances to get out on the surrounding water, or you can seek out an adventure with ecotours nearby.",
+          "amenities": true,
+          "localized": "Located in Mahibadhoo, this bed & breakfast is on the beach. Villingilivaru Island Pier and Dhangethi Port are worth checking out if an activity is on the agenda, while those wishing to experience the area's natural beauty can explore Ari Atoll and Dhangethi Beach. Kayaking, scuba diving, and snorkeling offer great chances to get out on the surrounding water, or you can seek out an adventure with ecotours nearby."
+        },
+        "short_description": "Bed and breakfast with 3 rooms, fitness center and beach bar",
+        "offers": [
+          {
+            "price": 85.35,
+            "brt": "z2r#",
+            "rf": "z2r#",
+            "brf": 8454144,
+            "rt": 8454144,
+            "vendor": "hawy",
+            "vendor_id_raw": "71643930",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Free cancellation"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Go to the booking site for more details",
+            "rooms": [
+              {
+                "name": "Go to the booking site for more details",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "refundable": "Free cancellation"
+            },
+            "partner_name": "VRBO",
+            "partner_logo": "https://hotelscan.com/apis/vendors/hawy/logo.svg?pos=zz"
+          }
+        ],
+        "all_offers": [
+          {
+            "price": 85.35,
+            "brt": "z2r#",
+            "rf": "z2r#",
+            "brf": 8454144,
+            "rt": 8454144,
+            "vendor": "hawy",
+            "vendor_id_raw": "71643930",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Free cancellation"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Go to the booking site for more details",
+            "rooms": [
+              {
+                "name": "Go to the booking site for more details",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "refundable": "Free cancellation"
+            },
+            "partner_name": "VRBO",
+            "partner_logo": "https://hotelscan.com/apis/vendors/hawy/logo.svg?pos=zz"
+          }
+        ],
+        "descriptions_language": {
+          "general": {
+            "original_language": true,
+            "text": "Located in Mahibadhoo, this bed & breakfast is on the beach. Villingilivaru Island Pier and Dhangethi Port are worth checking out if an activity is on the agenda, while those wishing to experience the area's natural beauty can explore Ari Atoll and Dhangethi Beach. Kayaking, scuba diving, and snorkeling offer great chances to get out on the surrounding water, or you can seek out an adventure with ecotours nearby."
+          }
+        },
+        "chain_code": null,
+        "bids": {
+          "hawy": "j23"
+        },
+        "worst_offer": null,
+        "best_offer": 85.35,
+        "discount": 0,
+        "offers_count": 1,
+        "coordinates": {
+          "lat": 3.756652,
+          "lng": 72.972404
+        },
+        "distance": 0.46,
+        "neighborhood": null,
+        "badge": null,
+        "distances": [
+          {
+            "from": "center",
+            "distance": 0.46,
+            "time": 639,
+            "means": "foot",
+            "means_type": "foot"
+          }
+        ],
+        "specs": {
+          "bathrooms": null,
+          "beds": null,
+          "bedrooms": null,
+          "guests": null,
+          "square_meters": null
+        },
+        "toa_label": "bed and breakfast",
+        "top_amenities": [
+          "wifi_room",
+          "room_service",
+          "air_conditioning"
+        ],
+        "transportations": {
+          "airports": [],
+          "trains": []
+        },
+        "images": [
+          {
+            "image_id": "632709282",
+            "label": ""
+          },
+          {
+            "image_id": "632709265",
+            "label": ""
+          },
+          {
+            "image_id": "632709279",
+            "label": ""
+          },
+          {
+            "image_id": "632709276",
+            "label": ""
+          },
+          {
+            "image_id": "632709283",
+            "label": ""
+          },
+          {
+            "image_id": "632709273",
+            "label": ""
+          },
+          {
+            "image_id": "632709271",
+            "label": ""
+          },
+          {
+            "image_id": "632709270",
+            "label": ""
+          },
+          {
+            "image_id": "632709268",
+            "label": ""
+          },
+          {
+            "image_id": "632709267",
+            "label": ""
+          },
+          {
+            "image_id": "632709263",
+            "label": ""
+          },
+          {
+            "image_id": "632709275",
+            "label": ""
+          },
+          {
+            "image_id": "632709278",
+            "label": ""
+          },
+          {
+            "image_id": "632709266",
+            "label": ""
+          },
+          {
+            "image_id": "632709269",
+            "label": ""
+          }
+        ],
+        "hero_offer": {
+          "price": 85.35,
+          "brt": "z2r#",
+          "rf": "z2r#",
+          "brf": 8454144,
+          "rt": 8454144,
+          "vendor": "hawy",
+          "vendor_id_raw": "71643930",
+          "mota_code": null,
+          "direct_offer": false,
+          "offer_flags": {
+            "refundable": "Free cancellation"
+          },
+          "jc_code": "",
+          "chain": "",
+          "free_cancellation": true,
+          "special": false,
+          "room_name": "Go to the booking site for more details",
+          "rooms": [
+            {
+              "name": "Go to the booking site for more details",
+              "flags": []
+            }
+          ],
+          "partner_name": "VRBO",
+          "partner_logo": "https://hotelscan.com/apis/vendors/hawy/logo.svg?pos=zz"
+        },
+        "rank": 0,
+        "ctrl_srt": "im a ctrl teapot",
+        "test_srt": "im a test teapot",
+        "best_offer_ota": null,
+        "best_offer_mota": null
+      }
+    ],
+    "filters": [],
+    "query": {
+      "pos": "zz"
+    }
+  }
+}

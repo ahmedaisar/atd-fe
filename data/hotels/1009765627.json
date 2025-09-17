@@ -1,0 +1,954 @@
+{
+  "_meta": {
+    "status": "SUCCESS",
+    "cached": true,
+    "count": 1,
+    "debug": {
+      "ticket": {
+        "ticket_id": "1009765627_zz_zz_d_publ_en_2_2025-10-08_2025-10-13_1_3",
+        "created_at": 1758065381.3748,
+        "loop": null,
+        "snapped_at": 1758065381.4763,
+        "snapshot_id": "1009765627_zz_zz_d_publ_en_2_2025-10-08_2025-10-13_1_3",
+        "snapshot_ttl": 300,
+        "executions": 2,
+        "progress": 1,
+        "save_errors": []
+      }
+    }
+  },
+  "data": {
+    "meta": [],
+    "geo": {
+      "hs_id": "x5fa2305ia69",
+      "region_name": "Guraidhoo",
+      "region_name_long": "Guraidhoo, Maldives",
+      "region_type": "CITY",
+      "region_id": 6158524,
+      "country_iso": "MV",
+      "country": "maldives",
+      "localised_country": "Maldives",
+      "center": [
+        3.90042,
+        73.46827
+      ],
+      "centroid": [
+        3.90002,
+        73.4684
+      ],
+      "polygon": [
+        "3.90191,73.465366",
+        "3.896186,73.465753",
+        "3.896274,73.471173",
+        "3.903793,73.470641",
+        "3.904655,73.468789",
+        "3.90191,73.465366"
+      ],
+      "radius": 0.52,
+      "zoom": -1,
+      "search_by_polygon": 0,
+      "cluster": 0,
+      "properties": 57,
+      "radius_override": 5,
+      "boundingbox": {
+        "ne": [
+          3.905,
+          73.472
+        ],
+        "sw": [
+          3.896,
+          73.465
+        ]
+      },
+      "airports": [
+        "MLE",
+        "DRV"
+      ],
+      "region_name_en": "Guraidhoo",
+      "region_name_long_en": "Guraidhoo, Maldives",
+      "referrer_city_name_en": "Guraidhoo",
+      "parent_region_id": 6051084,
+      "parent_hs_id": "x5p4hmhw6iot",
+      "parent_region_name": "Maldives (all)",
+      "parent_region_name_long": "Maldives (all)",
+      "dynamic_bbox": {
+        "ne": [
+          3.9,
+          73.466
+        ],
+        "sw": [
+          3.9,
+          73.466
+        ]
+      }
+    },
+    "records": [
+      {
+        "hs_id": 1009765627,
+        "slug": "adroit-sunset-view-guraidhoo-mv-1009765627",
+        "name": "Adroit Sunset View",
+        "toa": "guest_house",
+        "location": {
+          "city": "Guraidhoo",
+          "zip": "08080",
+          "country_iso2": "MV",
+          "address": "Jewel 02",
+          "geoid": "x5fa2305ia69",
+          "loc": {
+            "type": "Point"
+          },
+          "coordinates": {
+            "lng": 73.46611,
+            "lat": 3.90083
+          }
+        },
+        "opening_time": {
+          "check_in_from": "14:00",
+          "check_in_to": "23:00",
+          "check_out_from": "12:00",
+          "check_out_to": "17:00"
+        },
+        "quality": {
+          "review_count": 50,
+          "review_rating": 85,
+          "stars": 4,
+          "stars_is_estimated": false,
+          "review_source": ""
+        },
+        "covid_safe": true,
+        "amenities": {
+          "wellness": [
+            "fitness_center",
+            "hair_salon",
+            "sauna",
+            "spa"
+          ],
+          "sports": [
+            "badminton",
+            "sub",
+            "surf"
+          ],
+          "internet": [
+            "wifi_lobby",
+            "wifi_room",
+            "internet"
+          ],
+          "transfer": [
+            "shuttle_service"
+          ],
+          "food_drink": [
+            "restaurant",
+            "room_service",
+            "cafe"
+          ],
+          "disability": [
+            "wheelchair_accessible",
+            "disability_facilities"
+          ],
+          "pets": [
+            "pets_allowed"
+          ],
+          "parking": [
+            "parking"
+          ],
+          "outdoor": [
+            "garden",
+            "terrace"
+          ],
+          "other": [],
+          "business": [
+            "meeting_room",
+            "business_services"
+          ],
+          "children": [
+            "babysitter",
+            "children_playground"
+          ],
+          "room": [
+            "fan",
+            "heating",
+            "air_conditioning",
+            "tv"
+          ],
+          "reception": [
+            "24h_reception",
+            "luggage_storage",
+            "laundry_facilities",
+            "laundry_service",
+            "safety_deposit_box"
+          ]
+        },
+        "descriptions": {
+          "general": "Experience an abundance of unparalleled facilities and features at Adroit Sunset View. Visitors can take advantage of complimentary parking directly at the guest house.Each accommodation at Adroit Sunset View is thoughtfully created and adorned to provide visitors with a comfortable, home-like atmosphere.In certain rooms, the guest house offers linen service, blackout curtains and air conditioning for guest convenience and satisfaction.At Adroit Sunset View, the uniquely tailored rooms provide a configuration choice resembling a balcony or terrace.In select rooms, guests can enjoy a touch of amusement with the availability of television for their entertainment. Rest assured, in a few chosen rooms, you will find the convenience of a refrigerator, bottled water and a coffee or tea maker at your disposal.Understanding the significance of bathroom amenities in enhancing guest contentment, the guest house offers toiletries within certain chosen rooms. Immerse yourself in the executive lounge, where exceptional amenities and lavish surroundings await you. Begin your holiday on a high note. At Adroit Sunset View, your mornings are greeted with a delightful, free breakfast.",
+          "localized": "Experience an abundance of unparalleled facilities and features at Adroit Sunset View. Visitors can take advantage of complimentary parking directly at the guest house.Each accommodation at Adroit Sunset View is thoughtfully created and adorned to provide visitors with a comfortable, home-like atmosphere.In certain rooms, the guest house offers linen service, blackout curtains and air conditioning for guest convenience and satisfaction.At Adroit Sunset View, the uniquely tailored rooms provide a configuration choice resembling a balcony or terrace.In select rooms, guests can enjoy a touch of amusement with the availability of television for their entertainment. Rest assured, in a few chosen rooms, you will find the convenience of a refrigerator, bottled water and a coffee or tea maker at your disposal.Understanding the significance of bathroom amenities in enhancing guest contentment, the guest house offers toiletries within certain chosen rooms. Immerse yourself in the executive lounge, where exceptional amenities and lavish surroundings await you. Begin your holiday on a high note. At Adroit Sunset View, your mornings are greeted with a delightful, free breakfast."
+        },
+        "short_description": "Original guest house with fitness center, shuttle service and meeting room",
+        "chain": "no_chain",
+        "brand": "no_brand",
+        "offers": [
+          {
+            "price": 54.98,
+            "brt": "p2d#",
+            "rf": "p2d#",
+            "brf": 9503888,
+            "rt": 9503888,
+            "vendor": "bkng",
+            "vendor_id_raw": "13435878",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included",
+              "Free cancellation",
+              "Sea view",
+              "Pay at the property",
+              "Balcony"
+            ],
+            "jc_code": "",
+            "ranking_index": 0.9964350672971991,
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Deluxe room",
+            "rooms": [
+              {
+                "name": "Deluxe room",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included",
+              "refundable": "Free cancellation",
+              "view_sea": "Sea view",
+              "pay_at_hotel": "Pay at the property",
+              "balcony": "Balcony"
+            },
+            "partner_name": "Booking.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/bkng/logo.svg?pos=zz"
+          },
+          {
+            "vendor": "agda",
+            "price": 54.49,
+            "vendor_id_raw": "69432268",
+            "mota_code": null,
+            "jc_code": "",
+            "partner_name": "Agoda",
+            "partner_logo": "https://hotelscan.com/apis/vendors/agda/logo.svg?pos=zz",
+            "room_name": "Standard room",
+            "brf": 9502864,
+            "brt": "p2r#"
+          },
+          {
+            "vendor": "ctrp",
+            "price": 71.29,
+            "vendor_id_raw": "123620107",
+            "mota_code": null,
+            "jc_code": "TRIPCOM",
+            "partner_name": "Trip.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/ctrp/logo.svg?pos=zz",
+            "room_name": "Deluxe room - Twin beds",
+            "brf": 9502784,
+            "brt": "p2d#t"
+          }
+        ],
+        "all_offers": [
+          {
+            "price": 54.49,
+            "brt": "p2r#",
+            "rf": "p2r#",
+            "brf": 9502864,
+            "rt": 9502864,
+            "vendor": "agda",
+            "vendor_id_raw": "69432268",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included",
+              "Free cancellation",
+              "Pay at the property",
+              "Balcony"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Standard room",
+            "rooms": [
+              {
+                "name": "Standard room",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included",
+              "refundable": "Free cancellation",
+              "pay_at_hotel": "Pay at the property",
+              "balcony": "Balcony"
+            },
+            "partner_name": "Agoda",
+            "partner_logo": "https://hotelscan.com/apis/vendors/agda/logo.svg?pos=zz"
+          },
+          {
+            "price": 54.98,
+            "brt": "p2d#",
+            "rf": "p2d#",
+            "brf": 9503888,
+            "rt": 9503888,
+            "vendor": "bkng",
+            "vendor_id_raw": "13435878",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included",
+              "Free cancellation",
+              "Sea view",
+              "Pay at the property",
+              "Balcony"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Deluxe room",
+            "rooms": [
+              {
+                "name": "Deluxe room",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included",
+              "refundable": "Free cancellation",
+              "view_sea": "Sea view",
+              "pay_at_hotel": "Pay at the property",
+              "balcony": "Balcony"
+            },
+            "partner_name": "Booking.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/bkng/logo.svg?pos=zz"
+          },
+          {
+            "price": 57.98,
+            "brt": "p2d#t",
+            "rf": "p2d#t",
+            "brf": 9502784,
+            "rt": 9502784,
+            "vendor": "agda",
+            "vendor_id_raw": "69432268",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included",
+              "Free cancellation"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Deluxe room - Twin beds",
+            "rooms": [
+              {
+                "name": "Deluxe room - Twin beds",
+                "flags": [
+                  "Twin beds"
+                ]
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included",
+              "refundable": "Free cancellation"
+            },
+            "partner_name": "Agoda",
+            "partner_logo": "https://hotelscan.com/apis/vendors/agda/logo.svg?pos=zz"
+          },
+          {
+            "price": 59.45,
+            "brt": "p2d#",
+            "rf": "p2d#",
+            "brf": 9503888,
+            "rt": 9503888,
+            "vendor": "bkng",
+            "vendor_id_raw": "13435878",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included",
+              "Free cancellation",
+              "Sea view",
+              "Pay at the property",
+              "Balcony"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Deluxe room",
+            "rooms": [
+              {
+                "name": "Deluxe room",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included",
+              "refundable": "Free cancellation",
+              "view_sea": "Sea view",
+              "pay_at_hotel": "Pay at the property",
+              "balcony": "Balcony"
+            },
+            "partner_name": "Booking.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/bkng/logo.svg?pos=zz"
+          },
+          {
+            "price": 71.29,
+            "brt": "p2d#t",
+            "rf": "p2d#t",
+            "brf": 9502784,
+            "rt": 9502784,
+            "vendor": "ctrp",
+            "vendor_id_raw": "123620107",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included",
+              "Free cancellation"
+            ],
+            "jc_code": "TRIPCOM",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Deluxe room - Twin beds",
+            "rooms": [
+              {
+                "name": "Deluxe room - Twin beds",
+                "flags": [
+                  "Twin beds"
+                ]
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included",
+              "refundable": "Free cancellation"
+            },
+            "partner_name": "Trip.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/ctrp/logo.svg?pos=zz"
+          },
+          {
+            "price": 72.24,
+            "brt": "p2r#",
+            "rf": "p2r#",
+            "brf": 9502864,
+            "rt": 9502864,
+            "vendor": "agda",
+            "vendor_id_raw": "69432268",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included",
+              "Free cancellation",
+              "Pay at the property",
+              "Balcony"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Standard room",
+            "rooms": [
+              {
+                "name": "Standard room",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included",
+              "refundable": "Free cancellation",
+              "pay_at_hotel": "Pay at the property",
+              "balcony": "Balcony"
+            },
+            "partner_name": "Agoda",
+            "partner_logo": "https://hotelscan.com/apis/vendors/agda/logo.svg?pos=zz"
+          },
+          {
+            "price": 72.89,
+            "brt": "p2d#",
+            "rf": "p2d#",
+            "brf": 11601040,
+            "rt": 11601040,
+            "vendor": "bkng",
+            "vendor_id_raw": "13435878",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast and lunch",
+              "Free cancellation",
+              "Sea view",
+              "Pay at the property",
+              "Balcony"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Deluxe room",
+            "rooms": [
+              {
+                "name": "Deluxe room",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "half_board_lunch": "Breakfast and lunch",
+              "refundable": "Free cancellation",
+              "view_sea": "Sea view",
+              "pay_at_hotel": "Pay at the property",
+              "balcony": "Balcony"
+            },
+            "partner_name": "Booking.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/bkng/logo.svg?pos=zz"
+          },
+          {
+            "price": 77.37,
+            "brt": "p2d#",
+            "rf": "p2d#",
+            "brf": 11601040,
+            "rt": 11601040,
+            "vendor": "bkng",
+            "vendor_id_raw": "13435878",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast and lunch",
+              "Free cancellation",
+              "Sea view",
+              "Pay at the property",
+              "Balcony"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Deluxe room",
+            "rooms": [
+              {
+                "name": "Deluxe room",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "half_board_lunch": "Breakfast and lunch",
+              "refundable": "Free cancellation",
+              "view_sea": "Sea view",
+              "pay_at_hotel": "Pay at the property",
+              "balcony": "Balcony"
+            },
+            "partner_name": "Booking.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/bkng/logo.svg?pos=zz"
+          },
+          {
+            "price": 84.36,
+            "brt": "z2r#",
+            "rf": "z2r#",
+            "brf": 9503296,
+            "rt": 9503296,
+            "vendor": "agda",
+            "vendor_id_raw": "69432268",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included",
+              "Free cancellation",
+              "Garden view"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Go to the booking site for more details",
+            "rooms": [
+              {
+                "name": "Go to the booking site for more details",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included",
+              "refundable": "Free cancellation",
+              "view_garden": "Garden view"
+            },
+            "partner_name": "Agoda",
+            "partner_logo": "https://hotelscan.com/apis/vendors/agda/logo.svg?pos=zz"
+          },
+          {
+            "price": 84.36,
+            "brt": "p2r#q",
+            "rf": "p2r#q",
+            "brf": 9502784,
+            "rt": 9502784,
+            "vendor": "agda",
+            "vendor_id_raw": "69432268",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included",
+              "Free cancellation"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Standard room - Queen bed",
+            "rooms": [
+              {
+                "name": "Standard room - Queen bed",
+                "flags": [
+                  "Queen bed"
+                ]
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included",
+              "refundable": "Free cancellation"
+            },
+            "partner_name": "Agoda",
+            "partner_logo": "https://hotelscan.com/apis/vendors/agda/logo.svg?pos=zz"
+          },
+          {
+            "price": 89.98,
+            "brt": "p2r#",
+            "rf": "p2r#",
+            "brf": 9502864,
+            "rt": 9502864,
+            "vendor": "agda",
+            "vendor_id_raw": "69432268",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included",
+              "Free cancellation",
+              "Pay at the property",
+              "Balcony"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Standard room",
+            "rooms": [
+              {
+                "name": "Standard room",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included",
+              "refundable": "Free cancellation",
+              "pay_at_hotel": "Pay at the property",
+              "balcony": "Balcony"
+            },
+            "partner_name": "Agoda",
+            "partner_logo": "https://hotelscan.com/apis/vendors/agda/logo.svg?pos=zz"
+          },
+          {
+            "price": 90.8,
+            "brt": "p2d#",
+            "rf": "p2d#",
+            "brf": 10028176,
+            "rt": 10028176,
+            "vendor": "bkng",
+            "vendor_id_raw": "13435878",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Full board",
+              "Free cancellation",
+              "Sea view",
+              "Pay at the property",
+              "Balcony"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Deluxe room",
+            "rooms": [
+              {
+                "name": "Deluxe room",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "full_board": "Full board",
+              "refundable": "Free cancellation",
+              "view_sea": "Sea view",
+              "pay_at_hotel": "Pay at the property",
+              "balcony": "Balcony"
+            },
+            "partner_name": "Booking.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/bkng/logo.svg?pos=zz"
+          },
+          {
+            "price": 92.88,
+            "brt": "p2r#",
+            "rf": "p2r#",
+            "brf": 9502800,
+            "rt": 9502800,
+            "vendor": "agda",
+            "vendor_id_raw": "69432268",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included",
+              "Free cancellation",
+              "Balcony"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Standard room",
+            "rooms": [
+              {
+                "name": "Standard room",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included",
+              "refundable": "Free cancellation",
+              "balcony": "Balcony"
+            },
+            "partner_name": "Agoda",
+            "partner_logo": "https://hotelscan.com/apis/vendors/agda/logo.svg?pos=zz"
+          },
+          {
+            "price": 92.88,
+            "brt": "p2r#k",
+            "rf": "p2r#k",
+            "brf": 9504320,
+            "rt": 9504320,
+            "vendor": "agda",
+            "vendor_id_raw": "69432268",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included",
+              "Free cancellation",
+              "City view"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Standard room - King bed",
+            "rooms": [
+              {
+                "name": "Standard room - King bed",
+                "flags": [
+                  "King bed"
+                ]
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included",
+              "refundable": "Free cancellation",
+              "view_city": "City view"
+            },
+            "partner_name": "Agoda",
+            "partner_logo": "https://hotelscan.com/apis/vendors/agda/logo.svg?pos=zz"
+          },
+          {
+            "price": 95.28,
+            "brt": "p2d#",
+            "rf": "p2d#",
+            "brf": 10028176,
+            "rt": 10028176,
+            "vendor": "bkng",
+            "vendor_id_raw": "13435878",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Full board",
+              "Free cancellation",
+              "Sea view",
+              "Pay at the property",
+              "Balcony"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Deluxe room",
+            "rooms": [
+              {
+                "name": "Deluxe room",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "full_board": "Full board",
+              "refundable": "Free cancellation",
+              "view_sea": "Sea view",
+              "pay_at_hotel": "Pay at the property",
+              "balcony": "Balcony"
+            },
+            "partner_name": "Booking.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/bkng/logo.svg?pos=zz"
+          }
+        ],
+        "descriptions_language": {
+          "general": {
+            "original_language": true,
+            "text": "Experience an abundance of unparalleled facilities and features at Adroit Sunset View. Visitors can take advantage of complimentary parking directly at the guest house.Each accommodation at Adroit Sunset View is thoughtfully created and adorned to provide visitors with a comfortable, home-like atmosphere.In certain rooms, the guest house offers linen service, blackout curtains and air conditioning for guest convenience and satisfaction.At Adroit Sunset View, the uniquely tailored rooms provide a configuration choice resembling a balcony or terrace.In select rooms, guests can enjoy a touch of amusement with the availability of television for their entertainment. Rest assured, in a few chosen rooms, you will find the convenience of a refrigerator, bottled water and a coffee or tea maker at your disposal.Understanding the significance of bathroom amenities in enhancing guest contentment, the guest house offers toiletries within certain chosen rooms. Immerse yourself in the executive lounge, where exceptional amenities and lavish surroundings await you. Begin your holiday on a high note. At Adroit Sunset View, your mornings are greeted with a delightful, free breakfast."
+          }
+        },
+        "chain_code": null,
+        "bids": {
+          "ctrp": "j23",
+          "bkng": "j23",
+          "agda": "j23"
+        },
+        "worst_offer": 71.29,
+        "best_offer": 54.49,
+        "best_offer_ota": "agda",
+        "best_offer_mota": null,
+        "discount": 25,
+        "offers_count": 15,
+        "coordinates": {
+          "lat": 3.90083,
+          "lng": 73.46611
+        },
+        "distance": 0.24,
+        "neighborhood": null,
+        "badge": null,
+        "distances": [
+          {
+            "from": "center",
+            "distance": 0.24,
+            "time": 333,
+            "means": "foot",
+            "means_type": "foot"
+          }
+        ],
+        "specs": {
+          "bathrooms": null,
+          "beds": null,
+          "bedrooms": null,
+          "guests": null,
+          "square_meters": null
+        },
+        "toa_label": "guest house",
+        "top_amenities": [
+          "wifi_room",
+          "internet",
+          "restaurant",
+          "room_service",
+          "pets_allowed"
+        ],
+        "transportations": {
+          "airports": [],
+          "trains": []
+        },
+        "images": [
+          {
+            "image_id": "680047625",
+            "label": ""
+          },
+          {
+            "image_id": "680047641",
+            "label": ""
+          },
+          {
+            "image_id": "680047640",
+            "label": ""
+          },
+          {
+            "image_id": "680047624",
+            "label": ""
+          },
+          {
+            "image_id": "680047623",
+            "label": ""
+          },
+          {
+            "image_id": "680047642",
+            "label": ""
+          },
+          {
+            "image_id": "680047638",
+            "label": ""
+          },
+          {
+            "image_id": "680047627",
+            "label": ""
+          },
+          {
+            "image_id": "680047626",
+            "label": ""
+          },
+          {
+            "image_id": "680047637",
+            "label": ""
+          },
+          {
+            "image_id": "680047632",
+            "label": ""
+          },
+          {
+            "image_id": "680047634",
+            "label": ""
+          },
+          {
+            "image_id": "680047635",
+            "label": ""
+          },
+          {
+            "image_id": "680047636",
+            "label": ""
+          },
+          {
+            "image_id": "680047630",
+            "label": ""
+          }
+        ],
+        "hero_offer": {
+          "price": 54.98,
+          "brt": "p2d#",
+          "rf": "p2d#",
+          "brf": 9503888,
+          "rt": 9503888,
+          "vendor": "bkng",
+          "vendor_id_raw": "13435878",
+          "mota_code": null,
+          "direct_offer": false,
+          "offer_flags": {
+            "breakfast": "Breakfast included",
+            "refundable": "Free cancellation",
+            "view_sea": "Sea view",
+            "pay_at_hotel": "Pay at the property",
+            "balcony": "Balcony"
+          },
+          "jc_code": "",
+          "ranking_index": 0.9964350672971991,
+          "chain": "",
+          "free_cancellation": true,
+          "special": false,
+          "room_name": "Deluxe room",
+          "rooms": [
+            {
+              "name": "Deluxe room",
+              "flags": []
+            }
+          ],
+          "partner_name": "Booking.com",
+          "partner_logo": "https://hotelscan.com/apis/vendors/bkng/logo.svg?pos=zz"
+        },
+        "rank": 0,
+        "ctrl_srt": "im a ctrl teapot",
+        "test_srt": "im a test teapot"
+      }
+    ],
+    "filters": [],
+    "query": {
+      "pos": "zz"
+    }
+  }
+}

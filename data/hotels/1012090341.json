@@ -1,0 +1,547 @@
+{
+  "_meta": {
+    "status": "SUCCESS",
+    "cached": true,
+    "count": 1,
+    "debug": {
+      "ticket": {
+        "ticket_id": "1012090341_zz_zz_d_publ_en_2_2025-10-08_2025-10-13_1_3",
+        "created_at": 1758065392.6295,
+        "loop": null,
+        "snapped_at": 1758065392.7233,
+        "snapshot_id": "1012090341_zz_zz_d_publ_en_2_2025-10-08_2025-10-13_1_3",
+        "snapshot_ttl": 300,
+        "executions": 2,
+        "progress": 1,
+        "save_errors": []
+      }
+    }
+  },
+  "data": {
+    "meta": [],
+    "geo": {
+      "hs_id": "xk3ucdcbfie4",
+      "region_name": "Dhigurah",
+      "region_name_long": "Dhigurah, Maldives",
+      "region_type": "CITY",
+      "region_id": 6344003,
+      "country_iso": "MV",
+      "country": "maldives",
+      "localised_country": "Maldives",
+      "center": [
+        3.5254,
+        72.92259
+      ],
+      "centroid": [
+        3.5254,
+        72.92258
+      ],
+      "polygon": [
+        "3.539364,72.934791",
+        "3.54174,72.929047",
+        "3.51143,72.910378",
+        "3.509066,72.91436",
+        "3.539364,72.934791"
+      ],
+      "radius": 2.07,
+      "zoom": -1,
+      "search_by_polygon": 0,
+      "cluster": 0,
+      "properties": 44,
+      "radius_override": 5,
+      "boundingbox": {
+        "ne": [
+          3.542,
+          72.935
+        ],
+        "sw": [
+          3.509,
+          72.91
+        ]
+      },
+      "airports": [
+        "MLE",
+        "DRV"
+      ],
+      "region_name_en": "Dhigurah",
+      "region_name_long_en": "Dhigurah, Maldives",
+      "referrer_city_name_en": "Dhigurah",
+      "parent_region_id": 6051084,
+      "parent_hs_id": "x5p4hmhw6iot",
+      "parent_region_name": "Maldives (all)",
+      "parent_region_name_long": "Maldives (all)",
+      "dynamic_bbox": {
+        "ne": [
+          3.535,
+          72.929
+        ],
+        "sw": [
+          3.535,
+          72.929
+        ]
+      }
+    },
+    "records": [
+      {
+        "hs_id": 1012090341,
+        "slug": "dhiguveli-breeze-dhigurah-mv-1012090341",
+        "name": "Dhiguveli Breeze",
+        "toa": "hotel",
+        "location": {
+          "city": "Dhigurah",
+          "zip": "00070",
+          "country_iso2": "MV",
+          "address": "Dhigurah Island South Ari Atoll",
+          "geoid": "xk3ucdcbfie4",
+          "loc": {
+            "type": "Point"
+          },
+          "coordinates": {
+            "lng": 72.92908,
+            "lat": 3.53594
+          }
+        },
+        "opening_time": {
+          "check_in_from": "14:00",
+          "check_in_to": "00:00",
+          "check_out_from": "06:00",
+          "check_out_to": "12:00"
+        },
+        "quality": {
+          "review_count": 306,
+          "review_rating": 91,
+          "stars": 3,
+          "stars_is_estimated": false,
+          "review_source": ""
+        },
+        "covid_safe": true,
+        "amenities": {
+          "children": [
+            "children_playground"
+          ],
+          "wellness": [
+            "solarium"
+          ],
+          "sports": [
+            "horsemanship",
+            "sub",
+            "surf"
+          ],
+          "internet": [
+            "wifi",
+            "internet"
+          ],
+          "food_drink": [
+            "restaurant",
+            "room_service",
+            "cafe",
+            "bar",
+            "snack_bar"
+          ],
+          "parking": [
+            "parking"
+          ],
+          "outdoor": [
+            "garden",
+            "terrace"
+          ],
+          "other": [
+            "lift"
+          ],
+          "entertainment": [
+            "tv_lobby"
+          ],
+          "transfer": [
+            "shuttle_service"
+          ],
+          "room": [
+            "fan",
+            "heating",
+            "air_conditioning",
+            "tv"
+          ],
+          "reception": [
+            "24h_reception",
+            "luggage_storage",
+            "concierge",
+            "laundry_service",
+            "safety_deposit_box"
+          ]
+        },
+        "descriptions": {
+          "general": "Experience an abundance of unparalleled facilities and features at Dhiguveli Breeze.Share your photos and respond to emails at your convenience, thanks to the free Wi-Fi internet access offered by hotel. Should you require transportation to or from the airport, hotel is able to organize it prior to your arrival date.Visitors can take advantage of the accessible parking options directly at the hotel.Traveling with minimal luggage is achievable at Dhiguveli Breeze due to the hotel's laundry service ensuring your garments stay fresh.Room amenities feature daily housekeeping, allowing you to unwind and make the most of your visit. Each accommodation at Dhiguveli Breeze is thoughtfully created and adorned to provide visitors with a comfortable, home-like atmosphere. In certain rooms, the hotel offers linen service and air conditioning for guest convenience and satisfaction. At Dhiguveli Breeze, the uniquely tailored rooms provide a configuration choice resembling a balcony or terrace.In select rooms, guests can enjoy a touch of amusement with the availability of television for their entertainment.Rest assured, in a few chosen rooms, the presence of a refrigerator can be found.Maintain your cleanliness and comfort using a hair dryer, toiletries and bathrobes available in select guest restrooms. Begin your holiday on a high note. At Dhiguveli Breeze, your mornings are greeted with a delightful, free breakfast.No matter your specific dietary needs, rest assured that Dhiguveli Breeze provides an array of kosher choices to ensure your dining experience is nothing short of delightful.Experience an unforgettable evening with your fellow travelers just a short distance away, at hotel's bar.",
+          "localized": "Experience an abundance of unparalleled facilities and features at Dhiguveli Breeze.Share your photos and respond to emails at your convenience, thanks to the free Wi-Fi internet access offered by hotel. Should you require transportation to or from the airport, hotel is able to organize it prior to your arrival date.Visitors can take advantage of the accessible parking options directly at the hotel.Traveling with minimal luggage is achievable at Dhiguveli Breeze due to the hotel's laundry service ensuring your garments stay fresh.Room amenities feature daily housekeeping, allowing you to unwind and make the most of your visit. Each accommodation at Dhiguveli Breeze is thoughtfully created and adorned to provide visitors with a comfortable, home-like atmosphere. In certain rooms, the hotel offers linen service and air conditioning for guest convenience and satisfaction. At Dhiguveli Breeze, the uniquely tailored rooms provide a configuration choice resembling a balcony or terrace.In select rooms, guests can enjoy a touch of amusement with the availability of television for their entertainment.Rest assured, in a few chosen rooms, the presence of a refrigerator can be found.Maintain your cleanliness and comfort using a hair dryer, toiletries and bathrobes available in select guest restrooms. Begin your holiday on a high note. At Dhiguveli Breeze, your mornings are greeted with a delightful, free breakfast.No matter your specific dietary needs, rest assured that Dhiguveli Breeze provides an array of kosher choices to ensure your dining experience is nothing short of delightful.Experience an unforgettable evening with your fellow travelers just a short distance away, at hotel's bar."
+        },
+        "short_description": "Simple hotel with parking, shuttle service and bar",
+        "chain": "no_chain",
+        "brand": "no_brand",
+        "offers": [
+          {
+            "price": 99.54,
+            "brt": "p2d#",
+            "rf": "p2d#",
+            "brf": 9502800,
+            "rt": 9502800,
+            "vendor": "agda",
+            "vendor_id_raw": "37134493",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included",
+              "Free cancellation",
+              "Balcony"
+            ],
+            "jc_code": "",
+            "ranking_index": 0.96,
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Deluxe room",
+            "rooms": [
+              {
+                "name": "Deluxe room",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included",
+              "refundable": "Free cancellation",
+              "balcony": "Balcony"
+            },
+            "partner_name": "Agoda",
+            "partner_logo": "https://hotelscan.com/apis/vendors/agda/logo.svg?pos=zz"
+          },
+          {
+            "vendor": "bkng",
+            "price": 119.97,
+            "vendor_id_raw": "9243652",
+            "mota_code": null,
+            "jc_code": "",
+            "partner_name": "Booking.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/bkng/logo.svg?pos=zz",
+            "room_name": "Deluxe room",
+            "brf": 9502800,
+            "brt": "p2d#"
+          }
+        ],
+        "all_offers": [
+          {
+            "price": 99.54,
+            "brt": "p2d#",
+            "rf": "p2d#",
+            "brf": 9502800,
+            "rt": 9502800,
+            "vendor": "agda",
+            "vendor_id_raw": "37134493",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included",
+              "Free cancellation",
+              "Balcony"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Deluxe room",
+            "rooms": [
+              {
+                "name": "Deluxe room",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included",
+              "refundable": "Free cancellation",
+              "balcony": "Balcony"
+            },
+            "partner_name": "Agoda",
+            "partner_logo": "https://hotelscan.com/apis/vendors/agda/logo.svg?pos=zz"
+          },
+          {
+            "price": 119.97,
+            "brt": "p2d#",
+            "rf": "p2d#",
+            "brf": 9502800,
+            "rt": 9502800,
+            "vendor": "bkng",
+            "vendor_id_raw": "9243652",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included",
+              "Free cancellation",
+              "Balcony"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Deluxe room",
+            "rooms": [
+              {
+                "name": "Deluxe room",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included",
+              "refundable": "Free cancellation",
+              "balcony": "Balcony"
+            },
+            "partner_name": "Booking.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/bkng/logo.svg?pos=zz"
+          },
+          {
+            "price": 143.06,
+            "brt": "p3d#",
+            "rf": "p3d#",
+            "brf": 9502784,
+            "rt": 9502784,
+            "vendor": "agda",
+            "vendor_id_raw": "37134493",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included",
+              "Free cancellation"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Deluxe Triple Room",
+            "rooms": [
+              {
+                "name": "Deluxe Triple Room",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included",
+              "refundable": "Free cancellation"
+            },
+            "partner_name": "Agoda",
+            "partner_logo": "https://hotelscan.com/apis/vendors/agda/logo.svg?pos=zz"
+          },
+          {
+            "price": 144.36,
+            "brt": "p3d#",
+            "rf": "p3d#",
+            "brf": 9502784,
+            "rt": 9502784,
+            "vendor": "bkng",
+            "vendor_id_raw": "9243652",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included",
+              "Free cancellation"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Deluxe Triple Room",
+            "rooms": [
+              {
+                "name": "Deluxe Triple Room",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included",
+              "refundable": "Free cancellation"
+            },
+            "partner_name": "Booking.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/bkng/logo.svg?pos=zz"
+          },
+          {
+            "price": 148.51,
+            "brt": "p3d#",
+            "rf": "p3d#",
+            "brf": 9502784,
+            "rt": 9502784,
+            "vendor": "bkng",
+            "vendor_id_raw": "9243652",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included",
+              "Free cancellation"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Deluxe Triple Room",
+            "rooms": [
+              {
+                "name": "Deluxe Triple Room",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included",
+              "refundable": "Free cancellation"
+            },
+            "partner_name": "Booking.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/bkng/logo.svg?pos=zz"
+          }
+        ],
+        "descriptions_language": {
+          "general": {
+            "original_language": true,
+            "text": "Experience an abundance of unparalleled facilities and features at Dhiguveli Breeze.Share your photos and respond to emails at your convenience, thanks to the free Wi-Fi internet access offered by hotel. Should you require transportation to or from the airport, hotel is able to organize it prior to your arrival date.Visitors can take advantage of the accessible parking options directly at the hotel.Traveling with minimal luggage is achievable at Dhiguveli Breeze due to the hotel's laundry service ensuring your garments stay fresh.Room amenities feature daily housekeeping, allowing you to unwind and make the most of your visit. Each accommodation at Dhiguveli Breeze is thoughtfully created and adorned to provide visitors with a comfortable, home-like atmosphere. In certain rooms, the hotel offers linen service and air conditioning for guest convenience and satisfaction. At Dhiguveli Breeze, the uniquely tailored rooms provide a configuration choice resembling a balcony or terrace.In select rooms, guests can enjoy a touch of amusement with the availability of television for their entertainment.Rest assured, in a few chosen rooms, the presence of a refrigerator can be found.Maintain your cleanliness and comfort using a hair dryer, toiletries and bathrobes available in select guest restrooms. Begin your holiday on a high note. At Dhiguveli Breeze, your mornings are greeted with a delightful, free breakfast.No matter your specific dietary needs, rest assured that Dhiguveli Breeze provides an array of kosher choices to ensure your dining experience is nothing short of delightful.Experience an unforgettable evening with your fellow travelers just a short distance away, at hotel's bar."
+          }
+        },
+        "chain_code": null,
+        "bids": {
+          "agda": "j23",
+          "bkng": "j23"
+        },
+        "worst_offer": 119.97,
+        "best_offer": 99.54,
+        "best_offer_ota": "agda",
+        "best_offer_mota": null,
+        "discount": 15,
+        "offers_count": 5,
+        "coordinates": {
+          "lat": 3.53594,
+          "lng": 72.92908
+        },
+        "distance": 1.38,
+        "neighborhood": null,
+        "badge": null,
+        "distances": [
+          {
+            "from": "center",
+            "distance": 1.38,
+            "time": 1917,
+            "means": "foot",
+            "means_type": "foot"
+          }
+        ],
+        "specs": {
+          "bathrooms": null,
+          "beds": null,
+          "bedrooms": null,
+          "guests": null,
+          "square_meters": null
+        },
+        "toa_label": "hotel",
+        "top_amenities": [
+          "internet",
+          "restaurant",
+          "room_service",
+          "bar",
+          "parking"
+        ],
+        "transportations": {
+          "airports": [],
+          "trains": []
+        },
+        "images": [
+          {
+            "image_id": "771978522",
+            "label": ""
+          },
+          {
+            "image_id": "771978479",
+            "label": ""
+          },
+          {
+            "image_id": "771978472",
+            "label": ""
+          },
+          {
+            "image_id": "771978520",
+            "label": ""
+          },
+          {
+            "image_id": "771978500",
+            "label": ""
+          },
+          {
+            "image_id": "771978470",
+            "label": ""
+          },
+          {
+            "image_id": "771978481",
+            "label": ""
+          },
+          {
+            "image_id": "771978469",
+            "label": ""
+          },
+          {
+            "image_id": "771978467",
+            "label": ""
+          },
+          {
+            "image_id": "771978490",
+            "label": ""
+          },
+          {
+            "image_id": "771978471",
+            "label": ""
+          },
+          {
+            "image_id": "771978480",
+            "label": ""
+          },
+          {
+            "image_id": "771978476",
+            "label": ""
+          },
+          {
+            "image_id": "771978466",
+            "label": ""
+          },
+          {
+            "image_id": "771978478",
+            "label": ""
+          }
+        ],
+        "hero_offer": {
+          "price": 99.54,
+          "brt": "p2d#",
+          "rf": "p2d#",
+          "brf": 9502800,
+          "rt": 9502800,
+          "vendor": "agda",
+          "vendor_id_raw": "37134493",
+          "mota_code": null,
+          "direct_offer": false,
+          "offer_flags": {
+            "breakfast": "Breakfast included",
+            "refundable": "Free cancellation",
+            "balcony": "Balcony"
+          },
+          "jc_code": "",
+          "ranking_index": 0.96,
+          "chain": "",
+          "free_cancellation": true,
+          "special": false,
+          "room_name": "Deluxe room",
+          "rooms": [
+            {
+              "name": "Deluxe room",
+              "flags": []
+            }
+          ],
+          "partner_name": "Agoda",
+          "partner_logo": "https://hotelscan.com/apis/vendors/agda/logo.svg?pos=zz"
+        },
+        "rank": 0,
+        "ctrl_srt": "im a ctrl teapot",
+        "test_srt": "im a test teapot"
+      }
+    ],
+    "filters": [],
+    "query": {
+      "pos": "zz"
+    }
+  }
+}

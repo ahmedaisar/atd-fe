@@ -1,0 +1,399 @@
+{
+  "_meta": {
+    "status": "SUCCESS",
+    "cached": true,
+    "count": 1,
+    "debug": {
+      "ticket": {
+        "ticket_id": "1011960383_zz_zz_d_publ_en_2_2025-10-08_2025-10-13_1_3",
+        "created_at": 1758065376.4669,
+        "loop": null,
+        "snapped_at": 1758065376.5632,
+        "snapshot_id": "1011960383_zz_zz_d_publ_en_2_2025-10-08_2025-10-13_1_3",
+        "snapshot_ttl": 300,
+        "executions": 2,
+        "progress": 1,
+        "save_errors": []
+      }
+    }
+  },
+  "data": {
+    "meta": [],
+    "geo": {
+      "hs_id": "xkhty9jzdrgo",
+      "region_name": "Fulidhoo",
+      "region_name_long": "Fulidhoo, Maldives",
+      "region_type": "CITY",
+      "region_id": 6336693,
+      "country_iso": "MV",
+      "country": "maldives",
+      "localised_country": "Maldives",
+      "center": [
+        3.68039,
+        73.41585
+      ],
+      "centroid": [
+        3.68051,
+        73.41586
+      ],
+      "polygon": [
+        "3.676442,73.411367",
+        "3.676347,73.421155",
+        "3.684438,73.421328",
+        "3.684409,73.41038",
+        "3.676442,73.411367"
+      ],
+      "radius": 0.75,
+      "zoom": -1,
+      "search_by_polygon": 0,
+      "cluster": 0,
+      "properties": 29,
+      "radius_override": 5,
+      "boundingbox": {
+        "ne": [
+          3.685,
+          73.422
+        ],
+        "sw": [
+          3.676,
+          73.41
+        ]
+      },
+      "airports": [
+        "MLE",
+        "DRV"
+      ],
+      "region_name_en": "Fulidhoo",
+      "region_name_long_en": "Fulidhoo, Maldives",
+      "referrer_city_name_en": "Fulidhoo",
+      "parent_region_id": 6051084,
+      "parent_hs_id": "x5p4hmhw6iot",
+      "parent_region_name": "Maldives (all)",
+      "parent_region_name_long": "Maldives (all)",
+      "dynamic_bbox": {
+        "ne": [
+          3.68,
+          73.416
+        ],
+        "sw": [
+          3.68,
+          73.416
+        ]
+      }
+    },
+    "records": [
+      {
+        "hs_id": 1011960383,
+        "slug": "kunaa-beach-inn-fulidhoo-mv-1011960383",
+        "name": "Kunaa Beach Inn",
+        "toa": "hotel",
+        "location": {
+          "city": "Fulidhoo",
+          "zip": "08090",
+          "country_iso2": "MV",
+          "address": "Banafsaa Magu Fulidhoo 3 Stories",
+          "geoid": "xkhty9jzdrgo",
+          "loc": {
+            "type": "Point"
+          },
+          "coordinates": {
+            "lng": 73.41618,
+            "lat": 3.68049
+          }
+        },
+        "opening_time": {
+          "check_in_from": "14:00",
+          "check_in_to": "22:00",
+          "check_out_from": "12:00",
+          "check_out_to": "12:00"
+        },
+        "quality": {
+          "review_count": 112,
+          "review_rating": 91,
+          "stars": 0,
+          "stars_is_estimated": false,
+          "review_source": ""
+        },
+        "covid_safe": true,
+        "amenities": {
+          "wellness": [
+            "fitness_center"
+          ],
+          "sports": [
+            "bike_rent",
+            "sub"
+          ],
+          "transfer": [
+            "shuttle_service"
+          ],
+          "food_drink": [
+            "restaurant",
+            "room_service",
+            "cafe"
+          ],
+          "outdoor": [
+            "garden",
+            "terrace"
+          ],
+          "other": [],
+          "room": [
+            "heating",
+            "air_conditioning",
+            "tv"
+          ],
+          "reception": [
+            "24h_reception",
+            "laundry_service",
+            "safety_deposit_box"
+          ]
+        },
+        "descriptions": {
+          "general": "Kunaa beach Inn in Fulidhoo provides accommodation with a garden, a terrace and a restaurant. The accommodation offers room service, a 24-hour front desk and currency exchange for guests.",
+          "localized": "Kunaa beach Inn in Fulidhoo provides accommodation with a garden, a terrace and a restaurant. The accommodation offers room service, a 24-hour front desk and currency exchange for guests."
+        },
+        "short_description": "Basic hotel with fitness center, shuttle service and bike rent",
+        "offers": [
+          {
+            "price": 148.95,
+            "brt": "p2r#",
+            "rf": "p2r#",
+            "brf": 9470016,
+            "rt": 9470016,
+            "vendor": "agda",
+            "vendor_id_raw": "41984866",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included"
+            ],
+            "jc_code": "",
+            "ranking_index": 1,
+            "chain": "",
+            "free_cancellation": false,
+            "special": false,
+            "room_name": "Standard room",
+            "rooms": [
+              {
+                "name": "Standard room",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included"
+            },
+            "partner_name": "Agoda",
+            "partner_logo": "https://hotelscan.com/apis/vendors/agda/logo.svg?pos=zz"
+          }
+        ],
+        "all_offers": [
+          {
+            "price": 148.95,
+            "brt": "p2r#",
+            "rf": "p2r#",
+            "brf": 9470016,
+            "rt": 9470016,
+            "vendor": "agda",
+            "vendor_id_raw": "41984866",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": false,
+            "special": false,
+            "room_name": "Standard room",
+            "rooms": [
+              {
+                "name": "Standard room",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included"
+            },
+            "partner_name": "Agoda",
+            "partner_logo": "https://hotelscan.com/apis/vendors/agda/logo.svg?pos=zz"
+          },
+          {
+            "price": 172.8,
+            "brt": "p2r#",
+            "rf": "p2r#",
+            "brf": 9470016,
+            "rt": 9470016,
+            "vendor": "agda",
+            "vendor_id_raw": "41984866",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": false,
+            "special": false,
+            "room_name": "Standard room",
+            "rooms": [
+              {
+                "name": "Standard room",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included"
+            },
+            "partner_name": "Agoda",
+            "partner_logo": "https://hotelscan.com/apis/vendors/agda/logo.svg?pos=zz"
+          },
+          {
+            "price": 210.76,
+            "brt": "p2r#",
+            "rf": "p2r#",
+            "brf": 9470016,
+            "rt": 9470016,
+            "vendor": "agda",
+            "vendor_id_raw": "41984866",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": false,
+            "special": false,
+            "room_name": "Standard room",
+            "rooms": [
+              {
+                "name": "Standard room",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included"
+            },
+            "partner_name": "Agoda",
+            "partner_logo": "https://hotelscan.com/apis/vendors/agda/logo.svg?pos=zz"
+          }
+        ],
+        "descriptions_language": {
+          "general": {
+            "original_language": true,
+            "text": "Kunaa beach Inn in Fulidhoo provides accommodation with a garden, a terrace and a restaurant. The accommodation offers room service, a 24-hour front desk and currency exchange for guests."
+          }
+        },
+        "chain_code": null,
+        "bids": {
+          "agda": "j23"
+        },
+        "worst_offer": null,
+        "best_offer": 148.95,
+        "best_offer_ota": "agda",
+        "best_offer_mota": null,
+        "discount": 0,
+        "offers_count": 3,
+        "coordinates": {
+          "lat": 3.68049,
+          "lng": 73.41618
+        },
+        "distance": 0.04,
+        "neighborhood": null,
+        "badge": null,
+        "distances": [
+          {
+            "from": "center",
+            "distance": 0.04,
+            "time": 56,
+            "means": "foot",
+            "means_type": "foot"
+          }
+        ],
+        "specs": {
+          "bathrooms": null,
+          "beds": null,
+          "bedrooms": null,
+          "guests": null,
+          "square_meters": null
+        },
+        "toa_label": "hotel",
+        "top_amenities": [
+          "restaurant",
+          "room_service",
+          "heating",
+          "air_conditioning",
+          "24h_reception"
+        ],
+        "transportations": {
+          "airports": [],
+          "trains": []
+        },
+        "images": [
+          {
+            "image_id": "621700663",
+            "label": ""
+          },
+          {
+            "image_id": "621700659",
+            "label": ""
+          },
+          {
+            "image_id": "621700662",
+            "label": ""
+          },
+          {
+            "image_id": "621700657",
+            "label": ""
+          },
+          {
+            "image_id": "621700658",
+            "label": ""
+          },
+          {
+            "image_id": "621700660",
+            "label": ""
+          },
+          {
+            "image_id": "621700661",
+            "label": ""
+          }
+        ],
+        "hero_offer": {
+          "price": 148.95,
+          "brt": "p2r#",
+          "rf": "p2r#",
+          "brf": 9470016,
+          "rt": 9470016,
+          "vendor": "agda",
+          "vendor_id_raw": "41984866",
+          "mota_code": null,
+          "direct_offer": false,
+          "offer_flags": {
+            "breakfast": "Breakfast included"
+          },
+          "jc_code": "",
+          "ranking_index": 1,
+          "chain": "",
+          "free_cancellation": false,
+          "special": false,
+          "room_name": "Standard room",
+          "rooms": [
+            {
+              "name": "Standard room",
+              "flags": []
+            }
+          ],
+          "partner_name": "Agoda",
+          "partner_logo": "https://hotelscan.com/apis/vendors/agda/logo.svg?pos=zz"
+        },
+        "rank": 0,
+        "ctrl_srt": "im a ctrl teapot",
+        "test_srt": "im a test teapot"
+      }
+    ],
+    "filters": [],
+    "query": {
+      "pos": "zz"
+    }
+  }
+}

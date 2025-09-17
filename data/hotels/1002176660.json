@@ -1,0 +1,508 @@
+{
+  "_meta": {
+    "status": "SUCCESS",
+    "cached": true,
+    "count": 1,
+    "debug": {
+      "ticket": {
+        "ticket_id": "1002176660_zz_zz_d_publ_en_2_2025-10-08_2025-10-13_1_3",
+        "created_at": 1758065400.1797,
+        "loop": null,
+        "snapped_at": 1758065400.2642,
+        "snapshot_id": "1002176660_zz_zz_d_publ_en_2_2025-10-08_2025-10-13_1_3",
+        "snapshot_ttl": 300,
+        "executions": 2,
+        "progress": 1,
+        "save_errors": []
+      }
+    }
+  },
+  "data": {
+    "meta": [],
+    "geo": {
+      "hs_id": "83t39xyw37d0o",
+      "region_name": "Fenfushi",
+      "region_name_long": "Fenfushi, Maldives",
+      "region_type": "CITY",
+      "region_id": 3000003552,
+      "country_iso": "MV",
+      "country": "maldives",
+      "localised_country": "Maldives",
+      "center": [
+        3.48952,
+        72.7827
+      ],
+      "centroid": [
+        3.49128,
+        72.78275
+      ],
+      "polygon": [
+        "3.493002,72.77636",
+        "3.487167,72.779701",
+        "3.486267,72.785904",
+        "3.489549,72.789146",
+        "3.491374,72.785385",
+        "3.493002,72.77636"
+      ],
+      "radius": 0.74,
+      "zoom": -1,
+      "search_by_polygon": 0,
+      "cluster": 0,
+      "properties": 16,
+      "radius_override": 5,
+      "boundingbox": {
+        "ne": [
+          3.494,
+          72.79
+        ],
+        "sw": [
+          3.486,
+          72.776
+        ]
+      },
+      "airports": [
+        "MLE",
+        "DRV"
+      ],
+      "region_name_en": "Fenfushi",
+      "region_name_long_en": "Fenfushi, Maldives",
+      "referrer_city_name_en": "Fenfushi",
+      "parent_region_id": 6051084,
+      "parent_hs_id": "x5p4hmhw6iot",
+      "parent_region_name": "Maldives (all)",
+      "parent_region_name_long": "Maldives (all)",
+      "dynamic_bbox": {
+        "ne": [
+          3.488,
+          72.784
+        ],
+        "sw": [
+          3.488,
+          72.784
+        ]
+      }
+    },
+    "records": [
+      {
+        "hs_id": 1002176660,
+        "slug": "oasis-village-fenfushi-maldives-fenfushi-mv-1002176660",
+        "name": "Oasis Village Fenfushi, Maldives",
+        "toa": "guest_house",
+        "building": {
+          "room_num": 5,
+          "square_meters": 19,
+          "max_children": 1
+        },
+        "location": {
+          "city": "Fenfushi",
+          "zip": "00080",
+          "country_iso2": "MV",
+          "address": "Shabnamee Magu, Fenfushi",
+          "geoid": "83t39xyw37d0o",
+          "loc": {
+            "type": "Point"
+          },
+          "coordinates": {
+            "lng": 72.78414,
+            "lat": 3.48816
+          }
+        },
+        "opening_time": {
+          "check_in_from": "14:00",
+          "check_in_to": "23:30",
+          "check_out_from": "12:00",
+          "check_out_to": "18:00"
+        },
+        "quality": {
+          "review_count": 18,
+          "review_rating": 96,
+          "stars": 0,
+          "stars_is_estimated": false,
+          "review_source": ""
+        },
+        "covid_safe": true,
+        "amenities": {
+          "wellness": [
+            "fitness_center"
+          ],
+          "sports": [
+            "sub"
+          ],
+          "internet": [
+            "wifi",
+            "wifi_room",
+            "internet"
+          ],
+          "outdoor": [
+            "garden"
+          ],
+          "other": [],
+          "room": [
+            "fan",
+            "air_conditioning",
+            "tv"
+          ],
+          "reception": [
+            "luggage_storage",
+            "laundry_facilities",
+            "laundry_service",
+            "safety_deposit_box"
+          ]
+        },
+        "descriptions": {
+          "general": "Oasis Village Fenfushi, Maldives is situated in Fenfushi and offers a private beach area and a garden. Featuring free WiFi throughout the property, the non-smoking guest house has a public bath.",
+          "localized": "Oasis Village Fenfushi, Maldives is situated in Fenfushi and offers a private beach area and a garden. Featuring free WiFi throughout the property, the non-smoking guest house has a public bath."
+        },
+        "short_description": "Rooms with free wifi in guest house with fitness center",
+        "chain": "no_chain",
+        "brand": "no_brand",
+        "offers": [
+          {
+            "price": 107.91,
+            "brt": "p2r#",
+            "rf": "p2r#",
+            "brf": 9470016,
+            "rt": 9470016,
+            "vendor": "bkng",
+            "vendor_id_raw": "10044771",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included"
+            ],
+            "jc_code": "",
+            "ranking_index": 0.996367343156334,
+            "chain": "",
+            "free_cancellation": false,
+            "special": false,
+            "room_name": "Standard room",
+            "rooms": [
+              {
+                "name": "Standard room",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included"
+            },
+            "partner_name": "Booking.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/bkng/logo.svg?pos=zz"
+          },
+          {
+            "vendor": "agda",
+            "price": 106.93,
+            "vendor_id_raw": "39797282",
+            "mota_code": null,
+            "jc_code": "",
+            "partner_name": "Agoda",
+            "partner_logo": "https://hotelscan.com/apis/vendors/agda/logo.svg?pos=zz",
+            "room_name": "Standard room",
+            "brf": 9470016,
+            "brt": "p2r#"
+          }
+        ],
+        "all_offers": [
+          {
+            "price": 106.93,
+            "brt": "p2r#",
+            "rf": "p2r#",
+            "brf": 9470016,
+            "rt": 9470016,
+            "vendor": "agda",
+            "vendor_id_raw": "39797282",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": false,
+            "special": false,
+            "room_name": "Standard room",
+            "rooms": [
+              {
+                "name": "Standard room",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included"
+            },
+            "partner_name": "Agoda",
+            "partner_logo": "https://hotelscan.com/apis/vendors/agda/logo.svg?pos=zz"
+          },
+          {
+            "price": 107.91,
+            "brt": "p2r#",
+            "rf": "p2r#",
+            "brf": 9470016,
+            "rt": 9470016,
+            "vendor": "bkng",
+            "vendor_id_raw": "10044771",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": false,
+            "special": false,
+            "room_name": "Standard room",
+            "rooms": [
+              {
+                "name": "Standard room",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included"
+            },
+            "partner_name": "Booking.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/bkng/logo.svg?pos=zz"
+          },
+          {
+            "price": 138.75,
+            "brt": "p2r#",
+            "rf": "p2r#",
+            "brf": 9470016,
+            "rt": 9470016,
+            "vendor": "bkng",
+            "vendor_id_raw": "10044771",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": false,
+            "special": false,
+            "room_name": "Standard room",
+            "rooms": [
+              {
+                "name": "Standard room",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included"
+            },
+            "partner_name": "Booking.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/bkng/logo.svg?pos=zz"
+          },
+          {
+            "price": 174.62,
+            "brt": "p2r#",
+            "rf": "p2r#",
+            "brf": 8454208,
+            "rt": 8454208,
+            "vendor": "agda",
+            "vendor_id_raw": "39797282",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Free cancellation"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Standard room",
+            "rooms": [
+              {
+                "name": "Standard room",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "refundable": "Free cancellation"
+            },
+            "partner_name": "Agoda",
+            "partner_logo": "https://hotelscan.com/apis/vendors/agda/logo.svg?pos=zz"
+          },
+          {
+            "price": 176.24,
+            "brt": "p2r#",
+            "rf": "p2r#",
+            "brf": 8454272,
+            "rt": 8454272,
+            "vendor": "bkng",
+            "vendor_id_raw": "10044771",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Free cancellation",
+              "Pay at the property"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Standard room",
+            "rooms": [
+              {
+                "name": "Standard room",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "refundable": "Free cancellation",
+              "pay_at_hotel": "Pay at the property"
+            },
+            "partner_name": "Booking.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/bkng/logo.svg?pos=zz"
+          }
+        ],
+        "descriptions_language": {
+          "general": {
+            "original_language": true,
+            "text": "Oasis Village Fenfushi, Maldives is situated in Fenfushi and offers a private beach area and a garden. Featuring free WiFi throughout the property, the non-smoking guest house has a public bath."
+          }
+        },
+        "chain_code": null,
+        "bids": {
+          "agda": "j23",
+          "bkng": "j23"
+        },
+        "worst_offer": null,
+        "best_offer": 106.93,
+        "best_offer_ota": "agda",
+        "best_offer_mota": null,
+        "discount": 0,
+        "offers_count": 5,
+        "coordinates": {
+          "lat": 3.48816,
+          "lng": 72.78414
+        },
+        "distance": 0.22,
+        "neighborhood": null,
+        "badge": null,
+        "distances": [
+          {
+            "from": "center",
+            "distance": 0.22,
+            "time": 306,
+            "means": "foot",
+            "means_type": "foot"
+          }
+        ],
+        "specs": {
+          "bathrooms": 1,
+          "beds": null,
+          "bedrooms": 1,
+          "guests": 3,
+          "square_meters": 19
+        },
+        "toa_label": "guest house",
+        "top_amenities": [
+          "wifi_room",
+          "internet",
+          "air_conditioning"
+        ],
+        "transportations": {
+          "airports": [],
+          "trains": []
+        },
+        "images": [
+          {
+            "image_id": "679537793",
+            "label": ""
+          },
+          {
+            "image_id": "679537794",
+            "label": ""
+          },
+          {
+            "image_id": "679537787",
+            "label": ""
+          },
+          {
+            "image_id": "679537843",
+            "label": ""
+          },
+          {
+            "image_id": "679537786",
+            "label": ""
+          },
+          {
+            "image_id": "679537812",
+            "label": ""
+          },
+          {
+            "image_id": "679537797",
+            "label": ""
+          },
+          {
+            "image_id": "679537785",
+            "label": ""
+          },
+          {
+            "image_id": "679537815",
+            "label": ""
+          },
+          {
+            "image_id": "679537826",
+            "label": ""
+          },
+          {
+            "image_id": "679537779",
+            "label": ""
+          },
+          {
+            "image_id": "679537825",
+            "label": ""
+          },
+          {
+            "image_id": "679537827",
+            "label": ""
+          },
+          {
+            "image_id": "679537833",
+            "label": ""
+          },
+          {
+            "image_id": "679537842",
+            "label": ""
+          }
+        ],
+        "hero_offer": {
+          "price": 107.91,
+          "brt": "p2r#",
+          "rf": "p2r#",
+          "brf": 9470016,
+          "rt": 9470016,
+          "vendor": "bkng",
+          "vendor_id_raw": "10044771",
+          "mota_code": null,
+          "direct_offer": false,
+          "offer_flags": {
+            "breakfast": "Breakfast included"
+          },
+          "jc_code": "",
+          "ranking_index": 0.996367343156334,
+          "chain": "",
+          "free_cancellation": false,
+          "special": false,
+          "room_name": "Standard room",
+          "rooms": [
+            {
+              "name": "Standard room",
+              "flags": []
+            }
+          ],
+          "partner_name": "Booking.com",
+          "partner_logo": "https://hotelscan.com/apis/vendors/bkng/logo.svg?pos=zz"
+        },
+        "rank": 0,
+        "ctrl_srt": "im a ctrl teapot",
+        "test_srt": "im a test teapot"
+      }
+    ],
+    "filters": [],
+    "query": {
+      "pos": "zz"
+    }
+  }
+}

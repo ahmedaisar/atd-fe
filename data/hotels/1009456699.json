@@ -1,0 +1,604 @@
+{
+  "_meta": {
+    "status": "SUCCESS",
+    "cached": true,
+    "count": 1,
+    "debug": {
+      "ticket": {
+        "ticket_id": "1009456699_zz_zz_d_publ_en_2_2025-10-08_2025-10-13_1_3",
+        "created_at": 1758065396.7297,
+        "loop": null,
+        "snapped_at": 1758065396.8263,
+        "snapshot_id": "1009456699_zz_zz_d_publ_en_2_2025-10-08_2025-10-13_1_3",
+        "snapshot_ttl": 300,
+        "executions": 2,
+        "progress": 1,
+        "save_errors": []
+      }
+    }
+  },
+  "data": {
+    "meta": [],
+    "geo": {
+      "hs_id": "83t39m8uv1vot",
+      "region_name": "Hangnaameedhoo",
+      "region_name_long": "Hangnaameedhoo, Maldives",
+      "region_type": "CITY",
+      "region_id": 3000003540,
+      "country_iso": "MV",
+      "country": "maldives",
+      "localised_country": "Maldives",
+      "center": [
+        3.84952,
+        72.95466
+      ],
+      "centroid": [
+        3.84796,
+        72.95466
+      ],
+      "polygon": [
+        "3.852316,72.948761",
+        "3.850608,72.961716",
+        "3.847115,72.962151",
+        "3.8481,72.947128",
+        "3.852316,72.948761"
+      ],
+      "radius": 0.84,
+      "zoom": -1,
+      "search_by_polygon": 0,
+      "cluster": 0,
+      "properties": 20,
+      "radius_override": 5,
+      "boundingbox": {
+        "ne": [
+          3.853,
+          72.963
+        ],
+        "sw": [
+          3.847,
+          72.947
+        ]
+      },
+      "airports": [
+        "MLE",
+        "DRV"
+      ],
+      "region_name_en": "Hangnaameedhoo",
+      "region_name_long_en": "Hangnaameedhoo, Maldives",
+      "referrer_city_name_en": "Hangnaameedhoo",
+      "parent_region_id": 6051084,
+      "parent_hs_id": "x5p4hmhw6iot",
+      "parent_region_name": "Maldives (all)",
+      "parent_region_name_long": "Maldives (all)",
+      "dynamic_bbox": {
+        "ne": [
+          3.849,
+          72.953
+        ],
+        "sw": [
+          3.849,
+          72.953
+        ]
+      }
+    },
+    "records": [
+      {
+        "hs_id": 1009456699,
+        "slug": "island-grand-maldives-hangnaameedhoo-mv-1009456699",
+        "name": "Island Grand Maldives",
+        "toa": "hotel",
+        "location": {
+          "city": "Hangnaameedhoo",
+          "zip": "00010",
+          "country_iso2": "MV",
+          "address": "Saharaa Magu Full Moon",
+          "geoid": "83t39m8uv1vot",
+          "loc": {
+            "type": "Point"
+          },
+          "coordinates": {
+            "lng": 72.95365,
+            "lat": 3.84949
+          }
+        },
+        "opening_time": {
+          "check_in_from": "12:00",
+          "check_in_to": "12:00",
+          "check_out_from": "12:00",
+          "check_out_to": "12:00"
+        },
+        "quality": {
+          "review_count": 1,
+          "review_rating": 100,
+          "stars": 0,
+          "stars_is_estimated": false,
+          "review_source": ""
+        },
+        "covid_safe": true,
+        "amenities": {
+          "sports": [
+            "bike_rent",
+            "sub"
+          ],
+          "internet": [
+            "wifi",
+            "internet"
+          ],
+          "food_drink": [
+            "restaurant",
+            "room_service",
+            "cafe"
+          ],
+          "outdoor": [
+            "garden"
+          ],
+          "other": [],
+          "business": [
+            "business_services"
+          ],
+          "children": [
+            "children_playground"
+          ],
+          "entertainment": [
+            "tv_lobby"
+          ],
+          "transfer": [
+            "shuttle_service"
+          ],
+          "room": [
+            "fan",
+            "air_conditioning",
+            "tv"
+          ],
+          "reception": [
+            "24h_reception",
+            "luggage_storage",
+            "laundry_service",
+            "safety_deposit_box"
+          ]
+        },
+        "descriptions": {
+          "general": "Island Grand Maldives offers top-notch services and amenities, ensuring guests experience utmost comfort.Share your photos and respond to emails at your convenience, thanks to the free Wi-Fi internet access offered by hotel.Should you require transportation to or from the airport, hotel is able to organize it prior to your arrival date.Reception services such as luggage storage and safety deposit boxes are available to accommodate your requirements. Traveling with minimal luggage is achievable at Island Grand Maldives due to the hotel's laundry service ensuring your garments stay fresh.Room amenities like room service and daily housekeeping contribute to making a perfect selection for your stay.Smoking is limited to specified smoking zones. Each accommodation at Island Grand Maldives is thoughtfully created and adorned to provide visitors with a comfortable, home-like atmosphere.In certain rooms, the hotel offers linen service and air conditioning for guest convenience and satisfaction.Rest assured, in a few chosen rooms, you will find the convenience of a coffee or tea maker, bottled water, instant coffee and mini bar at your disposal. Maintain your cleanliness and comfort using a hair dryer and toiletries available in select guest restrooms. Begin your holiday on a high note. At Island Grand Maldives, your mornings are greeted with a delightful, free breakfast. Should you prefer not to venture out for a meal, the enticing culinary choices at hotel are always available for your satisfaction.Should you be particularly discerning in your dining choices, you will surely appreciate having access to the on-site BBQ facilities provided at this location. Island Grand Maldives provides a superb assortment of leisure amenities for guests to enjoy.Make certain to allocate time for discovering the shoreline, easily reachable right from the hotel.",
+          "localized": "Island Grand Maldives offers top-notch services and amenities, ensuring guests experience utmost comfort.Share your photos and respond to emails at your convenience, thanks to the free Wi-Fi internet access offered by hotel.Should you require transportation to or from the airport, hotel is able to organize it prior to your arrival date.Reception services such as luggage storage and safety deposit boxes are available to accommodate your requirements. Traveling with minimal luggage is achievable at Island Grand Maldives due to the hotel's laundry service ensuring your garments stay fresh.Room amenities like room service and daily housekeeping contribute to making a perfect selection for your stay.Smoking is limited to specified smoking zones. Each accommodation at Island Grand Maldives is thoughtfully created and adorned to provide visitors with a comfortable, home-like atmosphere.In certain rooms, the hotel offers linen service and air conditioning for guest convenience and satisfaction.Rest assured, in a few chosen rooms, you will find the convenience of a coffee or tea maker, bottled water, instant coffee and mini bar at your disposal. Maintain your cleanliness and comfort using a hair dryer and toiletries available in select guest restrooms. Begin your holiday on a high note. At Island Grand Maldives, your mornings are greeted with a delightful, free breakfast. Should you prefer not to venture out for a meal, the enticing culinary choices at hotel are always available for your satisfaction.Should you be particularly discerning in your dining choices, you will surely appreciate having access to the on-site BBQ facilities provided at this location. Island Grand Maldives provides a superb assortment of leisure amenities for guests to enjoy.Make certain to allocate time for discovering the shoreline, easily reachable right from the hotel."
+        },
+        "short_description": "Simple hotel with shuttle service, bike rent and restaurant",
+        "chain": "no_chain",
+        "brand": "no_brand",
+        "offers": [
+          {
+            "price": 30.7,
+            "brt": "p2r#q",
+            "rf": "p2r#q",
+            "brf": 8454720,
+            "rt": 8454720,
+            "vendor": "agda",
+            "vendor_id_raw": "29462158",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Free cancellation",
+              "Garden view"
+            ],
+            "jc_code": "",
+            "ranking_index": 0.96,
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Standard room - Queen bed",
+            "rooms": [
+              {
+                "name": "Standard room - Queen bed",
+                "flags": [
+                  "Queen bed"
+                ]
+              }
+            ],
+            "offer_flags_new": {
+              "refundable": "Free cancellation",
+              "view_garden": "Garden view"
+            },
+            "partner_name": "Agoda",
+            "partner_logo": "https://hotelscan.com/apis/vendors/agda/logo.svg?pos=zz"
+          },
+          {
+            "vendor": "bkng",
+            "price": 54.73,
+            "vendor_id_raw": "8056669",
+            "mota_code": null,
+            "jc_code": "",
+            "partner_name": "Booking.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/bkng/logo.svg?pos=zz",
+            "room_name": "Standard room - Twin beds",
+            "brf": 9503360,
+            "brt": "p2r#t"
+          },
+          {
+            "vendor": "ctrp",
+            "price": 75.27,
+            "vendor_id_raw": "84956403",
+            "mota_code": null,
+            "jc_code": "TRIPCOM",
+            "partner_name": "Trip.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/ctrp/logo.svg?pos=zz",
+            "room_name": "Standard room - Queen bed",
+            "brf": 8454208,
+            "brt": "p2r#q"
+          }
+        ],
+        "all_offers": [
+          {
+            "price": 30.7,
+            "brt": "p2r#q",
+            "rf": "p2r#q",
+            "brf": 8454720,
+            "rt": 8454720,
+            "vendor": "agda",
+            "vendor_id_raw": "29462158",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Free cancellation",
+              "Garden view"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Standard room - Queen bed",
+            "rooms": [
+              {
+                "name": "Standard room - Queen bed",
+                "flags": [
+                  "Queen bed"
+                ]
+              }
+            ],
+            "offer_flags_new": {
+              "refundable": "Free cancellation",
+              "view_garden": "Garden view"
+            },
+            "partner_name": "Agoda",
+            "partner_logo": "https://hotelscan.com/apis/vendors/agda/logo.svg?pos=zz"
+          },
+          {
+            "price": 54.23,
+            "brt": "p2r#t",
+            "rf": "p2r#t",
+            "brf": 9503360,
+            "rt": 9503360,
+            "vendor": "agda",
+            "vendor_id_raw": "29462158",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included",
+              "Free cancellation",
+              "Garden view",
+              "Pay at the property"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Standard room - Twin beds",
+            "rooms": [
+              {
+                "name": "Standard room - Twin beds",
+                "flags": [
+                  "Twin beds"
+                ]
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included",
+              "refundable": "Free cancellation",
+              "view_garden": "Garden view",
+              "pay_at_hotel": "Pay at the property"
+            },
+            "partner_name": "Agoda",
+            "partner_logo": "https://hotelscan.com/apis/vendors/agda/logo.svg?pos=zz"
+          },
+          {
+            "price": 54.73,
+            "brt": "p2r#t",
+            "rf": "p2r#t",
+            "brf": 9503360,
+            "rt": 9503360,
+            "vendor": "bkng",
+            "vendor_id_raw": "8056669",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included",
+              "Free cancellation",
+              "Garden view",
+              "Pay at the property"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Standard room - Twin beds",
+            "rooms": [
+              {
+                "name": "Standard room - Twin beds",
+                "flags": [
+                  "Twin beds"
+                ]
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included",
+              "refundable": "Free cancellation",
+              "view_garden": "Garden view",
+              "pay_at_hotel": "Pay at the property"
+            },
+            "partner_name": "Booking.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/bkng/logo.svg?pos=zz"
+          },
+          {
+            "price": 69.02,
+            "brt": "p2r#q",
+            "rf": "p2r#q",
+            "brf": 9503360,
+            "rt": 9503360,
+            "vendor": "agda",
+            "vendor_id_raw": "29462158",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included",
+              "Free cancellation",
+              "Garden view",
+              "Pay at the property"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Standard room - Queen bed",
+            "rooms": [
+              {
+                "name": "Standard room - Queen bed",
+                "flags": [
+                  "Queen bed"
+                ]
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included",
+              "refundable": "Free cancellation",
+              "view_garden": "Garden view",
+              "pay_at_hotel": "Pay at the property"
+            },
+            "partner_name": "Agoda",
+            "partner_logo": "https://hotelscan.com/apis/vendors/agda/logo.svg?pos=zz"
+          },
+          {
+            "price": 69.65,
+            "brt": "p2r#q",
+            "rf": "p2r#q",
+            "brf": 9503360,
+            "rt": 9503360,
+            "vendor": "bkng",
+            "vendor_id_raw": "8056669",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included",
+              "Free cancellation",
+              "Garden view",
+              "Pay at the property"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Standard room - Queen bed",
+            "rooms": [
+              {
+                "name": "Standard room - Queen bed",
+                "flags": [
+                  "Queen bed"
+                ]
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included",
+              "refundable": "Free cancellation",
+              "view_garden": "Garden view",
+              "pay_at_hotel": "Pay at the property"
+            },
+            "partner_name": "Booking.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/bkng/logo.svg?pos=zz"
+          },
+          {
+            "price": 75.27,
+            "brt": "p2r#q",
+            "rf": "p2r#q",
+            "brf": 8454208,
+            "rt": 8454208,
+            "vendor": "ctrp",
+            "vendor_id_raw": "84956403",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Free cancellation"
+            ],
+            "jc_code": "TRIPCOM",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Standard room - Queen bed",
+            "rooms": [
+              {
+                "name": "Standard room - Queen bed",
+                "flags": [
+                  "Queen bed"
+                ]
+              }
+            ],
+            "offer_flags_new": {
+              "refundable": "Free cancellation"
+            },
+            "partner_name": "Trip.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/ctrp/logo.svg?pos=zz"
+          }
+        ],
+        "descriptions_language": {
+          "general": {
+            "original_language": true,
+            "text": "Island Grand Maldives offers top-notch services and amenities, ensuring guests experience utmost comfort.Share your photos and respond to emails at your convenience, thanks to the free Wi-Fi internet access offered by hotel.Should you require transportation to or from the airport, hotel is able to organize it prior to your arrival date.Reception services such as luggage storage and safety deposit boxes are available to accommodate your requirements. Traveling with minimal luggage is achievable at Island Grand Maldives due to the hotel's laundry service ensuring your garments stay fresh.Room amenities like room service and daily housekeeping contribute to making a perfect selection for your stay.Smoking is limited to specified smoking zones. Each accommodation at Island Grand Maldives is thoughtfully created and adorned to provide visitors with a comfortable, home-like atmosphere.In certain rooms, the hotel offers linen service and air conditioning for guest convenience and satisfaction.Rest assured, in a few chosen rooms, you will find the convenience of a coffee or tea maker, bottled water, instant coffee and mini bar at your disposal. Maintain your cleanliness and comfort using a hair dryer and toiletries available in select guest restrooms. Begin your holiday on a high note. At Island Grand Maldives, your mornings are greeted with a delightful, free breakfast. Should you prefer not to venture out for a meal, the enticing culinary choices at hotel are always available for your satisfaction.Should you be particularly discerning in your dining choices, you will surely appreciate having access to the on-site BBQ facilities provided at this location. Island Grand Maldives provides a superb assortment of leisure amenities for guests to enjoy.Make certain to allocate time for discovering the shoreline, easily reachable right from the hotel."
+          }
+        },
+        "chain_code": null,
+        "bids": {
+          "bkng": "j23",
+          "agda": "j23",
+          "ctrp": "j23"
+        },
+        "worst_offer": 75.27,
+        "best_offer": 30.7,
+        "best_offer_ota": "agda",
+        "best_offer_mota": null,
+        "discount": 60,
+        "offers_count": 6,
+        "coordinates": {
+          "lat": 3.84949,
+          "lng": 72.95365
+        },
+        "distance": 0.11,
+        "neighborhood": null,
+        "badge": null,
+        "distances": [
+          {
+            "from": "center",
+            "distance": 0.11,
+            "time": 153,
+            "means": "foot",
+            "means_type": "foot"
+          }
+        ],
+        "specs": {
+          "bathrooms": null,
+          "beds": null,
+          "bedrooms": null,
+          "guests": null,
+          "square_meters": null
+        },
+        "toa_label": "hotel",
+        "top_amenities": [
+          "internet",
+          "restaurant",
+          "room_service",
+          "air_conditioning",
+          "24h_reception"
+        ],
+        "transportations": {
+          "airports": [],
+          "trains": []
+        },
+        "images": [
+          {
+            "image_id": "764628027",
+            "label": ""
+          },
+          {
+            "image_id": "764628032",
+            "label": ""
+          },
+          {
+            "image_id": "764628044",
+            "label": ""
+          },
+          {
+            "image_id": "764628029",
+            "label": ""
+          },
+          {
+            "image_id": "764628031",
+            "label": ""
+          },
+          {
+            "image_id": "764628039",
+            "label": ""
+          },
+          {
+            "image_id": "764628037",
+            "label": ""
+          },
+          {
+            "image_id": "764628026",
+            "label": ""
+          },
+          {
+            "image_id": "764628028",
+            "label": ""
+          },
+          {
+            "image_id": "764628035",
+            "label": ""
+          },
+          {
+            "image_id": "764628038",
+            "label": ""
+          },
+          {
+            "image_id": "764628041",
+            "label": ""
+          },
+          {
+            "image_id": "764628045",
+            "label": ""
+          },
+          {
+            "image_id": "764628034",
+            "label": ""
+          },
+          {
+            "image_id": "764628024",
+            "label": ""
+          }
+        ],
+        "hero_offer": {
+          "price": 30.7,
+          "brt": "p2r#q",
+          "rf": "p2r#q",
+          "brf": 8454720,
+          "rt": 8454720,
+          "vendor": "agda",
+          "vendor_id_raw": "29462158",
+          "mota_code": null,
+          "direct_offer": false,
+          "offer_flags": {
+            "refundable": "Free cancellation",
+            "view_garden": "Garden view"
+          },
+          "jc_code": "",
+          "ranking_index": 0.96,
+          "chain": "",
+          "free_cancellation": true,
+          "special": false,
+          "room_name": "Standard room - Queen bed",
+          "rooms": [
+            {
+              "name": "Standard room - Queen bed",
+              "flags": [
+                "Queen bed"
+              ]
+            }
+          ],
+          "partner_name": "Agoda",
+          "partner_logo": "https://hotelscan.com/apis/vendors/agda/logo.svg?pos=zz"
+        },
+        "rank": 0,
+        "ctrl_srt": "im a ctrl teapot",
+        "test_srt": "im a test teapot"
+      }
+    ],
+    "filters": [],
+    "query": {
+      "pos": "zz"
+    }
+  }
+}

@@ -1,0 +1,844 @@
+{
+  "_meta": {
+    "status": "SUCCESS",
+    "cached": true,
+    "count": 1,
+    "debug": {
+      "ticket": {
+        "ticket_id": "1001693594_zz_zz_d_publ_en_2_2025-10-08_2025-10-13_1_3",
+        "created_at": 1758065356.8877,
+        "loop": null,
+        "snapped_at": 1758065356.9816,
+        "snapshot_id": "1001693594_zz_zz_d_publ_en_2_2025-10-08_2025-10-13_1_3",
+        "snapshot_ttl": 300,
+        "executions": 2,
+        "progress": 1,
+        "save_errors": []
+      }
+    }
+  },
+  "data": {
+    "meta": [],
+    "geo": {
+      "hs_id": "xkhryl35ftb2",
+      "region_name": "Thoddoo",
+      "region_name_long": "Thoddoo, Maldives",
+      "region_type": "CITY",
+      "region_id": 6337256,
+      "country_iso": "MV",
+      "country": "maldives",
+      "localised_country": "Maldives",
+      "center": [
+        4.43729,
+        72.95954
+      ],
+      "centroid": [
+        4.43729,
+        72.96036
+      ],
+      "polygon": [
+        "4.425651,72.959838",
+        "4.430975,72.968935",
+        "4.431131,72.968938",
+        "4.441786,72.967547",
+        "4.448931,72.960879",
+        "4.445211,72.952565",
+        "4.438801,72.950145",
+        "4.425651,72.959838"
+      ],
+      "radius": 1.3,
+      "zoom": -1,
+      "search_by_polygon": 1,
+      "cluster": 0,
+      "properties": 85,
+      "radius_override": 5,
+      "boundingbox": {
+        "ne": [
+          4.449,
+          72.969
+        ],
+        "sw": [
+          4.425,
+          72.95
+        ]
+      },
+      "airports": [
+        "MLE",
+        "DRV"
+      ],
+      "region_name_en": "Thoddoo",
+      "region_name_long_en": "Thoddoo, Maldives",
+      "referrer_city_name_en": "Thoddoo",
+      "parent_region_id": 6051084,
+      "parent_hs_id": "x5p4hmhw6iot",
+      "parent_region_name": "Maldives (all)",
+      "parent_region_name_long": "Maldives (all)",
+      "dynamic_bbox": {
+        "ne": [
+          4.439,
+          72.961
+        ],
+        "sw": [
+          4.439,
+          72.961
+        ]
+      }
+    },
+    "records": [
+      {
+        "hs_id": 1001693594,
+        "slug": "athiriveli-thoddoo-mv-1001693594",
+        "name": "Athiriveli",
+        "ty_id": "0da5ef17-56a5-4009-8893-1cce86861b9a",
+        "toa": "guest_house",
+        "building": {
+          "room_num": 7,
+          "square_meters": 13,
+          "max_children": 2
+        },
+        "location": {
+          "city": "Thoddoo",
+          "zip": "09010",
+          "country_iso2": "MV",
+          "address": "Shaheed Ali Hingun",
+          "geoid": "xkhryl35ftb2",
+          "loc": {
+            "type": "Point"
+          },
+          "coordinates": {
+            "lng": 72.961,
+            "lat": 4.4391
+          }
+        },
+        "opening_time": {
+          "check_in_from": "12:00",
+          "check_in_to": null,
+          "check_out_from": null,
+          "check_out_to": "11:00"
+        },
+        "quality": {
+          "review_count": 79,
+          "review_rating": 90,
+          "stars": 3,
+          "stars_is_estimated": false,
+          "review_source": ""
+        },
+        "covid_safe": true,
+        "amenities": {
+          "children": [
+            "babysitter"
+          ],
+          "sports": [
+            "ski",
+            "bike_rent",
+            "sub"
+          ],
+          "internet": [
+            "wifi",
+            "internet"
+          ],
+          "food_drink": [
+            "restaurant",
+            "room_service",
+            "cafe",
+            "bar",
+            "tea_coffee_maker"
+          ],
+          "disability": [
+            "wheelchair_accessible",
+            "disability_facilities"
+          ],
+          "parking": [
+            "parking"
+          ],
+          "outdoor": [
+            "garden",
+            "terrace",
+            "patio"
+          ],
+          "other": [],
+          "entertainment": [
+            "tv_lobby"
+          ],
+          "transfer": [
+            "shuttle_service"
+          ],
+          "room": [
+            "fan",
+            "air_conditioning",
+            "tv",
+            "tea_coffe_maker_room"
+          ],
+          "reception": [
+            "24h_reception",
+            "luggage_storage",
+            "laundry_facilities",
+            "laundry_service",
+            "safety_deposit_box"
+          ]
+        },
+        "descriptions": {
+          "direction": "Located in Thoddoo, Athiriveli is on the beach. The area's natural beauty can be seen at Beyru Kandu Dive Site and North Channel Dive Site. With scuba diving, snorkeling, and fishing nearby, you'll find plenty of adventures in the water.",
+          "general": "Experience an abundance of unparalleled facilities and features at Athiriveli at Thoddoo Island. Share your photos and respond to emails at your convenience, thanks to the free Wi-Fi internet access offered by hotel. Should you require transportation to or from the airport, hotel is able to organize it prior to your arrival date. Experience the wonders of Maldive Islands with ease by utilizing the services provided at car hire.Reception services such as express check-in or check-out and safety deposit boxes are available to accommodate your requirements.Traveling with minimal luggage is achievable at Athiriveli at Thoddoo Island due to the hotel's laundry service ensuring your garments stay fresh.Smoking is limited to specified smoking zones.Each accommodation at Athiriveli at Thoddoo Island is thoughtfully created and adorned to provide visitors with a comfortable, home-like atmosphere. In select rooms of the hotel, guests can enjoy the advantage of having air conditioning available for their convenience. In select rooms, guests can enjoy a touch of amusement with the availability of cable TV for their entertainment. Rest assured, in a few chosen rooms, you will find the convenience of bottled water, instant coffee, instant tea and mini bar at your disposal. Begin your holiday on a high note. At Athiriveli at Thoddoo Island, your mornings are greeted with a delightful, free breakfast. Should you prefer not to venture out for a meal, the enticing culinary choices at hotel are always available for your satisfaction.No matter your specific dietary needs, rest assured that Athiriveli at Thoddoo Island provides an array of halal choices to ensure your dining experience is nothing short of delightful. Experience an unforgettable evening with your fellow travelers just a short distance away, at hotel's bar. Should you be particularly discerning in your dining choices, you will surely appreciate having access to the on-site BBQ facilities provided at this location.Indulge in the numerous pursuits available at Athiriveli at Thoddoo Island. Make certain to allocate time for discovering the shoreline, easily reachable right from the hotel. Experience daily skiing adventures with convenient proximity to the on-site ski slopes and ski lessons.",
+          "amenities": true,
+          "localized": "Experience an abundance of unparalleled facilities and features at Athiriveli at Thoddoo Island. Share your photos and respond to emails at your convenience, thanks to the free Wi-Fi internet access offered by hotel. Should you require transportation to or from the airport, hotel is able to organize it prior to your arrival date. Experience the wonders of Maldive Islands with ease by utilizing the services provided at car hire.Reception services such as express check-in or check-out and safety deposit boxes are available to accommodate your requirements.Traveling with minimal luggage is achievable at Athiriveli at Thoddoo Island due to the hotel's laundry service ensuring your garments stay fresh.Smoking is limited to specified smoking zones.Each accommodation at Athiriveli at Thoddoo Island is thoughtfully created and adorned to provide visitors with a comfortable, home-like atmosphere. In select rooms of the hotel, guests can enjoy the advantage of having air conditioning available for their convenience. In select rooms, guests can enjoy a touch of amusement with the availability of cable TV for their entertainment. Rest assured, in a few chosen rooms, you will find the convenience of bottled water, instant coffee, instant tea and mini bar at your disposal. Begin your holiday on a high note. At Athiriveli at Thoddoo Island, your mornings are greeted with a delightful, free breakfast. Should you prefer not to venture out for a meal, the enticing culinary choices at hotel are always available for your satisfaction.No matter your specific dietary needs, rest assured that Athiriveli at Thoddoo Island provides an array of halal choices to ensure your dining experience is nothing short of delightful. Experience an unforgettable evening with your fellow travelers just a short distance away, at hotel's bar. Should you be particularly discerning in your dining choices, you will surely appreciate having access to the on-site BBQ facilities provided at this location.Indulge in the numerous pursuits available at Athiriveli at Thoddoo Island. Make certain to allocate time for discovering the shoreline, easily reachable right from the hotel. Experience daily skiing adventures with convenient proximity to the on-site ski slopes and ski lessons."
+        },
+        "short_description": "Excellent accommodation. Great location. Beautiful beach.",
+        "chain": "no_chain",
+        "brand": "no_brand",
+        "offers": [
+          {
+            "price": 53.54,
+            "brt": "p2d#k",
+            "rf": "p2d#k",
+            "brf": 9470080,
+            "rt": 9470080,
+            "vendor": "bkng",
+            "vendor_id_raw": "2774575",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included",
+              "Pay at the property"
+            ],
+            "jc_code": "",
+            "ranking_index": 0.960403436682854,
+            "chain": "",
+            "free_cancellation": false,
+            "special": false,
+            "room_name": "Deluxe room - King bed",
+            "rooms": [
+              {
+                "name": "Deluxe room - King bed",
+                "flags": [
+                  "King bed"
+                ]
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included",
+              "pay_at_hotel": "Pay at the property"
+            },
+            "partner_name": "Booking.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/bkng/logo.svg?pos=zz"
+          },
+          {
+            "vendor": "agda",
+            "price": 51.22,
+            "vendor_id_raw": "3465693",
+            "mota_code": null,
+            "jc_code": "",
+            "partner_name": "Agoda",
+            "partner_logo": "https://hotelscan.com/apis/vendors/agda/logo.svg?pos=zz",
+            "room_name": "Superior deluxe room",
+            "brf": 9502784,
+            "brt": "p2cd"
+          },
+          {
+            "vendor": "htls",
+            "price": 58.62,
+            "vendor_id_raw": "671612512",
+            "mota_code": null,
+            "jc_code": "",
+            "partner_name": "Hotels.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/htls/logo.svg?pos=zz",
+            "room_name": "Standard room - King bed",
+            "brf": 9510976,
+            "brt": "p2r#k"
+          },
+          {
+            "vendor": "ctrp",
+            "price": 48.24,
+            "vendor_id_raw": "12165487",
+            "mota_code": null,
+            "jc_code": "TRIPCOM",
+            "partner_name": "Trip.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/ctrp/logo.svg?pos=zz",
+            "room_name": "Standard room - King bed",
+            "brf": 9510976,
+            "brt": "p2r#k"
+          },
+          {
+            "vendor": "expd",
+            "price": 58.62,
+            "vendor_id_raw": "20956641",
+            "mota_code": null,
+            "jc_code": "EXPEDIA",
+            "partner_name": "Expedia",
+            "partner_logo": "https://hotelscan.com/apis/vendors/expd/logo.svg?pos=zz",
+            "room_name": "Standard room - King bed",
+            "brf": 9510976,
+            "brt": "p2r#k"
+          }
+        ],
+        "all_offers": [
+          {
+            "price": 48.24,
+            "brt": "p2r#k",
+            "rf": "p2r#k",
+            "brf": 9510976,
+            "rt": 9510976,
+            "vendor": "ctrp",
+            "vendor_id_raw": "12165487",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included",
+              "Free cancellation"
+            ],
+            "jc_code": "TRIPCOM",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Standard room - King bed",
+            "rooms": [
+              {
+                "name": "Standard room - King bed",
+                "flags": [
+                  "King bed"
+                ]
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included",
+              "refundable": "Free cancellation"
+            },
+            "partner_name": "Trip.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/ctrp/logo.svg?pos=zz"
+          },
+          {
+            "price": 51.22,
+            "brt": "p2cd",
+            "rf": "p2cd",
+            "brf": 9502784,
+            "rt": 9502784,
+            "vendor": "agda",
+            "vendor_id_raw": "3465693",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included",
+              "Free cancellation"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Superior deluxe room",
+            "rooms": [
+              {
+                "name": "Superior deluxe room",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included",
+              "refundable": "Free cancellation"
+            },
+            "partner_name": "Agoda",
+            "partner_logo": "https://hotelscan.com/apis/vendors/agda/logo.svg?pos=zz"
+          },
+          {
+            "price": 53.07,
+            "brt": "p2d#k",
+            "rf": "p2d#k",
+            "brf": 9470080,
+            "rt": 9470080,
+            "vendor": "agda",
+            "vendor_id_raw": "3465693",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included",
+              "Pay at the property"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": false,
+            "special": false,
+            "room_name": "Deluxe room - King bed",
+            "rooms": [
+              {
+                "name": "Deluxe room - King bed",
+                "flags": [
+                  "King bed"
+                ]
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included",
+              "pay_at_hotel": "Pay at the property"
+            },
+            "partner_name": "Agoda",
+            "partner_logo": "https://hotelscan.com/apis/vendors/agda/logo.svg?pos=zz"
+          },
+          {
+            "price": 53.54,
+            "brt": "p2d#k",
+            "rf": "p2d#k",
+            "brf": 9470080,
+            "rt": 9470080,
+            "vendor": "bkng",
+            "vendor_id_raw": "2774575",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included",
+              "Pay at the property"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": false,
+            "special": false,
+            "room_name": "Deluxe room - King bed",
+            "rooms": [
+              {
+                "name": "Deluxe room - King bed",
+                "flags": [
+                  "King bed"
+                ]
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included",
+              "pay_at_hotel": "Pay at the property"
+            },
+            "partner_name": "Booking.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/bkng/logo.svg?pos=zz"
+          },
+          {
+            "price": 55.22,
+            "brt": "p2d#k",
+            "rf": "p2d#k",
+            "brf": 8454272,
+            "rt": 8454272,
+            "vendor": "agda",
+            "vendor_id_raw": "3465693",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Free cancellation",
+              "Pay at the property"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Deluxe room - King bed",
+            "rooms": [
+              {
+                "name": "Deluxe room - King bed",
+                "flags": [
+                  "King bed"
+                ]
+              }
+            ],
+            "offer_flags_new": {
+              "refundable": "Free cancellation",
+              "pay_at_hotel": "Pay at the property"
+            },
+            "partner_name": "Agoda",
+            "partner_logo": "https://hotelscan.com/apis/vendors/agda/logo.svg?pos=zz"
+          },
+          {
+            "price": 55.71,
+            "brt": "p2d#k",
+            "rf": "p2d#k",
+            "brf": 8454272,
+            "rt": 8454272,
+            "vendor": "bkng",
+            "vendor_id_raw": "2774575",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Free cancellation",
+              "Pay at the property"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Deluxe room - King bed",
+            "rooms": [
+              {
+                "name": "Deluxe room - King bed",
+                "flags": [
+                  "King bed"
+                ]
+              }
+            ],
+            "offer_flags_new": {
+              "refundable": "Free cancellation",
+              "pay_at_hotel": "Pay at the property"
+            },
+            "partner_name": "Booking.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/bkng/logo.svg?pos=zz"
+          },
+          {
+            "price": 58.62,
+            "brt": "p2r#k",
+            "rf": "p2r#k",
+            "brf": 9510976,
+            "rt": 9510976,
+            "vendor": "htls",
+            "vendor_id_raw": "671612512",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included",
+              "Free cancellation"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Standard room - King bed",
+            "rooms": [
+              {
+                "name": "Standard room - King bed",
+                "flags": [
+                  "King bed"
+                ]
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included",
+              "refundable": "Free cancellation"
+            },
+            "partner_name": "Hotels.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/htls/logo.svg?pos=zz"
+          },
+          {
+            "price": 58.62,
+            "brt": "p2r#k",
+            "rf": "p2r#k",
+            "brf": 9510976,
+            "rt": 9510976,
+            "vendor": "expd",
+            "vendor_id_raw": "20956641",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included",
+              "Free cancellation"
+            ],
+            "jc_code": "EXPEDIA",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Standard room - King bed",
+            "rooms": [
+              {
+                "name": "Standard room - King bed",
+                "flags": [
+                  "King bed"
+                ]
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included",
+              "refundable": "Free cancellation"
+            },
+            "partner_name": "Expedia",
+            "partner_logo": "https://hotelscan.com/apis/vendors/expd/logo.svg?pos=zz"
+          },
+          {
+            "price": 146.78,
+            "brt": "p2d#k",
+            "rf": "p2d#k",
+            "brf": 9470080,
+            "rt": 9470080,
+            "vendor": "agda",
+            "vendor_id_raw": "3465693",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included",
+              "Pay at the property"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": false,
+            "special": false,
+            "room_name": "Deluxe room - King bed",
+            "rooms": [
+              {
+                "name": "Deluxe room - King bed",
+                "flags": [
+                  "King bed"
+                ]
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included",
+              "pay_at_hotel": "Pay at the property"
+            },
+            "partner_name": "Agoda",
+            "partner_logo": "https://hotelscan.com/apis/vendors/agda/logo.svg?pos=zz"
+          },
+          {
+            "price": 148.11,
+            "brt": "p2d#k",
+            "rf": "p2d#k",
+            "brf": 12091520,
+            "rt": 12091520,
+            "vendor": "bkng",
+            "vendor_id_raw": "2774575",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast and dinner",
+              "Pay at the property"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": false,
+            "special": false,
+            "room_name": "Deluxe room - King bed",
+            "rooms": [
+              {
+                "name": "Deluxe room - King bed",
+                "flags": [
+                  "King bed"
+                ]
+              }
+            ],
+            "offer_flags_new": {
+              "half_board_dinner": "Breakfast and dinner",
+              "pay_at_hotel": "Pay at the property"
+            },
+            "partner_name": "Booking.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/bkng/logo.svg?pos=zz"
+          },
+          {
+            "price": 176.05,
+            "brt": "p2d#k",
+            "rf": "p2d#k",
+            "brf": 9470080,
+            "rt": 9470080,
+            "vendor": "agda",
+            "vendor_id_raw": "3465693",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included",
+              "Pay at the property"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": false,
+            "special": false,
+            "room_name": "Deluxe room - King bed",
+            "rooms": [
+              {
+                "name": "Deluxe room - King bed",
+                "flags": [
+                  "King bed"
+                ]
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included",
+              "pay_at_hotel": "Pay at the property"
+            },
+            "partner_name": "Agoda",
+            "partner_logo": "https://hotelscan.com/apis/vendors/agda/logo.svg?pos=zz"
+          },
+          {
+            "price": 177.67,
+            "brt": "p2d#k",
+            "rf": "p2d#k",
+            "brf": 9994368,
+            "rt": 9994368,
+            "vendor": "bkng",
+            "vendor_id_raw": "2774575",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Full board",
+              "Pay at the property"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": false,
+            "special": false,
+            "room_name": "Deluxe room - King bed",
+            "rooms": [
+              {
+                "name": "Deluxe room - King bed",
+                "flags": [
+                  "King bed"
+                ]
+              }
+            ],
+            "offer_flags_new": {
+              "full_board": "Full board",
+              "pay_at_hotel": "Pay at the property"
+            },
+            "partner_name": "Booking.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/bkng/logo.svg?pos=zz"
+          }
+        ],
+        "descriptions_language": {
+          "general": {
+            "original_language": true,
+            "text": "Experience an abundance of unparalleled facilities and features at Athiriveli at Thoddoo Island. Share your photos and respond to emails at your convenience, thanks to the free Wi-Fi internet access offered by hotel. Should you require transportation to or from the airport, hotel is able to organize it prior to your arrival date. Experience the wonders of Maldive Islands with ease by utilizing the services provided at car hire.Reception services such as express check-in or check-out and safety deposit boxes are available to accommodate your requirements.Traveling with minimal luggage is achievable at Athiriveli at Thoddoo Island due to the hotel's laundry service ensuring your garments stay fresh.Smoking is limited to specified smoking zones.Each accommodation at Athiriveli at Thoddoo Island is thoughtfully created and adorned to provide visitors with a comfortable, home-like atmosphere. In select rooms of the hotel, guests can enjoy the advantage of having air conditioning available for their convenience. In select rooms, guests can enjoy a touch of amusement with the availability of cable TV for their entertainment. Rest assured, in a few chosen rooms, you will find the convenience of bottled water, instant coffee, instant tea and mini bar at your disposal. Begin your holiday on a high note. At Athiriveli at Thoddoo Island, your mornings are greeted with a delightful, free breakfast. Should you prefer not to venture out for a meal, the enticing culinary choices at hotel are always available for your satisfaction.No matter your specific dietary needs, rest assured that Athiriveli at Thoddoo Island provides an array of halal choices to ensure your dining experience is nothing short of delightful. Experience an unforgettable evening with your fellow travelers just a short distance away, at hotel's bar. Should you be particularly discerning in your dining choices, you will surely appreciate having access to the on-site BBQ facilities provided at this location.Indulge in the numerous pursuits available at Athiriveli at Thoddoo Island. Make certain to allocate time for discovering the shoreline, easily reachable right from the hotel. Experience daily skiing adventures with convenient proximity to the on-site ski slopes and ski lessons."
+          },
+          "direction": {
+            "original_language": true,
+            "text": "Located in Thoddoo, Athiriveli is on the beach. The area's natural beauty can be seen at Beyru Kandu Dive Site and North Channel Dive Site. With scuba diving, snorkeling, and fishing nearby, you'll find plenty of adventures in the water."
+          }
+        },
+        "chain_code": null,
+        "bids": {
+          "expd": "j23",
+          "ctrp": "j23",
+          "bkng": "j23",
+          "htls": "j23",
+          "agda": "j23"
+        },
+        "worst_offer": 58.62,
+        "best_offer": 48.24,
+        "best_offer_ota": "ctrp",
+        "best_offer_mota": null,
+        "discount": 10,
+        "offers_count": 12,
+        "coordinates": {
+          "lat": 4.4391,
+          "lng": 72.961
+        },
+        "distance": 0.26,
+        "neighborhood": null,
+        "badge": null,
+        "distances": [
+          {
+            "from": "center",
+            "distance": 0.26,
+            "time": 361,
+            "means": "foot",
+            "means_type": "foot"
+          }
+        ],
+        "specs": {
+          "bathrooms": 1,
+          "beds": null,
+          "bedrooms": 1,
+          "guests": 2,
+          "square_meters": 13
+        },
+        "toa_label": "guest house",
+        "top_amenities": [
+          "internet",
+          "restaurant",
+          "room_service",
+          "bar",
+          "tea_coffee_maker"
+        ],
+        "transportations": {
+          "airports": [],
+          "trains": []
+        },
+        "images": [
+          {
+            "image_id": "727576769",
+            "label": ""
+          },
+          {
+            "image_id": "727576751",
+            "label": ""
+          },
+          {
+            "image_id": "727576724",
+            "label": ""
+          },
+          {
+            "image_id": "727576750",
+            "label": ""
+          },
+          {
+            "image_id": "727576720",
+            "label": ""
+          },
+          {
+            "image_id": "727576748",
+            "label": ""
+          },
+          {
+            "image_id": "727576758",
+            "label": ""
+          },
+          {
+            "image_id": "727576770",
+            "label": ""
+          },
+          {
+            "image_id": "727576756",
+            "label": ""
+          },
+          {
+            "image_id": "727576763",
+            "label": ""
+          },
+          {
+            "image_id": "727576767",
+            "label": ""
+          },
+          {
+            "image_id": "727576741",
+            "label": ""
+          },
+          {
+            "image_id": "727576711",
+            "label": ""
+          },
+          {
+            "image_id": "727576747",
+            "label": ""
+          },
+          {
+            "image_id": "727576728",
+            "label": ""
+          }
+        ],
+        "hero_offer": {
+          "price": 53.54,
+          "brt": "p2d#k",
+          "rf": "p2d#k",
+          "brf": 9470080,
+          "rt": 9470080,
+          "vendor": "bkng",
+          "vendor_id_raw": "2774575",
+          "mota_code": null,
+          "direct_offer": false,
+          "offer_flags": {
+            "breakfast": "Breakfast included",
+            "pay_at_hotel": "Pay at the property"
+          },
+          "jc_code": "",
+          "ranking_index": 0.960403436682854,
+          "chain": "",
+          "free_cancellation": false,
+          "special": false,
+          "room_name": "Deluxe room - King bed",
+          "rooms": [
+            {
+              "name": "Deluxe room - King bed",
+              "flags": [
+                "King bed"
+              ]
+            }
+          ],
+          "partner_name": "Booking.com",
+          "partner_logo": "https://hotelscan.com/apis/vendors/bkng/logo.svg?pos=zz"
+        },
+        "rank": 0,
+        "ctrl_srt": "im a ctrl teapot",
+        "test_srt": "im a test teapot"
+      }
+    ],
+    "filters": [],
+    "query": {
+      "pos": "zz"
+    }
+  }
+}

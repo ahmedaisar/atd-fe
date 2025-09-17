@@ -1,0 +1,859 @@
+{
+  "_meta": {
+    "status": "SUCCESS",
+    "cached": true,
+    "count": 1,
+    "debug": {
+      "ticket": {
+        "ticket_id": "1015612044_zz_zz_d_publ_en_2_2025-10-08_2025-10-13_1_3",
+        "created_at": 1758065403.6905,
+        "loop": null,
+        "snapped_at": 1758065403.8044,
+        "snapshot_id": "1015612044_zz_zz_d_publ_en_2_2025-10-08_2025-10-13_1_3",
+        "snapshot_ttl": 300,
+        "executions": 2,
+        "progress": 1,
+        "save_errors": []
+      }
+    }
+  },
+  "data": {
+    "meta": [],
+    "geo": {
+      "hs_id": "83t39xyw37d0o",
+      "region_name": "Fenfushi",
+      "region_name_long": "Fenfushi, Maldives",
+      "region_type": "CITY",
+      "region_id": 3000003552,
+      "country_iso": "MV",
+      "country": "maldives",
+      "localised_country": "Maldives",
+      "center": [
+        3.48952,
+        72.7827
+      ],
+      "centroid": [
+        3.49128,
+        72.78275
+      ],
+      "polygon": [
+        "3.493002,72.77636",
+        "3.487167,72.779701",
+        "3.486267,72.785904",
+        "3.489549,72.789146",
+        "3.491374,72.785385",
+        "3.493002,72.77636"
+      ],
+      "radius": 0.74,
+      "zoom": -1,
+      "search_by_polygon": 0,
+      "cluster": 0,
+      "properties": 16,
+      "radius_override": 5,
+      "boundingbox": {
+        "ne": [
+          3.494,
+          72.79
+        ],
+        "sw": [
+          3.486,
+          72.776
+        ]
+      },
+      "airports": [
+        "MLE",
+        "DRV"
+      ],
+      "region_name_en": "Fenfushi",
+      "region_name_long_en": "Fenfushi, Maldives",
+      "referrer_city_name_en": "Fenfushi",
+      "parent_region_id": 6051084,
+      "parent_hs_id": "x5p4hmhw6iot",
+      "parent_region_name": "Maldives (all)",
+      "parent_region_name_long": "Maldives (all)",
+      "dynamic_bbox": {
+        "ne": [
+          3.489,
+          72.782
+        ],
+        "sw": [
+          3.489,
+          72.782
+        ]
+      }
+    },
+    "records": [
+      {
+        "hs_id": 1015612044,
+        "slug": "whale-shark-boutique-fenfushi-mv-1015612044",
+        "name": "Whale Shark Boutique",
+        "toa": "hotel",
+        "building": {
+          "room_num": 10
+        },
+        "location": {
+          "city": "Fenfushi",
+          "zip": "00080",
+          "country_iso2": "MV",
+          "address": "Vaaru Magu",
+          "geoid": "83t39xyw37d0o",
+          "loc": {
+            "type": "Point"
+          },
+          "coordinates": {
+            "lng": 72.78217,
+            "lat": 3.48992
+          }
+        },
+        "opening_time": {
+          "check_in_from": "14:00",
+          "check_in_to": "18:00",
+          "check_out_from": "12:00",
+          "check_out_to": "14:00"
+        },
+        "quality": {
+          "review_count": 16,
+          "review_rating": 92,
+          "stars": 4,
+          "stars_is_estimated": false,
+          "review_source": ""
+        },
+        "covid_safe": true,
+        "amenities": {
+          "wellness": [
+            "solarium",
+            "jacuzzi",
+            "fitness_center"
+          ],
+          "sports": [
+            "badminton",
+            "yoga",
+            "bike_rent",
+            "sub",
+            "surf"
+          ],
+          "internet": [
+            "wifi",
+            "wifi_room",
+            "internet"
+          ],
+          "food_drink": [
+            "restaurant",
+            "cafe"
+          ],
+          "outdoor": [
+            "garden",
+            "terrace"
+          ],
+          "other": [],
+          "entertainment": [
+            "tv_lobby"
+          ],
+          "transfer": [
+            "shuttle_service"
+          ],
+          "room": [
+            "air_conditioning",
+            "tv"
+          ],
+          "reception": [
+            "luggage_storage",
+            "laundry_service",
+            "safety_deposit_box"
+          ]
+        },
+        "descriptions": {
+          "hotel": "Make yourself at home in one of the 10 guestrooms. Rooms have private balconies. Complimentary wireless internet access keeps you connected, and satellite programming is available for your entertainment. Bathrooms feature bathtubs, complimentary toiletries, and hair dryers.",
+          "direction": "When you stay at Whale Shark Boutique in Fenfushi, you'll be on the beach and steps from Ari Atoll. This beach hotel is within the region of Thun'di and Dhidhoofinolhu Marina.",
+          "general": "Facing the beachfront, Whale Shark Boutique offers 4-star accommodations in Fenfushi and has a garden, private beach area and shared lounge. The hotel has sea views, a terrace, and free WiFi is available throughout the property. The hotel will provide guests with air-conditioned rooms offering a desk, an electric tea pot, a minibar, a safety deposit box, a flat-screen TV, a balcony and a private bathroom with a shower. Certain rooms come with a kitchen with a fridge, an oven and a microwave. The rooms have a closet. A buffet, à la carte or continental breakfast is available at the property. At Whale Shark Boutique you'll find a restaurant serving Indian, Italian and Pizza cuisine. Vegetarian, dairy-free and halal options can also be requested. You can play darts at the accommodation, and bike rental is available. Villa International Airport is 1.9 miles from the property, and the property offers a paid airport shuttle service.",
+          "amenities": true,
+          "other": "Featured amenities include luggage storage, laundry facilities, and a safe deposit box at the front desk.",
+          "localized": "Facing the beachfront, Whale Shark Boutique offers 4-star accommodations in Fenfushi and has a garden, private beach area and shared lounge. The hotel has sea views, a terrace, and free WiFi is available throughout the property. The hotel will provide guests with air-conditioned rooms offering a desk, an electric tea pot, a minibar, a safety deposit box, a flat-screen TV, a balcony and a private bathroom with a shower. Certain rooms come with a kitchen with a fridge, an oven and a microwave. The rooms have a closet. A buffet, à la carte or continental breakfast is available at the property. At Whale Shark Boutique you'll find a restaurant serving Indian, Italian and Pizza cuisine. Vegetarian, dairy-free and halal options can also be requested. You can play darts at the accommodation, and bike rental is available. Villa International Airport is 1.9 miles from the property, and the property offers a paid airport shuttle service."
+        },
+        "short_description": "Comfortable hotel with 10 rooms, shuttle service and bike rent",
+        "offers": [
+          {
+            "price": 131.35,
+            "brt": "p2r#",
+            "rf": "p2r#",
+            "brf": 9503872,
+            "rt": 9503872,
+            "vendor": "bkng",
+            "vendor_id_raw": "12872689",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included",
+              "Free cancellation",
+              "Sea view",
+              "Pay at the property"
+            ],
+            "jc_code": "",
+            "ranking_index": 1,
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Standard room",
+            "rooms": [
+              {
+                "name": "Standard room",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included",
+              "refundable": "Free cancellation",
+              "view_sea": "Sea view",
+              "pay_at_hotel": "Pay at the property"
+            },
+            "partner_name": "Booking.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/bkng/logo.svg?pos=zz"
+          },
+          {
+            "vendor": "htls",
+            "price": 157.86,
+            "vendor_id_raw": "3511737824",
+            "mota_code": null,
+            "jc_code": "",
+            "partner_name": "Hotels.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/htls/logo.svg?pos=zz",
+            "room_name": "Deluxe Triple Room",
+            "brf": 9502864,
+            "brt": "p3d#"
+          },
+          {
+            "vendor": "agda",
+            "price": 143.16,
+            "vendor_id_raw": "61685107",
+            "mota_code": null,
+            "jc_code": "",
+            "partner_name": "Agoda",
+            "partner_logo": "https://hotelscan.com/apis/vendors/agda/logo.svg?pos=zz",
+            "room_name": "Standard room - Twin beds",
+            "brf": 9503872,
+            "brt": "p2r#t"
+          },
+          {
+            "vendor": "expd",
+            "price": 133.1,
+            "vendor_id_raw": "109710557",
+            "mota_code": null,
+            "jc_code": "EXPEDIA",
+            "partner_name": "Expedia",
+            "partner_logo": "https://hotelscan.com/apis/vendors/expd/logo.svg?pos=zz",
+            "room_name": "Deluxe Triple Room",
+            "brf": 9502800,
+            "brt": "p3d#"
+          }
+        ],
+        "all_offers": [
+          {
+            "price": 131.35,
+            "brt": "p2r#",
+            "rf": "p2r#",
+            "brf": 9503872,
+            "rt": 9503872,
+            "vendor": "bkng",
+            "vendor_id_raw": "12872689",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included",
+              "Free cancellation",
+              "Sea view",
+              "Pay at the property"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Standard room",
+            "rooms": [
+              {
+                "name": "Standard room",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included",
+              "refundable": "Free cancellation",
+              "view_sea": "Sea view",
+              "pay_at_hotel": "Pay at the property"
+            },
+            "partner_name": "Booking.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/bkng/logo.svg?pos=zz"
+          },
+          {
+            "price": 133.1,
+            "brt": "p2d#b",
+            "rf": "p2d#b",
+            "brf": 9502800,
+            "rt": 9502800,
+            "vendor": "expd",
+            "vendor_id_raw": "109710557",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included",
+              "Free cancellation",
+              "Balcony"
+            ],
+            "jc_code": "EXPEDIA",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Deluxe room - Choice of single or double beds",
+            "rooms": [
+              {
+                "name": "Deluxe room - Choice of single or double beds",
+                "flags": [
+                  "Choice of single or double beds"
+                ]
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included",
+              "refundable": "Free cancellation",
+              "balcony": "Balcony"
+            },
+            "partner_name": "Expedia",
+            "partner_logo": "https://hotelscan.com/apis/vendors/expd/logo.svg?pos=zz"
+          },
+          {
+            "price": 133.1,
+            "brt": "p3d#",
+            "rf": "p3d#",
+            "brf": 9502800,
+            "rt": 9502800,
+            "vendor": "expd",
+            "vendor_id_raw": "109710557",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included",
+              "Free cancellation",
+              "Balcony"
+            ],
+            "jc_code": "EXPEDIA",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Deluxe Triple Room",
+            "rooms": [
+              {
+                "name": "Deluxe Triple Room",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included",
+              "refundable": "Free cancellation",
+              "balcony": "Balcony"
+            },
+            "partner_name": "Expedia",
+            "partner_logo": "https://hotelscan.com/apis/vendors/expd/logo.svg?pos=zz"
+          },
+          {
+            "price": 143.16,
+            "brt": "p2r#t",
+            "rf": "p2r#t",
+            "brf": 9503872,
+            "rt": 9503872,
+            "vendor": "agda",
+            "vendor_id_raw": "61685107",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included",
+              "Free cancellation",
+              "Sea view",
+              "Pay at the property"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Standard room - Twin beds",
+            "rooms": [
+              {
+                "name": "Standard room - Twin beds",
+                "flags": [
+                  "Twin beds"
+                ]
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included",
+              "refundable": "Free cancellation",
+              "view_sea": "Sea view",
+              "pay_at_hotel": "Pay at the property"
+            },
+            "partner_name": "Agoda",
+            "partner_logo": "https://hotelscan.com/apis/vendors/agda/logo.svg?pos=zz"
+          },
+          {
+            "price": 157.86,
+            "brt": "p2d#b",
+            "rf": "p2d#b",
+            "brf": 9502864,
+            "rt": 9502864,
+            "vendor": "htls",
+            "vendor_id_raw": "3511737824",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included",
+              "Free cancellation",
+              "Pay at the property",
+              "Balcony"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Deluxe room - Choice of single or double beds",
+            "rooms": [
+              {
+                "name": "Deluxe room - Choice of single or double beds",
+                "flags": [
+                  "Choice of single or double beds"
+                ]
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included",
+              "refundable": "Free cancellation",
+              "pay_at_hotel": "Pay at the property",
+              "balcony": "Balcony"
+            },
+            "partner_name": "Hotels.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/htls/logo.svg?pos=zz"
+          },
+          {
+            "price": 157.86,
+            "brt": "p3d#",
+            "rf": "p3d#",
+            "brf": 9502864,
+            "rt": 9502864,
+            "vendor": "htls",
+            "vendor_id_raw": "3511737824",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included",
+              "Free cancellation",
+              "Pay at the property",
+              "Balcony"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Deluxe Triple Room",
+            "rooms": [
+              {
+                "name": "Deluxe Triple Room",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included",
+              "refundable": "Free cancellation",
+              "pay_at_hotel": "Pay at the property",
+              "balcony": "Balcony"
+            },
+            "partner_name": "Hotels.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/htls/logo.svg?pos=zz"
+          },
+          {
+            "price": 157.86,
+            "brt": "p2d#b",
+            "rf": "p2d#b",
+            "brf": 9502864,
+            "rt": 9502864,
+            "vendor": "expd",
+            "vendor_id_raw": "109710557",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included",
+              "Free cancellation",
+              "Pay at the property",
+              "Balcony"
+            ],
+            "jc_code": "EXPEDIA",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Deluxe room - Choice of single or double beds",
+            "rooms": [
+              {
+                "name": "Deluxe room - Choice of single or double beds",
+                "flags": [
+                  "Choice of single or double beds"
+                ]
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included",
+              "refundable": "Free cancellation",
+              "pay_at_hotel": "Pay at the property",
+              "balcony": "Balcony"
+            },
+            "partner_name": "Expedia",
+            "partner_logo": "https://hotelscan.com/apis/vendors/expd/logo.svg?pos=zz"
+          },
+          {
+            "price": 157.86,
+            "brt": "p3d#",
+            "rf": "p3d#",
+            "brf": 9502864,
+            "rt": 9502864,
+            "vendor": "expd",
+            "vendor_id_raw": "109710557",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included",
+              "Free cancellation",
+              "Pay at the property",
+              "Balcony"
+            ],
+            "jc_code": "EXPEDIA",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Deluxe Triple Room",
+            "rooms": [
+              {
+                "name": "Deluxe Triple Room",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included",
+              "refundable": "Free cancellation",
+              "pay_at_hotel": "Pay at the property",
+              "balcony": "Balcony"
+            },
+            "partner_name": "Expedia",
+            "partner_logo": "https://hotelscan.com/apis/vendors/expd/logo.svg?pos=zz"
+          },
+          {
+            "price": 175.13,
+            "brt": "p2r#",
+            "rf": "p2r#",
+            "brf": 12125312,
+            "rt": 12125312,
+            "vendor": "bkng",
+            "vendor_id_raw": "12872689",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast and dinner",
+              "Free cancellation",
+              "Sea view",
+              "Pay at the property"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Standard room",
+            "rooms": [
+              {
+                "name": "Standard room",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "half_board_dinner": "Breakfast and dinner",
+              "refundable": "Free cancellation",
+              "view_sea": "Sea view",
+              "pay_at_hotel": "Pay at the property"
+            },
+            "partner_name": "Booking.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/bkng/logo.svg?pos=zz"
+          },
+          {
+            "price": 190.88,
+            "brt": "p2r#t",
+            "rf": "p2r#t",
+            "brf": 9503872,
+            "rt": 9503872,
+            "vendor": "agda",
+            "vendor_id_raw": "61685107",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included",
+              "Free cancellation",
+              "Sea view",
+              "Pay at the property"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Standard room - Twin beds",
+            "rooms": [
+              {
+                "name": "Standard room - Twin beds",
+                "flags": [
+                  "Twin beds"
+                ]
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included",
+              "refundable": "Free cancellation",
+              "view_sea": "Sea view",
+              "pay_at_hotel": "Pay at the property"
+            },
+            "partner_name": "Agoda",
+            "partner_logo": "https://hotelscan.com/apis/vendors/agda/logo.svg?pos=zz"
+          },
+          {
+            "price": 201.4,
+            "brt": "p2r#t",
+            "rf": "p2r#t",
+            "brf": 10028160,
+            "rt": 10028160,
+            "vendor": "bkng",
+            "vendor_id_raw": "12872689",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Full board",
+              "Free cancellation",
+              "Sea view",
+              "Pay at the property"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Standard room - Twin beds",
+            "rooms": [
+              {
+                "name": "Standard room - Twin beds",
+                "flags": [
+                  "Twin beds"
+                ]
+              }
+            ],
+            "offer_flags_new": {
+              "full_board": "Full board",
+              "refundable": "Free cancellation",
+              "view_sea": "Sea view",
+              "pay_at_hotel": "Pay at the property"
+            },
+            "partner_name": "Booking.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/bkng/logo.svg?pos=zz"
+          },
+          {
+            "price": 219.51,
+            "brt": "p2r#",
+            "rf": "p2r#",
+            "brf": 9503872,
+            "rt": 9503872,
+            "vendor": "agda",
+            "vendor_id_raw": "61685107",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included",
+              "Free cancellation",
+              "Sea view",
+              "Pay at the property"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Standard room",
+            "rooms": [
+              {
+                "name": "Standard room",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included",
+              "refundable": "Free cancellation",
+              "view_sea": "Sea view",
+              "pay_at_hotel": "Pay at the property"
+            },
+            "partner_name": "Agoda",
+            "partner_logo": "https://hotelscan.com/apis/vendors/agda/logo.svg?pos=zz"
+          }
+        ],
+        "descriptions_language": {
+          "general": {
+            "original_language": true,
+            "text": "Facing the beachfront, Whale Shark Boutique offers 4-star accommodations in Fenfushi and has a garden, private beach area and shared lounge. The hotel has sea views, a terrace, and free WiFi is available throughout the property. The hotel will provide guests with air-conditioned rooms offering a desk, an electric tea pot, a minibar, a safety deposit box, a flat-screen TV, a balcony and a private bathroom with a shower. Certain rooms come with a kitchen with a fridge, an oven and a microwave. The rooms have a closet. A buffet, à la carte or continental breakfast is available at the property. At Whale Shark Boutique you'll find a restaurant serving Indian, Italian and Pizza cuisine. Vegetarian, dairy-free and halal options can also be requested. You can play darts at the accommodation, and bike rental is available. Villa International Airport is 1.9 miles from the property, and the property offers a paid airport shuttle service."
+          },
+          "direction": {
+            "original_language": true,
+            "text": "When you stay at Whale Shark Boutique in Fenfushi, you'll be on the beach and steps from Ari Atoll. This beach hotel is within the region of Thun'di and Dhidhoofinolhu Marina."
+          },
+          "hotel": {
+            "original_language": true,
+            "text": "Make yourself at home in one of the 10 guestrooms. Rooms have private balconies. Complimentary wireless internet access keeps you connected, and satellite programming is available for your entertainment. Bathrooms feature bathtubs, complimentary toiletries, and hair dryers."
+          },
+          "other": {
+            "original_language": true,
+            "text": "Featured amenities include luggage storage, laundry facilities, and a safe deposit box at the front desk."
+          }
+        },
+        "chain_code": null,
+        "bids": {
+          "bkng": "j23",
+          "expd": "j23",
+          "agda": "j23",
+          "htls": "j23"
+        },
+        "worst_offer": 157.86,
+        "best_offer": 131.35,
+        "best_offer_ota": "bkng",
+        "best_offer_mota": null,
+        "discount": 15,
+        "offers_count": 12,
+        "coordinates": {
+          "lat": 3.48992,
+          "lng": 72.78217
+        },
+        "distance": 0.07,
+        "neighborhood": null,
+        "badge": null,
+        "distances": [
+          {
+            "from": "center",
+            "distance": 0.07,
+            "time": 97,
+            "means": "foot",
+            "means_type": "foot"
+          }
+        ],
+        "specs": {
+          "bathrooms": null,
+          "beds": null,
+          "bedrooms": null,
+          "guests": null,
+          "square_meters": null
+        },
+        "toa_label": "hotel",
+        "top_amenities": [
+          "wifi_room",
+          "internet",
+          "restaurant",
+          "air_conditioning"
+        ],
+        "transportations": {
+          "airports": [],
+          "trains": []
+        },
+        "images": [
+          {
+            "image_id": "691046560",
+            "label": ""
+          },
+          {
+            "image_id": "691046577",
+            "label": ""
+          },
+          {
+            "image_id": "691046587",
+            "label": ""
+          },
+          {
+            "image_id": "691046556",
+            "label": ""
+          },
+          {
+            "image_id": "691046565",
+            "label": ""
+          },
+          {
+            "image_id": "691046599",
+            "label": ""
+          },
+          {
+            "image_id": "691046564",
+            "label": ""
+          },
+          {
+            "image_id": "691046571",
+            "label": ""
+          },
+          {
+            "image_id": "691046598",
+            "label": ""
+          },
+          {
+            "image_id": "691046580",
+            "label": ""
+          },
+          {
+            "image_id": "691046558",
+            "label": ""
+          },
+          {
+            "image_id": "691046581",
+            "label": ""
+          },
+          {
+            "image_id": "691046563",
+            "label": ""
+          },
+          {
+            "image_id": "691046567",
+            "label": ""
+          },
+          {
+            "image_id": "691046585",
+            "label": ""
+          }
+        ],
+        "hero_offer": {
+          "price": 131.35,
+          "brt": "p2r#",
+          "rf": "p2r#",
+          "brf": 9503872,
+          "rt": 9503872,
+          "vendor": "bkng",
+          "vendor_id_raw": "12872689",
+          "mota_code": null,
+          "direct_offer": false,
+          "offer_flags": {
+            "breakfast": "Breakfast included",
+            "refundable": "Free cancellation",
+            "view_sea": "Sea view",
+            "pay_at_hotel": "Pay at the property"
+          },
+          "jc_code": "",
+          "ranking_index": 1,
+          "chain": "",
+          "free_cancellation": true,
+          "special": false,
+          "room_name": "Standard room",
+          "rooms": [
+            {
+              "name": "Standard room",
+              "flags": []
+            }
+          ],
+          "partner_name": "Booking.com",
+          "partner_logo": "https://hotelscan.com/apis/vendors/bkng/logo.svg?pos=zz"
+        },
+        "rank": 0,
+        "ctrl_srt": "im a ctrl teapot",
+        "test_srt": "im a test teapot"
+      }
+    ],
+    "filters": [],
+    "query": {
+      "pos": "zz"
+    }
+  }
+}

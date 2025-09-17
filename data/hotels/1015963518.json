@@ -1,0 +1,2198 @@
+{
+  "_meta": {
+    "status": "SUCCESS",
+    "cached": true,
+    "count": 1,
+    "debug": {
+      "ticket": {
+        "ticket_id": "1015963518_zz_zz_d_publ_en_2_2025-10-08_2025-10-13_1_3",
+        "created_at": 1758065377.8627,
+        "loop": null,
+        "snapped_at": 1758065377.9471,
+        "snapshot_id": "1015963518_zz_zz_d_publ_en_2_2025-10-08_2025-10-13_1_3",
+        "snapshot_ttl": 300,
+        "executions": 2,
+        "progress": 1,
+        "save_errors": []
+      }
+    }
+  },
+  "data": {
+    "meta": [],
+    "geo": {
+      "hs_id": "xk37cluc5gl2",
+      "region_name": "Himmafushi",
+      "region_name_long": "Himmafushi, Maldives",
+      "region_type": "CITY",
+      "region_id": 6343439,
+      "country_iso": "MV",
+      "country": "maldives",
+      "localised_country": "Maldives",
+      "center": [
+        4.30882,
+        73.57184
+      ],
+      "centroid": [
+        4.30757,
+        73.57184
+      ],
+      "polygon": [
+        "4.304066,73.571207",
+        "4.30697,73.579713",
+        "4.311818,73.574284",
+        "4.313569,73.567522",
+        "4.308162,73.563966",
+        "4.304315,73.566281",
+        "4.304066,73.571207"
+      ],
+      "radius": 0.88,
+      "zoom": -1,
+      "search_by_polygon": 0,
+      "cluster": 0,
+      "properties": 69,
+      "radius_override": 5,
+      "boundingbox": {
+        "ne": [
+          4.314,
+          73.58
+        ],
+        "sw": [
+          4.304,
+          73.563
+        ]
+      },
+      "airports": [
+        "MLE",
+        "DRV"
+      ],
+      "region_name_en": "Himmafushi",
+      "region_name_long_en": "Himmafushi, Maldives",
+      "referrer_city_name_en": "Himmafushi",
+      "parent_region_id": 6051084,
+      "parent_hs_id": "x5p4hmhw6iot",
+      "parent_region_name": "Maldives (all)",
+      "parent_region_name_long": "Maldives (all)",
+      "dynamic_bbox": {
+        "ne": [
+          4.311,
+          73.57
+        ],
+        "sw": [
+          4.311,
+          73.57
+        ]
+      }
+    },
+    "records": [
+      {
+        "hs_id": 1015963518,
+        "slug": "cocomo-maldives-himmafushi-mv-1015963518",
+        "name": "Cocomo Maldives",
+        "toa": "hotel",
+        "location": {
+          "city": "Himmafushi",
+          "zip": "08060",
+          "country_iso2": "MV",
+          "address": "Cocomo Maldives",
+          "geoid": "xk37cluc5gl2",
+          "loc": {
+            "type": "Point"
+          },
+          "coordinates": {
+            "lng": 73.5705,
+            "lat": 4.31169
+          }
+        },
+        "opening_time": {
+          "check_in_from": "14:00",
+          "check_in_to": "00:00",
+          "check_out_from": "00:00",
+          "check_out_to": "12:00"
+        },
+        "quality": {
+          "review_count": 5,
+          "review_rating": 94,
+          "stars": 0,
+          "stars_is_estimated": false,
+          "review_source": ""
+        },
+        "covid_safe": true,
+        "amenities": {
+          "children": [
+            "babysitter",
+            "children_playground"
+          ],
+          "wellness": [
+            "solarium",
+            "fitness_center",
+            "spa",
+            "outdoor_pool"
+          ],
+          "sports": [
+            "ski",
+            "bike_rent",
+            "sub",
+            "surf"
+          ],
+          "internet": [
+            "wifi_lobby",
+            "wifi_room",
+            "internet"
+          ],
+          "transfer": [
+            "shuttle_service"
+          ],
+          "food_drink": [
+            "restaurant",
+            "room_service",
+            "cafe",
+            "bar",
+            "snack_bar"
+          ],
+          "disability": [
+            "wheelchair_accessible",
+            "disability_facilities"
+          ],
+          "outdoor": [
+            "garden",
+            "terrace"
+          ],
+          "other": [],
+          "room": [
+            "fan",
+            "air_conditioning",
+            "tv",
+            "in_room_safe"
+          ],
+          "reception": [
+            "24h_reception",
+            "luggage_storage",
+            "concierge",
+            "laundry_facilities",
+            "laundry_service",
+            "safety_deposit_box"
+          ]
+        },
+        "descriptions": {
+          "hotel": "Stay in one of 27 guestrooms featuring Smart televisions. Your memory foam bed comes with down comforters and premium bedding. Rooms have private balconies. Complimentary wireless internet access keeps you connected, and digital programming is available for your entertainment. Private bathrooms with showers feature rainfall showerheads and complimentary toiletries.",
+          "direction": "With a stay at Cocomo Maldives in Himmafushi, you'll be in the historical district and 13 minutes by foot from Jailbreaks Surf Spot. This beach hotel is within close proximity of Gili Lankanfushi Beach and Paradise Island Beach.",
+          "general": "Cocomo Maldives offers top-notch services and amenities, ensuring guests experience utmost comfort. Maintain seamless communication using the complimentary Wi-Fi at hotel.Effortlessly arrange transportation to and from the airport using the hotel's airport transfer services. Guests can avail parking facilities at the hotel.During your stay at this fantastic hotel, the attentive front desk personnel can provide you with a range of amenities such as concierge service, express check-in or check-out, luggage storage and safety deposit boxes.In search of city's top entertainment, seek assistance at the hotel's ticket service and tours for reservations.For extended visits or whenever required, the laundry service ensures your preferred travel garments remain fresh and accessible. Craving relaxation? Make the most of your stay at the Cocomo Maldives with convenient amenities like room service and daily housekeeping at your disposal. Kindly note that smoking is prohibited in the hotel to ensure fresher air for all visitors. For visitors wishing to smoke, designated smoking zones can be found.At Cocomo Maldives, every guestroom is provided with convenient amenities and fittings to ensure a comfortable stay. Enhance your experience at hotel with the knowledge that certain rooms are equipped with linen service, blackout curtains and air conditioning for your convenience.A few accommodations within Cocomo Maldives offer unique design elements such as a balcony or terrace.Certain rooms boast in-room amusement features such as television and in-room video streaming, offering guests an enjoyable stay. In select rooms within the hotel, bottled water, instant coffee and instant tea is available to cater to your requirements when desired. In the hotel, certain guest bathrooms come equipped with essential bathroom amenities, such as a hair dryer and toiletries, ensuring a comfortable stay for guests. Begin your day carefree at Cocomo Maldives, as complimentary breakfast is offered for your convenience.Begin your day feeling refreshed and invigorated as you enjoy a delightful cup of quality coffee available at the cafe situated within the hotel.At the hotel, an assortment of easily accessible and delicious meal choices are available to satisfy your appetite whenever it strikes. At Cocomo Maldives, they are committed to catering to your unique requirements. They offer a variety of meal choices, encompassing halal alternatives for those with special dietary preferences.Enjoy an entertaining evening with your fellow travelers at the hotel's bar. At the hotel, discerning guests can also enjoy on-site culinary facilities like BBQ facilities tailored to their preferences.Cocomo Maldives provides a superb assortment of leisure amenities for guests to enjoy.During your stay, don't forget to allocate some moments to experience the readily available shoreline. Engage in delightful snow adventures with other visitors, assured that ski lessons is effortlessly reachable while you relish the finest winter experiences. Conclude your holiday perfectly with a visit to massage and spa on your final days.Be sure to drop by the pool at hotel at least once during your stay. At Cocomo Maldives, utmost care is taken to ensure guests' comfort. Relish your preferred beverage in your swimwear by the hotel's poolside bar.",
+          "amenities": true,
+          "other": "Head down to the water and enjoy a day at the private beach, or take advantage of other recreational amenities including an outdoor pool and bicycles to rent. Additional amenities at this hotel include complimentary wireless internet access, concierge services, and gift shops/newsstands.",
+          "localized": "Cocomo Maldives offers top-notch services and amenities, ensuring guests experience utmost comfort. Maintain seamless communication using the complimentary Wi-Fi at hotel.Effortlessly arrange transportation to and from the airport using the hotel's airport transfer services. Guests can avail parking facilities at the hotel.During your stay at this fantastic hotel, the attentive front desk personnel can provide you with a range of amenities such as concierge service, express check-in or check-out, luggage storage and safety deposit boxes.In search of city's top entertainment, seek assistance at the hotel's ticket service and tours for reservations.For extended visits or whenever required, the laundry service ensures your preferred travel garments remain fresh and accessible. Craving relaxation? Make the most of your stay at the Cocomo Maldives with convenient amenities like room service and daily housekeeping at your disposal. Kindly note that smoking is prohibited in the hotel to ensure fresher air for all visitors. For visitors wishing to smoke, designated smoking zones can be found.At Cocomo Maldives, every guestroom is provided with convenient amenities and fittings to ensure a comfortable stay. Enhance your experience at hotel with the knowledge that certain rooms are equipped with linen service, blackout curtains and air conditioning for your convenience.A few accommodations within Cocomo Maldives offer unique design elements such as a balcony or terrace.Certain rooms boast in-room amusement features such as television and in-room video streaming, offering guests an enjoyable stay. In select rooms within the hotel, bottled water, instant coffee and instant tea is available to cater to your requirements when desired. In the hotel, certain guest bathrooms come equipped with essential bathroom amenities, such as a hair dryer and toiletries, ensuring a comfortable stay for guests. Begin your day carefree at Cocomo Maldives, as complimentary breakfast is offered for your convenience.Begin your day feeling refreshed and invigorated as you enjoy a delightful cup of quality coffee available at the cafe situated within the hotel.At the hotel, an assortment of easily accessible and delicious meal choices are available to satisfy your appetite whenever it strikes. At Cocomo Maldives, they are committed to catering to your unique requirements. They offer a variety of meal choices, encompassing halal alternatives for those with special dietary preferences.Enjoy an entertaining evening with your fellow travelers at the hotel's bar. At the hotel, discerning guests can also enjoy on-site culinary facilities like BBQ facilities tailored to their preferences.Cocomo Maldives provides a superb assortment of leisure amenities for guests to enjoy.During your stay, don't forget to allocate some moments to experience the readily available shoreline. Engage in delightful snow adventures with other visitors, assured that ski lessons is effortlessly reachable while you relish the finest winter experiences. Conclude your holiday perfectly with a visit to massage and spa on your final days.Be sure to drop by the pool at hotel at least once during your stay. At Cocomo Maldives, utmost care is taken to ensure guests' comfort. Relish your preferred beverage in your swimwear by the hotel's poolside bar."
+        },
+        "short_description": "Rooms with free wifi in hotel with outdoor pool, fitness center and restaurant",
+        "chain": "no_chain",
+        "brand": "no_brand",
+        "offers": [
+          {
+            "price": 124.45,
+            "brt": "p2c#",
+            "rf": "p2c#",
+            "brf": 9502784,
+            "rt": 9502784,
+            "vendor": "agda",
+            "vendor_id_raw": "63386461",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included",
+              "Free cancellation"
+            ],
+            "jc_code": "",
+            "ranking_index": 0.96,
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Superior room",
+            "rooms": [
+              {
+                "name": "Superior room",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included",
+              "refundable": "Free cancellation"
+            },
+            "partner_name": "Agoda",
+            "partner_logo": "https://hotelscan.com/apis/vendors/agda/logo.svg?pos=zz"
+          },
+          {
+            "vendor": "bkng",
+            "price": 153.04,
+            "vendor_id_raw": "13162627",
+            "mota_code": null,
+            "jc_code": "",
+            "partner_name": "Booking.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/bkng/logo.svg?pos=zz",
+            "room_name": "Superior deluxe room",
+            "brf": 9502800,
+            "brt": "p2cd"
+          },
+          {
+            "vendor": "ctrp",
+            "price": 135.62,
+            "vendor_id_raw": "124770433",
+            "mota_code": null,
+            "jc_code": "TRIPCOM",
+            "partner_name": "Trip.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/ctrp/logo.svg?pos=zz",
+            "room_name": "Deluxe room",
+            "brf": 9503824,
+            "brt": "p2d#"
+          },
+          {
+            "vendor": "htls",
+            "price": 209.36,
+            "vendor_id_raw": "3555300480",
+            "mota_code": null,
+            "jc_code": "",
+            "partner_name": "Hotels.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/htls/logo.svg?pos=zz",
+            "room_name": "Superior deluxe room",
+            "brf": 9502800,
+            "brt": "p2cd"
+          },
+          {
+            "vendor": "expd",
+            "price": 178.41,
+            "vendor_id_raw": "111071890",
+            "mota_code": null,
+            "jc_code": "EXPEDIA",
+            "partner_name": "Expedia",
+            "partner_logo": "https://hotelscan.com/apis/vendors/expd/logo.svg?pos=zz",
+            "room_name": "Superior deluxe room",
+            "brf": 9502800,
+            "brt": "p2cd"
+          }
+        ],
+        "all_offers": [
+          {
+            "price": 124.45,
+            "brt": "p2c#",
+            "rf": "p2c#",
+            "brf": 9502784,
+            "rt": 9502784,
+            "vendor": "agda",
+            "vendor_id_raw": "63386461",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included",
+              "Free cancellation"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Superior room",
+            "rooms": [
+              {
+                "name": "Superior room",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included",
+              "refundable": "Free cancellation"
+            },
+            "partner_name": "Agoda",
+            "partner_logo": "https://hotelscan.com/apis/vendors/agda/logo.svg?pos=zz"
+          },
+          {
+            "price": 135.41,
+            "brt": "c2r#",
+            "rf": "c2r#",
+            "brf": 9502784,
+            "rt": 9502784,
+            "vendor": "agda",
+            "vendor_id_raw": "63386461",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included",
+              "Free cancellation"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Junior suite",
+            "rooms": [
+              {
+                "name": "Junior suite",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included",
+              "refundable": "Free cancellation"
+            },
+            "partner_name": "Agoda",
+            "partner_logo": "https://hotelscan.com/apis/vendors/agda/logo.svg?pos=zz"
+          },
+          {
+            "price": 135.62,
+            "brt": "p2d#",
+            "rf": "p2d#",
+            "brf": 9503824,
+            "rt": 9503824,
+            "vendor": "ctrp",
+            "vendor_id_raw": "124770433",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included",
+              "Free cancellation",
+              "Sea view",
+              "Balcony"
+            ],
+            "jc_code": "TRIPCOM",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Deluxe room",
+            "rooms": [
+              {
+                "name": "Deluxe room",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included",
+              "refundable": "Free cancellation",
+              "view_sea": "Sea view",
+              "balcony": "Balcony"
+            },
+            "partner_name": "Trip.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/ctrp/logo.svg?pos=zz"
+          },
+          {
+            "price": 145.58,
+            "brt": "p2d#",
+            "rf": "p2d#",
+            "brf": 9502800,
+            "rt": 9502800,
+            "vendor": "agda",
+            "vendor_id_raw": "63386461",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included",
+              "Free cancellation",
+              "Balcony"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Deluxe room",
+            "rooms": [
+              {
+                "name": "Deluxe room",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included",
+              "refundable": "Free cancellation",
+              "balcony": "Balcony"
+            },
+            "partner_name": "Agoda",
+            "partner_logo": "https://hotelscan.com/apis/vendors/agda/logo.svg?pos=zz"
+          },
+          {
+            "price": 151.65,
+            "brt": "p2cd",
+            "rf": "p2cd",
+            "brf": 9502800,
+            "rt": 9502800,
+            "vendor": "agda",
+            "vendor_id_raw": "63386461",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included",
+              "Free cancellation",
+              "Balcony"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Superior deluxe room",
+            "rooms": [
+              {
+                "name": "Superior deluxe room",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included",
+              "refundable": "Free cancellation",
+              "balcony": "Balcony"
+            },
+            "partner_name": "Agoda",
+            "partner_logo": "https://hotelscan.com/apis/vendors/agda/logo.svg?pos=zz"
+          },
+          {
+            "price": 153.04,
+            "brt": "p2cd",
+            "rf": "p2cd",
+            "brf": 9502800,
+            "rt": 9502800,
+            "vendor": "bkng",
+            "vendor_id_raw": "13162627",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included",
+              "Free cancellation",
+              "Balcony"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Superior deluxe room",
+            "rooms": [
+              {
+                "name": "Superior deluxe room",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included",
+              "refundable": "Free cancellation",
+              "balcony": "Balcony"
+            },
+            "partner_name": "Booking.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/bkng/logo.svg?pos=zz"
+          },
+          {
+            "price": 166.3,
+            "brt": "e2qj",
+            "rf": "e2qj",
+            "brf": 9502800,
+            "rt": 9502800,
+            "vendor": "agda",
+            "vendor_id_raw": "63386461",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included",
+              "Free cancellation",
+              "Balcony"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Premium Family Suite",
+            "rooms": [
+              {
+                "name": "Premium Family Suite",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included",
+              "refundable": "Free cancellation",
+              "balcony": "Balcony"
+            },
+            "partner_name": "Agoda",
+            "partner_logo": "https://hotelscan.com/apis/vendors/agda/logo.svg?pos=zz"
+          },
+          {
+            "price": 167.82,
+            "brt": "e2qj",
+            "rf": "e2qj",
+            "brf": 9502800,
+            "rt": 9502800,
+            "vendor": "bkng",
+            "vendor_id_raw": "13162627",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included",
+              "Free cancellation",
+              "Balcony"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Premium Family Suite",
+            "rooms": [
+              {
+                "name": "Premium Family Suite",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included",
+              "refundable": "Free cancellation",
+              "balcony": "Balcony"
+            },
+            "partner_name": "Booking.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/bkng/logo.svg?pos=zz"
+          },
+          {
+            "price": 178.41,
+            "brt": "p2cd",
+            "rf": "p2cd",
+            "brf": 9502800,
+            "rt": 9502800,
+            "vendor": "expd",
+            "vendor_id_raw": "111071890",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included",
+              "Free cancellation",
+              "Balcony"
+            ],
+            "jc_code": "EXPEDIA",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Superior deluxe room",
+            "rooms": [
+              {
+                "name": "Superior deluxe room",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included",
+              "refundable": "Free cancellation",
+              "balcony": "Balcony"
+            },
+            "partner_name": "Expedia",
+            "partner_logo": "https://hotelscan.com/apis/vendors/expd/logo.svg?pos=zz"
+          },
+          {
+            "price": 180.58,
+            "brt": "p2cd",
+            "rf": "p2cd",
+            "brf": 9502864,
+            "rt": 9502864,
+            "vendor": "ctrp",
+            "vendor_id_raw": "124770433",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included",
+              "Free cancellation",
+              "Pay at the property",
+              "Balcony"
+            ],
+            "jc_code": "TRIPCOM",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Superior deluxe room",
+            "rooms": [
+              {
+                "name": "Superior deluxe room",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included",
+              "refundable": "Free cancellation",
+              "pay_at_hotel": "Pay at the property",
+              "balcony": "Balcony"
+            },
+            "partner_name": "Trip.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/ctrp/logo.svg?pos=zz"
+          },
+          {
+            "price": 190.7,
+            "brt": "p2cd",
+            "rf": "p2cd",
+            "brf": 8454224,
+            "rt": 8454224,
+            "vendor": "agda",
+            "vendor_id_raw": "63386461",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Free cancellation",
+              "Balcony"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Superior deluxe room",
+            "rooms": [
+              {
+                "name": "Superior deluxe room",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "refundable": "Free cancellation",
+              "balcony": "Balcony"
+            },
+            "partner_name": "Agoda",
+            "partner_logo": "https://hotelscan.com/apis/vendors/agda/logo.svg?pos=zz"
+          },
+          {
+            "price": 192.44,
+            "brt": "p2cd",
+            "rf": "p2cd",
+            "brf": 11599952,
+            "rt": 11599952,
+            "vendor": "bkng",
+            "vendor_id_raw": "13162627",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast and lunch",
+              "Free cancellation",
+              "Balcony"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Superior deluxe room",
+            "rooms": [
+              {
+                "name": "Superior deluxe room",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "half_board_lunch": "Breakfast and lunch",
+              "refundable": "Free cancellation",
+              "balcony": "Balcony"
+            },
+            "partner_name": "Booking.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/bkng/logo.svg?pos=zz"
+          },
+          {
+            "price": 195.14,
+            "brt": "p2d#",
+            "rf": "p2d#",
+            "brf": 9502800,
+            "rt": 9502800,
+            "vendor": "expd",
+            "vendor_id_raw": "111071890",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included",
+              "Free cancellation",
+              "Balcony"
+            ],
+            "jc_code": "EXPEDIA",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Deluxe room",
+            "rooms": [
+              {
+                "name": "Deluxe room",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included",
+              "refundable": "Free cancellation",
+              "balcony": "Balcony"
+            },
+            "partner_name": "Expedia",
+            "partner_logo": "https://hotelscan.com/apis/vendors/expd/logo.svg?pos=zz"
+          },
+          {
+            "price": 195.15,
+            "brt": "e2qj",
+            "rf": "e2qj",
+            "brf": 9502800,
+            "rt": 9502800,
+            "vendor": "expd",
+            "vendor_id_raw": "111071890",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included",
+              "Free cancellation",
+              "Balcony"
+            ],
+            "jc_code": "EXPEDIA",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Premium Family Suite",
+            "rooms": [
+              {
+                "name": "Premium Family Suite",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included",
+              "refundable": "Free cancellation",
+              "balcony": "Balcony"
+            },
+            "partner_name": "Expedia",
+            "partner_logo": "https://hotelscan.com/apis/vendors/expd/logo.svg?pos=zz"
+          },
+          {
+            "price": 203.5,
+            "brt": "p2d#",
+            "rf": "p2d#",
+            "brf": 9502800,
+            "rt": 9502800,
+            "vendor": "agda",
+            "vendor_id_raw": "63386461",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included",
+              "Free cancellation",
+              "Balcony"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Deluxe room",
+            "rooms": [
+              {
+                "name": "Deluxe room",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included",
+              "refundable": "Free cancellation",
+              "balcony": "Balcony"
+            },
+            "partner_name": "Agoda",
+            "partner_logo": "https://hotelscan.com/apis/vendors/agda/logo.svg?pos=zz"
+          },
+          {
+            "price": 205.34,
+            "brt": "e2qj",
+            "rf": "e2qj",
+            "brf": 8454224,
+            "rt": 8454224,
+            "vendor": "agda",
+            "vendor_id_raw": "63386461",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Free cancellation",
+              "Balcony"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Premium Family Suite",
+            "rooms": [
+              {
+                "name": "Premium Family Suite",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "refundable": "Free cancellation",
+              "balcony": "Balcony"
+            },
+            "partner_name": "Agoda",
+            "partner_logo": "https://hotelscan.com/apis/vendors/agda/logo.svg?pos=zz"
+          },
+          {
+            "price": 207.22,
+            "brt": "e2qj",
+            "rf": "e2qj",
+            "brf": 11599952,
+            "rt": 11599952,
+            "vendor": "bkng",
+            "vendor_id_raw": "13162627",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast and lunch",
+              "Free cancellation",
+              "Balcony"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Premium Family Suite",
+            "rooms": [
+              {
+                "name": "Premium Family Suite",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "half_board_lunch": "Breakfast and lunch",
+              "refundable": "Free cancellation",
+              "balcony": "Balcony"
+            },
+            "partner_name": "Booking.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/bkng/logo.svg?pos=zz"
+          },
+          {
+            "price": 209.36,
+            "brt": "p2cd",
+            "rf": "p2cd",
+            "brf": 9502800,
+            "rt": 9502800,
+            "vendor": "htls",
+            "vendor_id_raw": "3555300480",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included",
+              "Free cancellation",
+              "Balcony"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Superior deluxe room",
+            "rooms": [
+              {
+                "name": "Superior deluxe room",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included",
+              "refundable": "Free cancellation",
+              "balcony": "Balcony"
+            },
+            "partner_name": "Hotels.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/htls/logo.svg?pos=zz"
+          },
+          {
+            "price": 209.37,
+            "brt": "p2cd",
+            "rf": "p2cd",
+            "brf": 9502864,
+            "rt": 9502864,
+            "vendor": "htls",
+            "vendor_id_raw": "3555300480",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included",
+              "Free cancellation",
+              "Pay at the property",
+              "Balcony"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Superior deluxe room",
+            "rooms": [
+              {
+                "name": "Superior deluxe room",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included",
+              "refundable": "Free cancellation",
+              "pay_at_hotel": "Pay at the property",
+              "balcony": "Balcony"
+            },
+            "partner_name": "Hotels.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/htls/logo.svg?pos=zz"
+          },
+          {
+            "price": 209.37,
+            "brt": "p2cd",
+            "rf": "p2cd",
+            "brf": 9502864,
+            "rt": 9502864,
+            "vendor": "expd",
+            "vendor_id_raw": "111071890",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included",
+              "Free cancellation",
+              "Pay at the property",
+              "Balcony"
+            ],
+            "jc_code": "EXPEDIA",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Superior deluxe room",
+            "rooms": [
+              {
+                "name": "Superior deluxe room",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included",
+              "refundable": "Free cancellation",
+              "pay_at_hotel": "Pay at the property",
+              "balcony": "Balcony"
+            },
+            "partner_name": "Expedia",
+            "partner_logo": "https://hotelscan.com/apis/vendors/expd/logo.svg?pos=zz"
+          },
+          {
+            "price": 219.59,
+            "brt": "e2qj",
+            "rf": "e2qj",
+            "brf": 9502800,
+            "rt": 9502800,
+            "vendor": "expd",
+            "vendor_id_raw": "111071890",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included",
+              "Free cancellation",
+              "Balcony"
+            ],
+            "jc_code": "EXPEDIA",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Premium Family Suite",
+            "rooms": [
+              {
+                "name": "Premium Family Suite",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included",
+              "refundable": "Free cancellation",
+              "balcony": "Balcony"
+            },
+            "partner_name": "Expedia",
+            "partner_logo": "https://hotelscan.com/apis/vendors/expd/logo.svg?pos=zz"
+          },
+          {
+            "price": 222,
+            "brt": "e2qj",
+            "rf": "e2qj",
+            "brf": 9502800,
+            "rt": 9502800,
+            "vendor": "bkng",
+            "vendor_id_raw": "13162627",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included",
+              "Free cancellation",
+              "Balcony"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Premium Family Suite",
+            "rooms": [
+              {
+                "name": "Premium Family Suite",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included",
+              "refundable": "Free cancellation",
+              "balcony": "Balcony"
+            },
+            "partner_name": "Booking.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/bkng/logo.svg?pos=zz"
+          },
+          {
+            "price": 228.07,
+            "brt": "e2qj",
+            "rf": "e2qj",
+            "brf": 9502864,
+            "rt": 9502864,
+            "vendor": "htls",
+            "vendor_id_raw": "3555300480",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included",
+              "Free cancellation",
+              "Pay at the property",
+              "Balcony"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Premium Family Suite",
+            "rooms": [
+              {
+                "name": "Premium Family Suite",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included",
+              "refundable": "Free cancellation",
+              "pay_at_hotel": "Pay at the property",
+              "balcony": "Balcony"
+            },
+            "partner_name": "Hotels.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/htls/logo.svg?pos=zz"
+          },
+          {
+            "price": 228.07,
+            "brt": "e2qj",
+            "rf": "e2qj",
+            "brf": 9502864,
+            "rt": 9502864,
+            "vendor": "expd",
+            "vendor_id_raw": "111071890",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included",
+              "Free cancellation",
+              "Pay at the property",
+              "Balcony"
+            ],
+            "jc_code": "EXPEDIA",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Premium Family Suite",
+            "rooms": [
+              {
+                "name": "Premium Family Suite",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included",
+              "refundable": "Free cancellation",
+              "pay_at_hotel": "Pay at the property",
+              "balcony": "Balcony"
+            },
+            "partner_name": "Expedia",
+            "partner_logo": "https://hotelscan.com/apis/vendors/expd/logo.svg?pos=zz"
+          },
+          {
+            "price": 228.08,
+            "brt": "e2qj",
+            "rf": "e2qj",
+            "brf": 9502800,
+            "rt": 9502800,
+            "vendor": "htls",
+            "vendor_id_raw": "3555300480",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included",
+              "Free cancellation",
+              "Balcony"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Premium Family Suite",
+            "rooms": [
+              {
+                "name": "Premium Family Suite",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included",
+              "refundable": "Free cancellation",
+              "balcony": "Balcony"
+            },
+            "partner_name": "Hotels.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/htls/logo.svg?pos=zz"
+          },
+          {
+            "price": 228.6,
+            "brt": "p2d#",
+            "rf": "p2d#",
+            "brf": 9502800,
+            "rt": 9502800,
+            "vendor": "expd",
+            "vendor_id_raw": "111071890",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included",
+              "Free cancellation",
+              "Balcony"
+            ],
+            "jc_code": "EXPEDIA",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Deluxe room",
+            "rooms": [
+              {
+                "name": "Deluxe room",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included",
+              "refundable": "Free cancellation",
+              "balcony": "Balcony"
+            },
+            "partner_name": "Expedia",
+            "partner_logo": "https://hotelscan.com/apis/vendors/expd/logo.svg?pos=zz"
+          },
+          {
+            "price": 229.05,
+            "brt": "p2d#",
+            "rf": "p2d#",
+            "brf": 9502800,
+            "rt": 9502800,
+            "vendor": "htls",
+            "vendor_id_raw": "3555300480",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included",
+              "Free cancellation",
+              "Balcony"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Deluxe room",
+            "rooms": [
+              {
+                "name": "Deluxe room",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included",
+              "refundable": "Free cancellation",
+              "balcony": "Balcony"
+            },
+            "partner_name": "Hotels.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/htls/logo.svg?pos=zz"
+          },
+          {
+            "price": 229.07,
+            "brt": "p2d#",
+            "rf": "p2d#",
+            "brf": 9502864,
+            "rt": 9502864,
+            "vendor": "htls",
+            "vendor_id_raw": "3555300480",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included",
+              "Free cancellation",
+              "Pay at the property",
+              "Balcony"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Deluxe room",
+            "rooms": [
+              {
+                "name": "Deluxe room",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included",
+              "refundable": "Free cancellation",
+              "pay_at_hotel": "Pay at the property",
+              "balcony": "Balcony"
+            },
+            "partner_name": "Hotels.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/htls/logo.svg?pos=zz"
+          },
+          {
+            "price": 229.07,
+            "brt": "p2d#",
+            "rf": "p2d#",
+            "brf": 9502864,
+            "rt": 9502864,
+            "vendor": "expd",
+            "vendor_id_raw": "111071890",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included",
+              "Free cancellation",
+              "Pay at the property",
+              "Balcony"
+            ],
+            "jc_code": "EXPEDIA",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Deluxe room",
+            "rooms": [
+              {
+                "name": "Deluxe room",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included",
+              "refundable": "Free cancellation",
+              "pay_at_hotel": "Pay at the property",
+              "balcony": "Balcony"
+            },
+            "partner_name": "Expedia",
+            "partner_logo": "https://hotelscan.com/apis/vendors/expd/logo.svg?pos=zz"
+          },
+          {
+            "price": 229.74,
+            "brt": "p2cd",
+            "rf": "p2cd",
+            "brf": 9502800,
+            "rt": 9502800,
+            "vendor": "agda",
+            "vendor_id_raw": "63386461",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included",
+              "Free cancellation",
+              "Balcony"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Superior deluxe room",
+            "rooms": [
+              {
+                "name": "Superior deluxe room",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included",
+              "refundable": "Free cancellation",
+              "balcony": "Balcony"
+            },
+            "partner_name": "Agoda",
+            "partner_logo": "https://hotelscan.com/apis/vendors/agda/logo.svg?pos=zz"
+          },
+          {
+            "price": 231.85,
+            "brt": "p2cd",
+            "rf": "p2cd",
+            "brf": 10027088,
+            "rt": 10027088,
+            "vendor": "bkng",
+            "vendor_id_raw": "13162627",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Full board",
+              "Free cancellation",
+              "Balcony"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Superior deluxe room",
+            "rooms": [
+              {
+                "name": "Superior deluxe room",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "full_board": "Full board",
+              "refundable": "Free cancellation",
+              "balcony": "Balcony"
+            },
+            "partner_name": "Booking.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/bkng/logo.svg?pos=zz"
+          },
+          {
+            "price": 240.18,
+            "brt": "p2cd",
+            "rf": "p2cd",
+            "brf": 9502800,
+            "rt": 9502800,
+            "vendor": "expd",
+            "vendor_id_raw": "111071890",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included",
+              "Free cancellation",
+              "Balcony"
+            ],
+            "jc_code": "EXPEDIA",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Superior deluxe room",
+            "rooms": [
+              {
+                "name": "Superior deluxe room",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included",
+              "refundable": "Free cancellation",
+              "balcony": "Balcony"
+            },
+            "partner_name": "Expedia",
+            "partner_logo": "https://hotelscan.com/apis/vendors/expd/logo.svg?pos=zz"
+          },
+          {
+            "price": 244.38,
+            "brt": "e2qj",
+            "rf": "e2qj",
+            "brf": 9502800,
+            "rt": 9502800,
+            "vendor": "agda",
+            "vendor_id_raw": "63386461",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included",
+              "Free cancellation",
+              "Balcony"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Premium Family Suite",
+            "rooms": [
+              {
+                "name": "Premium Family Suite",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included",
+              "refundable": "Free cancellation",
+              "balcony": "Balcony"
+            },
+            "partner_name": "Agoda",
+            "partner_logo": "https://hotelscan.com/apis/vendors/agda/logo.svg?pos=zz"
+          },
+          {
+            "price": 246.63,
+            "brt": "e2qj",
+            "rf": "e2qj",
+            "brf": 10027088,
+            "rt": 10027088,
+            "vendor": "bkng",
+            "vendor_id_raw": "13162627",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Full board",
+              "Free cancellation",
+              "Balcony"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Premium Family Suite",
+            "rooms": [
+              {
+                "name": "Premium Family Suite",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "full_board": "Full board",
+              "refundable": "Free cancellation",
+              "balcony": "Balcony"
+            },
+            "partner_name": "Booking.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/bkng/logo.svg?pos=zz"
+          },
+          {
+            "price": 253.05,
+            "brt": "e2qj",
+            "rf": "e2qj",
+            "brf": 9502800,
+            "rt": 9502800,
+            "vendor": "expd",
+            "vendor_id_raw": "111071890",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included",
+              "Free cancellation",
+              "Balcony"
+            ],
+            "jc_code": "EXPEDIA",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Premium Family Suite",
+            "rooms": [
+              {
+                "name": "Premium Family Suite",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included",
+              "refundable": "Free cancellation",
+              "balcony": "Balcony"
+            },
+            "partner_name": "Expedia",
+            "partner_logo": "https://hotelscan.com/apis/vendors/expd/logo.svg?pos=zz"
+          },
+          {
+            "price": 256.48,
+            "brt": "p2d#",
+            "rf": "p2d#",
+            "brf": 9502800,
+            "rt": 9502800,
+            "vendor": "bkng",
+            "vendor_id_raw": "13162627",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included",
+              "Free cancellation",
+              "Balcony"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Deluxe room",
+            "rooms": [
+              {
+                "name": "Deluxe room",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included",
+              "refundable": "Free cancellation",
+              "balcony": "Balcony"
+            },
+            "partner_name": "Booking.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/bkng/logo.svg?pos=zz"
+          },
+          {
+            "price": 258.59,
+            "brt": "e2qj",
+            "rf": "e2qj",
+            "brf": 9502800,
+            "rt": 9502800,
+            "vendor": "htls",
+            "vendor_id_raw": "3555300480",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included",
+              "Free cancellation",
+              "Balcony"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Premium Family Suite",
+            "rooms": [
+              {
+                "name": "Premium Family Suite",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included",
+              "refundable": "Free cancellation",
+              "balcony": "Balcony"
+            },
+            "partner_name": "Hotels.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/htls/logo.svg?pos=zz"
+          },
+          {
+            "price": 258.61,
+            "brt": "e2qj",
+            "rf": "e2qj",
+            "brf": 9502864,
+            "rt": 9502864,
+            "vendor": "htls",
+            "vendor_id_raw": "3555300480",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included",
+              "Free cancellation",
+              "Pay at the property",
+              "Balcony"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Premium Family Suite",
+            "rooms": [
+              {
+                "name": "Premium Family Suite",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included",
+              "refundable": "Free cancellation",
+              "pay_at_hotel": "Pay at the property",
+              "balcony": "Balcony"
+            },
+            "partner_name": "Hotels.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/htls/logo.svg?pos=zz"
+          },
+          {
+            "price": 258.61,
+            "brt": "e2qj",
+            "rf": "e2qj",
+            "brf": 9502864,
+            "rt": 9502864,
+            "vendor": "expd",
+            "vendor_id_raw": "111071890",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included",
+              "Free cancellation",
+              "Pay at the property",
+              "Balcony"
+            ],
+            "jc_code": "EXPEDIA",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Premium Family Suite",
+            "rooms": [
+              {
+                "name": "Premium Family Suite",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included",
+              "refundable": "Free cancellation",
+              "pay_at_hotel": "Pay at the property",
+              "balcony": "Balcony"
+            },
+            "partner_name": "Expedia",
+            "partner_logo": "https://hotelscan.com/apis/vendors/expd/logo.svg?pos=zz"
+          },
+          {
+            "price": 261.4,
+            "brt": "e2qj",
+            "rf": "e2qj",
+            "brf": 11599952,
+            "rt": 11599952,
+            "vendor": "bkng",
+            "vendor_id_raw": "13162627",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast and lunch",
+              "Free cancellation",
+              "Balcony"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Premium Family Suite",
+            "rooms": [
+              {
+                "name": "Premium Family Suite",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "half_board_lunch": "Breakfast and lunch",
+              "refundable": "Free cancellation",
+              "balcony": "Balcony"
+            },
+            "partner_name": "Booking.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/bkng/logo.svg?pos=zz"
+          },
+          {
+            "price": 268.43,
+            "brt": "p2d#",
+            "rf": "p2d#",
+            "brf": 9502800,
+            "rt": 9502800,
+            "vendor": "htls",
+            "vendor_id_raw": "3555300480",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included",
+              "Free cancellation",
+              "Balcony"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Deluxe room",
+            "rooms": [
+              {
+                "name": "Deluxe room",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included",
+              "refundable": "Free cancellation",
+              "balcony": "Balcony"
+            },
+            "partner_name": "Hotels.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/htls/logo.svg?pos=zz"
+          },
+          {
+            "price": 268.45,
+            "brt": "p2d#",
+            "rf": "p2d#",
+            "brf": 9502864,
+            "rt": 9502864,
+            "vendor": "htls",
+            "vendor_id_raw": "3555300480",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included",
+              "Free cancellation",
+              "Pay at the property",
+              "Balcony"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Deluxe room",
+            "rooms": [
+              {
+                "name": "Deluxe room",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included",
+              "refundable": "Free cancellation",
+              "pay_at_hotel": "Pay at the property",
+              "balcony": "Balcony"
+            },
+            "partner_name": "Hotels.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/htls/logo.svg?pos=zz"
+          },
+          {
+            "price": 268.45,
+            "brt": "p2d#",
+            "rf": "p2d#",
+            "brf": 9502864,
+            "rt": 9502864,
+            "vendor": "expd",
+            "vendor_id_raw": "111071890",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included",
+              "Free cancellation",
+              "Pay at the property",
+              "Balcony"
+            ],
+            "jc_code": "EXPEDIA",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Deluxe room",
+            "rooms": [
+              {
+                "name": "Deluxe room",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included",
+              "refundable": "Free cancellation",
+              "pay_at_hotel": "Pay at the property",
+              "balcony": "Balcony"
+            },
+            "partner_name": "Expedia",
+            "partner_logo": "https://hotelscan.com/apis/vendors/expd/logo.svg?pos=zz"
+          },
+          {
+            "price": 283.22,
+            "brt": "p2cd",
+            "rf": "p2cd",
+            "brf": 9502864,
+            "rt": 9502864,
+            "vendor": "htls",
+            "vendor_id_raw": "3555300480",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included",
+              "Free cancellation",
+              "Pay at the property",
+              "Balcony"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Superior deluxe room",
+            "rooms": [
+              {
+                "name": "Superior deluxe room",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included",
+              "refundable": "Free cancellation",
+              "pay_at_hotel": "Pay at the property",
+              "balcony": "Balcony"
+            },
+            "partner_name": "Hotels.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/htls/logo.svg?pos=zz"
+          },
+          {
+            "price": 283.22,
+            "brt": "p2cd",
+            "rf": "p2cd",
+            "brf": 9502864,
+            "rt": 9502864,
+            "vendor": "expd",
+            "vendor_id_raw": "111071890",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included",
+              "Free cancellation",
+              "Pay at the property",
+              "Balcony"
+            ],
+            "jc_code": "EXPEDIA",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Superior deluxe room",
+            "rooms": [
+              {
+                "name": "Superior deluxe room",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included",
+              "refundable": "Free cancellation",
+              "pay_at_hotel": "Pay at the property",
+              "balcony": "Balcony"
+            },
+            "partner_name": "Expedia",
+            "partner_logo": "https://hotelscan.com/apis/vendors/expd/logo.svg?pos=zz"
+          },
+          {
+            "price": 295.88,
+            "brt": "p2d#",
+            "rf": "p2d#",
+            "brf": 11599952,
+            "rt": 11599952,
+            "vendor": "bkng",
+            "vendor_id_raw": "13162627",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast and lunch",
+              "Free cancellation",
+              "Balcony"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Deluxe room",
+            "rooms": [
+              {
+                "name": "Deluxe room",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "half_board_lunch": "Breakfast and lunch",
+              "refundable": "Free cancellation",
+              "balcony": "Balcony"
+            },
+            "partner_name": "Booking.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/bkng/logo.svg?pos=zz"
+          },
+          {
+            "price": 297.98,
+            "brt": "e2qj",
+            "rf": "e2qj",
+            "brf": 9502800,
+            "rt": 9502800,
+            "vendor": "htls",
+            "vendor_id_raw": "3555300480",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included",
+              "Free cancellation",
+              "Balcony"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Premium Family Suite",
+            "rooms": [
+              {
+                "name": "Premium Family Suite",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included",
+              "refundable": "Free cancellation",
+              "balcony": "Balcony"
+            },
+            "partner_name": "Hotels.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/htls/logo.svg?pos=zz"
+          },
+          {
+            "price": 297.99,
+            "brt": "e2qj",
+            "rf": "e2qj",
+            "brf": 9502864,
+            "rt": 9502864,
+            "vendor": "htls",
+            "vendor_id_raw": "3555300480",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included",
+              "Free cancellation",
+              "Pay at the property",
+              "Balcony"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Premium Family Suite",
+            "rooms": [
+              {
+                "name": "Premium Family Suite",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included",
+              "refundable": "Free cancellation",
+              "pay_at_hotel": "Pay at the property",
+              "balcony": "Balcony"
+            },
+            "partner_name": "Hotels.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/htls/logo.svg?pos=zz"
+          },
+          {
+            "price": 297.99,
+            "brt": "e2qj",
+            "rf": "e2qj",
+            "brf": 9502864,
+            "rt": 9502864,
+            "vendor": "expd",
+            "vendor_id_raw": "111071890",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included",
+              "Free cancellation",
+              "Pay at the property",
+              "Balcony"
+            ],
+            "jc_code": "EXPEDIA",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Premium Family Suite",
+            "rooms": [
+              {
+                "name": "Premium Family Suite",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included",
+              "refundable": "Free cancellation",
+              "pay_at_hotel": "Pay at the property",
+              "balcony": "Balcony"
+            },
+            "partner_name": "Expedia",
+            "partner_logo": "https://hotelscan.com/apis/vendors/expd/logo.svg?pos=zz"
+          },
+          {
+            "price": 300.81,
+            "brt": "e2qj",
+            "rf": "e2qj",
+            "brf": 10027088,
+            "rt": 10027088,
+            "vendor": "bkng",
+            "vendor_id_raw": "13162627",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Full board",
+              "Free cancellation",
+              "Balcony"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Premium Family Suite",
+            "rooms": [
+              {
+                "name": "Premium Family Suite",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "full_board": "Full board",
+              "refundable": "Free cancellation",
+              "balcony": "Balcony"
+            },
+            "partner_name": "Booking.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/bkng/logo.svg?pos=zz"
+          },
+          {
+            "price": 335.29,
+            "brt": "p2d#",
+            "rf": "p2d#",
+            "brf": 10027088,
+            "rt": 10027088,
+            "vendor": "bkng",
+            "vendor_id_raw": "13162627",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Full board",
+              "Free cancellation",
+              "Balcony"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Deluxe room",
+            "rooms": [
+              {
+                "name": "Deluxe room",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "full_board": "Full board",
+              "refundable": "Free cancellation",
+              "balcony": "Balcony"
+            },
+            "partner_name": "Booking.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/bkng/logo.svg?pos=zz"
+          }
+        ],
+        "descriptions_language": {
+          "general": {
+            "original_language": true,
+            "text": "Cocomo Maldives offers top-notch services and amenities, ensuring guests experience utmost comfort. Maintain seamless communication using the complimentary Wi-Fi at hotel.Effortlessly arrange transportation to and from the airport using the hotel's airport transfer services. Guests can avail parking facilities at the hotel.During your stay at this fantastic hotel, the attentive front desk personnel can provide you with a range of amenities such as concierge service, express check-in or check-out, luggage storage and safety deposit boxes.In search of city's top entertainment, seek assistance at the hotel's ticket service and tours for reservations.For extended visits or whenever required, the laundry service ensures your preferred travel garments remain fresh and accessible. Craving relaxation? Make the most of your stay at the Cocomo Maldives with convenient amenities like room service and daily housekeeping at your disposal. Kindly note that smoking is prohibited in the hotel to ensure fresher air for all visitors. For visitors wishing to smoke, designated smoking zones can be found.At Cocomo Maldives, every guestroom is provided with convenient amenities and fittings to ensure a comfortable stay. Enhance your experience at hotel with the knowledge that certain rooms are equipped with linen service, blackout curtains and air conditioning for your convenience.A few accommodations within Cocomo Maldives offer unique design elements such as a balcony or terrace.Certain rooms boast in-room amusement features such as television and in-room video streaming, offering guests an enjoyable stay. In select rooms within the hotel, bottled water, instant coffee and instant tea is available to cater to your requirements when desired. In the hotel, certain guest bathrooms come equipped with essential bathroom amenities, such as a hair dryer and toiletries, ensuring a comfortable stay for guests. Begin your day carefree at Cocomo Maldives, as complimentary breakfast is offered for your convenience.Begin your day feeling refreshed and invigorated as you enjoy a delightful cup of quality coffee available at the cafe situated within the hotel.At the hotel, an assortment of easily accessible and delicious meal choices are available to satisfy your appetite whenever it strikes. At Cocomo Maldives, they are committed to catering to your unique requirements. They offer a variety of meal choices, encompassing halal alternatives for those with special dietary preferences.Enjoy an entertaining evening with your fellow travelers at the hotel's bar. At the hotel, discerning guests can also enjoy on-site culinary facilities like BBQ facilities tailored to their preferences.Cocomo Maldives provides a superb assortment of leisure amenities for guests to enjoy.During your stay, don't forget to allocate some moments to experience the readily available shoreline. Engage in delightful snow adventures with other visitors, assured that ski lessons is effortlessly reachable while you relish the finest winter experiences. Conclude your holiday perfectly with a visit to massage and spa on your final days.Be sure to drop by the pool at hotel at least once during your stay. At Cocomo Maldives, utmost care is taken to ensure guests' comfort. Relish your preferred beverage in your swimwear by the hotel's poolside bar."
+          },
+          "direction": {
+            "original_language": true,
+            "text": "With a stay at Cocomo Maldives in Himmafushi, you'll be in the historical district and 13 minutes by foot from Jailbreaks Surf Spot. This beach hotel is within close proximity of Gili Lankanfushi Beach and Paradise Island Beach."
+          },
+          "hotel": {
+            "original_language": true,
+            "text": "Stay in one of 27 guestrooms featuring Smart televisions. Your memory foam bed comes with down comforters and premium bedding. Rooms have private balconies. Complimentary wireless internet access keeps you connected, and digital programming is available for your entertainment. Private bathrooms with showers feature rainfall showerheads and complimentary toiletries."
+          },
+          "other": {
+            "original_language": true,
+            "text": "Head down to the water and enjoy a day at the private beach, or take advantage of other recreational amenities including an outdoor pool and bicycles to rent. Additional amenities at this hotel include complimentary wireless internet access, concierge services, and gift shops/newsstands."
+          }
+        },
+        "chain_code": null,
+        "bids": {
+          "htls": "j23",
+          "agda": "j23",
+          "expd": "j23",
+          "bkng": "j23",
+          "ctrp": "j23"
+        },
+        "worst_offer": 209.36,
+        "best_offer": 124.45,
+        "best_offer_ota": "agda",
+        "best_offer_mota": null,
+        "discount": 40,
+        "offers_count": 51,
+        "coordinates": {
+          "lat": 4.31169,
+          "lng": 73.5705
+        },
+        "distance": 0.35,
+        "neighborhood": null,
+        "badge": null,
+        "distances": [
+          {
+            "from": "center",
+            "distance": 0.35,
+            "time": 486,
+            "means": "foot",
+            "means_type": "foot"
+          }
+        ],
+        "specs": {
+          "bathrooms": null,
+          "beds": null,
+          "bedrooms": null,
+          "guests": null,
+          "square_meters": null
+        },
+        "toa_label": "hotel",
+        "top_amenities": [
+          "outdoor_pool",
+          "wifi_room",
+          "internet",
+          "restaurant",
+          "room_service"
+        ],
+        "transportations": {
+          "airports": [],
+          "trains": []
+        },
+        "images": [
+          {
+            "image_id": "707456000",
+            "label": ""
+          },
+          {
+            "image_id": "707456017",
+            "label": ""
+          },
+          {
+            "image_id": "707456009",
+            "label": ""
+          },
+          {
+            "image_id": "707456013",
+            "label": ""
+          },
+          {
+            "image_id": "707456002",
+            "label": ""
+          },
+          {
+            "image_id": "707455999",
+            "label": ""
+          },
+          {
+            "image_id": "707456001",
+            "label": ""
+          },
+          {
+            "image_id": "707456018",
+            "label": ""
+          },
+          {
+            "image_id": "707456008",
+            "label": ""
+          },
+          {
+            "image_id": "707456010",
+            "label": ""
+          },
+          {
+            "image_id": "707456004",
+            "label": ""
+          },
+          {
+            "image_id": "707456007",
+            "label": ""
+          },
+          {
+            "image_id": "707456005",
+            "label": ""
+          },
+          {
+            "image_id": "707456003",
+            "label": ""
+          },
+          {
+            "image_id": "707456006",
+            "label": ""
+          }
+        ],
+        "hero_offer": {
+          "price": 124.45,
+          "brt": "p2c#",
+          "rf": "p2c#",
+          "brf": 9502784,
+          "rt": 9502784,
+          "vendor": "agda",
+          "vendor_id_raw": "63386461",
+          "mota_code": null,
+          "direct_offer": false,
+          "offer_flags": {
+            "breakfast": "Breakfast included",
+            "refundable": "Free cancellation"
+          },
+          "jc_code": "",
+          "ranking_index": 0.96,
+          "chain": "",
+          "free_cancellation": true,
+          "special": false,
+          "room_name": "Superior room",
+          "rooms": [
+            {
+              "name": "Superior room",
+              "flags": []
+            }
+          ],
+          "partner_name": "Agoda",
+          "partner_logo": "https://hotelscan.com/apis/vendors/agda/logo.svg?pos=zz"
+        },
+        "rank": 0,
+        "ctrl_srt": "im a ctrl teapot",
+        "test_srt": "im a test teapot"
+      }
+    ],
+    "filters": [],
+    "query": {
+      "pos": "zz"
+    }
+  }
+}

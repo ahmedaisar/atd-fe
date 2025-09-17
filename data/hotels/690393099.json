@@ -1,0 +1,2063 @@
+{
+  "_meta": {
+    "status": "SUCCESS",
+    "cached": true,
+    "count": 1,
+    "debug": {
+      "ticket": {
+        "ticket_id": "690393099_zz_zz_d_publ_en_2_2025-10-08_2025-10-13_1_3",
+        "created_at": 1758065360.1066,
+        "loop": null,
+        "snapped_at": 1758065360.2419,
+        "snapshot_id": "690393099_zz_zz_d_publ_en_2_2025-10-08_2025-10-13_1_3",
+        "snapshot_ttl": 300,
+        "executions": 2,
+        "progress": 1,
+        "save_errors": []
+      }
+    }
+  },
+  "data": {
+    "meta": [],
+    "geo": {
+      "hs_id": "x54h121bvwb7",
+      "region_name": "Maafushi",
+      "region_name_long": "Maafushi, Maldives",
+      "region_type": "CITY",
+      "region_id": 6147669,
+      "country_iso": "MV",
+      "country": "maldives",
+      "localised_country": "Maldives",
+      "center": [
+        3.94171,
+        73.49239
+      ],
+      "centroid": [
+        3.94171,
+        73.49239
+      ],
+      "polygon": [
+        "3.95425,73.48239",
+        "3.95425,73.50239",
+        "3.92916,73.50239",
+        "3.92916,73.48239",
+        "3.95425,73.48239"
+      ],
+      "radius": 1.79,
+      "zoom": -1,
+      "search_by_polygon": 1,
+      "cluster": 0,
+      "properties": 92,
+      "radius_override": 5,
+      "boundingbox": {
+        "ne": [
+          3.955,
+          73.503
+        ],
+        "sw": [
+          3.929,
+          73.482
+        ]
+      },
+      "airports": [
+        "MLE",
+        "DRV"
+      ],
+      "region_name_en": "Maafushi",
+      "region_name_long_en": "Maafushi, Maldives",
+      "referrer_city_name_en": "Maafushi",
+      "parent_region_id": 6051084,
+      "parent_hs_id": "x5p4hmhw6iot",
+      "parent_region_name": "Maldives (all)",
+      "parent_region_name_long": "Maldives (all)",
+      "dynamic_bbox": {
+        "ne": [
+          3.943,
+          73.49
+        ],
+        "sw": [
+          3.943,
+          73.49
+        ]
+      }
+    },
+    "records": [
+      {
+        "hs_id": 690393099,
+        "slug": "whiteshell-island-hotel-spa-maafushi-mv-690393099",
+        "name": "Whiteshell Island Hotel & Spa",
+        "ty_id": "8aa7672c-2021-4b6b-b588-ba7eb15728e3",
+        "toa": "guest_house",
+        "building": {
+          "room_num": 54
+        },
+        "location": {
+          "city": "Maafushi",
+          "zip": "08090",
+          "country_iso2": "MV",
+          "address": "Miskiy Magu",
+          "geoid": "x54h121bvwb7",
+          "loc": {
+            "type": "Point"
+          },
+          "coordinates": {
+            "lng": 73.49084,
+            "lat": 3.94396
+          }
+        },
+        "opening_time": {
+          "check_in_from": "14:00",
+          "check_in_to": null,
+          "check_out_from": null,
+          "check_out_to": "12:00"
+        },
+        "quality": {
+          "review_count": 532,
+          "review_rating": 83,
+          "stars": 3,
+          "stars_is_estimated": true,
+          "review_source": ""
+        },
+        "covid_safe": true,
+        "amenities": {
+          "children": [
+            "babysitter",
+            "children_playground"
+          ],
+          "wellness": [
+            "massage"
+          ],
+          "sports": [
+            "sub",
+            "surf"
+          ],
+          "internet": [
+            "wifi",
+            "wifi_room",
+            "internet"
+          ],
+          "food_drink": [
+            "restaurant",
+            "room_service",
+            "cafe",
+            "bar",
+            "snack_bar"
+          ],
+          "parking": [
+            "parking"
+          ],
+          "outdoor": [
+            "garden",
+            "terrace"
+          ],
+          "other": [],
+          "entertainment": [
+            "tv_lobby"
+          ],
+          "transfer": [
+            "shuttle_service"
+          ],
+          "room": [
+            "air_conditioning",
+            "tv"
+          ],
+          "reception": [
+            "24h_reception",
+            "luggage_storage",
+            "concierge",
+            "laundry_service",
+            "safety_deposit_box"
+          ]
+        },
+        "themes": [
+          "romantic",
+          "beach"
+        ],
+        "descriptions": {
+          "direction": "Located in Maafushi, WhiteShell Island Hotel & Spa is near the beach. Maldives Islamic Centre and Mulee Aage Palace are local landmarks, and some of the area's activities can be experienced at Maafushi Harbor and Bolifushi Island Pier. Take an opportunity to explore the area for water adventures such as fishing.",
+          "general": "Located on Maafushi Island in the Maldives, this small private hotel is an ideal place to get away from it all and relax on some of the world's best beaches. The accommodation is a 30-minute speed boat ride to Maafushi and the nearest international airport is at Male. Guests can enjoy diving and snorkelling in the warm seas. Catamaran trips, excursions to nearby uninhabited islands and sandbanks, and night fishing trips are available and local bodu-beru cultural shows are provided. The inviting beach-front guest accommodation consists of double deluxe and family deluxe rooms, all featuring individually controlled air conditioning and a ceiling fan. The island's restaurants are renowned for their quality and service and gourmet cuisine. The on-site White Shell café is open until 2. 00 serving delicious drinks and snacks, and beach barbecues can be arranged.",
+          "amenities": true,
+          "localized": "Located on Maafushi Island in the Maldives, this small private hotel is an ideal place to get away from it all and relax on some of the world's best beaches. The accommodation is a 30-minute speed boat ride to Maafushi and the nearest international airport is at Male. Guests can enjoy diving and snorkelling in the warm seas. Catamaran trips, excursions to nearby uninhabited islands and sandbanks, and night fishing trips are available and local bodu-beru cultural shows are provided. The inviting beach-front guest accommodation consists of double deluxe and family deluxe rooms, all featuring individually controlled air conditioning and a ceiling fan. The island's restaurants are renowned for their quality and service and gourmet cuisine. The on-site White Shell café is open until 2. 00 serving delicious drinks and snacks, and beach barbecues can be arranged."
+        },
+        "short_description": "Excellent romantic hotel. Great location. Beautiful beach.",
+        "chain": "no_chain",
+        "brand": "no_brand",
+        "offers": [
+          {
+            "price": 75.32,
+            "brt": "p2d#",
+            "rf": "p2d#",
+            "brf": 8454288,
+            "rt": 8454288,
+            "vendor": "bkng",
+            "vendor_id_raw": "705546",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Free cancellation",
+              "Pay at the property",
+              "Balcony"
+            ],
+            "jc_code": "",
+            "ranking_index": 0.9964418481147106,
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Deluxe room",
+            "rooms": [
+              {
+                "name": "Deluxe room",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "refundable": "Free cancellation",
+              "pay_at_hotel": "Pay at the property",
+              "balcony": "Balcony"
+            },
+            "partner_name": "Booking.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/bkng/logo.svg?pos=zz"
+          },
+          {
+            "vendor": "agda",
+            "price": 74.65,
+            "vendor_id_raw": "488940",
+            "mota_code": null,
+            "jc_code": "",
+            "partner_name": "Agoda",
+            "partner_logo": "https://hotelscan.com/apis/vendors/agda/logo.svg?pos=zz",
+            "room_name": "Standard Triple Room",
+            "brf": 8454224,
+            "brt": "p3r#"
+          },
+          {
+            "vendor": "htls",
+            "price": 120.26,
+            "vendor_id_raw": "532258",
+            "mota_code": null,
+            "jc_code": "",
+            "partner_name": "Hotels.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/htls/logo.svg?pos=zz",
+            "room_name": "Comfort Triple Room",
+            "brf": 8421456,
+            "brt": "p3e#"
+          },
+          {
+            "vendor": "ctrp",
+            "price": 92.25,
+            "vendor_id_raw": "2505154",
+            "mota_code": null,
+            "jc_code": "TRIPCOM",
+            "partner_name": "Trip.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/ctrp/logo.svg?pos=zz",
+            "room_name": "Comfort Triple Room",
+            "brf": 8421520,
+            "brt": "p3e#"
+          },
+          {
+            "vendor": "expd",
+            "price": 120.26,
+            "vendor_id_raw": "11540623",
+            "mota_code": null,
+            "jc_code": "EXPEDIA",
+            "partner_name": "Expedia",
+            "partner_logo": "https://hotelscan.com/apis/vendors/expd/logo.svg?pos=zz",
+            "room_name": "Comfort Triple Room",
+            "brf": 8421456,
+            "brt": "p3e#"
+          },
+          {
+            "vendor": "ostr",
+            "price": 119.17,
+            "vendor_id_raw": "7964996",
+            "mota_code": null,
+            "jc_code": "",
+            "partner_name": "Zenhotels",
+            "partner_logo": "https://hotelscan.com/apis/vendors/ostr/logo.svg?pos=zz",
+            "room_name": "Deluxe room - Double bed",
+            "brf": 8421520,
+            "brt": "p2d#d"
+          },
+          {
+            "vendor": "stfl",
+            "price": 148.5,
+            "vendor_id_raw": "52258",
+            "mota_code": null,
+            "jc_code": "",
+            "partner_name": "Stayforlong",
+            "partner_logo": "https://hotelscan.com/apis/vendors/stfl/logo.svg?pos=zz",
+            "room_name": "Comfort double room - Choice of single or double beds",
+            "brf": 8945744,
+            "brt": "p2e#b"
+          }
+        ],
+        "all_offers": [
+          {
+            "price": 74.65,
+            "brt": "p2r#",
+            "rf": "p2r#",
+            "brf": 8454224,
+            "rt": 8454224,
+            "vendor": "agda",
+            "vendor_id_raw": "488940",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Free cancellation",
+              "Balcony"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Standard room",
+            "rooms": [
+              {
+                "name": "Standard room",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "refundable": "Free cancellation",
+              "balcony": "Balcony"
+            },
+            "partner_name": "Agoda",
+            "partner_logo": "https://hotelscan.com/apis/vendors/agda/logo.svg?pos=zz"
+          },
+          {
+            "price": 74.65,
+            "brt": "p3r#",
+            "rf": "p3r#",
+            "brf": 8454224,
+            "rt": 8454224,
+            "vendor": "agda",
+            "vendor_id_raw": "488940",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Free cancellation",
+              "Balcony"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Standard Triple Room",
+            "rooms": [
+              {
+                "name": "Standard Triple Room",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "refundable": "Free cancellation",
+              "balcony": "Balcony"
+            },
+            "partner_name": "Agoda",
+            "partner_logo": "https://hotelscan.com/apis/vendors/agda/logo.svg?pos=zz"
+          },
+          {
+            "price": 75.32,
+            "brt": "p3r#",
+            "rf": "p3r#",
+            "brf": 8454288,
+            "rt": 8454288,
+            "vendor": "bkng",
+            "vendor_id_raw": "705546",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Free cancellation",
+              "Pay at the property",
+              "Balcony"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Standard Triple Room",
+            "rooms": [
+              {
+                "name": "Standard Triple Room",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "refundable": "Free cancellation",
+              "pay_at_hotel": "Pay at the property",
+              "balcony": "Balcony"
+            },
+            "partner_name": "Booking.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/bkng/logo.svg?pos=zz"
+          },
+          {
+            "price": 75.32,
+            "brt": "p2d#",
+            "rf": "p2d#",
+            "brf": 8454288,
+            "rt": 8454288,
+            "vendor": "bkng",
+            "vendor_id_raw": "705546",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Free cancellation",
+              "Pay at the property",
+              "Balcony"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Deluxe room",
+            "rooms": [
+              {
+                "name": "Deluxe room",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "refundable": "Free cancellation",
+              "pay_at_hotel": "Pay at the property",
+              "balcony": "Balcony"
+            },
+            "partner_name": "Booking.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/bkng/logo.svg?pos=zz"
+          },
+          {
+            "price": 92.25,
+            "brt": "p3e#",
+            "rf": "p3e#",
+            "brf": 8421520,
+            "rt": 8421520,
+            "vendor": "ctrp",
+            "vendor_id_raw": "2505154",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Pay at the property",
+              "Balcony"
+            ],
+            "jc_code": "TRIPCOM",
+            "chain": "",
+            "free_cancellation": false,
+            "special": false,
+            "room_name": "Comfort Triple Room",
+            "rooms": [
+              {
+                "name": "Comfort Triple Room",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "pay_at_hotel": "Pay at the property",
+              "balcony": "Balcony"
+            },
+            "partner_name": "Trip.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/ctrp/logo.svg?pos=zz"
+          },
+          {
+            "price": 98.59,
+            "brt": "p3r#",
+            "rf": "p3r#",
+            "brf": 8455744,
+            "rt": 8455744,
+            "vendor": "ctrp",
+            "vendor_id_raw": "2505154",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Free cancellation",
+              "City view"
+            ],
+            "jc_code": "TRIPCOM",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Standard Triple Room",
+            "rooms": [
+              {
+                "name": "Standard Triple Room",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "refundable": "Free cancellation",
+              "view_city": "City view"
+            },
+            "partner_name": "Trip.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/ctrp/logo.svg?pos=zz"
+          },
+          {
+            "price": 102.8,
+            "brt": "p2d#",
+            "rf": "p2d#",
+            "brf": 9502800,
+            "rt": 9502800,
+            "vendor": "ctrp",
+            "vendor_id_raw": "2505154",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included",
+              "Free cancellation",
+              "Balcony"
+            ],
+            "jc_code": "TRIPCOM",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Deluxe room",
+            "rooms": [
+              {
+                "name": "Deluxe room",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included",
+              "refundable": "Free cancellation",
+              "balcony": "Balcony"
+            },
+            "partner_name": "Trip.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/ctrp/logo.svg?pos=zz"
+          },
+          {
+            "price": 104.43,
+            "brt": "p2r#",
+            "rf": "p2r#",
+            "brf": 9470032,
+            "rt": 9470032,
+            "vendor": "agda",
+            "vendor_id_raw": "488940",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included",
+              "Balcony"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": false,
+            "special": false,
+            "room_name": "Standard room",
+            "rooms": [
+              {
+                "name": "Standard room",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included",
+              "balcony": "Balcony"
+            },
+            "partner_name": "Agoda",
+            "partner_logo": "https://hotelscan.com/apis/vendors/agda/logo.svg?pos=zz"
+          },
+          {
+            "price": 104.43,
+            "brt": "p3r#",
+            "rf": "p3r#",
+            "brf": 9470032,
+            "rt": 9470032,
+            "vendor": "agda",
+            "vendor_id_raw": "488940",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included",
+              "Balcony"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": false,
+            "special": false,
+            "room_name": "Standard Triple Room",
+            "rooms": [
+              {
+                "name": "Standard Triple Room",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included",
+              "balcony": "Balcony"
+            },
+            "partner_name": "Agoda",
+            "partner_logo": "https://hotelscan.com/apis/vendors/agda/logo.svg?pos=zz"
+          },
+          {
+            "price": 105.38,
+            "brt": "p3r#",
+            "rf": "p3r#",
+            "brf": 9470032,
+            "rt": 9470032,
+            "vendor": "bkng",
+            "vendor_id_raw": "705546",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included",
+              "Balcony"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": false,
+            "special": false,
+            "room_name": "Standard Triple Room",
+            "rooms": [
+              {
+                "name": "Standard Triple Room",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included",
+              "balcony": "Balcony"
+            },
+            "partner_name": "Booking.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/bkng/logo.svg?pos=zz"
+          },
+          {
+            "price": 105.38,
+            "brt": "p2d#",
+            "rf": "p2d#",
+            "brf": 9470032,
+            "rt": 9470032,
+            "vendor": "bkng",
+            "vendor_id_raw": "705546",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included",
+              "Balcony"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": false,
+            "special": false,
+            "room_name": "Deluxe room",
+            "rooms": [
+              {
+                "name": "Deluxe room",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included",
+              "balcony": "Balcony"
+            },
+            "partner_name": "Booking.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/bkng/logo.svg?pos=zz"
+          },
+          {
+            "price": 109.83,
+            "brt": "p3e#",
+            "rf": "p3e#",
+            "brf": 9470096,
+            "rt": 9470096,
+            "vendor": "ctrp",
+            "vendor_id_raw": "2505154",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included",
+              "Pay at the property",
+              "Balcony"
+            ],
+            "jc_code": "TRIPCOM",
+            "chain": "",
+            "free_cancellation": false,
+            "special": false,
+            "room_name": "Comfort Triple Room",
+            "rooms": [
+              {
+                "name": "Comfort Triple Room",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included",
+              "pay_at_hotel": "Pay at the property",
+              "balcony": "Balcony"
+            },
+            "partner_name": "Trip.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/ctrp/logo.svg?pos=zz"
+          },
+          {
+            "price": 111.52,
+            "brt": "p2r#",
+            "rf": "p2r#",
+            "brf": 9502800,
+            "rt": 9502800,
+            "vendor": "agda",
+            "vendor_id_raw": "488940",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included",
+              "Free cancellation",
+              "Balcony"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Standard room",
+            "rooms": [
+              {
+                "name": "Standard room",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included",
+              "refundable": "Free cancellation",
+              "balcony": "Balcony"
+            },
+            "partner_name": "Agoda",
+            "partner_logo": "https://hotelscan.com/apis/vendors/agda/logo.svg?pos=zz"
+          },
+          {
+            "price": 111.52,
+            "brt": "p3r#",
+            "rf": "p3r#",
+            "brf": 9502800,
+            "rt": 9502800,
+            "vendor": "agda",
+            "vendor_id_raw": "488940",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included",
+              "Free cancellation",
+              "Balcony"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Standard Triple Room",
+            "rooms": [
+              {
+                "name": "Standard Triple Room",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included",
+              "refundable": "Free cancellation",
+              "balcony": "Balcony"
+            },
+            "partner_name": "Agoda",
+            "partner_logo": "https://hotelscan.com/apis/vendors/agda/logo.svg?pos=zz"
+          },
+          {
+            "price": 112.54,
+            "brt": "p3r#",
+            "rf": "p3r#",
+            "brf": 9502864,
+            "rt": 9502864,
+            "vendor": "bkng",
+            "vendor_id_raw": "705546",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included",
+              "Free cancellation",
+              "Pay at the property",
+              "Balcony"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Standard Triple Room",
+            "rooms": [
+              {
+                "name": "Standard Triple Room",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included",
+              "refundable": "Free cancellation",
+              "pay_at_hotel": "Pay at the property",
+              "balcony": "Balcony"
+            },
+            "partner_name": "Booking.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/bkng/logo.svg?pos=zz"
+          },
+          {
+            "price": 112.54,
+            "brt": "p2d#",
+            "rf": "p2d#",
+            "brf": 9502864,
+            "rt": 9502864,
+            "vendor": "bkng",
+            "vendor_id_raw": "705546",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included",
+              "Free cancellation",
+              "Pay at the property",
+              "Balcony"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Deluxe room",
+            "rooms": [
+              {
+                "name": "Deluxe room",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included",
+              "refundable": "Free cancellation",
+              "pay_at_hotel": "Pay at the property",
+              "balcony": "Balcony"
+            },
+            "partner_name": "Booking.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/bkng/logo.svg?pos=zz"
+          },
+          {
+            "price": 119.17,
+            "brt": "p2d#d",
+            "rf": "p2d#d",
+            "brf": 8421520,
+            "rt": 8421520,
+            "vendor": "ostr",
+            "vendor_id_raw": "7964996",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Pay at the property",
+              "Balcony"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": false,
+            "special": false,
+            "room_name": "Deluxe room - Double bed",
+            "rooms": [
+              {
+                "name": "Deluxe room - Double bed",
+                "flags": [
+                  "Double bed"
+                ]
+              }
+            ],
+            "offer_flags_new": {
+              "pay_at_hotel": "Pay at the property",
+              "balcony": "Balcony"
+            },
+            "partner_name": "Zenhotels",
+            "partner_logo": "https://hotelscan.com/apis/vendors/ostr/logo.svg?pos=zz"
+          },
+          {
+            "price": 120.13,
+            "brt": "p3e#",
+            "rf": "p3e#",
+            "brf": 8421456,
+            "rt": 8421456,
+            "vendor": "ctrp",
+            "vendor_id_raw": "2505154",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Balcony"
+            ],
+            "jc_code": "TRIPCOM",
+            "chain": "",
+            "free_cancellation": false,
+            "special": false,
+            "room_name": "Comfort Triple Room",
+            "rooms": [
+              {
+                "name": "Comfort Triple Room",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "balcony": "Balcony"
+            },
+            "partner_name": "Trip.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/ctrp/logo.svg?pos=zz"
+          },
+          {
+            "price": 120.26,
+            "brt": "p3e#",
+            "rf": "p3e#",
+            "brf": 8421456,
+            "rt": 8421456,
+            "vendor": "htls",
+            "vendor_id_raw": "532258",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Balcony"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": false,
+            "special": false,
+            "room_name": "Comfort Triple Room",
+            "rooms": [
+              {
+                "name": "Comfort Triple Room",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "balcony": "Balcony"
+            },
+            "partner_name": "Hotels.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/htls/logo.svg?pos=zz"
+          },
+          {
+            "price": 120.26,
+            "brt": "p3e#",
+            "rf": "p3e#",
+            "brf": 8421456,
+            "rt": 8421456,
+            "vendor": "expd",
+            "vendor_id_raw": "11540623",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Balcony"
+            ],
+            "jc_code": "EXPEDIA",
+            "chain": "",
+            "free_cancellation": false,
+            "special": false,
+            "room_name": "Comfort Triple Room",
+            "rooms": [
+              {
+                "name": "Comfort Triple Room",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "balcony": "Balcony"
+            },
+            "partner_name": "Expedia",
+            "partner_logo": "https://hotelscan.com/apis/vendors/expd/logo.svg?pos=zz"
+          },
+          {
+            "price": 120.28,
+            "brt": "p2d#",
+            "rf": "p2d#",
+            "brf": 8421456,
+            "rt": 8421456,
+            "vendor": "htls",
+            "vendor_id_raw": "532258",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Balcony"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": false,
+            "special": false,
+            "room_name": "Deluxe room",
+            "rooms": [
+              {
+                "name": "Deluxe room",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "balcony": "Balcony"
+            },
+            "partner_name": "Hotels.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/htls/logo.svg?pos=zz"
+          },
+          {
+            "price": 120.28,
+            "brt": "p2d#",
+            "rf": "p2d#",
+            "brf": 8421456,
+            "rt": 8421456,
+            "vendor": "expd",
+            "vendor_id_raw": "11540623",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Balcony"
+            ],
+            "jc_code": "EXPEDIA",
+            "chain": "",
+            "free_cancellation": false,
+            "special": false,
+            "room_name": "Deluxe room",
+            "rooms": [
+              {
+                "name": "Deluxe room",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "balcony": "Balcony"
+            },
+            "partner_name": "Expedia",
+            "partner_logo": "https://hotelscan.com/apis/vendors/expd/logo.svg?pos=zz"
+          },
+          {
+            "price": 123.57,
+            "brt": "p2d#d",
+            "rf": "p2d#d",
+            "brf": 9470096,
+            "rt": 9470096,
+            "vendor": "ostr",
+            "vendor_id_raw": "7964996",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included",
+              "Pay at the property",
+              "Balcony"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": false,
+            "special": false,
+            "room_name": "Deluxe room - Double bed",
+            "rooms": [
+              {
+                "name": "Deluxe room - Double bed",
+                "flags": [
+                  "Double bed"
+                ]
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included",
+              "pay_at_hotel": "Pay at the property",
+              "balcony": "Balcony"
+            },
+            "partner_name": "Zenhotels",
+            "partner_logo": "https://hotelscan.com/apis/vendors/ostr/logo.svg?pos=zz"
+          },
+          {
+            "price": 124.7,
+            "brt": "p2d#",
+            "rf": "p2d#",
+            "brf": 9470032,
+            "rt": 9470032,
+            "vendor": "htls",
+            "vendor_id_raw": "532258",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included",
+              "Balcony"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": false,
+            "special": false,
+            "room_name": "Deluxe room",
+            "rooms": [
+              {
+                "name": "Deluxe room",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included",
+              "balcony": "Balcony"
+            },
+            "partner_name": "Hotels.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/htls/logo.svg?pos=zz"
+          },
+          {
+            "price": 124.7,
+            "brt": "p2d#",
+            "rf": "p2d#",
+            "brf": 9470032,
+            "rt": 9470032,
+            "vendor": "expd",
+            "vendor_id_raw": "11540623",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included",
+              "Balcony"
+            ],
+            "jc_code": "EXPEDIA",
+            "chain": "",
+            "free_cancellation": false,
+            "special": false,
+            "room_name": "Deluxe room",
+            "rooms": [
+              {
+                "name": "Deluxe room",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included",
+              "balcony": "Balcony"
+            },
+            "partner_name": "Expedia",
+            "partner_logo": "https://hotelscan.com/apis/vendors/expd/logo.svg?pos=zz"
+          },
+          {
+            "price": 129.37,
+            "brt": "p2e#t",
+            "rf": "p2e#t",
+            "brf": 8454288,
+            "rt": 8454288,
+            "vendor": "ostr",
+            "vendor_id_raw": "7964996",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Free cancellation",
+              "Pay at the property",
+              "Balcony"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Comfort double room - Twin beds",
+            "rooms": [
+              {
+                "name": "Comfort double room - Twin beds",
+                "flags": [
+                  "Twin beds"
+                ]
+              }
+            ],
+            "offer_flags_new": {
+              "refundable": "Free cancellation",
+              "pay_at_hotel": "Pay at the property",
+              "balcony": "Balcony"
+            },
+            "partner_name": "Zenhotels",
+            "partner_logo": "https://hotelscan.com/apis/vendors/ostr/logo.svg?pos=zz"
+          },
+          {
+            "price": 130.59,
+            "brt": "p3e#",
+            "rf": "p3e#",
+            "brf": 8454224,
+            "rt": 8454224,
+            "vendor": "htls",
+            "vendor_id_raw": "532258",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Free cancellation",
+              "Balcony"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Comfort Triple Room",
+            "rooms": [
+              {
+                "name": "Comfort Triple Room",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "refundable": "Free cancellation",
+              "balcony": "Balcony"
+            },
+            "partner_name": "Hotels.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/htls/logo.svg?pos=zz"
+          },
+          {
+            "price": 130.59,
+            "brt": "p3e#",
+            "rf": "p3e#",
+            "brf": 8454224,
+            "rt": 8454224,
+            "vendor": "expd",
+            "vendor_id_raw": "11540623",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Free cancellation",
+              "Balcony"
+            ],
+            "jc_code": "EXPEDIA",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Comfort Triple Room",
+            "rooms": [
+              {
+                "name": "Comfort Triple Room",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "refundable": "Free cancellation",
+              "balcony": "Balcony"
+            },
+            "partner_name": "Expedia",
+            "partner_logo": "https://hotelscan.com/apis/vendors/expd/logo.svg?pos=zz"
+          },
+          {
+            "price": 130.6,
+            "brt": "p3e#",
+            "rf": "p3e#",
+            "brf": 8454288,
+            "rt": 8454288,
+            "vendor": "htls",
+            "vendor_id_raw": "532258",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Free cancellation",
+              "Pay at the property",
+              "Balcony"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Comfort Triple Room",
+            "rooms": [
+              {
+                "name": "Comfort Triple Room",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "refundable": "Free cancellation",
+              "pay_at_hotel": "Pay at the property",
+              "balcony": "Balcony"
+            },
+            "partner_name": "Hotels.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/htls/logo.svg?pos=zz"
+          },
+          {
+            "price": 130.6,
+            "brt": "p3e#",
+            "rf": "p3e#",
+            "brf": 8454288,
+            "rt": 8454288,
+            "vendor": "expd",
+            "vendor_id_raw": "11540623",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Free cancellation",
+              "Pay at the property",
+              "Balcony"
+            ],
+            "jc_code": "EXPEDIA",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Comfort Triple Room",
+            "rooms": [
+              {
+                "name": "Comfort Triple Room",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "refundable": "Free cancellation",
+              "pay_at_hotel": "Pay at the property",
+              "balcony": "Balcony"
+            },
+            "partner_name": "Expedia",
+            "partner_logo": "https://hotelscan.com/apis/vendors/expd/logo.svg?pos=zz"
+          },
+          {
+            "price": 130.61,
+            "brt": "p2d#",
+            "rf": "p2d#",
+            "brf": 8454224,
+            "rt": 8454224,
+            "vendor": "htls",
+            "vendor_id_raw": "532258",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Free cancellation",
+              "Balcony"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Deluxe room",
+            "rooms": [
+              {
+                "name": "Deluxe room",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "refundable": "Free cancellation",
+              "balcony": "Balcony"
+            },
+            "partner_name": "Hotels.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/htls/logo.svg?pos=zz"
+          },
+          {
+            "price": 130.61,
+            "brt": "p2d#",
+            "rf": "p2d#",
+            "brf": 8454224,
+            "rt": 8454224,
+            "vendor": "expd",
+            "vendor_id_raw": "11540623",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Free cancellation",
+              "Balcony"
+            ],
+            "jc_code": "EXPEDIA",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Deluxe room",
+            "rooms": [
+              {
+                "name": "Deluxe room",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "refundable": "Free cancellation",
+              "balcony": "Balcony"
+            },
+            "partner_name": "Expedia",
+            "partner_logo": "https://hotelscan.com/apis/vendors/expd/logo.svg?pos=zz"
+          },
+          {
+            "price": 130.62,
+            "brt": "p2d#",
+            "rf": "p2d#",
+            "brf": 8454288,
+            "rt": 8454288,
+            "vendor": "htls",
+            "vendor_id_raw": "532258",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Free cancellation",
+              "Pay at the property",
+              "Balcony"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Deluxe room",
+            "rooms": [
+              {
+                "name": "Deluxe room",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "refundable": "Free cancellation",
+              "pay_at_hotel": "Pay at the property",
+              "balcony": "Balcony"
+            },
+            "partner_name": "Hotels.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/htls/logo.svg?pos=zz"
+          },
+          {
+            "price": 130.62,
+            "brt": "p2d#",
+            "rf": "p2d#",
+            "brf": 8454288,
+            "rt": 8454288,
+            "vendor": "expd",
+            "vendor_id_raw": "11540623",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Free cancellation",
+              "Pay at the property",
+              "Balcony"
+            ],
+            "jc_code": "EXPEDIA",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Deluxe room",
+            "rooms": [
+              {
+                "name": "Deluxe room",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "refundable": "Free cancellation",
+              "pay_at_hotel": "Pay at the property",
+              "balcony": "Balcony"
+            },
+            "partner_name": "Expedia",
+            "partner_logo": "https://hotelscan.com/apis/vendors/expd/logo.svg?pos=zz"
+          },
+          {
+            "price": 134.17,
+            "brt": "p2d#d",
+            "rf": "p2d#d",
+            "brf": 9502864,
+            "rt": 9502864,
+            "vendor": "ostr",
+            "vendor_id_raw": "7964996",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included",
+              "Free cancellation",
+              "Pay at the property",
+              "Balcony"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Deluxe room - Double bed",
+            "rooms": [
+              {
+                "name": "Deluxe room - Double bed",
+                "flags": [
+                  "Double bed"
+                ]
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included",
+              "refundable": "Free cancellation",
+              "pay_at_hotel": "Pay at the property",
+              "balcony": "Balcony"
+            },
+            "partner_name": "Zenhotels",
+            "partner_logo": "https://hotelscan.com/apis/vendors/ostr/logo.svg?pos=zz"
+          },
+          {
+            "price": 135.53,
+            "brt": "p2d#",
+            "rf": "p2d#",
+            "brf": 9502864,
+            "rt": 9502864,
+            "vendor": "htls",
+            "vendor_id_raw": "532258",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included",
+              "Free cancellation",
+              "Pay at the property",
+              "Balcony"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Deluxe room",
+            "rooms": [
+              {
+                "name": "Deluxe room",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included",
+              "refundable": "Free cancellation",
+              "pay_at_hotel": "Pay at the property",
+              "balcony": "Balcony"
+            },
+            "partner_name": "Hotels.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/htls/logo.svg?pos=zz"
+          },
+          {
+            "price": 135.53,
+            "brt": "p2d#",
+            "rf": "p2d#",
+            "brf": 9502864,
+            "rt": 9502864,
+            "vendor": "expd",
+            "vendor_id_raw": "11540623",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included",
+              "Free cancellation",
+              "Pay at the property",
+              "Balcony"
+            ],
+            "jc_code": "EXPEDIA",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Deluxe room",
+            "rooms": [
+              {
+                "name": "Deluxe room",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included",
+              "refundable": "Free cancellation",
+              "pay_at_hotel": "Pay at the property",
+              "balcony": "Balcony"
+            },
+            "partner_name": "Expedia",
+            "partner_logo": "https://hotelscan.com/apis/vendors/expd/logo.svg?pos=zz"
+          },
+          {
+            "price": 136.77,
+            "brt": "p2e#t",
+            "rf": "p2e#t",
+            "brf": 9470096,
+            "rt": 9470096,
+            "vendor": "ostr",
+            "vendor_id_raw": "7964996",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included",
+              "Pay at the property",
+              "Balcony"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": false,
+            "special": false,
+            "room_name": "Comfort double room - Twin beds",
+            "rooms": [
+              {
+                "name": "Comfort double room - Twin beds",
+                "flags": [
+                  "Twin beds"
+                ]
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included",
+              "pay_at_hotel": "Pay at the property",
+              "balcony": "Balcony"
+            },
+            "partner_name": "Zenhotels",
+            "partner_logo": "https://hotelscan.com/apis/vendors/ostr/logo.svg?pos=zz"
+          },
+          {
+            "price": 137.9,
+            "brt": "p3e#",
+            "rf": "p3e#",
+            "brf": 9470032,
+            "rt": 9470032,
+            "vendor": "ctrp",
+            "vendor_id_raw": "2505154",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included",
+              "Balcony"
+            ],
+            "jc_code": "TRIPCOM",
+            "chain": "",
+            "free_cancellation": false,
+            "special": false,
+            "room_name": "Comfort Triple Room",
+            "rooms": [
+              {
+                "name": "Comfort Triple Room",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included",
+              "balcony": "Balcony"
+            },
+            "partner_name": "Trip.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/ctrp/logo.svg?pos=zz"
+          },
+          {
+            "price": 138.01,
+            "brt": "p3e#",
+            "rf": "p3e#",
+            "brf": 9470032,
+            "rt": 9470032,
+            "vendor": "htls",
+            "vendor_id_raw": "532258",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included",
+              "Balcony"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": false,
+            "special": false,
+            "room_name": "Comfort Triple Room",
+            "rooms": [
+              {
+                "name": "Comfort Triple Room",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included",
+              "balcony": "Balcony"
+            },
+            "partner_name": "Hotels.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/htls/logo.svg?pos=zz"
+          },
+          {
+            "price": 138.01,
+            "brt": "p3e#",
+            "rf": "p3e#",
+            "brf": 9470032,
+            "rt": 9470032,
+            "vendor": "expd",
+            "vendor_id_raw": "11540623",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included",
+              "Balcony"
+            ],
+            "jc_code": "EXPEDIA",
+            "chain": "",
+            "free_cancellation": false,
+            "special": false,
+            "room_name": "Comfort Triple Room",
+            "rooms": [
+              {
+                "name": "Comfort Triple Room",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included",
+              "balcony": "Balcony"
+            },
+            "partner_name": "Expedia",
+            "partner_logo": "https://hotelscan.com/apis/vendors/expd/logo.svg?pos=zz"
+          },
+          {
+            "price": 148.5,
+            "brt": "p2e#b",
+            "rf": "p2e#b",
+            "brf": 8945744,
+            "rt": 8945744,
+            "vendor": "stfl",
+            "vendor_id_raw": "52258",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Balcony"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": false,
+            "special": false,
+            "room_name": "Comfort double room - Choice of single or double beds",
+            "rooms": [
+              {
+                "name": "Comfort double room - Choice of single or double beds",
+                "flags": [
+                  "Choice of single or double beds"
+                ]
+              }
+            ],
+            "offer_flags_new": {
+              "balcony": "Balcony"
+            },
+            "partner_name": "Stayforlong",
+            "partner_logo": "https://hotelscan.com/apis/vendors/stfl/logo.svg?pos=zz"
+          },
+          {
+            "price": 148.97,
+            "brt": "p2e#t",
+            "rf": "p2e#t",
+            "brf": 9502864,
+            "rt": 9502864,
+            "vendor": "ostr",
+            "vendor_id_raw": "7964996",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included",
+              "Free cancellation",
+              "Pay at the property",
+              "Balcony"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Comfort double room - Twin beds",
+            "rooms": [
+              {
+                "name": "Comfort double room - Twin beds",
+                "flags": [
+                  "Twin beds"
+                ]
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included",
+              "refundable": "Free cancellation",
+              "pay_at_hotel": "Pay at the property",
+              "balcony": "Balcony"
+            },
+            "partner_name": "Zenhotels",
+            "partner_logo": "https://hotelscan.com/apis/vendors/ostr/logo.svg?pos=zz"
+          },
+          {
+            "price": 149,
+            "brt": "p2e#t",
+            "rf": "p2e#t",
+            "brf": 9502800,
+            "rt": 9502800,
+            "vendor": "ostr",
+            "vendor_id_raw": "7964996",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included",
+              "Free cancellation",
+              "Balcony"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Comfort double room - Twin beds",
+            "rooms": [
+              {
+                "name": "Comfort double room - Twin beds",
+                "flags": [
+                  "Twin beds"
+                ]
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included",
+              "refundable": "Free cancellation",
+              "balcony": "Balcony"
+            },
+            "partner_name": "Zenhotels",
+            "partner_logo": "https://hotelscan.com/apis/vendors/ostr/logo.svg?pos=zz"
+          },
+          {
+            "price": 150.29,
+            "brt": "p3e#",
+            "rf": "p3e#",
+            "brf": 9502800,
+            "rt": 9502800,
+            "vendor": "htls",
+            "vendor_id_raw": "532258",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included",
+              "Free cancellation",
+              "Balcony"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Comfort Triple Room",
+            "rooms": [
+              {
+                "name": "Comfort Triple Room",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included",
+              "refundable": "Free cancellation",
+              "balcony": "Balcony"
+            },
+            "partner_name": "Hotels.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/htls/logo.svg?pos=zz"
+          },
+          {
+            "price": 150.29,
+            "brt": "p3e#",
+            "rf": "p3e#",
+            "brf": 9502800,
+            "rt": 9502800,
+            "vendor": "expd",
+            "vendor_id_raw": "11540623",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included",
+              "Free cancellation",
+              "Balcony"
+            ],
+            "jc_code": "EXPEDIA",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Comfort Triple Room",
+            "rooms": [
+              {
+                "name": "Comfort Triple Room",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included",
+              "refundable": "Free cancellation",
+              "balcony": "Balcony"
+            },
+            "partner_name": "Expedia",
+            "partner_logo": "https://hotelscan.com/apis/vendors/expd/logo.svg?pos=zz"
+          },
+          {
+            "price": 150.31,
+            "brt": "p3e#",
+            "rf": "p3e#",
+            "brf": 9502864,
+            "rt": 9502864,
+            "vendor": "htls",
+            "vendor_id_raw": "532258",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included",
+              "Free cancellation",
+              "Pay at the property",
+              "Balcony"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Comfort Triple Room",
+            "rooms": [
+              {
+                "name": "Comfort Triple Room",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included",
+              "refundable": "Free cancellation",
+              "pay_at_hotel": "Pay at the property",
+              "balcony": "Balcony"
+            },
+            "partner_name": "Hotels.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/htls/logo.svg?pos=zz"
+          },
+          {
+            "price": 150.31,
+            "brt": "p3e#",
+            "rf": "p3e#",
+            "brf": 9502864,
+            "rt": 9502864,
+            "vendor": "expd",
+            "vendor_id_raw": "11540623",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included",
+              "Free cancellation",
+              "Pay at the property",
+              "Balcony"
+            ],
+            "jc_code": "EXPEDIA",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Comfort Triple Room",
+            "rooms": [
+              {
+                "name": "Comfort Triple Room",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included",
+              "refundable": "Free cancellation",
+              "pay_at_hotel": "Pay at the property",
+              "balcony": "Balcony"
+            },
+            "partner_name": "Expedia",
+            "partner_logo": "https://hotelscan.com/apis/vendors/expd/logo.svg?pos=zz"
+          }
+        ],
+        "descriptions_language": {
+          "general": {
+            "original_language": true,
+            "text": "Located on Maafushi Island in the Maldives, this small private hotel is an ideal place to get away from it all and relax on some of the world's best beaches. The accommodation is a 30-minute speed boat ride to Maafushi and the nearest international airport is at Male. Guests can enjoy diving and snorkelling in the warm seas. Catamaran trips, excursions to nearby uninhabited islands and sandbanks, and night fishing trips are available and local bodu-beru cultural shows are provided. The inviting beach-front guest accommodation consists of double deluxe and family deluxe rooms, all featuring individually controlled air conditioning and a ceiling fan. The island's restaurants are renowned for their quality and service and gourmet cuisine. The on-site White Shell café is open until 2. 00 serving delicious drinks and snacks, and beach barbecues can be arranged."
+          },
+          "direction": {
+            "original_language": true,
+            "text": "Located in Maafushi, WhiteShell Island Hotel & Spa is near the beach. Maldives Islamic Centre and Mulee Aage Palace are local landmarks, and some of the area's activities can be experienced at Maafushi Harbor and Bolifushi Island Pier. Take an opportunity to explore the area for water adventures such as fishing."
+          }
+        },
+        "chain_code": null,
+        "bids": {
+          "bkng": "j23",
+          "htls": "j23",
+          "stfl": "j23",
+          "ostr": "j23",
+          "agda": "j23",
+          "ctrp": "j23",
+          "expd": "j23"
+        },
+        "worst_offer": 148.5,
+        "best_offer": 74.65,
+        "best_offer_ota": "agda",
+        "best_offer_mota": null,
+        "discount": 50,
+        "offers_count": 48,
+        "coordinates": {
+          "lat": 3.94396,
+          "lng": 73.49084
+        },
+        "distance": 0.3,
+        "neighborhood": null,
+        "badge": "romantic",
+        "distances": [
+          {
+            "from": "center",
+            "distance": 0.3,
+            "time": 417,
+            "means": "foot",
+            "means_type": "foot"
+          }
+        ],
+        "specs": {
+          "bathrooms": null,
+          "beds": null,
+          "bedrooms": null,
+          "guests": null,
+          "square_meters": null
+        },
+        "toa_label": "guest house",
+        "top_amenities": [
+          "wifi_room",
+          "internet",
+          "restaurant",
+          "room_service",
+          "bar"
+        ],
+        "transportations": {
+          "airports": [],
+          "trains": []
+        },
+        "images": [
+          {
+            "image_id": "697259715",
+            "label": ""
+          },
+          {
+            "image_id": "697259674",
+            "label": ""
+          },
+          {
+            "image_id": "697259755",
+            "label": ""
+          },
+          {
+            "image_id": "697259692",
+            "label": ""
+          },
+          {
+            "image_id": "697259712",
+            "label": ""
+          },
+          {
+            "image_id": "697259760",
+            "label": ""
+          },
+          {
+            "image_id": "697259713",
+            "label": ""
+          },
+          {
+            "image_id": "697259753",
+            "label": ""
+          },
+          {
+            "image_id": "697259703",
+            "label": ""
+          },
+          {
+            "image_id": "697259734",
+            "label": ""
+          },
+          {
+            "image_id": "697259694",
+            "label": ""
+          },
+          {
+            "image_id": "697259720",
+            "label": ""
+          },
+          {
+            "image_id": "697259671",
+            "label": ""
+          },
+          {
+            "image_id": "697259709",
+            "label": ""
+          },
+          {
+            "image_id": "697259731",
+            "label": ""
+          }
+        ],
+        "hero_offer": {
+          "price": 75.32,
+          "brt": "p2d#",
+          "rf": "p2d#",
+          "brf": 8454288,
+          "rt": 8454288,
+          "vendor": "bkng",
+          "vendor_id_raw": "705546",
+          "mota_code": null,
+          "direct_offer": false,
+          "offer_flags": {
+            "refundable": "Free cancellation",
+            "pay_at_hotel": "Pay at the property",
+            "balcony": "Balcony"
+          },
+          "jc_code": "",
+          "ranking_index": 0.9964418481147106,
+          "chain": "",
+          "free_cancellation": true,
+          "special": false,
+          "room_name": "Deluxe room",
+          "rooms": [
+            {
+              "name": "Deluxe room",
+              "flags": []
+            }
+          ],
+          "partner_name": "Booking.com",
+          "partner_logo": "https://hotelscan.com/apis/vendors/bkng/logo.svg?pos=zz"
+        },
+        "rank": 0,
+        "ctrl_srt": "im a ctrl teapot",
+        "test_srt": "im a test teapot"
+      }
+    ],
+    "filters": [],
+    "query": {
+      "pos": "zz"
+    }
+  }
+}

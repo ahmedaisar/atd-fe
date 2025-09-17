@@ -1,0 +1,640 @@
+{
+  "_meta": {
+    "status": "SUCCESS",
+    "cached": true,
+    "count": 1,
+    "debug": {
+      "ticket": {
+        "ticket_id": "1005888749_zz_zz_d_publ_en_2_2025-10-08_2025-10-13_1_3",
+        "created_at": 1758065404.8178,
+        "loop": null,
+        "snapped_at": 1758065404.9238,
+        "snapshot_id": "1005888749_zz_zz_d_publ_en_2_2025-10-08_2025-10-13_1_3",
+        "snapshot_ttl": 300,
+        "executions": 2,
+        "progress": 1,
+        "save_errors": []
+      }
+    }
+  },
+  "data": {
+    "meta": [],
+    "geo": {
+      "hs_id": "83t33b3fhg7w7",
+      "region_name": "Omadhoo",
+      "region_name_long": "Omadhoo, Maldives",
+      "region_type": "CITY",
+      "region_id": 3000003510,
+      "country_iso": "MV",
+      "country": "maldives",
+      "localised_country": "Maldives",
+      "center": [
+        3.79199,
+        72.96272
+      ],
+      "centroid": [
+        3.7911,
+        72.96156
+      ],
+      "polygon": [
+        "3.792575,72.95211",
+        "3.790605,72.953056",
+        "3.78735,72.966957",
+        "3.788121,72.97065",
+        "3.792061,72.970818",
+        "3.794973,72.970306",
+        "3.796086,72.968163",
+        "3.794973,72.9552",
+        "3.793859,72.953056",
+        "3.792575,72.95211"
+      ],
+      "radius": 1.07,
+      "zoom": -1,
+      "search_by_polygon": 0,
+      "cluster": 0,
+      "properties": 40,
+      "radius_override": 5,
+      "boundingbox": {
+        "ne": [
+          3.797,
+          72.971
+        ],
+        "sw": [
+          3.787,
+          72.952
+        ]
+      },
+      "airports": [
+        "MLE",
+        "DRV"
+      ],
+      "region_name_en": "Omadhoo",
+      "region_name_long_en": "Omadhoo, Maldives",
+      "referrer_city_name_en": "Omadhoo",
+      "parent_region_id": 6051084,
+      "parent_hs_id": "x5p4hmhw6iot",
+      "parent_region_name": "Maldives (all)",
+      "parent_region_name_long": "Maldives (all)",
+      "dynamic_bbox": {
+        "ne": [
+          3.791,
+          72.96
+        ],
+        "sw": [
+          3.791,
+          72.96
+        ]
+      }
+    },
+    "records": [
+      {
+        "hs_id": 1005888749,
+        "slug": "turtle-maldives-your-gateway-to-the-beach-marine-adventures-await-omadhoo-mv-1005888749",
+        "name": "Turtle Maldives - Your Gateway To The Beach & Marine Adventures Await!",
+        "ty_id": "a11f963b-46dd-4aa9-887b-485aa60d5310",
+        "toa": "guest_house",
+        "building": {
+          "room_num": 6
+        },
+        "location": {
+          "city": "Omadhoo",
+          "zip": "00020",
+          "country_iso2": "MV",
+          "address": "Marine Drive Road Lily Magu",
+          "geoid": "83t33b3fhg7w7",
+          "loc": {
+            "type": "Point"
+          },
+          "coordinates": {
+            "lng": 72.96051,
+            "lat": 3.79138
+          }
+        },
+        "opening_time": {
+          "check_in_from": "12:00",
+          "check_in_to": "00:00",
+          "check_out_from": "06:30",
+          "check_out_to": "12:30"
+        },
+        "quality": {
+          "review_count": 101,
+          "review_rating": 88,
+          "stars": 0,
+          "stars_is_estimated": false,
+          "review_source": ""
+        },
+        "covid_safe": true,
+        "amenities": {
+          "children": [
+            "babysitter"
+          ],
+          "wellness": [
+            "solarium"
+          ],
+          "sports": [
+            "bike_rent",
+            "sub"
+          ],
+          "internet": [
+            "wifi_lobby",
+            "wifi_room",
+            "internet"
+          ],
+          "food_drink": [
+            "restaurant",
+            "room_service",
+            "cafe",
+            "bar",
+            "snack_bar"
+          ],
+          "parking": [
+            "parking"
+          ],
+          "outdoor": [
+            "terrace"
+          ],
+          "other": [],
+          "entertainment": [
+            "tv_lobby"
+          ],
+          "transfer": [
+            "shuttle_service"
+          ],
+          "room": [
+            "fan",
+            "air_conditioning",
+            "tv"
+          ],
+          "reception": [
+            "24h_reception",
+            "luggage_storage",
+            "concierge",
+            "laundry_facilities",
+            "laundry_service",
+            "safety_deposit_box"
+          ]
+        },
+        "descriptions": {
+          "direction": "Omadhoo is home to Turtle Maldives. The area's natural beauty can be seen at Ari Atoll and Bikini Beach. With kayaking, scuba diving, and snorkeling nearby, you'll find plenty of adventures in the water.",
+          "general": "Turtle Maldives provides flawless service and all the necessary facilities for visitors.Stay connected with your associates, as complimentary Wi-Fi is available during your entire visit.When arriving by car, take advantage of the hotel's convenient on-site parking facilities.The hotel offers reception amenities including luggage storage and safety deposit boxes to ensure a comfortable stay for guests. Should you require it, the tours can even assist you in booking tickets and securing reservations for the finest shows and events in the vicinity.Whether you're here for an extended stay or simply require fresh garments, the hotel ensures your cherished travel attire remains spotless and accessible with the convenience of laundry service located on the premises. The hotel's daily housekeeping ensures an excellent option for your stay.To ensure the well-being and convenience of all visitors, smoking is strictly prohibited throughout the entire hotel. Smoking is permitted solely in the specified smoking zones allocated by hotel. In order to ensure the utmost level of relaxation, the guestrooms feature an inviting design and are equipped with all basic necessities, creating a delightful stay experience. To ensure a pleasant stay, a selection of rooms at hotel come furnished with linen service and air conditioning, all designed with your ease in mind. Within specific rooms, a coffee or tea maker, instant coffee and instant tea is conveniently available for your use.Understanding the significance of bathroom facilities in enhancing visitor contentment, hotel offers a hair dryer, toiletries and towels within a few chosen chambers. Each day, arise to a delightful complimentary morning meal at Turtle Maldives.How about kicking off each day of your getaway with a delicious cup of coffee? At the hotel, relish in the invigorating taste of a freshly brewed, excellent coffee. Various excellent meal offerings at hotel ensure that enticing and easily accessible options are constantly available.Visitors with specific dietary preferences can savor a variety of culinary styles at Turtle Maldives, featuring halal choices to accommodate their needs.Upon your arrival, don't miss experiencing bar for enjoyable in-house evening entertainment.Turtle Maldives provides a superb assortment of leisure amenities for guests to enjoy. Make sure to discover the readily available beach at hotel.",
+          "amenities": true,
+          "localized": "Turtle Maldives provides flawless service and all the necessary facilities for visitors.Stay connected with your associates, as complimentary Wi-Fi is available during your entire visit.When arriving by car, take advantage of the hotel's convenient on-site parking facilities.The hotel offers reception amenities including luggage storage and safety deposit boxes to ensure a comfortable stay for guests. Should you require it, the tours can even assist you in booking tickets and securing reservations for the finest shows and events in the vicinity.Whether you're here for an extended stay or simply require fresh garments, the hotel ensures your cherished travel attire remains spotless and accessible with the convenience of laundry service located on the premises. The hotel's daily housekeeping ensures an excellent option for your stay.To ensure the well-being and convenience of all visitors, smoking is strictly prohibited throughout the entire hotel. Smoking is permitted solely in the specified smoking zones allocated by hotel. In order to ensure the utmost level of relaxation, the guestrooms feature an inviting design and are equipped with all basic necessities, creating a delightful stay experience. To ensure a pleasant stay, a selection of rooms at hotel come furnished with linen service and air conditioning, all designed with your ease in mind. Within specific rooms, a coffee or tea maker, instant coffee and instant tea is conveniently available for your use.Understanding the significance of bathroom facilities in enhancing visitor contentment, hotel offers a hair dryer, toiletries and towels within a few chosen chambers. Each day, arise to a delightful complimentary morning meal at Turtle Maldives.How about kicking off each day of your getaway with a delicious cup of coffee? At the hotel, relish in the invigorating taste of a freshly brewed, excellent coffee. Various excellent meal offerings at hotel ensure that enticing and easily accessible options are constantly available.Visitors with specific dietary preferences can savor a variety of culinary styles at Turtle Maldives, featuring halal choices to accommodate their needs.Upon your arrival, don't miss experiencing bar for enjoyable in-house evening entertainment.Turtle Maldives provides a superb assortment of leisure amenities for guests to enjoy. Make sure to discover the readily available beach at hotel."
+        },
+        "short_description": "Excellent accommodation. Close to the beach . Fantastic service. Beautiful beach. Awesome vibe.",
+        "chain": "no_chain",
+        "brand": "no_brand",
+        "offers": [
+          {
+            "price": 57.42,
+            "brt": "p2r#",
+            "rf": "p2r#",
+            "brf": 9502784,
+            "rt": 9502784,
+            "vendor": "htls",
+            "vendor_id_raw": "1419170528",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included",
+              "Free cancellation"
+            ],
+            "jc_code": "",
+            "ranking_index": 0.9699059561128527,
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Standard room",
+            "rooms": [
+              {
+                "name": "Standard room",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included",
+              "refundable": "Free cancellation"
+            },
+            "partner_name": "Hotels.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/htls/logo.svg?pos=zz"
+          },
+          {
+            "vendor": "agda",
+            "price": 53.1,
+            "vendor_id_raw": "10632689",
+            "mota_code": null,
+            "jc_code": "",
+            "partner_name": "Agoda",
+            "partner_logo": "https://hotelscan.com/apis/vendors/agda/logo.svg?pos=zz",
+            "room_name": "Standard room - King bed",
+            "brf": 9502784,
+            "brt": "p2r#k"
+          },
+          {
+            "vendor": "bkng",
+            "price": 64.27,
+            "vendor_id_raw": "5773504",
+            "mota_code": null,
+            "jc_code": "",
+            "partner_name": "Booking.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/bkng/logo.svg?pos=zz",
+            "room_name": "Standard room - Twin beds",
+            "brf": 8421440,
+            "brt": "p2r#t"
+          },
+          {
+            "vendor": "expd",
+            "price": 54.54,
+            "vendor_id_raw": "44317829",
+            "mota_code": null,
+            "jc_code": "EXPEDIA",
+            "partner_name": "Expedia",
+            "partner_logo": "https://hotelscan.com/apis/vendors/expd/logo.svg?pos=zz",
+            "room_name": "Standard room",
+            "brf": 9502784,
+            "brt": "p2r#"
+          }
+        ],
+        "all_offers": [
+          {
+            "price": 53.1,
+            "brt": "p2r#k",
+            "rf": "p2r#k",
+            "brf": 9502784,
+            "rt": 9502784,
+            "vendor": "agda",
+            "vendor_id_raw": "10632689",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included",
+              "Free cancellation"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Standard room - King bed",
+            "rooms": [
+              {
+                "name": "Standard room - King bed",
+                "flags": [
+                  "King bed"
+                ]
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included",
+              "refundable": "Free cancellation"
+            },
+            "partner_name": "Agoda",
+            "partner_logo": "https://hotelscan.com/apis/vendors/agda/logo.svg?pos=zz"
+          },
+          {
+            "price": 54.54,
+            "brt": "p2r#",
+            "rf": "p2r#",
+            "brf": 9502784,
+            "rt": 9502784,
+            "vendor": "expd",
+            "vendor_id_raw": "44317829",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included",
+              "Free cancellation"
+            ],
+            "jc_code": "EXPEDIA",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Standard room",
+            "rooms": [
+              {
+                "name": "Standard room",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included",
+              "refundable": "Free cancellation"
+            },
+            "partner_name": "Expedia",
+            "partner_logo": "https://hotelscan.com/apis/vendors/expd/logo.svg?pos=zz"
+          },
+          {
+            "price": 57.42,
+            "brt": "p2r#",
+            "rf": "p2r#",
+            "brf": 9502784,
+            "rt": 9502784,
+            "vendor": "htls",
+            "vendor_id_raw": "1419170528",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included",
+              "Free cancellation"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Standard room",
+            "rooms": [
+              {
+                "name": "Standard room",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included",
+              "refundable": "Free cancellation"
+            },
+            "partner_name": "Hotels.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/htls/logo.svg?pos=zz"
+          },
+          {
+            "price": 57.43,
+            "brt": "p2r#",
+            "rf": "p2r#",
+            "brf": 9502848,
+            "rt": 9502848,
+            "vendor": "htls",
+            "vendor_id_raw": "1419170528",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included",
+              "Free cancellation",
+              "Pay at the property"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Standard room",
+            "rooms": [
+              {
+                "name": "Standard room",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included",
+              "refundable": "Free cancellation",
+              "pay_at_hotel": "Pay at the property"
+            },
+            "partner_name": "Hotels.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/htls/logo.svg?pos=zz"
+          },
+          {
+            "price": 57.43,
+            "brt": "p2r#",
+            "rf": "p2r#",
+            "brf": 9502848,
+            "rt": 9502848,
+            "vendor": "expd",
+            "vendor_id_raw": "44317829",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included",
+              "Free cancellation",
+              "Pay at the property"
+            ],
+            "jc_code": "EXPEDIA",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Standard room",
+            "rooms": [
+              {
+                "name": "Standard room",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included",
+              "refundable": "Free cancellation",
+              "pay_at_hotel": "Pay at the property"
+            },
+            "partner_name": "Expedia",
+            "partner_logo": "https://hotelscan.com/apis/vendors/expd/logo.svg?pos=zz"
+          },
+          {
+            "price": 63.7,
+            "brt": "p2r#t",
+            "rf": "p2r#t",
+            "brf": 8421440,
+            "rt": 8421440,
+            "vendor": "agda",
+            "vendor_id_raw": "10632477",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": false,
+            "special": false,
+            "room_name": "Standard room - Twin beds",
+            "rooms": [
+              {
+                "name": "Standard room - Twin beds",
+                "flags": [
+                  "Twin beds"
+                ]
+              }
+            ],
+            "offer_flags_new": [],
+            "partner_name": "Agoda",
+            "partner_logo": "https://hotelscan.com/apis/vendors/agda/logo.svg?pos=zz"
+          },
+          {
+            "price": 64.27,
+            "brt": "p2r#t",
+            "rf": "p2r#t",
+            "brf": 8421440,
+            "rt": 8421440,
+            "vendor": "bkng",
+            "vendor_id_raw": "5773504",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": false,
+            "special": false,
+            "room_name": "Standard room - Twin beds",
+            "rooms": [
+              {
+                "name": "Standard room - Twin beds",
+                "flags": [
+                  "Twin beds"
+                ]
+              }
+            ],
+            "offer_flags_new": [],
+            "partner_name": "Booking.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/bkng/logo.svg?pos=zz"
+          }
+        ],
+        "descriptions_language": {
+          "general": {
+            "original_language": true,
+            "text": "Turtle Maldives provides flawless service and all the necessary facilities for visitors.Stay connected with your associates, as complimentary Wi-Fi is available during your entire visit.When arriving by car, take advantage of the hotel's convenient on-site parking facilities.The hotel offers reception amenities including luggage storage and safety deposit boxes to ensure a comfortable stay for guests. Should you require it, the tours can even assist you in booking tickets and securing reservations for the finest shows and events in the vicinity.Whether you're here for an extended stay or simply require fresh garments, the hotel ensures your cherished travel attire remains spotless and accessible with the convenience of laundry service located on the premises. The hotel's daily housekeeping ensures an excellent option for your stay.To ensure the well-being and convenience of all visitors, smoking is strictly prohibited throughout the entire hotel. Smoking is permitted solely in the specified smoking zones allocated by hotel. In order to ensure the utmost level of relaxation, the guestrooms feature an inviting design and are equipped with all basic necessities, creating a delightful stay experience. To ensure a pleasant stay, a selection of rooms at hotel come furnished with linen service and air conditioning, all designed with your ease in mind. Within specific rooms, a coffee or tea maker, instant coffee and instant tea is conveniently available for your use.Understanding the significance of bathroom facilities in enhancing visitor contentment, hotel offers a hair dryer, toiletries and towels within a few chosen chambers. Each day, arise to a delightful complimentary morning meal at Turtle Maldives.How about kicking off each day of your getaway with a delicious cup of coffee? At the hotel, relish in the invigorating taste of a freshly brewed, excellent coffee. Various excellent meal offerings at hotel ensure that enticing and easily accessible options are constantly available.Visitors with specific dietary preferences can savor a variety of culinary styles at Turtle Maldives, featuring halal choices to accommodate their needs.Upon your arrival, don't miss experiencing bar for enjoyable in-house evening entertainment.Turtle Maldives provides a superb assortment of leisure amenities for guests to enjoy. Make sure to discover the readily available beach at hotel."
+          },
+          "direction": {
+            "original_language": true,
+            "text": "Omadhoo is home to Turtle Maldives. The area's natural beauty can be seen at Ari Atoll and Bikini Beach. With kayaking, scuba diving, and snorkeling nearby, you'll find plenty of adventures in the water."
+          }
+        },
+        "chain_code": null,
+        "bids": {
+          "bkng": "j23",
+          "agda": "j23",
+          "htls": "j23",
+          "expd": "j23"
+        },
+        "worst_offer": 64.27,
+        "best_offer": 53.1,
+        "best_offer_ota": "agda",
+        "best_offer_mota": null,
+        "discount": 10,
+        "offers_count": 7,
+        "coordinates": {
+          "lat": 3.79138,
+          "lng": 72.96051
+        },
+        "distance": 0.25,
+        "neighborhood": null,
+        "badge": null,
+        "distances": [
+          {
+            "from": "center",
+            "distance": 0.25,
+            "time": 347,
+            "means": "foot",
+            "means_type": "foot"
+          }
+        ],
+        "specs": {
+          "bathrooms": null,
+          "beds": null,
+          "bedrooms": null,
+          "guests": null,
+          "square_meters": null
+        },
+        "toa_label": "guest house",
+        "top_amenities": [
+          "wifi_room",
+          "internet",
+          "restaurant",
+          "room_service",
+          "bar"
+        ],
+        "transportations": {
+          "airports": [],
+          "trains": []
+        },
+        "images": [
+          {
+            "image_id": "726059381",
+            "label": ""
+          },
+          {
+            "image_id": "726059448",
+            "label": ""
+          },
+          {
+            "image_id": "726059388",
+            "label": ""
+          },
+          {
+            "image_id": "726059382",
+            "label": ""
+          },
+          {
+            "image_id": "726059379",
+            "label": ""
+          },
+          {
+            "image_id": "726059383",
+            "label": ""
+          },
+          {
+            "image_id": "726059430",
+            "label": ""
+          },
+          {
+            "image_id": "726059384",
+            "label": ""
+          },
+          {
+            "image_id": "726059485",
+            "label": ""
+          },
+          {
+            "image_id": "726059461",
+            "label": ""
+          },
+          {
+            "image_id": "726059376",
+            "label": ""
+          },
+          {
+            "image_id": "726059421",
+            "label": ""
+          },
+          {
+            "image_id": "726059424",
+            "label": ""
+          },
+          {
+            "image_id": "726059411",
+            "label": ""
+          },
+          {
+            "image_id": "726059439",
+            "label": ""
+          }
+        ],
+        "hero_offer": {
+          "price": 57.42,
+          "brt": "p2r#",
+          "rf": "p2r#",
+          "brf": 9502784,
+          "rt": 9502784,
+          "vendor": "htls",
+          "vendor_id_raw": "1419170528",
+          "mota_code": null,
+          "direct_offer": false,
+          "offer_flags": {
+            "breakfast": "Breakfast included",
+            "refundable": "Free cancellation"
+          },
+          "jc_code": "",
+          "ranking_index": 0.9699059561128527,
+          "chain": "",
+          "free_cancellation": true,
+          "special": false,
+          "room_name": "Standard room",
+          "rooms": [
+            {
+              "name": "Standard room",
+              "flags": []
+            }
+          ],
+          "partner_name": "Hotels.com",
+          "partner_logo": "https://hotelscan.com/apis/vendors/htls/logo.svg?pos=zz"
+        },
+        "rank": 0,
+        "ctrl_srt": "im a ctrl teapot",
+        "test_srt": "im a test teapot"
+      }
+    ],
+    "filters": [],
+    "query": {
+      "pos": "zz"
+    }
+  }
+}

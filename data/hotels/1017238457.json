@@ -1,0 +1,480 @@
+{
+  "_meta": {
+    "status": "SUCCESS",
+    "cached": true,
+    "count": 1,
+    "debug": {
+      "ticket": {
+        "ticket_id": "1017238457_zz_zz_d_publ_en_2_2025-10-08_2025-10-13_1_3",
+        "created_at": 1758065368.5648,
+        "loop": null,
+        "snapped_at": 1758065368.6454,
+        "snapshot_id": "1017238457_zz_zz_d_publ_en_2_2025-10-08_2025-10-13_1_3",
+        "snapshot_ttl": 300,
+        "executions": 2,
+        "progress": 1,
+        "save_errors": []
+      }
+    }
+  },
+  "data": {
+    "meta": [],
+    "geo": {
+      "hs_id": "x5zqbp1vkin4",
+      "region_name": "Huraa",
+      "region_name_long": "Huraa, Maldives",
+      "region_type": "CITY",
+      "region_id": 6054356,
+      "country_iso": "MV",
+      "country": "maldives",
+      "localised_country": "Maldives",
+      "center": [
+        4.3348,
+        73.60022
+      ],
+      "centroid": [
+        4.3348,
+        73.60077
+      ],
+      "polygon": [
+        "4.332087,73.596225",
+        "4.329496,73.600754",
+        "4.333241,73.604217",
+        "4.338233,73.603924",
+        "4.340094,73.600781",
+        "4.332087,73.596225"
+      ],
+      "radius": 0.59,
+      "zoom": -1,
+      "search_by_polygon": 0,
+      "cluster": 0,
+      "properties": 70,
+      "radius_override": 5,
+      "boundingbox": {
+        "ne": [
+          4.341,
+          73.605
+        ],
+        "sw": [
+          4.329,
+          73.596
+        ]
+      },
+      "airports": [
+        "MLE",
+        "DRV"
+      ],
+      "region_name_en": "Huraa",
+      "region_name_long_en": "Huraa, Maldives",
+      "referrer_city_name_en": "Huraa",
+      "parent_region_id": 6051084,
+      "parent_hs_id": "x5p4hmhw6iot",
+      "parent_region_name": "Maldives (all)",
+      "parent_region_name_long": "Maldives (all)",
+      "dynamic_bbox": {
+        "ne": [
+          4.331,
+          73.599
+        ],
+        "sw": [
+          4.331,
+          73.599
+        ]
+      }
+    },
+    "records": [
+      {
+        "hs_id": 1017238457,
+        "slug": "sea-breeze-view-huraa-mv-1017238457",
+        "name": "Sea Breeze View",
+        "toa": "guest_house",
+        "building": {
+          "room_num": 5
+        },
+        "location": {
+          "city": "Huraa",
+          "zip": "08050",
+          "country_iso2": "MV",
+          "address": "Palmaa, Bodu Huraa",
+          "geoid": "x5zqbp1vkin4",
+          "loc": {
+            "type": "Point"
+          },
+          "coordinates": {
+            "lng": 73.599453,
+            "lat": 4.33169
+          }
+        },
+        "opening_time": {
+          "check_in_from": "14:00",
+          "check_in_to": "23:30",
+          "check_out_from": null,
+          "check_out_to": "12:00"
+        },
+        "quality": {
+          "stars": 3,
+          "stars_is_estimated": false,
+          "review_source": ""
+        },
+        "covid_safe": false,
+        "amenities": {
+          "sports": [
+            "sailing",
+            "sub",
+            "surf"
+          ],
+          "internet": [
+            "wifi"
+          ],
+          "disability": [
+            "wheelchair_accessible",
+            "disability_facilities"
+          ],
+          "outdoor": [
+            "terrace"
+          ]
+        },
+        "descriptions": {
+          "direction": "Located in Huraa, Sea Breeze View is near the beach. Boutique by Island Breeze and Orofini Jewellery are worth checking out if shopping is on the agenda, while those wishing to experience the area's natural beauty can explore Paradise Island Beach and Kani Beach. Looking to get your feet wet? Jet skiing, kayaking and scuba diving adventures can be found near the property.",
+          "general": "Location Feeling like at home during the long journey is priceless. Guest house «Sea Breeze View» is located in Huraa. This guest house is located in the very center of the city. Before going to bed, you can walk around the main landmarks of the city. You can take a walk and explore the neighbourhood area of the guest house — Kani Beach and Dhonveli Beach.At the guest house Want to be always on-line? Wi-Fi is available.",
+          "amenities": true,
+          "localized": "Location Feeling like at home during the long journey is priceless. Guest house «Sea Breeze View» is located in Huraa. This guest house is located in the very center of the city. Before going to bed, you can walk around the main landmarks of the city. You can take a walk and explore the neighbourhood area of the guest house — Kani Beach and Dhonveli Beach.At the guest house Want to be always on-line? Wi-Fi is available."
+        },
+        "short_description": "Guest house with 5 rooms",
+        "offers": [
+          {
+            "price": 47.83,
+            "brt": "p2o#b",
+            "rf": "p2o#b",
+            "brf": 9502784,
+            "rt": 9502784,
+            "vendor": "htls",
+            "vendor_id_raw": "3655511040",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included",
+              "Free cancellation"
+            ],
+            "jc_code": "",
+            "ranking_index": 1,
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Basic room - Choice of single or double beds",
+            "rooms": [
+              {
+                "name": "Basic room - Choice of single or double beds",
+                "flags": [
+                  "Choice of single or double beds"
+                ]
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included",
+              "refundable": "Free cancellation"
+            },
+            "partner_name": "Hotels.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/htls/logo.svg?pos=zz"
+          },
+          {
+            "vendor": "expd",
+            "price": 47.83,
+            "vendor_id_raw": "114203470",
+            "mota_code": null,
+            "jc_code": "EXPEDIA",
+            "partner_name": "Expedia",
+            "partner_logo": "https://hotelscan.com/apis/vendors/expd/logo.svg?pos=zz",
+            "room_name": "Basic room - Choice of single or double beds",
+            "brf": 9502784,
+            "brt": "p2o#b"
+          }
+        ],
+        "all_offers": [
+          {
+            "price": 47.83,
+            "brt": "p2o#b",
+            "rf": "p2o#b",
+            "brf": 9502784,
+            "rt": 9502784,
+            "vendor": "htls",
+            "vendor_id_raw": "3655511040",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included",
+              "Free cancellation"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Basic room - Choice of single or double beds",
+            "rooms": [
+              {
+                "name": "Basic room - Choice of single or double beds",
+                "flags": [
+                  "Choice of single or double beds"
+                ]
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included",
+              "refundable": "Free cancellation"
+            },
+            "partner_name": "Hotels.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/htls/logo.svg?pos=zz"
+          },
+          {
+            "price": 47.83,
+            "brt": "p2o#b",
+            "rf": "p2o#b",
+            "brf": 9502784,
+            "rt": 9502784,
+            "vendor": "expd",
+            "vendor_id_raw": "114203470",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included",
+              "Free cancellation"
+            ],
+            "jc_code": "EXPEDIA",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Basic room - Choice of single or double beds",
+            "rooms": [
+              {
+                "name": "Basic room - Choice of single or double beds",
+                "flags": [
+                  "Choice of single or double beds"
+                ]
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included",
+              "refundable": "Free cancellation"
+            },
+            "partner_name": "Expedia",
+            "partner_logo": "https://hotelscan.com/apis/vendors/expd/logo.svg?pos=zz"
+          },
+          {
+            "price": 57.25,
+            "brt": "p3o#",
+            "rf": "p3o#",
+            "brf": 9502784,
+            "rt": 9502784,
+            "vendor": "htls",
+            "vendor_id_raw": "3655511040",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included",
+              "Free cancellation"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Basic Triple Room",
+            "rooms": [
+              {
+                "name": "Basic Triple Room",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included",
+              "refundable": "Free cancellation"
+            },
+            "partner_name": "Hotels.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/htls/logo.svg?pos=zz"
+          },
+          {
+            "price": 57.25,
+            "brt": "p3o#",
+            "rf": "p3o#",
+            "brf": 9502784,
+            "rt": 9502784,
+            "vendor": "expd",
+            "vendor_id_raw": "114203470",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included",
+              "Free cancellation"
+            ],
+            "jc_code": "EXPEDIA",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Basic Triple Room",
+            "rooms": [
+              {
+                "name": "Basic Triple Room",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included",
+              "refundable": "Free cancellation"
+            },
+            "partner_name": "Expedia",
+            "partner_logo": "https://hotelscan.com/apis/vendors/expd/logo.svg?pos=zz"
+          }
+        ],
+        "descriptions_language": {
+          "general": {
+            "original_language": true,
+            "text": "Location Feeling like at home during the long journey is priceless. Guest house «Sea Breeze View» is located in Huraa. This guest house is located in the very center of the city. Before going to bed, you can walk around the main landmarks of the city. You can take a walk and explore the neighbourhood area of the guest house — Kani Beach and Dhonveli Beach.At the guest house Want to be always on-line? Wi-Fi is available."
+          },
+          "direction": {
+            "original_language": true,
+            "text": "Located in Huraa, Sea Breeze View is near the beach. Boutique by Island Breeze and Orofini Jewellery are worth checking out if shopping is on the agenda, while those wishing to experience the area's natural beauty can explore Paradise Island Beach and Kani Beach. Looking to get your feet wet? Jet skiing, kayaking and scuba diving adventures can be found near the property."
+          }
+        },
+        "chain_code": null,
+        "bids": {
+          "expd": "j23",
+          "htls": "j23"
+        },
+        "worst_offer": null,
+        "best_offer": 47.83,
+        "best_offer_ota": "htls",
+        "best_offer_mota": null,
+        "discount": 0,
+        "offers_count": 4,
+        "coordinates": {
+          "lat": 4.33169,
+          "lng": 73.599453
+        },
+        "distance": 0.36,
+        "neighborhood": null,
+        "badge": null,
+        "distances": [
+          {
+            "from": "center",
+            "distance": 0.36,
+            "time": 500,
+            "means": "foot",
+            "means_type": "foot"
+          }
+        ],
+        "specs": {
+          "bathrooms": null,
+          "beds": null,
+          "bedrooms": null,
+          "guests": null,
+          "square_meters": null
+        },
+        "toa_label": "guest house",
+        "top_amenities": [],
+        "transportations": {
+          "airports": [],
+          "trains": []
+        },
+        "images": [
+          {
+            "image_id": "752421281",
+            "label": ""
+          },
+          {
+            "image_id": "752421247",
+            "label": ""
+          },
+          {
+            "image_id": "752421273",
+            "label": ""
+          },
+          {
+            "image_id": "752421262",
+            "label": ""
+          },
+          {
+            "image_id": "752421278",
+            "label": ""
+          },
+          {
+            "image_id": "752421243",
+            "label": ""
+          },
+          {
+            "image_id": "752421255",
+            "label": ""
+          },
+          {
+            "image_id": "752421274",
+            "label": ""
+          },
+          {
+            "image_id": "752421280",
+            "label": ""
+          },
+          {
+            "image_id": "752421296",
+            "label": ""
+          },
+          {
+            "image_id": "752421287",
+            "label": ""
+          },
+          {
+            "image_id": "752421250",
+            "label": ""
+          },
+          {
+            "image_id": "752421292",
+            "label": ""
+          },
+          {
+            "image_id": "752421288",
+            "label": ""
+          },
+          {
+            "image_id": "752421277",
+            "label": ""
+          }
+        ],
+        "hero_offer": {
+          "price": 47.83,
+          "brt": "p2o#b",
+          "rf": "p2o#b",
+          "brf": 9502784,
+          "rt": 9502784,
+          "vendor": "htls",
+          "vendor_id_raw": "3655511040",
+          "mota_code": null,
+          "direct_offer": false,
+          "offer_flags": {
+            "breakfast": "Breakfast included",
+            "refundable": "Free cancellation"
+          },
+          "jc_code": "",
+          "ranking_index": 1,
+          "chain": "",
+          "free_cancellation": true,
+          "special": false,
+          "room_name": "Basic room - Choice of single or double beds",
+          "rooms": [
+            {
+              "name": "Basic room - Choice of single or double beds",
+              "flags": [
+                "Choice of single or double beds"
+              ]
+            }
+          ],
+          "partner_name": "Hotels.com",
+          "partner_logo": "https://hotelscan.com/apis/vendors/htls/logo.svg?pos=zz"
+        },
+        "rank": 0,
+        "ctrl_srt": "im a ctrl teapot",
+        "test_srt": "im a test teapot"
+      }
+    ],
+    "filters": [],
+    "query": {
+      "pos": "zz"
+    }
+  }
+}

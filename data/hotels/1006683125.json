@@ -1,0 +1,519 @@
+{
+  "_meta": {
+    "status": "SUCCESS",
+    "cached": true,
+    "count": 1,
+    "debug": {
+      "ticket": {
+        "ticket_id": "1006683125_zz_zz_d_publ_en_2_2025-10-08_2025-10-13_1_3",
+        "created_at": 1758065401.6386,
+        "loop": null,
+        "snapped_at": 1758065401.7986,
+        "snapshot_id": "1006683125_zz_zz_d_publ_en_2_2025-10-08_2025-10-13_1_3",
+        "snapshot_ttl": 300,
+        "executions": 2,
+        "progress": 1,
+        "save_errors": []
+      }
+    }
+  },
+  "data": {
+    "meta": [],
+    "geo": {
+      "hs_id": "83t39x78jfnkk",
+      "region_name": "Feridhoo",
+      "region_name_long": "Feridhoo, Maldives",
+      "region_type": "CITY",
+      "region_id": 3000003551,
+      "country_iso": "MV",
+      "country": "maldives",
+      "localised_country": "Maldives",
+      "center": [
+        4.05119,
+        72.72256
+      ],
+      "centroid": [
+        4.05016,
+        72.72236
+      ],
+      "polygon": [
+        "4.050393,72.712433",
+        "4.046423,72.718269",
+        "4.045567,72.724991",
+        "4.049922,72.732292",
+        "4.055733,72.728424",
+        "4.057146,72.723335",
+        "4.053727,72.714622",
+        "4.050393,72.712433"
+      ],
+      "radius": 1.11,
+      "zoom": -1,
+      "search_by_polygon": 0,
+      "cluster": 0,
+      "properties": 10,
+      "radius_override": 5,
+      "boundingbox": {
+        "ne": [
+          4.058,
+          72.733
+        ],
+        "sw": [
+          4.045,
+          72.712
+        ]
+      },
+      "airports": [
+        "MLE",
+        "DRV"
+      ],
+      "region_name_en": "Feridhoo",
+      "region_name_long_en": "Feridhoo, Maldives",
+      "referrer_city_name_en": "Feridhoo",
+      "parent_region_id": 6051084,
+      "parent_hs_id": "x5p4hmhw6iot",
+      "parent_region_name": "Maldives (all)",
+      "parent_region_name_long": "Maldives (all)",
+      "dynamic_bbox": {
+        "ne": [
+          4.05,
+          72.725
+        ],
+        "sw": [
+          4.05,
+          72.725
+        ]
+      }
+    },
+    "records": [
+      {
+        "hs_id": 1006683125,
+        "slug": "escapism-maldives-feridhoo-mv-1006683125",
+        "name": "Escapism Maldives",
+        "toa": "guest_house",
+        "building": {
+          "room_num": 6,
+          "square_meters": 16,
+          "max_children": 1
+        },
+        "location": {
+          "city": "Feridhoo",
+          "zip": "09060",
+          "country_iso2": "MV",
+          "address": "Escapism Maldives Shaheed Ali Higun",
+          "geoid": "83t39x78jfnkk",
+          "loc": {
+            "type": "Point"
+          },
+          "coordinates": {
+            "lng": 72.72523,
+            "lat": 4.05098
+          }
+        },
+        "opening_time": {
+          "check_in_from": "07:00",
+          "check_in_to": "12:00",
+          "check_out_from": null,
+          "check_out_to": "17:00"
+        },
+        "quality": {
+          "review_count": 131,
+          "review_rating": 97,
+          "stars": 0,
+          "stars_is_estimated": false,
+          "review_source": ""
+        },
+        "covid_safe": true,
+        "amenities": {
+          "wellness": [
+            "fitness_center"
+          ],
+          "sports": [
+            "sub"
+          ],
+          "internet": [
+            "wifi_lobby",
+            "wifi_room",
+            "internet"
+          ],
+          "transfer": [
+            "shuttle_service"
+          ],
+          "food_drink": [
+            "tea_coffee_maker"
+          ],
+          "disability": [
+            "wheelchair_accessible"
+          ],
+          "parking": [
+            "parking"
+          ],
+          "outdoor": [
+            "terrace",
+            "patio"
+          ],
+          "other": [],
+          "room": [
+            "fan",
+            "air_conditioning",
+            "tv",
+            "in_room_safe"
+          ],
+          "reception": [
+            "laundry_facilities",
+            "laundry_service",
+            "safety_deposit_box"
+          ]
+        },
+        "descriptions": {
+          "general": "Escapism Maldives offers top-notch services and amenities, ensuring guests experience utmost comfort.Maintain seamless communication using the complimentary Wi-Fi at hotel.During leisurely days and evenings, on-site amenities such as daily housekeeping enable you to fully enjoy your accommodation. At Escapism Maldives, every guestroom is provided with convenient amenities and fittings to ensure a comfortable stay. Elevate your experience at hotel with the knowledge that certain rooms are equipped with air conditioning, ensuring a more pleasant stay for you. Begin your day carefree at Escapism Maldives, as complimentary breakfast is offered for your convenience.",
+          "localized": "Escapism Maldives offers top-notch services and amenities, ensuring guests experience utmost comfort.Maintain seamless communication using the complimentary Wi-Fi at hotel.During leisurely days and evenings, on-site amenities such as daily housekeeping enable you to fully enjoy your accommodation. At Escapism Maldives, every guestroom is provided with convenient amenities and fittings to ensure a comfortable stay. Elevate your experience at hotel with the knowledge that certain rooms are equipped with air conditioning, ensuring a more pleasant stay for you. Begin your day carefree at Escapism Maldives, as complimentary breakfast is offered for your convenience."
+        },
+        "short_description": "Simple guest house with parking, fitness center and shuttle service",
+        "chain": "no_chain",
+        "brand": "no_brand",
+        "offers": [
+          {
+            "price": 75.87,
+            "brt": "p2d#",
+            "rf": "p2d#",
+            "brf": 9502848,
+            "rt": 9502848,
+            "vendor": "bkng",
+            "vendor_id_raw": "6247481",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included",
+              "Free cancellation",
+              "Pay at the property"
+            ],
+            "jc_code": "",
+            "ranking_index": 0.9964149202583366,
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Deluxe room",
+            "rooms": [
+              {
+                "name": "Deluxe room",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included",
+              "refundable": "Free cancellation",
+              "pay_at_hotel": "Pay at the property"
+            },
+            "partner_name": "Booking.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/bkng/logo.svg?pos=zz"
+          },
+          {
+            "vendor": "agda",
+            "price": 75.19,
+            "vendor_id_raw": "62146961",
+            "mota_code": null,
+            "jc_code": "",
+            "partner_name": "Agoda",
+            "partner_logo": "https://hotelscan.com/apis/vendors/agda/logo.svg?pos=zz",
+            "room_name": "Deluxe room - Choice of single or double beds",
+            "brf": 9502848,
+            "brt": "p2d#b"
+          }
+        ],
+        "all_offers": [
+          {
+            "price": 75.19,
+            "brt": "p2d#b",
+            "rf": "p2d#b",
+            "brf": 9502848,
+            "rt": 9502848,
+            "vendor": "agda",
+            "vendor_id_raw": "62146961",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included",
+              "Free cancellation",
+              "Pay at the property"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Deluxe room - Choice of single or double beds",
+            "rooms": [
+              {
+                "name": "Deluxe room - Choice of single or double beds",
+                "flags": [
+                  "Choice of single or double beds"
+                ]
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included",
+              "refundable": "Free cancellation",
+              "pay_at_hotel": "Pay at the property"
+            },
+            "partner_name": "Agoda",
+            "partner_logo": "https://hotelscan.com/apis/vendors/agda/logo.svg?pos=zz"
+          },
+          {
+            "price": 75.87,
+            "brt": "p2d#",
+            "rf": "p2d#",
+            "brf": 9502848,
+            "rt": 9502848,
+            "vendor": "bkng",
+            "vendor_id_raw": "6247481",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included",
+              "Free cancellation",
+              "Pay at the property"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Deluxe room",
+            "rooms": [
+              {
+                "name": "Deluxe room",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included",
+              "refundable": "Free cancellation",
+              "pay_at_hotel": "Pay at the property"
+            },
+            "partner_name": "Booking.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/bkng/logo.svg?pos=zz"
+          },
+          {
+            "price": 109.9,
+            "brt": "p2d#b",
+            "rf": "p2d#b",
+            "brf": 9502848,
+            "rt": 9502848,
+            "vendor": "agda",
+            "vendor_id_raw": "62146961",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included",
+              "Free cancellation",
+              "Pay at the property"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Deluxe room - Choice of single or double beds",
+            "rooms": [
+              {
+                "name": "Deluxe room - Choice of single or double beds",
+                "flags": [
+                  "Choice of single or double beds"
+                ]
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included",
+              "refundable": "Free cancellation",
+              "pay_at_hotel": "Pay at the property"
+            },
+            "partner_name": "Agoda",
+            "partner_logo": "https://hotelscan.com/apis/vendors/agda/logo.svg?pos=zz"
+          },
+          {
+            "price": 110.9,
+            "brt": "p2d#",
+            "rf": "p2d#",
+            "brf": 12124288,
+            "rt": 12124288,
+            "vendor": "bkng",
+            "vendor_id_raw": "6247481",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast and dinner",
+              "Free cancellation",
+              "Pay at the property"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Deluxe room",
+            "rooms": [
+              {
+                "name": "Deluxe room",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "half_board_dinner": "Breakfast and dinner",
+              "refundable": "Free cancellation",
+              "pay_at_hotel": "Pay at the property"
+            },
+            "partner_name": "Booking.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/bkng/logo.svg?pos=zz"
+          }
+        ],
+        "descriptions_language": {
+          "general": {
+            "original_language": true,
+            "text": "Escapism Maldives offers top-notch services and amenities, ensuring guests experience utmost comfort.Maintain seamless communication using the complimentary Wi-Fi at hotel.During leisurely days and evenings, on-site amenities such as daily housekeeping enable you to fully enjoy your accommodation. At Escapism Maldives, every guestroom is provided with convenient amenities and fittings to ensure a comfortable stay. Elevate your experience at hotel with the knowledge that certain rooms are equipped with air conditioning, ensuring a more pleasant stay for you. Begin your day carefree at Escapism Maldives, as complimentary breakfast is offered for your convenience."
+          }
+        },
+        "chain_code": null,
+        "bids": {
+          "agda": "j23",
+          "bkng": "j23"
+        },
+        "worst_offer": null,
+        "best_offer": 75.19,
+        "best_offer_ota": "agda",
+        "best_offer_mota": null,
+        "discount": 0,
+        "offers_count": 4,
+        "coordinates": {
+          "lat": 4.05098,
+          "lng": 72.72523
+        },
+        "distance": 0.3,
+        "neighborhood": null,
+        "badge": null,
+        "distances": [
+          {
+            "from": "center",
+            "distance": 0.3,
+            "time": 417,
+            "means": "foot",
+            "means_type": "foot"
+          }
+        ],
+        "specs": {
+          "bathrooms": 1,
+          "beds": null,
+          "bedrooms": 1,
+          "guests": 2,
+          "square_meters": 16
+        },
+        "toa_label": "guest house",
+        "top_amenities": [
+          "wifi_room",
+          "internet",
+          "tea_coffee_maker",
+          "parking",
+          "air_conditioning"
+        ],
+        "transportations": {
+          "airports": [],
+          "trains": []
+        },
+        "images": [
+          {
+            "image_id": "681625163",
+            "label": ""
+          },
+          {
+            "image_id": "681625180",
+            "label": ""
+          },
+          {
+            "image_id": "681625162",
+            "label": ""
+          },
+          {
+            "image_id": "681625176",
+            "label": ""
+          },
+          {
+            "image_id": "681625170",
+            "label": ""
+          },
+          {
+            "image_id": "681625174",
+            "label": ""
+          },
+          {
+            "image_id": "681625171",
+            "label": ""
+          },
+          {
+            "image_id": "681625166",
+            "label": ""
+          },
+          {
+            "image_id": "681625190",
+            "label": ""
+          },
+          {
+            "image_id": "681625181",
+            "label": ""
+          },
+          {
+            "image_id": "681625172",
+            "label": ""
+          },
+          {
+            "image_id": "681625179",
+            "label": ""
+          },
+          {
+            "image_id": "681625178",
+            "label": ""
+          },
+          {
+            "image_id": "681625167",
+            "label": ""
+          },
+          {
+            "image_id": "681625165",
+            "label": ""
+          }
+        ],
+        "hero_offer": {
+          "price": 75.87,
+          "brt": "p2d#",
+          "rf": "p2d#",
+          "brf": 9502848,
+          "rt": 9502848,
+          "vendor": "bkng",
+          "vendor_id_raw": "6247481",
+          "mota_code": null,
+          "direct_offer": false,
+          "offer_flags": {
+            "breakfast": "Breakfast included",
+            "refundable": "Free cancellation",
+            "pay_at_hotel": "Pay at the property"
+          },
+          "jc_code": "",
+          "ranking_index": 0.9964149202583366,
+          "chain": "",
+          "free_cancellation": true,
+          "special": false,
+          "room_name": "Deluxe room",
+          "rooms": [
+            {
+              "name": "Deluxe room",
+              "flags": []
+            }
+          ],
+          "partner_name": "Booking.com",
+          "partner_logo": "https://hotelscan.com/apis/vendors/bkng/logo.svg?pos=zz"
+        },
+        "rank": 0,
+        "ctrl_srt": "im a ctrl teapot",
+        "test_srt": "im a test teapot"
+      }
+    ],
+    "filters": [],
+    "query": {
+      "pos": "zz"
+    }
+  }
+}

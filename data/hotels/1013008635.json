@@ -1,0 +1,1752 @@
+{
+  "_meta": {
+    "status": "SUCCESS",
+    "cached": true,
+    "count": 1,
+    "debug": {
+      "ticket": {
+        "ticket_id": "1013008635_zz_zz_d_publ_en_2_2025-10-08_2025-10-13_1_3",
+        "created_at": 1758065401.1102,
+        "loop": null,
+        "snapped_at": 1758065404.5277,
+        "snapshot_id": "1013008635_zz_zz_d_publ_en_2_2025-10-08_2025-10-13_1_3",
+        "snapshot_ttl": 300,
+        "executions": 6,
+        "progress": 1,
+        "save_errors": []
+      }
+    }
+  },
+  "data": {
+    "meta": [],
+    "geo": {
+      "hs_id": "ph2n2oasdmogpf5pj4",
+      "region_name": "Emboodhoo",
+      "region_name_long": "Emboodhoo, Maldives",
+      "region_type": "CITY",
+      "region_id": 553248627533213950,
+      "country_iso": "MV",
+      "country": "maldives",
+      "localised_country": "Maldives",
+      "center": [
+        4.08437,
+        73.5109
+      ],
+      "centroid": [
+        4.085,
+        73.51118
+      ],
+      "polygon": [
+        "4.086128,73.505783",
+        "4.083068,73.506615",
+        "4.079793,73.51297",
+        "4.084009,73.516594",
+        "4.087113,73.512817",
+        "4.088654,73.508461",
+        "4.086128,73.505783"
+      ],
+      "radius": 0.62,
+      "zoom": -1,
+      "search_by_polygon": 0,
+      "cluster": 0,
+      "properties": 6,
+      "radius_override": 5,
+      "boundingbox": {
+        "ne": [
+          4.089,
+          73.517
+        ],
+        "sw": [
+          4.079,
+          73.505
+        ]
+      },
+      "airports": [
+        "MLE",
+        "DRV"
+      ],
+      "region_name_en": "Emboodhoo",
+      "region_name_long_en": "Emboodhoo, Maldives",
+      "referrer_city_name_en": "Emboodhoo",
+      "parent_region_id": 6051084,
+      "parent_hs_id": "x5p4hmhw6iot",
+      "parent_region_name": "Maldives (all)",
+      "parent_region_name_long": "Maldives (all)",
+      "dynamic_bbox": {
+        "ne": [
+          4.084,
+          73.511
+        ],
+        "sw": [
+          4.084,
+          73.511
+        ]
+      }
+    },
+    "records": [
+      {
+        "hs_id": 1013008635,
+        "slug": "so-maldives-emboodhoo-mv-1013008635",
+        "name": "So/ Maldives",
+        "ty_id": "cf7a0d25-77c8-41a1-815a-8ad3dce549d2",
+        "toa": "resort",
+        "location": {
+          "city": "Emboodhoo",
+          "zip": "20028",
+          "country_iso2": "MV",
+          "address": "Emboodhoo Lagoon, Kaafu Atoll",
+          "geoid": "ph2n2oasdmogpf5pj4",
+          "loc": {
+            "type": "Point"
+          },
+          "coordinates": {
+            "lng": 73.51192,
+            "lat": 4.08414
+          }
+        },
+        "opening_time": {
+          "check_in_from": "15:00",
+          "check_in_to": null,
+          "check_out_from": null,
+          "check_out_to": "12:00"
+        },
+        "quality": {
+          "review_count": 28,
+          "review_rating": 94,
+          "stars": 5,
+          "stars_is_estimated": false,
+          "review_source": ""
+        },
+        "covid_safe": false,
+        "amenities": {
+          "wellness": [
+            "indoor_pool",
+            "massage",
+            "fitness_center",
+            "hair_salon",
+            "sauna",
+            "spa",
+            "outdoor_pool",
+            "turkish_bath"
+          ],
+          "sports": [
+            "golf",
+            "yoga",
+            "bike_rent",
+            "sub",
+            "surf"
+          ],
+          "internet": [
+            "wifi_lobby",
+            "wifi_room",
+            "internet"
+          ],
+          "food_drink": [
+            "restaurant",
+            "room_service",
+            "poolside_bar",
+            "cafe",
+            "bar",
+            "tea_coffee_maker"
+          ],
+          "disability": [
+            "wheelchair_accessible",
+            "disability_facilities"
+          ],
+          "outdoor": [
+            "garden",
+            "terrace"
+          ],
+          "other": [
+            "lift"
+          ],
+          "business": [
+            "business_services"
+          ],
+          "children": [
+            "babysitter",
+            "children_playground"
+          ],
+          "entertainment": [
+            "tv_lobby",
+            "disco"
+          ],
+          "transfer": [
+            "shuttle_service"
+          ],
+          "room": [
+            "fan",
+            "air_conditioning",
+            "tv",
+            "in_room_safe"
+          ],
+          "reception": [
+            "24h_reception",
+            "luggage_storage",
+            "concierge",
+            "laundry_facilities",
+            "laundry_service",
+            "safety_deposit_box"
+          ]
+        },
+        "descriptions": {
+          "general": "Experience an abundance of unparalleled facilities and features at SO/ Maldives.Maintain seamless communication using the complimentary Wi-Fi at resort. Effortlessly arrange transportation to and from the airport using the resort's airport transfer services. Discovering Maldive Islands becomes even more accessible, thanks to the shuttle amenities provided at the resort. During your stay at this fantastic resort, the attentive front desk personnel can provide you with a range of amenities such as concierge service, express check-in or check-out, luggage storage and safety deposit boxes. Obtaining passes for the town's top entertainments becomes effortless with resort's tours. At the resort, utilize the on-site laundromat, dry cleaning service and laundry service to maintain your beloved travel attire fresh, allowing you to bring fewer clothes. Craving relaxation? Make the most of your stay at the SO/ Maldives with convenient amenities like 24-hour room service, room service and daily housekeeping at your disposal. For all your minor, last-minute requirements, the convenience stores can promptly cater to them, eliminating the need to venture out.For visitors wishing to smoke, designated smoking zones can be found. At SO/ Maldives, every guestroom is provided with convenient amenities and fittings to ensure a comfortable stay.Enhance your experience at resort with the knowledge that certain rooms are equipped with blackout curtains and air conditioning for your convenience. A few accommodations within SO/ Maldives offer unique design elements such as a balcony or terrace.Certain rooms offer in-room amusement features such as the television for your enjoyment. In select rooms within the resort, a refrigerator, a coffee or tea maker, instant coffee and mini bar is available to cater to your requirements when desired. It is worth noting that certain guest bathrooms feature a hair dryer, toiletries and bathrobes for your convenience. Begin your day carefree at SO/ Maldives, as complimentary breakfast is offered for your convenience. Begin your day feeling refreshed and invigorated as you enjoy a delightful cup of quality coffee available at the cafe situated within the resort.At the resort, an assortment of easily accessible and delicious meal choices are available to satisfy your appetite whenever it strikes.At SO/ Maldives, they are committed to catering to your unique requirements. They offer a variety of meal choices, encompassing halal alternatives for those with special dietary preferences.Enjoy an entertaining evening with your fellow travelers at the resort's bar. At the resort, discerning guests can also enjoy on-site culinary facilities like BBQ facilities tailored to their preferences.During your stay at resort, an array of engaging activities and amenities guarantees a delightful experience. During your stay, don't forget to allocate some moments to experience the readily available shoreline. Conclude your holiday perfectly with a visit to massage, hot tub, salon, steam room, spa and sauna on your final days. Be sure to drop by the pool at resort at least once during your stay.At SO/ Maldives, utmost care is taken to ensure guests' comfort. Relish your preferred beverage in your swimwear by the resort's poolside bar. Discover the fitness amenities at resort to maintain your health and strength during your getaway.",
+          "localized": "Experience an abundance of unparalleled facilities and features at SO/ Maldives.Maintain seamless communication using the complimentary Wi-Fi at resort. Effortlessly arrange transportation to and from the airport using the resort's airport transfer services. Discovering Maldive Islands becomes even more accessible, thanks to the shuttle amenities provided at the resort. During your stay at this fantastic resort, the attentive front desk personnel can provide you with a range of amenities such as concierge service, express check-in or check-out, luggage storage and safety deposit boxes. Obtaining passes for the town's top entertainments becomes effortless with resort's tours. At the resort, utilize the on-site laundromat, dry cleaning service and laundry service to maintain your beloved travel attire fresh, allowing you to bring fewer clothes. Craving relaxation? Make the most of your stay at the SO/ Maldives with convenient amenities like 24-hour room service, room service and daily housekeeping at your disposal. For all your minor, last-minute requirements, the convenience stores can promptly cater to them, eliminating the need to venture out.For visitors wishing to smoke, designated smoking zones can be found. At SO/ Maldives, every guestroom is provided with convenient amenities and fittings to ensure a comfortable stay.Enhance your experience at resort with the knowledge that certain rooms are equipped with blackout curtains and air conditioning for your convenience. A few accommodations within SO/ Maldives offer unique design elements such as a balcony or terrace.Certain rooms offer in-room amusement features such as the television for your enjoyment. In select rooms within the resort, a refrigerator, a coffee or tea maker, instant coffee and mini bar is available to cater to your requirements when desired. It is worth noting that certain guest bathrooms feature a hair dryer, toiletries and bathrobes for your convenience. Begin your day carefree at SO/ Maldives, as complimentary breakfast is offered for your convenience. Begin your day feeling refreshed and invigorated as you enjoy a delightful cup of quality coffee available at the cafe situated within the resort.At the resort, an assortment of easily accessible and delicious meal choices are available to satisfy your appetite whenever it strikes.At SO/ Maldives, they are committed to catering to your unique requirements. They offer a variety of meal choices, encompassing halal alternatives for those with special dietary preferences.Enjoy an entertaining evening with your fellow travelers at the resort's bar. At the resort, discerning guests can also enjoy on-site culinary facilities like BBQ facilities tailored to their preferences.During your stay at resort, an array of engaging activities and amenities guarantees a delightful experience. During your stay, don't forget to allocate some moments to experience the readily available shoreline. Conclude your holiday perfectly with a visit to massage, hot tub, salon, steam room, spa and sauna on your final days. Be sure to drop by the pool at resort at least once during your stay.At SO/ Maldives, utmost care is taken to ensure guests' comfort. Relish your preferred beverage in your swimwear by the resort's poolside bar. Discover the fitness amenities at resort to maintain your health and strength during your getaway."
+        },
+        "short_description": "Excellent hotel. Fantastic service. Great location. Beautiful beach. Awesome vibe.",
+        "chain": "so",
+        "brand": "accor",
+        "offers": [
+          {
+            "price": 714.98,
+            "brt": "o2r#",
+            "rf": "o2r#",
+            "brf": 9470016,
+            "rt": 9470016,
+            "vendor": "accr",
+            "vendor_id_raw": "B986",
+            "mota_code": null,
+            "direct_offer": true,
+            "offer_flags": [
+              "Breakfast included"
+            ],
+            "jc_code": "",
+            "ranking_index": 1,
+            "chain": "",
+            "free_cancellation": false,
+            "special": false,
+            "room_name": "Villa",
+            "rooms": [
+              {
+                "name": "Villa",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included"
+            },
+            "partner_name": "ALL - Accor Live Limitless",
+            "partner_logo": "https://hotelscan.com/apis/vendors/accr/logo.svg?pos=zz"
+          },
+          {
+            "vendor": "agda",
+            "price": 812.7,
+            "vendor_id_raw": "44853496",
+            "mota_code": null,
+            "jc_code": "",
+            "partner_name": "Agoda",
+            "partner_logo": "https://hotelscan.com/apis/vendors/agda/logo.svg?pos=zz",
+            "room_name": "Villa",
+            "brf": 9470016,
+            "brt": "o2r#"
+          }
+        ],
+        "all_offers": [
+          {
+            "price": 714.98,
+            "brt": "o2r#",
+            "rf": "o2r#",
+            "brf": 9470016,
+            "rt": 9470016,
+            "vendor": "accr",
+            "vendor_id_raw": "B986",
+            "mota_code": null,
+            "direct_offer": true,
+            "offer_flags": [
+              "Breakfast included"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": false,
+            "special": false,
+            "room_name": "Villa",
+            "rooms": [
+              {
+                "name": "Villa",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included"
+            },
+            "partner_name": "ALL - Accor Live Limitless",
+            "partner_logo": "https://hotelscan.com/apis/vendors/accr/logo.svg?pos=zz"
+          },
+          {
+            "price": 786.08,
+            "brt": "o2r#",
+            "rf": "o2r#",
+            "brf": 9470016,
+            "rt": 9470016,
+            "vendor": "accr",
+            "vendor_id_raw": "B986",
+            "mota_code": null,
+            "direct_offer": true,
+            "offer_flags": [
+              "Breakfast included"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": false,
+            "special": false,
+            "room_name": "Villa",
+            "rooms": [
+              {
+                "name": "Villa",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included"
+            },
+            "partner_name": "ALL - Accor Live Limitless",
+            "partner_logo": "https://hotelscan.com/apis/vendors/accr/logo.svg?pos=zz"
+          },
+          {
+            "price": 812.7,
+            "brt": "o2r#",
+            "rf": "o2r#",
+            "brf": 9470016,
+            "rt": 9470016,
+            "vendor": "agda",
+            "vendor_id_raw": "44853496",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": false,
+            "special": false,
+            "room_name": "Villa",
+            "rooms": [
+              {
+                "name": "Villa",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included"
+            },
+            "partner_name": "Agoda",
+            "partner_logo": "https://hotelscan.com/apis/vendors/agda/logo.svg?pos=zz"
+          },
+          {
+            "price": 857.18,
+            "brt": "o2q#",
+            "rf": "o2q#",
+            "brf": 9470016,
+            "rt": 9470016,
+            "vendor": "accr",
+            "vendor_id_raw": "B986",
+            "mota_code": null,
+            "direct_offer": true,
+            "offer_flags": [
+              "Breakfast included"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": false,
+            "special": false,
+            "room_name": "Family villa",
+            "rooms": [
+              {
+                "name": "Family villa",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included"
+            },
+            "partner_name": "ALL - Accor Live Limitless",
+            "partner_logo": "https://hotelscan.com/apis/vendors/accr/logo.svg?pos=zz"
+          },
+          {
+            "price": 862.65,
+            "brt": "o2r#",
+            "rf": "o2r#",
+            "brf": 9470016,
+            "rt": 9470016,
+            "vendor": "accr",
+            "vendor_id_raw": "B986",
+            "mota_code": null,
+            "direct_offer": true,
+            "offer_flags": [
+              "Breakfast included"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": false,
+            "special": false,
+            "room_name": "Villa",
+            "rooms": [
+              {
+                "name": "Villa",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included"
+            },
+            "partner_name": "ALL - Accor Live Limitless",
+            "partner_logo": "https://hotelscan.com/apis/vendors/accr/logo.svg?pos=zz"
+          },
+          {
+            "price": 885.37,
+            "brt": "o2r#",
+            "rf": "o2r#",
+            "brf": 9470016,
+            "rt": 9470016,
+            "vendor": "agda",
+            "vendor_id_raw": "44853496",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": false,
+            "special": false,
+            "room_name": "Villa",
+            "rooms": [
+              {
+                "name": "Villa",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included"
+            },
+            "partner_name": "Agoda",
+            "partner_logo": "https://hotelscan.com/apis/vendors/agda/logo.svg?pos=zz"
+          },
+          {
+            "price": 928.28,
+            "brt": "o2r#",
+            "rf": "o2r#",
+            "brf": 9470016,
+            "rt": 9470016,
+            "vendor": "accr",
+            "vendor_id_raw": "B986",
+            "mota_code": null,
+            "direct_offer": true,
+            "offer_flags": [
+              "Breakfast included"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": false,
+            "special": false,
+            "room_name": "Villa",
+            "rooms": [
+              {
+                "name": "Villa",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included"
+            },
+            "partner_name": "ALL - Accor Live Limitless",
+            "partner_logo": "https://hotelscan.com/apis/vendors/accr/logo.svg?pos=zz"
+          },
+          {
+            "price": 939.6,
+            "brt": "o2r#",
+            "rf": "o2r#",
+            "brf": 9470016,
+            "rt": 9470016,
+            "vendor": "agda",
+            "vendor_id_raw": "44853496",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": false,
+            "special": false,
+            "room_name": "Villa",
+            "rooms": [
+              {
+                "name": "Villa",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included"
+            },
+            "partner_name": "Agoda",
+            "partner_logo": "https://hotelscan.com/apis/vendors/agda/logo.svg?pos=zz"
+          },
+          {
+            "price": 950.15,
+            "brt": "o2r#",
+            "rf": "o2r#",
+            "brf": 9470016,
+            "rt": 9470016,
+            "vendor": "accr",
+            "vendor_id_raw": "B986",
+            "mota_code": null,
+            "direct_offer": true,
+            "offer_flags": [
+              "Breakfast included"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": false,
+            "special": false,
+            "room_name": "Villa",
+            "rooms": [
+              {
+                "name": "Villa",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included"
+            },
+            "partner_name": "ALL - Accor Live Limitless",
+            "partner_logo": "https://hotelscan.com/apis/vendors/accr/logo.svg?pos=zz"
+          },
+          {
+            "price": 1026.36,
+            "brt": "o2r#",
+            "rf": "o2r#",
+            "brf": 9470016,
+            "rt": 9470016,
+            "vendor": "agda",
+            "vendor_id_raw": "44853496",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": false,
+            "special": false,
+            "room_name": "Villa",
+            "rooms": [
+              {
+                "name": "Villa",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included"
+            },
+            "partner_name": "Agoda",
+            "partner_logo": "https://hotelscan.com/apis/vendors/agda/logo.svg?pos=zz"
+          },
+          {
+            "price": 1030.7,
+            "brt": "o2r#",
+            "rf": "o2r#",
+            "brf": 9470016,
+            "rt": 9470016,
+            "vendor": "agda",
+            "vendor_id_raw": "44853496",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": false,
+            "special": false,
+            "room_name": "Villa",
+            "rooms": [
+              {
+                "name": "Villa",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included"
+            },
+            "partner_name": "Agoda",
+            "partner_logo": "https://hotelscan.com/apis/vendors/agda/logo.svg?pos=zz"
+          },
+          {
+            "price": 1034.92,
+            "brt": "o2r#",
+            "rf": "o2r#",
+            "brf": 9470016,
+            "rt": 9470016,
+            "vendor": "accr",
+            "vendor_id_raw": "B986",
+            "mota_code": null,
+            "direct_offer": true,
+            "offer_flags": [
+              "Breakfast included"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": false,
+            "special": false,
+            "room_name": "Villa",
+            "rooms": [
+              {
+                "name": "Villa",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included"
+            },
+            "partner_name": "ALL - Accor Live Limitless",
+            "partner_logo": "https://hotelscan.com/apis/vendors/accr/logo.svg?pos=zz"
+          },
+          {
+            "price": 1037.66,
+            "brt": "o2q#",
+            "rf": "o2q#",
+            "brf": 9470016,
+            "rt": 9470016,
+            "vendor": "accr",
+            "vendor_id_raw": "B986",
+            "mota_code": null,
+            "direct_offer": true,
+            "offer_flags": [
+              "Breakfast included"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": false,
+            "special": false,
+            "room_name": "Family villa",
+            "rooms": [
+              {
+                "name": "Family villa",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included"
+            },
+            "partner_name": "ALL - Accor Live Limitless",
+            "partner_logo": "https://hotelscan.com/apis/vendors/accr/logo.svg?pos=zz"
+          },
+          {
+            "price": 1059.54,
+            "brt": "o2r#",
+            "rf": "o2r#",
+            "brf": 9470016,
+            "rt": 9470016,
+            "vendor": "accr",
+            "vendor_id_raw": "B986",
+            "mota_code": null,
+            "direct_offer": true,
+            "offer_flags": [
+              "Breakfast included"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": false,
+            "special": false,
+            "room_name": "Villa",
+            "rooms": [
+              {
+                "name": "Villa",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included"
+            },
+            "partner_name": "ALL - Accor Live Limitless",
+            "partner_logo": "https://hotelscan.com/apis/vendors/accr/logo.svg?pos=zz"
+          },
+          {
+            "price": 1113.13,
+            "brt": "o2q#",
+            "rf": "o2q#",
+            "brf": 9470016,
+            "rt": 9470016,
+            "vendor": "agda",
+            "vendor_id_raw": "44853496",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": false,
+            "special": false,
+            "room_name": "Family villa",
+            "rooms": [
+              {
+                "name": "Family villa",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included"
+            },
+            "partner_name": "Agoda",
+            "partner_logo": "https://hotelscan.com/apis/vendors/agda/logo.svg?pos=zz"
+          },
+          {
+            "price": 1125.17,
+            "brt": "o2r#",
+            "rf": "o2r#",
+            "brf": 9470016,
+            "rt": 9470016,
+            "vendor": "accr",
+            "vendor_id_raw": "B986",
+            "mota_code": null,
+            "direct_offer": true,
+            "offer_flags": [
+              "Breakfast included"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": false,
+            "special": false,
+            "room_name": "Villa",
+            "rooms": [
+              {
+                "name": "Villa",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included"
+            },
+            "partner_name": "ALL - Accor Live Limitless",
+            "partner_logo": "https://hotelscan.com/apis/vendors/accr/logo.svg?pos=zz"
+          },
+          {
+            "price": 1126.47,
+            "brt": "o2r#",
+            "rf": "o2r#",
+            "brf": 9470016,
+            "rt": 9470016,
+            "vendor": "agda",
+            "vendor_id_raw": "44853496",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": false,
+            "special": false,
+            "room_name": "Villa",
+            "rooms": [
+              {
+                "name": "Villa",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included"
+            },
+            "partner_name": "Agoda",
+            "partner_logo": "https://hotelscan.com/apis/vendors/agda/logo.svg?pos=zz"
+          },
+          {
+            "price": 1134.82,
+            "brt": "o2r#",
+            "rf": "o2r#",
+            "brf": 9502784,
+            "rt": 9502784,
+            "vendor": "agda",
+            "vendor_id_raw": "44853496",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included",
+              "Free cancellation"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Villa",
+            "rooms": [
+              {
+                "name": "Villa",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included",
+              "refundable": "Free cancellation"
+            },
+            "partner_name": "Agoda",
+            "partner_logo": "https://hotelscan.com/apis/vendors/agda/logo.svg?pos=zz"
+          },
+          {
+            "price": 1136.1,
+            "brt": "o2r#",
+            "rf": "o2r#",
+            "brf": 9470016,
+            "rt": 9470016,
+            "vendor": "accr",
+            "vendor_id_raw": "B986",
+            "mota_code": null,
+            "direct_offer": true,
+            "offer_flags": [
+              "Breakfast included"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": false,
+            "special": false,
+            "room_name": "Villa",
+            "rooms": [
+              {
+                "name": "Villa",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included"
+            },
+            "partner_name": "ALL - Accor Live Limitless",
+            "partner_logo": "https://hotelscan.com/apis/vendors/accr/logo.svg?pos=zz"
+          },
+          {
+            "price": 1168.92,
+            "brt": "o2r#",
+            "rf": "o2r#",
+            "brf": 9470016,
+            "rt": 9470016,
+            "vendor": "accr",
+            "vendor_id_raw": "B986",
+            "mota_code": null,
+            "direct_offer": true,
+            "offer_flags": [
+              "Breakfast included"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": false,
+            "special": false,
+            "room_name": "Villa",
+            "rooms": [
+              {
+                "name": "Villa",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included"
+            },
+            "partner_name": "ALL - Accor Live Limitless",
+            "partner_logo": "https://hotelscan.com/apis/vendors/accr/logo.svg?pos=zz"
+          },
+          {
+            "price": 1199.89,
+            "brt": "o2r#",
+            "rf": "o2r#",
+            "brf": 9470016,
+            "rt": 9470016,
+            "vendor": "agda",
+            "vendor_id_raw": "44853496",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": false,
+            "special": false,
+            "room_name": "Villa",
+            "rooms": [
+              {
+                "name": "Villa",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included"
+            },
+            "partner_name": "Agoda",
+            "partner_logo": "https://hotelscan.com/apis/vendors/agda/logo.svg?pos=zz"
+          },
+          {
+            "price": 1223.61,
+            "brt": "o2r#",
+            "rf": "o2r#",
+            "brf": 9470016,
+            "rt": 9470016,
+            "vendor": "accr",
+            "vendor_id_raw": "B986",
+            "mota_code": null,
+            "direct_offer": true,
+            "offer_flags": [
+              "Breakfast included"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": false,
+            "special": false,
+            "room_name": "Villa",
+            "rooms": [
+              {
+                "name": "Villa",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included"
+            },
+            "partner_name": "ALL - Accor Live Limitless",
+            "partner_logo": "https://hotelscan.com/apis/vendors/accr/logo.svg?pos=zz"
+          },
+          {
+            "price": 1243.27,
+            "brt": "o2r#",
+            "rf": "o2r#",
+            "brf": 9502784,
+            "rt": 9502784,
+            "vendor": "agda",
+            "vendor_id_raw": "44853496",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included",
+              "Free cancellation"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Villa",
+            "rooms": [
+              {
+                "name": "Villa",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included",
+              "refundable": "Free cancellation"
+            },
+            "partner_name": "Agoda",
+            "partner_logo": "https://hotelscan.com/apis/vendors/agda/logo.svg?pos=zz"
+          },
+          {
+            "price": 1256.43,
+            "brt": "o2r#",
+            "rf": "o2r#",
+            "brf": 9470016,
+            "rt": 9470016,
+            "vendor": "accr",
+            "vendor_id_raw": "B986",
+            "mota_code": null,
+            "direct_offer": true,
+            "offer_flags": [
+              "Breakfast included"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": false,
+            "special": false,
+            "room_name": "Villa",
+            "rooms": [
+              {
+                "name": "Villa",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included"
+            },
+            "partner_name": "ALL - Accor Live Limitless",
+            "partner_logo": "https://hotelscan.com/apis/vendors/accr/logo.svg?pos=zz"
+          },
+          {
+            "price": 1278.3,
+            "brt": "o2q#",
+            "rf": "o2q#",
+            "brf": 9470016,
+            "rt": 9470016,
+            "vendor": "accr",
+            "vendor_id_raw": "B986",
+            "mota_code": null,
+            "direct_offer": true,
+            "offer_flags": [
+              "Breakfast included"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": false,
+            "special": false,
+            "room_name": "Family villa",
+            "rooms": [
+              {
+                "name": "Family villa",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included"
+            },
+            "partner_name": "ALL - Accor Live Limitless",
+            "partner_logo": "https://hotelscan.com/apis/vendors/accr/logo.svg?pos=zz"
+          },
+          {
+            "price": 1289.24,
+            "brt": "o2r#",
+            "rf": "o2r#",
+            "brf": 9470016,
+            "rt": 9470016,
+            "vendor": "accr",
+            "vendor_id_raw": "B986",
+            "mota_code": null,
+            "direct_offer": true,
+            "offer_flags": [
+              "Breakfast included"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": false,
+            "special": false,
+            "room_name": "Villa",
+            "rooms": [
+              {
+                "name": "Villa",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included"
+            },
+            "partner_name": "ALL - Accor Live Limitless",
+            "partner_logo": "https://hotelscan.com/apis/vendors/accr/logo.svg?pos=zz"
+          },
+          {
+            "price": 1311.12,
+            "brt": "o2q#",
+            "rf": "o2q#",
+            "brf": 9470016,
+            "rt": 9470016,
+            "vendor": "accr",
+            "vendor_id_raw": "B986",
+            "mota_code": null,
+            "direct_offer": true,
+            "offer_flags": [
+              "Breakfast included"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": false,
+            "special": false,
+            "room_name": "Family villa",
+            "rooms": [
+              {
+                "name": "Family villa",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included"
+            },
+            "partner_name": "ALL - Accor Live Limitless",
+            "partner_logo": "https://hotelscan.com/apis/vendors/accr/logo.svg?pos=zz"
+          },
+          {
+            "price": 1332.99,
+            "brt": "o2r#",
+            "rf": "o2r#",
+            "brf": 9470016,
+            "rt": 9470016,
+            "vendor": "accr",
+            "vendor_id_raw": "B986",
+            "mota_code": null,
+            "direct_offer": true,
+            "offer_flags": [
+              "Breakfast included"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": false,
+            "special": false,
+            "room_name": "Villa",
+            "rooms": [
+              {
+                "name": "Villa",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included"
+            },
+            "partner_name": "ALL - Accor Live Limitless",
+            "partner_logo": "https://hotelscan.com/apis/vendors/accr/logo.svg?pos=zz"
+          },
+          {
+            "price": 1376.75,
+            "brt": "o2r#",
+            "rf": "o2r#",
+            "brf": 9470016,
+            "rt": 9470016,
+            "vendor": "accr",
+            "vendor_id_raw": "B986",
+            "mota_code": null,
+            "direct_offer": true,
+            "offer_flags": [
+              "Breakfast included"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": false,
+            "special": false,
+            "room_name": "Villa",
+            "rooms": [
+              {
+                "name": "Villa",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included"
+            },
+            "partner_name": "ALL - Accor Live Limitless",
+            "partner_logo": "https://hotelscan.com/apis/vendors/accr/logo.svg?pos=zz"
+          },
+          {
+            "price": 1387.69,
+            "brt": "o2r#",
+            "rf": "o2r#",
+            "brf": 9470016,
+            "rt": 9470016,
+            "vendor": "accr",
+            "vendor_id_raw": "B986",
+            "mota_code": null,
+            "direct_offer": true,
+            "offer_flags": [
+              "Breakfast included"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": false,
+            "special": false,
+            "room_name": "Villa",
+            "rooms": [
+              {
+                "name": "Villa",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included"
+            },
+            "partner_name": "ALL - Accor Live Limitless",
+            "partner_logo": "https://hotelscan.com/apis/vendors/accr/logo.svg?pos=zz"
+          },
+          {
+            "price": 1398.62,
+            "brt": "o2r#",
+            "rf": "o2r#",
+            "brf": 9470016,
+            "rt": 9470016,
+            "vendor": "accr",
+            "vendor_id_raw": "B986",
+            "mota_code": null,
+            "direct_offer": true,
+            "offer_flags": [
+              "Breakfast included"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": false,
+            "special": false,
+            "room_name": "Villa",
+            "rooms": [
+              {
+                "name": "Villa",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included"
+            },
+            "partner_name": "ALL - Accor Live Limitless",
+            "partner_logo": "https://hotelscan.com/apis/vendors/accr/logo.svg?pos=zz"
+          },
+          {
+            "price": 1442.38,
+            "brt": "o2r#",
+            "rf": "o2r#",
+            "brf": 9470016,
+            "rt": 9470016,
+            "vendor": "accr",
+            "vendor_id_raw": "B986",
+            "mota_code": null,
+            "direct_offer": true,
+            "offer_flags": [
+              "Breakfast included"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": false,
+            "special": false,
+            "room_name": "Villa",
+            "rooms": [
+              {
+                "name": "Villa",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included"
+            },
+            "partner_name": "ALL - Accor Live Limitless",
+            "partner_logo": "https://hotelscan.com/apis/vendors/accr/logo.svg?pos=zz"
+          },
+          {
+            "price": 1464.25,
+            "brt": "o2q#",
+            "rf": "o2q#",
+            "brf": 9470016,
+            "rt": 9470016,
+            "vendor": "accr",
+            "vendor_id_raw": "B986",
+            "mota_code": null,
+            "direct_offer": true,
+            "offer_flags": [
+              "Breakfast included"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": false,
+            "special": false,
+            "room_name": "Family villa",
+            "rooms": [
+              {
+                "name": "Family villa",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included"
+            },
+            "partner_name": "ALL - Accor Live Limitless",
+            "partner_logo": "https://hotelscan.com/apis/vendors/accr/logo.svg?pos=zz"
+          },
+          {
+            "price": 1486.13,
+            "brt": "o2r#",
+            "rf": "o2r#",
+            "brf": 9470016,
+            "rt": 9470016,
+            "vendor": "accr",
+            "vendor_id_raw": "B986",
+            "mota_code": null,
+            "direct_offer": true,
+            "offer_flags": [
+              "Breakfast included"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": false,
+            "special": false,
+            "room_name": "Villa",
+            "rooms": [
+              {
+                "name": "Villa",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included"
+            },
+            "partner_name": "ALL - Accor Live Limitless",
+            "partner_logo": "https://hotelscan.com/apis/vendors/accr/logo.svg?pos=zz"
+          },
+          {
+            "price": 1529.88,
+            "brt": "o2r#",
+            "rf": "o2r#",
+            "brf": 9470016,
+            "rt": 9470016,
+            "vendor": "accr",
+            "vendor_id_raw": "B986",
+            "mota_code": null,
+            "direct_offer": true,
+            "offer_flags": [
+              "Breakfast included"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": false,
+            "special": false,
+            "room_name": "Villa",
+            "rooms": [
+              {
+                "name": "Villa",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included"
+            },
+            "partner_name": "ALL - Accor Live Limitless",
+            "partner_logo": "https://hotelscan.com/apis/vendors/accr/logo.svg?pos=zz"
+          },
+          {
+            "price": 1551.76,
+            "brt": "o2q#",
+            "rf": "o2q#",
+            "brf": 9470016,
+            "rt": 9470016,
+            "vendor": "accr",
+            "vendor_id_raw": "B986",
+            "mota_code": null,
+            "direct_offer": true,
+            "offer_flags": [
+              "Breakfast included"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": false,
+            "special": false,
+            "room_name": "Family villa",
+            "rooms": [
+              {
+                "name": "Family villa",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included"
+            },
+            "partner_name": "ALL - Accor Live Limitless",
+            "partner_logo": "https://hotelscan.com/apis/vendors/accr/logo.svg?pos=zz"
+          },
+          {
+            "price": 1551.76,
+            "brt": "o2r#",
+            "rf": "o2r#",
+            "brf": 9470016,
+            "rt": 9470016,
+            "vendor": "accr",
+            "vendor_id_raw": "B986",
+            "mota_code": null,
+            "direct_offer": true,
+            "offer_flags": [
+              "Breakfast included"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": false,
+            "special": false,
+            "room_name": "Villa",
+            "rooms": [
+              {
+                "name": "Villa",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included"
+            },
+            "partner_name": "ALL - Accor Live Limitless",
+            "partner_logo": "https://hotelscan.com/apis/vendors/accr/logo.svg?pos=zz"
+          },
+          {
+            "price": 1595.51,
+            "brt": "o2r#",
+            "rf": "o2r#",
+            "brf": 9470016,
+            "rt": 9470016,
+            "vendor": "accr",
+            "vendor_id_raw": "B986",
+            "mota_code": null,
+            "direct_offer": true,
+            "offer_flags": [
+              "Breakfast included"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": false,
+            "special": false,
+            "room_name": "Villa",
+            "rooms": [
+              {
+                "name": "Villa",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included"
+            },
+            "partner_name": "ALL - Accor Live Limitless",
+            "partner_logo": "https://hotelscan.com/apis/vendors/accr/logo.svg?pos=zz"
+          },
+          {
+            "price": 1661.14,
+            "brt": "o2r#",
+            "rf": "o2r#",
+            "brf": 9470016,
+            "rt": 9470016,
+            "vendor": "accr",
+            "vendor_id_raw": "B986",
+            "mota_code": null,
+            "direct_offer": true,
+            "offer_flags": [
+              "Breakfast included"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": false,
+            "special": false,
+            "room_name": "Villa",
+            "rooms": [
+              {
+                "name": "Villa",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included"
+            },
+            "partner_name": "ALL - Accor Live Limitless",
+            "partner_logo": "https://hotelscan.com/apis/vendors/accr/logo.svg?pos=zz"
+          },
+          {
+            "price": 1683.02,
+            "brt": "o2r#",
+            "rf": "o2r#",
+            "brf": 9470016,
+            "rt": 9470016,
+            "vendor": "accr",
+            "vendor_id_raw": "B986",
+            "mota_code": null,
+            "direct_offer": true,
+            "offer_flags": [
+              "Breakfast included"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": false,
+            "special": false,
+            "room_name": "Villa",
+            "rooms": [
+              {
+                "name": "Villa",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included"
+            },
+            "partner_name": "ALL - Accor Live Limitless",
+            "partner_logo": "https://hotelscan.com/apis/vendors/accr/logo.svg?pos=zz"
+          },
+          {
+            "price": 1704.9,
+            "brt": "o2q#",
+            "rf": "o2q#",
+            "brf": 9470016,
+            "rt": 9470016,
+            "vendor": "accr",
+            "vendor_id_raw": "B986",
+            "mota_code": null,
+            "direct_offer": true,
+            "offer_flags": [
+              "Breakfast included"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": false,
+            "special": false,
+            "room_name": "Family villa",
+            "rooms": [
+              {
+                "name": "Family villa",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included"
+            },
+            "partner_name": "ALL - Accor Live Limitless",
+            "partner_logo": "https://hotelscan.com/apis/vendors/accr/logo.svg?pos=zz"
+          },
+          {
+            "price": 1814.28,
+            "brt": "o2r#",
+            "rf": "o2r#",
+            "brf": 9470016,
+            "rt": 9470016,
+            "vendor": "accr",
+            "vendor_id_raw": "B986",
+            "mota_code": null,
+            "direct_offer": true,
+            "offer_flags": [
+              "Breakfast included"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": false,
+            "special": false,
+            "room_name": "Villa",
+            "rooms": [
+              {
+                "name": "Villa",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included"
+            },
+            "partner_name": "ALL - Accor Live Limitless",
+            "partner_logo": "https://hotelscan.com/apis/vendors/accr/logo.svg?pos=zz"
+          },
+          {
+            "price": 1825.22,
+            "brt": "o2r#",
+            "rf": "o2r#",
+            "brf": 9470016,
+            "rt": 9470016,
+            "vendor": "accr",
+            "vendor_id_raw": "B986",
+            "mota_code": null,
+            "direct_offer": true,
+            "offer_flags": [
+              "Breakfast included"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": false,
+            "special": false,
+            "room_name": "Villa",
+            "rooms": [
+              {
+                "name": "Villa",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included"
+            },
+            "partner_name": "ALL - Accor Live Limitless",
+            "partner_logo": "https://hotelscan.com/apis/vendors/accr/logo.svg?pos=zz"
+          },
+          {
+            "price": 1978.35,
+            "brt": "o2r#",
+            "rf": "o2r#",
+            "brf": 9470016,
+            "rt": 9470016,
+            "vendor": "accr",
+            "vendor_id_raw": "B986",
+            "mota_code": null,
+            "direct_offer": true,
+            "offer_flags": [
+              "Breakfast included"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": false,
+            "special": false,
+            "room_name": "Villa",
+            "rooms": [
+              {
+                "name": "Villa",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included"
+            },
+            "partner_name": "ALL - Accor Live Limitless",
+            "partner_logo": "https://hotelscan.com/apis/vendors/accr/logo.svg?pos=zz"
+          },
+          {
+            "price": 2298.64,
+            "brt": "b2r#",
+            "rf": "b2r#",
+            "brf": 9470016,
+            "rt": 9470016,
+            "vendor": "accr",
+            "vendor_id_raw": "B986",
+            "mota_code": null,
+            "direct_offer": true,
+            "offer_flags": [
+              "Breakfast included"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": false,
+            "special": false,
+            "room_name": "Loft",
+            "rooms": [
+              {
+                "name": "Loft",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included"
+            },
+            "partner_name": "ALL - Accor Live Limitless",
+            "partner_logo": "https://hotelscan.com/apis/vendors/accr/logo.svg?pos=zz"
+          }
+        ],
+        "descriptions_language": {
+          "general": {
+            "original_language": true,
+            "text": "Experience an abundance of unparalleled facilities and features at SO/ Maldives.Maintain seamless communication using the complimentary Wi-Fi at resort. Effortlessly arrange transportation to and from the airport using the resort's airport transfer services. Discovering Maldive Islands becomes even more accessible, thanks to the shuttle amenities provided at the resort. During your stay at this fantastic resort, the attentive front desk personnel can provide you with a range of amenities such as concierge service, express check-in or check-out, luggage storage and safety deposit boxes. Obtaining passes for the town's top entertainments becomes effortless with resort's tours. At the resort, utilize the on-site laundromat, dry cleaning service and laundry service to maintain your beloved travel attire fresh, allowing you to bring fewer clothes. Craving relaxation? Make the most of your stay at the SO/ Maldives with convenient amenities like 24-hour room service, room service and daily housekeeping at your disposal. For all your minor, last-minute requirements, the convenience stores can promptly cater to them, eliminating the need to venture out.For visitors wishing to smoke, designated smoking zones can be found. At SO/ Maldives, every guestroom is provided with convenient amenities and fittings to ensure a comfortable stay.Enhance your experience at resort with the knowledge that certain rooms are equipped with blackout curtains and air conditioning for your convenience. A few accommodations within SO/ Maldives offer unique design elements such as a balcony or terrace.Certain rooms offer in-room amusement features such as the television for your enjoyment. In select rooms within the resort, a refrigerator, a coffee or tea maker, instant coffee and mini bar is available to cater to your requirements when desired. It is worth noting that certain guest bathrooms feature a hair dryer, toiletries and bathrobes for your convenience. Begin your day carefree at SO/ Maldives, as complimentary breakfast is offered for your convenience. Begin your day feeling refreshed and invigorated as you enjoy a delightful cup of quality coffee available at the cafe situated within the resort.At the resort, an assortment of easily accessible and delicious meal choices are available to satisfy your appetite whenever it strikes.At SO/ Maldives, they are committed to catering to your unique requirements. They offer a variety of meal choices, encompassing halal alternatives for those with special dietary preferences.Enjoy an entertaining evening with your fellow travelers at the resort's bar. At the resort, discerning guests can also enjoy on-site culinary facilities like BBQ facilities tailored to their preferences.During your stay at resort, an array of engaging activities and amenities guarantees a delightful experience. During your stay, don't forget to allocate some moments to experience the readily available shoreline. Conclude your holiday perfectly with a visit to massage, hot tub, salon, steam room, spa and sauna on your final days. Be sure to drop by the pool at resort at least once during your stay.At SO/ Maldives, utmost care is taken to ensure guests' comfort. Relish your preferred beverage in your swimwear by the resort's poolside bar. Discover the fitness amenities at resort to maintain your health and strength during your getaway."
+          }
+        },
+        "chain_code": null,
+        "bids": {
+          "agda": "j23",
+          "accr": "j23"
+        },
+        "worst_offer": 812.7,
+        "best_offer": 714.98,
+        "best_offer_ota": "accr",
+        "best_offer_mota": null,
+        "discount": 10,
+        "offers_count": 45,
+        "coordinates": {
+          "lat": 4.08414,
+          "lng": 73.51192
+        },
+        "distance": 0.12,
+        "neighborhood": null,
+        "badge": null,
+        "distances": [
+          {
+            "from": "center",
+            "distance": 0.12,
+            "time": 167,
+            "means": "foot",
+            "means_type": "foot"
+          }
+        ],
+        "specs": {
+          "bathrooms": null,
+          "beds": null,
+          "bedrooms": null,
+          "guests": null,
+          "square_meters": null
+        },
+        "toa_label": "resort",
+        "top_amenities": [
+          "indoor_pool",
+          "outdoor_pool",
+          "wifi_room",
+          "internet",
+          "restaurant"
+        ],
+        "transportations": {
+          "airports": [],
+          "trains": []
+        },
+        "images": [
+          {
+            "image_id": "700650206",
+            "label": ""
+          },
+          {
+            "image_id": "700650193",
+            "label": ""
+          },
+          {
+            "image_id": "700650299",
+            "label": ""
+          },
+          {
+            "image_id": "700650190",
+            "label": ""
+          },
+          {
+            "image_id": "700650269",
+            "label": ""
+          },
+          {
+            "image_id": "700650202",
+            "label": ""
+          },
+          {
+            "image_id": "700650251",
+            "label": ""
+          },
+          {
+            "image_id": "700650292",
+            "label": ""
+          },
+          {
+            "image_id": "700650237",
+            "label": ""
+          },
+          {
+            "image_id": "700650300",
+            "label": ""
+          },
+          {
+            "image_id": "700650296",
+            "label": ""
+          },
+          {
+            "image_id": "700650187",
+            "label": ""
+          },
+          {
+            "image_id": "700650186",
+            "label": ""
+          },
+          {
+            "image_id": "700650241",
+            "label": ""
+          },
+          {
+            "image_id": "700650211",
+            "label": ""
+          }
+        ],
+        "hero_offer": {
+          "price": 714.98,
+          "brt": "o2r#",
+          "rf": "o2r#",
+          "brf": 9470016,
+          "rt": 9470016,
+          "vendor": "accr",
+          "vendor_id_raw": "B986",
+          "mota_code": null,
+          "direct_offer": true,
+          "offer_flags": {
+            "breakfast": "Breakfast included"
+          },
+          "jc_code": "",
+          "ranking_index": 1,
+          "chain": "",
+          "free_cancellation": false,
+          "special": false,
+          "room_name": "Villa",
+          "rooms": [
+            {
+              "name": "Villa",
+              "flags": []
+            }
+          ],
+          "partner_name": "ALL - Accor Live Limitless",
+          "partner_logo": "https://hotelscan.com/apis/vendors/accr/logo.svg?pos=zz"
+        },
+        "rank": 0,
+        "ctrl_srt": "im a ctrl teapot",
+        "test_srt": "im a test teapot"
+      }
+    ],
+    "filters": [],
+    "query": {
+      "pos": "zz"
+    }
+  }
+}

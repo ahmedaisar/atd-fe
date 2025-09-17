@@ -1,0 +1,430 @@
+{
+  "_meta": {
+    "status": "SUCCESS",
+    "cached": true,
+    "count": 1,
+    "debug": {
+      "ticket": {
+        "ticket_id": "1000306496_zz_zz_d_publ_en_2_2025-10-08_2025-10-13_1_3",
+        "created_at": 1758065381.67,
+        "loop": null,
+        "snapped_at": 1758065381.7905,
+        "snapshot_id": "1000306496_zz_zz_d_publ_en_2_2025-10-08_2025-10-13_1_3",
+        "snapshot_ttl": 300,
+        "executions": 2,
+        "progress": 1,
+        "save_errors": []
+      }
+    }
+  },
+  "data": {
+    "meta": [],
+    "geo": {
+      "hs_id": "xk8lkha1ntyx",
+      "region_name": "Thulusdhoo Island",
+      "region_name_long": "Thulusdhoo Island, Maldives",
+      "region_type": "CITY",
+      "region_id": 6278797,
+      "country_iso": "MV",
+      "country": "maldives",
+      "localised_country": "Maldives",
+      "center": [
+        4.37228,
+        73.65101
+      ],
+      "centroid": [
+        4.37228,
+        73.65101
+      ],
+      "polygon": [
+        "4.380631,73.643003",
+        "4.364183,73.643261",
+        "4.363924,73.659018",
+        "4.38052,73.658721",
+        "4.380631,73.643003"
+      ],
+      "radius": 1.29,
+      "zoom": -1,
+      "search_by_polygon": 1,
+      "cluster": 0,
+      "properties": 82,
+      "radius_override": 5,
+      "boundingbox": {
+        "ne": [
+          4.381,
+          73.66
+        ],
+        "sw": [
+          4.363,
+          73.643
+        ]
+      },
+      "airports": [
+        "MLE",
+        "DRV"
+      ],
+      "region_name_en": "Thulusdhoo Island",
+      "region_name_long_en": "Thulusdhoo Island, Maldives",
+      "referrer_city_name_en": "Thulusdhoo Island",
+      "parent_region_id": 6051084,
+      "parent_hs_id": "x5p4hmhw6iot",
+      "parent_region_name": "Maldives (all)",
+      "parent_region_name_long": "Maldives (all)",
+      "dynamic_bbox": {
+        "ne": [
+          4.375,
+          73.653
+        ],
+        "sw": [
+          4.375,
+          73.653
+        ]
+      }
+    },
+    "records": [
+      {
+        "hs_id": 1000306496,
+        "slug": "kahanbu-ocean-view-thulusdhoo-island-mv-1000306496",
+        "name": "Kahanbu Ocean View",
+        "ty_id": "446bebc6-0805-4470-9915-4add033f855c",
+        "toa": "guest_house",
+        "location": {
+          "city": "Thulusdhoo Island",
+          "zip": "08040",
+          "country_iso2": "MV",
+          "address": "Neruveli Magu, Ihaa",
+          "geoid": "xk8lkha1ntyx",
+          "loc": {
+            "type": "Point"
+          },
+          "coordinates": {
+            "lng": 73.65359,
+            "lat": 4.37546
+          }
+        },
+        "opening_time": {
+          "check_in_from": "14:30",
+          "check_in_to": "21:00",
+          "check_out_from": "06:00",
+          "check_out_to": "11:00"
+        },
+        "quality": {
+          "review_count": 38,
+          "review_rating": 92,
+          "stars": 0,
+          "stars_is_estimated": false,
+          "review_source": ""
+        },
+        "covid_safe": true,
+        "amenities": {
+          "wellness": [
+            "fitness_center"
+          ],
+          "sports": [
+            "bike_rent",
+            "sub"
+          ],
+          "internet": [
+            "wifi_lobby",
+            "wifi_room",
+            "internet"
+          ],
+          "transfer": [
+            "shuttle_service"
+          ],
+          "food_drink": [
+            "tea_coffee_maker"
+          ],
+          "parking": [
+            "parking"
+          ],
+          "outdoor": [
+            "garden"
+          ],
+          "other": [],
+          "room": [
+            "fan",
+            "heating",
+            "air_conditioning",
+            "washing_machine"
+          ],
+          "reception": [
+            "24h_reception",
+            "luggage_storage",
+            "laundry_service",
+            "safety_deposit_box"
+          ]
+        },
+        "descriptions": {
+          "general": "Kahanbu Ocean View provides beachfront accommodations in Thulusdhoo. Among the facilities at this property are a 24-hour front desk and luggage storage space, along with free Wifi throughout the property. On-site staff can arrange airport transfers. At the guest house, each unit includes a desk. There's a private bathroom with walk-in shower in every unit, along with bathrobes, slippers, and a hair dryer. At the guest house, all units are equipped with bed linen and towels. Continental and Italian breakfast options with fresh pastries, fruit, and juice are available. For visitors looking to embark on day trips to nearby landmarks, the guest house provides a selection of packed lunches. A bicycle rental service and a private beach area are provided at Kahanbu Ocean View. Bikini Beach is a few steps from the accommodation.",
+          "localized": "Kahanbu Ocean View provides beachfront accommodations in Thulusdhoo. Among the facilities at this property are a 24-hour front desk and luggage storage space, along with free Wifi throughout the property. On-site staff can arrange airport transfers. At the guest house, each unit includes a desk. There's a private bathroom with walk-in shower in every unit, along with bathrobes, slippers, and a hair dryer. At the guest house, all units are equipped with bed linen and towels. Continental and Italian breakfast options with fresh pastries, fruit, and juice are available. For visitors looking to embark on day trips to nearby landmarks, the guest house provides a selection of packed lunches. A bicycle rental service and a private beach area are provided at Kahanbu Ocean View. Bikini Beach is a few steps from the accommodation."
+        },
+        "short_description": "Excellent accommodation. Great location. Fantastic service.",
+        "offers": [
+          {
+            "price": 131,
+            "brt": "p2r#t",
+            "rf": "p2r#t",
+            "brf": 9470016,
+            "rt": 9470016,
+            "vendor": "bkng",
+            "vendor_id_raw": "1658024",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included"
+            ],
+            "jc_code": "",
+            "ranking_index": 0.9963664122137404,
+            "chain": "",
+            "free_cancellation": false,
+            "special": false,
+            "room_name": "Standard room - Twin beds",
+            "rooms": [
+              {
+                "name": "Standard room - Twin beds",
+                "flags": [
+                  "Twin beds"
+                ]
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included"
+            },
+            "partner_name": "Booking.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/bkng/logo.svg?pos=zz"
+          },
+          {
+            "vendor": "agda",
+            "price": 129.81,
+            "vendor_id_raw": "5195099",
+            "mota_code": null,
+            "jc_code": "",
+            "partner_name": "Agoda",
+            "partner_logo": "https://hotelscan.com/apis/vendors/agda/logo.svg?pos=zz",
+            "room_name": "Standard room - Twin beds",
+            "brf": 9470016,
+            "brt": "p2r#t"
+          }
+        ],
+        "all_offers": [
+          {
+            "price": 129.81,
+            "brt": "p2r#t",
+            "rf": "p2r#t",
+            "brf": 9470016,
+            "rt": 9470016,
+            "vendor": "agda",
+            "vendor_id_raw": "5195099",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": false,
+            "special": false,
+            "room_name": "Standard room - Twin beds",
+            "rooms": [
+              {
+                "name": "Standard room - Twin beds",
+                "flags": [
+                  "Twin beds"
+                ]
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included"
+            },
+            "partner_name": "Agoda",
+            "partner_logo": "https://hotelscan.com/apis/vendors/agda/logo.svg?pos=zz"
+          },
+          {
+            "price": 131,
+            "brt": "p2r#t",
+            "rf": "p2r#t",
+            "brf": 9470016,
+            "rt": 9470016,
+            "vendor": "bkng",
+            "vendor_id_raw": "1658024",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": false,
+            "special": false,
+            "room_name": "Standard room - Twin beds",
+            "rooms": [
+              {
+                "name": "Standard room - Twin beds",
+                "flags": [
+                  "Twin beds"
+                ]
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included"
+            },
+            "partner_name": "Booking.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/bkng/logo.svg?pos=zz"
+          }
+        ],
+        "descriptions_language": {
+          "general": {
+            "original_language": true,
+            "text": "Kahanbu Ocean View provides beachfront accommodations in Thulusdhoo. Among the facilities at this property are a 24-hour front desk and luggage storage space, along with free Wifi throughout the property. On-site staff can arrange airport transfers. At the guest house, each unit includes a desk. There's a private bathroom with walk-in shower in every unit, along with bathrobes, slippers, and a hair dryer. At the guest house, all units are equipped with bed linen and towels. Continental and Italian breakfast options with fresh pastries, fruit, and juice are available. For visitors looking to embark on day trips to nearby landmarks, the guest house provides a selection of packed lunches. A bicycle rental service and a private beach area are provided at Kahanbu Ocean View. Bikini Beach is a few steps from the accommodation."
+          }
+        },
+        "chain_code": null,
+        "bids": {
+          "bkng": "j23",
+          "agda": "j23"
+        },
+        "worst_offer": null,
+        "best_offer": 129.81,
+        "best_offer_ota": "agda",
+        "best_offer_mota": null,
+        "discount": 0,
+        "offers_count": 2,
+        "coordinates": {
+          "lat": 4.37546,
+          "lng": 73.65359
+        },
+        "distance": 0.45,
+        "neighborhood": null,
+        "badge": null,
+        "distances": [
+          {
+            "from": "center",
+            "distance": 0.45,
+            "time": 625,
+            "means": "foot",
+            "means_type": "foot"
+          }
+        ],
+        "specs": {
+          "bathrooms": null,
+          "beds": null,
+          "bedrooms": null,
+          "guests": null,
+          "square_meters": null
+        },
+        "toa_label": "guest house",
+        "top_amenities": [
+          "wifi_room",
+          "internet",
+          "tea_coffee_maker",
+          "parking",
+          "heating"
+        ],
+        "transportations": {
+          "airports": [],
+          "trains": []
+        },
+        "images": [
+          {
+            "image_id": "753963973",
+            "label": ""
+          },
+          {
+            "image_id": "753963988",
+            "label": ""
+          },
+          {
+            "image_id": "753963989",
+            "label": ""
+          },
+          {
+            "image_id": "753963983",
+            "label": ""
+          },
+          {
+            "image_id": "753963978",
+            "label": ""
+          },
+          {
+            "image_id": "753963985",
+            "label": ""
+          },
+          {
+            "image_id": "753963977",
+            "label": ""
+          },
+          {
+            "image_id": "753963971",
+            "label": ""
+          },
+          {
+            "image_id": "753963980",
+            "label": ""
+          },
+          {
+            "image_id": "753963990",
+            "label": ""
+          },
+          {
+            "image_id": "753963984",
+            "label": ""
+          },
+          {
+            "image_id": "753963975",
+            "label": ""
+          },
+          {
+            "image_id": "753963976",
+            "label": ""
+          },
+          {
+            "image_id": "753963979",
+            "label": ""
+          },
+          {
+            "image_id": "753963974",
+            "label": ""
+          }
+        ],
+        "hero_offer": {
+          "price": 131,
+          "brt": "p2r#t",
+          "rf": "p2r#t",
+          "brf": 9470016,
+          "rt": 9470016,
+          "vendor": "bkng",
+          "vendor_id_raw": "1658024",
+          "mota_code": null,
+          "direct_offer": false,
+          "offer_flags": {
+            "breakfast": "Breakfast included"
+          },
+          "jc_code": "",
+          "ranking_index": 0.9963664122137404,
+          "chain": "",
+          "free_cancellation": false,
+          "special": false,
+          "room_name": "Standard room - Twin beds",
+          "rooms": [
+            {
+              "name": "Standard room - Twin beds",
+              "flags": [
+                "Twin beds"
+              ]
+            }
+          ],
+          "partner_name": "Booking.com",
+          "partner_logo": "https://hotelscan.com/apis/vendors/bkng/logo.svg?pos=zz"
+        },
+        "rank": 0,
+        "ctrl_srt": "im a ctrl teapot",
+        "test_srt": "im a test teapot"
+      }
+    ],
+    "filters": [],
+    "query": {
+      "pos": "zz"
+    }
+  }
+}

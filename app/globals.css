@@ -126,12 +126,29 @@
   .border-black-600 { --tw-border-opacity: 1; border-color: #000; }
   .bg-black-100 { --tw-bg-opacity: 1; background-color: #000; color:#fff }
 .bg-gold-100 {
-  background: linear-gradient(90deg, #fff4d8, #fff6e0);
-  color: #000;
+  background: radial-gradient(circle at center -59px, #ffd178 0, #b5842d 83%, #a37220 100%);
+}
+.bg-gold-100-sm {
+  background: radial-gradient(circle at center -50px, #d69c37 0, #b5842d 83%, #a37220 100%);
+}
+.bg-gold-100-hover {
+  background: radial-gradient(circle at center -59px, #e9b958 0, #b5842d 83%, #a37220 100%);
 }
 
+.bg-gold-1000 {
+  background: radial-gradient(circle at center -59px, #ffe1a6 0, #b5842d 83%, #a37220 100%);
+}
 .text-gold-900 {
-  color: #B8860B;
+  color: #ca973f;
+}
+
+.text-xxs{
+  font-size: 8px!important;
+  line-height: 1rem;
+}
+
+.text-white-100 {
+  color: #fff;
 }
 .bg-black-gradient {
   background: linear-gradient(90deg, #000000, #0c0c0c);

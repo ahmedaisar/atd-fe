@@ -1,0 +1,478 @@
+{
+  "_meta": {
+    "status": "SUCCESS",
+    "cached": true,
+    "count": 1,
+    "debug": {
+      "ticket": {
+        "ticket_id": "690827132_zz_zz_d_publ_en_2_2025-10-08_2025-10-13_1_3",
+        "created_at": 1758065380.1502,
+        "loop": null,
+        "snapped_at": 1758065380.268,
+        "snapshot_id": "690827132_zz_zz_d_publ_en_2_2025-10-08_2025-10-13_1_3",
+        "snapshot_ttl": 300,
+        "executions": 2,
+        "progress": 1,
+        "save_errors": []
+      }
+    }
+  },
+  "data": {
+    "meta": [],
+    "geo": {
+      "hs_id": "xk8lkha1ntyx",
+      "region_name": "Thulusdhoo Island",
+      "region_name_long": "Thulusdhoo Island, Maldives",
+      "region_type": "CITY",
+      "region_id": 6278797,
+      "country_iso": "MV",
+      "country": "maldives",
+      "localised_country": "Maldives",
+      "center": [
+        4.37228,
+        73.65101
+      ],
+      "centroid": [
+        4.37228,
+        73.65101
+      ],
+      "polygon": [
+        "4.380631,73.643003",
+        "4.364183,73.643261",
+        "4.363924,73.659018",
+        "4.38052,73.658721",
+        "4.380631,73.643003"
+      ],
+      "radius": 1.29,
+      "zoom": -1,
+      "search_by_polygon": 1,
+      "cluster": 0,
+      "properties": 82,
+      "radius_override": 5,
+      "boundingbox": {
+        "ne": [
+          4.381,
+          73.66
+        ],
+        "sw": [
+          4.363,
+          73.643
+        ]
+      },
+      "airports": [
+        "MLE",
+        "DRV"
+      ],
+      "region_name_en": "Thulusdhoo Island",
+      "region_name_long_en": "Thulusdhoo Island, Maldives",
+      "referrer_city_name_en": "Thulusdhoo Island",
+      "parent_region_id": 6051084,
+      "parent_hs_id": "x5p4hmhw6iot",
+      "parent_region_name": "Maldives (all)",
+      "parent_region_name_long": "Maldives (all)",
+      "dynamic_bbox": {
+        "ne": [
+          4.374,
+          73.654
+        ],
+        "sw": [
+          4.374,
+          73.654
+        ]
+      }
+    },
+    "records": [
+      {
+        "hs_id": 690827132,
+        "slug": "samura-maldives-guest-house-thulusdhoo-thulusdhoo-island-mv-690827132",
+        "name": "Samura Maldives Guest House Thulusdhoo",
+        "ty_id": "c63acf1f-4d19-42d5-9e99-af9d316a3c62",
+        "toa": "guest_house",
+        "location": {
+          "city": "Thulusdhoo Island",
+          "zip": "08040",
+          "country_iso2": "MV",
+          "address": "Ocean Beach N/n",
+          "geoid": "xk8lkha1ntyx",
+          "loc": {
+            "type": "Point"
+          },
+          "coordinates": {
+            "lng": 73.65428,
+            "lat": 4.37429
+          }
+        },
+        "opening_time": {
+          "check_in_from": "15:00",
+          "check_in_to": null,
+          "check_out_from": null,
+          "check_out_to": "12:00"
+        },
+        "quality": {
+          "review_count": 177,
+          "review_rating": 92,
+          "stars": 0,
+          "stars_is_estimated": false,
+          "review_source": ""
+        },
+        "covid_safe": true,
+        "amenities": {
+          "business": [
+            "business_services"
+          ],
+          "wellness": [
+            "massage"
+          ],
+          "sports": [
+            "trekking",
+            "sub",
+            "surf"
+          ],
+          "internet": [
+            "wifi_lobby",
+            "wifi_room",
+            "internet"
+          ],
+          "transfer": [
+            "shuttle_service"
+          ],
+          "food_drink": [
+            "restaurant",
+            "room_service",
+            "cafe",
+            "bar",
+            "snack_bar"
+          ],
+          "parking": [
+            "parking"
+          ],
+          "outdoor": [
+            "garden",
+            "terrace"
+          ],
+          "other": [],
+          "room": [
+            "air_conditioning",
+            "tv"
+          ],
+          "reception": [
+            "24h_reception",
+            "luggage_storage",
+            "laundry_service",
+            "safety_deposit_box"
+          ]
+        },
+        "descriptions": {
+          "general": "Samura Maldives Guest House Thulusdhoo in Thulusdhoo provides accommodations with a private beach area, a garden, and a terrace. This beachfront property offers access to free Wifi and free private parking. The accommodation offers a 24-hour front desk, full-day security, and organizing tours for guests. Some accommodations include a balcony and a seating area with flat-screen TV, as well as air conditioning and heating. At the guest house, units come with a private bathroom. Guests at the guest house can enjoy a continental breakfast, and breakfast in the room is also available. Guests may eat at the on-site romantic restaurant, which is open for dinner, brunch, cocktails, and high tea. Guests at Samura Maldives Guest House Thulusdhoo will be able to enjoy activities in and around Thulusdhoo, like walking tours. The guest house has a picnic area where you can spend the day outdoors. Bikini Beach is a few steps from the accommodation, while Gasfinolhu Beach is a 11-minute walk from the property.",
+          "localized": "Samura Maldives Guest House Thulusdhoo in Thulusdhoo provides accommodations with a private beach area, a garden, and a terrace. This beachfront property offers access to free Wifi and free private parking. The accommodation offers a 24-hour front desk, full-day security, and organizing tours for guests. Some accommodations include a balcony and a seating area with flat-screen TV, as well as air conditioning and heating. At the guest house, units come with a private bathroom. Guests at the guest house can enjoy a continental breakfast, and breakfast in the room is also available. Guests may eat at the on-site romantic restaurant, which is open for dinner, brunch, cocktails, and high tea. Guests at Samura Maldives Guest House Thulusdhoo will be able to enjoy activities in and around Thulusdhoo, like walking tours. The guest house has a picnic area where you can spend the day outdoors. Bikini Beach is a few steps from the accommodation, while Gasfinolhu Beach is a 11-minute walk from the property."
+        },
+        "short_description": "Excellent accommodation. Close to the beach . Awesome vibe. Fantastic service.",
+        "offers": [
+          {
+            "price": 170.4,
+            "brt": "p2r#q",
+            "rf": "p2r#q",
+            "brf": 9471040,
+            "rt": 9471040,
+            "vendor": "bkng",
+            "vendor_id_raw": "1412339",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included",
+              "Sea view"
+            ],
+            "jc_code": "",
+            "ranking_index": 0.9963849765258216,
+            "chain": "",
+            "free_cancellation": false,
+            "special": false,
+            "room_name": "Standard room - Queen bed",
+            "rooms": [
+              {
+                "name": "Standard room - Queen bed",
+                "flags": [
+                  "Queen bed"
+                ]
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included",
+              "view_sea": "Sea view"
+            },
+            "partner_name": "Booking.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/bkng/logo.svg?pos=zz"
+          },
+          {
+            "vendor": "agda",
+            "price": 168.86,
+            "vendor_id_raw": "1019422",
+            "mota_code": null,
+            "jc_code": "",
+            "partner_name": "Agoda",
+            "partner_logo": "https://hotelscan.com/apis/vendors/agda/logo.svg?pos=zz",
+            "room_name": "Standard room - Queen bed",
+            "brf": 9471040,
+            "brt": "p2r#q"
+          }
+        ],
+        "all_offers": [
+          {
+            "price": 168.86,
+            "brt": "p2r#q",
+            "rf": "p2r#q",
+            "brf": 9471040,
+            "rt": 9471040,
+            "vendor": "agda",
+            "vendor_id_raw": "1019422",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included",
+              "Sea view"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": false,
+            "special": false,
+            "room_name": "Standard room - Queen bed",
+            "rooms": [
+              {
+                "name": "Standard room - Queen bed",
+                "flags": [
+                  "Queen bed"
+                ]
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included",
+              "view_sea": "Sea view"
+            },
+            "partner_name": "Agoda",
+            "partner_logo": "https://hotelscan.com/apis/vendors/agda/logo.svg?pos=zz"
+          },
+          {
+            "price": 170.4,
+            "brt": "p2r#q",
+            "rf": "p2r#q",
+            "brf": 9471040,
+            "rt": 9471040,
+            "vendor": "bkng",
+            "vendor_id_raw": "1412339",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included",
+              "Sea view"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": false,
+            "special": false,
+            "room_name": "Standard room - Queen bed",
+            "rooms": [
+              {
+                "name": "Standard room - Queen bed",
+                "flags": [
+                  "Queen bed"
+                ]
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included",
+              "view_sea": "Sea view"
+            },
+            "partner_name": "Booking.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/bkng/logo.svg?pos=zz"
+          },
+          {
+            "price": 220.16,
+            "brt": "p2r#q",
+            "rf": "p2r#q",
+            "brf": 9471040,
+            "rt": 9471040,
+            "vendor": "bkng",
+            "vendor_id_raw": "1412339",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included",
+              "Sea view"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": false,
+            "special": false,
+            "room_name": "Standard room - Queen bed",
+            "rooms": [
+              {
+                "name": "Standard room - Queen bed",
+                "flags": [
+                  "Queen bed"
+                ]
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included",
+              "view_sea": "Sea view"
+            },
+            "partner_name": "Booking.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/bkng/logo.svg?pos=zz"
+          }
+        ],
+        "descriptions_language": {
+          "general": {
+            "original_language": true,
+            "text": "Samura Maldives Guest House Thulusdhoo in Thulusdhoo provides accommodations with a private beach area, a garden, and a terrace. This beachfront property offers access to free Wifi and free private parking. The accommodation offers a 24-hour front desk, full-day security, and organizing tours for guests. Some accommodations include a balcony and a seating area with flat-screen TV, as well as air conditioning and heating. At the guest house, units come with a private bathroom. Guests at the guest house can enjoy a continental breakfast, and breakfast in the room is also available. Guests may eat at the on-site romantic restaurant, which is open for dinner, brunch, cocktails, and high tea. Guests at Samura Maldives Guest House Thulusdhoo will be able to enjoy activities in and around Thulusdhoo, like walking tours. The guest house has a picnic area where you can spend the day outdoors. Bikini Beach is a few steps from the accommodation, while Gasfinolhu Beach is a 11-minute walk from the property."
+          }
+        },
+        "chain_code": null,
+        "bids": {
+          "agda": "j23",
+          "bkng": "j23"
+        },
+        "worst_offer": null,
+        "best_offer": 168.86,
+        "best_offer_ota": "agda",
+        "best_offer_mota": null,
+        "discount": 0,
+        "offers_count": 3,
+        "coordinates": {
+          "lat": 4.37429,
+          "lng": 73.65428
+        },
+        "distance": 0.43,
+        "neighborhood": null,
+        "badge": null,
+        "distances": [
+          {
+            "from": "center",
+            "distance": 0.43,
+            "time": 597,
+            "means": "foot",
+            "means_type": "foot"
+          }
+        ],
+        "specs": {
+          "bathrooms": null,
+          "beds": null,
+          "bedrooms": null,
+          "guests": null,
+          "square_meters": null
+        },
+        "toa_label": "guest house",
+        "top_amenities": [
+          "wifi_room",
+          "internet",
+          "restaurant",
+          "room_service",
+          "bar"
+        ],
+        "transportations": {
+          "airports": [],
+          "trains": []
+        },
+        "images": [
+          {
+            "image_id": "684395398",
+            "label": ""
+          },
+          {
+            "image_id": "684395392",
+            "label": ""
+          },
+          {
+            "image_id": "684395438",
+            "label": ""
+          },
+          {
+            "image_id": "684395417",
+            "label": ""
+          },
+          {
+            "image_id": "684395400",
+            "label": ""
+          },
+          {
+            "image_id": "684395420",
+            "label": ""
+          },
+          {
+            "image_id": "684395423",
+            "label": ""
+          },
+          {
+            "image_id": "684395399",
+            "label": ""
+          },
+          {
+            "image_id": "684395410",
+            "label": ""
+          },
+          {
+            "image_id": "684395439",
+            "label": ""
+          },
+          {
+            "image_id": "684395426",
+            "label": ""
+          },
+          {
+            "image_id": "684395408",
+            "label": ""
+          },
+          {
+            "image_id": "684395421",
+            "label": ""
+          },
+          {
+            "image_id": "684395428",
+            "label": ""
+          },
+          {
+            "image_id": "684395434",
+            "label": ""
+          }
+        ],
+        "hero_offer": {
+          "price": 170.4,
+          "brt": "p2r#q",
+          "rf": "p2r#q",
+          "brf": 9471040,
+          "rt": 9471040,
+          "vendor": "bkng",
+          "vendor_id_raw": "1412339",
+          "mota_code": null,
+          "direct_offer": false,
+          "offer_flags": {
+            "breakfast": "Breakfast included",
+            "view_sea": "Sea view"
+          },
+          "jc_code": "",
+          "ranking_index": 0.9963849765258216,
+          "chain": "",
+          "free_cancellation": false,
+          "special": false,
+          "room_name": "Standard room - Queen bed",
+          "rooms": [
+            {
+              "name": "Standard room - Queen bed",
+              "flags": [
+                "Queen bed"
+              ]
+            }
+          ],
+          "partner_name": "Booking.com",
+          "partner_logo": "https://hotelscan.com/apis/vendors/bkng/logo.svg?pos=zz"
+        },
+        "rank": 0,
+        "ctrl_srt": "im a ctrl teapot",
+        "test_srt": "im a test teapot"
+      }
+    ],
+    "filters": [],
+    "query": {
+      "pos": "zz"
+    }
+  }
+}

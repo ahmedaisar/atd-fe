@@ -1,0 +1,281 @@
+{
+  "_meta": {
+    "status": "SUCCESS",
+    "cached": true,
+    "count": 1,
+    "debug": {
+      "ticket": {
+        "ticket_id": "1015466208_zz_zz_d_publ_en_2_2025-10-08_2025-10-13_1_3",
+        "created_at": 1758065373.7927,
+        "loop": null,
+        "snapped_at": 1758065373.9145,
+        "snapshot_id": "1015466208_zz_zz_d_publ_en_2_2025-10-08_2025-10-13_1_3",
+        "snapshot_ttl": 300,
+        "executions": 2,
+        "progress": 1,
+        "save_errors": []
+      }
+    }
+  },
+  "data": {
+    "meta": [],
+    "geo": {
+      "hs_id": "xkmcbzm72aw2",
+      "region_name": "Ukulhas",
+      "region_name_long": "Ukulhas, Maldives",
+      "region_type": "CITY",
+      "region_id": 6221930,
+      "country_iso": "MV",
+      "country": "maldives",
+      "localised_country": "Maldives",
+      "center": [
+        4.2152,
+        72.86405
+      ],
+      "centroid": [
+        4.21533,
+        72.86405
+      ],
+      "polygon": [
+        "4.208669,72.865099",
+        "4.212336,72.870321",
+        "4.221738,72.863589",
+        "4.218314,72.857769",
+        "4.208669,72.865099"
+      ],
+      "radius": 0.78,
+      "zoom": -1,
+      "search_by_polygon": 0,
+      "cluster": 0,
+      "properties": 45,
+      "radius_override": 5,
+      "boundingbox": {
+        "ne": [
+          4.222,
+          72.871
+        ],
+        "sw": [
+          4.208,
+          72.857
+        ]
+      },
+      "airports": [
+        "MLE",
+        "DRV"
+      ],
+      "region_name_en": "Ukulhas",
+      "region_name_long_en": "Ukulhas, Maldives",
+      "referrer_city_name_en": "Ukulhas",
+      "parent_region_id": 6051084,
+      "parent_hs_id": "x5p4hmhw6iot",
+      "parent_region_name": "Maldives (all)",
+      "parent_region_name_long": "Maldives (all)",
+      "dynamic_bbox": {
+        "ne": [
+          4.214,
+          72.864
+        ],
+        "sw": [
+          4.214,
+          72.864
+        ]
+      }
+    },
+    "records": [
+      {
+        "hs_id": 1015466208,
+        "slug": "la-palma-suites-ukulhas-mv-1015466208",
+        "name": "La Palma Suites",
+        "toa": "guest_house",
+        "location": {
+          "city": "Ukulhas",
+          "zip": "09030",
+          "country_iso2": "MV",
+          "address": "Maafolhey Villa, Orchid Road, Aa.ukulhas",
+          "geoid": "xkmcbzm72aw2",
+          "loc": {
+            "type": "Point"
+          },
+          "coordinates": {
+            "lng": 72.86463,
+            "lat": 4.21424
+          }
+        },
+        "opening_time": {
+          "check_in_from": "13:00",
+          "check_in_to": "18:00",
+          "check_out_from": "05:00",
+          "check_out_to": "11:00"
+        },
+        "quality": {
+          "review_count": 87,
+          "review_rating": 94,
+          "stars": 3,
+          "stars_is_estimated": false,
+          "review_source": ""
+        },
+        "covid_safe": true,
+        "amenities": {
+          "wellness": [
+            "solarium",
+            "fitness_center"
+          ],
+          "sports": [
+            "bike_rent",
+            "sub",
+            "surf"
+          ],
+          "internet": [
+            "wifi",
+            "wifi_room",
+            "internet"
+          ],
+          "food_drink": [
+            "room_service",
+            "bar"
+          ],
+          "pets": [
+            "pets_allowed"
+          ],
+          "parking": [
+            "parking"
+          ],
+          "outdoor": [
+            "garden",
+            "terrace"
+          ],
+          "other": [],
+          "business": [
+            "business_services"
+          ],
+          "children": [
+            "children_playground"
+          ],
+          "room": [
+            "heating",
+            "air_conditioning",
+            "tv"
+          ],
+          "reception": [
+            "24h_reception",
+            "laundry_service",
+            "safety_deposit_box"
+          ]
+        },
+        "descriptions": {
+          "general": "Facing the seafront, La Palma Suites offers 3-star accommodation in Ukulhas and has a private beach area and garden. This recently renovated guest house features a building dating back to 2024, which is 90 metres from the Ukulhas Beach. The guest house features garden views, a sun terrace, a 24-hour front desk, and free WiFi is available throughout the property.",
+          "localized": "Facing the seafront, La Palma Suites offers 3-star accommodation in Ukulhas and has a private beach area and garden. This recently renovated guest house features a building dating back to 2024, which is 90 metres from the Ukulhas Beach. The guest house features garden views, a sun terrace, a 24-hour front desk, and free WiFi is available throughout the property."
+        },
+        "short_description": "Simple guest house with parking, bike rent and bar",
+        "offers": [],
+        "all_offers": [],
+        "descriptions_language": {
+          "general": {
+            "original_language": true,
+            "text": "Facing the seafront, La Palma Suites offers 3-star accommodation in Ukulhas and has a private beach area and garden. This recently renovated guest house features a building dating back to 2024, which is 90 metres from the Ukulhas Beach. The guest house features garden views, a sun terrace, a 24-hour front desk, and free WiFi is available throughout the property."
+          }
+        },
+        "chain_code": null,
+        "bids": [],
+        "coordinates": {
+          "lat": 4.21424,
+          "lng": 72.86463
+        },
+        "distance": 0.12,
+        "neighborhood": null,
+        "badge": null,
+        "distances": [
+          {
+            "from": "center",
+            "distance": 0.12,
+            "time": 167,
+            "means": "foot",
+            "means_type": "foot"
+          }
+        ],
+        "specs": {
+          "bathrooms": null,
+          "beds": null,
+          "bedrooms": null,
+          "guests": null,
+          "square_meters": null
+        },
+        "toa_label": "guest house",
+        "top_amenities": [
+          "wifi_room",
+          "internet",
+          "room_service",
+          "bar",
+          "pets_allowed"
+        ],
+        "transportations": {
+          "airports": [],
+          "trains": []
+        },
+        "images": [
+          {
+            "image_id": "678537814",
+            "label": ""
+          },
+          {
+            "image_id": "678537812",
+            "label": ""
+          },
+          {
+            "image_id": "678537809",
+            "label": ""
+          },
+          {
+            "image_id": "678537815",
+            "label": ""
+          },
+          {
+            "image_id": "678537813",
+            "label": ""
+          },
+          {
+            "image_id": "678537816",
+            "label": ""
+          },
+          {
+            "image_id": "678537824",
+            "label": ""
+          },
+          {
+            "image_id": "678537811",
+            "label": ""
+          },
+          {
+            "image_id": "678537817",
+            "label": ""
+          },
+          {
+            "image_id": "678537821",
+            "label": ""
+          },
+          {
+            "image_id": "678537827",
+            "label": ""
+          },
+          {
+            "image_id": "678537818",
+            "label": ""
+          }
+        ],
+        "best_offer": null,
+        "discount": null,
+        "offers_count": 0,
+        "worst_offer": null,
+        "rank": 0,
+        "ctrl_srt": "im a ctrl teapot",
+        "test_srt": "im a test teapot",
+        "best_offer_ota": null,
+        "best_offer_mota": null
+      }
+    ],
+    "filters": [],
+    "query": {
+      "pos": "zz"
+    }
+  }
+}

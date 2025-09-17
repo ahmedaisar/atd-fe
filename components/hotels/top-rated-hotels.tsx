@@ -2,6 +2,7 @@
 import Image from 'next/image'
 import { useRef, useEffect, useState, useMemo } from 'react'
 import Link from 'next/link'
+import { normalizeOfferFlags } from '../../lib/normalize-offer-flags'
 
 export interface TopRatedHotel {
   id: string
@@ -15,6 +16,10 @@ export interface TopRatedHotel {
   price: number // nightly price
   currency?: string
   badge?: string
+  // Additional fields from details payload
+  hero_offer?: any
+  discount?: number | string
+  short_description?: string
 }
 
 interface TopRatedHotelsProps {
@@ -107,7 +112,13 @@ export function TopRatedHotels({ title = 'Top Rated Hotels', hotels }: TopRatedH
     }
     const detachM = attachDrag(m)
     const detachD = attachDrag(d)
-    return () => { m?.removeEventListener('scroll', update); d?.removeEventListener('scroll', update); window.removeEventListener('resize', update) }
+    return () => {
+      m?.removeEventListener('scroll', update)
+      d?.removeEventListener('scroll', update)
+      window.removeEventListener('resize', update)
+      try { detachM && detachM() } catch {}
+      try { detachD && detachD() } catch {}
+    }
   }, [])
 
   const scroll = (ref: React.RefObject<HTMLDivElement | null>, dir: 1 | -1) => {
@@ -133,10 +144,26 @@ export function TopRatedHotels({ title = 'Top Rated Hotels', hotels }: TopRatedH
             </svg>
           ))}
         </div>
-        <span className="h-5 w-12 rounded bg-black-100 flex items-center justify-center text-xs font-bold text-white shrink-0">{qualityRating}/100</span>
+        <span className="h-5 w-12 rounded bg-black-100 flex items-center justify-center text-xs font-bold text-gray-900 shrink-0">{qualityRating}/100</span>
         <span className="ml-0.5 text-sm font-medium text-gray-700">({Intl.NumberFormat().format(qualityCount)} Reviews)</span>
       </div>
     )
+  }
+
+  const discountLabel = (discount: TopRatedHotel['discount']): string | null => {
+    if (discount == null) return null
+    if (typeof discount === 'number' && !Number.isNaN(discount)) {
+      if (discount <= 0) return null
+      const pct = Math.round(discount)
+      return `${pct}% lower than other sites`
+    }
+    const n = Number.parseFloat(String(discount))
+    if (!Number.isNaN(n)) {
+      if (n <= 0) return null
+      return `${Math.round(n)}% lower than other sites`
+    }
+    // fallback to raw string
+    return String(discount)
   }
 
   return (
@@ -150,42 +177,76 @@ export function TopRatedHotels({ title = 'Top Rated Hotels', hotels }: TopRatedH
           </div>
         </div>
         {/* Mobile carousel */}
-        <div className="md:hidden" ref={mobileRef}>
-          <div className="flex gap-4 overflow-x-auto snap-x snap-mandatory pb-2 -mx-1 px-1 scrollbar-hide select-none cursor-grab active:cursor-grabbing">
-            {topHotels.map(h => (
-              <div key={h.id} className="group relative flex-shrink-0 w-[85%] max-w-[340px] snap-start bg-white rounded-xl border border-gray-200 overflow-hidden shadow-sm">
+        <div className="md:hidden">
+          <div ref={mobileRef} className="flex gap-4 overflow-x-auto snap-x snap-mandatory pb-2 -mx-1 px-1 scrollbar-hide select-none cursor-grab active:cursor-grabbing">
+           {topHotels.map(h => {
+              
+              const isTruncated = h.name.length > 37
+              
+              const mobileName = isTruncated ? h.name.slice(0, 32) + '...' : h.name
+              return (              
+              <div key={h.id} className="group relative flex-shrink-0 w-[85%] max-w-[340px] snap-start bg-white rounded-xl border border-gray-300 overflow-hidden shadow-sm">
                 <div className="relative h-48 w-full overflow-hidden">
                   <Image src={h.heroImage} alt={h.name} fill className="object-cover transition-transform duration-500 group-hover:scale-105" sizes="(max-width:768px) 85vw, 340px" />
                   {h.badge && <div className="absolute top-2 left-2 bg-white/90 text-[11px] font-medium px-2 py-1 rounded-full shadow">{h.badge}</div>}
                 </div>
-                <div className="p-4 space-y-2">
-                  <h4 className="text-[15px] font-semibold leading-snug text-gray-900 line-clamp-2">{h.name}</h4>
+                <div className="p-4 ">
+                  <h4 className="text-[15px] font-semibold leading-snug text-gray-900 line-clamp-2" title={isTruncated ? h.name : undefined}>{mobileName}</h4>
                   <div className="flex items-center text-[11px] text-gray-600">
                     <span className="truncate">{h.location}</span>
                   </div>
                   {stars(h.hotelStars, h.qualityReviewRating, h.qualityReviewCount)}
-                  <div className="mt-2 border rounded-lg p-3 flex items-end justify-between bg-gray-50">
-                    <div>
-                      <div className="text-[11px] text-gray-500">from</div>
-                      <div className="text-lg font-bold text-gray-900">{h.currency || '$'}{h.price}</div>
-                      <div className="text-[10px] text-gray-500">per night</div>
+                  <div className="mt-5 relative border border-gray-300 rounded-lg p-3 bg-white shadow-sm">
+                    {/* Discount badge top-center */}
+                    {(() => { const label = discountLabel(h.discount); return label ? (
+                      <div className="absolute -top-2 left-1/2 -translate-x-1/2 bg-rose-700 text-white text-xxs font-semibold px-2 py-0.5 rounded-full shadow ">
+                        {label}
+                      </div>
+                    ) : 0 })()}
+                    <div className="flex items-start justify-between gap-3">
+                      <div className="flex-1 min-w-0">
+                        
+                        <div className="pt-2 leading-tight">
+                          <div className="text-[11px] text-gray-500">per night</div>
+                          <div className="text-lg font-bold text-gray-900">{(h.hero_offer?.currency || h.currency || '$')}{Math.round(Number(h.hero_offer?.price ?? h.price))}</div>
+                        </div>
+                      </div>
+                      {/* Offer flags right */}
+                      {(() => {
+                        const flags = normalizeOfferFlags(h.hero_offer?.offer_flags)
+                        return flags.length ? (
+                          <ul className="text-[11px] text-gray-700 space-y-1 text-right ml-2 mt-1">
+                            {flags.slice(0, 3).map((label: string, idx: number) => (
+                              <li key={idx} className="whitespace-nowrap">✓ {label}</li>
+                            ))}
+                          </ul>
+                        ) : null
+                      })()}
                     </div>
-                    <Link href={`/hotels/${h.slug}`} className="inline-flex items-center text-xs font-medium text-blue-600 hover:text-blue-700">View<span className="ml-1">→</span></Link>
+                    <div className="mt-1">
+                      <Link href={`#`} className="inline-flex w-full items-center justify-center rounded-md bg-gold-100-sm  hover:bg-gold-1000 text-white text-xs font-semibold h-9 px-4 shadow-sm">
+                        Check deal <span className="ml-1">→</span>
+                      </Link>
+                    </div>
+                    
                   </div>
                 </div>
               </div>
-            ))}
+            )})}
           </div>
         </div>
         {/* Desktop carousel */}
         <div className="hidden md:block relative">
           {/* Gradient edges */}
+          {/* <div className="pointer-events-none absolute inset-y-0 left-0 w-12 bg-gradient-to-r from-white via-white/70 to-transparent z-10" />
+          <div className="pointer-events-none absolute inset-y-0 right-0 w-12 bg-gradient-to-l from-white via-white/70 to-transparent z-10" /> */}
           <div ref={desktopRef} className="flex gap-6 overflow-x-auto scrollbar-hide snap-x snap-mandatory pb-2 select-none cursor-grab active:cursor-grabbing">
             {topHotels.map(h => {
               const isTruncated = h.name.length > 37
               const desktopName = isTruncated ? h.name.slice(0, 34) + '...' : h.name
+              const mobileName = isTruncated ? h.name.slice(0, 34) + '...' : h.name
               return (
-              <div key={h.id} className="group snap-start flex-shrink-0 w-[340px] bg-white rounded-xl border border-gray-200 overflow-hidden shadow-sm hover:shadow transition-all">
+              <div key={h.id} className="group snap-start flex-shrink-0 w-[340px] bg-white rounded-xl border border-gray-300 overflow-hidden shadow-sm hover:shadow transition-all">
                 <div className="relative h-56 w-full overflow-hidden">
                   <Image src={h.heroImage} alt={h.name} fill className="object-cover transition-transform duration-500 group-hover:scale-105" sizes="(min-width:768px) 340px" />
                   {h.badge && <div className="absolute top-3 left-3 bg-white/90 text-[11px] font-medium px-2 py-1 rounded-full shadow">{h.badge}</div>}
@@ -194,13 +255,37 @@ export function TopRatedHotels({ title = 'Top Rated Hotels', hotels }: TopRatedH
                   <h4 className="text-base font-semibold leading-snug text-gray-900 mb-1" title={isTruncated ? h.name : undefined}>{desktopName}</h4>
                   {stars(h.hotelStars, h.qualityReviewRating, h.qualityReviewCount)}
                   <div className="mt-2 text-[12px] text-gray-600 flex items-center flex-wrap gap-1"><span className="truncate">{h.location}</span></div>
-                  <div className="mt-4 border border-gray-300 rounded-lg p-4 bg-gray-50 flex items-end justify-between">
-                    <div>
-                      <div className="text-[11px] text-gray-500">from</div>
-                      <div className="text-xl font-bold text-gray-900">{h.currency || '$'}{h.price}</div>
-                      <div className="text-[11px] text-gray-500">per night</div>
+                  <div className="mt-4 relative border border-gray-900 rounded-lg p-4 bg-white shadow-sm">
+                    {/* Discount badge top-center */}
+                    {(() => { const label = discountLabel(h.discount); return label ? (
+                      <div className="absolute -top-2 left-1/2 -translate-x-1/2 bg-rose-700 text-white text-[10px] font-semibold px-2 py-0.5 rounded-full shadow border border-white">
+                        {label}
+                      </div>
+                    ) : null })()}
+                    <div className="flex items-start justify-between gap-4">
+                      <div className="flex-1 min-w-0">
+                       
+                        <div className="leading-tight">
+                          <div className="text-[11px] text-gray-500">per night</div>
+                          <div className="text-xl font-bold text-gray-900">{(h.hero_offer?.currency || h.currency || '$')}{h.hero_offer?.price ?? h.price}</div>
+                        </div>
+                      </div>
+                      {(() => {
+                        const flags = normalizeOfferFlags(h.hero_offer?.offer_flags)
+                        return flags.length ? (
+                          <ul className="text-[12px] text-gray-700 space-y-1 text-right ml-2">
+                            {flags.slice(0, 4).map((label: string, idx: number) => (
+                              <li key={idx} className="whitespace-nowrap">✓ {label}</li>
+                            ))}
+                          </ul>
+                        ) : null
+                      })()}
                     </div>
-                    <Link href={`/hotels/${h.slug}`} className="inline-flex items-center text-xs font-medium text-blue-600 hover:text-blue-700">View<span className="ml-1">→</span></Link>
+                    <div className="mt-4">
+                      <Link href={`#`} className="inline-flex w-full items-center justify-center rounded-md bg-gold-100-sm  hover:bg-gold-100-hover text-white text-xs font-semibold h-9 px-4 shadow-sm">
+                        Check deal <span className="ml-1">→</span>
+                      </Link>
+                    </div>
                   </div>
                 </div>
               </div>

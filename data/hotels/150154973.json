@@ -1,0 +1,607 @@
+{
+  "_meta": {
+    "status": "SUCCESS",
+    "cached": true,
+    "count": 1,
+    "debug": {
+      "ticket": {
+        "ticket_id": "150154973_zz_zz_d_publ_en_2_2025-10-08_2025-10-13_1_3",
+        "created_at": 1758065348.7768,
+        "loop": null,
+        "snapped_at": 1758065350.1023,
+        "snapshot_id": "150154973_zz_zz_d_publ_en_2_2025-10-08_2025-10-13_1_3",
+        "snapshot_ttl": 300,
+        "executions": 4,
+        "progress": 1,
+        "save_errors": []
+      }
+    }
+  },
+  "data": {
+    "meta": [],
+    "geo": {
+      "hs_id": "x5pp9e3en3vo",
+      "region_name": "Meerufenfushi",
+      "region_name_long": "Meerufenfushi, Maldives",
+      "region_type": "CITY",
+      "region_id": 6048279,
+      "country_iso": "MV",
+      "country": "maldives",
+      "localised_country": "Maldives",
+      "center": [
+        4.45457,
+        73.71824
+      ],
+      "centroid": [
+        4.4542,
+        73.71812
+      ],
+      "polygon": [
+        "4.4617,73.71509",
+        "4.44966,73.711434",
+        "4.447445,73.720035",
+        "4.458378,73.725052",
+        "4.4617,73.71509"
+      ],
+      "radius": 0.9,
+      "zoom": -1,
+      "search_by_polygon": 0,
+      "cluster": 0,
+      "properties": 57,
+      "radius_override": 5,
+      "boundingbox": {
+        "ne": [
+          4.462,
+          73.726
+        ],
+        "sw": [
+          4.447,
+          73.711
+        ]
+      },
+      "airports": [
+        "MLE",
+        "DRV"
+      ],
+      "region_name_en": "Meerufenfushi",
+      "region_name_long_en": "Meerufenfushi, Maldives",
+      "referrer_city_name_en": "Meerufenfushi",
+      "parent_region_id": 6051084,
+      "parent_hs_id": "x5p4hmhw6iot",
+      "parent_region_name": "Maldives (all)",
+      "parent_region_name_long": "Maldives (all)",
+      "dynamic_bbox": {
+        "ne": [
+          4.453,
+          73.716
+        ],
+        "sw": [
+          4.453,
+          73.716
+        ]
+      }
+    },
+    "records": [
+      {
+        "hs_id": 150154973,
+        "slug": "meeru-maldives-resort-island-meerufenfushi-mv-150154973",
+        "name": "Meeru Maldives Resort Island",
+        "toa": "resort",
+        "location": {
+          "city": "Meerufenfushi",
+          "zip": "20187",
+          "country_iso2": "MV",
+          "address": "Meeru Island Resort & Spa",
+          "geoid": "x5pp9e3en3vo",
+          "loc": {
+            "type": "Point"
+          },
+          "coordinates": {
+            "lng": 73.71698,
+            "lat": 4.45388
+          }
+        },
+        "opening_time": {
+          "check_in_from": "14:00",
+          "check_in_to": "00:00",
+          "check_out_from": null,
+          "check_out_to": "12:00"
+        },
+        "quality": {
+          "review_count": 4509,
+          "review_rating": 92,
+          "stars": 5,
+          "stars_is_estimated": false,
+          "review_source": ""
+        },
+        "covid_safe": true,
+        "amenities": {
+          "wellness": [
+            "massage",
+            "solarium",
+            "fitness_center",
+            "spa",
+            "outdoor_pool"
+          ],
+          "sports": [
+            "golf",
+            "billiard",
+            "minigolf",
+            "badminton",
+            "yoga",
+            "bike_rent",
+            "ping_pong",
+            "tennis",
+            "sub",
+            "surf"
+          ],
+          "internet": [
+            "wifi",
+            "internet"
+          ],
+          "food_drink": [
+            "restaurant",
+            "room_service",
+            "poolside_bar",
+            "cafe",
+            "bar",
+            "snack_bar"
+          ],
+          "disability": [
+            "wheelchair_accessible",
+            "disability_facilities"
+          ],
+          "outdoor": [
+            "garden",
+            "terrace"
+          ],
+          "other": [],
+          "business": [
+            "meeting_room",
+            "business_services"
+          ],
+          "children": [
+            "babysitter",
+            "children_playground"
+          ],
+          "entertainment": [
+            "tv_lobby",
+            "disco"
+          ],
+          "transfer": [
+            "shuttle_service"
+          ],
+          "room": [
+            "fan",
+            "air_conditioning",
+            "tv"
+          ],
+          "reception": [
+            "24h_reception",
+            "luggage_storage",
+            "concierge",
+            "laundry_service",
+            "safety_deposit_box"
+          ]
+        },
+        "descriptions": {
+          "direction": "Located in Meerufenfushi, Meeru Maldives Resort Island is on the beach. Notable landmarks in the area include Republic Square and Maldives Islamic Centre, and travelers wishing to experience a bit of culture can try National Museum. Take an opportunity to explore the area for water adventures such as windsurfing.",
+          "general": "A tropical paradise of coconut palm trees, long stretches of white sandy beach, surrounded by sparkling clear, warm water in a turquoise lagoon, and colorful coral reefs teeming with abundant marine life. A 55-minute scenic speedboat transfer will bring you to this untouched, natural paradise from Velana International Airport. Meeru is a multiple-award-winning Resort in the Maldives and is rated as the top All-Inclusive Resort with family-friendly facilities, personalized service, and the comforts of a second home. With 284 guest rooms in 5-room categories, Meeru offers comfortable accommodation with tropical decor and modern amenities, whether close to the beach or over the water. The 2 main Buffet Restaurants provide “all-you-can-eat” style dining, with delicious and freshly prepared cuisine for you to enjoy...Including Theme Nights! Each of the 4 “optional” A la Carte dining options offers unique dining experiences, from Asian cuisine to meals served on pre-heated “Hot Rocks”. The various entertainment, sports, and activities are designed to keep you entertained throughout your holidays. Honeymoon / Wedding Anniversary (Silver & Gold): Complimentary fruit plate, a bottle of sparkling wine, and flowers in the room. Benefits Beach Pool Villa: 01 Nov 2025 – 31 Oct 2026 One Complimentary Floating Breakfast during the guest's stay Free Sheesha in all available outlets Dedicated Island Host service Dine around at buffet Restaurants, Maalan & Farivalhu, child restriction applies Complimentary delights from Chef on arrival Complimentary delights from Chef during Turndown service 20% discount for one-hourspa treatment as “Early Bird Promotion” during first 2 daily. Complimentary daily boat trip to Meeru house reef (with age restriction, equipment not included). Complimentary use of Golf Putting Green Complimentary use of Bicycle for 2 guests.",
+          "amenities": true,
+          "localized": "A tropical paradise of coconut palm trees, long stretches of white sandy beach, surrounded by sparkling clear, warm water in a turquoise lagoon, and colorful coral reefs teeming with abundant marine life. A 55-minute scenic speedboat transfer will bring you to this untouched, natural paradise from Velana International Airport. Meeru is a multiple-award-winning Resort in the Maldives and is rated as the top All-Inclusive Resort with family-friendly facilities, personalized service, and the comforts of a second home. With 284 guest rooms in 5-room categories, Meeru offers comfortable accommodation with tropical decor and modern amenities, whether close to the beach or over the water. The 2 main Buffet Restaurants provide “all-you-can-eat” style dining, with delicious and freshly prepared cuisine for you to enjoy...Including Theme Nights! Each of the 4 “optional” A la Carte dining options offers unique dining experiences, from Asian cuisine to meals served on pre-heated “Hot Rocks”. The various entertainment, sports, and activities are designed to keep you entertained throughout your holidays. Honeymoon / Wedding Anniversary (Silver & Gold): Complimentary fruit plate, a bottle of sparkling wine, and flowers in the room. Benefits Beach Pool Villa: 01 Nov 2025 – 31 Oct 2026 One Complimentary Floating Breakfast during the guest's stay Free Sheesha in all available outlets Dedicated Island Host service Dine around at buffet Restaurants, Maalan & Farivalhu, child restriction applies Complimentary delights from Chef on arrival Complimentary delights from Chef during Turndown service 20% discount for one-hourspa treatment as “Early Bird Promotion” during first 2 daily. Complimentary daily boat trip to Meeru house reef (with age restriction, equipment not included). Complimentary use of Golf Putting Green Complimentary use of Bicycle for 2 guests."
+        },
+        "short_description": "Chic resort with 284 rooms, outdoor pool and poolside bar",
+        "chain": "crown_and_champa_resorts",
+        "offers": [
+          {
+            "price": 1196.96,
+            "brt": "o2r#b",
+            "rf": "o2r#b",
+            "brf": 9470016,
+            "rt": 9470016,
+            "vendor": "stfl",
+            "vendor_id_raw": "52170",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included"
+            ],
+            "jc_code": "",
+            "ranking_index": 0.7262899345007352,
+            "chain": "",
+            "free_cancellation": false,
+            "special": false,
+            "room_name": "Villa - Choice of single or double beds",
+            "rooms": [
+              {
+                "name": "Villa - Choice of single or double beds",
+                "flags": [
+                  "Choice of single or double beds"
+                ]
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included"
+            },
+            "partner_name": "Stayforlong",
+            "partner_logo": "https://hotelscan.com/apis/vendors/stfl/logo.svg?pos=zz"
+          },
+          {
+            "vendor": "last",
+            "price": 377.91,
+            "vendor_id_raw": "624056",
+            "mota_code": null,
+            "jc_code": "LASTMINUTE",
+            "partner_name": "lastminute.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/last/logo.svg?pos=zz",
+            "room_name": "Villa",
+            "brf": 10027072,
+            "brt": "o2r#"
+          },
+          {
+            "vendor": "ostr",
+            "price": 1526.61,
+            "vendor_id_raw": "8467191",
+            "mota_code": null,
+            "jc_code": "",
+            "partner_name": "Zenhotels",
+            "partner_logo": "https://hotelscan.com/apis/vendors/ostr/logo.svg?pos=zz",
+            "room_name": "Villa - Bed type subject to availability",
+            "brf": 9470016,
+            "brt": "o2r#a"
+          }
+        ],
+        "all_offers": [
+          {
+            "price": 377.91,
+            "brt": "o2r#",
+            "rf": "o2r#",
+            "brf": 10027072,
+            "rt": 10027072,
+            "vendor": "last",
+            "vendor_id_raw": "624056",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Full board",
+              "Free cancellation"
+            ],
+            "jc_code": "LASTMINUTE",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Villa",
+            "rooms": [
+              {
+                "name": "Villa",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "full_board": "Full board",
+              "refundable": "Free cancellation"
+            },
+            "partner_name": "lastminute.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/last/logo.svg?pos=zz"
+          },
+          {
+            "price": 508.8,
+            "brt": "o2r#",
+            "rf": "o2r#",
+            "brf": 11075648,
+            "rt": 11075648,
+            "vendor": "last",
+            "vendor_id_raw": "624056",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Free cancellation"
+            ],
+            "jc_code": "LASTMINUTE",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Villa",
+            "rooms": [
+              {
+                "name": "Villa",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "refundable": "Free cancellation"
+            },
+            "partner_name": "lastminute.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/last/logo.svg?pos=zz"
+          },
+          {
+            "price": 1196.96,
+            "brt": "o2r#b",
+            "rf": "o2r#b",
+            "brf": 9470016,
+            "rt": 9470016,
+            "vendor": "stfl",
+            "vendor_id_raw": "52170",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": false,
+            "special": false,
+            "room_name": "Villa - Choice of single or double beds",
+            "rooms": [
+              {
+                "name": "Villa - Choice of single or double beds",
+                "flags": [
+                  "Choice of single or double beds"
+                ]
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included"
+            },
+            "partner_name": "Stayforlong",
+            "partner_logo": "https://hotelscan.com/apis/vendors/stfl/logo.svg?pos=zz"
+          },
+          {
+            "price": 1526.61,
+            "brt": "o2r#a",
+            "rf": "o2r#a",
+            "brf": 9470016,
+            "rt": 9470016,
+            "vendor": "ostr",
+            "vendor_id_raw": "8467191",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": false,
+            "special": false,
+            "room_name": "Villa - Bed type subject to availability",
+            "rooms": [
+              {
+                "name": "Villa - Bed type subject to availability",
+                "flags": [
+                  "Bed type subject to availability"
+                ]
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included"
+            },
+            "partner_name": "Zenhotels",
+            "partner_logo": "https://hotelscan.com/apis/vendors/ostr/logo.svg?pos=zz"
+          },
+          {
+            "price": 1527.41,
+            "brt": "o2r#a",
+            "rf": "o2r#a",
+            "brf": 9502784,
+            "rt": 9502784,
+            "vendor": "ostr",
+            "vendor_id_raw": "8467191",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included",
+              "Free cancellation"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Villa - Bed type subject to availability",
+            "rooms": [
+              {
+                "name": "Villa - Bed type subject to availability",
+                "flags": [
+                  "Bed type subject to availability"
+                ]
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included",
+              "refundable": "Free cancellation"
+            },
+            "partner_name": "Zenhotels",
+            "partner_logo": "https://hotelscan.com/apis/vendors/ostr/logo.svg?pos=zz"
+          },
+          {
+            "price": 1906.81,
+            "brt": "o2q#",
+            "rf": "o2q#",
+            "brf": 10027072,
+            "rt": 10027072,
+            "vendor": "ostr",
+            "vendor_id_raw": "8467191",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Full board",
+              "Free cancellation"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Family villa",
+            "rooms": [
+              {
+                "name": "Family villa",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "full_board": "Full board",
+              "refundable": "Free cancellation"
+            },
+            "partner_name": "Zenhotels",
+            "partner_logo": "https://hotelscan.com/apis/vendors/ostr/logo.svg?pos=zz"
+          }
+        ],
+        "descriptions_language": {
+          "general": {
+            "original_language": true,
+            "text": "A tropical paradise of coconut palm trees, long stretches of white sandy beach, surrounded by sparkling clear, warm water in a turquoise lagoon, and colorful coral reefs teeming with abundant marine life. A 55-minute scenic speedboat transfer will bring you to this untouched, natural paradise from Velana International Airport. Meeru is a multiple-award-winning Resort in the Maldives and is rated as the top All-Inclusive Resort with family-friendly facilities, personalized service, and the comforts of a second home. With 284 guest rooms in 5-room categories, Meeru offers comfortable accommodation with tropical decor and modern amenities, whether close to the beach or over the water. The 2 main Buffet Restaurants provide “all-you-can-eat” style dining, with delicious and freshly prepared cuisine for you to enjoy...Including Theme Nights! Each of the 4 “optional” A la Carte dining options offers unique dining experiences, from Asian cuisine to meals served on pre-heated “Hot Rocks”. The various entertainment, sports, and activities are designed to keep you entertained throughout your holidays. Honeymoon / Wedding Anniversary (Silver & Gold): Complimentary fruit plate, a bottle of sparkling wine, and flowers in the room. Benefits Beach Pool Villa: 01 Nov 2025 – 31 Oct 2026 One Complimentary Floating Breakfast during the guest's stay Free Sheesha in all available outlets Dedicated Island Host service Dine around at buffet Restaurants, Maalan & Farivalhu, child restriction applies Complimentary delights from Chef on arrival Complimentary delights from Chef during Turndown service 20% discount for one-hourspa treatment as “Early Bird Promotion” during first 2 daily. Complimentary daily boat trip to Meeru house reef (with age restriction, equipment not included). Complimentary use of Golf Putting Green Complimentary use of Bicycle for 2 guests."
+          },
+          "direction": {
+            "original_language": true,
+            "text": "Located in Meerufenfushi, Meeru Maldives Resort Island is on the beach. Notable landmarks in the area include Republic Square and Maldives Islamic Centre, and travelers wishing to experience a bit of culture can try National Museum. Take an opportunity to explore the area for water adventures such as windsurfing."
+          }
+        },
+        "chain_code": null,
+        "bids": {
+          "ostr": "j23",
+          "last": "j23",
+          "stfl": "j23"
+        },
+        "worst_offer": 1526.61,
+        "best_offer": 377.91,
+        "best_offer_ota": "last",
+        "best_offer_mota": null,
+        "discount": 20,
+        "offers_count": 6,
+        "coordinates": {
+          "lat": 4.45388,
+          "lng": 73.71698
+        },
+        "distance": 0.16,
+        "neighborhood": null,
+        "badge": null,
+        "distances": [
+          {
+            "from": "center",
+            "distance": 0.16,
+            "time": 222,
+            "means": "foot",
+            "means_type": "foot"
+          }
+        ],
+        "specs": {
+          "bathrooms": null,
+          "beds": null,
+          "bedrooms": null,
+          "guests": null,
+          "square_meters": null
+        },
+        "toa_label": "resort",
+        "top_amenities": [
+          "outdoor_pool",
+          "internet",
+          "restaurant",
+          "room_service",
+          "bar"
+        ],
+        "transportations": {
+          "airports": [],
+          "trains": []
+        },
+        "images": [
+          {
+            "image_id": "729806491",
+            "label": ""
+          },
+          {
+            "image_id": "729806518",
+            "label": ""
+          },
+          {
+            "image_id": "729806573",
+            "label": ""
+          },
+          {
+            "image_id": "729806504",
+            "label": ""
+          },
+          {
+            "image_id": "729806567",
+            "label": ""
+          },
+          {
+            "image_id": "729806512",
+            "label": ""
+          },
+          {
+            "image_id": "729806525",
+            "label": ""
+          },
+          {
+            "image_id": "729806570",
+            "label": ""
+          },
+          {
+            "image_id": "729806534",
+            "label": ""
+          },
+          {
+            "image_id": "729806499",
+            "label": ""
+          },
+          {
+            "image_id": "729806526",
+            "label": ""
+          },
+          {
+            "image_id": "729806486",
+            "label": ""
+          },
+          {
+            "image_id": "729806489",
+            "label": ""
+          },
+          {
+            "image_id": "729806539",
+            "label": ""
+          },
+          {
+            "image_id": "729806494",
+            "label": ""
+          }
+        ],
+        "hero_offer": {
+          "price": 1196.96,
+          "brt": "o2r#b",
+          "rf": "o2r#b",
+          "brf": 9470016,
+          "rt": 9470016,
+          "vendor": "stfl",
+          "vendor_id_raw": "52170",
+          "mota_code": null,
+          "direct_offer": false,
+          "offer_flags": {
+            "breakfast": "Breakfast included"
+          },
+          "jc_code": "",
+          "ranking_index": 0.7262899345007352,
+          "chain": "",
+          "free_cancellation": false,
+          "special": false,
+          "room_name": "Villa - Choice of single or double beds",
+          "rooms": [
+            {
+              "name": "Villa - Choice of single or double beds",
+              "flags": [
+                "Choice of single or double beds"
+              ]
+            }
+          ],
+          "partner_name": "Stayforlong",
+          "partner_logo": "https://hotelscan.com/apis/vendors/stfl/logo.svg?pos=zz"
+        },
+        "rank": 0,
+        "ctrl_srt": "im a ctrl teapot",
+        "test_srt": "im a test teapot"
+      }
+    ],
+    "filters": [],
+    "query": {
+      "pos": "zz"
+    }
+  }
+}

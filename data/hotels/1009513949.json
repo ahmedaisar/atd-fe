@@ -1,0 +1,914 @@
+{
+  "_meta": {
+    "status": "SUCCESS",
+    "cached": true,
+    "count": 1,
+    "debug": {
+      "ticket": {
+        "ticket_id": "1009513949_zz_zz_d_publ_en_2_2025-10-08_2025-10-13_1_3",
+        "created_at": 1758065385.0891,
+        "loop": null,
+        "snapped_at": 1758065385.2168,
+        "snapshot_id": "1009513949_zz_zz_d_publ_en_2_2025-10-08_2025-10-13_1_3",
+        "snapshot_ttl": 300,
+        "executions": 2,
+        "progress": 1,
+        "save_errors": []
+      }
+    }
+  },
+  "data": {
+    "meta": [],
+    "geo": {
+      "hs_id": "xk8lkha1ntyx",
+      "region_name": "Thulusdhoo Island",
+      "region_name_long": "Thulusdhoo Island, Maldives",
+      "region_type": "CITY",
+      "region_id": 6278797,
+      "country_iso": "MV",
+      "country": "maldives",
+      "localised_country": "Maldives",
+      "center": [
+        4.37228,
+        73.65101
+      ],
+      "centroid": [
+        4.37228,
+        73.65101
+      ],
+      "polygon": [
+        "4.380631,73.643003",
+        "4.364183,73.643261",
+        "4.363924,73.659018",
+        "4.38052,73.658721",
+        "4.380631,73.643003"
+      ],
+      "radius": 1.29,
+      "zoom": -1,
+      "search_by_polygon": 1,
+      "cluster": 0,
+      "properties": 82,
+      "radius_override": 5,
+      "boundingbox": {
+        "ne": [
+          4.381,
+          73.66
+        ],
+        "sw": [
+          4.363,
+          73.643
+        ]
+      },
+      "airports": [
+        "MLE",
+        "DRV"
+      ],
+      "region_name_en": "Thulusdhoo Island",
+      "region_name_long_en": "Thulusdhoo Island, Maldives",
+      "referrer_city_name_en": "Thulusdhoo Island",
+      "parent_region_id": 6051084,
+      "parent_hs_id": "x5p4hmhw6iot",
+      "parent_region_name": "Maldives (all)",
+      "parent_region_name_long": "Maldives (all)",
+      "dynamic_bbox": {
+        "ne": [
+          4.372,
+          73.652
+        ],
+        "sw": [
+          4.372,
+          73.652
+        ]
+      }
+    },
+    "records": [
+      {
+        "hs_id": 1009513949,
+        "slug": "coral-inn-thulusdhoo-island-mv-1009513949",
+        "name": "Coral Inn",
+        "toa": "hotel",
+        "building": {
+          "room_num": 14
+        },
+        "location": {
+          "city": "Thulusdhoo Island",
+          "zip": "08040",
+          "country_iso2": "MV",
+          "address": "Luyoona Manzil Gaamathimagu",
+          "geoid": "xk8lkha1ntyx",
+          "loc": {
+            "type": "Point"
+          },
+          "coordinates": {
+            "lng": 73.652681,
+            "lat": 4.372523
+          }
+        },
+        "opening_time": {
+          "check_in_from": "14:00",
+          "check_in_to": "19:00",
+          "check_out_from": null,
+          "check_out_to": "12:00"
+        },
+        "quality": {
+          "review_count": 41,
+          "review_rating": 84,
+          "stars": 4,
+          "stars_is_estimated": false,
+          "review_source": ""
+        },
+        "covid_safe": true,
+        "amenities": {
+          "wellness": [
+            "solarium",
+            "spa"
+          ],
+          "sports": [
+            "yoga",
+            "bike_rent",
+            "sub",
+            "surf"
+          ],
+          "internet": [
+            "wifi_lobby",
+            "wifi_room",
+            "internet"
+          ],
+          "transfer": [
+            "shuttle_service"
+          ],
+          "food_drink": [
+            "restaurant",
+            "room_service",
+            "cafe",
+            "bar"
+          ],
+          "pets": [
+            "pets_allowed"
+          ],
+          "parking": [
+            "parking"
+          ],
+          "outdoor": [
+            "garden",
+            "terrace"
+          ],
+          "other": [],
+          "business": [
+            "meeting_room"
+          ],
+          "children": [
+            "babysitter",
+            "children_playground"
+          ],
+          "room": [
+            "air_conditioning",
+            "tv",
+            "in_room_safe"
+          ],
+          "reception": [
+            "concierge",
+            "laundry_facilities",
+            "laundry_service",
+            "safety_deposit_box"
+          ]
+        },
+        "descriptions": {
+          "direction": "Located in Thulusdhoo Island, Coral Inn is near the beach. Chickens Break and Sultans Surf Spot are worth checking out if an activity is on the agenda, while those wishing to experience the area's natural beauty can explore Full Moon Beach and Thulhagiri Beach. Looking to get your feet wet? Kayaking, scuba diving and snorkeling adventures can be found near the property.",
+          "general": "Great care is taken to ensure guests experience comfort through top-notch services and amenities.Stay connected with your associates, as complimentary Wi-Fi is available during your entire visit.To facilitate your arrival and departure, you can pre-book airport transfer services prior to checking in. The hotel offers taxi, car hire and shuttle amenities for your ease in navigating around Maldive Islands.When arriving by car, take advantage of the hotel's convenient on-site parking facilities.The hotel offers reception amenities including concierge service, express check-in or check-out and safety deposit boxes to ensure a comfortable stay for guests.Should you require assistance, the ticket service and tours can also aid in booking tickets and securing reservations at the finest shows and events in the vicinity. Whether you're here for an extended stay or simply require fresh garments, the hotel ensures your cherished travel attire remains spotless and accessible with the convenience of laundry service located on the premises.Your stay will be comfortable with the presence of room service and daily housekeeping as an in-room amenity for your relaxation and enjoyment.To ensure the well-being and convenience of all visitors, smoking is strictly prohibited throughout the entire hotel. Smoking is permitted solely in the specified smoking zones allocated by hotel.In order to ensure the utmost level of relaxation, the guestrooms feature an inviting design and are equipped with all basic necessities, creating a delightful stay experience.To ensure a pleasant stay, a selection of rooms at hotel come furnished with blackout curtains and air conditioning, all designed with your ease in mind.Several chosen accommodations at Coral Inn have a balcony or terrace incorporated into the room design. Within specific rooms, a refrigerator and bottled water is conveniently available for your use. Each day, arise to a delightful complimentary morning meal at Coral Inn.How about kicking off each day of your getaway with a delicious cup of coffee? At the hotel, relish in the invigorating taste of a freshly brewed, excellent coffee. Various excellent meal offerings at hotel ensure that enticing and easily accessible options are constantly available. Visitors with specific dietary preferences can savor a variety of culinary styles at Coral Inn, featuring halal choices to accommodate their needs.Throughout the day and night, guests can enjoy light refreshments with the hotel offering vending machines. Visitors wishing to create their personal culinary delights will appreciate the on-site BBQ facilities provided at this establishment.Throughout the day, engage in the entertaining activities available at Coral Inn. Make sure to discover the readily available beach at hotel. Unwind effortlessly each day by exploring the spa, conveniently situated within the hotel.",
+          "amenities": true,
+          "localized": "Great care is taken to ensure guests experience comfort through top-notch services and amenities.Stay connected with your associates, as complimentary Wi-Fi is available during your entire visit.To facilitate your arrival and departure, you can pre-book airport transfer services prior to checking in. The hotel offers taxi, car hire and shuttle amenities for your ease in navigating around Maldive Islands.When arriving by car, take advantage of the hotel's convenient on-site parking facilities.The hotel offers reception amenities including concierge service, express check-in or check-out and safety deposit boxes to ensure a comfortable stay for guests.Should you require assistance, the ticket service and tours can also aid in booking tickets and securing reservations at the finest shows and events in the vicinity. Whether you're here for an extended stay or simply require fresh garments, the hotel ensures your cherished travel attire remains spotless and accessible with the convenience of laundry service located on the premises.Your stay will be comfortable with the presence of room service and daily housekeeping as an in-room amenity for your relaxation and enjoyment.To ensure the well-being and convenience of all visitors, smoking is strictly prohibited throughout the entire hotel. Smoking is permitted solely in the specified smoking zones allocated by hotel.In order to ensure the utmost level of relaxation, the guestrooms feature an inviting design and are equipped with all basic necessities, creating a delightful stay experience.To ensure a pleasant stay, a selection of rooms at hotel come furnished with blackout curtains and air conditioning, all designed with your ease in mind.Several chosen accommodations at Coral Inn have a balcony or terrace incorporated into the room design. Within specific rooms, a refrigerator and bottled water is conveniently available for your use. Each day, arise to a delightful complimentary morning meal at Coral Inn.How about kicking off each day of your getaway with a delicious cup of coffee? At the hotel, relish in the invigorating taste of a freshly brewed, excellent coffee. Various excellent meal offerings at hotel ensure that enticing and easily accessible options are constantly available. Visitors with specific dietary preferences can savor a variety of culinary styles at Coral Inn, featuring halal choices to accommodate their needs.Throughout the day and night, guests can enjoy light refreshments with the hotel offering vending machines. Visitors wishing to create their personal culinary delights will appreciate the on-site BBQ facilities provided at this establishment.Throughout the day, engage in the entertaining activities available at Coral Inn. Make sure to discover the readily available beach at hotel. Unwind effortlessly each day by exploring the spa, conveniently situated within the hotel."
+        },
+        "short_description": "Rooms with free wifi in hotel with restaurant, bike rent and bar",
+        "chain": "no_chain",
+        "brand": "no_brand",
+        "offers": [
+          {
+            "price": 134.98,
+            "brt": "p2d#",
+            "rf": "p2d#",
+            "brf": 8422464,
+            "rt": 8422464,
+            "vendor": "bkng",
+            "vendor_id_raw": "9857011",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Sea view"
+            ],
+            "jc_code": "",
+            "ranking_index": 0.9963846495777152,
+            "chain": "",
+            "free_cancellation": false,
+            "special": false,
+            "room_name": "Deluxe room",
+            "rooms": [
+              {
+                "name": "Deluxe room",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "view_sea": "Sea view"
+            },
+            "partner_name": "Booking.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/bkng/logo.svg?pos=zz"
+          },
+          {
+            "vendor": "agda",
+            "price": 133.76,
+            "vendor_id_raw": "30159034",
+            "mota_code": null,
+            "jc_code": "",
+            "partner_name": "Agoda",
+            "partner_logo": "https://hotelscan.com/apis/vendors/agda/logo.svg?pos=zz",
+            "room_name": "Superior room",
+            "brf": 8421440,
+            "brt": "p2c#"
+          },
+          {
+            "vendor": "htls",
+            "price": 151.99,
+            "vendor_id_raw": "2508227616",
+            "mota_code": null,
+            "jc_code": "",
+            "partner_name": "Hotels.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/htls/logo.svg?pos=zz",
+            "room_name": "Superior room",
+            "brf": 9470016,
+            "brt": "p2c#"
+          },
+          {
+            "vendor": "expd",
+            "price": 148.54,
+            "vendor_id_raw": "78350863",
+            "mota_code": null,
+            "jc_code": "EXPEDIA",
+            "partner_name": "Expedia",
+            "partner_logo": "https://hotelscan.com/apis/vendors/expd/logo.svg?pos=zz",
+            "room_name": "Superior room",
+            "brf": 9470016,
+            "brt": "p2c#"
+          }
+        ],
+        "all_offers": [
+          {
+            "price": 133.76,
+            "brt": "p2c#",
+            "rf": "p2c#",
+            "brf": 8421440,
+            "rt": 8421440,
+            "vendor": "agda",
+            "vendor_id_raw": "30159034",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": false,
+            "special": false,
+            "room_name": "Superior room",
+            "rooms": [
+              {
+                "name": "Superior room",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": [],
+            "partner_name": "Agoda",
+            "partner_logo": "https://hotelscan.com/apis/vendors/agda/logo.svg?pos=zz"
+          },
+          {
+            "price": 134.98,
+            "brt": "p2d#",
+            "rf": "p2d#",
+            "brf": 8422464,
+            "rt": 8422464,
+            "vendor": "bkng",
+            "vendor_id_raw": "9857011",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Sea view"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": false,
+            "special": false,
+            "room_name": "Deluxe room",
+            "rooms": [
+              {
+                "name": "Deluxe room",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "view_sea": "Sea view"
+            },
+            "partner_name": "Booking.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/bkng/logo.svg?pos=zz"
+          },
+          {
+            "price": 148.54,
+            "brt": "p2c#",
+            "rf": "p2c#",
+            "brf": 9470016,
+            "rt": 9470016,
+            "vendor": "expd",
+            "vendor_id_raw": "78350863",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included"
+            ],
+            "jc_code": "EXPEDIA",
+            "chain": "",
+            "free_cancellation": false,
+            "special": false,
+            "room_name": "Superior room",
+            "rooms": [
+              {
+                "name": "Superior room",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included"
+            },
+            "partner_name": "Expedia",
+            "partner_logo": "https://hotelscan.com/apis/vendors/expd/logo.svg?pos=zz"
+          },
+          {
+            "price": 151.99,
+            "brt": "p2c#",
+            "rf": "p2c#",
+            "brf": 9470016,
+            "rt": 9470016,
+            "vendor": "htls",
+            "vendor_id_raw": "2508227616",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": false,
+            "special": false,
+            "room_name": "Superior room",
+            "rooms": [
+              {
+                "name": "Superior room",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included"
+            },
+            "partner_name": "Hotels.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/htls/logo.svg?pos=zz"
+          },
+          {
+            "price": 153.7,
+            "brt": "p2d#",
+            "rf": "p2d#",
+            "brf": 8422464,
+            "rt": 8422464,
+            "vendor": "bkng",
+            "vendor_id_raw": "9857011",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Sea view"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": false,
+            "special": false,
+            "room_name": "Deluxe room",
+            "rooms": [
+              {
+                "name": "Deluxe room",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "view_sea": "Sea view"
+            },
+            "partner_name": "Booking.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/bkng/logo.svg?pos=zz"
+          },
+          {
+            "price": 163.98,
+            "brt": "p2c#",
+            "rf": "p2c#",
+            "brf": 9502784,
+            "rt": 9502784,
+            "vendor": "expd",
+            "vendor_id_raw": "78350863",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included",
+              "Free cancellation"
+            ],
+            "jc_code": "EXPEDIA",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Superior room",
+            "rooms": [
+              {
+                "name": "Superior room",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included",
+              "refundable": "Free cancellation"
+            },
+            "partner_name": "Expedia",
+            "partner_logo": "https://hotelscan.com/apis/vendors/expd/logo.svg?pos=zz"
+          },
+          {
+            "price": 167.75,
+            "brt": "p2c#",
+            "rf": "p2c#",
+            "brf": 9502784,
+            "rt": 9502784,
+            "vendor": "htls",
+            "vendor_id_raw": "2508227616",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included",
+              "Free cancellation"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Superior room",
+            "rooms": [
+              {
+                "name": "Superior room",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included",
+              "refundable": "Free cancellation"
+            },
+            "partner_name": "Hotels.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/htls/logo.svg?pos=zz"
+          },
+          {
+            "price": 174.97,
+            "brt": "p2c#",
+            "rf": "p2c#",
+            "brf": 9502784,
+            "rt": 9502784,
+            "vendor": "agda",
+            "vendor_id_raw": "30159034",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included",
+              "Free cancellation"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Superior room",
+            "rooms": [
+              {
+                "name": "Superior room",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included",
+              "refundable": "Free cancellation"
+            },
+            "partner_name": "Agoda",
+            "partner_logo": "https://hotelscan.com/apis/vendors/agda/logo.svg?pos=zz"
+          },
+          {
+            "price": 176.57,
+            "brt": "p2d#",
+            "rf": "p2d#",
+            "brf": 9503808,
+            "rt": 9503808,
+            "vendor": "bkng",
+            "vendor_id_raw": "9857011",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included",
+              "Free cancellation",
+              "Sea view"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Deluxe room",
+            "rooms": [
+              {
+                "name": "Deluxe room",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included",
+              "refundable": "Free cancellation",
+              "view_sea": "Sea view"
+            },
+            "partner_name": "Booking.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/bkng/logo.svg?pos=zz"
+          },
+          {
+            "price": 199.7,
+            "brt": "p2c#",
+            "rf": "p2c#",
+            "brf": 9502784,
+            "rt": 9502784,
+            "vendor": "agda",
+            "vendor_id_raw": "30159034",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included",
+              "Free cancellation"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Superior room",
+            "rooms": [
+              {
+                "name": "Superior room",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included",
+              "refundable": "Free cancellation"
+            },
+            "partner_name": "Agoda",
+            "partner_logo": "https://hotelscan.com/apis/vendors/agda/logo.svg?pos=zz"
+          },
+          {
+            "price": 201.53,
+            "brt": "p2d#",
+            "rf": "p2d#",
+            "brf": 9503808,
+            "rt": 9503808,
+            "vendor": "bkng",
+            "vendor_id_raw": "9857011",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included",
+              "Free cancellation",
+              "Sea view"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Deluxe room",
+            "rooms": [
+              {
+                "name": "Deluxe room",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included",
+              "refundable": "Free cancellation",
+              "view_sea": "Sea view"
+            },
+            "partner_name": "Booking.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/bkng/logo.svg?pos=zz"
+          },
+          {
+            "price": 218.04,
+            "brt": "p2r#",
+            "rf": "p2r#",
+            "brf": 9470016,
+            "rt": 9470016,
+            "vendor": "expd",
+            "vendor_id_raw": "78350863",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included"
+            ],
+            "jc_code": "EXPEDIA",
+            "chain": "",
+            "free_cancellation": false,
+            "special": false,
+            "room_name": "Standard room",
+            "rooms": [
+              {
+                "name": "Standard room",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included"
+            },
+            "partner_name": "Expedia",
+            "partner_logo": "https://hotelscan.com/apis/vendors/expd/logo.svg?pos=zz"
+          },
+          {
+            "price": 222.89,
+            "brt": "p2r#",
+            "rf": "p2r#",
+            "brf": 9470016,
+            "rt": 9470016,
+            "vendor": "htls",
+            "vendor_id_raw": "2508227616",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": false,
+            "special": false,
+            "room_name": "Standard room",
+            "rooms": [
+              {
+                "name": "Standard room",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included"
+            },
+            "partner_name": "Hotels.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/htls/logo.svg?pos=zz"
+          },
+          {
+            "price": 226.49,
+            "brt": "p2d#",
+            "rf": "p2d#",
+            "brf": 9503808,
+            "rt": 9503808,
+            "vendor": "bkng",
+            "vendor_id_raw": "9857011",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included",
+              "Free cancellation",
+              "Sea view"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Deluxe room",
+            "rooms": [
+              {
+                "name": "Deluxe room",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included",
+              "refundable": "Free cancellation",
+              "view_sea": "Sea view"
+            },
+            "partner_name": "Booking.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/bkng/logo.svg?pos=zz"
+          },
+          {
+            "price": 241.21,
+            "brt": "p2r#",
+            "rf": "p2r#",
+            "brf": 9502784,
+            "rt": 9502784,
+            "vendor": "expd",
+            "vendor_id_raw": "78350863",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included",
+              "Free cancellation"
+            ],
+            "jc_code": "EXPEDIA",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Standard room",
+            "rooms": [
+              {
+                "name": "Standard room",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included",
+              "refundable": "Free cancellation"
+            },
+            "partner_name": "Expedia",
+            "partner_logo": "https://hotelscan.com/apis/vendors/expd/logo.svg?pos=zz"
+          },
+          {
+            "price": 246.53,
+            "brt": "p2r#",
+            "rf": "p2r#",
+            "brf": 9502784,
+            "rt": 9502784,
+            "vendor": "htls",
+            "vendor_id_raw": "2508227616",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included",
+              "Free cancellation"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Standard room",
+            "rooms": [
+              {
+                "name": "Standard room",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included",
+              "refundable": "Free cancellation"
+            },
+            "partner_name": "Hotels.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/htls/logo.svg?pos=zz"
+          }
+        ],
+        "descriptions_language": {
+          "general": {
+            "original_language": true,
+            "text": "Great care is taken to ensure guests experience comfort through top-notch services and amenities.Stay connected with your associates, as complimentary Wi-Fi is available during your entire visit.To facilitate your arrival and departure, you can pre-book airport transfer services prior to checking in. The hotel offers taxi, car hire and shuttle amenities for your ease in navigating around Maldive Islands.When arriving by car, take advantage of the hotel's convenient on-site parking facilities.The hotel offers reception amenities including concierge service, express check-in or check-out and safety deposit boxes to ensure a comfortable stay for guests.Should you require assistance, the ticket service and tours can also aid in booking tickets and securing reservations at the finest shows and events in the vicinity. Whether you're here for an extended stay or simply require fresh garments, the hotel ensures your cherished travel attire remains spotless and accessible with the convenience of laundry service located on the premises.Your stay will be comfortable with the presence of room service and daily housekeeping as an in-room amenity for your relaxation and enjoyment.To ensure the well-being and convenience of all visitors, smoking is strictly prohibited throughout the entire hotel. Smoking is permitted solely in the specified smoking zones allocated by hotel.In order to ensure the utmost level of relaxation, the guestrooms feature an inviting design and are equipped with all basic necessities, creating a delightful stay experience.To ensure a pleasant stay, a selection of rooms at hotel come furnished with blackout curtains and air conditioning, all designed with your ease in mind.Several chosen accommodations at Coral Inn have a balcony or terrace incorporated into the room design. Within specific rooms, a refrigerator and bottled water is conveniently available for your use. Each day, arise to a delightful complimentary morning meal at Coral Inn.How about kicking off each day of your getaway with a delicious cup of coffee? At the hotel, relish in the invigorating taste of a freshly brewed, excellent coffee. Various excellent meal offerings at hotel ensure that enticing and easily accessible options are constantly available. Visitors with specific dietary preferences can savor a variety of culinary styles at Coral Inn, featuring halal choices to accommodate their needs.Throughout the day and night, guests can enjoy light refreshments with the hotel offering vending machines. Visitors wishing to create their personal culinary delights will appreciate the on-site BBQ facilities provided at this establishment.Throughout the day, engage in the entertaining activities available at Coral Inn. Make sure to discover the readily available beach at hotel. Unwind effortlessly each day by exploring the spa, conveniently situated within the hotel."
+          },
+          "direction": {
+            "original_language": true,
+            "text": "Located in Thulusdhoo Island, Coral Inn is near the beach. Chickens Break and Sultans Surf Spot are worth checking out if an activity is on the agenda, while those wishing to experience the area's natural beauty can explore Full Moon Beach and Thulhagiri Beach. Looking to get your feet wet? Kayaking, scuba diving and snorkeling adventures can be found near the property."
+          }
+        },
+        "chain_code": null,
+        "bids": {
+          "htls": "j23",
+          "expd": "j23",
+          "bkng": "j23",
+          "agda": "j23"
+        },
+        "worst_offer": 151.99,
+        "best_offer": 133.76,
+        "best_offer_ota": "agda",
+        "best_offer_mota": null,
+        "discount": 10,
+        "offers_count": 16,
+        "coordinates": {
+          "lat": 4.372523,
+          "lng": 73.652681
+        },
+        "distance": 0.19,
+        "neighborhood": null,
+        "badge": null,
+        "distances": [
+          {
+            "from": "center",
+            "distance": 0.19,
+            "time": 264,
+            "means": "foot",
+            "means_type": "foot"
+          }
+        ],
+        "specs": {
+          "bathrooms": null,
+          "beds": null,
+          "bedrooms": null,
+          "guests": null,
+          "square_meters": null
+        },
+        "toa_label": "hotel",
+        "top_amenities": [
+          "wifi_room",
+          "internet",
+          "restaurant",
+          "room_service",
+          "bar"
+        ],
+        "transportations": {
+          "airports": [],
+          "trains": []
+        },
+        "images": [
+          {
+            "image_id": "626720952",
+            "label": ""
+          },
+          {
+            "image_id": "626720961",
+            "label": ""
+          },
+          {
+            "image_id": "626720960",
+            "label": ""
+          },
+          {
+            "image_id": "626720967",
+            "label": ""
+          },
+          {
+            "image_id": "626720958",
+            "label": ""
+          },
+          {
+            "image_id": "626720992",
+            "label": ""
+          },
+          {
+            "image_id": "626721000",
+            "label": ""
+          },
+          {
+            "image_id": "626720987",
+            "label": ""
+          },
+          {
+            "image_id": "626720968",
+            "label": ""
+          },
+          {
+            "image_id": "626720995",
+            "label": ""
+          },
+          {
+            "image_id": "626720964",
+            "label": ""
+          },
+          {
+            "image_id": "626720951",
+            "label": ""
+          },
+          {
+            "image_id": "626720955",
+            "label": ""
+          },
+          {
+            "image_id": "626720957",
+            "label": ""
+          },
+          {
+            "image_id": "626720949",
+            "label": ""
+          }
+        ],
+        "hero_offer": {
+          "price": 134.98,
+          "brt": "p2d#",
+          "rf": "p2d#",
+          "brf": 8422464,
+          "rt": 8422464,
+          "vendor": "bkng",
+          "vendor_id_raw": "9857011",
+          "mota_code": null,
+          "direct_offer": false,
+          "offer_flags": {
+            "view_sea": "Sea view"
+          },
+          "jc_code": "",
+          "ranking_index": 0.9963846495777152,
+          "chain": "",
+          "free_cancellation": false,
+          "special": false,
+          "room_name": "Deluxe room",
+          "rooms": [
+            {
+              "name": "Deluxe room",
+              "flags": []
+            }
+          ],
+          "partner_name": "Booking.com",
+          "partner_logo": "https://hotelscan.com/apis/vendors/bkng/logo.svg?pos=zz"
+        },
+        "rank": 0,
+        "ctrl_srt": "im a ctrl teapot",
+        "test_srt": "im a test teapot"
+      }
+    ],
+    "filters": [],
+    "query": {
+      "pos": "zz"
+    }
+  }
+}

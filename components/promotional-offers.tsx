@@ -4,7 +4,7 @@ import { useState, useCallback } from "react"
 import { Button } from "@/components/ui/button"
 import { Card, CardContent } from "@/components/ui/card"
 import { Badge } from "@/components/ui/badge"
-import { Star, Plane, Activity, Building, Percent, ChevronLeft, ChevronRight } from "lucide-react"
+import { Gift, Star, Plane, Activity, Building, Percent, ChevronLeft, ChevronRight } from "lucide-react"
 
 export function PromotionalOffers() {
   const offers = [

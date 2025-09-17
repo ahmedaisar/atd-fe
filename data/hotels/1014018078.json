@@ -1,0 +1,411 @@
+{
+  "_meta": {
+    "status": "SUCCESS",
+    "cached": true,
+    "count": 1,
+    "debug": {
+      "ticket": {
+        "ticket_id": "1014018078_zz_zz_d_publ_en_2_2025-10-08_2025-10-13_1_3",
+        "created_at": 1758065382.2949,
+        "loop": null,
+        "snapped_at": 1758065382.4029,
+        "snapshot_id": "1014018078_zz_zz_d_publ_en_2_2025-10-08_2025-10-13_1_3",
+        "snapshot_ttl": 300,
+        "executions": 2,
+        "progress": 1,
+        "save_errors": []
+      }
+    }
+  },
+  "data": {
+    "meta": [],
+    "geo": {
+      "hs_id": "xk8lkha1ntyx",
+      "region_name": "Thulusdhoo Island",
+      "region_name_long": "Thulusdhoo Island, Maldives",
+      "region_type": "CITY",
+      "region_id": 6278797,
+      "country_iso": "MV",
+      "country": "maldives",
+      "localised_country": "Maldives",
+      "center": [
+        4.37228,
+        73.65101
+      ],
+      "centroid": [
+        4.37228,
+        73.65101
+      ],
+      "polygon": [
+        "4.380631,73.643003",
+        "4.364183,73.643261",
+        "4.363924,73.659018",
+        "4.38052,73.658721",
+        "4.380631,73.643003"
+      ],
+      "radius": 1.29,
+      "zoom": -1,
+      "search_by_polygon": 1,
+      "cluster": 0,
+      "properties": 82,
+      "radius_override": 5,
+      "boundingbox": {
+        "ne": [
+          4.381,
+          73.66
+        ],
+        "sw": [
+          4.363,
+          73.643
+        ]
+      },
+      "airports": [
+        "MLE",
+        "DRV"
+      ],
+      "region_name_en": "Thulusdhoo Island",
+      "region_name_long_en": "Thulusdhoo Island, Maldives",
+      "referrer_city_name_en": "Thulusdhoo Island",
+      "parent_region_id": 6051084,
+      "parent_hs_id": "x5p4hmhw6iot",
+      "parent_region_name": "Maldives (all)",
+      "parent_region_name_long": "Maldives (all)",
+      "dynamic_bbox": {
+        "ne": [
+          4.373,
+          73.652
+        ],
+        "sw": [
+          4.373,
+          73.652
+        ]
+      }
+    },
+    "records": [
+      {
+        "hs_id": 1014018078,
+        "slug": "twin-palms-surfhouse-thulusdhoo-island-mv-1014018078",
+        "name": "Twin Palms 'surfhouse'",
+        "toa": "guest_house",
+        "location": {
+          "city": "Thulusdhoo Island",
+          "zip": "08040",
+          "country_iso2": "MV",
+          "address": "Rua Principal, Thulusdhoo, Maldives",
+          "geoid": "xk8lkha1ntyx",
+          "loc": {
+            "type": "Point"
+          },
+          "coordinates": {
+            "lng": 73.65275,
+            "lat": 4.37374
+          }
+        },
+        "opening_time": {
+          "check_in_from": "13:30",
+          "check_in_to": "00:00",
+          "check_out_from": "07:30",
+          "check_out_to": "11:00"
+        },
+        "quality": {
+          "review_count": 149,
+          "review_rating": 93,
+          "stars": 0,
+          "stars_is_estimated": false,
+          "review_source": ""
+        },
+        "covid_safe": true,
+        "amenities": {
+          "wellness": [
+            "solarium",
+            "fitness_center",
+            "spa"
+          ],
+          "sports": [
+            "bike_rent",
+            "sub",
+            "surf"
+          ],
+          "internet": [
+            "wifi",
+            "internet"
+          ],
+          "food_drink": [
+            "restaurant",
+            "room_service",
+            "snack_vending_machine",
+            "cafe",
+            "bar",
+            "snack_bar"
+          ],
+          "parking": [
+            "parking"
+          ],
+          "outdoor": [
+            "garden"
+          ],
+          "other": [],
+          "business": [
+            "meeting_room"
+          ],
+          "children": [
+            "children_playground"
+          ],
+          "entertainment": [
+            "tv_lobby"
+          ],
+          "transfer": [
+            "shuttle_service"
+          ],
+          "room": [
+            "air_conditioning"
+          ],
+          "reception": [
+            "luggage_storage",
+            "concierge",
+            "laundry_facilities",
+            "laundry_service",
+            "safety_deposit_box"
+          ]
+        },
+        "descriptions": {
+          "general": "TWIN PALMS 'Surfhouse' offers accommodations in Thulusdhoo, a 0-minute walk from Bikini Beach and 1.7 miles from Gasfinolhu Beach. Among the facilities at this property are free shuttle service and luggage storage space, along with free Wifi throughout the property. The property offers bike rental and features a garden and sun terrace. At the guest house, every unit includes a wardrobe. All rooms are complete with a private bathroom and air conditioning, and some rooms are fitted with a balcony. At the guest house, each unit is fitted with bed linen and towels. Guests at the guest house can enjoy a continental or a vegetarian breakfast. There is a coffee shop and lounge. For guests with children, TWIN PALMS 'Surfhouse' features an indoor play area and outdoor play equipment. If you'd like to discover the area, cycling is possible in the surrounding area.",
+          "localized": "TWIN PALMS 'Surfhouse' offers accommodations in Thulusdhoo, a 0-minute walk from Bikini Beach and 1.7 miles from Gasfinolhu Beach. Among the facilities at this property are free shuttle service and luggage storage space, along with free Wifi throughout the property. The property offers bike rental and features a garden and sun terrace. At the guest house, every unit includes a wardrobe. All rooms are complete with a private bathroom and air conditioning, and some rooms are fitted with a balcony. At the guest house, each unit is fitted with bed linen and towels. Guests at the guest house can enjoy a continental or a vegetarian breakfast. There is a coffee shop and lounge. For guests with children, TWIN PALMS 'Surfhouse' features an indoor play area and outdoor play equipment. If you'd like to discover the area, cycling is possible in the surrounding area."
+        },
+        "short_description": "Basic guest house with fitness center, parking and bike rent",
+        "offers": [
+          {
+            "price": 124.97,
+            "brt": "p2c#b",
+            "rf": "p2c#b",
+            "brf": 9503872,
+            "rt": 9503872,
+            "vendor": "bkng",
+            "vendor_id_raw": "9364101",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included",
+              "Free cancellation",
+              "Sea view",
+              "Pay at the property"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Superior room - Choice of single or double beds",
+            "rooms": [
+              {
+                "name": "Superior room - Choice of single or double beds",
+                "flags": [
+                  "Choice of single or double beds"
+                ]
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included",
+              "refundable": "Free cancellation",
+              "view_sea": "Sea view",
+              "pay_at_hotel": "Pay at the property"
+            },
+            "partner_name": "Booking.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/bkng/logo.svg?pos=zz"
+          }
+        ],
+        "all_offers": [
+          {
+            "price": 124.97,
+            "brt": "p2c#b",
+            "rf": "p2c#b",
+            "brf": 9503872,
+            "rt": 9503872,
+            "vendor": "bkng",
+            "vendor_id_raw": "9364101",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included",
+              "Free cancellation",
+              "Sea view",
+              "Pay at the property"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Superior room - Choice of single or double beds",
+            "rooms": [
+              {
+                "name": "Superior room - Choice of single or double beds",
+                "flags": [
+                  "Choice of single or double beds"
+                ]
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included",
+              "refundable": "Free cancellation",
+              "view_sea": "Sea view",
+              "pay_at_hotel": "Pay at the property"
+            },
+            "partner_name": "Booking.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/bkng/logo.svg?pos=zz"
+          }
+        ],
+        "descriptions_language": {
+          "general": {
+            "original_language": true,
+            "text": "TWIN PALMS 'Surfhouse' offers accommodations in Thulusdhoo, a 0-minute walk from Bikini Beach and 1.7 miles from Gasfinolhu Beach. Among the facilities at this property are free shuttle service and luggage storage space, along with free Wifi throughout the property. The property offers bike rental and features a garden and sun terrace. At the guest house, every unit includes a wardrobe. All rooms are complete with a private bathroom and air conditioning, and some rooms are fitted with a balcony. At the guest house, each unit is fitted with bed linen and towels. Guests at the guest house can enjoy a continental or a vegetarian breakfast. There is a coffee shop and lounge. For guests with children, TWIN PALMS 'Surfhouse' features an indoor play area and outdoor play equipment. If you'd like to discover the area, cycling is possible in the surrounding area."
+          }
+        },
+        "chain_code": null,
+        "bids": {
+          "bkng": "j23"
+        },
+        "worst_offer": null,
+        "best_offer": 124.97,
+        "discount": 0,
+        "offers_count": 1,
+        "coordinates": {
+          "lat": 4.37374,
+          "lng": 73.65275
+        },
+        "distance": 0.25,
+        "neighborhood": null,
+        "badge": null,
+        "distances": [
+          {
+            "from": "center",
+            "distance": 0.25,
+            "time": 347,
+            "means": "foot",
+            "means_type": "foot"
+          }
+        ],
+        "specs": {
+          "bathrooms": null,
+          "beds": null,
+          "bedrooms": null,
+          "guests": null,
+          "square_meters": null
+        },
+        "toa_label": "guest house",
+        "top_amenities": [
+          "internet",
+          "restaurant",
+          "room_service",
+          "bar",
+          "parking"
+        ],
+        "transportations": {
+          "airports": [],
+          "trains": []
+        },
+        "images": [
+          {
+            "image_id": "701140439",
+            "label": ""
+          },
+          {
+            "image_id": "701140455",
+            "label": ""
+          },
+          {
+            "image_id": "701140458",
+            "label": ""
+          },
+          {
+            "image_id": "701140453",
+            "label": ""
+          },
+          {
+            "image_id": "701140448",
+            "label": ""
+          },
+          {
+            "image_id": "701140467",
+            "label": ""
+          },
+          {
+            "image_id": "701140435",
+            "label": ""
+          },
+          {
+            "image_id": "701140431",
+            "label": ""
+          },
+          {
+            "image_id": "701140436",
+            "label": ""
+          },
+          {
+            "image_id": "701140452",
+            "label": ""
+          },
+          {
+            "image_id": "701140461",
+            "label": ""
+          },
+          {
+            "image_id": "701140428",
+            "label": ""
+          },
+          {
+            "image_id": "701140463",
+            "label": ""
+          },
+          {
+            "image_id": "701140454",
+            "label": ""
+          },
+          {
+            "image_id": "701140442",
+            "label": ""
+          }
+        ],
+        "hero_offer": {
+          "price": 124.97,
+          "brt": "p2c#b",
+          "rf": "p2c#b",
+          "brf": 9503872,
+          "rt": 9503872,
+          "vendor": "bkng",
+          "vendor_id_raw": "9364101",
+          "mota_code": null,
+          "direct_offer": false,
+          "offer_flags": {
+            "breakfast": "Breakfast included",
+            "refundable": "Free cancellation",
+            "view_sea": "Sea view",
+            "pay_at_hotel": "Pay at the property"
+          },
+          "jc_code": "",
+          "chain": "",
+          "free_cancellation": true,
+          "special": false,
+          "room_name": "Superior room - Choice of single or double beds",
+          "rooms": [
+            {
+              "name": "Superior room - Choice of single or double beds",
+              "flags": [
+                "Choice of single or double beds"
+              ]
+            }
+          ],
+          "partner_name": "Booking.com",
+          "partner_logo": "https://hotelscan.com/apis/vendors/bkng/logo.svg?pos=zz"
+        },
+        "rank": 0,
+        "ctrl_srt": "im a ctrl teapot",
+        "test_srt": "im a test teapot",
+        "best_offer_ota": null,
+        "best_offer_mota": null
+      }
+    ],
+    "filters": [],
+    "query": {
+      "pos": "zz"
+    }
+  }
+}

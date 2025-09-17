@@ -1,0 +1,402 @@
+{
+  "_meta": {
+    "status": "SUCCESS",
+    "cached": true,
+    "count": 1,
+    "debug": {
+      "ticket": {
+        "ticket_id": "1008041490_zz_zz_d_publ_en_2_2025-10-08_2025-10-13_1_3",
+        "created_at": 1758065400.9309,
+        "loop": null,
+        "snapped_at": 1758065401.0166,
+        "snapshot_id": "1008041490_zz_zz_d_publ_en_2_2025-10-08_2025-10-13_1_3",
+        "snapshot_ttl": 300,
+        "executions": 2,
+        "progress": 1,
+        "save_errors": []
+      }
+    }
+  },
+  "data": {
+    "meta": [],
+    "geo": {
+      "hs_id": "83t3303iokjs9",
+      "region_name": "Vaikaradhoo",
+      "region_name_long": "Vaikaradhoo, Maldives",
+      "region_type": "CITY",
+      "region_id": 3000003502,
+      "country_iso": "MV",
+      "country": "maldives",
+      "localised_country": "Maldives",
+      "center": [
+        6.55012,
+        72.95271
+      ],
+      "centroid": [
+        6.55012,
+        72.95271
+      ],
+      "polygon": [
+        "6.559167,72.943672",
+        "6.559167,72.961754",
+        "6.541082,72.961754",
+        "6.541082,72.943672",
+        "6.559167,72.943672"
+      ],
+      "radius": 1.42,
+      "zoom": -1,
+      "search_by_polygon": 0,
+      "cluster": 0,
+      "properties": 4,
+      "radius_override": 5,
+      "boundingbox": {
+        "ne": [
+          6.56,
+          72.962
+        ],
+        "sw": [
+          6.541,
+          72.943
+        ]
+      },
+      "airports": [
+        "HAQ",
+        "DRV"
+      ],
+      "region_name_en": "Vaikaradhoo",
+      "region_name_long_en": "Vaikaradhoo, Maldives",
+      "referrer_city_name_en": "Vaikaradhoo",
+      "parent_region_id": 109,
+      "parent_hs_id": "xmmmamtksdxx",
+      "parent_region_name": "Maldives",
+      "parent_region_name_long": "Maldives",
+      "dynamic_bbox": {
+        "ne": [
+          6.548,
+          72.95
+        ],
+        "sw": [
+          6.548,
+          72.95
+        ]
+      }
+    },
+    "records": [
+      {
+        "hs_id": 1008041490,
+        "slug": "boegas-view-guesthouse-vaikaradhoo-mv-1008041490",
+        "name": "Boegas View Guesthouse",
+        "toa": "guest_house",
+        "building": {
+          "room_num": 3
+        },
+        "location": {
+          "city": "Vaikaradhoo",
+          "zip": "02140",
+          "country_iso2": "MV",
+          "address": "Mathivaru Hingun",
+          "geoid": "83t3303iokjs9",
+          "loc": {
+            "type": "Point"
+          },
+          "coordinates": {
+            "lng": 72.95079,
+            "lat": 6.54858
+          }
+        },
+        "opening_time": {
+          "check_in_from": "12:00",
+          "check_in_to": "18:00",
+          "check_out_from": "11:00",
+          "check_out_to": "12:00"
+        },
+        "quality": {
+          "review_count": 3,
+          "review_rating": 100,
+          "stars": 0,
+          "stars_is_estimated": false,
+          "review_source": ""
+        },
+        "covid_safe": true,
+        "amenities": {
+          "sports": [
+            "bike_rent",
+            "sub",
+            "surf"
+          ],
+          "internet": [
+            "wifi",
+            "internet"
+          ],
+          "entertainment": [
+            "tv_lobby"
+          ],
+          "outdoor": [
+            "garden"
+          ],
+          "other": [],
+          "room": [
+            "air_conditioning"
+          ],
+          "reception": [
+            "luggage_storage",
+            "laundry_service",
+            "safety_deposit_box"
+          ]
+        },
+        "descriptions": {
+          "general": "Location A nice option for people traveling in groups. Guest house «Boegas View Guesthouse» is located in Vaikaradhoo. This guest house is located in the very center of the city. In the morning, have a cup of coffee while looking at the city from the window.At the guest house The following services are also available for the guests: a doctor. You will find these entertainment amenities on the premises: a picnic area and a barbeque area. At the guests’ disposal, there’s also a laundry and a safe-deposit box.",
+          "localized": "Location A nice option for people traveling in groups. Guest house «Boegas View Guesthouse» is located in Vaikaradhoo. This guest house is located in the very center of the city. In the morning, have a cup of coffee while looking at the city from the window.At the guest house The following services are also available for the guests: a doctor. You will find these entertainment amenities on the premises: a picnic area and a barbeque area. At the guests’ disposal, there’s also a laundry and a safe-deposit box."
+        },
+        "short_description": "Simple guest house with bike rent",
+        "offers": [
+          {
+            "price": 48.26,
+            "brt": "p2r#",
+            "rf": "p2r#",
+            "brf": 9896000,
+            "rt": 9896000,
+            "vendor": "bkng",
+            "vendor_id_raw": "7670724",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included",
+              "Free cancellation"
+            ],
+            "jc_code": "",
+            "ranking_index": 1,
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Standard room",
+            "rooms": [
+              {
+                "name": "Standard room",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included",
+              "refundable": "Free cancellation"
+            },
+            "partner_name": "Booking.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/bkng/logo.svg?pos=zz"
+          }
+        ],
+        "all_offers": [
+          {
+            "price": 48.26,
+            "brt": "p2r#",
+            "rf": "p2r#",
+            "brf": 9896000,
+            "rt": 9896000,
+            "vendor": "bkng",
+            "vendor_id_raw": "7670724",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included",
+              "Free cancellation"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Standard room",
+            "rooms": [
+              {
+                "name": "Standard room",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included",
+              "refundable": "Free cancellation"
+            },
+            "partner_name": "Booking.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/bkng/logo.svg?pos=zz"
+          },
+          {
+            "price": 52.49,
+            "brt": "p2r#",
+            "rf": "p2r#",
+            "brf": 9502784,
+            "rt": 9502784,
+            "vendor": "bkng",
+            "vendor_id_raw": "7670724",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included",
+              "Free cancellation"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Standard room",
+            "rooms": [
+              {
+                "name": "Standard room",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included",
+              "refundable": "Free cancellation"
+            },
+            "partner_name": "Booking.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/bkng/logo.svg?pos=zz"
+          }
+        ],
+        "descriptions_language": {
+          "general": {
+            "original_language": true,
+            "text": "Location A nice option for people traveling in groups. Guest house «Boegas View Guesthouse» is located in Vaikaradhoo. This guest house is located in the very center of the city. In the morning, have a cup of coffee while looking at the city from the window.At the guest house The following services are also available for the guests: a doctor. You will find these entertainment amenities on the premises: a picnic area and a barbeque area. At the guests’ disposal, there’s also a laundry and a safe-deposit box."
+          }
+        },
+        "chain_code": null,
+        "bids": {
+          "bkng": "j23"
+        },
+        "worst_offer": null,
+        "best_offer": 48.26,
+        "best_offer_ota": "bkng",
+        "best_offer_mota": null,
+        "discount": 0,
+        "offers_count": 2,
+        "coordinates": {
+          "lat": 6.54858,
+          "lng": 72.95079
+        },
+        "distance": 0.27,
+        "neighborhood": null,
+        "badge": null,
+        "distances": [
+          {
+            "from": "center",
+            "distance": 0.27,
+            "time": 375,
+            "means": "foot",
+            "means_type": "foot"
+          }
+        ],
+        "specs": {
+          "bathrooms": null,
+          "beds": null,
+          "bedrooms": null,
+          "guests": null,
+          "square_meters": null
+        },
+        "toa_label": "guest house",
+        "top_amenities": [
+          "internet",
+          "air_conditioning"
+        ],
+        "transportations": {
+          "airports": [],
+          "trains": []
+        },
+        "images": [
+          {
+            "image_id": "714884277",
+            "label": ""
+          },
+          {
+            "image_id": "714884297",
+            "label": ""
+          },
+          {
+            "image_id": "714884296",
+            "label": ""
+          },
+          {
+            "image_id": "714884287",
+            "label": ""
+          },
+          {
+            "image_id": "714884288",
+            "label": ""
+          },
+          {
+            "image_id": "714884278",
+            "label": ""
+          },
+          {
+            "image_id": "714884290",
+            "label": ""
+          },
+          {
+            "image_id": "714884289",
+            "label": ""
+          },
+          {
+            "image_id": "714884280",
+            "label": ""
+          },
+          {
+            "image_id": "714884286",
+            "label": ""
+          },
+          {
+            "image_id": "714884291",
+            "label": ""
+          },
+          {
+            "image_id": "714884284",
+            "label": ""
+          },
+          {
+            "image_id": "714884279",
+            "label": ""
+          },
+          {
+            "image_id": "714884292",
+            "label": ""
+          },
+          {
+            "image_id": "714884282",
+            "label": ""
+          }
+        ],
+        "hero_offer": {
+          "price": 48.26,
+          "brt": "p2r#",
+          "rf": "p2r#",
+          "brf": 9896000,
+          "rt": 9896000,
+          "vendor": "bkng",
+          "vendor_id_raw": "7670724",
+          "mota_code": null,
+          "direct_offer": false,
+          "offer_flags": {
+            "breakfast": "Breakfast included",
+            "refundable": "Free cancellation"
+          },
+          "jc_code": "",
+          "ranking_index": 1,
+          "chain": "",
+          "free_cancellation": true,
+          "special": false,
+          "room_name": "Standard room",
+          "rooms": [
+            {
+              "name": "Standard room",
+              "flags": []
+            }
+          ],
+          "partner_name": "Booking.com",
+          "partner_logo": "https://hotelscan.com/apis/vendors/bkng/logo.svg?pos=zz"
+        },
+        "rank": 0,
+        "ctrl_srt": "im a ctrl teapot",
+        "test_srt": "im a test teapot"
+      }
+    ],
+    "filters": [],
+    "query": {
+      "pos": "zz"
+    }
+  }
+}

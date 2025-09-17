@@ -1,0 +1,524 @@
+{
+  "_meta": {
+    "status": "SUCCESS",
+    "cached": true,
+    "count": 1,
+    "debug": {
+      "ticket": {
+        "ticket_id": "1013316925_zz_zz_d_publ_en_2_2025-10-08_2025-10-13_1_3",
+        "created_at": 1758065384.1134,
+        "loop": null,
+        "snapped_at": 1758065384.1977,
+        "snapshot_id": "1013316925_zz_zz_d_publ_en_2_2025-10-08_2025-10-13_1_3",
+        "snapshot_ttl": 300,
+        "executions": 2,
+        "progress": 1,
+        "save_errors": []
+      }
+    }
+  },
+  "data": {
+    "meta": [],
+    "geo": {
+      "hs_id": "xka3fmt2fs7x",
+      "region_name": "Fehendhoo",
+      "region_name_long": "Fehendhoo, Maldives",
+      "region_type": "CITY",
+      "region_id": 6361273,
+      "country_iso": "MV",
+      "country": "maldives",
+      "localised_country": "Maldives",
+      "center": [
+        4.88185,
+        72.96875
+      ],
+      "centroid": [
+        4.88181,
+        72.96873
+      ],
+      "polygon": [
+        "4.880681,72.955381",
+        "4.873428,72.977966",
+        "4.881478,72.982121",
+        "4.890278,72.958351",
+        "4.880681,72.955381"
+      ],
+      "radius": 1.49,
+      "zoom": -1,
+      "search_by_polygon": 0,
+      "cluster": 0,
+      "properties": 37,
+      "radius_override": 5,
+      "boundingbox": {
+        "ne": [
+          4.891,
+          72.983
+        ],
+        "sw": [
+          4.873,
+          72.955
+        ]
+      },
+      "airports": [
+        "MLE",
+        "DRV"
+      ],
+      "region_name_en": "Fehendhoo",
+      "region_name_long_en": "Fehendhoo, Maldives",
+      "referrer_city_name_en": "Fehendhoo",
+      "parent_region_id": 6051084,
+      "parent_hs_id": "x5p4hmhw6iot",
+      "parent_region_name": "Maldives (all)",
+      "parent_region_name_long": "Maldives (all)",
+      "dynamic_bbox": {
+        "ne": [
+          4.88,
+          72.973
+        ],
+        "sw": [
+          4.88,
+          72.973
+        ]
+      }
+    },
+    "records": [
+      {
+        "hs_id": 1013316925,
+        "slug": "tropical-tree-fehendhoo-mv-1013316925",
+        "name": "Tropical Tree",
+        "toa": "guest_house",
+        "location": {
+          "city": "Fehendhoo",
+          "zip": "06120",
+          "country_iso2": "MV",
+          "address": "Tropical Tree",
+          "geoid": "xka3fmt2fs7x",
+          "loc": {
+            "type": "Point"
+          },
+          "coordinates": {
+            "lng": 72.97302,
+            "lat": 4.88014
+          }
+        },
+        "opening_time": {
+          "check_in_from": "13:00",
+          "check_in_to": "18:00",
+          "check_out_from": "08:00",
+          "check_out_to": "12:00"
+        },
+        "quality": {
+          "review_count": 117,
+          "review_rating": 93,
+          "stars": 0,
+          "stars_is_estimated": false,
+          "review_source": ""
+        },
+        "covid_safe": true,
+        "amenities": {
+          "sports": [
+            "bike_rent",
+            "sub",
+            "surf"
+          ],
+          "internet": [
+            "wifi",
+            "internet"
+          ],
+          "food_drink": [
+            "restaurant",
+            "room_service",
+            "bar",
+            "tea_coffee_maker"
+          ],
+          "parking": [
+            "parking"
+          ],
+          "outdoor": [
+            "garden",
+            "terrace"
+          ],
+          "other": [],
+          "business": [
+            "business_services"
+          ],
+          "children": [
+            "children_playground"
+          ],
+          "entertainment": [
+            "tv_lobby",
+            "disco"
+          ],
+          "transfer": [
+            "shuttle_service"
+          ],
+          "room": [
+            "fan",
+            "air_conditioning",
+            "tv"
+          ],
+          "reception": [
+            "24h_reception",
+            "luggage_storage",
+            "concierge",
+            "laundry_service",
+            "safety_deposit_box"
+          ]
+        },
+        "descriptions": {
+          "general": "Tropical Tree provides flawless service and all the necessary facilities for visitors.Stay connected with your associates, as complimentary Wi-Fi is available during your entire visit.To facilitate your arrival and departure, you can pre-book airport transfer services prior to checking in.Should you require it, the tours can even assist you in booking tickets and securing reservations for the finest shows and events in the vicinity. Whether you're here for an extended stay or simply require fresh garments, the hotel ensures your cherished travel attire remains spotless and accessible with the convenience of laundry service located on the premises.The hotel's daily housekeeping ensures an excellent option for your stay. Each day, arise to a delightful complimentary morning meal at Tropical Tree.Tropical Tree provides a superb assortment of leisure amenities for guests to enjoy.Make sure to utilize your privilege to access the exclusive beach located at hotel, during your stay.",
+          "localized": "Tropical Tree provides flawless service and all the necessary facilities for visitors.Stay connected with your associates, as complimentary Wi-Fi is available during your entire visit.To facilitate your arrival and departure, you can pre-book airport transfer services prior to checking in.Should you require it, the tours can even assist you in booking tickets and securing reservations for the finest shows and events in the vicinity. Whether you're here for an extended stay or simply require fresh garments, the hotel ensures your cherished travel attire remains spotless and accessible with the convenience of laundry service located on the premises.The hotel's daily housekeeping ensures an excellent option for your stay. Each day, arise to a delightful complimentary morning meal at Tropical Tree.Tropical Tree provides a superb assortment of leisure amenities for guests to enjoy.Make sure to utilize your privilege to access the exclusive beach located at hotel, during your stay."
+        },
+        "short_description": "Simple guest house with parking, restaurant and bar",
+        "chain": "no_chain",
+        "brand": "no_brand",
+        "offers": [
+          {
+            "price": 63.93,
+            "brt": "p2d#t",
+            "rf": "p2d#t",
+            "brf": 9502848,
+            "rt": 9502848,
+            "vendor": "bkng",
+            "vendor_id_raw": "10460602",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included",
+              "Free cancellation",
+              "Pay at the property"
+            ],
+            "jc_code": "",
+            "ranking_index": 0.9964335992491787,
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Deluxe room - Twin beds",
+            "rooms": [
+              {
+                "name": "Deluxe room - Twin beds",
+                "flags": [
+                  "Twin beds"
+                ]
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included",
+              "refundable": "Free cancellation",
+              "pay_at_hotel": "Pay at the property"
+            },
+            "partner_name": "Booking.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/bkng/logo.svg?pos=zz"
+          },
+          {
+            "vendor": "agda",
+            "price": 63.36,
+            "vendor_id_raw": "42845264",
+            "mota_code": null,
+            "jc_code": "",
+            "partner_name": "Agoda",
+            "partner_logo": "https://hotelscan.com/apis/vendors/agda/logo.svg?pos=zz",
+            "room_name": "Deluxe room - Twin beds",
+            "brf": 9502848,
+            "brt": "p2d#t"
+          }
+        ],
+        "all_offers": [
+          {
+            "price": 63.36,
+            "brt": "p2d#t",
+            "rf": "p2d#t",
+            "brf": 9502848,
+            "rt": 9502848,
+            "vendor": "agda",
+            "vendor_id_raw": "42845264",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included",
+              "Free cancellation",
+              "Pay at the property"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Deluxe room - Twin beds",
+            "rooms": [
+              {
+                "name": "Deluxe room - Twin beds",
+                "flags": [
+                  "Twin beds"
+                ]
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included",
+              "refundable": "Free cancellation",
+              "pay_at_hotel": "Pay at the property"
+            },
+            "partner_name": "Agoda",
+            "partner_logo": "https://hotelscan.com/apis/vendors/agda/logo.svg?pos=zz"
+          },
+          {
+            "price": 63.93,
+            "brt": "p2d#t",
+            "rf": "p2d#t",
+            "brf": 9502848,
+            "rt": 9502848,
+            "vendor": "bkng",
+            "vendor_id_raw": "10460602",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included",
+              "Free cancellation",
+              "Pay at the property"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Deluxe room - Twin beds",
+            "rooms": [
+              {
+                "name": "Deluxe room - Twin beds",
+                "flags": [
+                  "Twin beds"
+                ]
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included",
+              "refundable": "Free cancellation",
+              "pay_at_hotel": "Pay at the property"
+            },
+            "partner_name": "Booking.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/bkng/logo.svg?pos=zz"
+          },
+          {
+            "price": 116.6,
+            "brt": "p4qd",
+            "rf": "p4qd",
+            "brf": 9502848,
+            "rt": 9502848,
+            "vendor": "agda",
+            "vendor_id_raw": "42845264",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included",
+              "Free cancellation",
+              "Pay at the property"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Deluxe Family Room",
+            "rooms": [
+              {
+                "name": "Deluxe Family Room",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included",
+              "refundable": "Free cancellation",
+              "pay_at_hotel": "Pay at the property"
+            },
+            "partner_name": "Agoda",
+            "partner_logo": "https://hotelscan.com/apis/vendors/agda/logo.svg?pos=zz"
+          },
+          {
+            "price": 117.67,
+            "brt": "e2qd",
+            "rf": "e2qd",
+            "brf": 9502848,
+            "rt": 9502848,
+            "vendor": "bkng",
+            "vendor_id_raw": "10460602",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included",
+              "Free cancellation",
+              "Pay at the property"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Deluxe Family Suite",
+            "rooms": [
+              {
+                "name": "Deluxe Family Suite",
+                "flags": []
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included",
+              "refundable": "Free cancellation",
+              "pay_at_hotel": "Pay at the property"
+            },
+            "partner_name": "Booking.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/bkng/logo.svg?pos=zz"
+          }
+        ],
+        "descriptions_language": {
+          "general": {
+            "original_language": true,
+            "text": "Tropical Tree provides flawless service and all the necessary facilities for visitors.Stay connected with your associates, as complimentary Wi-Fi is available during your entire visit.To facilitate your arrival and departure, you can pre-book airport transfer services prior to checking in.Should you require it, the tours can even assist you in booking tickets and securing reservations for the finest shows and events in the vicinity. Whether you're here for an extended stay or simply require fresh garments, the hotel ensures your cherished travel attire remains spotless and accessible with the convenience of laundry service located on the premises.The hotel's daily housekeeping ensures an excellent option for your stay. Each day, arise to a delightful complimentary morning meal at Tropical Tree.Tropical Tree provides a superb assortment of leisure amenities for guests to enjoy.Make sure to utilize your privilege to access the exclusive beach located at hotel, during your stay."
+          }
+        },
+        "chain_code": null,
+        "bids": {
+          "agda": "j23",
+          "bkng": "j23"
+        },
+        "worst_offer": null,
+        "best_offer": 63.36,
+        "best_offer_ota": "agda",
+        "best_offer_mota": null,
+        "discount": 0,
+        "offers_count": 4,
+        "coordinates": {
+          "lat": 4.88014,
+          "lng": 72.97302
+        },
+        "distance": 0.51,
+        "neighborhood": null,
+        "badge": null,
+        "distances": [
+          {
+            "from": "center",
+            "distance": 0.51,
+            "time": 708,
+            "means": "foot",
+            "means_type": "foot"
+          }
+        ],
+        "specs": {
+          "bathrooms": null,
+          "beds": null,
+          "bedrooms": null,
+          "guests": null,
+          "square_meters": null
+        },
+        "toa_label": "guest house",
+        "top_amenities": [
+          "internet",
+          "restaurant",
+          "room_service",
+          "bar",
+          "tea_coffee_maker"
+        ],
+        "transportations": {
+          "airports": [],
+          "trains": []
+        },
+        "images": [
+          {
+            "image_id": "716424036",
+            "label": ""
+          },
+          {
+            "image_id": "716424049",
+            "label": ""
+          },
+          {
+            "image_id": "716424037",
+            "label": ""
+          },
+          {
+            "image_id": "716424038",
+            "label": ""
+          },
+          {
+            "image_id": "716424040",
+            "label": ""
+          },
+          {
+            "image_id": "716424047",
+            "label": ""
+          },
+          {
+            "image_id": "716424052",
+            "label": ""
+          },
+          {
+            "image_id": "716424035",
+            "label": ""
+          },
+          {
+            "image_id": "716424041",
+            "label": ""
+          },
+          {
+            "image_id": "716424050",
+            "label": ""
+          },
+          {
+            "image_id": "716424043",
+            "label": ""
+          },
+          {
+            "image_id": "716424055",
+            "label": ""
+          },
+          {
+            "image_id": "716424048",
+            "label": ""
+          },
+          {
+            "image_id": "716424056",
+            "label": ""
+          },
+          {
+            "image_id": "716424051",
+            "label": ""
+          }
+        ],
+        "hero_offer": {
+          "price": 63.93,
+          "brt": "p2d#t",
+          "rf": "p2d#t",
+          "brf": 9502848,
+          "rt": 9502848,
+          "vendor": "bkng",
+          "vendor_id_raw": "10460602",
+          "mota_code": null,
+          "direct_offer": false,
+          "offer_flags": {
+            "breakfast": "Breakfast included",
+            "refundable": "Free cancellation",
+            "pay_at_hotel": "Pay at the property"
+          },
+          "jc_code": "",
+          "ranking_index": 0.9964335992491787,
+          "chain": "",
+          "free_cancellation": true,
+          "special": false,
+          "room_name": "Deluxe room - Twin beds",
+          "rooms": [
+            {
+              "name": "Deluxe room - Twin beds",
+              "flags": [
+                "Twin beds"
+              ]
+            }
+          ],
+          "partner_name": "Booking.com",
+          "partner_logo": "https://hotelscan.com/apis/vendors/bkng/logo.svg?pos=zz"
+        },
+        "rank": 0,
+        "ctrl_srt": "im a ctrl teapot",
+        "test_srt": "im a test teapot"
+      }
+    ],
+    "filters": [],
+    "query": {
+      "pos": "zz"
+    }
+  }
+}

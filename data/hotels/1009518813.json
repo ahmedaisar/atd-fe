@@ -1,0 +1,440 @@
+{
+  "_meta": {
+    "status": "SUCCESS",
+    "cached": true,
+    "count": 1,
+    "debug": {
+      "ticket": {
+        "ticket_id": "1009518813_zz_zz_d_publ_en_2_2025-10-08_2025-10-13_1_3",
+        "created_at": 1758065398.0007,
+        "loop": null,
+        "snapped_at": 1758065398.089,
+        "snapshot_id": "1009518813_zz_zz_d_publ_en_2_2025-10-08_2025-10-13_1_3",
+        "snapshot_ttl": 300,
+        "executions": 2,
+        "progress": 1,
+        "save_errors": []
+      }
+    }
+  },
+  "data": {
+    "meta": [],
+    "geo": {
+      "hs_id": "83t39x78jfnkk",
+      "region_name": "Feridhoo",
+      "region_name_long": "Feridhoo, Maldives",
+      "region_type": "CITY",
+      "region_id": 3000003551,
+      "country_iso": "MV",
+      "country": "maldives",
+      "localised_country": "Maldives",
+      "center": [
+        4.05119,
+        72.72256
+      ],
+      "centroid": [
+        4.05016,
+        72.72236
+      ],
+      "polygon": [
+        "4.050393,72.712433",
+        "4.046423,72.718269",
+        "4.045567,72.724991",
+        "4.049922,72.732292",
+        "4.055733,72.728424",
+        "4.057146,72.723335",
+        "4.053727,72.714622",
+        "4.050393,72.712433"
+      ],
+      "radius": 1.11,
+      "zoom": -1,
+      "search_by_polygon": 0,
+      "cluster": 0,
+      "properties": 10,
+      "radius_override": 5,
+      "boundingbox": {
+        "ne": [
+          4.058,
+          72.733
+        ],
+        "sw": [
+          4.045,
+          72.712
+        ]
+      },
+      "airports": [
+        "MLE",
+        "DRV"
+      ],
+      "region_name_en": "Feridhoo",
+      "region_name_long_en": "Feridhoo, Maldives",
+      "referrer_city_name_en": "Feridhoo",
+      "parent_region_id": 6051084,
+      "parent_hs_id": "x5p4hmhw6iot",
+      "parent_region_name": "Maldives (all)",
+      "parent_region_name_long": "Maldives (all)",
+      "dynamic_bbox": {
+        "ne": [
+          4.049,
+          72.727
+        ],
+        "sw": [
+          4.049,
+          72.727
+        ]
+      }
+    },
+    "records": [
+      {
+        "hs_id": 1009518813,
+        "slug": "ayira-maldives-feridhoo-mv-1009518813",
+        "name": "Ayira Maldives",
+        "toa": "guest_house",
+        "location": {
+          "city": "Feridhoo",
+          "zip": "09060",
+          "country_iso2": "MV",
+          "address": "Finihiya Magu",
+          "geoid": "83t39x78jfnkk",
+          "loc": {
+            "type": "Point"
+          },
+          "coordinates": {
+            "lng": 72.727,
+            "lat": 4.04975
+          }
+        },
+        "opening_time": {
+          "check_in_from": "15:00",
+          "check_in_to": "15:00",
+          "check_out_from": "12:00",
+          "check_out_to": "12:00"
+        },
+        "quality": {
+          "review_count": 128,
+          "review_rating": 99,
+          "stars": 0,
+          "stars_is_estimated": false,
+          "review_source": ""
+        },
+        "covid_safe": true,
+        "amenities": {
+          "wellness": [
+            "fitness_center"
+          ],
+          "sports": [
+            "sub"
+          ],
+          "internet": [
+            "wifi",
+            "wifi_room",
+            "internet"
+          ],
+          "food_drink": [
+            "bar"
+          ],
+          "outdoor": [
+            "garden"
+          ],
+          "other": [],
+          "entertainment": [
+            "tv_lobby"
+          ],
+          "transfer": [
+            "shuttle_service"
+          ],
+          "room": [
+            "air_conditioning",
+            "tv"
+          ],
+          "reception": [
+            "laundry_service",
+            "safety_deposit_box"
+          ]
+        },
+        "descriptions": {
+          "general": "Facing the seafront in Feridhoo, AYIRA Maldives features a garden and a shared lounge. The property has garden and inner courtyard views. The accommodation provides airport transfers, while a car rental service is also available.",
+          "localized": "Facing the seafront in Feridhoo, AYIRA Maldives features a garden and a shared lounge. The property has garden and inner courtyard views. The accommodation provides airport transfers, while a car rental service is also available."
+        },
+        "short_description": "Rooms with free wifi in guest house with fitness center, shuttle service and bar",
+        "offers": [
+          {
+            "price": 92.29,
+            "brt": "p2cdb",
+            "rf": "p2cdb",
+            "brf": 9502848,
+            "rt": 9502848,
+            "vendor": "bkng",
+            "vendor_id_raw": "8214078",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included",
+              "Free cancellation",
+              "Pay at the property"
+            ],
+            "jc_code": "",
+            "ranking_index": 0.9964026438400693,
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Superior deluxe room - Choice of single or double beds",
+            "rooms": [
+              {
+                "name": "Superior deluxe room - Choice of single or double beds",
+                "flags": [
+                  "Choice of single or double beds"
+                ]
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included",
+              "refundable": "Free cancellation",
+              "pay_at_hotel": "Pay at the property"
+            },
+            "partner_name": "Booking.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/bkng/logo.svg?pos=zz"
+          },
+          {
+            "vendor": "agda",
+            "price": 91.46,
+            "vendor_id_raw": "30740745",
+            "mota_code": null,
+            "jc_code": "",
+            "partner_name": "Agoda",
+            "partner_logo": "https://hotelscan.com/apis/vendors/agda/logo.svg?pos=zz",
+            "room_name": "Superior deluxe room - Choice of single or double beds",
+            "brf": 9502848,
+            "brt": "p2cdb"
+          }
+        ],
+        "all_offers": [
+          {
+            "price": 91.46,
+            "brt": "p2cdb",
+            "rf": "p2cdb",
+            "brf": 9502848,
+            "rt": 9502848,
+            "vendor": "agda",
+            "vendor_id_raw": "30740745",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included",
+              "Free cancellation",
+              "Pay at the property"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Superior deluxe room - Choice of single or double beds",
+            "rooms": [
+              {
+                "name": "Superior deluxe room - Choice of single or double beds",
+                "flags": [
+                  "Choice of single or double beds"
+                ]
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included",
+              "refundable": "Free cancellation",
+              "pay_at_hotel": "Pay at the property"
+            },
+            "partner_name": "Agoda",
+            "partner_logo": "https://hotelscan.com/apis/vendors/agda/logo.svg?pos=zz"
+          },
+          {
+            "price": 92.29,
+            "brt": "p2cdb",
+            "rf": "p2cdb",
+            "brf": 9502848,
+            "rt": 9502848,
+            "vendor": "bkng",
+            "vendor_id_raw": "8214078",
+            "mota_code": null,
+            "direct_offer": false,
+            "offer_flags": [
+              "Breakfast included",
+              "Free cancellation",
+              "Pay at the property"
+            ],
+            "jc_code": "",
+            "chain": "",
+            "free_cancellation": true,
+            "special": false,
+            "room_name": "Superior deluxe room - Choice of single or double beds",
+            "rooms": [
+              {
+                "name": "Superior deluxe room - Choice of single or double beds",
+                "flags": [
+                  "Choice of single or double beds"
+                ]
+              }
+            ],
+            "offer_flags_new": {
+              "breakfast": "Breakfast included",
+              "refundable": "Free cancellation",
+              "pay_at_hotel": "Pay at the property"
+            },
+            "partner_name": "Booking.com",
+            "partner_logo": "https://hotelscan.com/apis/vendors/bkng/logo.svg?pos=zz"
+          }
+        ],
+        "descriptions_language": {
+          "general": {
+            "original_language": true,
+            "text": "Facing the seafront in Feridhoo, AYIRA Maldives features a garden and a shared lounge. The property has garden and inner courtyard views. The accommodation provides airport transfers, while a car rental service is also available."
+          }
+        },
+        "chain_code": null,
+        "bids": {
+          "bkng": "j23",
+          "agda": "j23"
+        },
+        "worst_offer": null,
+        "best_offer": 91.46,
+        "best_offer_ota": "agda",
+        "best_offer_mota": null,
+        "discount": 0,
+        "offers_count": 2,
+        "coordinates": {
+          "lat": 4.04975,
+          "lng": 72.727
+        },
+        "distance": 0.52,
+        "neighborhood": null,
+        "badge": null,
+        "distances": [
+          {
+            "from": "center",
+            "distance": 0.52,
+            "time": 722,
+            "means": "foot",
+            "means_type": "foot"
+          }
+        ],
+        "specs": {
+          "bathrooms": null,
+          "beds": null,
+          "bedrooms": null,
+          "guests": null,
+          "square_meters": null
+        },
+        "toa_label": "guest house",
+        "top_amenities": [
+          "wifi_room",
+          "internet",
+          "bar",
+          "air_conditioning"
+        ],
+        "transportations": {
+          "airports": [],
+          "trains": []
+        },
+        "images": [
+          {
+            "image_id": "704488185",
+            "label": ""
+          },
+          {
+            "image_id": "704488183",
+            "label": ""
+          },
+          {
+            "image_id": "704488196",
+            "label": ""
+          },
+          {
+            "image_id": "704488192",
+            "label": ""
+          },
+          {
+            "image_id": "704488182",
+            "label": ""
+          },
+          {
+            "image_id": "704488181",
+            "label": ""
+          },
+          {
+            "image_id": "704488184",
+            "label": ""
+          },
+          {
+            "image_id": "704488205",
+            "label": ""
+          },
+          {
+            "image_id": "704488190",
+            "label": ""
+          },
+          {
+            "image_id": "704488186",
+            "label": ""
+          },
+          {
+            "image_id": "704488179",
+            "label": ""
+          },
+          {
+            "image_id": "704488178",
+            "label": ""
+          },
+          {
+            "image_id": "704488188",
+            "label": ""
+          },
+          {
+            "image_id": "704488195",
+            "label": ""
+          },
+          {
+            "image_id": "704488187",
+            "label": ""
+          }
+        ],
+        "hero_offer": {
+          "price": 92.29,
+          "brt": "p2cdb",
+          "rf": "p2cdb",
+          "brf": 9502848,
+          "rt": 9502848,
+          "vendor": "bkng",
+          "vendor_id_raw": "8214078",
+          "mota_code": null,
+          "direct_offer": false,
+          "offer_flags": {
+            "breakfast": "Breakfast included",
+            "refundable": "Free cancellation",
+            "pay_at_hotel": "Pay at the property"
+          },
+          "jc_code": "",
+          "ranking_index": 0.9964026438400693,
+          "chain": "",
+          "free_cancellation": true,
+          "special": false,
+          "room_name": "Superior deluxe room - Choice of single or double beds",
+          "rooms": [
+            {
+              "name": "Superior deluxe room - Choice of single or double beds",
+              "flags": [
+                "Choice of single or double beds"
+              ]
+            }
+          ],
+          "partner_name": "Booking.com",
+          "partner_logo": "https://hotelscan.com/apis/vendors/bkng/logo.svg?pos=zz"
+        },
+        "rank": 0,
+        "ctrl_srt": "im a ctrl teapot",
+        "test_srt": "im a test teapot"
+      }
+    ],
+    "filters": [],
+    "query": {
+      "pos": "zz"
+    }
+  }
+}
