@@ -10,6 +10,8 @@ import { OfferImage } from "@/components/offer-image"
 import TopRatedHotels, { TopRatedHotel } from "@/components/hotels/top-rated-hotels"
 import { getAtollmvCache } from "@/lib/atollmv-cache"
 export const runtime = 'nodejs'
+export const dynamic = 'force-dynamic'
+export const revalidate = 0
 
 function mapAtollToTopRated(items: any[]): TopRatedHotel[] {
   return items.map((it: any) => {
@@ -26,7 +28,7 @@ function mapAtollToTopRated(items: any[]): TopRatedHotel[] {
     const location = b.location?.address || b.location?.city || d.location?.address || d.location?.city || 'Maldives'
     const price = Number(d.best_offer ?? b.best_offer ?? d.hero_offer?.price ?? 0) || 0
     const currency = '$'
-    const badge = hotelStars >= 5 ? 'Luxury' : hotelStars >= 4 ? 'Popular' : undefined
+  const badge = hotelStars >= 5 ? 'Luxury' : hotelStars >= 4 ? 'Popular' : undefined
     const hero_offer = d.hero_offer ?? b.hero_offer
     const primaryDisc = d?.data?.records?.[0]?.discount
     let discountNum = Number.parseFloat(String(primaryDisc))
@@ -36,7 +38,8 @@ function mapAtollToTopRated(items: any[]): TopRatedHotel[] {
     }
     const discount = Number.isNaN(discountNum) ? 0 : discountNum
     const short_description = d.short_description ?? b.short_description
-    return { id, name, slug, heroImage, stars: Number(hotelStars) || 0, qualityReviewRating, qualityReviewCount, location, price, currency, badge, hero_offer, discount, short_description }
+    const toa = b.toa ?? d.toa ?? b.type ?? d.type ?? b.category ?? d.category
+    return { id, name, slug, heroImage, stars: Number(hotelStars) || 0, qualityReviewRating, qualityReviewCount, location, price, currency, badge, hero_offer, discount, short_description, toa }
   })
 }
 
@@ -48,15 +51,17 @@ export default async function HomePage(props?: { searchParams?: any }) {
   // Read filters from URL (server-render-time). Support both direct object and promised object.
   const spLike = props?.searchParams
   const sp = typeof spLike?.then === 'function' ? await spLike : (spLike || {})
-  const toa = typeof sp.toa === 'string' ? sp.toa : undefined
+  // Defaults when params are missing (do NOT default review_rating bounds here; client handles defaults)
+  const DEFAULTS = { toa: 'resort', stars: 5, needDiscount: true, limit: 15 }
+  const toa = typeof sp.toa === 'string' ? sp.toa : DEFAULTS.toa
   const limit = Number.parseInt(typeof sp.limit === 'string' ? sp.limit : (Array.isArray(sp.limit) ? sp.limit[0] : ''), 10)
-  const effLimit = Number.isFinite(limit) && limit > 0 ? limit : 15
+  const effLimit = Number.isFinite(limit) && limit > 0 ? limit : DEFAULTS.limit
   const starsParam = Number.parseInt(typeof sp.stars === 'string' ? sp.stars : (Array.isArray(sp.stars) ? sp.stars[0] : ''), 10)
-  const wantStars = Number.isFinite(starsParam) ? starsParam : undefined
+  const wantStars = Number.isFinite(starsParam) ? starsParam : DEFAULTS.stars
   const rrMin = Number.parseFloat(typeof sp.review_ratingmin === 'string' ? sp.review_ratingmin : (Array.isArray(sp.review_ratingmin) ? sp.review_ratingmin[0] : ''))
   const rrMax = Number.parseFloat(typeof sp.review_ratingmax === 'string' ? sp.review_ratingmax : (Array.isArray(sp.review_ratingmax) ? sp.review_ratingmax[0] : ''))
   const wantDiscount = (typeof sp.minDiscount === 'string' ? sp.minDiscount : (Array.isArray(sp.minDiscount) ? sp.minDiscount[0] : ''))
-  const needDiscount = wantDiscount === '1' || wantDiscount === 'true'
+  const needDiscount = wantDiscount === '' || wantDiscount == null ? DEFAULTS.needDiscount : (wantDiscount === '1' || wantDiscount === 'true')
 
   const toLower = (v: any) => (typeof v === 'string' ? v.toLowerCase() : '')
   const hasToa = (b: any, d: any, target?: string) => {
@@ -106,6 +111,7 @@ export default async function HomePage(props?: { searchParams?: any }) {
       return getStars(b, d) === wantStars
     })
     .filter((it) => {
+      // Only apply rating filters if provided via URL; client component sets sensible defaults
       if (!Number.isFinite(rrMin) && !Number.isFinite(rrMax)) return true
       const b = it?.base || {}
       const d = it?.details || {}
@@ -121,16 +127,7 @@ export default async function HomePage(props?: { searchParams?: any }) {
       return getDiscount(b, d) > 0
     })
 
-  // If a rating window is provided, order by review rating descending
-  if (Number.isFinite(rrMin) || Number.isFinite(rrMax)) {
-    filtered = filtered.sort((a: any, b: any) => {
-      const ba = a?.base || {}; const da = a?.details || {}
-      const bb = b?.base || {}; const db = b?.details || {}
-      return getReviewRating(bb, db) - getReviewRating(ba, da)
-    })
-  }
-
-  filtered = filtered.slice(0, effLimit)
+  // Do not sort or limit on the server; TopRatedHotels will handle ordering and limiting on the client.
   const sampleTopRated = mapAtollToTopRated(filtered)
   return (
     <div className="min-h-screen bg-white">

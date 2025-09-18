@@ -1,5 +1,5 @@
 import { NextResponse } from 'next/server'
-import { getAtollmvCached } from '@/lib/atollmv-cache'
+import { getAtollmvCached, clearAtollmvCache } from '@/lib/atollmv-cache'
 import { corsHeaders } from '@/lib/cors'
 
 export const runtime = 'nodejs'
@@ -9,13 +9,35 @@ export async function GET(req: Request) {
     const { searchParams } = new URL(req.url)
     const origin = req.headers.get('origin')
     const wantsRefresh = searchParams.get('refresh') === '1'
+    const wantsClear = searchParams.get('clear') === '1'
+
+    // Handle cache clear first
+    if (wantsClear) {
+      const info = clearAtollmvCache()
+      if (wantsRefresh) {
+        // Clear and immediately rebuild
+        const { body, cacheStatus } = await getAtollmvCached(true)
+        const resp = NextResponse.json({ ...body, _cache: { action: 'cleared+refreshed', info } })
+        resp.headers.set('X-Atollmv-Cache', cacheStatus)
+        resp.headers.set('Cache-Control', 'no-store')
+        const ch = corsHeaders(origin)
+        for (const [k, v] of Object.entries(ch)) resp.headers.set(k, v)
+        return resp
+      }
+      // Only clear, return empty body
+      const empty = { total: 0, items: [] as any[] }
+      const resp = NextResponse.json({ ...empty, _cache: { action: 'cleared', info } })
+      resp.headers.set('X-Atollmv-Cache', 'MISS')
+      resp.headers.set('Cache-Control', 'no-store')
+      const ch = corsHeaders(origin)
+      for (const [k, v] of Object.entries(ch)) resp.headers.set(k, v)
+      return resp
+    }
+
+    // Refresh cache if requested, but ALWAYS return the full cached dataset unfiltered
     const { body, cacheStatus } = await getAtollmvCached(!!wantsRefresh)
-    const limitParam = searchParams.get('limit')
-    const limit = limitParam ? Math.max(0, Math.min(1000, Number.parseInt(limitParam, 10) || 0)) : 0
-    const payload = limit > 0 && Array.isArray(body.items)
-      ? { ...body, items: body.items.slice(0, limit) }
-      : body
-    const resp = NextResponse.json(payload)
+
+    const resp = NextResponse.json(body)
     resp.headers.set('X-Atollmv-Cache', cacheStatus)
     resp.headers.set('Cache-Control', 'public, max-age=30, s-maxage=300, stale-while-revalidate=60')
     const ch = corsHeaders(origin)

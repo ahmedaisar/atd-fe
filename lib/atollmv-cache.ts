@@ -12,9 +12,12 @@ const DETAIL_BASE = `${EDGE_BASE}/hotel`
 const DETAIL_QS = 'checkin=2025-12-08&checkout=2025-12-14'
 
 const ENV_TTL = Number.parseInt(process.env.ATOLLMV_CACHE_TTL_MS || '', 10)
-const CACHE_TTL_MS = Number.isFinite(ENV_TTL) && ENV_TTL > 0 ? ENV_TTL : 5 * 60 * 1000
+const CACHE_TTL_MS = Number.isFinite(ENV_TTL) && ENV_TTL > 0 ? ENV_TTL : 40 * 60 * 60 * 1000
+// How many hotel details we will attempt to fetch (items array will include ALL list items regardless)
 const ENV_CAP = Number.parseInt(process.env.ATOLLMV_DETAILS_CAP || '', 10)
-const DETAILS_CAP = Number.isFinite(ENV_CAP) && ENV_CAP > 0 ? ENV_CAP : 20
+const DETAILS_CAP = Number.isFinite(ENV_CAP) && ENV_CAP > 0 ? ENV_CAP : 100
+// Minimum number of list items we aim to collect by trying additional pages/sizes
+const MIN_LIST_ITEMS = Math.max(1, Number.parseInt(process.env.ATOLLMV_MIN_LIST_ITEMS || '50', 10) || 50)
 
 function getIdFrom(h: AnyObj | null | undefined): string | undefined {
   if (!h) return undefined
@@ -97,6 +100,7 @@ function writeDiskCache(body: Body) {
 }
 
 export function getAtollmvCache(): { body: Body | null; ageMs: number } {
+  // If no in-memory cache, try to prime from disk
   if (!cache) {
     const disk = readDiskCacheSync()
     if (disk) {
@@ -105,7 +109,69 @@ export function getAtollmvCache(): { body: Body | null; ageMs: number } {
     }
     return { body: null, ageMs: Infinity }
   }
+  // If disk cache exists and differs from memory (e.g., updated by another process), reload
+  try {
+    for (const p of DISK_PATHS) {
+      if (fs.existsSync(p)) {
+        const stat = fs.statSync(p)
+        if (stat.mtimeMs > cache.stamped) {
+          const s = fs.readFileSync(p, 'utf8')
+          const j = JSON.parse(s)
+          if (j && Array.isArray(j.items)) {
+            cache = { stamped: stat.mtimeMs, body: j as Body }
+          }
+          break
+        }
+      }
+    }
+  } catch {}
   return { body: cache.body, ageMs: Date.now() - cache.stamped }
+}
+
+// Try to fetch additional pages/variants until we reach at least MIN_LIST_ITEMS
+async function tryFetchMoreList(initial: AnyObj[], baseUrls: string[]): Promise<AnyObj[]> {
+  const seen = new Set<string>()
+  const out: AnyObj[] = []
+  const pushUnique = (arr: AnyObj[]) => {
+    for (const h of arr) {
+      const id = getIdFrom(h)
+      const key = id || JSON.stringify(h)
+      if (!seen.has(key)) { seen.add(key); out.push(h) }
+    }
+  }
+  pushUnique(initial)
+  if (out.length >= MIN_LIST_ITEMS) return out
+
+  // Candidate size parameters and page range
+  const sizes = [200, 150, 100, MIN_LIST_ITEMS, 75, 50]
+  const maxPages = 6
+
+  for (const base of baseUrls) {
+    // handle both styles: if url already has '?', append with '&', else start with '?'
+    const hasQs = base.includes('?')
+    for (const size of sizes) {
+      for (let page = 1; page <= maxPages; page++) {
+        const url = `${base}${hasQs ? '&' : '?'}limit=${size}&page=${page}`
+        try {
+          const payload = await fetchJson(url, 90000)
+          const list = extractList(payload)
+          if (Array.isArray(list) && list.length) {
+            const before = out.length
+            pushUnique(list)
+            if (out.length >= MIN_LIST_ITEMS) return out
+            // If no new items found for this page, break paging loop for this size
+            if (out.length === before) break
+          } else {
+            break
+          }
+        } catch {
+          // ignore and try next combination
+          break
+        }
+      }
+    }
+  }
+  return out
 }
 
 export async function getAtollmvCached(refresh = false): Promise<{ body: Body; cacheStatus: 'HIT' | 'MISS' }> {
@@ -142,7 +208,18 @@ export async function getAtollmvCached(refresh = false): Promise<{ body: Body; c
     cache = { stamped: Date.now(), body }
     return { body, cacheStatus: 'MISS' }
   }
-  const list = extractList(listPayload)
+  let list = extractList(listPayload)
+  if (!Array.isArray(list)) list = []
+  // If too few items, attempt pagination/size variants to reach at least MIN_LIST_ITEMS
+  if (list.length < MIN_LIST_ITEMS) {
+    const bases = [
+      `${EDGE_BASE}/${LIST_PATH_STYLE}`,
+      `${EDGE_BASE}/${LIST_PATH_QS}`,
+    ]
+    try {
+      list = await tryFetchMoreList(list, bases)
+    } catch {}
+  }
 
   // Details cap and merge
   const idsAll = list.map(getIdFrom).filter(Boolean) as string[]
@@ -163,11 +240,53 @@ export async function getAtollmvCached(refresh = false): Promise<{ body: Body; c
 
 // Background warm-up once per process (non-blocking). This does not run from the homepage,
 // honoring the no-HTTP requirement there, but initializes the cache soon after server starts.
+async function warmViaLocalApi() {
+  const base = process.env.ATOLLMV_SELF_BASE || process.env.NEXT_PUBLIC_SITE_URL || 'http://localhost:3000'
+  const url = `${base.replace(/\/$/, '')}/api/atollmv?refresh=1`
+  const tries = 5
+  const delay = (ms: number) => new Promise(r => setTimeout(r, ms))
+  for (let i = 0; i < tries; i++) {
+    try {
+      const ac = new AbortController()
+      const t = setTimeout(() => ac.abort(), 15000)
+      const res = await fetch(url, { signal: ac.signal, headers: { accept: 'application/json' } as any, cache: 'no-store', keepalive: true as any })
+      clearTimeout(t)
+      if (res.ok) return true
+    } catch {}
+    await delay(500 * Math.pow(2, i))
+  }
+  return false
+}
+
 async function warmOnce() {
   if (warming) return
   warming = true
-  try { await getAtollmvCached(false) } catch { /* ignore */ }
+  try {
+    // Prefer warming via our API endpoint with refresh=1
+    const ok = await warmViaLocalApi()
+    if (!ok) {
+      // fallback: warm programmatically with a forced refresh
+      await getAtollmvCached(true)
+    }
+  } catch {
+    try { await getAtollmvCached(true) } catch {}
+  }
 }
 // Schedule without blocking import time
 // In dev, multiple reloads may re-import; guard with `warming` flag above.
-setTimeout(() => { warmOnce() }, 0)
+setTimeout(() => { warmOnce() }, 1500)
+
+// Clear cache (in-memory and on disk). Useful for admin/debug endpoints.
+export function clearAtollmvCache(): { cleared: boolean; removedFiles: string[] } {
+  cache = null
+  const removed: string[] = []
+  for (const p of DISK_PATHS) {
+    try {
+      if (fs.existsSync(p)) {
+        fs.unlinkSync(p)
+        removed.push(p)
+      }
+    } catch {}
+  }
+  return { cleared: true, removedFiles: removed }
+}

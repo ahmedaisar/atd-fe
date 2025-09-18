@@ -1,6 +1,7 @@
 "use client"
 import Image from 'next/image'
 import { useRef, useEffect, useState, useMemo } from 'react'
+import { useSearchParams } from 'next/navigation'
 import Link from 'next/link'
 import { normalizeOfferFlags } from '../../lib/normalize-offer-flags'
 
@@ -16,6 +17,7 @@ export interface TopRatedHotel {
   price: number // nightly price
   currency?: string
   badge?: string
+  toa?: string | string[]
   // Additional fields from details payload
   hero_offer?: any
   discount?: number | string
@@ -34,8 +36,53 @@ export function TopRatedHotels({ title = 'Top Rated Hotels', hotels }: TopRatedH
   const [mCanRight, setMCanRight] = useState(false)
   const [dCanLeft, setDCanLeft] = useState(false)
   const [dCanRight, setDCanRight] = useState(false)
+  const sp = useSearchParams()
 
-  const topHotels = useMemo(() => hotels.slice(0, 15), [hotels])
+  const filteredHotels = useMemo(() => {
+    try {
+  const DEFAULTS = { toa: 'resort', stars: 5, rrMin: 90, rrMax: 99, needDiscount: true, limit: 15 }
+      const toa = sp.get('toa') || DEFAULTS.toa
+      const stars = sp.get('stars') ?? String(DEFAULTS.stars)
+    const rrMin = sp.get('review_ratingmin') ?? String(DEFAULTS.rrMin)
+    const rrMax = sp.get('review_ratingmax') ?? String(DEFAULTS.rrMax)
+      const minDiscount = sp.get('minDiscount') ?? (DEFAULTS.needDiscount ? '1' : '')
+      const limit = sp.get('limit') ?? String(DEFAULTS.limit)
+
+      const wantStars = stars != null && stars !== '' ? Number.parseInt(stars, 10) : undefined
+  const min = rrMin != null && rrMin !== '' ? Number.parseFloat(rrMin) : DEFAULTS.rrMin
+  const max = rrMax != null && rrMax !== '' ? Number.parseFloat(rrMax) : DEFAULTS.rrMax
+      const needDiscount = minDiscount === '1' || minDiscount === 'true'
+      const effLimit = limit != null && limit !== '' ? Math.max(1, Math.min(1000, Number.parseInt(limit, 10) || DEFAULTS.limit)) : DEFAULTS.limit
+
+      const hasToa = (h: TopRatedHotel, t?: string) => {
+        if (!t) return true
+        const lc = t.toLowerCase()
+        const val = Array.isArray(h.toa) ? h.toa.map(v => String(v).toLowerCase()) : [String(h.toa ?? '').toLowerCase()]
+        return val.some(v => v.includes(lc))
+      }
+
+      let out = hotels
+        .filter(h => hasToa(h, toa))
+        .filter(h => (wantStars == null ? true : (Number(h.stars || 0) === wantStars)))
+        .filter(h => {
+          const r = Number(h.qualityReviewRating || 0)
+          if (r < min) return false
+          if (r > max) return false
+          return true
+        })
+        .filter(h => (needDiscount ? (Number.parseFloat(String(h.discount ?? 0)) > 0) : true))
+
+      // Always sort by review rating descending for Top Rated
+      out = out.slice().sort((a, b) => Number(b.qualityReviewRating || 0) - Number(a.qualityReviewRating || 0))
+
+      // Hard limit to 15 on the client side regardless of URL-specified limit
+      return out.slice(0, DEFAULTS.limit)
+    } catch {
+      return hotels.slice(0, 15)
+    }
+  }, [sp, hotels])
+
+  const topHotels = filteredHotels
 
   const update = () => {
     const m = mobileRef.current
