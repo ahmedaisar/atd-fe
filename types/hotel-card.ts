@@ -5,6 +5,7 @@ export interface HotelCardDetails {
   name: string
   images: string[]
   rating: number
+  description: string
   reviewCount: number
   price: number
   originalPrice?: number

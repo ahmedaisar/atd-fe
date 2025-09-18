@@ -5,6 +5,8 @@ import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { Collapsible, CollapsibleContent, CollapsibleTrigger } from "@/components/ui/collapsible";
+import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
+import { Checkbox } from "@/components/ui/checkbox";
 import {
   Star,
   MapPin,
@@ -28,7 +30,10 @@ import {
   Tv,
   Wind,
   Bath,
-  Package
+  Package,
+  Share2,
+  Check,
+  ChevronRight
 } from "lucide-react";
 // ...existing code...
 import Link from "next/link";
@@ -40,6 +45,13 @@ import { Offer } from "@/types/price-aggregator";
 // --- OfferCard style for offers expansion (from hotel details page) ---
 import Image from "next/image";
 import { Award, ExternalLink } from "lucide-react";
+import { useSearchParams } from "next/navigation";
+import { cn } from "@/lib/utils";
+
+// Import reusable components
+import { HotelImageSection } from "./hotel-card/hotel-image-section";
+import { HotelInfoSection, HotelBadgesSection } from "./hotel-card/hotel-info-section";
+import { HotelPriceSection, OffersToggleButton } from "./hotel-card/hotel-price-section";
 
 function getOfferIcon(flagKey: string) {
   const iconMap: { [key: string]: any } = {
@@ -49,6 +61,341 @@ function getOfferIcon(flagKey: string) {
   };
   const Icon = iconMap[flagKey] || Shield;
   return <Icon className="w-4 h-4" />;
+}
+
+// Standalone Offers Drawer Component - pixel perfect clone of screenshot
+function OffersDrawer({
+  isOpen,
+  onClose,
+  hotelName,
+  offers,
+  onBookClick,
+}: {
+  isOpen: boolean
+  onClose: () => void
+  hotelName: string
+  offers: Offer[]
+  onBookClick: (offer: Offer) => void
+}) {
+  const [activeTab, setActiveTab] = useState("prices")
+  const [filters, setFilters] = useState({
+    breakfastIncluded: false,
+    freeCancellation: false,
+    halfBoard: false,
+    allInclusive: false,
+    fullBoard: false,
+  })
+
+  if (!isOpen) return null;
+
+  const formatCurrency = (amount: number, currency = "USD") =>
+    new Intl.NumberFormat("en-US", { style: "currency", currency }).format(amount)
+
+  // Filter offers based on selected filters
+  const filteredOffers = offers.filter(offer => {
+    if (filters.breakfastIncluded && !(offer.offer_flags_new && offer.offer_flags_new.breakfast)) return false
+    if (filters.freeCancellation && !(offer.offer_flags_new && (offer.offer_flags_new.refundable || offer.free_cancellation))) return false
+    // Add more filter logic as needed
+    return true
+  })
+
+  // Group offers by vendor
+  const groupedOffers = filteredOffers.reduce((acc: { [key: string]: Offer[] }, offer) => {
+    if (!acc[offer.partner_name]) {
+      acc[offer.partner_name] = []
+    }
+    acc[offer.partner_name].push(offer)
+    return acc
+  }, {})
+
+  const vendorNames = Object.keys(groupedOffers).sort((a, b) => {
+    const aPrice = Math.min(...groupedOffers[a].map(o => o.price || 0))
+    const bPrice = Math.min(...groupedOffers[b].map(o => o.price || 0))
+    return aPrice - bPrice
+  })
+
+  const handleFilterChange = (filterKey: keyof typeof filters) => {
+    setFilters(prev => ({
+      ...prev,
+      [filterKey]: !prev[filterKey]
+    }))
+  }
+
+  return (
+    <div className="bg-white border border-gray-200 rounded-lg shadow-sm">
+      {/* Header */}
+      <div className="flex items-center justify-between p-4 border-b border-gray-200">
+        <div className="flex items-center gap-2">
+          <Share2 className="w-4 h-4 text-gray-600" />
+          <span className="text-sm text-gray-600">Share</span>
+        </div>
+        <Tabs value={activeTab} onValueChange={setActiveTab} className="flex-1 max-w-md">
+          <TabsList className="grid w-full grid-cols-4">
+            <TabsTrigger value="prices" className="text-sm">Prices</TabsTrigger>
+            <TabsTrigger value="photos" className="text-sm">Photos</TabsTrigger>
+            <TabsTrigger value="reviews" className="text-sm">Reviews</TabsTrigger>
+            <TabsTrigger value="info" className="text-sm">Info</TabsTrigger>
+          </TabsList>
+        </Tabs>
+        <button onClick={onClose} className="text-gray-400 hover:text-gray-600">
+          <span className="text-lg">×</span>
+        </button>
+      </div>
+
+      <Tabs value={activeTab} onValueChange={setActiveTab}>
+        <TabsContent value="prices" className="mt-0">
+          {/* Filter checkboxes */}
+          <div className="flex flex-wrap gap-4 p-4 bg-gray-50 border-b border-gray-200">
+            <label className="flex items-center gap-2 text-sm cursor-pointer">
+              <Checkbox 
+                checked={filters.breakfastIncluded}
+                onCheckedChange={() => handleFilterChange('breakfastIncluded')}
+              />
+              <span>Breakfast included</span>
+            </label>
+            <label className="flex items-center gap-2 text-sm cursor-pointer">
+              <Checkbox 
+                checked={filters.freeCancellation}
+                onCheckedChange={() => handleFilterChange('freeCancellation')}
+              />
+              <span>Free cancellation</span>
+            </label>
+            <label className="flex items-center gap-2 text-sm cursor-pointer">
+              <Checkbox 
+                checked={filters.halfBoard}
+                onCheckedChange={() => handleFilterChange('halfBoard')}
+              />
+              <span>Half board</span>
+            </label>
+            <label className="flex items-center gap-2 text-sm cursor-pointer">
+              <Checkbox 
+                checked={filters.allInclusive}
+                onCheckedChange={() => handleFilterChange('allInclusive')}
+              />
+              <span>All-inclusive</span>
+            </label>
+            <label className="flex items-center gap-2 text-sm cursor-pointer">
+              <Checkbox 
+                checked={filters.fullBoard}
+                onCheckedChange={() => handleFilterChange('fullBoard')}
+              />
+              <span>Full board</span>
+            </label>
+          </div>
+
+          {/* Offers list */}
+          <div className="p-4 space-y-3">
+            {vendorNames.map((vendorName, index) => {
+              const vendorOffers = groupedOffers[vendorName]
+              const mainOffer = vendorOffers[0]
+              const isLowestPrice = index === 0
+              const additionalOffers = vendorOffers.slice(1)
+              
+              return (
+                <VendorOfferCard
+                  key={vendorName}
+                  vendor={vendorName}
+                  mainOffer={mainOffer}
+                  additionalOffers={additionalOffers}
+                  isLowestPrice={isLowestPrice}
+                  onBookClick={onBookClick}
+                />
+              )
+            })}
+          </div>
+
+          {/* Show all prices button */}
+          <div className="p-4 border-t border-gray-200">
+            <button className="w-full bg-gray-100 text-gray-700 py-2 px-4 rounded text-sm font-medium hover:bg-gray-200">
+              Show all prices ∨
+            </button>
+          </div>
+        </TabsContent>
+
+        <TabsContent value="photos" className="p-4">
+          <div className="text-center text-gray-500">
+            Photos content would go here
+          </div>
+        </TabsContent>
+
+        <TabsContent value="reviews" className="p-4">
+          <div className="text-center text-gray-500">
+            Reviews content would go here
+          </div>
+        </TabsContent>
+
+        <TabsContent value="info" className="p-4">
+          <div className="text-center text-gray-500">
+            Info content would go here
+          </div>
+        </TabsContent>
+      </Tabs>
+    </div>
+  )
+}
+
+// Individual vendor offer card component
+function VendorOfferCard({
+  vendor,
+  mainOffer,
+  additionalOffers,
+  isLowestPrice,
+  onBookClick,
+}: {
+  vendor: string
+  mainOffer: Offer
+  additionalOffers: Offer[]
+  isLowestPrice: boolean
+  onBookClick: (offer: Offer) => void
+}) {
+  const [showMore, setShowMore] = useState(false)
+  const formatCurrency = (amount: number) => `$${amount}`
+
+  const includesBreakfast = (offer: Offer) => !!(offer.offer_flags_new && offer.offer_flags_new.breakfast)
+  const isRefundable = (offer: Offer) => !!(offer.offer_flags_new && (offer.offer_flags_new.refundable || offer.free_cancellation))
+
+  return (
+    <div className="space-y-2">
+      {/* Main offer */}
+      <div className={cn(
+        "border rounded-lg p-4",
+        isLowestPrice ? "bg-green-50 border-green-200" : "bg-white border-gray-200"
+      )}>
+        <div className="flex items-start justify-between">
+          <div className="flex items-start gap-3">
+            {/* Vendor logo */}
+            <div className="w-8 h-6 bg-blue-600 rounded flex items-center justify-center">
+              <span className="text-white text-xs font-bold">
+                {vendor === "Priceline" && "P"}
+                {vendor === "Hotels.com" && "H"}
+                {vendor === "Agoda" && "A"}
+                {vendor === "ATD Direct" && "ATD"}
+                {vendor === "Trip.com" && "T"}
+              </span>
+            </div>
+            
+            <div>
+              <div className="flex items-center gap-2">
+                <span className="font-medium text-sm">{vendor}</span>
+                {vendor === "Priceline" && (
+                  <span className="text-xs bg-blue-100 text-blue-700 px-2 py-0.5 rounded">Featured</span>
+                )}
+                {isLowestPrice && (
+                  <span className="text-xs bg-red-100 text-red-700 px-2 py-0.5 rounded">Our lowest price</span>
+                )}
+              </div>
+              <div className="text-xs text-gray-600 mt-1">{mainOffer.room_name}</div>
+              
+              {/* Amenities */}
+              <div className="flex items-center gap-3 mt-2">
+                {isRefundable(mainOffer) && (
+                  <div className="flex items-center gap-1 text-green-600 text-xs">
+                    <Check className="w-3 h-3" />
+                    <span>Free cancellation before Sep 21</span>
+                  </div>
+                )}
+                {includesBreakfast(mainOffer) && (
+                  <div className="flex items-center gap-1 text-green-600 text-xs">
+                    <Check className="w-3 h-3" />
+                    <span>Breakfast included</span>
+                  </div>
+                )}
+              </div>
+
+              {/* Show more link */}
+              {additionalOffers.length > 0 && (
+                <button
+                  onClick={() => setShowMore(!showMore)}
+                  className="text-blue-600 text-xs mt-2 hover:underline flex items-center gap-1"
+                >
+                  <ChevronDown className={cn("w-3 h-3 transition-transform", showMore && "rotate-180")} />
+                  Show {additionalOffers.length} more prices from {vendor}
+                </button>
+              )}
+            </div>
+          </div>
+
+          {/* Price and button */}
+          <div className="text-right">
+            <div className="text-2xl font-bold">{formatCurrency(mainOffer.price || 0)}</div>
+            <div className="text-xs text-gray-600 mt-1">
+              4 nights for {formatCurrency((mainOffer.price || 0) * 4)}
+            </div>
+            <div className="text-xs text-gray-500">Includes all fees (excludes taxes)</div>
+            <Button
+              onClick={() => onBookClick(mainOffer)}
+              className="mt-2 bg-green-600 hover:bg-green-700 text-white rounded text-sm px-4 py-1"
+            >
+              Visit site →
+            </Button>
+          </div>
+        </div>
+      </div>
+
+      {/* Expandable table for additional offers */}
+      {showMore && additionalOffers.length > 0 && (
+        <div className="ml-8 bg-white border border-gray-200 rounded-lg overflow-hidden">
+          <div className="bg-gray-50 px-4 py-2 border-b border-gray-200">
+            <h4 className="text-sm font-medium text-gray-700">More prices from {vendor}</h4>
+          </div>
+          <div className="overflow-x-auto">
+            <table className="w-full">
+              <thead className="bg-gray-50">
+                <tr>
+                  <th className="px-4 py-2 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Room Type</th>
+                  <th className="px-4 py-2 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Amenities</th>
+                  <th className="px-4 py-2 text-right text-xs font-medium text-gray-500 uppercase tracking-wider">Price</th>
+                  <th className="px-4 py-2 text-right text-xs font-medium text-gray-500 uppercase tracking-wider">Total (4 nights)</th>
+                  <th className="px-4 py-2 text-center text-xs font-medium text-gray-500 uppercase tracking-wider">Action</th>
+                </tr>
+              </thead>
+              <tbody className="bg-white divide-y divide-gray-200">
+                {additionalOffers.map((offer, idx) => (
+                  <tr key={idx} className="hover:bg-gray-50">
+                    <td className="px-4 py-3">
+                      <div className="text-sm font-medium text-gray-900">{offer.room_name}</div>
+                    </td>
+                    <td className="px-4 py-3">
+                      <div className="flex flex-wrap gap-1">
+                        {includesBreakfast(offer) && (
+                          <span className="inline-flex items-center gap-1 text-xs bg-green-100 text-green-700 px-2 py-0.5 rounded">
+                            <Check className="w-3 h-3" />
+                            Breakfast
+                          </span>
+                        )}
+                        {isRefundable(offer) && (
+                          <span className="inline-flex items-center gap-1 text-xs bg-blue-100 text-blue-700 px-2 py-0.5 rounded">
+                            <Shield className="w-3 h-3" />
+                            Free cancel
+                          </span>
+                        )}
+                      </div>
+                    </td>
+                    <td className="px-4 py-3 text-right">
+                      <div className="text-lg font-bold text-gray-900">{formatCurrency(offer.price || 0)}</div>
+                      <div className="text-xs text-gray-500">per night</div>
+                    </td>
+                    <td className="px-4 py-3 text-right">
+                      <div className="text-sm font-medium text-gray-900">{formatCurrency((offer.price || 0) * 4)}</div>
+                      <div className="text-xs text-gray-500">Includes all fees</div>
+                    </td>
+                    <td className="px-4 py-3 text-center">
+                      <Button
+                        onClick={() => onBookClick(offer)}
+                        className="bg-green-600 hover:bg-green-700 text-white rounded text-xs px-3 py-1"
+                      >
+                        Visit site
+                      </Button>
+                    </td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
+        </div>
+      )}
+    </div>
+  )
 }
 
   function OfferCard({ offer, isHero, savings, rank, onBookClick, showDetailsBtn, hotelId }: {
@@ -129,6 +476,36 @@ export function EnhancedHotelCard({ hotel, viewMode }: EnhancedHotelCardProps) {
   const [showDetails, setShowDetails] = useState(false);
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
   const [isWishlisted, setIsWishlisted] = useState(false);
+  const [offersDrawerOpen, setOffersDrawerOpen] = useState(false);
+
+  // Process offers for grouping by vendor
+  const offers = hotel.offers as Offer[] || []
+  const groupedOffers = offers.reduce((acc: Offer[][], offer) => {
+    const existingGroup = acc.find(group => group[0].partner_name === offer.partner_name)
+    if (existingGroup) {
+      existingGroup.push(offer)
+    } else {
+      acc.push([offer])
+    }
+    return acc
+  }, []).sort((a, b) => (a[0].price || 0) - (b[0].price || 0))
+
+  // Handle booking analytics
+  const handleBookingClick = (offer: Offer) => {
+    // Analytics tracking
+    if (typeof window !== 'undefined' && 'gtag' in window) {
+      (window as any).gtag('event', 'book_hotel', {
+        event_category: 'hotel_booking',
+        event_label: `${hotel.name} - ${offer.partner_name}`,
+        value: offer.price,
+      })
+    }
+    
+    // Open booking URL
+    if (offer.booking_url) {
+      window.open(offer.booking_url, '_blank')
+    }
+  }
 
   // Always map images to an array of URLs for rendering
   const imageUrls: string[] = Array.isArray(hotel.images)
@@ -176,349 +553,163 @@ export function EnhancedHotelCard({ hotel, viewMode }: EnhancedHotelCardProps) {
   };
 
 
-  // Grid view layout (refactored for aggregator data, expandable offers placeholder)
-  if (viewMode === "grid") {
-    return (
-      <Card className="overflow-hidden hover:shadow-lg transition-all duration-300">
-        <div className="relative">
-          {/* ...existing image and badge code... */}
-          <div className="relative h-48 overflow-hidden">
-            <Image
-              src={imageUrls[currentImageIndex] || "/placeholder.svg"}
-              alt={hotel.name}
-              fill
-              className="object-cover"
-            />
-            <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent opacity-0 hover:opacity-100 transition-opacity duration-300"></div>
-            <div className="absolute bottom-0 left-0 right-0 p-2 flex justify-between items-center pointer-events-none">
-              <button 
-                onClick={prevImage} 
-                className="p-1 bg-white/70 rounded-full hover:bg-white pointer-events-auto"
-                aria-label="Previous image"
-              >
-                <ChevronDown className="w-4 h-4 rotate-90" />
-              </button>
-              <span className="text-xs bg-black/60 text-white px-2 py-1 rounded-full">
-                {currentImageIndex + 1}/{imageUrls.length}
-              </span>
-              <button 
-                onClick={nextImage} 
-                className="p-1 bg-white/70 rounded-full hover:bg-white pointer-events-auto"
-                aria-label="Next image"
-              >
-                <ChevronDown className="w-4 h-4 -rotate-90" />
-              </button>
-            </div>
-            <Button
-              variant="ghost"
-              size="sm"
-              className="absolute top-2 right-2 bg-white/80 hover:bg-white"
-              onClick={() => setIsWishlisted(!isWishlisted)}
-            >
-              <Heart className={`w-4 h-4 ${isWishlisted ? "fill-red-500 text-red-500" : ""}`} />
-            </Button>
-            {discount > 0 && <Badge className="absolute top-2 left-2 bg-red-500 text-white">-{discount}%</Badge>}
-            {hotel.starRating > 0 && (
-              <Badge className="absolute bottom-12 left-2 bg-yellow-500/90 text-white">
-                {Array.from({ length: Math.min(5, Math.round(hotel.starRating)) }).map((_, i) => (
-                  <Star key={i} className="w-3 h-3 fill-white" />
-                ))}
-              </Badge>
-            )}
-          </div>
-        </div>
-        <CardContent className="p-3 md:p-4">
-          <h3 className="font-semibold text-base md:text-lg line-clamp-2">{hotel.name}</h3>
-          <div className="flex items-center space-x-2 text-sm text-gray-600 mt-2">
-            <MapPin className="w-4 h-4" />
-            <span>{hotel.location}</span>
-          </div>
-          <div className="flex items-center space-x-2 mt-1 md:mt-2">
-            <div className="flex items-center space-x-1">
-              <Star className="w-4 h-4 fill-yellow-400 text-yellow-400" />
-              <span className="font-medium">{hotel.rating}</span>
-            </div>
-            <span className="text-sm text-gray-600">({hotel.reviewCount} reviews)</span>
-          </div>
-          <div className="flex flex-wrap gap-1.5 md:gap-2 mt-2 md:mt-3">
-            {hotel.freeCancellation && (
-              <Badge variant="outline" className="text-xs text-green-600 border-green-200">
-                <Shield className="w-3 h-3 mr-1" />
-                Free Cancellation
-              </Badge>
-            )}
-            {hotel.payAtProperty && (
-              <Badge variant="outline" className="text-xs text-blue-600 border-blue-200">
-                <CreditCard className="w-3 h-3 mr-1" />
-                Pay Later
-              </Badge>
-            )}
-            {hotel.urgency?.percentBooked && hotel.urgency.percentBooked > 70 && (
-              <Badge variant="outline" className="text-xs text-red-600 border-red-200">
-                <Flame className="w-3 h-3 mr-1" />
-                {hotel.urgency.percentBooked}% Booked
-              </Badge>
-            )}
-          </div>
-          {hotel.amenities && hotel.amenities.length > 0 && (
-            <div className="flex flex-wrap gap-2 mt-3">
-              {hotel.amenities.slice(0, 3).map((amenity) => {
-                const Icon = amenityIcons[amenity as keyof typeof amenityIcons];
-                return (
-                  <div key={amenity} className="flex items-center space-x-1 text-xs text-gray-600">
-                    {Icon && <Icon className="w-3 h-3" />}
-                    <span>{amenity}</span>
-                  </div>
-                );
-              })}
-            </div>
-          )}
-          <div className="flex items-end justify-between mt-3 md:mt-4 pt-3 border-t">
-            <div>
-              {hotel.originalPrice && (
-                <span className="text-gray-500 line-through text-sm">${hotel.originalPrice}</span>
-              )}
-              <div className="flex items-baseline space-x-1">
-                <span className="text-xl md:text-2xl font-bold text-blue-600">${hotel.price}</span>
-                <span className="text-xs md:text-sm text-gray-600">/night</span>
-              </div>
-            </div>
-          </div>
-          {/* Expandable offers section - OfferCard style */}
-          <div className="mt-3 md:mt-4">
-            <Collapsible>
-              <div className="flex items-center justify-between border-b pb-2">
-                <div className="font-medium text-sm">Best Offer</div>
-                <div className="flex items-center gap-1.5 md:gap-2">
-                  <Link href={`/hotel/${hotel.id}`}>
-                    <Button variant="outline" size="sm" className="text-[11px] md:text-xs px-2 md:px-3">Hotel Details</Button>
-                  </Link>
-                  <CollapsibleTrigger asChild>
-                    <Button variant="ghost" size="sm" className="text-[11px] md:text-xs px-2 md:px-3">
-                      View All Offers
-                      <ChevronDown className="w-3 h-3 ml-1" />
-                    </Button>
-                  </CollapsibleTrigger>
-                </div>
-              </div>
-              {/* Best offer summary (first offer) */}
-              {hotel.offers && hotel.offers.length > 0 && (
-                <OfferCard
-                  offer={hotel.offers[0]}
-                  isHero={true}
-                  savings={undefined}
-                  rank={1}
-                  onBookClick={(offer) => {
-                    if (offer.booking_url) window.open(offer.booking_url, '_blank', 'noopener,noreferrer');
-                  }}
-                  showDetailsBtn={false}
-                  hotelId={hotel.id}
-                />
-              )}
-              {/* Expandable offers list */}
-              <CollapsibleContent>
-                <div className="mt-2">
-                  {hotel.offers && hotel.offers.length > 0 ? (
-                    hotel.offers.map((offer: Offer, idx: number) => (
-                      <OfferCard
-                        key={idx}
-                        offer={offer}
-                        isHero={idx === 0}
-                        savings={undefined}
-                        rank={idx + 1}
-                        onBookClick={(offer) => {
-                          if (offer.booking_url) window.open(offer.booking_url, '_blank', 'noopener,noreferrer');
-                        }}
-                        showDetailsBtn={false}
-                        hotelId={hotel.id}
-                      />
-                    ))
-                  ) : (
-                    <div className="text-center py-2 text-gray-400">No offers available</div>
-                  )}
-                </div>
-              </CollapsibleContent>
-            </Collapsible>
-          </div>
-        </CardContent>
-      </Card>
-    );
-  }
-
-  // List view layout with OfferCard style for offers expansion
+  // List view layout - pixel-perfect match to attached design
+  // List view layout - pixel-perfect match to attached design
   return (
-    <Card className="overflow-hidden hover:shadow-lg transition-all duration-300">
-      <div className="flex flex-col md:flex-row items-stretch">
-  <div className="relative w-full md:w-1/3 lg:w-1/4 md:self-stretch md:flex-shrink-0">
-          <div className="relative h-44 md:h-full md:min-h-[280px] overflow-hidden">
-            <Image
-              src={imageUrls[currentImageIndex] || "/placeholder.svg"}
-              alt={hotel.name}
-              fill
-              className="object-cover"
+    <>
+      <Card className="overflow-hidden border border-gray-200 shadow-sm">
+        <div className="flex min-h-[160px]">
+          {/* Left: Hotel Image Section - Fixed width matching screenshot */}
+          <div className="relative w-60 flex-shrink-0">
+            <HotelImageSection
+              imageUrls={imageUrls}
+              hotelName={hotel.name}
+              discount={discount}
+              starRating={hotel.starRating}
+              isWishlisted={isWishlisted}
+              onWishlistToggle={() => setIsWishlisted(!isWishlisted)}
+              isListView={true}
             />
-            <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent opacity-0 hover:opacity-100 transition-opacity duration-300"></div>
-            <div className="absolute bottom-0 left-0 right-0 p-2 flex justify-between items-center">
-              <button 
-                onClick={prevImage} 
-                className="p-1 bg-white/70 rounded-full hover:bg-white"
-                aria-label="Previous image"
-              >
-                <ChevronDown className="w-4 h-4 rotate-90" />
-              </button>
-              <span className="text-xs bg-black/60 text-white px-2 py-1 rounded-full">
-                {currentImageIndex + 1}/{imageUrls.length}
-              </span>
-              <button 
-                onClick={nextImage} 
-                className="p-1 bg-white/70 rounded-full hover:bg-white"
-                aria-label="Next image"
-              >
-                <ChevronDown className="w-4 h-4 -rotate-90" />
-              </button>
-            </div>
-            <Button
-              variant="ghost"
-              size="sm"
-              className="absolute top-2 right-2 bg-white/80 hover:bg-white"
-              onClick={() => setIsWishlisted(!isWishlisted)}
-            >
-              <Heart className={`w-4 h-4 ${isWishlisted ? "fill-red-500 text-red-500" : ""}`} />
-            </Button>
-            {discount > 0 && <Badge className="absolute top-2 left-2 bg-red-500 text-white">-{discount}%</Badge>}
-            {hotel.starRating > 0 && (
-              <Badge className="absolute bottom-12 left-2 bg-yellow-500/90 text-white">
-                {Array.from({ length: Math.min(5, Math.round(hotel.starRating)) }).map((_, i) => (
-                  <Star key={i} className="w-3 h-3 fill-white" />
-                ))}
-              </Badge>
-            )}
           </div>
-        </div>
 
-  <div className="flex-1 p-3 md:p-4">
-          <div className="flex flex-col md:flex-row md:justify-between">
-            <div>
-              <h3 className="font-semibold text-lg md:text-xl">{hotel.name}</h3>
-              <div className="flex items-center space-x-2 text-sm text-gray-600 mt-2">
-                <MapPin className="w-4 h-4" />
-                <span>{hotel.location}</span>
-              </div>
-              <div className="flex items-center space-x-2 mt-2">
-                <div className="flex items-center space-x-1">
-                  <Star className="w-4 h-4 fill-yellow-400 text-yellow-400" />
-                  <span className="font-medium">{hotel.rating}</span>
+          {/* Middle: Hotel Information - Takes remaining space */}
+          <div className="flex-1 p-4">
+            <div className="flex h-full">
+              <div className="flex-1 flex flex-col justify-between">
+                <div>
+                  {/* Hotel name and star rating */}
+                  <div className="flex items-start justify-between mb-2">
+                    <h3 className="text-lg font-semibold text-gray-900 leading-tight">
+                      {hotel.name}
+                    </h3>
+                    <div className="ml-2 flex items-center">
+                      {/* Star rating display */}
+                      <div className="flex items-center text-orange-400">
+                        {Array.from({ length: 5 }).map((_, i) => (
+                          <Star 
+                            key={i} 
+                            className={`w-3 h-3 ${
+                              i < Math.floor(hotel.starRating || 5) 
+                                ? 'fill-orange-400' 
+                                : 'fill-gray-200'
+                            }`} 
+                          />
+                        ))}
+                      </div>
+                      <span className="ml-1 text-xs text-gray-600">Resort</span>
+                    </div>
+                  </div>
+
+                  {/* Hotel features */}
+                  <div className="text-sm text-gray-700 mb-2">
+                    <div className="flex items-start">
+                      <span className="mr-2 mt-0.5">+</span>
+                      <span>Thatched-Roof Villas with Ocean Views, Two Turquoise Pools and Waterside Lounge</span>
+                    </div>
+                  </div>
+
+                  {/* Location */}
+                  <div className="flex items-center text-sm text-gray-600 mb-2">
+                    <MapPin className="w-4 h-4 mr-1" />
+                    <span>11.8 miles to City center</span>
+                  </div>
                 </div>
-                <span className="text-sm text-gray-600">({hotel.reviewCount} reviews)</span>
-              </div>
-            </div>
-            <div className="mt-3 md:mt-0 md:text-right">
-              {hotel.originalPrice && (
-                <span className="text-gray-500 line-through text-sm">${hotel.originalPrice}</span>
-              )}
-              <div className="flex items-baseline space-x-1 md:justify-end">
-                <span className="text-2xl font-bold text-blue-600">${hotel.price}</span>
-                <span className="text-sm text-gray-600">/night</span>
-              </div>
-            </div>
-          </div>
-          <div className="flex flex-wrap gap-1.5 md:gap-2 mt-2 md:mt-3">
-            {hotel.freeCancellation && (
-              <Badge variant="outline" className="text-xs text-green-600 border-green-200">
-                <Shield className="w-3 h-3 mr-1" />
-                Free Cancellation
-              </Badge>
-            )}
-            {hotel.payAtProperty && (
-              <Badge variant="outline" className="text-xs text-blue-600 border-blue-200">
-                <CreditCard className="w-3 h-3 mr-1" />
-                Pay Later
-              </Badge>
-            )}
-            {hotel.sustainabilityCertified && (
-              <Badge variant="outline" className="text-xs text-green-600 border-green-200">
-                <Leaf className="w-3 h-3 mr-1" />
-                Eco-Certified
-              </Badge>
-            )}
-            {hotel.instantConfirmation && (
-              <Badge variant="outline" className="text-xs text-purple-600 border-purple-200">
-                <Zap className="w-3 h-3 mr-1" />
-                Instant Confirmation
-              </Badge>
-            )}
-            {hotel.urgency?.percentBooked && hotel.urgency.percentBooked > 70 && (
-              <Badge variant="outline" className="text-xs text-red-600 border-red-200">
-                <Flame className="w-3 h-3 mr-1" />
-                {hotel.urgency.percentBooked}% Booked
-              </Badge>
-            )}
-            {hotel.urgency?.viewing && hotel.urgency.viewing > 0 && (
-              <Badge variant="outline" className="text-xs text-amber-600 border-amber-200">
-                <Eye className="w-3 h-3 mr-1" />
-                {hotel.urgency.viewing} viewing now
-              </Badge>
-            )}
-          </div>
-          {/* Expandable offers section - OfferCard style */}
-          <div className="mt-3 md:mt-4">
-            <Collapsible>
-              <div className="flex items-center justify-between border-b pb-2">
-                <div className="font-medium text-sm">Best Offer</div>
-                
-                <div className="flex items-center gap-1.5 md:gap-2">
-                  <Link href={`/hotel/${hotel.id}`}>
-                    <Button variant="outline" size="sm" className="text-[11px] md:text-xs px-2 md:px-3">Hotel Details</Button>
-                  </Link>
-                  <CollapsibleTrigger asChild>
-                    <Button variant="ghost" size="sm" className="text-[11px] md:text-xs px-2 md:px-3">
-                      View All Offers
-                      <ChevronDown className="w-3 h-3 ml-1" />
-                    </Button>
-                  </CollapsibleTrigger>
+
+                {/* Rating score - positioned at bottom */}
+                <div className="flex items-center">
+                  <div className="bg-green-600 text-white text-sm font-bold px-2 py-1 rounded mr-2">
+                    9.7
+                  </div>
+                  <span className="text-sm font-medium text-gray-900">Excellent</span>
+                  <span className="text-sm text-gray-600 ml-1">({hotel.reviewCount || '52'} ratings)</span>
                 </div>
               </div>
-              {/* Best offer summary (first offer) */}
-              {hotel.offers && hotel.offers.length > 0 && (
-                <OfferCard
-                  offer={hotel.offers[0]}
-                  isHero={true}
-                  savings={undefined}
-                  rank={1}
-                  onBookClick={(offer) => {
-                    if (offer.booking_url) window.open(offer.booking_url, '_blank', 'noopener,noreferrer');
-                  }}
-                  showDetailsBtn={false}
-                  hotelId={hotel.id}
-                />
-              )}
-              {/* Expandable offers list */}
-              <CollapsibleContent>
-                <div className="mt-2">
-                  {hotel.offers && hotel.offers.length > 0 ? (
-                    hotel.offers.map((offer: Offer, idx: number) => (
-                      <OfferCard
-                        key={idx}
-                        offer={offer}
-                        isHero={idx === 0}
-                        savings={undefined}
-                        rank={idx + 1}
-                        onBookClick={(offer) => {
-                          if (offer.booking_url) window.open(offer.booking_url, '_blank', 'noopener,noreferrer');
+
+              {/* Right: Pricing Section - Fixed width */}
+              <div className="w-48 bg-green-50 border border-green-200 rounded-lg p-3 ml-4 flex flex-col">
+                {/* "Our lowest price" badge */}
+                <div className="text-center mb-3">
+                  <div className="inline-block bg-white border border-red-400 text-red-600 text-xs font-medium px-3 py-1 rounded-full mb-2">
+                    Our lowest price
+                  </div>
+                </div>
+
+                {/* Vendor name */}
+                <div className="text-center mb-2">
+                  <div className="text-sm font-medium text-gray-900">Priceline</div>
+                </div>
+
+                {/* Breakfast included check */}
+                <div className="flex items-center justify-center text-green-700 text-sm mb-3">
+                  <Check className="w-4 h-4 mr-1" />
+                  <span>Breakfast included</span>
+                </div>
+
+                {/* Price display */}
+                <div className="text-center mb-4 flex-1 flex flex-col justify-center">
+                  <div className="text-3xl font-bold text-gray-900">${hotel.price}</div>
+                  <div className="text-sm text-gray-700">4 nights for ${(hotel.price * 4).toLocaleString()}</div>
+                  <div className="text-xs text-gray-600 mt-1">includes all fees (excludes taxes)</div>
+                </div>
+
+                {/* View Deal button */}
+                <Button className="w-full bg-green-600 hover:bg-green-700 text-white font-medium py-2 rounded-lg mb-3">
+                  View Deal →
+                </Button>
+
+                {/* Additional vendor prices */}
+                <div className="space-y-1">
+                  {/* <div className="flex justify-between text-sm">
+                    <span className="text-gray-700">${hotel.offers?.[1]?.price || 602}</span>
+                    <span className="text-gray-600">Hotels.com</span>
+                  </div>
+                  <div className="flex justify-between text-sm">
+                    <span className="text-gray-700">${hotel.offers?.[2]?.price || 682}</span>
+                    <span className="text-gray-600">Agoda</span>
+                  </div> */}
+                  
+                  {/* Show more prices dropdown */}
+                  {hotel.offers && hotel.offers.length > 0 && (
+                    <div className="text-center pt-2">
+                       {/* View All button */}
+                      <Button
+                        className="w-full font-medium py-2 rounded-lg mb-3 text-white"
+                        style={{
+                          background: "radial-gradient(circle at center -59px, #ffd178 0, #b5842d 83%, #a37220 100%)",
                         }}
-                        showDetailsBtn={false}
-                        hotelId={hotel.id}
-                      />
-                    ))
-                  ) : (
-                    <div className="text-center py-2 text-gray-400">No offers available</div>
+                        onMouseEnter={e => {
+                          (e.currentTarget as HTMLButtonElement).style.background =
+                            "radial-gradient(circle at center -59px, #e2b45c 0, #8c6a1c 83%, #7a5a13 100%)";
+                        }}
+                        onMouseLeave={e => {
+                          (e.currentTarget as HTMLButtonElement).style.background =
+                            "radial-gradient(circle at center -59px, #ffd178 0, #b5842d 83%, #a37220 100%)";
+                        }}
+                        onClick={() => setOffersDrawerOpen(!offersDrawerOpen)}
+                      >
+                        View All →
+                      </Button>
+                    </div>
                   )}
                 </div>
-              </CollapsibleContent>
-            </Collapsible>
+              </div>
+            </div>
           </div>
         </div>
-      </div>
-    </Card>
+      </Card>
+      
+      {/* Standalone Offers Drawer */}
+      {hotel.offers && hotel.offers.length > 0 && offersDrawerOpen && (
+        <div className="mt-2 mb-4">
+          <OffersDrawer
+            isOpen={offersDrawerOpen}
+            onClose={() => setOffersDrawerOpen(false)}
+            hotelName={hotel.name}
+            offers={offers}
+            onBookClick={handleBookingClick}
+          />
+        </div>
+      )}
+    </>
   );
 }

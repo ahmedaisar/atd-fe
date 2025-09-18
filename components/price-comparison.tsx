@@ -30,6 +30,7 @@ import type {
   PriceComparisonProps,
   ConversionEvent 
 } from '@/types/price-aggregator'
+import { OfferRow } from "@/components/offers/offer-row"
 
 const formatCurrency = (amount: number, currency: string = 'USD') => {
   return new Intl.NumberFormat('en-US', {
@@ -629,97 +630,18 @@ export function PriceComparison({ hotelId }: PriceComparisonProps) {
               </div>
             </div>
             
-            {/* Table Rows */}
-            <div className="divide-y divide-gray-100">
-              {allOffers.map((offer, index) => {
-                const savings = Math.round(((highestPrice - offer.price) / highestPrice) * 100)
-                const partnerInfo = getPartnerInfo(offer.vendor, offer.partner_name)
-                
-                return (
-                  <div key={`${offer.vendor}-${offer.room_name}-${index}`} 
-                       className="p-4 hover:bg-gray-50 transition-colors">
-                    <div className="flex items-center justify-between">
-                      {/* Left side - Partner info */}
-                      <div className="flex items-center space-x-4 flex-1">
-                        <div className={`w-12 h-8 relative ${partnerInfo.fallbackBg} rounded flex items-center justify-center flex-shrink-0 border border-gray-200`}>
-                          <Image
-                            src={offer.partner_logo}
-                            alt={offer.partner_name}
-                            width={48}
-                            height={32}
-                            className="max-w-full max-h-full object-contain"
-                            onError={(e) => {
-                              const target = e.target as HTMLImageElement
-                              target.style.display = 'none'
-                              target.nextElementSibling?.classList.remove('hidden')
-                            }}
-                          />
-                          <span className={`hidden text-xs font-bold ${partnerInfo.color}`}>
-                            {offer.vendor.toUpperCase()}
-                          </span>
-                        </div>
-                        
-                        <div className="min-w-0 flex-1">
-                          <div className="flex items-center space-x-2">
-                            <div className={`font-medium text-sm ${partnerInfo.color}`}>
-                              {partnerInfo.name}
-                            </div>
-                            {index < 3 && (
-                              <Badge className={`text-xs ${
-                                index === 0 ? 'bg-yellow-500 text-white' :
-                                index === 1 ? 'bg-gray-400 text-white' :
-                                'bg-orange-500 text-white'
-                              } flex items-center space-x-1`}>
-                                <Award className="w-3 h-3" />
-                                <span>#{index + 1} Best Price</span>
-                              </Badge>
-                            )}
-                          </div>
-                          <div className="text-xs text-gray-500">{offer.room_name}</div>
-                          
-                          {/* Offer flags in a compact format */}
-                          {offer.offer_flags_new && Object.keys(offer.offer_flags_new).length > 0 && (
-                            <div className="flex items-center space-x-2 mt-1">
-                              {Object.entries(offer.offer_flags_new).slice(0, 3).map(([key, value]) => (
-                                <span key={key} className="text-xs text-blue-600 flex items-center space-x-1">
-                                  {getOfferIcon(key)}
-                                  <span className="hidden sm:inline">{value}</span>
-                                </span>
-                              ))}
-                              {Object.keys(offer.offer_flags_new).length > 3 && (
-                                <span className="text-xs text-gray-400">+{Object.keys(offer.offer_flags_new).length - 3} more</span>
-                              )}
-                            </div>
-                          )}
-                        </div>
-                      </div>
-                      
-                      {/* Right side - Price and action */}
-                      <div className="flex items-center space-x-4">
-                        {savings > 5 && (
-                          <div className="bg-green-100 text-green-700 text-xs px-2 py-1 rounded">
-                            {savings}% OFF
-                          </div>
-                        )}
-                        
-                        <div className="text-right">
-                          <div className="text-lg font-bold text-gray-900">
-                            {formatCurrency(offer.price)}
-                          </div>
-                          <div className="text-xs text-gray-500">per night</div>
-                        </div>
-                        
-                        <Button 
-                          onClick={() => handleBookOffer(offer)}
-                          className="bg-blue-600 hover:bg-blue-700 text-white px-6 py-2 text-sm"
-                        >
-                          View deal
-                        </Button>
-                      </div>
-                    </div>
-                  </div>
-                )
-              })}
+            <div className="space-y-3 p-4">
+              {allOffers.map((offer, index) => (
+                <OfferRow
+                  key={`${offer.vendor}-${offer.room_name}-${index}`}
+                  offer={offer}
+                  nights={1}
+                  currency={(offer as any).currency || 'USD'}
+                  isHighlighted={index === 0}
+                  totalFromVendorCount={allOffers.filter(o => o.vendor === offer.vendor).length}
+                  onBookClick={handleBookOffer}
+                />
+              ))}
             </div>
             
             {/* Show more offers button */}
@@ -763,97 +685,18 @@ export function PriceComparison({ hotelId }: PriceComparisonProps) {
                     </div>
                   </div>
                   
-                  {/* Table Rows */}
-                  <div className="divide-y divide-gray-100">
-                    {offers.map((offer, index) => {
-                      const savings = Math.round(((highestPrice - offer.price) / highestPrice) * 100)
-                      const partnerInfo = getPartnerInfo(offer.vendor, offer.partner_name)
-                      
-                      return (
-                        <div key={`${offer.vendor}-${index}`} 
-                             className="p-4 hover:bg-gray-50 transition-colors">
-                          <div className="flex items-center justify-between">
-                            {/* Left side - Partner info */}
-                            <div className="flex items-center space-x-4 flex-1">
-                              <div className={`w-12 h-8 relative ${partnerInfo.fallbackBg} rounded flex items-center justify-center flex-shrink-0 border border-gray-200`}>
-                                <Image
-                                  src={offer.partner_logo}
-                                  alt={offer.partner_name}
-                                  width={48}
-                                  height={32}
-                                  className="max-w-full max-h-full object-contain"
-                                  onError={(e) => {
-                                    const target = e.target as HTMLImageElement
-                                    target.style.display = 'none'
-                                    target.nextElementSibling?.classList.remove('hidden')
-                                  }}
-                                />
-                                <span className={`hidden text-xs font-bold ${partnerInfo.color}`}>
-                                  {offer.vendor.toUpperCase()}
-                                </span>
-                              </div>
-                              
-                              <div className="min-w-0 flex-1">
-                                <div className="flex items-center space-x-2">
-                                  <div className={`font-medium text-sm ${partnerInfo.color}`}>
-                                    {partnerInfo.name}
-                                  </div>
-                                  {index < 3 && (
-                                    <Badge className={`text-xs ${
-                                      index === 0 ? 'bg-yellow-500 text-white' :
-                                      index === 1 ? 'bg-gray-400 text-white' :
-                                      'bg-orange-500 text-white'
-                                    } flex items-center space-x-1`}>
-                                      <Award className="w-3 h-3" />
-                                      <span>#{index + 1} Best Price</span>
-                                    </Badge>
-                                  )}
-                                </div>
-                                <div className="text-xs text-gray-500">{offer.room_name}</div>
-                                
-                                {/* Offer flags in a compact format */}
-                                {offer.offer_flags_new && Object.keys(offer.offer_flags_new).length > 0 && (
-                                  <div className="flex items-center space-x-2 mt-1">
-                                    {Object.entries(offer.offer_flags_new).slice(0, 3).map(([key, value]) => (
-                                      <span key={key} className="text-xs text-blue-600 flex items-center space-x-1">
-                                        {getOfferIcon(key)}
-                                        <span className="hidden sm:inline">{value}</span>
-                                      </span>
-                                    ))}
-                                    {Object.keys(offer.offer_flags_new).length > 3 && (
-                                      <span className="text-xs text-gray-400">+{Object.keys(offer.offer_flags_new).length - 3} more</span>
-                                    )}
-                                  </div>
-                                )}
-                              </div>
-                            </div>
-                            
-                            {/* Right side - Price and action */}
-                            <div className="flex items-center space-x-4">
-                              {savings > 5 && (
-                                <div className="bg-green-100 text-green-700 text-xs px-2 py-1 rounded">
-                                  {savings}% OFF
-                                </div>
-                              )}
-                              
-                              <div className="text-right">
-                                <div className="text-lg font-bold text-gray-900">
-                                  {formatCurrency(offer.price)}
-                                </div>
-                                <div className="text-xs text-gray-500">per night</div>
-                              </div>
-                              
-                              <Button 
-                                onClick={() => handleBookOffer(offer)}
-                                className="bg-blue-600 hover:bg-blue-700 text-white px-6 py-2 text-sm"
-                              >
-                                View deal
-                              </Button>
-                            </div>
-                          </div>
-                        </div>
-                      )
-                    })}
+                  <div className="space-y-3 p-4">
+                    {offers.map((offer, index) => (
+                      <OfferRow
+                        key={`${offer.vendor}-${index}`}
+                        offer={offer}
+                        nights={1}
+                        currency={(offer as any).currency || 'USD'}
+                        isHighlighted={index === 0}
+                        totalFromVendorCount={offers.filter(o => o.vendor === offer.vendor).length}
+                        onBookClick={handleBookOffer}
+                      />
+                    ))}
                   </div>
                 </div>
               </div>
@@ -875,9 +718,7 @@ export function PriceComparison({ hotelId }: PriceComparisonProps) {
               </div>
             </div>
             
-            {/* Table Rows */}
-            <div className="divide-y divide-gray-100">
-              {/* Group by partner and show best offer per partner */}
+            <div className="space-y-3 p-4">
               {Object.values(
                 allOffers.reduce((acc, offer) => {
                   if (!acc[offer.vendor] || acc[offer.vendor].price > offer.price) {
@@ -885,95 +726,17 @@ export function PriceComparison({ hotelId }: PriceComparisonProps) {
                   }
                   return acc
                 }, {} as { [vendor: string]: Offer })
-              ).sort((a, b) => a.price - b.price).map((offer, index) => {
-                const savings = Math.round(((highestPrice - offer.price) / highestPrice) * 100)
-                const partnerInfo = getPartnerInfo(offer.vendor, offer.partner_name)
-                
-                return (
-                  <div key={offer.vendor} 
-                       className="p-4 hover:bg-gray-50 transition-colors">
-                    <div className="flex items-center justify-between">
-                      {/* Left side - Partner info */}
-                      <div className="flex items-center space-x-4 flex-1">
-                        <div className={`w-12 h-8 relative ${partnerInfo.fallbackBg} rounded flex items-center justify-center flex-shrink-0 border border-gray-200`}>
-                          <Image
-                            src={offer.partner_logo}
-                            alt={offer.partner_name}
-                            width={48}
-                            height={32}
-                            className="max-w-full max-h-full object-contain"
-                            onError={(e) => {
-                              const target = e.target as HTMLImageElement
-                              target.style.display = 'none'
-                              target.nextElementSibling?.classList.remove('hidden')
-                            }}
-                          />
-                          <span className={`hidden text-xs font-bold ${partnerInfo.color}`}>
-                            {offer.vendor.toUpperCase()}
-                          </span>
-                        </div>
-                        
-                        <div className="min-w-0 flex-1">
-                          <div className="flex items-center space-x-2">
-                            <div className={`font-medium text-sm ${partnerInfo.color}`}>
-                              {partnerInfo.name}
-                            </div>
-                            {index < 3 && (
-                              <Badge className={`text-xs ${
-                                index === 0 ? 'bg-yellow-500 text-white' :
-                                index === 1 ? 'bg-gray-400 text-white' :
-                                'bg-orange-500 text-white'
-                              } flex items-center space-x-1`}>
-                                <Award className="w-3 h-3" />
-                                <span>#{index + 1} Best Price</span>
-                              </Badge>
-                            )}
-                          </div>
-                          <div className="text-xs text-gray-500">{offer.room_name}</div>
-                          
-                          {/* Offer flags in a compact format */}
-                          {offer.offer_flags_new && Object.keys(offer.offer_flags_new).length > 0 && (
-                            <div className="flex items-center space-x-2 mt-1">
-                              {Object.entries(offer.offer_flags_new).slice(0, 3).map(([key, value]) => (
-                                <span key={key} className="text-xs text-blue-600 flex items-center space-x-1">
-                                  {getOfferIcon(key)}
-                                  <span className="hidden sm:inline">{value}</span>
-                                </span>
-                              ))}
-                              {Object.keys(offer.offer_flags_new).length > 3 && (
-                                <span className="text-xs text-gray-400">+{Object.keys(offer.offer_flags_new).length - 3} more</span>
-                              )}
-                            </div>
-                          )}
-                        </div>
-                      </div>
-                      
-                      {/* Right side - Price and action */}
-                      <div className="flex items-center space-x-4">
-                        {savings > 5 && (
-                          <div className="bg-green-100 text-green-700 text-xs px-2 py-1 rounded">
-                            {savings}% OFF
-                          </div>
-                        )}
-                        
-                        <div className="text-right">
-                          <div className="text-lg font-bold text-gray-900">
-                            {formatCurrency(offer.price)}
-                          </div>
-                          <div className="text-xs text-gray-500">per night</div>
-                        </div>
-                        
-                        <Button 
-                          onClick={() => handleBookOffer(offer)}
-                          className="bg-blue-600 hover:bg-blue-700 text-white px-6 py-2 text-sm"
-                        >
-                          View deal
-                        </Button>
-                      </div>
-                    </div>
-                  </div>
-                )
-              })}
+              ).sort((a, b) => a.price - b.price).map((offer, index) => (
+                <OfferRow
+                  key={offer.vendor}
+                  offer={offer}
+                  nights={1}
+                  currency={(offer as any).currency || 'USD'}
+                  isHighlighted={index === 0}
+                  totalFromVendorCount={allOffers.filter(o => o.vendor === offer.vendor).length}
+                  onBookClick={handleBookOffer}
+                />
+              ))}
             </div>
           </div>
         </TabsContent>
