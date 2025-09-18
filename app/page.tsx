@@ -49,6 +49,26 @@ export default async function HomePage(props?: { searchParams?: any }) {
   const { body } = getAtollmvCache()
   const rawItems: any[] = Array.isArray(body?.items) ? body!.items : []
 
+  // Build autocomplete suggestions from cached hotel names (unique)
+  const seenNames = new Set<string>()
+  const autoSuggestions = rawItems
+    .map((it: any) => {
+      const b = it?.base || {}
+      const d = it?.details || {}
+      const id = String(b.hs_id ?? it?.id ?? d.hs_id ?? b.id ?? d.id ?? '')
+      const name = String(b.name ?? d.name ?? '').trim()
+      const country = String(b?.location?.country ?? d?.location?.country ?? 'Maldives')
+      return { id, name, country }
+    })
+    .filter((s) => !!s.name)
+    .filter((s) => {
+      const key = s.name.toLowerCase()
+      if (seenNames.has(key)) return false
+      seenNames.add(key)
+      return true
+    })
+    .slice(0, 500)
+
   // Read filters from URL (server-render-time). Support both direct object and promised object.
   const spLike = props?.searchParams
   const sp = typeof spLike?.then === 'function' ? await spLike : (spLike || {})
@@ -134,7 +154,7 @@ export default async function HomePage(props?: { searchParams?: any }) {
     <div className="min-h-screen bg-white">
       <Header />
       <main>
-        <HeroSection />
+        <HeroSection suggestions={autoSuggestions} />
        
         {/* Membership Sign-in Full Width Card */}
         <section className="px-4 sm:px-6 lg:px-8 mt-10">

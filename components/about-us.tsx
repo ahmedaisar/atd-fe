@@ -6,7 +6,7 @@ export function AboutUs() {
     <section className="px-4 sm:px-6 lg:px-8 mt-12 mb-10">{/* spacing tuned to match visual */}
       <div className="max-w-7xl mx-auto">
         <div
-          className="rounded-2xl border border-black/10 bg-gradient-to-r from-indigo-50 via-rose-50 to-amber-50 shadow-sm overflow-hidden"
+          className="rounded-2xl border border-black/10 sm:border-black/10 bg-gradient-to-r from-gray-900 via-gray-850 to-gray-900 shadow-sm overflow-hidden"
         >
           {/* Top row: three feature columns */}
           <div className="grid grid-cols-1 md:grid-cols-3 divide-y md:divide-y-0 md:divide-x divide-black/10">
@@ -46,13 +46,13 @@ export function AboutUs() {
           <div className="bg-white/40 backdrop-blur-[1px]">
             <div className="px-5 sm:px-8 py-5 md:py-6">
               <div className="flex flex-col md:flex-row items-center justify-between gap-4">
-                <h4 className="text-[15px] sm:text-base md:text-[18px] font-semibold tracking-tight text-gray-900">
-                  Access our best deals on our app
+                <h4 className="text-[15px] sm:text-base md:text-[18px] font-semibold tracking-tight text-white-100">
+                  same destinations, better rates
                 </h4>
-                <div className="flex items-center gap-3">
+                {/* <div className="flex items-center gap-3">
                   <AppStoreBadge />
                   <PlayStoreBadge />
-                </div>
+                </div> */}
               </div>
             </div>
           </div>
@@ -69,8 +69,8 @@ function Feature({ icon, title, subtitle }: { icon: React.ReactNode; title: stri
         {icon}
       </div>
       <div>
-        <div className="text-[15px] sm:text-base font-semibold text-gray-900 leading-snug">{title}</div>
-        <div className="text-xs sm:text-[13px] text-gray-600 mt-1 leading-snug">{subtitle}</div>
+        <div className="text-[15px] sm:text-base font-semibold text-white-100 leading-snug">{title}</div>
+        <div className="text-xs sm:text-[13px] text-white-100 mt-1 leading-snug">{subtitle}</div>
       </div>
     </div>
   )

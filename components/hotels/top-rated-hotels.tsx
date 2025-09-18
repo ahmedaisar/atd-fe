@@ -232,7 +232,7 @@ export function TopRatedHotels({ title = 'Top Rated Hotels', hotels }: TopRatedH
               
               const mobileName = isTruncated ? h.name.slice(0, 32) + '...' : h.name
               return (              
-              <div key={h.id} className="group relative flex-shrink-0 w-[85%] max-w-[340px] snap-start bg-white rounded-xl border border-gray-300 overflow-hidden shadow-sm">
+              <div key={h.id} className="group relative flex-shrink-0 w-[85%] max-w-[340px] snap-start bg-white rounded-xl border border-gray/10 overflow-hidden shadow-sm">
                 <div className="relative h-48 w-full overflow-hidden">
                   <Image src={h.heroImage} alt={h.name} fill className="object-cover transition-transform duration-500 group-hover:scale-105" sizes="(max-width:768px) 85vw, 340px" />
                   {h.badge && <div className="absolute top-2 left-2 bg-white/90 text-[11px] font-medium px-2 py-1 rounded-full shadow">{h.badge}</div>}
@@ -243,7 +243,7 @@ export function TopRatedHotels({ title = 'Top Rated Hotels', hotels }: TopRatedH
                     <span className="truncate">{h.location}</span>
                   </div>
                   {stars(h.stars, h.qualityReviewRating, h.qualityReviewCount)}
-                  <div className="mt-5 relative border border-gray-300 rounded-lg p-3 bg-white shadow-sm">
+                  <div className="mt-5 relative border border-gray-800 rounded-lg p-3 bg-white shadow-sm">
                     {/* Discount badge top-center */}
                     {(() => { const label = discountLabel(h.discount); return label ? (
                       <div className="absolute -top-2 left-1/2 -translate-x-1/2 bg-rose-700 text-white text-xxs font-semibold px-2 py-0.5 rounded-full shadow ">

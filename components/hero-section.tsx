@@ -4,7 +4,7 @@ import { useState } from "react"
 import { MapPin, Plane, Activity } from "lucide-react"
 import { EnhancedSearch } from "@/components/enhanced-search"
 
-export function HeroSection() {
+export function HeroSection({ suggestions }: { suggestions?: Array<{ id: string; name: string; country: string }> }) {
   const [activeTab, setActiveTab] = useState("hotels")
   const [checkIn, setCheckIn] = useState<Date>()
   const [checkOut, setCheckOut] = useState<Date>()
@@ -45,7 +45,7 @@ export function HeroSection() {
             })}
           </div> */}
 
-          <EnhancedSearch />
+          <EnhancedSearch suggestions={suggestions} />
         </div>
       </div>
     </section>

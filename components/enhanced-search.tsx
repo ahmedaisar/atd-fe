@@ -45,7 +45,9 @@ interface PopularDestination {
   priceFrom: number
 }
 
-export function EnhancedSearch() {
+type Suggestion = { id: string; name: string; country: string }
+
+export function EnhancedSearch({ suggestions }: { suggestions?: Suggestion[] }) {
   const router = useRouter()
   const [searchData, setSearchData] = useState<SearchData>({
     destination: "",
@@ -163,8 +165,13 @@ export function EnhancedSearch() {
 
   // Destination suggestions based on input
   const getDestinationSuggestions = (input: string) => {
-    if (!input && apiSuggestions.length === 0) return popularDestinations
-    return apiSuggestions.map((s) => ({
+    const source: Suggestion[] = suggestions && suggestions.length ? suggestions : apiSuggestions
+    if (!input && source.length === 0) return popularDestinations
+    const lowered = input.toLowerCase()
+    const filtered = lowered
+      ? source.filter((s) => s.name.toLowerCase().includes(lowered))
+      : source.slice(0, 12)
+    return filtered.slice(0, 20).map((s) => ({
       id: s.id,
       name: s.name,
       country: s.country,
@@ -174,14 +181,12 @@ export function EnhancedSearch() {
       priceFrom: Math.floor(Math.random() * 150) + 20,
     }))
   }
-
+  // If no server-provided suggestions, fallback to API search for destinations
   useEffect(() => {
+    if (suggestions && suggestions.length) return
     let ignore = false
     const fetchSuggestions = async () => {
-      if (!debouncedQuery) {
-        setApiSuggestions([])
-        return
-      }
+      if (!debouncedQuery) { setApiSuggestions([]); return }
       try {
         const res = await fetch(`/api/search/destinations?q=${encodeURIComponent(debouncedQuery)}`)
         if (!res.ok) return
@@ -190,10 +195,8 @@ export function EnhancedSearch() {
       } catch {}
     }
     fetchSuggestions()
-    return () => {
-      ignore = true
-    }
-  }, [debouncedQuery])
+    return () => { ignore = true }
+  }, [debouncedQuery, suggestions])
 
   // Load recent searches from localStorage
   useEffect(() => {
