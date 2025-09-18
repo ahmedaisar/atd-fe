@@ -143,30 +143,44 @@ async function tryFetchMoreList(initial: AnyObj[], baseUrls: string[]): Promise<
   if (out.length >= MIN_LIST_ITEMS) return out
 
   // Candidate size parameters and page range
-  const sizes = [200, 150, 100, MIN_LIST_ITEMS, 75, 50]
-  const maxPages = 6
+  const sizes = [200, 150, 100, 75, 50, 40, 30, 25, MIN_LIST_ITEMS]
+  const maxPages = 12
+
+  // Try multiple pagination schemes used by various APIs
+  const variants = [
+    { limitKey: 'limit', pageKey: 'page', pageStart: 1, mode: 'page' as const },
+    { limitKey: 'size', pageKey: 'page', pageStart: 1, mode: 'page' as const },
+    { limitKey: 'per_page', pageKey: 'page', pageStart: 1, mode: 'page' as const },
+    { limitKey: 'pageSize', pageKey: 'page', pageStart: 1, mode: 'page' as const },
+    { limitKey: 'limit', pageKey: 'offset', pageStart: 0, mode: 'offset' as const },
+    { limitKey: 'take', pageKey: 'skip', pageStart: 0, mode: 'offset' as const },
+    { limitKey: 'rows', pageKey: 'start', pageStart: 0, mode: 'offset' as const },
+  ]
 
   for (const base of baseUrls) {
-    // handle both styles: if url already has '?', append with '&', else start with '?'
     const hasQs = base.includes('?')
-    for (const size of sizes) {
-      for (let page = 1; page <= maxPages; page++) {
-        const url = `${base}${hasQs ? '&' : '?'}limit=${size}&page=${page}`
-        try {
-          const payload = await fetchJson(url, 90000)
-          const list = extractList(payload)
-          if (Array.isArray(list) && list.length) {
-            const before = out.length
-            pushUnique(list)
-            if (out.length >= MIN_LIST_ITEMS) return out
-            // If no new items found for this page, break paging loop for this size
-            if (out.length === before) break
-          } else {
+    for (const v of variants) {
+      for (const size of sizes) {
+        for (let i = 0; i < maxPages; i++) {
+          const pageOrOffset = v.mode === 'page' ? (v.pageStart + i) : (v.pageStart + i * size)
+          const sep = hasQs ? '&' : '?'
+          const url = `${base}${sep}${v.limitKey}=${size}&${v.pageKey}=${pageOrOffset}`
+          try {
+            const payload = await fetchJson(url, 90000)
+            const list = extractList(payload)
+            if (Array.isArray(list) && list.length) {
+              const before = out.length
+              pushUnique(list)
+              if (out.length >= MIN_LIST_ITEMS) return out
+              // If no new items found for this page, break paging loop for this size/variant
+              if (out.length === before) break
+            } else {
+              break
+            }
+          } catch {
+            // ignore and try next combination
             break
           }
-        } catch {
-          // ignore and try next combination
-          break
         }
       }
     }

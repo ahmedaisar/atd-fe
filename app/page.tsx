@@ -8,6 +8,7 @@ import { Footer } from "@/components/footer"
 import { PropertyTypesCarousel } from "@/components/property-types-carousel"
 import { OfferImage } from "@/components/offer-image"
 import TopRatedHotels, { TopRatedHotel } from "@/components/hotels/top-rated-hotels"
+import AboutUs from "@/components/about-us"
 import { getAtollmvCache } from "@/lib/atollmv-cache"
 export const runtime = 'nodejs'
 export const dynamic = 'force-dynamic'
@@ -240,8 +241,9 @@ export default async function HomePage(props?: { searchParams?: any }) {
   <PropertyTypesCarousel />
   {/* <LatestOffers /> */}
   <TopRatedHotels hotels={sampleTopRated} />
-        {/* <PromotionalOffers />       */}
-        <AdditionalServices />
+    {/* <PromotionalOffers />       */}
+    {/* <AdditionalServices /> */}
+    <AboutUs />
        
       </main>
       <Footer />
