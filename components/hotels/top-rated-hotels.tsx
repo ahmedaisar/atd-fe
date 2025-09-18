@@ -9,7 +9,7 @@ export interface TopRatedHotel {
   name: string
   slug: string
   heroImage: string
-  hotelStars?: number // integer stars from dataset
+  stars?: number // integer stars from dataset
   qualityReviewRating: number // 0-100 scale original quality.review_rating
   qualityReviewCount: number
   location: string
@@ -127,10 +127,10 @@ export function TopRatedHotels({ title = 'Top Rated Hotels', hotels }: TopRatedH
     el.scrollBy({ left: dir * Math.round(el.clientWidth * 0.7), behavior: 'smooth' })
   }
 
-  const stars = (hotelStars: number | undefined, qualityRating: number, qualityCount: number) => {
+  const stars = (stars: number | undefined, qualityRating: number, qualityCount: number) => {
     const fiveScale = qualityRating / 20 // guest rating converted to 0-5 for numeric value
     const guestRatingRounded = Math.round(fiveScale * 10) / 10
-    const countStars = hotelStars || 0
+    const countStars = stars || 0
     return (
       <div className="flex items-center gap-1" aria-label={`${countStars} star hotel. Guest rating ${guestRatingRounded.toFixed(1)} out of 5`}>
         <div className="flex items-center gap-0.5" aria-hidden>
@@ -195,7 +195,7 @@ export function TopRatedHotels({ title = 'Top Rated Hotels', hotels }: TopRatedH
                   <div className="flex items-center text-[11px] text-gray-600">
                     <span className="truncate">{h.location}</span>
                   </div>
-                  {stars(h.hotelStars, h.qualityReviewRating, h.qualityReviewCount)}
+                  {stars(h.stars, h.qualityReviewRating, h.qualityReviewCount)}
                   <div className="mt-5 relative border border-gray-300 rounded-lg p-3 bg-white shadow-sm">
                     {/* Discount badge top-center */}
                     {(() => { const label = discountLabel(h.discount); return label ? (
@@ -242,9 +242,9 @@ export function TopRatedHotels({ title = 'Top Rated Hotels', hotels }: TopRatedH
           <div className="pointer-events-none absolute inset-y-0 right-0 w-12 bg-gradient-to-l from-white via-white/70 to-transparent z-10" /> */}
           <div ref={desktopRef} className="flex gap-6 overflow-x-auto scrollbar-hide snap-x snap-mandatory pb-2 select-none cursor-grab active:cursor-grabbing">
             {topHotels.map(h => {
-              const isTruncated = h.name.length > 37
-              const desktopName = isTruncated ? h.name.slice(0, 34) + '...' : h.name
-              const mobileName = isTruncated ? h.name.slice(0, 34) + '...' : h.name
+              const isTruncated = h.name.length > 30
+              const desktopName = isTruncated ? h.name.slice(0, 30) + '...' : h.name
+              const mobileName = isTruncated ? h.name.slice(0, 30) + '...' : h.name
               return (
               <div key={h.id} className="group snap-start flex-shrink-0 w-[340px] bg-white rounded-xl border border-gray-300 overflow-hidden shadow-sm hover:shadow transition-all">
                 <div className="relative h-56 w-full overflow-hidden">
@@ -253,7 +253,7 @@ export function TopRatedHotels({ title = 'Top Rated Hotels', hotels }: TopRatedH
                 </div>
                 <div className="p-5 flex flex-col flex-1">
                   <h4 className="text-base font-semibold leading-snug text-gray-900 mb-1" title={isTruncated ? h.name : undefined}>{desktopName}</h4>
-                  {stars(h.hotelStars, h.qualityReviewRating, h.qualityReviewCount)}
+                  {stars(h.stars, h.qualityReviewRating, h.qualityReviewCount)}
                   <div className="mt-2 text-[12px] text-gray-600 flex items-center flex-wrap gap-1"><span className="truncate">{h.location}</span></div>
                   <div className="mt-4 relative border border-gray-900 rounded-lg p-4 bg-white shadow-sm">
                     {/* Discount badge top-center */}

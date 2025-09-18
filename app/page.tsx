@@ -8,66 +8,130 @@ import { Footer } from "@/components/footer"
 import { PropertyTypesCarousel } from "@/components/property-types-carousel"
 import { OfferImage } from "@/components/offer-image"
 import TopRatedHotels, { TopRatedHotel } from "@/components/hotels/top-rated-hotels"
-// no headers needed; build API base from env or localhost
+import { getAtollmvCache } from "@/lib/atollmv-cache"
+export const runtime = 'nodejs'
 
-
-
-async function getTopRatedFromApi(): Promise<TopRatedHotel[]> {
-  const base = process.env.NEXT_PUBLIC_SITE_URL || 'http://localhost:3000'
-  const url = `${base}/api/merged-hotels?toa=resort&stars=5&minQuality=90&maxQuality=99&limit=15`
-  try {
-    const res = await fetch(url, { cache: 'no-store' })
-    if (!res.ok) return []
-    const data = await res.json() as { items?: any[] }
-    const items = Array.isArray(data?.items) ? data.items : []
-    // Keep only hotels that have a discount >= 1
-    const filtered = items.filter((it: any) => {
-      const b = it?.base || {}
-      const d = it?.details || {}
-      const primary = d?.data?.records?.[0]?.discount
-      let n = Number.parseFloat(String(primary))
-      if (Number.isNaN(n)) {
-        const fallback = d?.discount ?? b?.discount ?? d?.hero_offer?.discount ?? b?.hero_offer?.discount
-        n = Number.parseFloat(String(fallback))
-      }
-      return !Number.isNaN(n) && n >= 1
-    })
-
-    const mapped: TopRatedHotel[] = filtered.map((it: any) => {
-      const b = it?.base || {}
-      const d = it?.details || {}
-      const id = String(b.hs_id ?? it?.id ?? d.hs_id ?? '')
-      const name = b.name ?? d.name ?? 'Unnamed Hotel'
-      const slug = b.slug ?? d.slug ?? id
-      const imgId = b.images?.[0]?.image_id ?? d.images?.[0]?.image_id
-      const heroImage = imgId ? `//img1.hotelscan.com/640_440/1/${imgId}.jpg` : '/images/hotels/placeholder.jpg'
-      const hotelStars = b.stars ?? d.stars ?? 0
-      const qualityReviewRating = b.quality?.review_rating ?? d.quality?.review_rating ?? b.review_rating ?? d.review_rating ?? 0
-      const qualityReviewCount = b.quality?.review_count ?? d.quality?.review_count ?? b.review_count ?? d.review_count ?? 0
-      const location = b.location?.address || b.location?.city || d.location?.address || d.location?.city || 'Maldives'
-      const price = Number(d.best_offer ?? b.best_offer ?? d.hero_offer?.price ?? 0) || 0
-      const currency = '$'
-      const badge = hotelStars >= 5 ? 'Luxury' : hotelStars >= 4 ? 'Popular' : undefined
-  const hero_offer = d.hero_offer ?? b.hero_offer
-  // Choose discount prioritizing details.data.records[0].discount
-  const primaryDisc = d?.data?.records?.[0]?.discount
-  let discountNum = Number.parseFloat(String(primaryDisc))
-  if (Number.isNaN(discountNum)) {
-    const fb = d?.discount ?? b?.discount ?? d?.hero_offer?.discount ?? b?.hero_offer?.discount
-    discountNum = Number.parseFloat(String(fb))
-  }
-  const discount = Number.isNaN(discountNum) ? 0 : discountNum
-      const short_description = d.short_description ?? b.short_description
-      return { id, name, slug, heroImage, hotelStars, qualityReviewRating, qualityReviewCount, location, price, currency, badge, hero_offer, discount, short_description }
-    })
-    return mapped
-  } catch {
-    return []
-  }
+function mapAtollToTopRated(items: any[]): TopRatedHotel[] {
+  return items.map((it: any) => {
+    const b = it?.base || {}
+    const d = it?.details || {}
+    const id = String(b.hs_id ?? it?.id ?? d.hs_id ?? '')
+    const name = b.name ?? d.name ?? 'Unnamed Hotel'
+    const slug = b.slug ?? d.slug ?? id
+    const imgId = b.images?.[0]?.image_id ?? d.images?.[0]?.image_id
+    const heroImage = imgId ? `//img1.hotelscan.com/640_440/1/${imgId}.jpg` : '/images/hotels/placeholder.jpg'
+  const hotelStars = b.quality?.stars ?? d.quality?.stars ?? b.stars ?? d.stars ?? 0
+    const qualityReviewRating = b.quality?.review_rating ?? d.quality?.review_rating ?? b.review_rating ?? d.review_rating ?? 0
+    const qualityReviewCount = b.quality?.review_count ?? d.quality?.review_count ?? b.review_count ?? d.review_count ?? 0
+    const location = b.location?.address || b.location?.city || d.location?.address || d.location?.city || 'Maldives'
+    const price = Number(d.best_offer ?? b.best_offer ?? d.hero_offer?.price ?? 0) || 0
+    const currency = '$'
+    const badge = hotelStars >= 5 ? 'Luxury' : hotelStars >= 4 ? 'Popular' : undefined
+    const hero_offer = d.hero_offer ?? b.hero_offer
+    const primaryDisc = d?.data?.records?.[0]?.discount
+    let discountNum = Number.parseFloat(String(primaryDisc))
+    if (Number.isNaN(discountNum)) {
+      const fb = d?.discount ?? b?.discount ?? d?.hero_offer?.discount ?? b?.hero_offer?.discount
+      discountNum = Number.parseFloat(String(fb))
+    }
+    const discount = Number.isNaN(discountNum) ? 0 : discountNum
+    const short_description = d.short_description ?? b.short_description
+    return { id, name, slug, heroImage, stars: Number(hotelStars) || 0, qualityReviewRating, qualityReviewCount, location, price, currency, badge, hero_offer, discount, short_description }
+  })
 }
 
-export default async function HomePage() {
-  const sampleTopRated = await getTopRatedFromApi()
+export default async function HomePage(props?: { searchParams?: any }) {
+  // Use the server-side cached payload directly; do NOT perform any fetch from here.
+  const { body } = getAtollmvCache()
+  const rawItems: any[] = Array.isArray(body?.items) ? body!.items : []
+
+  // Read filters from URL (server-render-time). Support both direct object and promised object.
+  const spLike = props?.searchParams
+  const sp = typeof spLike?.then === 'function' ? await spLike : (spLike || {})
+  const toa = typeof sp.toa === 'string' ? sp.toa : undefined
+  const limit = Number.parseInt(typeof sp.limit === 'string' ? sp.limit : (Array.isArray(sp.limit) ? sp.limit[0] : ''), 10)
+  const effLimit = Number.isFinite(limit) && limit > 0 ? limit : 15
+  const starsParam = Number.parseInt(typeof sp.stars === 'string' ? sp.stars : (Array.isArray(sp.stars) ? sp.stars[0] : ''), 10)
+  const wantStars = Number.isFinite(starsParam) ? starsParam : undefined
+  const rrMin = Number.parseFloat(typeof sp.review_ratingmin === 'string' ? sp.review_ratingmin : (Array.isArray(sp.review_ratingmin) ? sp.review_ratingmin[0] : ''))
+  const rrMax = Number.parseFloat(typeof sp.review_ratingmax === 'string' ? sp.review_ratingmax : (Array.isArray(sp.review_ratingmax) ? sp.review_ratingmax[0] : ''))
+  const wantDiscount = (typeof sp.minDiscount === 'string' ? sp.minDiscount : (Array.isArray(sp.minDiscount) ? sp.minDiscount[0] : ''))
+  const needDiscount = wantDiscount === '1' || wantDiscount === 'true'
+
+  const toLower = (v: any) => (typeof v === 'string' ? v.toLowerCase() : '')
+  const hasToa = (b: any, d: any, target?: string) => {
+    if (!target) return true
+    const t = target.toLowerCase()
+    const cands: any[] = [
+      b?.toa, b?.type, b?.category, b?.hotel_type, b?.hotelType,
+      d?.toa, d?.type, d?.category, d?.hotel_type, d?.hotelType,
+    ]
+    const arrCands: any[] = [b?.tags, d?.tags]
+    if (cands.some((x) => toLower(x).includes(t))) return true
+    for (const arr of arrCands) {
+      if (Array.isArray(arr) && arr.map(toLower).some((x) => typeof x === 'string' && x.includes(t))) return true
+    }
+    return false
+  }
+  const getReviewRating = (b: any, d: any): number => {
+    const v = b?.quality?.review_rating ?? d?.quality?.review_rating ?? b?.review_rating ?? d?.review_rating
+    const n = Number.parseFloat(String(v))
+    return Number.isFinite(n) ? n : 0
+  }
+  const getDiscount = (b: any, d: any): number => {
+    const primary = d?.data?.records?.[0]?.discount
+    let n = Number.parseFloat(String(primary))
+    if (!Number.isFinite(n)) {
+      const fb = d?.discount ?? b?.discount ?? d?.hero_offer?.discount ?? b?.hero_offer?.discount
+      n = Number.parseFloat(String(fb))
+    }
+    return Number.isFinite(n) ? n : 0
+  }
+  const getStars = (b: any, d: any): number => {
+    const v = b?.quality?.stars ?? d?.quality?.stars ?? b?.stars ?? d?.stars
+    const n = Number.parseInt(String(v), 10)
+    return Number.isFinite(n) ? n : 0
+  }
+
+  let filtered = rawItems
+    .filter((it) => {
+      const b = it?.base || {}
+      const d = it?.details || {}
+      return hasToa(b, d, toa)
+    })
+    .filter((it) => {
+      if (wantStars == null) return true
+      const b = it?.base || {}
+      const d = it?.details || {}
+      return getStars(b, d) === wantStars
+    })
+    .filter((it) => {
+      if (!Number.isFinite(rrMin) && !Number.isFinite(rrMax)) return true
+      const b = it?.base || {}
+      const d = it?.details || {}
+      const rating = getReviewRating(b, d)
+      if (Number.isFinite(rrMin) && rating < rrMin!) return false
+      if (Number.isFinite(rrMax) && rating > rrMax!) return false
+      return true
+    })
+    .filter((it) => {
+      if (!needDiscount) return true
+      const b = it?.base || {}
+      const d = it?.details || {}
+      return getDiscount(b, d) > 0
+    })
+
+  // If a rating window is provided, order by review rating descending
+  if (Number.isFinite(rrMin) || Number.isFinite(rrMax)) {
+    filtered = filtered.sort((a: any, b: any) => {
+      const ba = a?.base || {}; const da = a?.details || {}
+      const bb = b?.base || {}; const db = b?.details || {}
+      return getReviewRating(bb, db) - getReviewRating(ba, da)
+    })
+  }
+
+  filtered = filtered.slice(0, effLimit)
+  const sampleTopRated = mapAtollToTopRated(filtered)
   return (
     <div className="min-h-screen bg-white">
       <Header />
