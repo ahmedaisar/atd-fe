@@ -86,17 +86,6 @@ export function HotelListings({
       hs_id: h.hs_id,
       slug: h.slug,
       name: h.name,
-<<<<<<< HEAD
-      description: h.description || h.short_description || "",
-  images: h.images && h.images.length > 0 ? h.images.map((img: { image_id: string }) => img.image_id) : ["/placeholder.jpg"],
-      rating: h.quality?.review_rating ?? 0,
-      reviewCount: h.quality?.review_count ?? 0,
-      price: h.best_offer ?? h.hero_offer?.price ?? 0,
-      originalPrice: h.worst_offer ?? undefined,
-      location: h.location?.address || '',
-      distance: h.distance ? `${h.distance} km` : '',
-      amenities: h.top_amenities || [],
-=======
       toa: h.toa,
       covid_safe: h.covid_safe,
       amenities: h.amenities || {},
@@ -138,7 +127,6 @@ export function HotelListings({
       reviewCount: h.quality?.review_count || 0,
       price: h.best_offer || h.hero_offer?.price || 0,
       originalPrice: h.worst_offer || undefined,
->>>>>>> 6efc2c9 (prod-enhancements#1)
       badges: [
         h.hero_offer?.offer_flags_new?.refundable ? 'Free Cancellation' : '',
         h.discount > 15 ? 'Hot Deal' : '',
