@@ -67,10 +67,7 @@ export function SearchResultsHeader() {
 
   // Popular fallback (simple) – could be extended
   const popularDestinations = useMemo(() => [
-    { name: 'Malé', country: 'Maldives', id: 'male' },
-    { name: 'Bangkok', country: 'Thailand', id: 'bkk' },
-    { name: 'Phuket', country: 'Thailand', id: 'hkt' },
-    { name: 'Singapore', country: 'Singapore', id: 'sin' },
+    { name: 'Malé', country: 'Maldives', id: 'male' }
   ], [])
 
   const getDestinationSuggestions = (input: string) => {
@@ -366,7 +363,7 @@ export function SearchResultsHeader() {
           </Popover>
           {/* Search button */}
           <div className="flex items-center pr-2 pl-2">
-            <Button onClick={handleSearch} className="h-10 px-6 border-black-600 hover:bg-gold-100 text-white text-sm font-medium"> <Search className="w-4 h-4 mr-2" /> Search</Button>
+            <Button onClick={handleSearch} className="h-10 px-6 border-black-600 sm:bg-gold-100 hover:bg-gold-100-hover"><Search className="w-4 h-4 mr-2" /> Search</Button>
           </div>
         </div>
         {/* Mobile summary card */}
@@ -525,7 +522,7 @@ export function SearchResultsHeader() {
           </div>
           <div className="flex gap-2 pt-1">
             <Button variant="outline" className="flex-1 h-11" onClick={()=>setIsEditingMobile(false)}>Cancel</Button>
-            <Button onClick={()=>{ handleSearch(); setIsEditingMobile(false) }} className="flex-1 h-11 bg-black-100 hover:bg-white-100 text-white text-sm font-medium"><Search className="w-4 h-4 mr-2"/>Search</Button>
+            <Button onClick={()=>{ handleSearch(); setIsEditingMobile(false) }} className="flex-1 h-11 sm:bg-gold-100 hover:bg-gold-100-hover text-white text-sm font-medium"><Search className="w-4 h-4 mr-2"/>Search</Button>
           </div>
         </div>
         )}

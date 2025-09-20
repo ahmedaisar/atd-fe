@@ -77,12 +77,16 @@ export function HotelListings({
     updateURL({ page: newPage })
   }, [updateURL])
 
+  const ITEMS_PER_PAGE = 10;
   const hotels: ListingItem[] = useMemo(() => {
     // Map HotelRecord (API) to EnhancedHotelCard shape
     if (!Array.isArray(initialHotels)) return [];
   return initialHotels.map((h) => ({
-      id: h.hs_id,
+      // API response fields
+      hs_id: h.hs_id,
+      slug: h.slug,
       name: h.name,
+<<<<<<< HEAD
       description: h.description || h.short_description || "",
   images: h.images && h.images.length > 0 ? h.images.map((img: { image_id: string }) => img.image_id) : ["/placeholder.jpg"],
       rating: h.quality?.review_rating ?? 0,
@@ -92,13 +96,56 @@ export function HotelListings({
       location: h.location?.address || '',
       distance: h.distance ? `${h.distance} km` : '',
       amenities: h.top_amenities || [],
+=======
+      toa: h.toa,
+      covid_safe: h.covid_safe,
+      amenities: h.amenities || {},
+      short_description: h.short_description,
+      themes: h.themes || [],
+      ty_id: h.ty_id,
+      chain: h.chain,
+      brand: h.brand,
+      rank: h.rank,
+      descriptions: h.descriptions || {},
+      chain_code: h.chain_code,
+      position: h.position,
+      bids: h.bids,
+      offers: h.offers || [],
+      worst_offer: h.worst_offer,
+      best_offer: h.best_offer,
+      best_offer_ota: h.best_offer_ota,
+      best_offer_mota: h.best_offer_mota,
+      discount: h.discount,
+      offers_count: h.offers_count,
+      distance: h.distance,
+      images: h.images || [],
+      neighborhood: h.neighborhood,
+      badge: h.badge,
+      distances: h.distances || [],
+      specs: h.specs || {},
+      toa_label: h.toa_label,
+      top_amenities: h.top_amenities || [],
+      quality: h.quality,
+      location: h.location,
+      hero_offer: h.hero_offer,
+      ctrl_srt: h.ctrl_srt,
+      test_srt: h.test_srt,
+
+      // Legacy/compatibility fields (mapped from API)
+      id: h.hs_id,
+      description: h.short_description || '',
+      rating: h.quality?.review_rating ? h.quality.review_rating / 10 : 0,
+      reviewCount: h.quality?.review_count || 0,
+      price: h.best_offer || h.hero_offer?.price || 0,
+      originalPrice: h.worst_offer || undefined,
+>>>>>>> 6efc2c9 (prod-enhancements#1)
       badges: [
         h.hero_offer?.offer_flags_new?.refundable ? 'Free Cancellation' : '',
         h.discount > 15 ? 'Hot Deal' : '',
         h.offers_count <= 3 ? 'Limited Offers' : '',
       ].filter(Boolean) as string[],
       coordinates: h.location?.coordinates || { lat: 0, lng: 0 },
-      chainBrand: h.chain || undefined,
+      chainBrand: h.brand || undefined,
       propertyType: h.toa_label || 'Hotel',
       starRating: h.quality?.stars || 0,
       sustainabilityCertified: false,
@@ -121,11 +168,10 @@ export function HotelListings({
       paymentOptions: [],
   distanceFromPopularLocations: h.distances?.map((d: { from: string; distance: number }) => ({ name: d.from, distance: `${d.distance} km` })) || [],
   hostLanguages: undefined,
-  offers: h.offers || [],
     }))
   }, [initialHotels])
 
-  const displayHotels = useMemo(() => {
+  const sortedHotels = useMemo(() => {
     const arr = [...hotels]
     switch (sortBy) {
       case "price-low":
@@ -144,11 +190,7 @@ export function HotelListings({
         arr.sort((a, b) => b.reviewCount - a.reviewCount)
         break
       case "distance": {
-        const dist = (s: string) => {
-          const n = parseFloat(s)
-          return Number.isFinite(n) ? n : Number.POSITIVE_INFINITY
-        }
-        arr.sort((a, b) => dist(a.distance) - dist(b.distance))
+        arr.sort((a, b) => (a.distance || 0) - (b.distance || 0))
         break
       }
       case "recommended":
@@ -156,8 +198,19 @@ export function HotelListings({
         arr.sort((a, b) => b.popularityScore - a.popularityScore)
         break
     }
-    return arr
-  }, [hotels, sortBy])
+    return arr;
+  }, [hotels, sortBy]);
+
+  // Calculate total pages
+  const calculatedTotalPages = useMemo(() => {
+    return Math.max(1, Math.ceil((totalCount || sortedHotels.length) / ITEMS_PER_PAGE));
+  }, [totalCount, sortedHotels.length]);
+
+  // Slice hotels for current page
+  const displayHotels = useMemo(() => {
+    const startIdx = (currentPage - 1) * ITEMS_PER_PAGE;
+    return sortedHotels.slice(startIdx, startIdx + ITEMS_PER_PAGE);
+  }, [sortedHotels, currentPage]);
 
   return (
     <div className="space-y-4">
@@ -245,19 +298,42 @@ export function HotelListings({
         </div>
       )}
 
-      {/* Load More */}
+      {/* Pagination */}
       <div className="text-center py-8">
-        <Button 
-          variant="outline" 
-          size="lg" 
-          className="px-8 bg-transparent"
-          onClick={() => handlePageChange(Math.min(currentPage + 1, totalPages || 1))}
-          disabled={currentPage >= (totalPages || 1)}
-        >
-          {currentPage >= (totalPages || 1) ? "No More Properties" : "Load More Properties"}
-        </Button>
+        <nav className="inline-flex items-center justify-center gap-2" aria-label="Pagination">
+          <Button
+            variant="ghost"
+            size="sm"
+            className="rounded-full px-3"
+            onClick={() => handlePageChange(currentPage - 1)}
+            disabled={currentPage <= 1}
+          >
+            &laquo;
+          </Button>
+          {Array.from({ length: calculatedTotalPages }).map((_, i) => (
+            <Button
+              key={i}
+              variant={currentPage === i + 1 ? "default" : "ghost"}
+              size="sm"
+              className={`rounded-full px-3 ${currentPage === i + 1 ? "font-bold" : ""}`}
+              onClick={() => handlePageChange(i + 1)}
+              disabled={currentPage === i + 1}
+            >
+              {i + 1}
+            </Button>
+          ))}
+          <Button
+            variant="ghost"
+            size="sm"
+            className="rounded-full px-3"
+            onClick={() => handlePageChange(currentPage + 1)}
+            disabled={currentPage >= calculatedTotalPages}
+          >
+            &raquo;
+          </Button>
+        </nav>
         <p className="text-sm text-gray-500 mt-2">
-          Showing {displayHotels.length} of {totalCount || displayHotels.length} properties
+          Showing {displayHotels.length} of {totalCount || sortedHotels.length} properties
         </p>
       </div>
     </div>

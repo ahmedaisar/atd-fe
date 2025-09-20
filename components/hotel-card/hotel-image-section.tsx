@@ -38,7 +38,7 @@ export function HotelImageSection({
   return (
     <div className={`relative overflow-hidden ${
       isListView 
-        ? "w-60 h-full min-h-[160px]" 
+        ? "w-full h-full  min-h-[160px]" 
         : "h-48 md:h-full md:min-h-[280px]"
     }`}>
       <Image

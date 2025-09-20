@@ -70,12 +70,14 @@ function OffersDrawer({
   hotelName,
   offers,
   onBookClick,
+  hotel,
 }: {
   isOpen: boolean
   onClose: () => void
   hotelName: string
   offers: Offer[]
   onBookClick: (offer: Offer) => void
+  hotel: HotelCardDetails & { images: HotelImage[] }
 }) {
   const [activeTab, setActiveTab] = useState("prices")
   const [filters, setFilters] = useState({
@@ -99,20 +101,10 @@ function OffersDrawer({
     return true
   })
 
-  // Group offers by vendor
-  const groupedOffers = filteredOffers.reduce((acc: { [key: string]: Offer[] }, offer) => {
-    if (!acc[offer.partner_name]) {
-      acc[offer.partner_name] = []
-    }
-    acc[offer.partner_name].push(offer)
-    return acc
-  }, {})
-
-  const vendorNames = Object.keys(groupedOffers).sort((a, b) => {
-    const aPrice = Math.min(...groupedOffers[a].map(o => o.price || 0))
-    const bPrice = Math.min(...groupedOffers[b].map(o => o.price || 0))
-    return aPrice - bPrice
-  })
+  // Sort all offers by price ascending
+  const sortedOffers = filteredOffers.slice().sort((a, b) => (a.price || 0) - (b.price || 0));
+  const [showAll, setShowAll] = useState(false);
+  const visibleOffers = showAll ? sortedOffers : sortedOffers.slice(0, 3);
 
   const handleFilterChange = (filterKey: keyof typeof filters) => {
     setFilters(prev => ({
@@ -122,117 +114,361 @@ function OffersDrawer({
   }
 
   return (
-    <div className="bg-white border border-gray-200 rounded-lg shadow-sm">
+    <div className="bg-white border border-gray-200 rounded-lg shadow-sm max-w-full overflow-hidden">
       {/* Header */}
-      <div className="flex items-center justify-between p-4 border-b border-gray-200">
-        <div className="flex items-center gap-2">
-          <Share2 className="w-4 h-4 text-gray-600" />
-          <span className="text-sm text-gray-600">Share</span>
+      <div className="flex flex-col sm:flex-row items-start sm:items-center justify-between p-3 md:p-4 border-b border-gray-200 gap-2">
+        <div className="flex items-center gap-2 min-w-0 flex-1">
+          <Share2 className="w-4 h-4 text-gray-600 flex-shrink-0" />
+          <span className="text-sm text-gray-600 truncate">Share</span>
         </div>
-        <Tabs value={activeTab} onValueChange={setActiveTab} className="flex-1 max-w-md">
-          <TabsList className="grid w-full grid-cols-4">
-            <TabsTrigger value="prices" className="text-sm">Prices</TabsTrigger>
-            <TabsTrigger value="photos" className="text-sm">Photos</TabsTrigger>
-            <TabsTrigger value="reviews" className="text-sm">Reviews</TabsTrigger>
-            <TabsTrigger value="info" className="text-sm">Info</TabsTrigger>
+        <Tabs value={activeTab} onValueChange={setActiveTab} className="w-full sm:w-auto sm:flex-1 sm:max-w-md">
+          <TabsList className="grid w-full grid-cols-4 h-9 md:h-10">
+            <TabsTrigger value="prices" className="text-xs md:text-sm px-1 md:px-3">Prices</TabsTrigger>
+            <TabsTrigger value="photos" className="text-xs md:text-sm px-1 md:px-3">Photos</TabsTrigger>
+            <TabsTrigger value="reviews" className="text-xs md:text-sm px-1 md:px-3">Reviews</TabsTrigger>
+            <TabsTrigger value="info" className="text-xs md:text-sm px-1 md:px-3">Info</TabsTrigger>
           </TabsList>
         </Tabs>
-        <button onClick={onClose} className="text-gray-400 hover:text-gray-600">
-          <span className="text-lg">×</span>
+        <button onClick={onClose} className="text-gray-400 hover:text-gray-600 flex-shrink-0 ml-2">
+          <span className="text-lg md:text-xl">×</span>
         </button>
       </div>
 
       <Tabs value={activeTab} onValueChange={setActiveTab}>
-        <TabsContent value="prices" className="mt-0">
+        <TabsContent value="prices" className="mt-0 p-3 md:p-4">
           {/* Filter checkboxes */}
-          <div className="flex flex-wrap gap-4 p-4 bg-gray-50 border-b border-gray-200">
-            <label className="flex items-center gap-2 text-sm cursor-pointer">
+          <div className="flex flex-wrap gap-2 md:gap-4 p-3 md:p-4 bg-gray-50 border-b border-gray-200 rounded-t-lg">
+            <label className="flex items-center gap-2 text-xs md:text-sm cursor-pointer">
               <Checkbox 
                 checked={filters.breakfastIncluded}
                 onCheckedChange={() => handleFilterChange('breakfastIncluded')}
+                className="w-4 h-4 md:w-5 md:h-5"
               />
               <span>Breakfast included</span>
             </label>
-            <label className="flex items-center gap-2 text-sm cursor-pointer">
+            <label className="flex items-center gap-2 text-xs md:text-sm cursor-pointer">
               <Checkbox 
                 checked={filters.freeCancellation}
                 onCheckedChange={() => handleFilterChange('freeCancellation')}
+                className="w-4 h-4 md:w-5 md:h-5"
               />
               <span>Free cancellation</span>
             </label>
-            <label className="flex items-center gap-2 text-sm cursor-pointer">
+            <label className="flex items-center gap-2 text-xs md:text-sm cursor-pointer">
               <Checkbox 
                 checked={filters.halfBoard}
                 onCheckedChange={() => handleFilterChange('halfBoard')}
+                className="w-4 h-4 md:w-5 md:h-5"
               />
               <span>Half board</span>
             </label>
-            <label className="flex items-center gap-2 text-sm cursor-pointer">
+            <label className="flex items-center gap-2 text-xs md:text-sm cursor-pointer">
               <Checkbox 
                 checked={filters.allInclusive}
                 onCheckedChange={() => handleFilterChange('allInclusive')}
+                className="w-4 h-4 md:w-5 md:h-5"
               />
               <span>All-inclusive</span>
             </label>
-            <label className="flex items-center gap-2 text-sm cursor-pointer">
+            <label className="flex items-center gap-2 text-xs md:text-sm cursor-pointer">
               <Checkbox 
                 checked={filters.fullBoard}
                 onCheckedChange={() => handleFilterChange('fullBoard')}
+                className="w-4 h-4 md:w-5 md:h-5"
               />
               <span>Full board</span>
             </label>
           </div>
 
-          {/* Offers list */}
-          <div className="p-4 space-y-3">
-            {vendorNames.map((vendorName, index) => {
-              const vendorOffers = groupedOffers[vendorName]
-              const mainOffer = vendorOffers[0]
-              const isLowestPrice = index === 0
-              const additionalOffers = vendorOffers.slice(1)
-              
+          {/* Offers list - show first 3, expand for all */}
+          <div className="p-3 md:p-4 space-y-4">
+            {visibleOffers.map((offer, index) => {
+              // Use partner_name for display if available
+              const displayName = offer.partner_name || offer.vendor;
               return (
                 <VendorOfferCard
-                  key={vendorName}
-                  vendor={vendorName}
-                  mainOffer={mainOffer}
-                  additionalOffers={additionalOffers}
-                  isLowestPrice={isLowestPrice}
+                  key={offer.partner_name + offer.price + index}
+                  vendor={displayName}
+                  mainOffer={offer}
+                  additionalOffers={[]}
+                  isLowestPrice={index === 0}
                   onBookClick={onBookClick}
                 />
-              )
+              );
             })}
           </div>
 
           {/* Show all prices button */}
-          <div className="p-4 border-t border-gray-200">
-            <button className="w-full bg-gray-100 text-gray-700 py-2 px-4 rounded text-sm font-medium hover:bg-gray-200">
-              Show all prices ∨
-            </button>
-          </div>
+          {sortedOffers.length > 3 && (
+            <div className="p-3 md:p-4 border-t border-gray-200">
+              <button
+                className="w-full bg-gray-100 text-gray-700 py-2 px-4 rounded-xl text-base font-semibold hover:bg-gray-200 flex items-center justify-center"
+                onClick={() => setShowAll(!showAll)}
+              >
+                {showAll ? 'Hide prices' : `Show ${sortedOffers.length - 3} more prices`}
+                <ChevronDown className={cn("ml-2 w-4 h-4 transition-transform", showAll && "rotate-180")} />
+              </button>
+            </div>
+          )}
         </TabsContent>
 
-        <TabsContent value="photos" className="p-4">
+        <TabsContent value="photos" className="p-3 md:p-4">
           <div className="text-center text-gray-500">
-            Photos content would go here
+            <div className="flex flex-wrap justify-center items-center gap-2 md:gap-4">
+              {hotel?.images && hotel.images.length > 0 ? (
+                hotel.images.slice(0, 5).map((img: any, idx: number) => {
+                  let url = '';
+                  if (typeof img === 'object' && img !== null && 'image_id' in img && img.image_id) {
+                    url = `//img1.hotelscan.com/640_440/1/${img.image_id}.jpg`;
+                  } else if (typeof img === 'string' && img.match(/^\d+$/)) {
+                    url = `//img1.hotelscan.com/640_440/1/${img}.jpg`;
+                  } else if (typeof img === 'string' && img.startsWith('https')) {
+                    url = img;
+                  } else {
+                    url = '/placeholder.svg';
+                  }
+                  return (
+                    <div
+                      key={idx}
+                      className="rounded-lg md:rounded-xl -mr-2 md:-mr-4 mt-2 md:mt-4 p-1 bg-white dark:bg-neutral-800 dark:border-neutral-700 border border-neutral-100 shrink-0 overflow-hidden"
+                      tabIndex={0}
+                      style={{ transform: `rotate(${(Math.random() * 5 - 2.5).toFixed(6)}deg)`, zIndex: "auto" }}
+                    >
+                      <img
+                        alt={`hotel image ${idx + 1}`}
+                        width={500}
+                        height={500}
+                        className="rounded-md md:rounded-lg h-16 w-16 md:h-20 md:w-20 lg:h-32 lg:w-32 xl:h-40 xl:w-40 object-cover shrink-0"
+                        src={url}
+                      />
+                    </div>
+                  );
+                })
+              ) : (
+                <div className="text-gray-400 text-sm md:text-base">No images available</div>
+              )}
+            </div>
+            {hotel?.images && hotel.images.length > 6 && (
+              <div className="mt-4">
+                <button className="text-blue-600 hover:text-blue-700 text-sm font-medium">
+                  View all {hotel.images.length} photos
+                </button>
+              </div>
+            )}
           </div>
         </TabsContent>
 
         <TabsContent value="reviews" className="p-4">
-          <div className="text-center text-gray-500">
-            Reviews content would go here
+          <div className="space-y-6">
+            {/* Review Rating Summary Card */}
+            <div className="bg-gradient-to-r from-blue-50 to-indigo-50 border border-blue-200 rounded-xl p-6">
+              <div className="text-center">
+                <div className="flex items-center justify-center gap-3 mb-4">
+                  <div className="text-4xl md:text-5xl font-bold text-gray-900">
+                    {hotel.quality ? (hotel.quality.review_rating / 10).toFixed(1) : '0.0'}
+                  </div>
+                  <div className="text-lg text-gray-600">/ 10</div>
+                </div>
+
+                <div className="flex items-center justify-center mb-3">
+                  {Array.from({ length: 5 }).map((_, i) => (
+                    <Star
+                      key={i}
+                      className={`w-5 h-5 md:w-6 md:h-6 ${
+                        i < Math.floor((hotel.quality?.stars || 0))
+                          ? 'fill-yellow-400 text-yellow-400'
+                          : 'fill-gray-200 text-gray-200'
+                      }`}
+                    />
+                  ))}
+                </div>
+
+                <div className="text-sm md:text-base text-gray-600 mb-4">
+                  Based on {hotel.quality?.review_count || 0} reviews
+                </div>
+
+                <div className="text-center">
+                  <button className="inline-flex items-center gap-2 bg-blue-600 hover:bg-blue-700 text-white px-6 py-2 rounded-lg text-sm font-medium transition-colors">
+                    <Eye className="w-4 h-4" />
+                    View All Reviews
+                  </button>
+                </div>
+              </div>
+            </div>
+
+            {/* Review Source */}
+            {hotel.quality?.review_source && (
+              <div className="text-center">
+                <p className="text-xs text-gray-500">
+                  Reviews sourced from {hotel.quality.review_source}
+                </p>
+              </div>
+            )}
           </div>
         </TabsContent>
 
-        <TabsContent value="info" className="p-4">
-          <div className="text-center text-gray-500">
-            Info content would go here
+        <TabsContent value="info" className="p-3 md:p-4">
+          <div className="space-y-4 md:space-y-6">
+            {/* Hotel Description */}
+            <div>
+              <h4 className="font-medium text-gray-900 mb-2 text-sm md:text-base">About this hotel</h4>
+              <p className="text-sm text-gray-700 leading-relaxed">
+                {hotel.short_description?.trim() 
+                  ? hotel.short_description 
+                  : hotel.description?.trim() 
+                    ? hotel.description 
+                    : 'No description available.'}
+              </p>
+            </div>
+
+            {/* Hotel Details */}
+            <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+              <div className="space-y-2">
+                <div className="flex items-center gap-2">
+                  <MapPin className="w-4 h-4 text-gray-400 flex-shrink-0" />
+                  <span className="text-sm text-gray-600">Location</span>
+                </div>
+                <p className="text-sm text-gray-900 ml-6">
+                  {typeof hotel.location === 'object' ? hotel.location.address : hotel.location}
+                </p>
+                <p className="text-sm text-gray-600 ml-6">
+                  {typeof hotel.location === 'object' ? hotel.location.city : 'City not specified'}
+                </p>
+              </div>
+
+              <div className="space-y-2">
+                <div className="flex items-center gap-2">
+                  <Star className="w-4 h-4 text-gray-400 flex-shrink-0" />
+                  <span className="text-sm text-gray-600">Rating</span>
+                </div>
+                <p className="text-sm text-gray-900 ml-6">
+                  {hotel.starRating || hotel.quality?.stars || 'Not rated'} stars
+                </p>
+                <p className="text-sm text-gray-600 ml-6">
+                  {hotel.toa_label || 'Hotel'}
+                </p>
+              </div>
+            </div>
+
+            {/* Distance & Travel */}
+            <div>
+              <h4 className="font-medium text-gray-900 mb-3 text-sm md:text-base">Location & Travel</h4>
+              <div className="space-y-2">
+                <div className="flex items-center gap-3">
+                  <span className="text-sm text-gray-600">Distance from city center</span>
+                  <span className="text-sm text-gray-900">
+                    {hotel.distance ? `${hotel.distance} km` : hotel.distance}
+                  </span>
+                </div>
+                {hotel.distances && hotel.distances.length > 0 && (
+                  <div className="flex items-center gap-3">
+                    <span className="text-sm text-gray-600">Travel time by car</span>
+                    <span className="text-sm text-gray-900">
+                      {Math.round(hotel.distances[0].time / 60)} minutes
+                    </span>
+                  </div>
+                )}
+              </div>
+            </div>
+
+            {/* Hotel Features */}
+            <div>
+              <h4 className="font-medium text-gray-900 mb-3 text-sm md:text-base">Hotel Features</h4>
+              <div className="grid grid-cols-1 sm:grid-cols-2 gap-2">
+                {hotel.specs?.bedrooms && (
+                  <div className="flex items-center gap-2">
+                    <div className="w-2 h-2 bg-blue-500 rounded-full flex-shrink-0"></div>
+                    <span className="text-sm text-gray-700">
+                      {hotel.specs.bedrooms} bedrooms
+                    </span>
+                  </div>
+                )}
+                {hotel.chain && (
+                  <div className="flex items-center gap-2">
+                    <div className="w-2 h-2 bg-blue-500 rounded-full flex-shrink-0"></div>
+                    <span className="text-sm text-gray-700">
+                      Part of {hotel.chain} chain
+                    </span>
+                  </div>
+                )}
+                {hotel.themes && hotel.themes.length > 0 && (
+                  <div className="flex items-center gap-2">
+                    <div className="w-2 h-2 bg-blue-500 rounded-full flex-shrink-0"></div>
+                    <span className="text-sm text-gray-700">
+                      {Array.isArray(hotel.themes) ? hotel.themes.join(', ') : hotel.themes}
+                    </span>
+                  </div>
+                )}
+                {hotel.badge && (
+                  <div className="flex items-center gap-2">
+                    <div className="w-2 h-2 bg-green-500 rounded-full flex-shrink-0"></div>
+                    <span className="text-sm text-gray-700">
+                      {hotel.badge} certified
+                    </span>
+                  </div>
+                )}
+                {hotel.offers && hotel.offers.some((offer: any) => offer.free_cancellation) && (
+                  <div className="flex items-center gap-2">
+                    <Check className="w-4 h-4 text-green-500 flex-shrink-0" />
+                    <span className="text-sm text-gray-700">Free cancellation</span>
+                  </div>
+                )}
+                {hotel.payAtProperty && (
+                  <div className="flex items-center gap-2">
+                    <Check className="w-4 h-4 text-green-500 flex-shrink-0" />
+                    <span className="text-sm text-gray-700">Pay at property</span>
+                  </div>
+                )}
+              </div>
+            </div>
+
+            {/* Amenities */}
+            {hotel.amenities && Object.keys(hotel.amenities).length > 0 && (
+              <div>
+                <h4 className="font-medium text-gray-900 mb-3 text-sm md:text-base">Amenities</h4>
+                <div className="grid grid-cols-1 sm:grid-cols-2 gap-2">
+                  {Object.keys(hotel.amenities).slice(0, 8).map((amenityKey, index) => (
+                    <div key={index} className="flex items-center gap-2">
+                      <Check className="w-4 h-4 text-green-500 flex-shrink-0" />
+                      <span className="text-sm text-gray-700">{amenityKey}</span>
+                    </div>
+                  ))}
+                  {Object.keys(hotel.amenities).length > 8 && (
+                    <div className="text-sm text-blue-600 col-span-1 sm:col-span-2">
+                      +{Object.keys(hotel.amenities).length - 8} more amenities
+                    </div>
+                  )}
+                </div>
+              </div>
+            )}
+
+            {/* Policies */}
+            <div>
+              <h4 className="font-medium text-gray-900 mb-3 text-sm md:text-base">Important Information</h4>
+              <div className="space-y-2 text-sm text-gray-600">
+                <p>• Check-in time: 2:00 PM - 12:00 AM</p>
+                <p>• Check-out time: 12:00 PM</p>
+                <p>• Pets are not allowed</p>
+                <p>• Children of all ages are welcome</p>
+              </div>
+            </div>
           </div>
         </TabsContent>
       </Tabs>
     </div>
   )
 }
+
+// Vendor logo mapping (SVGs from public/vendors)
+const vendorLogos: Record<string, string> = {
+  "agda": "/vendors/agda-logo.svg",
+  "booking.com": "/vendors/bkng-logo.svg",
+  "Trip.com": "/vendors/ctrp-logo.svg",
+  "Expedia": "/vendors/expd-logo.svg",
+  "Hotels.com": "/vendors/htls-logo.svg",
+  "Ostrovok": "/vendors/ostr-logo.svg",
+  "Stayflexi": "/vendors/stfl-logo.svg",
+};
 
 // Individual vendor offer card component
 function VendorOfferCard({
@@ -258,34 +494,27 @@ function VendorOfferCard({
     <div className="space-y-2">
       {/* Main offer */}
       <div className={cn(
-        "border rounded-lg p-4",
+        "rounded-xl shadow-sm p-4 border",
         isLowestPrice ? "bg-green-50 border-green-200" : "bg-white border-gray-200"
       )}>
         <div className="flex items-start justify-between">
           <div className="flex items-start gap-3">
-            {/* Vendor logo */}
-            <div className="w-8 h-6 bg-blue-600 rounded flex items-center justify-center">
-              <span className="text-white text-xs font-bold">
-                {vendor === "Priceline" && "P"}
-                {vendor === "Hotels.com" && "H"}
-                {vendor === "Agoda" && "A"}
-                {vendor === "ATD Direct" && "ATD"}
-                {vendor === "Trip.com" && "T"}
-              </span>
+            {/* Vendor logo from API or text fallback */}
+            <div className="w-16 h-10 rounded flex items-center justify-center bg-transparent">
+              {mainOffer.partner_logo ? (
+                <Image src={mainOffer.partner_logo} alt={mainOffer.partner_name || vendor} width={64} height={32} className="object-contain max-h-10 max-w-full drop-shadow-sm" />
+              ) : (
+                <span className="text-gray-700 text-base font-semibold px-2 py-1 bg-gray-50 rounded-lg">{mainOffer.partner_name || vendor}</span>
+              )}
             </div>
-            
             <div>
               <div className="flex items-center gap-2">
                 <span className="font-medium text-sm">{vendor}</span>
-                {vendor === "Priceline" && (
-                  <span className="text-xs bg-blue-100 text-blue-700 px-2 py-0.5 rounded">Featured</span>
-                )}
                 {isLowestPrice && (
                   <span className="text-xs bg-red-100 text-red-700 px-2 py-0.5 rounded">Our lowest price</span>
                 )}
               </div>
               <div className="text-xs text-gray-600 mt-1">{mainOffer.room_name}</div>
-              
               {/* Amenities */}
               <div className="flex items-center gap-3 mt-2">
                 {isRefundable(mainOffer) && (
@@ -301,20 +530,57 @@ function VendorOfferCard({
                   </div>
                 )}
               </div>
-
-              {/* Show more link */}
-              {additionalOffers.length > 0 && (
-                <button
-                  onClick={() => setShowMore(!showMore)}
-                  className="text-blue-600 text-xs mt-2 hover:underline flex items-center gap-1"
-                >
-                  <ChevronDown className={cn("w-3 h-3 transition-transform", showMore && "rotate-180")} />
-                  Show {additionalOffers.length} more prices from {vendor}
-                </button>
-              )}
+                {/* Collapsible for additional offers */}
+                {additionalOffers.length > 0 && (
+                  <Collapsible open={showMore} onOpenChange={setShowMore} className="mt-2">
+                    <CollapsibleTrigger asChild>
+                      <button
+                        type="button"
+                        className="w-full bg-gray-100 text-gray-700 py-2 px-4 rounded-xl text-base font-semibold hover:bg-gray-200 flex items-center justify-center border border-gray-200"
+                        aria-expanded={showMore}
+                        style={{ boxShadow: '0 1px 4px rgba(0,0,0,0.04)' }}
+                      >
+                        Show {additionalOffers.length} more prices from {vendor}
+                        <ChevronDown className={cn("ml-2 w-4 h-4 transition-transform", showMore && "rotate-180")} />
+                      </button>
+                    </CollapsibleTrigger>
+                    <CollapsibleContent forceMount>
+                      <div className="mt-2">
+                        {additionalOffers.map((offer, idx) => (
+                          <div key={idx} className="flex items-center justify-between p-3 border-b last:border-b-0 bg-gray-50 rounded-lg mb-2">
+                            <div>
+                              <div className="font-medium text-sm text-gray-900">{offer.room_name}</div>
+                              <div className="flex items-center gap-2 mt-1">
+                                {isRefundable(offer) && (
+                                  <span className="inline-flex items-center gap-1 text-xs text-green-700 bg-green-100 px-2 py-0.5 rounded">
+                                    <Check className="w-3 h-3" /> Free cancel
+                                  </span>
+                                )}
+                                {includesBreakfast(offer) && (
+                                  <span className="inline-flex items-center gap-1 text-xs text-green-700 bg-green-100 px-2 py-0.5 rounded">
+                                    <Check className="w-3 h-3" /> Breakfast
+                                  </span>
+                                )}
+                              </div>
+                            </div>
+                            <div className="text-right">
+                              <div className="text-lg font-bold text-gray-900">{formatCurrency(offer.price || 0)}</div>
+                              <div className="text-xs text-gray-500">4 nights for {formatCurrency((offer.price || 0) * 4)}</div>
+                              <Button
+                                onClick={() => onBookClick(offer)}
+                                className="sm:bg-gold-100 hover:bg-gold-100-hover text-white rounded text-xs px-3 py-1 mt-2"
+                              >
+                                Visit site
+                              </Button>
+                            </div>
+                          </div>
+                        ))}
+                      </div>
+                    </CollapsibleContent>
+                  </Collapsible>
+                )}
             </div>
           </div>
-
           {/* Price and button */}
           <div className="text-right">
             <div className="text-2xl font-bold">{formatCurrency(mainOffer.price || 0)}</div>
@@ -324,76 +590,13 @@ function VendorOfferCard({
             <div className="text-xs text-gray-500">Includes all fees (excludes taxes)</div>
             <Button
               onClick={() => onBookClick(mainOffer)}
-              className="mt-2 bg-green-600 hover:bg-green-700 text-white rounded text-sm px-4 py-1"
+              className="mt-2 sm:bg-gold-100 hover:bg-gold-100-hover text-white rounded text-sm px-4 py-1"
             >
               Visit site →
             </Button>
           </div>
         </div>
       </div>
-
-      {/* Expandable table for additional offers */}
-      {showMore && additionalOffers.length > 0 && (
-        <div className="ml-8 bg-white border border-gray-200 rounded-lg overflow-hidden">
-          <div className="bg-gray-50 px-4 py-2 border-b border-gray-200">
-            <h4 className="text-sm font-medium text-gray-700">More prices from {vendor}</h4>
-          </div>
-          <div className="overflow-x-auto">
-            <table className="w-full">
-              <thead className="bg-gray-50">
-                <tr>
-                  <th className="px-4 py-2 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Room Type</th>
-                  <th className="px-4 py-2 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Amenities</th>
-                  <th className="px-4 py-2 text-right text-xs font-medium text-gray-500 uppercase tracking-wider">Price</th>
-                  <th className="px-4 py-2 text-right text-xs font-medium text-gray-500 uppercase tracking-wider">Total (4 nights)</th>
-                  <th className="px-4 py-2 text-center text-xs font-medium text-gray-500 uppercase tracking-wider">Action</th>
-                </tr>
-              </thead>
-              <tbody className="bg-white divide-y divide-gray-200">
-                {additionalOffers.map((offer, idx) => (
-                  <tr key={idx} className="hover:bg-gray-50">
-                    <td className="px-4 py-3">
-                      <div className="text-sm font-medium text-gray-900">{offer.room_name}</div>
-                    </td>
-                    <td className="px-4 py-3">
-                      <div className="flex flex-wrap gap-1">
-                        {includesBreakfast(offer) && (
-                          <span className="inline-flex items-center gap-1 text-xs bg-green-100 text-green-700 px-2 py-0.5 rounded">
-                            <Check className="w-3 h-3" />
-                            Breakfast
-                          </span>
-                        )}
-                        {isRefundable(offer) && (
-                          <span className="inline-flex items-center gap-1 text-xs bg-blue-100 text-blue-700 px-2 py-0.5 rounded">
-                            <Shield className="w-3 h-3" />
-                            Free cancel
-                          </span>
-                        )}
-                      </div>
-                    </td>
-                    <td className="px-4 py-3 text-right">
-                      <div className="text-lg font-bold text-gray-900">{formatCurrency(offer.price || 0)}</div>
-                      <div className="text-xs text-gray-500">per night</div>
-                    </td>
-                    <td className="px-4 py-3 text-right">
-                      <div className="text-sm font-medium text-gray-900">{formatCurrency((offer.price || 0) * 4)}</div>
-                      <div className="text-xs text-gray-500">Includes all fees</div>
-                    </td>
-                    <td className="px-4 py-3 text-center">
-                      <Button
-                        onClick={() => onBookClick(offer)}
-                        className="bg-green-600 hover:bg-green-700 text-white rounded text-xs px-3 py-1"
-                      >
-                        Visit site
-                      </Button>
-                    </td>
-                  </tr>
-                ))}
-              </tbody>
-            </table>
-          </div>
-        </div>
-      )}
     </div>
   )
 }
@@ -554,13 +757,12 @@ export function EnhancedHotelCard({ hotel, viewMode }: EnhancedHotelCardProps) {
 
 
   // List view layout - pixel-perfect match to attached design
-  // List view layout - pixel-perfect match to attached design
   return (
     <>
       <Card className="overflow-hidden border border-gray-200 shadow-sm">
-        <div className="flex min-h-[160px]">
-          {/* Left: Hotel Image Section - Fixed width matching screenshot */}
-          <div className="relative w-60 flex-shrink-0">
+        <div className="flex flex-col md:flex-row min-h-[160px]">
+          {/* Image section - full width on mobile, fixed on desktop */}
+          <div className="relative w-full h-48 sm:h-56 md:w-60 md:h-auto flex-shrink-0">
             <HotelImageSection
               imageUrls={imageUrls}
               hotelName={hotel.name}
@@ -572,132 +774,134 @@ export function EnhancedHotelCard({ hotel, viewMode }: EnhancedHotelCardProps) {
             />
           </div>
 
-          {/* Middle: Hotel Information - Takes remaining space */}
-          <div className="flex-1 p-4">
-            <div className="flex h-full">
-              <div className="flex-1 flex flex-col justify-between">
-                <div>
-                  {/* Hotel name and star rating */}
-                  <div className="flex items-start justify-between mb-2">
-                    <h3 className="text-lg font-semibold text-gray-900 leading-tight">
-                      {hotel.name}
-                    </h3>
-                    <div className="ml-2 flex items-center">
-                      {/* Star rating display */}
-                      <div className="flex items-center text-orange-400">
-                        {Array.from({ length: 5 }).map((_, i) => (
-                          <Star 
-                            key={i} 
-                            className={`w-3 h-3 ${
-                              i < Math.floor(hotel.starRating || 5) 
-                                ? 'fill-orange-400' 
-                                : 'fill-gray-200'
-                            }`} 
-                          />
-                        ))}
-                      </div>
-                      <span className="ml-1 text-xs text-gray-600">Resort</span>
+          {/* Info and price - stack vertically on mobile, horizontally on desktop */}
+          <div className="flex-1 p-4 flex flex-col md:flex-row gap-4">
+            {/* Info section */}
+            <div className="flex-1 flex flex-col justify-between">
+              <div>
+                {/* Hotel name and star rating */}
+                <div className="flex flex-col md:flex-row md:items-center md:justify-between mb-2">
+                  <h3 className="text-lg font-semibold text-gray-900 leading-tight">
+                    {hotel.name}
+                  </h3>
+                  <div className="mt-2 md:mt-0 flex items-center">
+                    {/* Star rating display */}
+                    <div className="flex items-center text-orange-400">
+                      {Array.from({ length: 5 }).map((_, i) => (
+                        <Star 
+                          key={i} 
+                          className={`w-3 h-3 ${
+                            i < Math.floor(hotel.starRating || 5) 
+                              ? 'fill-orange-400' 
+                              : 'fill-gray-200'
+                          }`} 
+                        />
+                      ))}
                     </div>
-                  </div>
-
-                  {/* Hotel features */}
-                  <div className="text-sm text-gray-700 mb-2">
-                    <div className="flex items-start">
-                      <span className="mr-2 mt-0.5">+</span>
-                      <span>Thatched-Roof Villas with Ocean Views, Two Turquoise Pools and Waterside Lounge</span>
-                    </div>
-                  </div>
-
-                  {/* Location */}
-                  <div className="flex items-center text-sm text-gray-600 mb-2">
-                    <MapPin className="w-4 h-4 mr-1" />
-                    <span>11.8 miles to City center</span>
+                    <span className="ml-1 text-xs text-gray-600">Resort</span>
                   </div>
                 </div>
 
-                {/* Rating score - positioned at bottom */}
-                <div className="flex items-center">
-                  <div className="bg-green-600 text-white text-sm font-bold px-2 py-1 rounded mr-2">
-                    9.7
+                {/* Hotel features */}
+                <div className="text-sm text-gray-700 mb-2">
+                  <div className="flex items-start">
+                    <span className="mr-2 mt-0.5">+</span>
+                    <span>Thatched-Roof Villas with Ocean Views, Two Turquoise Pools and Waterside Lounge</span>
                   </div>
-                  <span className="text-sm font-medium text-gray-900">Excellent</span>
-                  <span className="text-sm text-gray-600 ml-1">({hotel.reviewCount || '52'} ratings)</span>
+                </div>
+
+                {/* Location */}
+                <div className="flex items-center text-sm text-gray-600 mb-2">
+                  <MapPin className="w-4 h-4 mr-1" />
+                  <span>11.8 miles to City center</span>
                 </div>
               </div>
 
-              {/* Right: Pricing Section - Fixed width */}
-              <div className="w-48 bg-green-50 border border-green-200 rounded-lg p-3 ml-4 flex flex-col">
-                {/* "Our lowest price" badge */}
-                <div className="text-center mb-3">
-                  <div className="inline-block bg-white border border-red-400 text-red-600 text-xs font-medium px-3 py-1 rounded-full mb-2">
-                    Our lowest price
+              {/* Rating score - positioned at bottom */}
+              <div className="flex items-center mt-2">
+                <div className="bg-green-600 text-white text-sm font-bold px-2 py-1 rounded mr-2">
+                  {hotel.quality?.review_rating
+                    ? (hotel.quality.review_rating / 10).toFixed(1)
+                    : "0.0"}
+                </div>
+                <span className="text-sm font-medium text-gray-900">
+                  {hotel.quality?.review_rating
+                    ? hotel.quality.review_rating >= 90
+                      ? "Excellent"
+                      : hotel.quality.review_rating >= 80
+                      ? "Very Good"
+                      : hotel.quality.review_rating >= 70
+                      ? "Good"
+                      : "Average"
+                    : "No reviews"}
+                </span>
+                <span className="text-sm text-gray-600 ml-1">
+                  ({hotel.quality?.review_count ?? "0"} ratings)
+                </span>
+              </div>
+            </div>
+
+            {/* Price section - full width on mobile, fixed on desktop */}
+            <div className="w-full md:w-48 bg-green-50 border border-green-200 rounded-lg p-3 flex flex-col justify-between">
+              {/* "Our lowest price" badge */}
+              <div className="text-center mb-3">
+                <div className="inline-block bg-white border border-red-400 text-red-600 text-xs font-medium px-3 py-1 rounded-full mb-2">
+                  Our lowest price
+                </div>
+              </div>
+
+              {/* Vendor name */}
+              <div className="text-center mb-2">
+                <div className="text-sm font-medium text-gray-900">Priceline</div>
+              </div>
+
+              {/* Breakfast included check */}
+              <div className="flex items-center justify-center text-green-700 text-sm mb-3">
+                <Check className="w-4 h-4 mr-1" />
+                <span>Breakfast included</span>
+              </div>
+
+              {/* Price display */}
+              <div className="text-center mb-4 flex-1 flex flex-col justify-center">
+                <div className="text-3xl font-bold text-gray-900">${hotel.price}</div>
+                <div className="text-sm text-gray-700">4 nights for {(hotel.price * 4).toLocaleString()}</div>
+                <div className="text-xs text-gray-600 mt-1">includes all fees (excludes taxes)</div>
+              </div>
+
+              {/* View Deal button */}
+              <Button onClick={() => setOffersDrawerOpen(!offersDrawerOpen)} className="w-full sm:bg-gold-100 hover:bg-gold-100-hover text-white font-medium py-2 rounded-lg mb-3">
+                View Deals →
+              </Button>
+
+
+              {/* Additional vendor prices */}
+              <div className="space-y-1">
+                <div className="flex justify-between text-sm">
+                  <span className="text-gray-700">${hotel.offers?.[1]?.price || 602}</span>
+                    <span className="text-gray-600">{hotel.offers?.[1]?.partner_name || ""}</span>
+                </div>
+                <div className="flex justify-between text-sm">
+                  <span className="text-gray-700">${hotel.offers?.[2]?.price || 682}</span>
+                  <span className="text-gray-600">{hotel.offers?.[2]?.partner_name || ""}</span>
+                </div>
+                {/* Show more prices dropdown */}
+                {/* {hotel.offers && hotel.offers.length > 0 && (
+                  <div className="text-center pt-2">
+                    <Button 
+                      variant="ghost" 
+                      size="sm" 
+                      className="text-gray-600 hover:text-gray-800 p-0 h-auto"
+                      onClick={() => setOffersDrawerOpen(!offersDrawerOpen)}
+                    >
+                      <ChevronDown className={`w-4 h-4 transition-transform ${offersDrawerOpen ? 'rotate-180' : ''}`} />
+                    </Button>
                   </div>
-                </div>
-
-                {/* Vendor name */}
-                <div className="text-center mb-2">
-                  <div className="text-sm font-medium text-gray-900">Priceline</div>
-                </div>
-
-                {/* Breakfast included check */}
-                <div className="flex items-center justify-center text-green-700 text-sm mb-3">
-                  <Check className="w-4 h-4 mr-1" />
-                  <span>Breakfast included</span>
-                </div>
-
-                {/* Price display */}
-                <div className="text-center mb-4 flex-1 flex flex-col justify-center">
-                  <div className="text-3xl font-bold text-gray-900">${hotel.price}</div>
-                  <div className="text-sm text-gray-700">4 nights for ${(hotel.price * 4).toLocaleString()}</div>
-                  <div className="text-xs text-gray-600 mt-1">includes all fees (excludes taxes)</div>
-                </div>
-
-                {/* View Deal button */}
-                <Button className="w-full bg-green-600 hover:bg-green-700 text-white font-medium py-2 rounded-lg mb-3">
-                  View Deal →
-                </Button>
-
-                {/* Additional vendor prices */}
-                <div className="space-y-1">
-                  {/* <div className="flex justify-between text-sm">
-                    <span className="text-gray-700">${hotel.offers?.[1]?.price || 602}</span>
-                    <span className="text-gray-600">Hotels.com</span>
-                  </div>
-                  <div className="flex justify-between text-sm">
-                    <span className="text-gray-700">${hotel.offers?.[2]?.price || 682}</span>
-                    <span className="text-gray-600">Agoda</span>
-                  </div> */}
-                  
-                  {/* Show more prices dropdown */}
-                  {hotel.offers && hotel.offers.length > 0 && (
-                    <div className="text-center pt-2">
-                       {/* View All button */}
-                      <Button
-                        className="w-full font-medium py-2 rounded-lg mb-3 text-white"
-                        style={{
-                          background: "radial-gradient(circle at center -59px, #ffd178 0, #b5842d 83%, #a37220 100%)",
-                        }}
-                        onMouseEnter={e => {
-                          (e.currentTarget as HTMLButtonElement).style.background =
-                            "radial-gradient(circle at center -59px, #e2b45c 0, #8c6a1c 83%, #7a5a13 100%)";
-                        }}
-                        onMouseLeave={e => {
-                          (e.currentTarget as HTMLButtonElement).style.background =
-                            "radial-gradient(circle at center -59px, #ffd178 0, #b5842d 83%, #a37220 100%)";
-                        }}
-                        onClick={() => setOffersDrawerOpen(!offersDrawerOpen)}
-                      >
-                        View All →
-                      </Button>
-                    </div>
-                  )}
-                </div>
+                )} */}
               </div>
             </div>
           </div>
         </div>
       </Card>
-      
       {/* Standalone Offers Drawer */}
       {hotel.offers && hotel.offers.length > 0 && offersDrawerOpen && (
         <div className="mt-2 mb-4">
@@ -707,6 +911,7 @@ export function EnhancedHotelCard({ hotel, viewMode }: EnhancedHotelCardProps) {
             hotelName={hotel.name}
             offers={offers}
             onBookClick={handleBookingClick}
+            hotel={hotel}
           />
         </div>
       )}

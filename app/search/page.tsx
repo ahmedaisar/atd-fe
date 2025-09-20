@@ -47,7 +47,7 @@ async function fetchHotels(searchParams: HotelSearchParams) {
   await new Promise(resolve => setTimeout(resolve, 500))
   
   // Fetch from the API - using absolute URL for SSR
-  const url = `${process.env.NEXT_PUBLIC_BASE_URL || 'http://localhost:3000'}/api/search/hotels?${params.toString()}`
+  const url = `${process.env.NEXT_PUBLIC_HOTELS_API_URL || 'http://localhost:3000'}/api/search/hotels?${params.toString()}`
   const res = await fetch(url, { cache: 'no-store' }) // Don't cache so we get fresh results
   
   if (!res.ok) {
@@ -66,6 +66,8 @@ async function fetchHotels(searchParams: HotelSearchParams) {
   }
   return { items: [], total: 0, pages: 1 };
 }
+
+
 
 // Server Component for hotel results
 async function HotelResults({ searchParams }: { searchParams: HotelSearchParams }) {
@@ -166,14 +168,14 @@ export default async function SearchResultsPage({
             </div>
           </div>
         </div> */}
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6">
-          <div className="flex flex-col lg:flex-row gap-6">
+        <div className="max-w-7xl mx-auto px-2 sm:px-4 lg:px-8 py-4">
+          <div className="flex flex-col lg:flex-row gap-4">
             <aside className="hidden lg:block lg:w-80 flex-shrink-0">
               <Suspense fallback={<FiltersSkeletonSidebar />}>
                 <FiltersSidebar searchParams={typedParams} />
               </Suspense>
             </aside>
-            <div className="flex-1">
+            <div className="flex-1 flex flex-col gap-4">
               <Suspense fallback={<SearchResultsSkeleton />}>
                 <HotelResults searchParams={typedParams} />
               </Suspense>
