@@ -209,7 +209,7 @@ export function TopRatedHotels({ title = 'Top Rated Hotels', hotels, rawItems }:
                        
                         <div className="leading-tight">
                           <div className="text-[11px] text-gray-500">per night</div>
-                          <div className="text-xl font-bold text-gray-900">{(h.hero_offer?.currency || h.currency || '$')}{h.hero_offer?.price ?? h.price}</div>
+                            <div className="text-xl font-bold text-gray-900">{(h.hero_offer?.currency || h.currency || '$')}{Math.round(Number(h.hero_offer?.price ?? h.price))}</div>
                         </div>
                       </div>
                         {(() => {
@@ -217,7 +217,7 @@ export function TopRatedHotels({ title = 'Top Rated Hotels', hotels, rawItems }:
                         return flags.length ? (
                           <ul className="text-[12px] text-gray-700 space-y-1 text-right ml-2">
                           {flags.slice(0, 2).map((label: string, idx: number) => (
-                            <li key={idx} className="whitespace-nowrap">✓ {label}</li>
+                            <li key={idx} className="whitespace-nowrap"><span className="text-green-600 text-sm">✔</span> {label}</li>
                           ))}
                           </ul>
                         ) : null
