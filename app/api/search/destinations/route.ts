@@ -1,4 +1,5 @@
 import { NextRequest, NextResponse } from 'next/server'
+import { getJSON, setJSON } from '@/lib/server-cache'
 import destinations from '@/data/fixtures/destinations.json'
 import hotels from '@/data/fixtures/hotels.json'
 
@@ -10,6 +11,10 @@ export async function GET(req: NextRequest) {
   const { searchParams } = new URL(req.url)
   const q = (searchParams.get('q') || '').trim()
   const geoloc = searchParams.get('geoloc') === 'true'
+
+  const key = `search:destinations:${searchParams.toString()}`
+  const cached = await getJSON<any[]>(key)
+  if (cached) return NextResponse.json(cached)
 
   // Build a unified list including Maldives hotels as individual selectable items (type: hotel)
   const maldivesHotels = (hotels as any[])
@@ -59,5 +64,7 @@ export async function GET(req: NextRequest) {
   // Geolocation mock: prioritize first result to have nearby flag
   // Geolocation mock: could reorder by proximity; for now, keep results as-is to preserve types
 
+  // very short TTL for autocomplete (e.g., 30s)
+  await setJSON(key, results, 30)
   return NextResponse.json(results)
 }

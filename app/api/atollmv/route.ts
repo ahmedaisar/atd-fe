@@ -34,8 +34,22 @@ export async function GET(req: Request) {
       return resp
     }
 
-    // Refresh cache if requested, but ALWAYS return the full cached dataset unfiltered
-    const { body, cacheStatus } = await getAtollmvCached(!!wantsRefresh)
+    // Refresh cache if requested, but return the latest available body immediately.
+    // If refresh is requested, kick it off without blocking the response.
+    let cacheStatus: 'HIT' | 'MISS' = 'HIT'
+    let body
+    if (wantsRefresh) {
+      // Start refresh asynchronously; ignore result
+      // eslint-disable-next-line @typescript-eslint/no-floating-promises
+      getAtollmvCached(true)
+      const latest = await getAtollmvCached(false)
+      body = latest.body
+      cacheStatus = latest.cacheStatus
+    } else {
+      const res = await getAtollmvCached(false)
+      body = res.body
+      cacheStatus = res.cacheStatus
+    }
 
     const resp = NextResponse.json(body)
     resp.headers.set('X-Atollmv-Cache', cacheStatus)

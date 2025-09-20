@@ -129,14 +129,7 @@ export function EnhancedSearch({ suggestions }: { suggestions?: Suggestion[] }) 
 
   // Popular destinations data
   const popularDestinations: PopularDestination[] = [
-    {
-      name: "Bangkok",
-      country: "Thailand",
-      image: "/placeholder.svg?height=60&width=60&text=Bangkok",
-      deals: 1247,
-      rating: 4.5,
-      priceFrom: 25,
-    },
+    // Keep Malé, Maldives first
     {
       name: "Malé",
       country: "Maldives", 
@@ -146,14 +139,6 @@ export function EnhancedSearch({ suggestions }: { suggestions?: Suggestion[] }) 
       priceFrom: 85,
     },
     {
-      name: "Thailand",
-      country: "Thailand",
-      image: "/placeholder.svg?height=60&width=60&text=Thailand",
-      deals: 654,
-      rating: 4.6,
-      priceFrom: 95,
-    },
-    {
       name: "Maldives",
       country: "Maldives",
       image: "/placeholder.svg?height=60&width=60&text=Maldives",
@@ -161,17 +146,66 @@ export function EnhancedSearch({ suggestions }: { suggestions?: Suggestion[] }) 
       rating: 4.4,
       priceFrom: 35,
     },
+    {
+      name: "Bangkok",
+      country: "Thailand",
+      image: "/placeholder.svg?height=60&width=60&text=Bangkok",
+      deals: 1247,
+      rating: 4.5,
+      priceFrom: 25,
+    },
+    {
+      name: "Thailand",
+      country: "Thailand",
+      image: "/placeholder.svg?height=60&width=60&text=Thailand",
+      deals: 654,
+      rating: 4.6,
+      priceFrom: 95,
+    },
   ]
 
   // Destination suggestions based on input
   const getDestinationSuggestions = (input: string) => {
     const source: Suggestion[] = suggestions && suggestions.length ? suggestions : apiSuggestions
-    if (!input && source.length === 0) return popularDestinations
+    // Prepare an injected preset for "Malé, Maldives"
+    const malePreset = popularDestinations.find(
+      (p) => (p.name || '').toLowerCase() === 'malé' && (p.country || '').toLowerCase() === 'maldives'
+    ) || {
+      id: 'male-maldives',
+      name: 'Malé',
+      country: 'Maldives',
+      image: '/placeholder.svg?height=60&width=60&text=Male',
+      deals: 892,
+      rating: 4.7,
+      priceFrom: 85,
+    }
+    if (!input && source.length === 0) {
+      // Always inject Malé, Maldives on top of popular fallback and dedupe
+      const withInjected = [malePreset as any, ...popularDestinations]
+      const seen = new Set<string>()
+      const deduped = withInjected.filter((c) => {
+        const key = `${(c.name || '').toLowerCase()}|${(c.country || '').toLowerCase()}`
+        if (seen.has(key)) return false
+        seen.add(key)
+        return true
+      })
+      return deduped.slice(0, 20)
+    }
     const lowered = input.toLowerCase()
-    const filtered = lowered
-      ? source.filter((s) => s.name.toLowerCase().includes(lowered))
+    let base = lowered
+      ? source.filter((s) => s.name.toLowerCase().includes(lowered) || (s.country || '').toLowerCase().includes(lowered))
       : source.slice(0, 12)
-    return filtered.slice(0, 20).map((s) => ({
+    // Pin Maldives to the top (exact match highest, then partial) within base
+    const pinScore = (s: Suggestion) => {
+      const n = (s.name || '').toLowerCase()
+      const c = (s.country || '').toLowerCase()
+      if (n === 'maldives' || c === 'maldives') return 2
+      if (n.includes('maldives') || c.includes('maldives')) return 1
+      return 0
+    }
+    base = base.slice().sort((a, b) => pinScore(b) - pinScore(a))
+
+    const toCard = (s: Suggestion) => ({
       id: s.id,
       name: s.name,
       country: s.country,
@@ -179,7 +213,23 @@ export function EnhancedSearch({ suggestions }: { suggestions?: Suggestion[] }) 
       deals: Math.floor(Math.random() * 1000) + 100,
       rating: 4 + Math.random(),
       priceFrom: Math.floor(Math.random() * 150) + 20,
-    }))
+    })
+
+    // Always inject "Malé, Maldives" at the very top
+
+    let cards = base.slice(0, 20).map(toCard)
+    cards = [malePreset as any, ...cards]
+
+    // Dedupe by name+country, keep first (ensures injected Maldives stays on top)
+    const seen = new Set<string>()
+    cards = cards.filter((c) => {
+      const key = `${(c.name || '').toLowerCase()}|${(c.country || '').toLowerCase()}`
+      if (seen.has(key)) return false
+      seen.add(key)
+      return true
+    })
+
+    return cards.slice(0, 20)
   }
   // If no server-provided suggestions, fallback to API search for destinations
   useEffect(() => {
@@ -423,7 +473,7 @@ export function EnhancedSearch({ suggestions }: { suggestions?: Suggestion[] }) 
   )
 
   return (
-    <Card className="w-full rounded-2xl lg:rounded max-w-6xl lg:max-w-3xl mx-auto shadow-lg">
+    <Card className="w-full rounded-2xl sm: lg:rounded max-w-8xl lg:max-w-8xl mx-auto shadow-[0_0_8px_rgba(255,255,255,0.8)] sm:shadow-lg ">
   <CardContent className="p-3 lg:p-0 lg:w-full">
         {/* Unified desktop inline bar */}
   <div className="hidden lg:flex items-stretch w-full bg-white rounded-md  overflow-hidden h-14 relative z-10">
@@ -477,13 +527,13 @@ export function EnhancedSearch({ suggestions }: { suggestions?: Suggestion[] }) 
                   left: desktopSuggestPos.left,
                   top: desktopSuggestPos.top + 4,
                   // Keep at least input width or 250px (whichever is larger)
-                  minWidth: Math.max(250, desktopSuggestPos.width),
+                  minWidth: Math.max(500, desktopSuggestPos.width),
                   // When user has typed something, allow auto width based on content; otherwise lock to field width
                   width: destinationInput.trim() ? 'auto' : desktopSuggestPos.width,
                   // Prevent overflowing viewport
                   maxWidth: 'min(640px, calc(100vw - 40px))',
                 }}
-                className="max-h-96 bg-white shadow-xl border border-gray-200 rounded-lg z-[100] overflow-hidden inline-block"
+                className="max-h-96 min-w-auto bg-white shadow-xl border border-gray-200 rounded-lg z-[100] overflow-hidden inline-block"
                 >
                 <div className="p-3 border-b flex items-center space-x-2 sticky top-0 bg-white z-10">
                   <TrendingUp className="w-4 h-4 text-gray-500" />
@@ -577,7 +627,7 @@ export function EnhancedSearch({ suggestions }: { suggestions?: Suggestion[] }) 
 
           {/* Search icon */}
           <div className="flex items-center pr-2 pl-2">
-            <Button onClick={handleSearch} size="lg" className="w-10 h-10 p-0 flex items-center justify-center rounded-md bg-blue-600 hover:bg-blue-700">
+            <Button onClick={handleSearch} size="lg" className="w-10 h-10 p-0 flex items-center justify-center rounded-md bg-gold-100-sm  hover:bg-gold-100-hover">
               <Search className="h-4 w-4 text-white" />
             </Button>
           </div>
@@ -613,7 +663,7 @@ export function EnhancedSearch({ suggestions }: { suggestions?: Suggestion[] }) 
                   className="pl-10 h-11 rounded-md"
                 />
                 {showDestinationSuggestionsMobile && (
-                  <div className="absolute left-0 right-0 mt-2 bg-white border rounded-md shadow-lg z-30 max-h-96 overflow-y-auto">
+                  <div className="absolute left-0 right-0 mt-2 bg-white border rounded-md shadow-lg z-30 max-h-96 w-auto overflow-y-auto">
                     {recentSearches.length > 0 && (
                       <div className="p-4 border-b">
                         <div className="flex items-center space-x-2 mb-3">
@@ -679,57 +729,34 @@ export function EnhancedSearch({ suggestions }: { suggestions?: Suggestion[] }) 
             )}
           </div>
 
-          {/* Dates (combined range) */}
+          {/* Dates (mobile: single date-range picker) */}
           <div>
             <Label className="sr-only">Dates</Label>
-            <div className="flex gap-2">
-              <Popover>
-                <PopoverTrigger asChild>
-                  <Button variant="outline" className="flex-1 h-11 justify-start text-left font-normal bg-transparent">
-                    <CalendarIcon className="h-4 w-4 mr-2 text-gray-500" />
-                    {searchData.checkIn ? format(searchData.checkIn, "dd MMM") : "Check-in"}
-                  </Button>
-                </PopoverTrigger>
-                <PopoverContent className="w-auto p-0 bg-white shadow-lg border rounded-lg" align="start">
-                  <div className="p-3">
-                    <DayPicker
-                      mode="single"
-                      selected={searchData.checkIn}
-                      onSelect={(day: any) => {
-                        if (!day) return
-                        let out = searchData.checkOut
-                        if (out && day > out) out = undefined
-                        setSearchData({ ...searchData, checkIn: day, checkOut: out })
-                      }}
-                      disabled={{ before: new Date() }}
-                    />
-                  </div>
-                </PopoverContent>
-              </Popover>
-              <Popover>
-                <PopoverTrigger asChild>
-                  <Button variant="outline" className="flex-1 h-11 justify-start text-left font-normal bg-transparent">
-                    <CalendarIcon className="h-4 w-4 mr-2 text-gray-500" />
-                    {searchData.checkOut ? format(searchData.checkOut, "dd MMM") : "Check-out"}
-                  </Button>
-                </PopoverTrigger>
-                <PopoverContent className="w-auto p-0 bg-white shadow-lg border rounded-lg" align="start">
-                  <div className="p-3">
-                    <DayPicker
-                      mode="single"
-                      selected={searchData.checkOut}
-                      onSelect={(day: any) => {
-                        if (!day) return
-                        let cin = searchData.checkIn
-                        if (cin && day < cin) cin = day
-                        setSearchData({ ...searchData, checkOut: day, checkIn: cin })
-                      }}
-                      disabled={{ before: searchData.checkIn || new Date() }}
-                    />
-                  </div>
-                </PopoverContent>
-              </Popover>
-            </div>
+            <Popover>
+              <PopoverTrigger asChild>
+                <Button variant="outline" className="w-full h-11 justify-start text-left font-normal bg-transparent">
+                  <CalendarIcon className="h-4 w-4 mr-2 text-gray-500" />
+                  {searchData.checkIn && searchData.checkOut
+                    ? `${format(searchData.checkIn, 'dd MMM')} - ${format(searchData.checkOut, 'dd MMM')}`
+                    : 'Select dates'}
+                </Button>
+              </PopoverTrigger>
+              <PopoverContent className="w-auto p-0 bg-white shadow-lg border rounded-lg" align="start">
+                <div className="p-3">
+                  <DayPicker
+                    mode="range"
+                    selected={searchData.checkIn && searchData.checkOut ? { from: searchData.checkIn, to: searchData.checkOut } : undefined}
+                    onSelect={(range: any) => {
+                      if (!range) return
+                      const from = range.from as Date | undefined
+                      const to = range.to as Date | undefined
+                      setSearchData({ ...searchData, checkIn: from, checkOut: to })
+                    }}
+                    disabled={{ before: new Date() }}
+                  />
+                </div>
+              </PopoverContent>
+            </Popover>
           </div>
 
           {/* Guests */}

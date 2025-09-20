@@ -1,50 +1,42 @@
 "use client"
 import Image from 'next/image'
-import { useRef, useEffect, useState, useMemo } from 'react'
+import { useMemo } from 'react'
 import { useSearchParams } from 'next/navigation'
 import Link from 'next/link'
 import { normalizeOfferFlags } from '../../lib/normalize-offer-flags'
+import type { TopRatedHotel } from '@/types/hotels'
+import { mapAtollToTopRated, filterHotelsWithPricedHeroOffer } from '@/lib/hotels'
+import Carousel from '@/components/ui/carousel'
 
-export interface TopRatedHotel {
-  id: string
-  name: string
-  slug: string
-  heroImage: string
-  stars?: number // integer stars from dataset
-  qualityReviewRating: number // 0-100 scale original quality.review_rating
-  qualityReviewCount: number
-  location: string
-  price: number // nightly price
-  currency?: string
-  badge?: string
-  toa?: string | string[]
-  // Additional fields from details payload
-  hero_offer?: any
-  discount?: number | string
-  short_description?: string
-}
-
-interface TopRatedHotelsProps {
+interface TopRatedHotelsPropsBase {
   title?: string
-  hotels: TopRatedHotel[]
 }
 
-export function TopRatedHotels({ title = 'Top Rated Hotels', hotels }: TopRatedHotelsProps) {
-  const mobileRef = useRef<HTMLDivElement>(null)
-  const desktopRef = useRef<HTMLDivElement>(null)
-  const [mCanLeft, setMCanLeft] = useState(false)
-  const [mCanRight, setMCanRight] = useState(false)
-  const [dCanLeft, setDCanLeft] = useState(false)
-  const [dCanRight, setDCanRight] = useState(false)
+type RawItem = any
+
+type TopRatedHotelsProps =
+  | (TopRatedHotelsPropsBase & { hotels: TopRatedHotel[]; rawItems?: never })
+  | (TopRatedHotelsPropsBase & { rawItems: RawItem[]; hotels?: never })
+
+// mapping moved to lib/hotels.ts
+
+export function TopRatedHotels({ title = 'Top Rated Hotels', hotels, rawItems }: TopRatedHotelsProps) {
   const sp = useSearchParams()
+
+  const mappedHotels = useMemo<TopRatedHotel[]>(() => {
+    if (Array.isArray(hotels)) return hotels
+    if (Array.isArray(rawItems)) return mapAtollToTopRated(rawItems)
+    return []
+  }, [hotels, rawItems])
 
   const filteredHotels = useMemo(() => {
     try {
-  const DEFAULTS = { toa: 'resort', stars: 5, rrMin: 90, rrMax: 99, needDiscount: true, limit: 15 }
+      // Looser defaults to ensure cached data renders even if not fully enriched
+      const DEFAULTS = { toa: 'resort', stars: '5', rrMin: 90, rrMax: 99, needDiscount: true, limit: 15 }
       const toa = sp.get('toa') || DEFAULTS.toa
       const stars = sp.get('stars') ?? String(DEFAULTS.stars)
-    const rrMin = sp.get('review_ratingmin') ?? String(DEFAULTS.rrMin)
-    const rrMax = sp.get('review_ratingmax') ?? String(DEFAULTS.rrMax)
+      const rrMin = sp.get('review_ratingmin') ?? String(DEFAULTS.rrMin)
+      const rrMax = sp.get('review_ratingmax') ?? String(DEFAULTS.rrMax)
       const minDiscount = sp.get('minDiscount') ?? (DEFAULTS.needDiscount ? '1' : '')
       const limit = sp.get('limit') ?? String(DEFAULTS.limit)
 
@@ -61,7 +53,7 @@ export function TopRatedHotels({ title = 'Top Rated Hotels', hotels }: TopRatedH
         return val.some(v => v.includes(lc))
       }
 
-      let out = hotels
+      let out = filterHotelsWithPricedHeroOffer(mappedHotels)
         .filter(h => hasToa(h, toa))
         .filter(h => (wantStars == null ? true : (Number(h.stars || 0) === wantStars)))
         .filter(h => {
@@ -78,101 +70,13 @@ export function TopRatedHotels({ title = 'Top Rated Hotels', hotels }: TopRatedH
       // Hard limit to 15 on the client side regardless of URL-specified limit
       return out.slice(0, DEFAULTS.limit)
     } catch {
-      return hotels.slice(0, 15)
+      return mappedHotels.slice(0, 15)
     }
-  }, [sp, hotels])
+  }, [sp, mappedHotels])
 
   const topHotels = filteredHotels
 
-  const update = () => {
-    const m = mobileRef.current
-    if (m) {
-      setMCanLeft(m.scrollLeft > 8)
-      setMCanRight(m.scrollLeft + m.clientWidth < m.scrollWidth - 8)
-    }
-    const d = desktopRef.current
-    if (d) {
-      setDCanLeft(d.scrollLeft > 8)
-      setDCanRight(d.scrollLeft + d.clientWidth < d.scrollWidth - 8)
-    }
-  }
-  useEffect(() => {
-    update()
-    const m = mobileRef.current
-    const d = desktopRef.current
-    m?.addEventListener('scroll', update, { passive: true })
-    d?.addEventListener('scroll', update, { passive: true })
-    window.addEventListener('resize', update)
-    // Enable drag / swipe scrolling for both mobile & desktop containers
-    const attachDrag = (el: HTMLDivElement | null) => {
-      if (!el) return () => {}
-      let isDown = false
-      let startX = 0
-      let scrollStart = 0
-      let moved = false
-
-      const pointerDown = (e: PointerEvent) => {
-        isDown = true
-        moved = false
-        startX = e.clientX
-        scrollStart = el.scrollLeft
-        el.setPointerCapture(e.pointerId)
-        el.classList.add('drag-active')
-      }
-      const pointerMove = (e: PointerEvent) => {
-        if (!isDown) return
-        const delta = e.clientX - startX
-        if (Math.abs(delta) > 4) moved = true
-        el.scrollLeft = scrollStart - delta
-      }
-      const pointerUp = (e: PointerEvent) => {
-        if (!isDown) return
-        isDown = false
-        el.releasePointerCapture(e.pointerId)
-        setTimeout(() => { moved = false }, 0)
-        el.classList.remove('drag-active')
-      }
-      const pointerLeave = (e: PointerEvent) => {
-        if (!isDown) return
-        isDown = false
-        try { el.releasePointerCapture(e.pointerId) } catch {}
-        el.classList.remove('drag-active')
-      }
-      const clickBlock = (e: MouseEvent) => {
-        if (moved) {
-          e.preventDefault()
-          e.stopPropagation()
-        }
-      }
-      el.addEventListener('pointerdown', pointerDown)
-      el.addEventListener('pointermove', pointerMove)
-      el.addEventListener('pointerup', pointerUp)
-      el.addEventListener('pointerleave', pointerLeave)
-      el.addEventListener('click', clickBlock, true)
-      return () => {
-        el.removeEventListener('pointerdown', pointerDown)
-        el.removeEventListener('pointermove', pointerMove)
-        el.removeEventListener('pointerup', pointerUp)
-        el.removeEventListener('pointerleave', pointerLeave)
-        el.removeEventListener('click', clickBlock, true)
-      }
-    }
-    const detachM = attachDrag(m)
-    const detachD = attachDrag(d)
-    return () => {
-      m?.removeEventListener('scroll', update)
-      d?.removeEventListener('scroll', update)
-      window.removeEventListener('resize', update)
-      try { detachM && detachM() } catch {}
-      try { detachD && detachD() } catch {}
-    }
-  }, [])
-
-  const scroll = (ref: React.RefObject<HTMLDivElement | null>, dir: 1 | -1) => {
-    const el = ref.current
-    if (!el) return
-    el.scrollBy({ left: dir * Math.round(el.clientWidth * 0.7), behavior: 'smooth' })
-  }
+  // Scrolling and drag logic replaced by shared Embla Carousel wrapper
 
   const stars = (stars: number | undefined, qualityRating: number, qualityCount: number) => {
     const fiveScale = qualityRating / 20 // guest rating converted to 0-5 for numeric value
@@ -218,21 +122,16 @@ export function TopRatedHotels({ title = 'Top Rated Hotels', hotels }: TopRatedH
       <div className="max-w-7xl mx-auto relative">
         <div className="flex items-center justify-between mb-4">
           <h3 className="text-xl font-semibold text-gray-900">{title}</h3>
-          <div className="flex gap-2 md:hidden">
-            <button aria-label="Scroll left" onClick={() => scroll(mobileRef, -1)} disabled={!mCanLeft} className="w-9 h-9 rounded-full border border-gray-200 bg-white shadow flex items-center justify-center disabled:opacity-30"><span className="sr-only">Prev</span><svg className="w-4 h-4" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="2" fill="none"><path strokeLinecap="round" strokeLinejoin="round" d="M15 19l-7-7 7-7" /></svg></button>
-            <button aria-label="Scroll right" onClick={() => scroll(mobileRef, 1)} disabled={!mCanRight} className="w-9 h-9 rounded-full border border-gray-200 bg-white shadow flex items-center justify-center disabled:opacity-30"><span className="sr-only">Next</span><svg className="w-4 h-4" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="2" fill="none"><path strokeLinecap="round" strokeLinejoin="round" d="M9 5l7 7-7 7" /></svg></button>
-          </div>
+          {/* Mobile controls are provided by Carousel wrapper */}
         </div>
         {/* Mobile carousel */}
         <div className="md:hidden">
-          <div ref={mobileRef} className="flex gap-4 overflow-x-auto snap-x snap-mandatory pb-2 -mx-1 px-1 scrollbar-hide select-none cursor-grab active:cursor-grabbing">
+          <Carousel className="" viewportClassName="-mx-1 px-1" containerClassName="gap-4 pb-2" options={{ loop: false, align: 'start', dragFree: true }}>
            {topHotels.map(h => {
-              
               const isTruncated = h.name.length > 37
-              
               const mobileName = isTruncated ? h.name.slice(0, 32) + '...' : h.name
-              return (              
-              <div key={h.id} className="group relative flex-shrink-0 w-[85%] max-w-[340px] snap-start bg-white rounded-xl border border-gray/10 overflow-hidden shadow-sm">
+              return (
+              <div key={h.id} className="group relative flex-shrink-0 w-[85%] max-w-[320px] bg-white rounded-xl border border-gray-300 overflow-hidden shadow-sm">
                 <div className="relative h-48 w-full overflow-hidden">
                   <Image src={h.heroImage} alt={h.name} fill className="object-cover transition-transform duration-500 group-hover:scale-105" sizes="(max-width:768px) 85vw, 340px" />
                   {h.badge && <div className="absolute top-2 left-2 bg-white/90 text-[11px] font-medium px-2 py-1 rounded-full shadow">{h.badge}</div>}
@@ -259,16 +158,16 @@ export function TopRatedHotels({ title = 'Top Rated Hotels', hotels }: TopRatedH
                         </div>
                       </div>
                       {/* Offer flags right */}
-                      {(() => {
+                        {(() => {
                         const flags = normalizeOfferFlags(h.hero_offer?.offer_flags)
                         return flags.length ? (
                           <ul className="text-[11px] text-gray-700 space-y-1 text-right ml-2 mt-1">
-                            {flags.slice(0, 3).map((label: string, idx: number) => (
-                              <li key={idx} className="whitespace-nowrap">✓ {label}</li>
-                            ))}
+                          {flags.slice(0, 2).map((label: string, idx: number) => (
+                            <li key={idx} className="whitespace-nowrap">✓ {label}</li>
+                          ))}
                           </ul>
                         ) : null
-                      })()}
+                        })()}
                     </div>
                     <div className="mt-1">
                       <Link href={`#`} className="inline-flex w-full items-center justify-center rounded-md bg-gold-100-sm  hover:bg-gold-1000 text-white text-xs font-semibold h-9 px-4 shadow-sm">
@@ -280,20 +179,16 @@ export function TopRatedHotels({ title = 'Top Rated Hotels', hotels }: TopRatedH
                 </div>
               </div>
             )})}
-          </div>
+          </Carousel>
         </div>
         {/* Desktop carousel */}
         <div className="hidden md:block relative">
-          {/* Gradient edges */}
-          {/* <div className="pointer-events-none absolute inset-y-0 left-0 w-12 bg-gradient-to-r from-white via-white/70 to-transparent z-10" />
-          <div className="pointer-events-none absolute inset-y-0 right-0 w-12 bg-gradient-to-l from-white via-white/70 to-transparent z-10" /> */}
-          <div ref={desktopRef} className="flex gap-6 overflow-x-auto scrollbar-hide snap-x snap-mandatory pb-2 select-none cursor-grab active:cursor-grabbing">
+          <Carousel className="" viewportClassName="" containerClassName="gap-6 pb-2" options={{ loop: false, align: 'start' }}>
             {topHotels.map(h => {
               const isTruncated = h.name.length > 30
-              const desktopName = isTruncated ? h.name.slice(0, 30) + '...' : h.name
-              const mobileName = isTruncated ? h.name.slice(0, 30) + '...' : h.name
+              const desktopName = isTruncated ? h.name.slice(0, 28) + '...' : h.name
               return (
-              <div key={h.id} className="group snap-start flex-shrink-0 w-[340px] bg-white rounded-xl border border-gray-300 overflow-hidden shadow-sm hover:shadow transition-all">
+              <div key={h.id} className="group flex-shrink-0 w-[305px] bg-white rounded-xl border border-gray-300 overflow-hidden shadow-sm hover:shadow transition-all">
                 <div className="relative h-56 w-full overflow-hidden">
                   <Image src={h.heroImage} alt={h.name} fill className="object-cover transition-transform duration-500 group-hover:scale-105" sizes="(min-width:768px) 340px" />
                   {h.badge && <div className="absolute top-3 left-3 bg-white/90 text-[11px] font-medium px-2 py-1 rounded-full shadow">{h.badge}</div>}
@@ -305,7 +200,7 @@ export function TopRatedHotels({ title = 'Top Rated Hotels', hotels }: TopRatedH
                   <div className="mt-4 relative border border-gray-900 rounded-lg p-4 bg-white shadow-sm">
                     {/* Discount badge top-center */}
                     {(() => { const label = discountLabel(h.discount); return label ? (
-                      <div className="absolute -top-2 left-1/2 -translate-x-1/2 bg-rose-700 text-white text-[10px] font-semibold px-2 py-0.5 rounded-full shadow border border-white">
+                      <div className="absolute -top-2 left-1/2 -translate-x-1/2 bg-rose-700 text-white text-discount-xs font-semibold px-2 py-0.5 rounded-full shadow border border-white">
                         {label}
                       </div>
                     ) : null })()}
@@ -317,16 +212,17 @@ export function TopRatedHotels({ title = 'Top Rated Hotels', hotels }: TopRatedH
                           <div className="text-xl font-bold text-gray-900">{(h.hero_offer?.currency || h.currency || '$')}{h.hero_offer?.price ?? h.price}</div>
                         </div>
                       </div>
-                      {(() => {
+                        {(() => {
                         const flags = normalizeOfferFlags(h.hero_offer?.offer_flags)
                         return flags.length ? (
                           <ul className="text-[12px] text-gray-700 space-y-1 text-right ml-2">
-                            {flags.slice(0, 4).map((label: string, idx: number) => (
-                              <li key={idx} className="whitespace-nowrap">✓ {label}</li>
-                            ))}
+                          {flags.slice(0, 2).map((label: string, idx: number) => (
+                            <li key={idx} className="whitespace-nowrap">✓ {label}</li>
+                          ))}
                           </ul>
                         ) : null
-                      })()}
+                        })()}
+                    
                     </div>
                     <div className="mt-4">
                       <Link href={`#`} className="inline-flex w-full items-center justify-center rounded-md bg-gold-100-sm  hover:bg-gold-100-hover text-white text-xs font-semibold h-9 px-4 shadow-sm">
@@ -337,12 +233,8 @@ export function TopRatedHotels({ title = 'Top Rated Hotels', hotels }: TopRatedH
                 </div>
               </div>
             )})}
-          </div>
-          {/* Desktop nav buttons */}
-          <div className="hidden md:flex absolute -top-14 right-0 gap-2 z-20">
-            <button aria-label="Scroll left" onClick={() => scroll(desktopRef, -1)} disabled={!dCanLeft} className="w-9 h-9 rounded-full border border-gray-200 bg-white shadow flex items-center justify-center disabled:opacity-30"><svg className="w-4 h-4" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="2" fill="none"><path strokeLinecap="round" strokeLinejoin="round" d="M15 19l-7-7 7-7" /></svg></button>
-            <button aria-label="Scroll right" onClick={() => scroll(desktopRef, 1)} disabled={!dCanRight} className="w-9 h-9 rounded-full border border-gray-200 bg-white shadow flex items-center justify-center disabled:opacity-30"><svg className="w-4 h-4" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="2" fill="none"><path strokeLinecap="round" strokeLinejoin="round" d="M9 5l7 7-7 7" /></svg></button>
-          </div>
+          </Carousel>
+          {/* Desktop nav buttons are provided by the Carousel wrapper */}
         </div>
       </div>
     </section>

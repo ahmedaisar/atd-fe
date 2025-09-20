@@ -1,5 +1,6 @@
 import Link from "next/link"
 import { Facebook, Twitter, Instagram, Youtube } from "lucide-react"
+import { Accordion, AccordionItem, AccordionTrigger, AccordionContent } from '@/components/ui/accordion'
 
 export function Footer() {
   const footerSections = [
@@ -44,7 +45,32 @@ export function Footer() {
   return (
     <footer className="bg-gray-900 text-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+        {/* Mobile: collapsed accordion */}
+        <div className="md:hidden">
+          <Accordion type="multiple" className="divide-y divide-gray-800">
+            {footerSections.map((section) => (
+              <AccordionItem key={section.title} value={section.title.toLowerCase()} className="border-b border-gray-800">
+                <AccordionTrigger className="text-white text-base py-3">
+                  {section.title}
+                </AccordionTrigger>
+                <AccordionContent className="pt-0 pb-4">
+                  <ul className="space-y-2 pl-2">
+                    {section.links.map((link) => (
+                      <li key={link.label}>
+                        <Link href={link.href} className="text-gray-300 hover:text-white transition-colors">
+                          {link.label}
+                        </Link>
+                      </li>
+                    ))}
+                  </ul>
+                </AccordionContent>
+              </AccordionItem>
+            ))}
+          </Accordion>
+        </div>
+
+        {/* Desktop: expanded columns */}
+        <div className="hidden md:grid grid-cols-2 lg:grid-cols-4 gap-8">
           {footerSections.map((section) => (
             <div key={section.title}>
               <h3 className="font-semibold text-lg mb-4">{section.title}</h3>

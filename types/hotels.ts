@@ -1,3 +1,20 @@
+export interface TopRatedHotel {
+  id: string
+  name: string
+  slug: string
+  heroImage: string
+  stars?: number // integer stars from dataset
+  qualityReviewRating: number // 0-100 scale original quality.review_rating
+  qualityReviewCount: number
+  location: string
+  price: number // nightly price
+  currency?: string
+  badge?: string
+  toa?: string | string[]
+  hero_offer?: any
+  discount?: number | string
+  short_description?: string
+}
 export interface HotelOffer {
   id: string
   title: string

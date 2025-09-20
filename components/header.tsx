@@ -16,26 +16,26 @@ export function Header() {
           <Link href="/" className="flex items-center space-x-2">
             <img 
               src="/logo.svg" 
-              alt="Agoda" 
+              alt="Atoll Discovery Maldives" 
               className="h-16 w-auto"
             />
           </Link>
 
           {/* Desktop Navigation */}
-          <nav className="hidden md:flex items-center space-x-8">
+          {/* <nav className="hidden md:flex items-center space-x-8">
             <Link href="/hotels" className="text-gray-700 hover:text-blue-600 font-medium">
               Hotels
             </Link>
-            {/* <Link href="/flights" className="text-gray-700 hover:text-blue-600 font-medium">
+             <Link href="/flights" className="text-gray-700 hover:text-blue-600 font-medium">
               Flights
-            </Link> */}
+            </Link> 
             <Link href="/packages" className="text-gray-700 hover:text-blue-600 font-medium">
               Packages
             </Link>
             <Link href="/about" className="text-gray-700 hover:text-blue-600 font-medium">
               About
             </Link>
-          </nav>
+          </nav> */}
 
           {/* Desktop Actions */}
           <div className="hidden md:flex items-center space-x-4">
@@ -53,7 +53,7 @@ export function Header() {
               <User className="w-4 h-4 mr-2" />
               Sign In
             </Button>
-            <Button size="sm" className="bg-blue-600 hover:bg-blue-700">
+            <Button size="sm" className="bg-gold-100-sm  hover:bg-gold-100-hover">
               Register
             </Button>
           </div>
@@ -78,20 +78,20 @@ export function Header() {
                 Hotels
               </Link>
               <Link href="/flights" className="block text-gray-700 hover:text-blue-600 font-medium">
-                Flights
+                Maldives
               </Link>
               <Link href="/activities" className="block text-gray-700 hover:text-blue-600 font-medium">
-                Activities
+                Company
               </Link>
               <Link href="/car-rental" className="block text-gray-700 hover:text-blue-600 font-medium">
-                Car Rental
+                Contact
               </Link>
               <div className="pt-4 border-t space-y-2">
                 <Button variant="outline" className="w-full justify-start bg-transparent">
                   <User className="w-4 h-4 mr-2" />
                   Sign In
                 </Button>
-                <Button className="w-full bg-blue-600 hover:bg-blue-700">Register</Button>
+                <Button className="w-full bg-gold-100-sm  hover:bg-gold-100-hover">Register</Button>
               </div>
             </nav>
           </div>

@@ -83,6 +83,7 @@ export function HotelListings({
   return initialHotels.map((h) => ({
       id: h.hs_id,
       name: h.name,
+      description: h.description || h.short_description || "",
   images: h.images && h.images.length > 0 ? h.images.map((img: { image_id: string }) => img.image_id) : ["/placeholder.jpg"],
       rating: h.quality?.review_rating ?? 0,
       reviewCount: h.quality?.review_count ?? 0,

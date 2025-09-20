@@ -1,6 +1,8 @@
 // Server-side shared cache and fetcher for AtollMV data (single implementation)
 import fs from 'fs'
 import path from 'path'
+import { getJSON, setJSON, delKey } from '@/lib/server-cache'
+import { getRedis, isRedisEnabled } from '@/lib/redis'
 
 type AnyObj = Record<string, any>
 
@@ -46,9 +48,8 @@ async function fetchJson(url: string, timeoutMs = 60000): Promise<any> {
   } finally { clearTimeout(t) }
 }
 
-async function fetchDetailsFor(ids: string[]): Promise<Map<string, AnyObj>> {
+async function fetchDetailsFor(ids: string[], concurrency = 8): Promise<Map<string, AnyObj>> {
   const out = new Map<string, AnyObj>()
-  const concurrency = Math.min(12, Math.max(6, 8))
   let idx = 0
   async function worker() {
     while (idx < ids.length) {
@@ -72,10 +73,11 @@ let cache: CacheEntry | null = null
 let warming = false
 
 // Disk persistence: allow reading cached body across process restarts
-const DISK_PATHS = [
-  path.join(process.cwd(), '.next', 'cache', 'atollmv-cache.json'),
-  path.join(process.cwd(), 'atollmv-cache.json'),
-]
+// Note: The project-level file acts as an authoritative offline cache we do not delete on clear.
+const NEXT_CACHE_PATH = path.join(process.cwd(), '.next', 'cache', 'atollmv-cache.json')
+const PROJECT_CACHE_PATH = path.join(process.cwd(), 'atollmv-cache.json')
+// Prefer project-level cache first (larger, persistent) then .next cache
+const DISK_PATHS = [PROJECT_CACHE_PATH, NEXT_CACHE_PATH]
 
 function readDiskCacheSync(): Body | null {
   for (const p of DISK_PATHS) {
@@ -99,33 +101,25 @@ function writeDiskCache(body: Body) {
   }
 }
 
+const REDIS_KEY = 'atollmv:cache:v1'
+
 export function getAtollmvCache(): { body: Body | null; ageMs: number } {
-  // If no in-memory cache, try to prime from disk
-  if (!cache) {
-    const disk = readDiskCacheSync()
-    if (disk) {
-      cache = { stamped: Date.now(), body: disk }
-      return { body: cache.body, ageMs: 0 }
-    }
-    return { body: null, ageMs: Infinity }
-  }
-  // If disk cache exists and differs from memory (e.g., updated by another process), reload
+  // DISK-FIRST: Always prefer disk cache (project-level first) to avoid truncated in-memory datasets.
   try {
     for (const p of DISK_PATHS) {
       if (fs.existsSync(p)) {
-        const stat = fs.statSync(p)
-        if (stat.mtimeMs > cache.stamped) {
-          const s = fs.readFileSync(p, 'utf8')
-          const j = JSON.parse(s)
-          if (j && Array.isArray(j.items)) {
-            cache = { stamped: stat.mtimeMs, body: j as Body }
-          }
-          break
+        const s = fs.readFileSync(p, 'utf8')
+        const j = JSON.parse(s)
+        if (j && Array.isArray(j.items)) {
+          cache = { stamped: Date.now(), body: j as Body }
+          return { body: cache.body, ageMs: 0 }
         }
       }
     }
   } catch {}
-  return { body: cache.body, ageMs: Date.now() - cache.stamped }
+  // Fallback to in-memory if disk not available
+  if (cache) return { body: cache.body, ageMs: Date.now() - cache.stamped }
+  return { body: null, ageMs: Infinity }
 }
 
 // Try to fetch additional pages/variants until we reach at least MIN_LIST_ITEMS
@@ -190,8 +184,34 @@ async function tryFetchMoreList(initial: AnyObj[], baseUrls: string[]): Promise<
 
 export async function getAtollmvCached(refresh = false): Promise<{ body: Body; cacheStatus: 'HIT' | 'MISS' }> {
   const now = Date.now()
-  if (!refresh && cache && (now - cache.stamped) < CACHE_TTL_MS) {
-    return { body: cache.body, cacheStatus: 'HIT' }
+  // Probe whether Redis is reachable to decide effective caps and concurrency.
+  let redisOk = false
+  if (isRedisEnabled()) {
+    try { const r = await getRedis(); redisOk = !!r } catch { redisOk = false }
+  }
+  const DEV_MODE = process.env.NODE_ENV !== 'production'
+  const EFFECTIVE_MIN_LIST = redisOk ? MIN_LIST_ITEMS : Math.min(MIN_LIST_ITEMS, DEV_MODE ? 30 : 50)
+  const EFFECTIVE_DETAILS_CAP = redisOk ? DETAILS_CAP : Math.min(DETAILS_CAP, DEV_MODE ? 20 : 50)
+  const EFFECTIVE_CONCURRENCY = redisOk ? 8 : 4
+  // STRICT OFFLINE-FIRST by default. If refresh=true, bypass caches to force a remote fetch and rewrite disk.
+  if (!refresh) {
+    try {
+      const redisBody = await getJSON<Body>(REDIS_KEY)
+      if (redisBody) {
+        cache = { stamped: now, body: redisBody }
+        return { body: redisBody, cacheStatus: 'HIT' }
+      }
+    } catch {}
+    if (cache && cache.body) {
+      return { body: cache.body, cacheStatus: 'HIT' }
+    }
+    const disk = readDiskCacheSync()
+    if (disk && Array.isArray(disk.items)) {
+      cache = { stamped: now, body: disk }
+      // Also repopulate Redis (best-effort) so subsequent workers pick it up
+      try { await setJSON(REDIS_KEY, disk, Math.ceil(CACHE_TTL_MS / 1000)) } catch {}
+      return { body: disk, cacheStatus: 'HIT' }
+    }
   }
 
   // Fetch list with fallback URL shapes
@@ -217,7 +237,9 @@ export async function getAtollmvCached(refresh = false): Promise<{ body: Body; c
   }
   if (!listPayload) {
     // If we already have a cache, return it instead of empty to keep UI populated.
-    if (cache) return { body: cache.body, cacheStatus: 'HIT' }
+    if (!refresh && cache) return { body: cache.body, cacheStatus: 'HIT' }
+    const diskFallback = readDiskCacheSync()
+    if (!refresh && diskFallback) return { body: diskFallback, cacheStatus: 'HIT' }
     const body: Body = { total: 0, items: [] }
     cache = { stamped: Date.now(), body }
     return { body, cacheStatus: 'MISS' }
@@ -225,7 +247,7 @@ export async function getAtollmvCached(refresh = false): Promise<{ body: Body; c
   let list = extractList(listPayload)
   if (!Array.isArray(list)) list = []
   // If too few items, attempt pagination/size variants to reach at least MIN_LIST_ITEMS
-  if (list.length < MIN_LIST_ITEMS) {
+  if (list.length < EFFECTIVE_MIN_LIST) {
     const bases = [
       `${EDGE_BASE}/${LIST_PATH_STYLE}`,
       `${EDGE_BASE}/${LIST_PATH_QS}`,
@@ -235,10 +257,16 @@ export async function getAtollmvCached(refresh = false): Promise<{ body: Body; c
     } catch {}
   }
 
+  // If Redis is not available, cap the list size further to reduce memory usage in dev/local.
+  if (!redisOk) {
+    const cap = Math.max(EFFECTIVE_MIN_LIST, EFFECTIVE_DETAILS_CAP)
+    if (list.length > cap) list = list.slice(0, cap)
+  }
+
   // Details cap and merge
   const idsAll = list.map(getIdFrom).filter(Boolean) as string[]
-  const ids = idsAll.slice(0, DETAILS_CAP)
-  const detailsMap = await fetchDetailsFor(ids)
+  const ids = idsAll.slice(0, EFFECTIVE_DETAILS_CAP)
+  const detailsMap = await fetchDetailsFor(ids, EFFECTIVE_CONCURRENCY)
   const items = list.map((base: AnyObj) => {
     const id = getIdFrom(base)!
     const details = detailsMap.get(id) ?? null
@@ -247,7 +275,8 @@ export async function getAtollmvCached(refresh = false): Promise<{ body: Body; c
 
   const body: Body = { total: items.length, items }
   cache = { stamped: Date.now(), body }
-  // Persist to disk for cross-process reuse
+  // Persist to Redis and disk for cross-process reuse
+  try { await setJSON(REDIS_KEY, body, Math.ceil(CACHE_TTL_MS / 1000)) } catch {}
   try { writeDiskCache(body) } catch {}
   return { body, cacheStatus: 'MISS' }
 }
@@ -256,7 +285,8 @@ export async function getAtollmvCached(refresh = false): Promise<{ body: Body; c
 // honoring the no-HTTP requirement there, but initializes the cache soon after server starts.
 async function warmViaLocalApi() {
   const base = process.env.ATOLLMV_SELF_BASE || process.env.NEXT_PUBLIC_SITE_URL || 'http://localhost:3000'
-  const url = `${base.replace(/\/$/, '')}/api/atollmv?refresh=1`
+  // Do NOT force refresh here; let the API serve cached data if available
+  const url = `${base.replace(/\/$/, '')}/api/atollmv`
   const tries = 5
   const delay = (ms: number) => new Promise(r => setTimeout(r, ms))
   for (let i = 0; i < tries; i++) {
@@ -276,31 +306,32 @@ async function warmOnce() {
   if (warming) return
   warming = true
   try {
-    // Prefer warming via our API endpoint with refresh=1
+    // Prefer warming via our API endpoint without forcing remote fetch
     const ok = await warmViaLocalApi()
     if (!ok) {
-      // fallback: warm programmatically with a forced refresh
-      await getAtollmvCached(true)
+      // fallback: programmatic attempt without forcing remote if caches exist
+      await getAtollmvCached(false)
     }
   } catch {
-    try { await getAtollmvCached(true) } catch {}
+    try { await getAtollmvCached(false) } catch {}
   }
 }
-// Schedule without blocking import time
-// In dev, multiple reloads may re-import; guard with `warming` flag above.
-setTimeout(() => { warmOnce() }, 1500)
+// Schedule without blocking import time. In dev, skip auto warm to reduce memory/IO.
+if (process.env.NODE_ENV === 'production') {
+  setTimeout(() => { warmOnce() }, 1500)
+}
 
 // Clear cache (in-memory and on disk). Useful for admin/debug endpoints.
 export function clearAtollmvCache(): { cleared: boolean; removedFiles: string[] } {
   cache = null
   const removed: string[] = []
-  for (const p of DISK_PATHS) {
-    try {
-      if (fs.existsSync(p)) {
-        fs.unlinkSync(p)
-        removed.push(p)
-      }
-    } catch {}
-  }
+  // Only remove the .next cache file; keep the project cache to ensure offline-first behavior.
+  try {
+    if (fs.existsSync(NEXT_CACHE_PATH)) {
+      fs.unlinkSync(NEXT_CACHE_PATH)
+      removed.push(NEXT_CACHE_PATH)
+    }
+  } catch {}
+  try { delKey(REDIS_KEY) } catch {}
   return { cleared: true, removedFiles: removed }
 }

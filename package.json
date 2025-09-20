@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "build": "next build",
+  "build": "node --max-old-space-size=4096 node_modules/next/dist/bin/next build",
     "dev": "next dev",
     "lint": "next lint",
     "lint:fix": "eslint . --ext .ts,.tsx --fix",
@@ -19,6 +19,7 @@
      "fetch:hotel-details": "node scripts/data/fetch-hotel-details.cjs"
   },
   "dependencies": {
+    "redis": "^4.7.0",
     "@hookform/resolvers": "^3.9.1",
     "@radix-ui/react-accordion": "1.2.2",
     "@radix-ui/react-alert-dialog": "1.1.4",

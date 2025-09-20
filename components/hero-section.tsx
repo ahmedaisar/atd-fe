@@ -17,12 +17,12 @@ export function HeroSection({ suggestions }: { suggestions?: Array<{ id: string;
   ]
 
   return (
-    <section className="relative  lg:h-[400px] bg-[url('/mv-header.webp')] bg-cover text-white bg-cover bg-[center_top_-219px]">
+    <section className="relative bg-gradient-to-r from-black via-gray-800 to-black shadow-sm text-white-100 overflow-hidden sm:bg-none sm:shadow-none sm:overflow-visible sm:text-white lg:h-[400px] lg:bg-[url('/h-mv1.jpg')] bg-cover  ">
       <div className="absolute inset-0 bg-black/10"></div>
       <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 lg:py-20">
-        <div className="text-center mb-8">
-          <h1 className="text-2xl lg:text-4xl font-bold mb-2 text-shadow-lg">Same Destination, Better Rates</h1>
-          <p className="text-1xs lg:text-xl font-bold text-white-100 text-shadow-lg max-w-2xl mx-auto ">Search, compare & book at the best prices!</p>
+        <div className="text-left lg:text-center mb-8">
+          <h1 className="text-hero-xl px-4 lg:text-4xl px-auto font-bold mb-2 text-shadow-lg">Same Destinations, Better Rates.</h1>
+          <p className="text-1xs px-4 lg:text-xl font-bold text-white-100 text-shadow-lg max-w-2xl mx-auto px-auto">Search, compare & book <span className="text-gold-100">Maldives</span> at the best price!</p>
         </div>
 
         {/* Search Tabs */}
